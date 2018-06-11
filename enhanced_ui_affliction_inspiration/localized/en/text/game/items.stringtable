@@ -2,86 +2,88 @@
 <!-- Mod name: EnhancedUserInterface-AfflictionsAndInspirations // version: 0.2.2.003-beta -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\items</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>3276</EntryCount>
 	<Entries>
-    <Entry>
-      <ID>3145</ID>
-      <DefaultText>The liquid within this flask froths and ripples of its own accord. When swallowed, the elixir twists and morphs the face, transforming it into a nightmarish mask of rotting, insect-infested flesh, and all things horrible, provoking nearby foes to become &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrified&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&#179;&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3394</ID>
-      <DefaultText>A call for divine favor that grants the &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Insightful&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt; Inspiration to allies in the area of effect.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3398</ID>
-      <DefaultText>Calls down a shaft of intense sunlight, burning and potentially &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinding&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&#179;&lt;/color&gt;&lt;/link&gt; those caught in the area of effect.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3403</ID>
-      <DefaultText>A prayer missal that grants a target ally the &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt; Inspiration for an extended duration.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3409</ID>
-      <DefaultText>A prayer missal that grants the target ally the &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Smart&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt; Inspiration for an extended duration.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3414</ID>
-      <DefaultText>Creates a beam of crushing force, &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Staggering&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt; the target and anyone caught in the beam.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3419</ID>
-      <DefaultText>A trio of stone claws erupt from the ground, turning flesh to stone, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzing&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&#179;&lt;/color&gt;&lt;/link&gt; and inflicting Slash damage on everyone caught in the area.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3422</ID>
-      <DefaultText>Summons an enormous infestation of venomous insects, dealing Raw damage over time, reducing Concentration and &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickening&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt; anyone in the area of effect.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3435</ID>
-      <DefaultText>A parching wind blows across the battlefield, inflicting Raw damage on anyone in the area and leaving them &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Weakened&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&#178;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3648</ID>
-      <DefaultText>While Algol is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and party members regain some Health when they kill an enemy.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3693</ID>
-      <DefaultText>While Eviee is following you around, you gain a bonus to Resolve and &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; Resistance. Also, the duration of &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to your party is reduced.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3830</ID>
-      <DefaultText>A handful of sharpened brambles coated with a debilitating venom. When thrown at a target, they stick to fabric, skin, and leather, delivering their painful dose over a brief time. &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbles&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt; opponents.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3941</ID>
-      <DefaultText>A clutch of writhing larvae. Blind and hungry, they move instinctively towards any source of food.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4261</ID>
-      <DefaultText>Aegor's Swift Touch</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4485</ID>
-      <DefaultText>While Bark String is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and your party moves more quickly in combat.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>5137</ID>
-      <DefaultText>Apply {0} &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;</DefaultText>
-      <FemaleText />
-    </Entry>
+	<Entry>
+	  <ID>3145</ID>
+	  <DefaultText>The liquid within this flask froths and ripples of its own accord. When swallowed, the elixir twists and morphs the face, transforming it into a nightmarish mask of rotting, insect-infested flesh, and all things horrible, provoking nearby foes to become &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrified&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&#179;&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+	  <FemaleText />
+	</Entry>
+	<Entry>
+	  <ID>3394</ID>
+	  <DefaultText>A call for divine favor that grants the &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Insightful&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt; Inspiration to allies in the area of effect.</DefaultText>
+	  <FemaleText />
+	</Entry>
+	<Entry>
+	  <ID>3398</ID>
+	  <DefaultText>Calls down a shaft of intense sunlight, burning and potentially &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinding&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&#179;&lt;/color&gt;&lt;/link&gt; those caught in the area of effect.</DefaultText>
+	  <FemaleText />
+	</Entry>
+	<Entry>
+	  <ID>3403</ID>
+	  <DefaultText>A prayer missal that grants a target ally the &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt; Inspiration for an extended duration.</DefaultText>
+	  <FemaleText />
+	</Entry>
+	<Entry>
+	  <ID>3409</ID>
+	  <DefaultText>A prayer missal that grants the target ally the &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Smart&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt; Inspiration for an extended duration.</DefaultText>
+	  <FemaleText />
+	</Entry>
+	<Entry>
+	  <ID>3414</ID>
+	  <DefaultText>Creates a beam of crushing force, &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Staggering&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt; the target and anyone caught in the beam.</DefaultText>
+	  <FemaleText />
+	</Entry>
+	<Entry>
+	  <ID>3419</ID>
+	  <DefaultText>A trio of stone claws erupt from the ground, turning flesh to stone, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzing&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&#179;&lt;/color&gt;&lt;/link&gt; and inflicting Slash damage on everyone caught in the area.</DefaultText>
+	  <FemaleText />
+	</Entry>
+	<Entry>
+	  <ID>3422</ID>
+	  <DefaultText>Summons an enormous infestation of venomous insects, dealing Raw damage over time, reducing Concentration and &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickening&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt; anyone in the area of effect.</DefaultText>
+	  <FemaleText />
+	</Entry>
+	<Entry>
+	  <ID>3435</ID>
+	  <DefaultText>A parching wind blows across the battlefield, inflicting Raw damage on anyone in the area and leaving them &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Weakened&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&#178;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+	  <FemaleText />
+	</Entry>
+	<Entry>
+	  <ID>3648</ID>
+	  <DefaultText>While Algol is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and party members regain some Health when they kill an enemy.</DefaultText>
+	  <FemaleText />
+	</Entry>
+	<Entry>
+	  <ID>3693</ID>
+	  <DefaultText>While Eviee is following you around, you gain a bonus to Resolve and &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; Resistance. Also, the duration of &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to your party is reduced.</DefaultText>
+	  <FemaleText />
+	</Entry>
+	<Entry>
+	  <ID>3830</ID>
+	  <DefaultText>A handful of sharpened brambles coated with a debilitating venom. When thrown at a target, they stick to fabric, skin, and leather, delivering their painful dose over a brief time. &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbles&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt; opponents.</DefaultText>
+	  <FemaleText />
+	</Entry>
+	<Entry>
+	  <ID>3941</ID>
+	  <DefaultText>A clutch of writhing larvae. Blind and hungry, they move instinctively towards any source of food.</DefaultText>
+	  <FemaleText />
+	</Entry>
+	<Entry>
+	  <ID>4261</ID>
+	  <DefaultText>Aegor's Swift Touch</DefaultText>
+	  <FemaleText />
+	</Entry>
+	<Entry>
+	  <ID>4485</ID>
+	  <DefaultText>While Bark String is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and your party moves more quickly in combat.</DefaultText>
+	  <FemaleText />
+	</Entry>
+	<Entry>
+	  <ID>5137</ID>
+	  <DefaultText>Apply {0} &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;</DefaultText>
+	  <FemaleText />
+	</Entry>
   </Entries>
 </StringTableFile>
