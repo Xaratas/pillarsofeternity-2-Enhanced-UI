@@ -1,4 +1,4 @@
-# Afflictions & Inspirations Icons | Defensive & Damage Icons
+# Affliction and Inspiration Icons
 
 ## RegEx
 ```
