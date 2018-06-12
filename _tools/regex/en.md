@@ -5,9 +5,7 @@
 **Click the "Details" text to see the code**
 
 <Details>
-```
 (\s+<Entry>\s+<ID>.*?<\/ID>((?!((\b(Constitution|Fit|Hardy|Robust)\b)|((Sicken)(\b|ed|ing))|((Weaken)(\b|s|ed|ing))|((Enfeebl)(\b|ed))|(\b(Resolve|Steadfast|Resolute|Courageous)\b)|((Shaken)(\b|s|ed|ing))|((Frighten)(\b|s|ed|ing))|((Terrif)(\b|ies|ied|ying|y))|(\b(Dexterity|Quick|Nimble|Swift)\b)|((Hobbl)(|ed|es|e|ing)\b)|((Immobiliz)(|ed|e|ing)\b)|((Paralyz)(|ed|es|e|ing|ation))|(\b(Might|Strong|Tenacious|Energized)\b)|((Stagger)(\b|ed|ing))|((Daz)(\b|ed|es|e|ing))|((Stun)(\b|s|ned|ning))|(\b(Intellect|Smart|Acute|Brilliant)\b)|((Confus)(\b|ed|es|e|ing))|((Charm)(\b|ed|ing))|((Dominat)(\b|ed|es|e|ing))|(\b(Perception|Insightful|Aware|Intuitive)\b)|((Distract)(\b|ed|s|ing))|((Disorient)(\b|ed|s|ing))|((Blind)(\b|s|ed|ing|ness))|(\b(Deflection|Reflex|Reflexes|Fortitude|Willpower|Will)\b)|(\b((Shock)(\b|ed|ing))|((Burn)(\b|s|ed|ing))|((Freez)(|es|ed|ing|e))|(Corrode)|(Corrosive)\b)|(\b((Slash)(\b|ing))|((Pierc)(|ing|es))|((Crush)(\b|ing|es))|(Raw)\b)))[0-9a-zA-Z,.&;'"#!-_+ <>\/\s])+?<\/Entry>)
-```
 </Details>
 
 You now have all Entries with the keywords above isolated in your abilities.stringtable file.
@@ -16,7 +14,6 @@ You now have all Entries with the keywords above isolated in your abilities.stri
 **Click the "Details" text to see the code**
 
 <Details>
-```
 <Macro name="RegEx-Inspirations" Ctrl="no" Alt="no" Shift="no" Key="0">
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1601" wParam="0" lParam="0" sParam="Fit" />
@@ -127,14 +124,14 @@ You now have all Entries with the keywords above isolated in your abilities.stri
             <Action type="3" message="1702" wParam="0" lParam="771" sParam="" />
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
 </Macro>
-```
 </Details>
 
 ---
+
 5. Use this macro in Notepad++ to add colors and icons to Affliction keywords:
 **Click the "Details" text to see the code**
+
 <Details>
-```XML
 <Macro name="RegEx-Afflictions" Ctrl="no" Alt="no" Shift="no" Key="0">
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Sicken)(\b|ed|ing)" />
@@ -251,15 +248,14 @@ You now have all Entries with the keywords above isolated in your abilities.stri
             <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
 </Macro>
-```
 </Details>
 
 ---
+
 6. Use this macro in Notepad++ to add colors and icons to Attribute keywords:
 **Click the "Details" text to see the code**
 
 <Details>
-```
 <Macro name="RegEx-Grouped-Afflictions-and-Inspirations" Ctrl="no" Alt="no" Shift="no" Key="0">
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Intellect and Perception Inspiration)" />
@@ -505,15 +501,14 @@ You now have all Entries with the keywords above isolated in your abilities.stri
             <Action type="0" message="2422" wParam="0" lParam="0" sParam="" />
             <Action type="0" message="2325" wParam="0" lParam="0" sParam="" />
 </Macro>
-```
 </Details>
 
 ---
+
 7. Use this macro in Notepad++ to add colors and icons to defense and damage keywords:
 **Click the "Details" text to see the code**
 
 <Details>
-```
 <Macro name="RegEx-DefenseAndDamage" Ctrl="no" Alt="no" Shift="no" Key="0">
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1601" wParam="0" lParam="0" sParam="\b(Fortitude)\b" />
@@ -588,7 +583,6 @@ You now have all Entries with the keywords above isolated in your abilities.stri
             <Action type="3" message="1702" wParam="0" lParam="1794" sParam="" />
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
 </Macro>
-```
 </Details>
 
 8. And that's it! You're now done!
