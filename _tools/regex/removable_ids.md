@@ -11,7 +11,9 @@
 ```
 2032|2423|2654|3856
 ```
-> These RegEx's are meant to be used to be used in a text editor like Notepad++ and should be used with ". matches new line"-option enabled. With this RegEx you'll be able to delete all unused ID's to get a clearer picture of what entries need to be edited and make your workflow a lot easier. */S.*
+These RegEx's are meant to be used to be used in a text editor like Notepad++ and should be used with ". matches new line"-option enabled. With this RegEx you'll be able to delete all unused ID's to get a clearer picture of what entries need to be edited and make your workflow a lot easier. 
+/S.
+
 ---
 ## RegEx to remove : Afflictions & Inspirations Icons + Defense & Damage Icons
 **File:** abilities.stringtable
@@ -23,4 +25,5 @@
 ```
 603|1962|1964|1967|1968|2896|2898|2900|2902
 ```
-> These RegEx's are meant to be used to be used in a text editor like Notepad++ and should be used with ". matches new line"-option enabled. With this RegEx you'll be able to delete all unused ID's to get a clearer picture of what entries need to be edited and make your workflow a lot easier. */S.*
+These RegEx's are meant to be used to be used in a text editor like Notepad++ and should be used with ". matches new line"-option enabled. With this RegEx you'll be able to delete all unused ID's to get a clearer picture of what entries need to be edited and make your workflow a lot easier. 
+/S.
