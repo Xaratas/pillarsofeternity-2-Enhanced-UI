@@ -1,4 +1,6 @@
-## Afflictions, inspirations + defensive and damage icon
+# Afflictions & Inspirations Icons | Defensive & Damage Icons
+
+## RegEx
 ```
 (\s+<Entry>\s+<ID>.*?<\/ID>((?!((\b(Constitution|Fit|Hardy|Robust)\b)|((Sicken)(\b|ed|ing))|((Weaken)(\b|s|ed|ing))|((Enfeebl)(\b|ed))|(\b(Resolve|Steadfast|Resolute|Courageous)\b)|((Shaken)(\b|s|ed|ing))|((Frighten)(\b|s|ed|ing))|((Terrif)(\b|ies|ied|ying|y))|(\b(Dexterity|Quick|Nimble|Swift)\b)|((Hobbl)(|ed|es|e|ing)\b)|((Immobiliz)(|ed|e|ing)\b)|((Paralyz)(|ed|es|e|ing|ation))|(\b(Might|Strong|Tenacious|Energized)\b)|((Stagger)(\b|ed|ing))|((Daz)(\b|ed|es|e|ing))|((Stun)(\b|s|ned|ning))|(\b(Intellect|Smart|Acute|Brilliant)\b)|((Confus)(\b|ed|es|e|ing))|((Charm)(\b|ed|ing))|((Dominat)(\b|ed|es|e|ing))|(\b(Perception|Insightful|Aware|Intuitive)\b)|((Distract)(\b|ed|s|ing))|((Disorient)(\b|ed|s|ing))|((Blind)(\b|s|ed|ing|ness))|(\b(Deflection|Reflex|Reflexes|Fortitude|Willpower|Will)\b)|(\b((Shock)(\b|ed|ing))|((Burn)(\b|s|ed|ing))|((Freez)(|es|ed|ing|e))|(Corrode)|(Corrosive)\b)|(\b((Slash)(\b|ing))|((Pierc)(|ing|es))|((Crush)(\b|ing|es))|(Raw)\b)))[0-9a-zA-Z,.&;'"#!-_+ <>\/\s])+?<\/Entry>)
 ```

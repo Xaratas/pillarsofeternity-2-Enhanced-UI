@@ -1,4 +1,6 @@
-# Defensive stats
+# Defense and Damage Icons
+
+## Defensive stats
 
 \b(Fortitude)\b
 ```
@@ -16,7 +18,7 @@
 ```
 &lt;link="glossary://GlossaryEntry_Will"&gt;$1$2&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt;
 ```
-# Damage types
+## Damage types
 
 \b(Slash)\b|\b(Slashing)\b
 ```
