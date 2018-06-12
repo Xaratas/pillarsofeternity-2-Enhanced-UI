@@ -71,6 +71,6 @@
 ### Shock
 ```
 \b(Shock)\b|\b(Shocked)\b|\b(Shocking)\b
-```
+
 &lt;link="glossary://GlossaryEntry_Shock"&gt;$1$2$3&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;
 ```
