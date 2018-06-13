@@ -1,6 +1,6 @@
 #### Design document:
-# ENHANCED UI (AFFLICTIONS AND INSPIRATIONS)
-v. 1.0
+# PoE2 - ENHANCED UI
+Document version: 1.0 | Mod version: 0.3.0.001 | https://www.nexusmods.com/pillarsofeternity2/mods/32?tab=description
 
 ## Introduction:
 
@@ -11,10 +11,6 @@ The goal of this mod is to enhance the user experience and make a fairly opaque 
 This mod does not change the way spells and abilities work.
 
 ## Useful links:
-
-Mod page:
-
-https://www.nexusmods.com/pillarsofeternity2/mods/32?tab=description
 
 Documents:
 
