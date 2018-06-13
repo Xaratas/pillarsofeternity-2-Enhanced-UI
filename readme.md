@@ -1,5 +1,3 @@
-
-
 #### Design document:
 #1 ENHANCED UI (AFFLICTIONS AND INSPIRATIONS)
 v. 1.0
@@ -16,5 +14,5 @@ This mod does not change the way spells and abilities work.
 
 - Mod page: https://www.nexusmods.com/pillarsofeternity2/mods/32?tab=description
 - Documents:     
-     * How-to: [Add icons to texts using Notepad++ and RegEx](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/tools/regex/readme.md)
-     * RegEx: [Unused Entry ID's](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/tools/regex/removable_ids.md)
+[How-to: Add icons to texts using Notepad++ and RegEx](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/tools/regex/readme.md)
+[RegEx: Unused Entry ID's](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/tools/regex/removable_ids.md)
