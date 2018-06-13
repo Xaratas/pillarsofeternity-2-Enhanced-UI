@@ -17,12 +17,12 @@
 ```
 
 
-**Step 3.** Use this macro to stylize Inspiration keywords: [RegEx-Inspirations](inspirations)
+**Step 3.** Use this macro to stylize Inspiration keywords: [RegEx-Inspirations](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/tools/regex/RegEx-Inspirations.xml)
 
-**Step 4.** Use this macro to stylize Affliction keywords: [RexEx-Afflictions](afflictions)
+**Step 4.** Use this macro to stylize Affliction keywords: [RexEx-Afflictions](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/tools/regex/RegEx-Afflictions.xml)
 
-**Step 5.** Use this macro to stylize Attribute keywords: [RegEx-Attributes](attributes)
+**Step 5.** Use this macro to stylize Attribute keywords: [RegEx-Attributes](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/tools/regex/RegEx-Attributes.xml)
 
-**Step 6.** Use this macro to stylize defense and damage keywords: [RegEx-DefenseAndDamage](dad) (skip this step if you used RegEx B)
+**Step 6.** Use this macro to stylize defense and damage keywords: [RegEx-DefenseAndDamage](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/tools/regex/RegEx-DefenseAndDamage.xml) (skip this step if you used RegEx B)
 
 And that's it! You've now successfully deleted all unused entry ID's while also applying colors and icons to the specified keywords.
