@@ -1,6 +1,6 @@
 #### Design document:
 # PoE2 - ENHANCED UI
-Document version: 1.0 | Mod version: 0.3.0.001 | https://www.nexusmods.com/pillarsofeternity2/mods/32?tab=description
+Document version: 1.0 | Mod version: 0.3.0.001
 
 ## Introduction:
 
@@ -12,7 +12,11 @@ This mod does not change the way spells and abilities work.
 
 ## Useful links:
 
-Documents:
+**Mod page:**
+
+[Enhanced UI - Afflictions and Inspirations](https://www.nexusmods.com/pillarsofeternity2/mods/32?tab=description)
+
+**Documents:**
 
 [How-to: Add icons to texts using Notepad++ and RegEx](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/tools/regex/readme.md)
 
