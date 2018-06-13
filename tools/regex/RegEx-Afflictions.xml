@@ -1,0 +1,116 @@
+<Macro name="RegEx-Afflictions" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Sicken)(\b|ed|ing)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://1e99c141-5288-4bf0-abc2-65cc78638745&quot;&amp;gt;&amp;lt;#f7b733&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_constitution&quot; tint=1&amp;gt;&amp;#185;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Weaken)(\b|s|ed|ing)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://a6368675-47ed-460d-be4f-2593f24ad126&quot;&amp;gt;&amp;lt;#f7b733&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_constitution&quot; tint=1&amp;gt;&amp;#178;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Enfeebl)(\b|ed)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1&quot;&amp;gt;&amp;lt;#f7b733&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_constitution&quot; tint=1&amp;gt;&amp;#179;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Hobbl)(\b|ed|es|e|ing)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2&quot;&amp;gt;&amp;lt;#72da26&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#185;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Immobiliz)(\b|ed|e|ing)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c&quot;&amp;gt;&amp;lt;#72da26&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#178;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Paralyz)(\b|ed|es|e|ing|ation)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd&quot;&amp;gt;&amp;lt;#72da26&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_dexterity&quot; tint=1&amp;gt;&amp;#179;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Confus)(\b|ed|es|e|ing)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4&quot;&amp;gt;&amp;lt;#00a4ff&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_intellect&quot; tint=1&amp;gt;&amp;#185;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Charm)(\b|ed|ing)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833&quot;&amp;gt;&amp;lt;#00a4ff&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_intellect&quot; tint=1&amp;gt;&amp;#178;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Dominat)(\b|ed|es|e|ing)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7&quot;&amp;gt;&amp;lt;#00a4ff&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_intellect&quot; tint=1&amp;gt;&amp;#179;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Stagger)(\b|ed|ing)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8&quot;&amp;gt;&amp;lt;#ff4800&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_might&quot; tint=1&amp;gt;&amp;#185;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Daz)(\b|ed|es|e|ing)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1&quot;&amp;gt;&amp;lt;#ff4800&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_might&quot; tint=1&amp;gt;&amp;#178;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Stun)(\b|s|ned|ning)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e&quot;&amp;gt;&amp;lt;#ff4800&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_might&quot; tint=1&amp;gt;&amp;#179;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Distract)(\b|ed|s|ing)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0&quot;&amp;gt;&amp;lt;#ca58ff&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_perception&quot; tint=1&amp;gt;&amp;#185;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Disorient)(\b|ed|s|ing)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd&quot;&amp;gt;&amp;lt;#ca58ff&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_perception&quot; tint=1&amp;gt;&amp;#178;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Blind)(\b|ed|s|ing|ness)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://76a5e15a-e75c-4853-889b-2e9229d46444&quot;&amp;gt;&amp;lt;#ca58ff&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_perception&quot; tint=1&amp;gt;&amp;#179;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Shaken)(\b|s|ed|ing)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6&quot;&amp;gt;&amp;lt;#30d3d5&amp;gt;Shaken&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_resolve&quot; tint=1&amp;gt;&amp;#185;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Frighten)(\b|s|ed|ing)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24&quot;&amp;gt;&amp;lt;#30d3d5&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_resolve&quot; tint=1&amp;gt;&amp;#178;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="(Terrif)(\b|ies|ied|ying|y)" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de&quot;&amp;gt;&amp;lt;#30d3d5&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_resolve&quot; tint=1&amp;gt;&amp;#179;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam='(Confounding &amp;lt;link=&quot;gamedata://76a5e15a-e75c-4853-889b-2e9229d46444&quot;&amp;gt;&amp;lt;#ca58ff&amp;gt;Blind&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;attribute_perception&quot; tint=1&amp;gt;&amp;#179;&amp;lt;/color&amp;gt;&amp;lt;/link&amp;gt;)' />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="(Confounding Blind)" />
+            <Action type="3" message="1702" wParam="0" lParam="770" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+</Macro>

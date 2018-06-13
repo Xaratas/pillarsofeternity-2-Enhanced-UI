@@ -1,0 +1,74 @@
+<Macro name="RegEx-DefenseAndDamage" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\b(Fortitude)\b" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;glossary://GlossaryEntry_Fortitude&quot;&amp;gt;Fortitude&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;cs_fortitude&quot; tint=1&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="1794" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\b(Deflection)\b" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;glossary://GlossaryEntry_Deflection&quot;&amp;gt;Deflection&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;cs_deflection&quot; tint=1&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="1794" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\b(Reflexes)\b|\b(Reflex)\b" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;glossary://GlossaryEntry_Reflexes&quot;&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;cs_reflex&quot; tint=1&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="1794" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\b(Will)\b|\b(Willpower)\b" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;glossary://GlossaryEntry_Will&quot;&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;cs_will&quot; tint=1&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="1794" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\b(Slash)\b|\b(Slashing)\b" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;glossary://GlossaryEntry_Slashing&quot;&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;cs_slash&quot; tint=1&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="1794" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\b(Crushing)\b|\b(Crushes)\b|(Crush)\b" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;glossary://GlossaryEntry_Crushing&quot;&amp;gt;$1$2$3&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;cs_blunt&quot; tint=1&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="1794" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\b(Piercing)\b|\b(Pierces)\b|\b(Pierce)\b" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;glossary://GlossaryEntry_Piercing&quot;&amp;gt;$1$2$3&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;cs_pierce&quot; tint=1&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="1794" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\b(Raw)\b" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;glossary://GlossaryEntry_Raw&quot;&amp;gt;Raw&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;cs_raw&quot; tint=1&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="1794" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\b(Burns)\b|\b(Burned)\b|\b(Burning)\b|\b(Burn)\b" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;glossary://GlossaryEntry_Burning&quot;&amp;gt;$1$2$3$4&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;cs_burn&quot; tint=1&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="1794" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\b(Corrode)\b|\b(Corrosive)\b" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;glossary://GlossaryEntry_Corrode&quot;&amp;gt;$1$2&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;cs_corrosive&quot; tint=1&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="1794" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\b(Freeze)\b|\b(Freezes)\b|\b(Freezed)\b|\b(Freezing)\b" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;glossary://GlossaryEntry_Freezing&quot;&amp;gt;$1$2$3$4&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;cs_freeze&quot; tint=1&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="1794" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\b(Shock)\b|\b(Shocked)\b|\b(Shocking)\b" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&amp;lt;link=&quot;glossary://GlossaryEntry_Shock&quot;&amp;gt;$1$2$3&amp;#160;&amp;lt;sprite=&quot;Inline&quot; name=&quot;cs_shock&quot; tint=1&amp;gt;&amp;lt;/link&amp;gt;' />
+            <Action type="3" message="1702" wParam="0" lParam="1794" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+</Macro>
