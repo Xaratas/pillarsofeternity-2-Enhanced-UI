@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en2 // version: 0.3.0.000 -->
+<!-- Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en2 // version: 0.3.0.001 -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\items</Name>
   <NextEntryID>1</NextEntryID>
@@ -52,12 +52,12 @@
     </Entry>
     <Entry>
       <ID>3648</ID>
-      <DefaultText>While Algol is following you around any Constitution Afflictions applied to you wear off more quickly, and party members regain some Health when they kill an enemy.</DefaultText>
+      <DefaultText>While Algol is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and party members regain some Health when they kill an enemy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3693</ID>
-      <DefaultText>While Eviee is following you around, you gain a bonus to Resolve and Resolve Affliction Resistance. Also, the duration of Resolve Afflictions applied to your party is reduced.</DefaultText>
+      <DefaultText>While Eviee is following you around, you gain a bonus to Resolve and &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; Resistance. Also, the duration of &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to your party is reduced.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -66,23 +66,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3941</ID>
-      <DefaultText>A clutch of writhing larvae. Blind and hungry, they move instinctively towards any source of food.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4261</ID>
-      <DefaultText>Aegor's Swift Touch</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>4485</ID>
-      <DefaultText>While Bark String is following you around any Dexterity Afflictions applied to you wear off more quickly, and your party moves more quickly in combat.</DefaultText>
+      <DefaultText>While Bark String is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and your party moves more quickly in combat.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>5137</ID>
-      <DefaultText>Apply {0} Dexterity Afflictions</DefaultText>
+      <DefaultText>Apply {0} &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

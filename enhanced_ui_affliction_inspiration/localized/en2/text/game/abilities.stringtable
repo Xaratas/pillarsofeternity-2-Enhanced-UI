@@ -282,7 +282,7 @@
     </Entry>
     <Entry>
       <ID>800</ID>
-      <DefaultText>Grants resistance against Resolve and Constitution Afflictions for allies in the area of effect. </DefaultText>
+      <DefaultText>Grants resistance against &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; for allies in the area of effect. </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -297,7 +297,7 @@
     </Entry>
     <Entry>
       <ID>804</ID>
-      <DefaultText>Removes Dexterity Affliction effects for allies in the area of effect.</DefaultText>
+      <DefaultText>Removes &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; effects for allies in the area of effect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -307,7 +307,7 @@
     </Entry>
     <Entry>
       <ID>807</ID>
-      <DefaultText>Allies in the area of effect gain Resistance against Dexterity Afflictions and Might Afflictions.</DefaultText>
+      <DefaultText>Allies in the area of effect gain Resistance against &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -453,17 +453,17 @@
     </Entry>
     <Entry>
       <ID>1026</ID>
-      <DefaultText>Wood elves have a natural Resistance towards Dexterity Afflictions.</DefaultText>
+      <DefaultText>Wood elves have a natural Resistance towards &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1048</ID>
-      <DefaultText>The paladin becomes resistant to Intellect Afflictions, (&lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charmed &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominated &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The paladin becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, (&lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charmed &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominated &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1050</ID>
-      <DefaultText>The fighter becomes resistant to Might Afflictions, (&lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Staggered &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazed &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stunned &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The fighter becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, (&lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Staggered &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazed &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stunned &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -473,7 +473,7 @@
     </Entry>
     <Entry>
       <ID>1058</ID>
-      <DefaultText>The ranger's animal companion gains resistance against Intellect and Perception Afflictions.</DefaultText>
+      <DefaultText>The ranger's animal companion gains resistance against &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -483,7 +483,7 @@
     </Entry>
     <Entry>
       <ID>1306</ID>
-      <DefaultText>Wild orlans are naturally sound of mind and gain Resistance towards Resolve Afflictions.</DefaultText>
+      <DefaultText>Wild orlans are naturally sound of mind and gain Resistance towards &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -508,17 +508,17 @@
     </Entry>
     <Entry>
       <ID>1334</ID>
-      <DefaultText>Avian godlike are acute and precise, granting a Resistance to Intellect and Perception Afflictions.</DefaultText>
+      <DefaultText>Avian godlike are acute and precise, granting a Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1338</ID>
-      <DefaultText>Mountain dwarves are the most well-traveled race in Eora. Their incredible journeys have exposed them to all manner of lethal hazards, giving them resistance to Constitution Afflictions.</DefaultText>
+      <DefaultText>Mountain dwarves are the most well-traveled race in Eora. Their incredible journeys have exposed them to all manner of lethal hazards, giving them resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1341</ID>
-      <DefaultText>Coastal aumaua are renowned for their natural "sea legs" and sturdy builds. Whether it's due to their long history of seafaring or something innate, all coastal aumaua have resistance to Might Afflictions.</DefaultText>
+      <DefaultText>Coastal aumaua are renowned for their natural "sea legs" and sturdy builds. Whether it's due to their long history of seafaring or something innate, all coastal aumaua have resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -573,12 +573,12 @@
     </Entry>
     <Entry>
       <ID>1730</ID>
-      <DefaultText>The chanter creates two bouncing beams of pure light that restore Health and grant immunity to Resolve Afflictions on all allies they touch.</DefaultText>
+      <DefaultText>The chanter creates two bouncing beams of pure light that restore Health and grant immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; on all allies they touch.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1739</ID>
-      <DefaultText>Allies gain a protective layer of wooden "skin" and are imbued with the characteristics of a delemgan, becoming faster, less vulnerable to Disengagement attacks, and immune to Dexterity Afflictions.</DefaultText>
+      <DefaultText>Allies gain a protective layer of wooden "skin" and are imbued with the characteristics of a delemgan, becoming faster, less vulnerable to Disengagement attacks, and immune to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -673,7 +673,7 @@
     </Entry>
     <Entry>
       <ID>2032</ID>
-      <DefaultText>(&lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Hardy &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; Companion) - Also grants the &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Hardy &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; Inspiration to the companion.</DefaultText>
+      <DefaultText>(Hardy Companion) - Also grants the &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Hardy &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; Inspiration to the companion.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -747,32 +747,32 @@ One-Handed: Raw Damage over time</DefaultText>
     </Entry>
     <Entry>
       <ID>2124</ID>
-      <DefaultText>The fighter becomes resistant to Resolve Afflictions, (&lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Shaken &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightened &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrified &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The fighter becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, (&lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Shaken &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightened &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrified &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2129</ID>
-      <DefaultText>The fighter becomes resistant to Dexterity Afflictions, (&lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbled &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilized &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzed &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The fighter becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, (&lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbled &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilized &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzed &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2134</ID>
-      <DefaultText>The fighter gains bonus defense against Intellect, Perception, and Constitution Afflictions.</DefaultText>
+      <DefaultText>The fighter gains bonus defense against &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2137</ID>
-      <DefaultText>The paladin becomes resistant to Perception Afflictions, (&lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distracted &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Disoriented &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinded &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The paladin becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, (&lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distracted &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Disoriented &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinded &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2139</ID>
-      <DefaultText>The paladin becomes resistant to Constitution Afflictions, (&lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Weakened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1"&gt;&lt;#f7b733&gt;Enfeebled &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The paladin becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, (&lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Weakened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1"&gt;&lt;#f7b733&gt;Enfeebled &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2141</ID>
-      <DefaultText>The paladin gains defense against Resolve, Might, and Dexterity Afflictions.</DefaultText>
+      <DefaultText>The paladin gains defense against &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -833,7 +833,7 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 Gain increased Power Level with Enchanting Spells.
 
-Gain "Free Action" passive: Once per encounter, when the wizard is affected by a Dexterity Affliction, they will clear that effect and become temporarily immune to Dexterity Afflictions.
+Gain "Free Action" passive: Once per encounter, when the wizard is affected by a &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, they will clear that effect and become temporarily immune to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.
 
 &lt;b&gt;Penalty&lt;/b&gt;
 Lose access to spells from Illusion and Transmutation schools.
@@ -848,7 +848,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>2423</ID>
-      <DefaultText>(&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazing &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; Shout) - Enemies also take Crush Damage and are &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazed &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Dazing Shout) - Enemies also take Crush Damage and are &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazed &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -908,12 +908,12 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>2540</ID>
-      <DefaultText>Draws upon the druid's natural connection to the shark, temporarily allowing them to assume that form. The shark spiritshift has immunity to Dexterity Afflictions.</DefaultText>
+      <DefaultText>Draws upon the druid's natural connection to the shark, temporarily allowing them to assume that form. The shark spiritshift has immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2564</ID>
-      <DefaultText>Once per encounter, when the wizard is affected by a Dexterity Affliction, they will clear that effect and become immune to Dexterity Afflictions for a short time.</DefaultText>
+      <DefaultText>Once per encounter, when the wizard is affected by a &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, they will clear that effect and become immune to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; for a short time.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -933,7 +933,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>2635</ID>
-      <DefaultText>Grants allies resistance to Perception and Intellect Afflictions.</DefaultText>
+      <DefaultText>Grants allies resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1088,7 +1088,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>3349</ID>
-      <DefaultText>Frees the wielder and any nearby allies from any Dexterity Afflictions or Might Afflictions.</DefaultText>
+      <DefaultText>Frees the wielder and any nearby allies from any &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; or &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1133,7 +1133,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>3608</ID>
-      <DefaultText>Grants the user Resistance to Dexterity Afflictions at the beginning of combat, for a short time.</DefaultText>
+      <DefaultText>Grants the user Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; at the beginning of combat, for a short time.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1183,27 +1183,27 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>3856</ID>
-      <DefaultText>(&lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbling &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; Shot) - The ranger's shot now &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbles &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; the target.</DefaultText>
+      <DefaultText>(Hobbling Shot) - The ranger's shot now &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbles &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; the target.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3864</ID>
-      <DefaultText>While Eviee is following you around, you gain a bonus to Resolve and Resolve Affliction Resistance. Also, the duration of Resolve Afflictions applied to your party is reduced.</DefaultText>
+      <DefaultText>While Eviee is following you around, you gain a bonus to Resolve and &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; Resistance. Also, the duration of &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to your party is reduced.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3899</ID>
-      <DefaultText>While Algol is following you around any Constitution Afflictions applied to you wear off more quickly, and party members regain some Health when they kill an enemy.</DefaultText>
+      <DefaultText>While Algol is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and party members regain some Health when they kill an enemy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3953</ID>
-      <DefaultText>Grants Resistance to Constitution Afflictions while Healthy or Unharmed.</DefaultText>
+      <DefaultText>Grants Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while Healthy or Unharmed.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3971</ID>
-      <DefaultText>While Bark String is following you around any Dexterity Afflictions applied to you wear off more quickly, and your party moves more quickly in combat.</DefaultText>
+      <DefaultText>While Bark String is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and your party moves more quickly in combat.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1223,22 +1223,22 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>4140</ID>
-      <DefaultText>Gain Resistance to Constitution Afflictions while Unharmed or Healthy.</DefaultText>
+      <DefaultText>Gain Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while Unharmed or Healthy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4145</ID>
-      <DefaultText>Aura that clouds the minds of nearby allies, making them more susceptible to Intellect Afflictions.</DefaultText>
+      <DefaultText>Aura that clouds the minds of nearby allies, making them more susceptible to &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4160</ID>
-      <DefaultText>Wearer is Immune to Constitution Afflictions while they carry one or more Injuries.</DefaultText>
+      <DefaultText>Wearer is Immune to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while they carry one or more Injuries.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4276</ID>
-      <DefaultText>Gain Immunity to Constitution Afflictions while Unharmed or Healthy,</DefaultText>
+      <DefaultText>Gain Immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while Unharmed or Healthy,</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1248,37 +1248,37 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>4294</ID>
-      <DefaultText>(Mien of Death's Herald) - Grants the Watcher a Perception Inspiration when used.</DefaultText>
+      <DefaultText>(Mien of Death's Herald) - Grants the Watcher a &lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4296</ID>
-      <DefaultText>(Ire of Death's Herald) - Grants the Watcher a Might Inspiration when used.</DefaultText>
+      <DefaultText>(Ire of Death's Herald) - Grants the Watcher a &lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4298</ID>
-      <DefaultText>(Wit of Death's Herald) - Grants the Watcher an Intellect Inspiration when used.</DefaultText>
+      <DefaultText>(Wit of Death's Herald) - Grants the Watcher an &lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4300</ID>
-      <DefaultText>(Awe of Death's Herald) - Grants the Watcher a Might and Perception Inspiration when used.</DefaultText>
+      <DefaultText>(Awe of Death's Herald) - Grants the Watcher a &lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspirations&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Inspration&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4302</ID>
-      <DefaultText>(Raiment of Death's Herald) - Grants the Watcher an Intellect and Perception Inspiration when used.</DefaultText>
+      <DefaultText>(Raiment of Death's Herald) - Grants the Watcher an &lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Inspration&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4304</ID>
-      <DefaultText>(Cruelty of Death's Herald) - Grants the Watcher a Might and Intellect Inspiration when used.</DefaultText>
+      <DefaultText>(Cruelty of Death's Herald) - Grants the Watcher a &lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspirations&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4306</ID>
-      <DefaultText>(Majesty of Death's Herald) - Grants the Watcher an Intellect, Might, and Perception Inspiration when used.</DefaultText>
+      <DefaultText>(Majesty of Death's Herald) - Grants the Watcher an &lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspirations&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Inspration&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1313,7 +1313,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>4335</ID>
-      <DefaultText>Calmo's lingering resentment inflicts major Defense penalties to nearby allies against Intellect Afflictions.</DefaultText>
+      <DefaultText>Calmo's lingering resentment inflicts major Defense penalties to nearby allies against &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1348,7 +1348,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>4558</ID>
-      <DefaultText>Effort purges fear of imminent death from the wielder. Grants immunity to Resolve Afflictions when Near Death.</DefaultText>
+      <DefaultText>Effort purges fear of imminent death from the wielder. Grants immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when Near Death.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
