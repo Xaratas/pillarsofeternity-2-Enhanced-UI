@@ -31,7 +31,7 @@
     </Entry>
 	<Entry>
       <ID>246</ID>
-      <DefaultText>Crea una proiezione energetica della fede del chierico che, spostandosi lentamente, restituisce Salute agli alleati e infligge danno da Congelamento ai nemici.</DefaultText>
+      <DefaultText>Crea una proiezione energetica della fede del Sacerdote che, spostandosi lentamente, restituisce Salute agli alleati e infligge danno da Congelamento ai nemici.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -56,7 +56,7 @@
     </Entry>
     <Entry>
       <ID>258</ID>
-      <DefaultText>Dona una velocità innaturale al bersaglio, garantendo l'Ispirazione &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Lesto &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e un bonus al Disingaggio .</DefaultText>
+      <DefaultText>Dona una velocità innaturale al bersaglio, garantendo l'Ispirazione &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Lesto &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e un bonus al Disingaggio.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -81,7 +81,7 @@
     </Entry>
      <Entry>
       <ID>282</ID>
-      <DefaultText>Vomita una disgustosa nube tossica &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseando &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e provocando un lieve danno da Corrosione a chiunque ne venga investito.</DefaultText>
+      <DefaultText>Vomita una disgustosa nube tossica &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseando &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; chiunque ne venga investito e provocando un lieve danno da Corrosione.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -111,12 +111,12 @@
     </Entry>
     <Entry>
       <ID>303</ID>
-      <DefaultText>Crea un campo di energia sacra attorno al chierico, che rende &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Scossi &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e ustiona ogni posseduto in prossimità, rigenerando una modesta quantità di Salute negli alleati. Il potere dello Splendore sacro di un chierico varia a seconda di come le sue Reputazioni sono in linea con il comportamento imposto dalla sua fede.</DefaultText>
+      <DefaultText>Crea un campo di energia sacra attorno al Sacerdote, che rende &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Scossi &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e causa danno da Ustione ad ogni posseduto in prossimità, rigenerando una modesta quantità di Salute negli alleati. Il potere dello Splendore sacro di un Sacerdote varia a seconda di come le sue Reputazioni sono in linea con il comportamento imposto dalla sua fede.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>305</ID>
-      <DefaultText>Ordina a un alleato privo di sensi di rialzarsi, garantendo l'Ispirazione &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e donandogli un notevole aumento di Salute  , che si dimezzerà dopo breve tempo.</DefaultText>
+      <DefaultText>Ordina a un alleato K.O. di rialzarsi, garantendo l'Ispirazione &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e donandogli un notevole, ma temporaneo, aumento di Salute, che si dimezzerà dopo breve tempo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -146,7 +146,7 @@
     </Entry>
 	<Entry>
       <ID>381</ID>
-      <DefaultText>Il guerriero rifiuta di darsi per vinto. Se cade privo di sensi, si rialzerà con parte della Salute ripristinata e con un bonus temporaneo a tutte le difese e soglie di danno.</DefaultText>
+      <DefaultText>Il guerriero rifiuta di darsi per vinto. Se messo K.O. , si rialzerà con parte della Salute ripristinata e con un bonus temporaneo a tutte le Difese e Soglie di Danno.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -201,7 +201,7 @@
     </Entry>
     <Entry>
       <ID>458</ID>
-      <DefaultText>Il chierico sgombra la propria mente e quella degli alleati vicini, garantendo loro l'Ispirazione &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;Risoluto &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Il Sacerdote sgombra la propria mente e quella degli alleati vicini, garantendo loro l'Ispirazione &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;Risoluto &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -211,7 +211,7 @@
     </Entry>
     <Entry>
       <ID>474</ID>
-      <DefaultText>Invoca la benedizione della divinità del sacerdote, donando bonus Precisione e Forza agli alleati nell'area d'effetto, mentre i nemici ricevono una penalità equivalente.</DefaultText>
+      <DefaultText>Invoca la benedizione della divinità del sacerdote, donando bonus Precisione e Vigore agli alleati nell'area d'effetto, mentre i nemici ricevono una penalità equivalente.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -236,12 +236,12 @@
     </Entry>
     <Entry>
       <ID>500</ID>
-      <DefaultText>Eleva gli alleati nell'area d'effetto nella gloria della divinità del chierico, donando le Ispirazioni &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Profondo &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Arguto &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Nerbo &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Eleva gli alleati nell'area d'effetto nella gloria della divinità del Sacerdote, donando le Ispirazioni &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Profondo &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Arguto &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Nerbo &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>502</ID>
-      <DefaultText>Implora l'aiuto della divinità del chierico, ripristinando la Salute degli alleati nell'area d'effetto e riducendo la durata degli effetti negativi.</DefaultText>
+      <DefaultText>Implora l'aiuto della divinità del Sacerdote, ripristinando la Salute degli alleati nell'area d'effetto e riducendo la durata degli effetti negativi.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -276,7 +276,7 @@
     </Entry>
     <Entry>
       <ID>552</ID>
-      <DefaultText>Richiama la terribile forza della tempesta, generando un'aura elettrica che infligge danno da Folgorazione e &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spaventando &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; chiunque si trovi vicino.</DefaultText>
+      <DefaultText>Richiama la terribile forza della tempesta, generando un'aura elettrica che infligge danno da Folgorazione, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spaventando &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; chiunque si trovi vicino.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -351,7 +351,7 @@
     </Entry>
     <Entry>
       <ID>614</ID>
-      <DefaultText>Condanna gli avversari del chierico, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientando &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; tutti i nemici nell'area d'effetto.</DefaultText>
+      <DefaultText>Condanna gli avversari del Sacerdote, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientando &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; tutti i nemici nell'area d'effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -449,6 +449,11 @@
       <DefaultText>Crea uno spesso muro di spine contorte, infliggendo danno da Perforazione. Inoltre, applica un effetto Veleno che infligge uno stato &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indebolito &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; a chi fallisce un tiro Tempra.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>837</ID>
+      <DefaultText>Raccoglie un'immensa quantità di frammenti di anima dispersi, plasmandoli in un Morbo maggiore Fiamma, Vento, Sabbia, Ghiaccio o Terra.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>839</ID>
       <DefaultText>Crea un campo di fiori velenosi, bellissimi e ammalianti, che infliggono &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spavento &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indebolimento &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; e danno Puro nel tempo a chi si trova nell'area d'effetto.</DefaultText>
@@ -496,7 +501,7 @@
     </Entry>
     <Entry>
       <ID>865</ID>
-      <DefaultText>Il barbaro può caricare in modo spericolato, ignorando l'arresto del movimento per l'ingaggio e guadagnando l'Ispirazione &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Lesto &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Il barbaro può caricare in modo spericolato guadagnando l'Ispirazione &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Lesto &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;, così come l'Immunità all'Ingaggio.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -509,9 +514,9 @@
       <DefaultText>Il barbaro mena colpi alla cieca quando avverte dolore, ottenendo un bonus al danno finché la Salute resta al di sotto del 50%.</DefaultText>
       <FemaleText />
     </Entry>
-	<Entry>
+	 <Entry>
       <ID>870</ID>
-      <DefaultText>Il barbaro oppone coraggiosamente resistenza contro tutti gli assalitori, ottenendo un bonus danno da mischia quando è ingaggiato da due o più nemici. Inoltre non può essere accerchiato se non è ingaggiato da più di tre nemici.</DefaultText>
+      <DefaultText>Il Barbaro acquista una posa impavida fronteggiando tutti gli assalitori. Garantisce un bonus al danno da mischia quando il Barbaro è vicino a due o più nemici. Inoltre per essere Accerchiato richiede di essere minacciato da un ulteriore avversario.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -551,7 +556,7 @@
     </Entry>
 	<Entry>
       <ID>902</ID>
-      <DefaultText>In un batter d'occhio, il monaco sfreccia verso un bersaglio lontano, infliggendo un devastante danno da Impatto a tutti i nemici che si trovano sulla sua strada.</DefaultText>
+      <DefaultText>In un batter d'occhio, il Monaco sfreccia verso un bersaglio lontano, colpendolocon un Attacco Doppio e infliggendo danno da Impatto a tutti gli avversari sulla sua strada.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -571,7 +576,7 @@
     </Entry>
 	<Entry>
       <ID>918</ID>
-      <DefaultText>Il ladro cerca di finire un avversario ferito con un colpo preciso e letale, tanto più potente quanto più è bassa la Salute del bersaglio.</DefaultText>
+      <DefaultText>Il ladro cerca di finire un avversario menomato con un colpo preciso e letale, tanto più potente quanto più è bassa la Salute del bersaglio.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -616,7 +621,7 @@
     </Entry>
     <Entry>
       <ID>1052</ID>
-      <DefaultText>Potenzia le difese del personaggio contro le Alterazioni di Acume e Percezione.</DefaultText>
+      <DefaultText>Se Lesionato o in miglior condizione il Barbaro guadagna resistenza contro le Alterazioni del Corpo</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -626,7 +631,12 @@
     </Entry>
 	<Entry>
       <ID>1208</ID>
-      <DefaultText>Tutti gli attacchi contro i nemici con Salute bassa convertono alcuni colpi a segno in colpi critici; inoltre, i colpi critici infliggono danno extra.</DefaultText>
+      <DefaultText>Tutti gli attacchi contro i nemici Agonizzanti convertono alcuni colpi a segno in colpi critici; i quali a loro volta infliggono danno extra.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>1210</ID>
+      <DefaultText>Riduce il tempo di recupero quando cambi arma.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
@@ -651,7 +661,7 @@
     </Entry>
     <Entry>
       <ID>1326</ID>
-      <DefaultText>Il bersaglio viene Bloccato e diviene l'ancora per un raggio di energia gelida proveniente dal mago, che infligge danno da Congelamento ai nemici sulla sua traiettoria.</DefaultText>
+      <DefaultText>Il bersaglio viene &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilizzato &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; e diviene l'ancora per un raggio di energia gelida proveniente dal mago, che infligge danno da Congelamento ai nemici sulla sua traiettoria.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -691,7 +701,7 @@
     </Entry>
     <Entry>
       <ID>1341</ID>
-      <DefaultText>Gli Aumaua costieri sono noti per il loro naturale equilibrio e la loro costituzione robusta. Che sia dovuto alla loro natura di popolo marinaro o a una caratteristica innata, tutti gli Aumaua costieri resistono alle Alterazioni del Vigore.</DefaultText>
+      <DefaultText>Gli Aumaua costieri sono noti per il loro "gambe acquatiche" e la loro costituzione robusta. Che sia dovuto alla loro natura di popolo marinaro o a una caratteristica innata, tutti gli Aumaua costieri resistono alle alterazioni Vigore.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -716,7 +726,7 @@
     </Entry>
 	<Entry>
       <ID>1470</ID>
-      <DefaultText>Il chierico trabocca di potenza e si circonda di un alone soprannaturale. Come incarnazione minore della sua divinità, il chierico ottiene bonus in tutti gli Attributi, Salute e danno dell'arma.</DefaultText>
+      <DefaultText>Il Sacerdote trabocca di potenza e si circonda di un alone soprannaturale. Come incarnazione minore della sua divinità, il Sacerdote ottiene bonus in tutti gli Attributi, Salute e danno dell'arma.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -771,7 +781,7 @@
     </Entry>
     <Entry>
       <ID>1739</ID>
-      <DefaultText>Ricopre gli alleati con una "pelle" di legno protettiva, pervasa da poteri delemgan, che li rende più veloci, meno vulnerabili agli attacchi in Disingaggio e immuni alle alterazioni Destrezza.</DefaultText>
+      <DefaultText>Ricopre gli alleati con una "pelle" di legno protettiva, pervasa da poteri delemgan, che li rende più veloci, meno vulnerabili agli attacchi in Disingaggio e immuni alle alterazioni della Destrezza.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -779,9 +789,9 @@
       <DefaultText>Il guerriero attraversa il campo di battaglia come un lampo, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordendo &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; chiunque si trovi sul suo cammino.</DefaultText>
       <FemaleText />
     </Entry>
-   <Entry>
+    <Entry>
       <ID>1749</ID>
-      <DefaultText>Traccia il simbolo di Berath sul terreno, infliggendo periodicamente danno da Corrosione ai nemici e lasciandoli &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indeboliti &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Traccia il simbolo di Berath sul terreno, infliggendo periodicamente danno da Corrosione ai nemici mentre vengono &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indeboliti &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
@@ -801,7 +811,7 @@
     </Entry>
     <Entry>
       <ID>1760</ID>
-      <DefaultText>Quando un ranger o il suo compagno animale restano privi di sensi, il partner soffre i normali effetti di Vincoli della pena, ma trova anche una foga che dona le ispirazioni &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Lesto &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenace &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; per un breve periodo.</DefaultText>
+      <DefaultText>Quando un ranger o il suo compagno animale vengono messi K.O. , il partner soffre i normali effetti di Vincoli della pena, ma viene pervaso da da un'ira che gli dona le ispirazioni &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Lesto &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenace &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; per un breve periodo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -827,6 +837,16 @@
     <Entry>
       <ID>1771</ID>
       <DefaultText>Evoca tre possenti tentacoli incapaci di muoversi, ma in grado di infliggere danno da Impatto e Corrosione e di &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilizzare &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; chiunque tocchino.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>1857</ID>
+      <DefaultText>Alterazione della Percezione</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1858</ID>
+      <DefaultText>Alterazione del Vigore</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -864,9 +884,34 @@
       <DefaultText>Immergiti in una luce sacra, &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Accecando &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; i nemici nelle immediate vicinanze.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>1997</ID>
+      <DefaultText>Mani della Luce</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1999</ID>
+      <DefaultText>Devozione Eterna</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2000</ID>
+      <DefaultText>(Devozione Eterna) - Dopo l'uso, gli attacchi del Paladino ricevono temporaneamente danno da Ustione bonus.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>2004</ID>
       <DefaultText>Gli attacchi in mischia del paladino rimuovono le Alterazioni &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Incantato &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominato &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; dai componenti del gruppo.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>2007</ID>
+      <DefaultText>Carica Eccelsa</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>2008</ID>
+      <DefaultText>(Carica Eccelsa) - Gli alleati ora convertono anche alcuni colpi critici in arrivo in colpi di striscio (o colpi a vuoto se quell'attacco non può causare colpi di striscio).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1151,7 +1196,7 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
     <Entry>
       <ID>2654</ID>
-      <DefaultText>Quando il ladro è Insanguinato o Agonizzante, ottiene immunità dalle Alterazioni della Mente (Percezione, Acume e Risolutezza).</DefaultText>
+      <DefaultText>Quando il ladro è Sanguinante o Agonizzante, ottiene immunità dalle Alterazioni della Mente (Percezione, Acume e Risolutezza).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1184,6 +1229,11 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
       <DefaultText>(Pronti al loro scopo, ciascuno conosceva la propria parte) - Adesso gli alleati ottengono anche l'Ispirazione &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Arguto &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>2685</ID>
+      <DefaultText>Quando il ranger è al di sotto del 75% di Salute, sia lui che il suo compagno animale ottengono un bonus Precisione contro nemici in stato Sanguinante o inferiore.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>2693</ID>
       <DefaultText>(Fumogeno) - Il ladro adesso può lanciare nell'area prescelta una bomba che provoca anche l'alterazione &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseato &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
@@ -1199,6 +1249,21 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
       <DefaultText>(L'essere ripugnante emise l'ultimo rantolo) - Se la spora viene uccisa, rilascia un gas nocivo che provoca &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nausea &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; a chi la circonda fino alla fine del combattimento.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>2707</ID>
+      <DefaultText>Resistenza: Alterazioni del Vigore</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2708</ID>
+      <DefaultText>Resistenza: Alterazioni della Percezione</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2709</ID>
+      <DefaultText>Debolezze: Alterazioni della Destrezza</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>2723</ID>
       <DefaultText>Rianima un alleato morto e gli conferisce l'Ispirazione &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robusto &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; per lungo tempo.</DefaultText>
@@ -1212,6 +1277,11 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     <Entry>
       <ID>2760</ID>
       <DefaultText>(Ombre durature) - L'invisibilità dura molto più a lungo e conferisce l'ispirazione &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Rapido &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>2761</ID>
+      <DefaultText>(Snervamento sconcertante) - Anche i nemici colpiti dal bersaglio &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, diventano &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confusi &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1231,7 +1301,7 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
     <Entry>
       <ID>2817</ID>
-      <DefaultText>Il sacerdote ottiene un'aura divina di Wael. Gli alleati circostanti ottengono un bonus a tutte le difese. Inoltre, eventuali nemici che colpiscono qualcuno sotto la protezione della divinità possono diventare &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Accecati &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Il Sacerdote ottiene un'aura divina di Wael. Gli alleati circostanti ottengono un bonus a tutte le difese. Inoltre, eventuali nemici che colpiscono qualcuno sotto la protezione della divinità possono diventare &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Accecati &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1274,6 +1344,11 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
       <DefaultText>Crea un fascio di forza contundente, &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Sorprendendo &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; il bersaglio e chiunque altro al suo interno.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>3192</ID>
+      <DefaultText>Immunità: Alterazioni della Percezione</DefaultText>
+      <FemaleText />
+    </Entry>
    <Entry>
       <ID>3307</ID>
       <DefaultText>Cerca di attrarre un bersaglio distante verso chi l'impugna, infliggendo danno da Lacerazione/Perforazione e &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientandolo &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
@@ -1311,7 +1386,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
 9. Viticcio sferzante</DefaultText>
       <FemaleText />
     </Entry>
-    <Entry>
+	<Entry>
       <ID>3349</ID>
       <DefaultText>Libera chi l'impugna e gli alleati circostanti dalle Alterazioni di Destrezza o Vigore.</DefaultText>
       <FemaleText />
@@ -1333,7 +1408,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
     <Entry>
       <ID>3448</ID>
-      <DefaultText>(Scacco matto) - Se cambi posizione con quella di un nemico, questo sarò circondato da uno o più dei tuoi alleati e verrà &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordito &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Scacco Matto) - Se cambi posizione con quella di un nemico, e questo viene circondato da uno o più dei tuoi alleati, lo &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordirai &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1343,7 +1418,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
     <Entry>
       <ID>3506</ID>
-      <DefaultText>Spara una saetta simile a una lancia su più bersagli, causando danno da Perforazione, respingendoli e Immobilizzandoli.</DefaultText>
+      <DefaultText>Spara una saetta simile a una lancia su più bersagli, causando danno da Perforazione, respingendoli e &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilizzandoli &#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&#178;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1396,6 +1471,31 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <DefaultText>Attacco a cono che fa volare all'indietro i bersagli con una possibilità di &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordimento&lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>3771</ID>
+      <DefaultText>Evoca un Posseduto che combatterà per il gruppo . Contiene 10 cariche.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>3772</ID>
+      <DefaultText>Menomazione maggiore</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3773</ID>
+      <DefaultText>Menomazione critica</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>3775</ID>
+      <DefaultText>Aumenta il livello di potere per la durata del combattimento.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>3794</ID>
+      <DefaultText>(Legame dell'Infiltrato) - Il Ranger guadagna anche un bonus alla Precisione quando lotta contro ogni nemico minacciato dal compagno animale.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>3812</ID>
       <DefaultText>(Il loro fetore putrido si spande) - i nemici nell'area ora sono &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseati &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
@@ -1428,7 +1528,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
     <Entry>
       <ID>3899</ID>
-      <DefaultText>Se Algol ti segue, ogni Alterazione alla tua Costituzione svanisce più rapidamente e i membri del gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
+      <DefaultText>Se Algol ti segue, ogni Alterazione della Costituzione svanisce più rapidamente e i membri del gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
       <FemaleText />
     </Entry>
    <Entry>
@@ -1448,7 +1548,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
     <Entry>
       <ID>4092</ID>
-      <DefaultText>Se il portatore è Insanguinato viene conferita un'Ispirazione della Mente casuale dalla lunga durata.</DefaultText>
+      <DefaultText>Se il portatore è Sanguinante viene conferita un'Ispirazione della Mente casuale dalla lunga durata.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
@@ -1458,7 +1558,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
     <Entry>
       <ID>4115</ID>
-      <DefaultText>Il lanciatore evoca frammenti di anima bestiale dalla Pelle pallida al fine di produrre un ululato terrificante che spaventa i nemici nelle vicinanze.</DefaultText>
+      <DefaultText>Il lanciatore evoca frammenti di anima bestiale dalla Pelle pallida al fine di produrre un ululato terrificante che provoca paura nei nemici nelle vicinanze.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1471,9 +1571,24 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <DefaultText>Conferisce resistenza alle Alterazioni della Costituzione quando si è In Salute o Incolumi.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>4144</ID>
+      <DefaultText>Consente al portatore di interrompere l'Ingaggio e di teletrasportarsi a breve distanza, &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Accecando &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; chiunque si trovi nelle immediate vicinanze.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>4145</ID>
       <DefaultText>Aura che annebbia le menti degli alleati nelle vicinanze, rendendoli più sensibili alle alterazioni di Acume.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>4151</ID>
+      <DefaultText>Durante il giorno, il portatore riceve un Livello di potere superiore per gli attacchi basati sull'elemento Fuoco.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>4152</ID>
+      <DefaultText>Durante la notte, il portatore riceve un Livello di potere superiore per gli attacchi basati sull'elemento Gelo.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1481,9 +1596,24 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <DefaultText>Aura che infligge danno puro nel tempo ai nemici nelle vicinanze, sulla base della loro Salute rimasta. (È inflitto un danno completo agli avversari Agonizzanti)</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>4158</ID>
+      <DefaultText>Il portatore è immune agli Arresti, nel caso in cui abbia una o più Menomazioni.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>4159</ID>
+      <DefaultText>Il portatore trasforma i danni da ustione in salute, nel caso in cui abbia una o più Menomazioni.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>4160</ID>
-      <DefaultText>Il portatore è immune alle Alterazioni della Costituzione nel caso in cui abbia una o più ferite.</DefaultText>
+      <DefaultText>Il portatore è immune alle alterazioni della Costituzione nel caso in cui abbia una o più Menomazioni.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>4245</ID>
+      <DefaultText>Ricuce la carne e aggiusta le ossa, rimuovendo le Menomazioni dal bersaglio. La procedura è molto cruenta, comunque, e il paziente ha le difese abbassate fino a quando non si sarà concesso il riposo necessario.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1578,7 +1708,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
     <Entry>
       <ID>4382</ID>
-      <DefaultText>Fa roteare la lama con un arco ampio e colpisce tutti i bersagli nelle vicinanze con Danno da Lacerazione/Perforazione mandandoli al tappeto o &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppandoli &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Fa roteare la lama con un arco ampio e colpisce tutti i bersagli nelle vicinanze con Danno da Lacerazione/Perforazione mandandoli al tappeto e &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppandoli &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1593,12 +1723,17 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
     <Entry>
       <ID>4483</ID>
-      <DefaultText>Lo spirito di Griffin potenzia il coraggio del gruppo. Conferisce &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Nerbo &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; al portatore e agli alleati nelle vicinanze se il portatore è Insanguinato.</DefaultText>
+      <DefaultText>Lo spirito di Griffin potenzia il coraggio del gruppo. Conferisce &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Nerbo &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; al portatore e agli alleati nelle vicinanze se il portatore è Sanguinante.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4512</ID>
       <DefaultText>Il ranger studia attentamente la zona circostante, guadagnando temporaneamente l'Ispirazione &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Profondo &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e una maggiore gittata dell'attacco a distanza.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>4516</ID>
+      <DefaultText>Usando delle tecniche di meditazione è possibile alleviare il dolore di un alleato Menomato, ripristinarne la salute gradualmente e sospendere ogni effetto ostile. (Può essere utilizzato solo su personaggi con Menomazioni).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
