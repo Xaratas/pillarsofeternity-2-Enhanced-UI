@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3.0.000 -->
+<!-- Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3.0.002 -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\cyclopedia</Name>
-  <NextEntryID>1</NextEntryID>
-  <EntryCount>3276</EntryCount>
   <Entries>
     <Entry>
       <ID>94</ID>
-    <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_perception tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Blinded characters suffer -5 Perception, are considered Flanked, +50% Recovery, -10 Accuracy, and the distance of all ranged attacks is halved. Blinded characters cannot use or be affected by Gaze attacks.</DefaultText>
+    <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Blinded characters suffer -5 Perception, are considered Flanked, +50% Recovery, -10 Accuracy, and the distance of all ranged attacks is halved. Blinded characters cannot use or be affected by Gaze attacks.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>96</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect tint=1&gt;&lt;/color&gt;&lt;/link&gt;. A Charmed character fights for their former enemies, but will only use basic attacks, no abilities.  -5 Intellect.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. A Charmed character fights for their former enemies, but will only use basic attacks, no abilities.  -5 Intellect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>98</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Confused characters are -5 Intellect and all of their abilities and attacks are friend or foe.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Confused characters are -5 Intellect and all of their abilities and attacks are friend or foe.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -27,13 +25,12 @@
     </Entry>
     <Entry>
       <ID>102</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect tint=1&gt;&lt;/color&gt;&lt;/link&gt;. A Dominated target is subservient to the will of the enemy and will use everything at its disposal to fight its former teammates. -5 Intellect.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. A Dominated target is subservient to the will of the enemy and will use everything at its disposal to fight its former teammates. -5 Intellect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>106</ID>
       <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. A Frightened character has -5 Resolve, -3 Power Level, and cannot use hostile spells or abilities.</DefaultText>
-	  <FemaleText />
     </Entry>
     <Entry>
       <ID>108</ID>
@@ -105,7 +102,7 @@ Some creatures, especially large ones, may be able to Engage more than one creat
     </Entry>
     <Entry>
       <ID>322</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_perception tint=1&gt;&lt;/color&gt;&lt;/link&gt;. A Distracted character has -5 Perception and is considered Flanked.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. A Distracted character has -5 Perception and is considered Flanked.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -120,7 +117,7 @@ Some creatures, especially large ones, may be able to Engage more than one creat
     </Entry>
     <Entry>
       <ID>681</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_perception tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Disoriented characters have -5 Perception, are considered Flanked, and have +50% Recovery after their actions.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Disoriented characters have -5 Perception, are considered Flanked, and have +50% Recovery after their actions.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -157,7 +154,7 @@ Each Inspiration is categorized by an Attribute, such as Might or Dexterity. Ins
     </Entry>
     <Entry>
       <ID>698</ID>
-      <DefaultText>The &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distracted&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Disoriented&#178;&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinded&lt;/color&gt;&lt;/link&gt; Afflictions affect the Perception attribute. These Afflictions can be countered by a &lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_perception tint=1&gt;&lt;/color&gt;&lt;/link&gt; (&lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Insightful&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Aware&#178;&lt;/color&gt;&lt;/link&gt;, or &lt;link="gamedata://c2fb23c5-9907-4654-b62e-77adbc37c9bc"&gt;&lt;#ca58ff&gt;Intuitive&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distracted&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Disoriented&#178;&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinded&lt;/color&gt;&lt;/link&gt; Afflictions affect the Perception attribute. These Afflictions can be countered by a &lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; (&lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Insightful&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Aware&#178;&lt;/color&gt;&lt;/link&gt;, or &lt;link="gamedata://c2fb23c5-9907-4654-b62e-77adbc37c9bc"&gt;&lt;#ca58ff&gt;Intuitive&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -182,12 +179,12 @@ Each Inspiration is categorized by an Attribute, such as Might or Dexterity. Ins
     </Entry>
     <Entry>
       <ID>707</ID>
-      <DefaultText>The &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Smart&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://c4ada862-ee17-4c10-8967-734e08daa4aa"&gt;&lt;#00a4ff&gt;Acute&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;Brilliant&lt;/color&gt;&lt;/link&gt; Inspirations affect the Intellect attribute. These Inspirations can be countered by an &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect tint=1&gt;&lt;/color&gt;&lt;/link&gt; (&lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charmed&lt;/color&gt;&lt;/link&gt;, or &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominated&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Smart&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://c4ada862-ee17-4c10-8967-734e08daa4aa"&gt;&lt;#00a4ff&gt;Acute&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;Brilliant&lt;/color&gt;&lt;/link&gt; Inspirations affect the Intellect attribute. These Inspirations can be countered by an &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; (&lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charmed&lt;/color&gt;&lt;/link&gt;, or &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominated&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>709</ID>
-      <DefaultText>The &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Insightful&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Aware&#178;&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://c2fb23c5-9907-4654-b62e-77adbc37c9bc"&gt;&lt;#ca58ff&gt;Intuitive&lt;/color&gt;&lt;/link&gt; Inspirations affect the Perception attribute. These Inspirations can be countered by a &lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_perception tint=1&gt;&lt;/color&gt;&lt;/link&gt; (&lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distracted&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Disoriented&#178;&lt;/color&gt;&lt;/link&gt;, or &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinded&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Insightful&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Aware&#178;&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://c2fb23c5-9907-4654-b62e-77adbc37c9bc"&gt;&lt;#ca58ff&gt;Intuitive&lt;/color&gt;&lt;/link&gt; Inspirations affect the Perception attribute. These Inspirations can be countered by a &lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; (&lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distracted&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Disoriented&#178;&lt;/color&gt;&lt;/link&gt;, or &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinded&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -197,17 +194,17 @@ Each Inspiration is categorized by an Attribute, such as Might or Dexterity. Ins
     </Entry>
     <Entry>
       <ID>713</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspiration&#160;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Strong characters have +5 Might.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Strong characters have +5 Might.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>715</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspiration&#160;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Tenacious characters have +5 Might and gain +2 Penetration.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Tenacious characters have +5 Might and gain +2 Penetration.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>717</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspiration&#160;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Energized characters have +5 Might, gain +2 Penetration and will Interrupt enemies with crits.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Energized characters have +5 Might, gain +2 Penetration and will Interrupt enemies with crits.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
