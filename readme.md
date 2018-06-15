@@ -21,3 +21,5 @@ This mod does not change the way spells and abilities work.
 [How-to: Add icons to texts using Notepad++ and RegEx](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/tools/regex/readme.md)
 
 [RegEx: Unused Entry ID's](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/tools/regex/removable_ids.md)
+
+[TextMesh Pro Documentation](http://digitalnativestudios.com/textmeshpro/docs/rich-text/) <-- this is a great starting point for anyone that wants to edit .stringtable files.
