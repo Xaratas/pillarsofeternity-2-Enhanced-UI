@@ -76,7 +76,7 @@
     </Entry>
     <Entry>
       <ID>77</ID>
-      <DefaultText>Durante un colpo critico possibilità di causare al bersaglio &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppato &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, Atterrato e danno puro nel tempo per 12 secondi o il -25% di Velocità d'azione</DefaultText>
+      <DefaultText>Durante un colpo critico possibilità di causare al bersaglio &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppato &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, Atterrato e Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo per 12 secondi o il -25% di Velocità d'azione</DefaultText>
       <FemaleText />
     </Entry>
    <Entry>
@@ -151,7 +151,7 @@
     </Entry>
     <Entry>
       <ID>226</ID>
-      <DefaultText>{0:triggercount} Danni da Corrosione ogni {0:value:duration} per {0:triggervalue:duration} in caso di colpo a segno ({0:extravalue:percent} di &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralizzare &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; il bersaglio all'istante)</DefaultText>
+      <DefaultText>{0:triggercount} Danni da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; ogni {0:value:duration} per {0:triggervalue:duration} in caso di colpo a segno ({0:extravalue:percent} di &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralizzare &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; il bersaglio all'istante)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -201,7 +201,7 @@
     </Entry>
     <Entry>
       <ID>271</ID>
-      <DefaultText>Se il bersaglio ha un'&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Alterazione &#160;della Risolutezza &#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, {0:triggercount} Danno puro ogni {0:extravalue:duration} per {0:value:duration} in caso di Critico</DefaultText>
+      <DefaultText>Se il bersaglio ha un'&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Alterazione &#160;della Risolutezza &#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, {0:triggercount} Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; ogni {0:extravalue:duration} per {0:value:duration} in caso di Critico</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -216,7 +216,7 @@
     </Entry>
     <Entry>
       <ID>284</ID>
-      <DefaultText>Rende &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseato &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; il bersaglio durante colpo critico per 12 secondi. Respinto da Tempra</DefaultText>
+      <DefaultText>Rende &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseato &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; il bersaglio durante colpo critico per 12 secondi. Respinto da &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
@@ -236,7 +236,7 @@
     </Entry>
 	<Entry>
       <ID>305</ID>
-      <DefaultText>AE con danno puro sui nemici K.O.</DefaultText>
+      <DefaultText>AE con danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; sui nemici K.O.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -256,7 +256,7 @@
     </Entry>
     <Entry>
       <ID>379</ID>
-      <DefaultText>{0:value:percent} probabilità di causare
+      <DefaultText>{0:value:percent} probabilità di causare 
       &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordimento &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; sul bersaglio per {0:extravalue:duration} durante un colpo a segno</DefaultText>
       <FemaleText />
     </Entry>
@@ -307,7 +307,7 @@
     </Entry>
     <Entry>
       <ID>451</ID>
-      <DefaultText>{0:value:percent} probabilità di lanciare da se stessi un attacco AE conico con danno da Corrosione  e di  &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppare &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; il bersaglio quando si attacca</DefaultText>
+      <DefaultText>{0:value:percent} probabilità di lanciare da se stessi un attacco AE conico con danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;  e di  &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppare &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; il bersaglio quando si attacca</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -359,6 +359,6 @@
       <ID>546</ID>
       <DefaultText>Rimuove tutte le Menomazioni</DefaultText>
       <FemaleText />
-    </Entry>
+    </Entry>	
   </Entries>
 </StringTableFile>
