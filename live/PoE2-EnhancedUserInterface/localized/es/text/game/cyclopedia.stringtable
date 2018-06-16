@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\cyclopedia</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>875</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>94</ID>
+      <DefaultText>Aflicción de percepción. Los personajes cegados sufren -5 de percepción, se consideran flanqueados, tienen +50% de recuperación, -10 de precisión y la distancia de todos los ataques a distancia se reduce a la mitad. Los personajes cegados no pueden usar ni verse afectados por los ataques de mirada.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>96</ID>
+      <DefaultText>Aflicción de intelecto. Un personaje encantado lucha por sus antiguos enemigos, pero solo usará ataques básicos, sin habilidades. -5 de intelecto.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>98</ID>
+      <DefaultText>Aflicción de intelecto. Los personajes confusos tienen -5 de intelecto y todas sus habilidades y ataques son amigos o enemigos.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>100</ID>
+      <DefaultText>Aflicción de fuerza. Una víctima desorientada tiene -5 de fuerza, no puede atacar y sufre -4 de perforación.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>102</ID>
+      <DefaultText>Aflicción de intelecto. Un objetivo dominado está subordinado a la voluntad del enemigo y utilizará todo lo que esté a su alcance para luchar contra sus antiguos compañeros de equipo. -5 de intelecto.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>106</ID>
+      <DefaultText>Aflicción de resolución. Un personaje asustado tiene -5 de resolución, -3 de nivel de poder y no puede usar hechizos ni habilidades hostiles.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>108</ID>
+      <DefaultText>Aflicción de destreza. Los personajes atrapados tienen -5 de destreza y el paso reducido.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>110</ID>
+      <DefaultText>Aflicción de destreza. Un objetivo paralizado no puede realizar ninguna acción. Tiene -5 de destreza y el 25% de todos los impactos contra él se convierten en impactos críticos.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>112</ID>
+      <DefaultText>El alma petrificada de un personaje transforma temporalmente su cuerpo en una piedra inmóvil y frágil. Sufre los mismos defectos que al estar paralizada, pero los ataques provocarán muchos más daños. Anula las aflicciones paralizado, aturdido, atascado y tumbado.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>116</ID>
+      <DefaultText>Aflicción de constitución. Un personaje enfermo tiene -5 de constitución y toda la sanación que llegue se reduce en un 25%.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>118</ID>
+      <DefaultText>Aflicción de destreza. Los personajes inmovilizados no pueden moverse y tienen -5 de destreza</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>120</ID>
+      <DefaultText>Aflicción de fuerza. Los personajes aturdidos no pueden realizar ninguna acción, no pueden asaltar, tienen una penalización de todas la defensas, -4 de perforación y -5 de fuerza.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>122</ID>
+      <DefaultText>Aflicción de resolución. Un personaje aterrado tiene -5 de resolución, -3 de nivel de poder y no puede realizar ninguna acción que no sea huir.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>124</ID>
+      <DefaultText>Aflicción de constitución. Los personajes debilitados tienen -5 de constitución y todas las curaciones que llegan se reducen a la mitad.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>140</ID>
+      <DefaultText>Un impacto crítico es cualquier jugada de ataque con un nivel superior a 100. Un impacto crítico que provoca daño aumenta el daño total en un 50%. Un impacto crítico sobre los efectos con duración (normalmente, aflicciones como enfermo o paralizado) aumentará la duración en un 50%.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>148</ID>
+      <DefaultText>Las aflicciones son conjuntos de efectos de estado agrupados que se pueden aplicar, suspender o eliminar totalmente de un personaje. Aunque algunas aflicciones tienen reglas explícitas de anulación o exclusividad, la mayoría pueden coexistir con otras aflicciones.
+
+Cuando se lanza un hechizo contra un objetivo, este y sus aflicciones y efectos subordinados se agrupan en un contenedor de lote procedimental creado por el hechizo.
+
+Si estos contenedores de lotes procedimentales se aplican mientras está activa una versión idéntica (por ejemplo, lanzar la bendición sobre alguien que ya está bajo el efecto de una bendición), la nueva versión sustituirá a la anterior.
+
+No importa cuántos efectos haya sobre el objetivo: generalmente, solo se aplican las mejores bonificaciones y las peores penalizaciones.
+
+Algunas criaturas pueden ser inmunes a una o más aflicciones. En estos casos, dichas aflicciones no se podrán aplicar a esas criaturas.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>203</ID>
+      <DefaultText>El asalto puede obtenerse a partir de hechizos, habilidades, talentos o llevando un escudo.
+
+El asalto sucede cada vez que un personaje ataca a un enemigo con un arma cuerpo a cuerpo a corta distancia. Tan pronto como el atacante se acerque lo suficiente, él o ella asaltará. Cuando un personaje sea asaltado por primera vez, él o ella dejará de moverse. El personaje es libre de moverse alrededor de su atacante, pero alejarse provocará un ataque de retirada. Si los personajes rompen el asalto, hay un tiempo limitado antes de que ese enemigo pueda volver a asaltarlos.
+
+Algunas aflicciones imposibilitan a un personaje para que asalte a un enemigo. Todas las aflicciones de fuerza impiden que el objetivo ataque a alguien, así como los efectos de paralizado, petrificado o derribado. Cada uno de estos efectos eliminará automáticamente el asalto y podrá usarse para salir del problema.
+
+Algunas criaturas, especialmente las más grandes, pueden asaltar a más de una criatura a la vez.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>322</ID>
+      <DefaultText>Aflicción de percepción. Un personaje distraído tiene -5 de percepción y se considera flanqueado.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>533</ID>
+      <DefaultText>Aflicción de resolución. Un personaje alterado sufre -5 de resolución y -3 de nivel de poder.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>679</ID>
+      <DefaultText>Aflicción de constitución. Los personajes desalentados tienen -5 de constitución, no se pueden sanar y todos los efectos hostiles que reciben duran un 50% más.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>681</ID>
+      <DefaultText>Aflicción de percepción. Los personajes desorientados tienen -5 de percepción, se les considera flanqueados y tienen +50% de recuperación tras sus acciones.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>683</ID>
+      <DefaultText>Aflicción de fuerza. Los personajes tambaleantes tienen -5 de fuerza y no pueden asaltar a los enemigos.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>687</ID>
+      <DefaultText>Las aflicciones de atrapado, inmovilizado y paralizado afectan al atributo de destreza. Estas aflicciones pueden contraatacarse con una inspiración de destreza (rápida, sagaz o veloz).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>689</ID>
+      <DefaultText>Las inspiraciones, como las aflicciones, son grupos de efectos que se aplican a los personajes. A diferencia de las aflicciones, las inspiraciones proporcionan beneficios positivos para el personaje que las recibe.
+
+Cada inspiración está categorizada por un atributo, como fuerza o destreza. Las inspiraciones contraatacan y conceden inmunidad a todas y cada una de las aflicciones del correspondiente atributo. Por ejemplo, la inspiración de inteligencia cancela y elimina las aflicciones confundido, encantado y dominado.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>695</ID>
+      <DefaultText>Las aflicciones tambaleante, desorientado y aturdido afectan al atributo de fuerza. Estas aflicciones pueden contraatacarse con una inspiración de fuerza (fuerte, tenaz o enérgico).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>696</ID>
+      <DefaultText>Las aflicciones de enfermo, debilitado y desalentado afectan al atributo de constitución. Estas aflicciones pueden contraatacarse con una inspiración de constitución (en forma, resistente o robusto).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>697</ID>
+      <DefaultText>Las aflicciones de confundido, encantado y dominado afectan al atributo de intelecto. Estas aflicciones pueden contraatacarse con una inspiración de intelecto (inteligente, agudo o brillante).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>698</ID>
+      <DefaultText>Las aflicciones de distraído, desorientado y ciego afectan al atributo de percepción. Estas aflicciones pueden contraatacarse con una inspiración de percepción (perspicaz, consciente o intuitivo).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>699</ID>
+      <DefaultText>Las aflicciones de alterado, asustado y aterrorizado afectan al atributo de resolución. Estas aflicciones pueden contraatacarse con una inspiración de resolución (resuelto, firme o valiente).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>701</ID>
+      <DefaultText>Las inspiraciones fuerte, tenaz y enérgico afectan al atributo de fuerza. Estas inspiraciones pueden contraatacarse con una aflicción de fuerza (tambaleante, desorientado o aturdido).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>703</ID>
+      <DefaultText>Las inspiraciones de en forma, resistente y robusto afectan al atributo de constitución. Estas inspiraciones pueden contraatacarse con una aflicción de constitución (enfermo, debilitado o desalentado).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>705</ID>
+      <DefaultText>Las inspiraciones de rápido, sagaz y veloz afectan al atributo de destreza. Estas inspiraciones pueden contraatacarse con una aflicción de destreza (atrapado, inmovilizado o paralizado).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>707</ID>
+      <DefaultText>Las inspiraciones de inteligente, agudo y brillante afectan al atributo de intelecto. Estas inspiraciones pueden contraatacarse con una aflicción de intelecto (confundido, encantado o dominado).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>709</ID>
+      <DefaultText>Las inspiraciones de perspicaz, consciente e intuitivo afectan al atributo de percepción. Estas inspiraciones pueden contraatacarse con una aflicción de percepción (distraído, desorientado o cegado).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>711</ID>
+      <DefaultText>Las inspiraciones de resolución, firme y valiente afectan al atributo de resolución. Estas inspiraciones pueden contraatacarse con una aflicción de resolución (alterado, asustado o aterrorizado).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>713</ID>
+      <DefaultText>Inspiración de fuerza. Los personajes fuertes tienen +5 de fuerza.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>715</ID>
+      <DefaultText>Inspiración de fuerza. Los personajes tenaces tienen +5 de fuerza y obtienen +2 de perforación.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>717</ID>
+      <DefaultText>Inspiración de fuerza. Los personajes enérgicos tienen +5 de fuerza, obtienen +2 de perforación e interrumpirán a enemigos con impactos críticos.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>719</ID>
+      <DefaultText>Inspiración de constitución. Los personajes en forma tienen +5 de constitución.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>721</ID>
+      <DefaultText>Inspiración de constitución. Los personajes resistentes tienen +5 de constitución y obtienen +2 de valor de armadura.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>723</ID>
+      <DefaultText>Inspiración de constitución. Los personajes robustos tienen +5 de constitución, obtienen +2 de valor de armadura y regenerarán la salud de forma periódica.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>725</ID>
+      <DefaultText>Inspiración de destreza. Los personajes rápidos tienen +5 de destreza.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>727</ID>
+      <DefaultText>Inspiración de destreza. Los personajes sagaces tienen +5 de destreza y obtienen +100% de pasos.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>729</ID>
+      <DefaultText>Inspiración de destreza. Los personajes veloces tienen +5 de destreza, obtienen +100% de pasos y los enemigos no pueden asaltarlos.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>731</ID>
+      <DefaultText>Inspiración de percepción. Los personajes perspicaces tienen +5 de percepción.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>733</ID>
+      <DefaultText>Inspiración de percepción. Los personajes conscientes tienen +5 de percepción y 50% de roce al impacto.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>735</ID>
+      <DefaultText>Inspiración de percepción. Los personajes intuitivos tienen +5 de percepción, 50% de roce al impacto y 25% de convertir impactos en impactos críticos.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>737</ID>
+      <DefaultText>Inspiración de intelecto. Los personajes inteligentes tienen +5 de intelecto.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>739</ID>
+      <DefaultText>Inspiración de intelecto. Los personajes agudos tienen +5 de intelecto y usan sus habilidades y hechizos a +1 de nivel de poder.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>741</ID>
+      <DefaultText>Inspiración de intelecto. Los personajes brillantes tienen +5 de intelecto, usan sus habilidades y hechizos a +1 de nivel de poder y recuperan periódicamente recursos de primera clase.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>743</ID>
+      <DefaultText>Inspiración de resolución. Los personajes resueltos tienen +5 de resolución.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>745</ID>
+      <DefaultText>Inspiración de resolución. Los personajes firmes tienen +5 de resolución y obtienen periódicamente concentración.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>747</ID>
+      <DefaultText>Inspiración de resolución. Los personajes valientes tienen +5 de resolución y son inmunes a la interrupción.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>
