@@ -1,0 +1,30 @@
+<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="StringTableFile">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element type="xsd:string" name="Name"/>
+        <xsd:element type="xsd:integer" name="NextEntryID"/>
+        <xsd:element type="xsd:integer" name="EntryCount"/>
+        <xsd:element name="Entries">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Entry" maxOccurs="unbounded" minOccurs="0">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element type="xsd:integer" name="ID"/>
+                    <xsd:element type="xsd:string" name="DefaultText"/>
+                    <xsd:element type="xsd:string" name="FemaleText"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+	<xsd:unique name="ids_sind_unique">
+		<xsd:selector xpath="Entries/Entry"/>
+		<xsd:field xpath="ID"/>
+	</xsd:unique>
+  </xsd:element>
+</xsd:schema>

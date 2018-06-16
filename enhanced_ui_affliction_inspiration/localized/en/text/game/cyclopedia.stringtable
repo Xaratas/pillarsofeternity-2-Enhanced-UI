@@ -2,6 +2,8 @@
 <!-- Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3.0.002 -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\cyclopedia</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>3276</EntryCount>
   <Entries>
     <Entry>
       <ID>94</ID>
@@ -31,6 +33,7 @@
     <Entry>
       <ID>106</ID>
       <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. A Frightened character has -5 Resolve, -3 Power Level, and cannot use hostile spells or abilities.</DefaultText>
+	  <FemaleText />
     </Entry>
     <Entry>
       <ID>108</ID>

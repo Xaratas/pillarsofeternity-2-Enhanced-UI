@@ -351,12 +351,12 @@
     </Entry>
     <Entry>
       <ID>836</ID>
-      <DefaultText>Erzeugt eine dicke Wand aus knorrigen Dornen, die Stichschaden zufügen. Bewirkt auch einen Gifteffekt, der das Ziel &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;schwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, wenn ihm ein Tapferkeitstest misslingt.</DefaultText>
+      <DefaultText>Erzeugt eine dicke Wand aus knorrigen Dornen, die Stichschaden zufügen. Bewirkt auch einen Gifteffekt, der das Ziel &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;schwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
-    </Entry>
+	</Entry>
     <Entry>
       <ID>839</ID>
-      <DefaultText>Lässt ein wunderschönes, jedoch Panik einflößendes Feld giftiger Blumen wachsen, die jenen im Wirkungsbereich mit den Wirkungen &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Geschwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; belegt, sowie ihnen Wundzeitschaden zufügt.</DefaultText>
+      <DefaultText>Lässt ein wunderschönes, jedoch Panik einflößendes Feld giftiger Blumen wachsen, die jenen im Wirkungsbereich mit den Wirkungen &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Geschwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; belegt, sowie ihnen direkten Schaden über Zeit zufügt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -406,7 +406,7 @@
     </Entry>
     <Entry>
       <ID>886</ID>
-      <DefaultText>Die Hände des Mönchs werden zu einer rasend &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Schnellen &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Folge von Angriffen, wodurch seine Angriffsrate kurzzeitig erhöht wird.</DefaultText>
+      <DefaultText>Die Hände des Mönchs werden zu einer rasend schnellen Folge von Angriffen, wodurch seine Angriffsrate kurzzeitig erhöht und ihm die Inspiration &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Schnell &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; gewährt wird.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -416,7 +416,7 @@
     </Entry>
     <Entry>
       <ID>897</ID>
-      <DefaultText>Indem bestimmte Punkte des Gegners werden, kann der Mönch körperliche Schwäche hervorrufen. Bei Kritischen Nahkampftreffern wird das Ziel &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Geschwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Indem bestimmte Punkte des Gegners anvisiert werden, kann der Mönch körperliche Schwäche hervorrufen. Bei Kritischen Treffern von Nahkampfwaffen wird das Ziel &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Geschwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -446,7 +446,7 @@
     </Entry>
     <Entry>
       <ID>1015</ID>
-      <DefaultText>Erzeugt einen schrecklichen Schrei, der alle Feinde im Wirkungsbereich &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Erzeugt einen furchterregenden Schrei, der alle Feinde im Wirkungsbereich &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -462,16 +462,6 @@
     <Entry>
       <ID>1050</ID>
       <DefaultText>Der Kämpfer wird widerstandsfähig gegen Machtwirkungen (&lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Taumelnd &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;,&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt; Benommen &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1052</ID>
-      <DefaultText>Im Status Verletzt oder besser erhält der Barbar Widerstand gegen Wirkungen auf den Körper.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1058</ID>
-      <DefaultText>Der tierische Gefährte des Waldläufers wird widerstandsfähig gegenüber Intellekt- und Wahrnehmungs-Wirkung.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -671,7 +661,7 @@
     </Entry>
     <Entry>
       <ID>2032</ID>
-      <DefaultText>(&lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Zähe &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;r Gefährte) – Gewährt dem Gefährten außerdem die Inspiration &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Zäher Gefährte) – Gewährt dem Gefährten außerdem die Inspiration&lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt; Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1205,11 +1195,6 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>4092</ID>
-      <DefaultText>Wenn der Träger so sehr verletzt wurde, dass Blut fließt, erhält er über eine lange Dauer eine zufällige Geistesinspiration.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>4113</ID>
       <DefaultText>Gewährt zu Beginn des Kampfes für kurze Zeit die Inspirationen &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Standhaft &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
@@ -1336,7 +1321,7 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
     </Entry>
     <Entry>
       <ID>4483</ID>
-      <DefaultText>Der Geist von Griffin erhöht den Mut der Gruppe. Gewährt dem Träger und allen nahen Verbündeten &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Standhaft &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, wenn der Träger so sehr verletzt wurde, dass Blut fließt.</DefaultText>
+      <DefaultText>Der Geist von Griffin erhöht den Mut der Gruppe. Gewährt dem Träger und allen nahen Verbündeten &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Standhaft &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, wenn der Träger Schwer verletzt ist.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
