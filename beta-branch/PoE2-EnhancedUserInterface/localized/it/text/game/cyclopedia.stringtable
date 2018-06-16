@@ -91,7 +91,7 @@
 
 Le Alterazioni di Attributo possono essere respinte facilmente con la corrispondente Ispirazione di Attributo, che garantirà anche l'Immunità a quella categoria di Alterazioni. Per esempio ogni &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Alterazione&#160; della Destrezza &#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; può essere rimossa dalle Ispirazioni &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Veloce&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Lesto&lt;/color&gt;&lt;/link&gt;, o &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Rapido&lt;/color&gt;&lt;/link&gt;.
 
-Alcuni personaggi sono completamente Immuni ad una o più Alterazioni. Se il personaggio ha Resistenza ad una categoria di Alterazioni, le Alterazioni di quel tipo in arrivo verrano depotenziate. La Resistenza garantisce una completa immunità alle Alterazioni più deboli di quell'Attributo. 
+Alcuni personaggi sono completamente Immuni ad una o più Alterazioni. Se il personaggio ha Resistenza ad una categoria di Alterazioni, le Alterazioni di quel tipo in arrivo verrano depotenziate. La Resistenza garantisce una completa immunità alle Alterazioni più deboli di quell'Attributo.
 
 Per esempio: Gli Elfi dei Boschi Hanno Resistenza a &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Alterazioni&#160; della Destrezza &lt;/color&gt;&lt;/link&gt;. Un Elfo dei Boschi colpito dall'effetto &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilizzato&lt;/color&gt;&lt;/link&gt; sarà invece colpito da &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppato&lt;/color&gt;&lt;/link&gt;. Se quell'elfo fosse stato colpito dall'effetto &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppato&lt;/color&gt;&lt;/link&gt; , esso non si applicherà del tutto.</DefaultText>
       <FemaleText />
@@ -111,7 +111,7 @@ Alcune creature, specialmente quelle più grandi, potrebbero essere in grado di 
       <ID>315</ID>
       <DefaultText>Le armi con legame dell'anima sono oggetti unici che possono stabilire un collegamento magico con l'anima di un singolo personaggio. Una volta legata, l'arma può essere usata solo da quel personaggio, a meno che il legame non venga reciso. Un'arma con legame dell'anima acquisirà più potere man mano che il suo proprietario soddisfa i requisiti indicati nella descrizione della stessa.
 
-I poteri che verranno acquisiti saranno differenti a seconda della classe del personaggio, in caso di personaggi multiclasse si dovrà scegliere a quale classe associare l'arma. 
+I poteri che verranno acquisiti saranno differenti a seconda della classe del personaggio, in caso di personaggi multiclasse si dovrà scegliere a quale classe associare l'arma.
 
 Se il legame dell'anima viene reciso, l'arma perde tutte le abilità guadagnate nel corso del tempo.</DefaultText>
       <FemaleText />
