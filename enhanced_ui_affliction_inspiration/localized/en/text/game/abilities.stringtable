@@ -12,7 +12,8 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
 - Changed the distance between the Dexterity icon and it's rank indicator.
 - Added color for reputation gain in gui.stringtable
 - Added cyclopedia entries for all damage types.
-- Added icon to Deflection, Fortitude, Will and Reflex.
+- Added icon to defensive stats.
+- Fixed some Resolve keywords getting the wrong color and icon.
 
 -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -122,7 +123,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>275</ID>
-      <DefaultText>Bares the enemies' combat vulnerabilities for all to see, Interrupting them, as well as reducing their Armor Rating and &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Bares the enemies' combat vulnerabilities for all to see, Interrupting them, as well as reducing their &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -162,7 +163,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>288</ID>
-      <DefaultText>The cipher uses the target's strength of mind against it, stealing a portion of its Resolve in order to gain the &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#ca58ff&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration.</DefaultText>
+      <DefaultText>The cipher uses the target's strength of mind against it, stealing a portion of its Resolve in order to gain the &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -197,7 +198,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>311</ID>
-      <DefaultText>Commands an ally to summon all their strength in order to temporarily ignore existing hostile effects and also grants them the &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#ca58ff&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration. (Hostile effects will resume once this effect ends.)</DefaultText>
+      <DefaultText>Commands an ally to summon all their strength in order to temporarily ignore existing hostile effects and also grants them the &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration. (Hostile effects will resume once this effect ends.)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -337,12 +338,12 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>455</ID>
-      <DefaultText>Creates a burst of deadly force around the caster, causing any enemies in the immediate vicinity to take &lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;b&gt;Pierce&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; damage - bypassing nearly all Armor Rating.</DefaultText>
+      <DefaultText>Creates a burst of deadly force around the caster, causing any enemies in the immediate vicinity to take &lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;b&gt;Pierce&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; damage - bypassing nearly all &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>458</ID>
-      <DefaultText>The priest clears their mind, spreading that clarity to nearby allies, thereby granting the &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#ca58ff&gt;&lt;b&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration.</DefaultText>
+      <DefaultText>The priest clears their mind, spreading that clarity to nearby allies, thereby granting the &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;&lt;b&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -362,7 +363,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>485</ID>
-      <DefaultText>Grants a divine favor to an ally, imbuing them with the &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#ca58ff&gt;&lt;b&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;&lt;b&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspirations, as well as bonus Engagement, while the effect lasts.</DefaultText>
+      <DefaultText>Grants a divine favor to an ally, imbuing them with the &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;&lt;b&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;&lt;b&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspirations, as well as bonus Engagement, while the effect lasts.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -377,7 +378,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>500</ID>
-      <DefaultText>Crowns allies in the glory of the priest's god, imbuing all allies in the area of effect with the &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;&lt;b&gt;Insightful&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;&lt;b&gt;Smart&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#ca58ff&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspirations.</DefaultText>
+      <DefaultText>Crowns allies in the glory of the priest's god, imbuing all allies in the area of effect with the &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;&lt;b&gt;Insightful&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;&lt;b&gt;Smart&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspirations.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -472,7 +473,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>564</ID>
-      <DefaultText>Shocks a target's visual receptors, &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinding&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sub&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/sub&gt;&lt;/color&gt;&lt;/link&gt; them and nearby enemies. </DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shocks&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; a target's visual receptors, &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinding&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sub&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/sub&gt;&lt;/color&gt;&lt;/link&gt; them and nearby enemies. </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -542,7 +543,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>603</ID>
-      <DefaultText>Burns away the ethereal sinew that holds together the mind, body, and soul of the target enemy, causing it to rapidly take &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; damage. Targets that have their Health reduced to zero disintegrate into nonexistence.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burns&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; away the ethereal sinew that holds together the mind, body, and soul of the target enemy, causing it to rapidly take &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; damage. Targets that have their Health reduced to zero disintegrate into nonexistence.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -652,7 +653,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>812</ID>
-      <DefaultText>Empowers allies in the area of effect with the &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;&lt;b&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#ca58ff&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspirations. </DefaultText>
+      <DefaultText>Empowers allies in the area of effect with the &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;&lt;b&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspirations. </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -703,7 +704,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>827</ID>
-      <DefaultText>Creates a thick layer of bark over allies in the area of effect, affording them an Armor Rating bonus to &lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;b&gt;Pierce&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;. </DefaultText>
+      <DefaultText>Creates a thick layer of bark over allies in the area of effect, affording them an &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; bonus to &lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;b&gt;Pierce&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;. </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -753,7 +754,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>847</ID>
-      <DefaultText>Engulfs the caster in fire, increasing their &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; Armor Rating and causing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage to anyone who damages them with a melee attack.</DefaultText>
+      <DefaultText>Engulfs the caster in fire, increasing their &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; and causing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage to anyone who damages them with a melee attack.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -898,7 +899,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>1016</ID>
-      <DefaultText>Antelope companions have naturally superior defenses (Deflection, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;Fortitude&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;Will&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>Antelope companions have naturally superior defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;Fortitude&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;Will&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -958,7 +959,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>1212</ID>
-      <DefaultText>With a touch of their hands, the paladin imbues themselves or an ally within range with light, restoring a substantial amount of Health and granting the &lt;link="gamedata://dc62af47-239f-4ee4-8d91-a5e8b3b97564"&gt;&lt;#ca58ff&gt;&lt;b&gt;Courageous&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration.</DefaultText>
+      <DefaultText>With a touch of their hands, the paladin imbues themselves or an ally within range with light, restoring a substantial amount of Health and granting the &lt;link="gamedata://dc62af47-239f-4ee4-8d91-a5e8b3b97564"&gt;&lt;#30d3d5&gt;&lt;b&gt;Courageous&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -983,7 +984,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>1307</ID>
-      <DefaultText>When fire godlike are Bloodied or Near Death, their bodies harden, granting additional Armor Rating, and their souls lash out at attackers, causing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage to anyone who hits them in melee.</DefaultText>
+      <DefaultText>When fire godlike are Bloodied or Near Death, their bodies harden, granting additional &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;, and their souls lash out at attackers, causing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage to anyone who hits them in melee.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1033,7 +1034,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>1465</ID>
-      <DefaultText>The druid casts a powerful aegis against the forces of nature over their allies, granting Armor Rating against &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; damage.</DefaultText>
+      <DefaultText>The druid casts a powerful aegis against the forces of nature over their allies, granting &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; against &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; damage.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1098,13 +1099,13 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>1573</ID>
-      <DefaultText>A truly unique spell, Concelhaut's Crushing Doom summons an enormous magical hammer that repeatedly slams down into its target, doing &lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;Crush&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; damage and knocking them Prone. The hammer strikes repeatedly, becoming larger, more accurate, and more damaging each time.
+      <DefaultText>A truly unique spell, Concelhaut's &lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;Crushing&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; Doom summons an enormous magical hammer that repeatedly slams down into its target, doing &lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;Crush&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; damage and knocking them Prone. The hammer strikes repeatedly, becoming larger, more accurate, and more damaging each time.
 </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1577</ID>
-      <DefaultText>Devastates enemies with a powerful blast of cold air that inflicts &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;Crush&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; damage (with high Penetration) and slows movement.</DefaultText>
+      <DefaultText>Devastates enemies with a powerful blast of cold air that inflicts &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;Crush&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; damage (with high &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;) and slows movement.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1265,22 +1266,22 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>1962</ID>
-      <DefaultText>(Greater Wildstrike Burn) - With greater knowledge of the forces of nature, inflict even more additional &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage when spiritshifted.</DefaultText>
+      <DefaultText>(Greater Wildstrike &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;) - With greater knowledge of the forces of nature, inflict even more additional &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage when spiritshifted.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1964</ID>
-      <DefaultText>(Greater Wildstrike Corrode) - With greater knowledge of the forces of nature, inflict even more additional &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; damage when spiritshifted.</DefaultText>
+      <DefaultText>(Greater Wildstrike &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;) - With greater knowledge of the forces of nature, inflict even more additional &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; damage when spiritshifted.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1967</ID>
-      <DefaultText>(Greater Wildstrike Freeze) - With greater knowledge of the forces of nature, inflict even more additional &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; damage when spiritshifted.</DefaultText>
+      <DefaultText>(Greater Wildstrike &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;) - With greater knowledge of the forces of nature, inflict even more additional &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; damage when spiritshifted.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1968</ID>
-      <DefaultText>(Greater Wildstrike Shock) - With greater knowledge of the forces of nature, inflict even more additional &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; damage when spiritshifted.</DefaultText>
+      <DefaultText>(Greater Wildstrike &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;) - With greater knowledge of the forces of nature, inflict even more additional &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; damage when spiritshifted.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1325,7 +1326,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>2029</ID>
-      <DefaultText>Sacrifice ranged Action Speed for increased Armor Penetration. During this time Critical Hits will &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilize&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;sub&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sub&gt;&lt;/color&gt;&lt;/link&gt; targets.</DefaultText>
+      <DefaultText>Sacrifice ranged Action Speed for increased Armor &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;. During this time Critical Hits will &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilize&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;sub&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sub&gt;&lt;/color&gt;&lt;/link&gt; targets.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1337,7 +1338,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
       <ID>2038</ID>
       <DefaultText>The rogue strikes their target violently in the head, interrupting them. The bonus effects of this attack vary based on the type of weapon used.
 
-Ranged: Bonus Penetration
+Ranged: Bonus &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;
 Two-Handed: Applies &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Staggered&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sub&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sub&gt;&lt;/color&gt;&lt;/link&gt;
 One-Handed: &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; Damage over time</DefaultText>
       <FemaleText />
@@ -1384,7 +1385,7 @@ One-Handed: &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt
     </Entry>
     <Entry>
       <ID>2076</ID>
-      <DefaultText>Cause a reverberating wave to wash over all those near a target ally, granting friendly characters the &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#ca58ff&gt;&lt;b&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration and removing Concentration from enemies.</DefaultText>
+      <DefaultText>Cause a reverberating wave to wash over all those near a target ally, granting friendly characters the &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;&lt;b&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration and removing Concentration from enemies.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1500,9 +1501,9 @@ Max Focus is reduced. (Combat starting amount as well)</DefaultText>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 +1 Engagement.
 
-Increased Penetration on Disengagement Attacks.
+Increased &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; on Disengagement Attacks.
 
-Gains "Shield Mastery" providing bonus Armor Rating while wearing a shield.
+Gains "Shield Mastery" providing bonus &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; while wearing a shield.
 
 &lt;b&gt;Penalty&lt;/b&gt;
 Lower Stride in combat.
@@ -1534,7 +1535,7 @@ Flames of Devotion deals additional &lt;link="glossary://GlossaryEntry_Corrode"&
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 Bonus Hit to Crit conversion when attacking targets greater than 4m away.
 
-Bonus Penetration when attacking targets 4m or closer.
+Bonus &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; when attacking targets 4m or closer.
 
 &lt;b&gt;Penalty&lt;/b&gt;
 Slower Recovery Time.
@@ -1545,7 +1546,7 @@ Lower &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/
     <Entry>
       <ID>2299</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-The stalker and their companion gain bonus &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and Armor Rating when within 4m of each other.
+The stalker and their companion gain bonus &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; when within 4m of each other.
 
 &lt;b&gt;Penalty&lt;/b&gt;
 The stalker and their companion suffer Bonded Grief when they are more than 7m from each other.</DefaultText>
@@ -1641,12 +1642,12 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>2476</ID>
-      <DefaultText>(Remanding Exhortation) - &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#ca58ff&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration upgraded to &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#ca58ff&gt;&lt;b&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Remanding Exhortation) - &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration upgraded to &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;&lt;b&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2478</ID>
-      <DefaultText>(Liberating Command) - Grants the &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;&lt;b&gt;Quick&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration, in addition to &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#ca58ff&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Liberating Command) - Grants the &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;&lt;b&gt;Quick&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration, in addition to &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1656,7 +1657,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>2484</ID>
-      <DefaultText>(Reinforcing Command) - Grants the target the &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#ca58ff&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration, in addition to &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;&lt;b&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Reinforcing Command) - Grants the target the &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration, in addition to &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;&lt;b&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1756,7 +1757,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>2590</ID>
-      <DefaultText>Leave yourself vulnerable to make powerful driving attacks with your estoc. Gaining Penetration at the cost of &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Leave yourself vulnerable to make powerful driving attacks with your estoc. Gaining &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; at the cost of &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1821,7 +1822,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>2672</ID>
-      <DefaultText>(Unbending Shield) - The fighter and their allies now also gain the &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#ca58ff&gt;&lt;b&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration.</DefaultText>
+      <DefaultText>(Unbending Shield) - The fighter and their allies now also gain the &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;&lt;b&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2006,22 +2007,22 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>2896</ID>
-      <DefaultText>(Wildstrike Frenzy Burn) - Each kill while spiritshifted will increase the duration of the spiritshift effect and will &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; and deal damage over time to nearby enemies.</DefaultText>
+      <DefaultText>(Wildstrike Frenzy &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;) - Each kill while spiritshifted will increase the duration of the spiritshift effect and will &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; and deal damage over time to nearby enemies.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2898</ID>
-      <DefaultText>(Wildstrike Frenzy Corrode) - Each kill while spiritshifted will increase the duration of the spiritshift effect and will &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; and lower the Armor Rating of nearby enemies.</DefaultText>
+      <DefaultText>(Wildstrike Frenzy &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;) - Each kill while spiritshifted will increase the duration of the spiritshift effect and will &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; and lower the &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; of nearby enemies.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2900</ID>
-      <DefaultText>(Wildstrike Frenzy Freeze) - Each kill while spiritshifted will increase the duration of the spiritshift effect and will &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; and slow the Action Speed of nearby enemies.</DefaultText>
+      <DefaultText>(Wildstrike Frenzy &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;) - Each kill while spiritshifted will increase the duration of the spiritshift effect and will &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; and slow the Action Speed of nearby enemies.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2902</ID>
-      <DefaultText>(Wildstrike Frenzy Shock) - Each kill while spiritshifted will increase the duration of the spiritshift effect and will &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; and Interrupt nearby enemies.</DefaultText>
+      <DefaultText>(Wildstrike Frenzy &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;) - Each kill while spiritshifted will increase the duration of the spiritshift effect and will &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; and Interrupt nearby enemies.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2146,7 +2147,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>3435</ID>
-      <DefaultText>Sounds an echo of Aamiina's warning to the Blue Water tribe. Grants the &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#ca58ff&gt;&lt;b&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration to nearby allies and the &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#30d3d5&gt;Shaken&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sub&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sub&gt;&lt;/color&gt;&lt;/link&gt; Affliction to nearby enemies.</DefaultText>
+      <DefaultText>Sounds an echo of Aamiina's warning to the Blue Water tribe. Grants the &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;&lt;b&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration to nearby allies and the &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#30d3d5&gt;Shaken&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sub&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sub&gt;&lt;/color&gt;&lt;/link&gt; Affliction to nearby enemies.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2176,7 +2177,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>3521</ID>
-      <DefaultText>Kapana Taga's wielder stands alone against all challengers. Increases Armor Rating and &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when no allies are nearby.</DefaultText>
+      <DefaultText>Kapana Taga's wielder stands alone against all challengers. Increases &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when no allies are nearby.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2196,7 +2197,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>3596</ID>
-      <DefaultText>Lady Kaul sings through the blade. Randomly grants bonus Armor Rating, melee Damage, or &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; at the start of combat.</DefaultText>
+      <DefaultText>Lady Kaul sings through the blade. Randomly grants bonus &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;, melee Damage, or &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; at the start of combat.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2231,7 +2232,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>3749</ID>
-      <DefaultText>Sharpshooters focus their attention entirely on ranged combat, relying on their animal companions to provide defense for them. Their Penetration and Accuracy with ranged weapons is superior, but they take more time to recover between attacks and have poor &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Sharpshooters focus their attention entirely on ranged combat, relying on their animal companions to provide defense for them. Their &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; and Accuracy with ranged weapons is superior, but they take more time to recover between attacks and have poor &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2286,7 +2287,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>3835</ID>
-      <DefaultText>Prepare a target for your blade. Lowers target's Melee &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and Armor Rating against &lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;b&gt;Slash&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; Damage.</DefaultText>
+      <DefaultText>Prepare a target for your blade. Lowers target's Melee &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; against &lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;b&gt;Slash&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; Damage.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2391,12 +2392,12 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>4113</ID>
-      <DefaultText>Grants the &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;&lt;b&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#ca58ff&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspirations for a short time at the beginning of combat.</DefaultText>
+      <DefaultText>Grants the &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;&lt;b&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspirations for a short time at the beginning of combat.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4132</ID>
-      <DefaultText>Aura that provides nearby allies with a bonus to Armor Rating, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;Fortitude&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;Will&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; if their relationship with the armor's wearer is positive.</DefaultText>
+      <DefaultText>Aura that provides nearby allies with a bonus to &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;Fortitude&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;Will&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; if their relationship with the armor's wearer is positive.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2481,7 +2482,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>4313</ID>
-      <DefaultText>(No Pity for the Lost) - Souls now also provide the &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#ca58ff&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration to the Watcher.</DefaultText>
+      <DefaultText>(No Pity for the Lost) - Souls now also provide the &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration to the Watcher.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2531,7 +2532,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>4361</ID>
-      <DefaultText>Aura that inflicts &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; Damage over time to nearby enemies and lowers their Armor Rating. (Full Damage is dealt to those nearest to death)</DefaultText>
+      <DefaultText>Aura that inflicts &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; Damage over time to nearby enemies and lowers their &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;. (Full Damage is dealt to those nearest to death)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2571,7 +2572,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>4483</ID>
-      <DefaultText>The spirit of Griffin bolsters the party's courage. Grants &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#ca58ff&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; to the wielder and nearby allies when the wielder is Bloodied.</DefaultText>
+      <DefaultText>The spirit of Griffin bolsters the party's courage. Grants &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; to the wielder and nearby allies when the wielder is Bloodied.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2626,7 +2627,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>4634</ID>
-      <DefaultText>Gather your thoughts and channel your strength into a state of pure focused discipline, granting all first tier Inspirations for a short time. (&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;&lt;b&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;&lt;b&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;&lt;b&gt;Quick&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;&lt;b&gt;Insightful&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;&lt;b&gt;Smart&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#ca58ff&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;)</DefaultText>
+      <DefaultText>Gather your thoughts and channel your strength into a state of pure focused discipline, granting all first tier Inspirations for a short time. (&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;&lt;b&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;&lt;b&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;&lt;b&gt;Quick&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;&lt;b&gt;Insightful&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;&lt;b&gt;Smart&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;&lt;b&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;sup&gt;&lt;space=0.7em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
