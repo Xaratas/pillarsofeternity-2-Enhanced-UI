@@ -1,94 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3.1-006-beta -->
+<!-- Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3.2-beta -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\gui</Name>
   <Entries>
     <Entry>
       <ID>391</ID>
-      <DefaultText>&lt;#2E7D32&gt;{0} reputation gained&lt;/color&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;#2E7D32&gt;{0} reputation gained&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>392</ID>
-      <DefaultText>&lt;#B71C1C&gt;{0} reputation lost&lt;/color&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;#B71C1C&gt;{0} reputation lost&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4756</ID>
-      <DefaultText>&lt;#2E7D32&gt;{0} {1} reputation gained with {2}.&lt;/color&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;#2E7D32&gt;{0} {1} reputation gained with {2}.&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4757</ID>
-      <DefaultText>&lt;#B71C1C&gt;{0} {1} reputation lost with {2}.&lt;/color&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;#B71C1C&gt;{0} {1} reputation lost with {2}.&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>88002</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; damage bypasses all &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;, having no need to &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetrate&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; damage bypasses all &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;, having no need to &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetrate&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID> 88001 </ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; damage is a type of elemental damage based on electricity. Often the abilities and spells that use them create lightning bolts that can propagate in an AE, bounce on walls and stun the targets.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; damage is a type of elemental damage based on electricity. Often the abilities and spells that use them create lightning bolts that can propagate in an AE, bounce on walls and stun the targets.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>88003</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage is a type of elemental damage based on Fire. Often the abilities and spells that use it create flare-ups in an AE that can spread and / or cause damage over time. In addition, the flammable surfaces are affected as well as gunpowder, allowing pyrotechnic explosions to chain.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage is a type of elemental damage based on Fire. Often the abilities and spells that use it create flare-ups in an AE that can spread and / or cause damage over time. In addition, the flammable surfaces are affected as well as gunpowder, allowing pyrotechnic explosions to chain.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
         </Entry>
     <Entry>
       <ID>88004</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; damage is a type of elemental damage based on Ice. Often the abilities and spells that use it create ice spikes or storms that can slow down or paralyze targets or cause damage over time.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; damage is a type of elemental damage based on Ice. Often the abilities and spells that use it create ice spikes or storms that can slow down or paralyze targets or cause damage over time.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
         </Entry>
     <Entry>
       <ID>88005</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; damage is a type of elemental damage based on Acid. Often the abilities and spells that use it cause damage over time or can cause &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;&lt;b&gt;Constitution&lt;/b&gt;&lt;space=0.7em&gt;Afflictions&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; damage is a type of elemental damage based on Acid. Often the abilities and spells that use it cause damage over time or can cause &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;&lt;b&gt;Constitution&lt;/b&gt;&lt;space=0.7em&gt;Afflictions&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
         </Entry>
     <Entry>
       <ID>88006</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;Crush&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; damage is a type of Physical Damage. Often the abilities and spells that use it allow to Interrupt, knockdown or &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stun&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sub&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;3&lt;/size&gt;&lt;/sub&gt;&lt;/color&gt;&lt;/link&gt; and deal &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; Damage to targets.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;Crush&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; damage is a type of Physical Damage. Often the abilities and spells that use it allow to Interrupt, knockdown or &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stun&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sub&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;3&lt;/size&gt;&lt;/sub&gt;&lt;/color&gt;&lt;/link&gt; and deal &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; Damage to targets.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
         </Entry>
     <Entry>
       <ID>88007</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;b&gt;Pierce&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; damage is a type of physical damage. Often the abilities and spells that use it allow to cross the &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;b&gt;Pierce&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; damage is a type of physical damage. Often the abilities and spells that use it allow to cross the &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
         </Entry>
     <Entry>
       <ID>88008</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;b&gt;Slash&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; damage is a type of physical damage. Often the skills and spells that use it cause damage over time.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;b&gt;Slash&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; damage is a type of physical damage. Often the skills and spells that use it cause damage over time.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>88009</ID>
-      <DefaultText>Defenders excel at resisting attacks or being able to take a large amount of punishment in combat.
+      <DefaultText>&lt;line-height=100%&gt;Defenders excel at resisting attacks or being able to take a large amount of punishment in combat.
 
-Defender classes include: Barbarian, Fighter, Monk, Paladin, and Ranger.</DefaultText>
+Defender classes include: Barbarian, Fighter, Monk, Paladin, and Ranger.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>88010</ID>
-      <DefaultText>Strikers are unequaled in their ability to inflict large amounts of damage and crippling afflictions to single targets.
+      <DefaultText>&lt;line-height=100%&gt;Strikers are unequaled in their ability to inflict large amounts of damage and crippling afflictions to single targets.
 
-Striker classes include: Cipher, Druid, Fighter, Monk, Ranger, Rogue, and Wizard.</DefaultText>
+Striker classes include: Cipher, Druid, Fighter, Monk, Ranger, Rogue, and Wizard.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>88011</ID>
-      <DefaultText>Support characters aid their allies with defensive bonuses, healing, or protective wards.
+      <DefaultText>&lt;line-height=100%&gt;Support characters aid their allies with defensive bonuses, healing, or protective wards.
 
-Support classes include: Chanter, Paladin, and Priest.</DefaultText>
+Support classes include: Chanter, Paladin, and Priest.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>88012</ID>
-      <DefaultText>Classes that focus on crowd control can inflict heavy damage and negative effects on groups of enemies.
+      <DefaultText>&lt;line-height=100%&gt;Classes that focus on crowd control can inflict heavy damage and negative effects on groups of enemies.
 
-Crowd Control classes include: Barbarian, Chanter, Cipher, Druid, and Wizard.</DefaultText>
+Crowd Control classes include: Barbarian, Chanter, Cipher, Druid, and Wizard.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
