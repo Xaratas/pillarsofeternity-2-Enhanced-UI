@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3.2-beta
+Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3.2-01
 
 ### CHANGELOG ###
 
+0.3.2-01
+
+- Fixed a few incorrect keyword stylizations.
+- Might inspirations should now use the new icon and rank syntax.
+
 0.3.2
 
-- Huge changes to how Affliction and Inspiration icons are displayed. No need for sub/sup tags or similar.
-- Line heights should no longer be affected by icon size.
+- Huge changes to how Affliction and Inspiration icons are displayed. No need for sub/sup tags or similar anymore.
+- Line heights should no longer be affected by icon size or text palcement (the <voffset> tag for example).
 
 
 0.3.1
@@ -51,7 +56,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>245</ID>
-      <DefaultText>&lt;line-height=100%&gt;Creates a zone of divine favor around the caster, granting the &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration to allies in the area of effect.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a zone of divine favor around the caster, granting the &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#f7b733&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration to allies in the area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -201,7 +206,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>305</ID>
-      <DefaultText>&lt;line-height=100%&gt;Paladins can command an unconscious ally to get back up with a large instant spike in Health, while also granting the &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration. However, the ally will lose half of the regained Health after a short duration.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Paladins can command an unconscious ally to get back up with a large instant spike in Health, while also granting the &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#f7b733&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration. However, the ally will lose half of the regained Health after a short duration.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -366,12 +371,12 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>483</ID>
-      <DefaultText>&lt;line-height=100%&gt;Imparts to allies the fervor of righteousness in battle, granting them the &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration. When any ally in the area of effect delivers a killing blow, he or she regains Health.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Imparts to allies the fervor of righteousness in battle, granting them the &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#f7b733&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration. When any ally in the area of effect delivers a killing blow, he or she regains Health.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>485</ID>
-      <DefaultText>&lt;line-height=100%&gt;Grants a divine favor to an ally, imbuing them with the &lt;link="glossary://GlossaryEntry_Resolute"&gt;&lt;#30d3d5&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspirations, as well as bonus Engagement, while the effect lasts.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Grants a divine favor to an ally, imbuing them with the &lt;link="glossary://GlossaryEntry_Resolute"&gt;&lt;#30d3d5&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Tenacious"&gt;&lt;#f7b733&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations, as well as bonus Engagement, while the effect lasts.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -661,7 +666,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>812</ID>
-      <DefaultText>&lt;line-height=100%&gt;Empowers allies in the area of effect with the &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Steadfast"&gt;&lt;#30d3d5&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations. &lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Empowers allies in the area of effect with the &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#f7b733&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Steadfast"&gt;&lt;#30d3d5&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations. &lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -787,7 +792,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>859</ID>
-      <DefaultText>&lt;line-height=100%&gt;Caster temporarily sacrifices arcane power for martial might. The wizard gains bonuses to &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and Accuracy, as well as the &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Quick&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations, but becomes unable to cast spells for the duration of the effect.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Caster temporarily sacrifices arcane power for martial might. The wizard gains bonuses to &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and Accuracy, as well as the &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#f7b733&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Quick&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations, but becomes unable to cast spells for the duration of the effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -802,7 +807,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>863</ID>
-      <DefaultText>&lt;line-height=100%&gt;(Berserker) - Grants &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Hardy"&gt;&lt;#f7b733&gt;Hardy&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations, instead of &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;. Hit to Crit on melee attacks and carnage is greatly increased while frenzied. However, the barbarian is confused, cannot see their health, and takes continuous &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; damage while frenzied.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;(Berserker) - Grants &lt;link="glossary://GlossaryEntry_Tenacious"&gt;&lt;#f7b733&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Hardy"&gt;&lt;#f7b733&gt;Hardy&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations, instead of &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#f7b733&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;. Hit to Crit on melee attacks and carnage is greatly increased while frenzied. However, the barbarian is confused, cannot see their health, and takes continuous &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; damage while frenzied.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1118,7 +1123,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>1578</ID>
-      <DefaultText>&lt;line-height=100%&gt;The chanter fills himself or herself with frantic energy, gaining the &lt;link="gamedata://c56f70b5-b611-4dee-b80f-335033b98e2f"&gt;&lt;#ff4800&gt;Energized&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The chanter fills himself or herself with frantic energy, gaining the &lt;link="glossary://GlossaryEntry_Energized"&gt;&lt;#f7b733&gt;Energized&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1209,7 +1214,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>1760</ID>
-      <DefaultText>&lt;line-height=100%&gt;When a ranger or their animal companion are knocked out, the partner suffers the normal effects of Bonded grief, but becomes filled with focused rage for a short duration. While affected, they gain the &lt;link="glossary://GlossaryEntry_Nimble"&gt;&lt;#72da26&gt;Nimble&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; inspirations.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;When a ranger or their animal companion are knocked out, the partner suffers the normal effects of Bonded grief, but becomes filled with focused rage for a short duration. While affected, they gain the &lt;link="glossary://GlossaryEntry_Nimble"&gt;&lt;#72da26&gt;Nimble&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Tenacious"&gt;&lt;#f7b733&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; inspirations.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1249,7 +1254,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>1928</ID>
-      <DefaultText>&lt;line-height=100%&gt;The cipher brings echoes of an ally's past lives to the surface, inspiring the ally to greater feats of heroism. Provides &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Insightful"&gt;&lt;#ca58ff&gt;Insightful&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The cipher brings echoes of an ally's past lives to the surface, inspiring the ally to greater feats of heroism. Provides &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#f7b733&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Insightful"&gt;&lt;#ca58ff&gt;Insightful&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1294,7 +1299,7 @@ Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3
     </Entry>
     <Entry>
       <ID>1981</ID>
-      <DefaultText>&lt;line-height=100%&gt;Gather all of your strength into your strikes. Gain the &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration while the effect lasts.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Gather all of your strength into your strikes. Gain the &lt;link="glossary://GlossaryEntry_Tenacious"&gt;&lt;#f7b733&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration while the effect lasts.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1453,7 +1458,7 @@ One-Handed: &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt
     </Entry>
     <Entry>
       <ID>2156</ID>
-      <DefaultText>&lt;line-height=100%&gt;(The Prisoners Turned on Their Captors) - Characters that have Dexterity effects cleared now gain the &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;(The Prisoners Turned on Their Captors) - Characters that have Dexterity effects cleared now gain the &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#f7b733&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1474,7 +1479,7 @@ One-Handed: &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt
     <Entry>
       <ID>2192</ID>
       <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
-Frenzy grants the &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Hardy"&gt;&lt;#f7b733&gt;Hardy&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations, instead of &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;.
+Frenzy grants the &lt;link="glossary://GlossaryEntry_Tenacious"&gt;&lt;#f7b733&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Hardy"&gt;&lt;#f7b733&gt;Hardy&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations, instead of &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#f7b733&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;.
 
 Gain significant Hit to Crit conversion on melee and carnage attacks while frenzied.
 
@@ -1630,7 +1635,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.&lt;/line
     </Entry>
     <Entry>
       <ID>2459</ID>
-      <DefaultText>&lt;line-height=100%&gt;Sends the barbarian into a frenzied state, granting &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations as well as an Action Speed bonus. While frenzied, the barbarian receives a &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; penalty.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Sends the barbarian into a frenzied state, granting &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#f7b733&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations as well as an Action Speed bonus. While frenzied, the barbarian receives a &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; penalty.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1675,7 +1680,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.&lt;/line
     </Entry>
     <Entry>
       <ID>2494</ID>
-      <DefaultText>&lt;line-height=100%&gt;(Hastening Command) - Grants the &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration, in addition to &lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Quick&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;(Hastening Command) - Grants the &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#f7b733&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration, in addition to &lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Quick&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1695,12 +1700,12 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.&lt;/line
     </Entry>
     <Entry>
       <ID>2509</ID>
-      <DefaultText>&lt;line-height=100%&gt;(Reviving Command) - Grants the &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration, in addition to &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;(Reviving Command) - Grants the &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration, in addition to &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#f7b733&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2511</ID>
-      <DefaultText>&lt;line-height=100%&gt;(Rebirthing Exhortation) - &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration upgraded to &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;(Rebirthing Exhortation) - &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#f7b733&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration upgraded to &lt;link="glossary://GlossaryEntry_Tenacious"&gt;&lt;#f7b733&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2620,7 +2625,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.&lt;/line
     </Entry>
     <Entry>
       <ID>4588</ID>
-      <DefaultText>&lt;line-height=100%&gt;Creates a wellspring of life-giving water, restoring Health and granting the &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt; Inspiration to allies in the area.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a wellspring of life-giving water, restoring Health and granting the &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#f7b733&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration to allies in the area.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2635,7 +2640,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.&lt;/line
     </Entry>
     <Entry>
       <ID>4634</ID>
-      <DefaultText>&lt;line-height=100%&gt;Gather your thoughts and channel your strength into a state of pure focused discipline, granting all first tier Inspirations for a short time. (&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sup&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/sup&gt;&lt;/b&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Quick&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Insightful"&gt;&lt;#ca58ff&gt;Insightful&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Smart"&gt;&lt;#00a4ff&gt;Smart&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Steadfast"&gt;&lt;#30d3d5&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Gather your thoughts and channel your strength into a state of pure focused discipline, granting all first tier Inspirations for a short time. (&lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#f7b733&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Quick&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Insightful"&gt;&lt;#ca58ff&gt;Insightful&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Smart"&gt;&lt;#00a4ff&gt;Smart&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Steadfast"&gt;&lt;#30d3d5&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
