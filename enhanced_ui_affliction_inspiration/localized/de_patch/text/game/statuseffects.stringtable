@@ -30,11 +30,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>8</ID>
-      <DefaultText>Treffer mit dieser Waffe haben eine {0:value:percent} Chance, bei einem Treffer dem Ziel die&lt;link="gamedata://ed93377c-66b3-4817-898c-833ff562ba70"&gt;Gestalt der hilflosen Bestie&lt;/link&gt; aufzuerlegen</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>10</ID>
       <DefaultText>Der Angriff &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Erschüttert &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; Gestandene oder Wilde bei einem kritischem Treffer</DefaultText>
       <FemaleText />
@@ -195,43 +190,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>270</ID>
-      <DefaultText>{0:value:percent} Chance, ein mit Entschlossenheitswirkung belegtes Ziel bei Treffer zu unterbrechen</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>271</ID>
-      <DefaultText>{0:triggercount} direkter Schaden alle {0:extravalue:duration} für die Dauer von {0:value:duration} bei kritischem Treffer, wenn Ziel mit Entschlossenheitswirkung belegt ist</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>274</ID>
-      <DefaultText>Lähmungsangriff auf das Ziel für {0:value:duration} bei einem kritischen Treffer</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>280</ID>
-      <DefaultText>{0:value} alle Verteidigungen gegen Gewandtheitswirkungs-Angriffe, solange die Gesundheit über 75 % liegt</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>284</ID>
       <DefaultText>Chance, dass das Ziel bei einem kritischen Treffer für 12,0 Sekunden &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;erkrankt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;. Tapferkeit wirkt dem entgegen.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>297</ID>
-      <DefaultText>Machtinspiration</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>298</ID>
-      <DefaultText>Wahrnehmungsinspiration</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>299</ID>
-      <DefaultText>Geistesinspiration</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -275,11 +235,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>401</ID>
-      <DefaultText>Immun gegen Entschlossenheitswirkungen wenn unter {0:extravalue:percent} Gesundheit</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>413</ID>
       <DefaultText>Gewährt die Inspiration &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Klug &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; für sich selbst und die Wirkung &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; auf einen Gegner für {0:value:duration}, wenn man im Kampf zum ersten Mal angegriffen wird.</DefaultText>
       <FemaleText />
@@ -320,23 +275,18 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>507</ID>
-      <DefaultText>{0:value:percent} Chance, das Ziel bei einem Treffer für {0:extravalue:duration} zu betäuben</DefaultText>
+      <ID>489</ID>
+      <DefaultText>{0:value:percent} Chance, bei einem Treffer (außer Leichte Treffer) für {0:extravalue:duration} &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Geschockt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; zu wirken</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>508</ID>
-      <DefaultText>{0:value:percent} Chance, das Ziel bei einem Treffer für {0:extravalue:duration} zu betäuben, wenn derjenige, der die Waffe führt, ein Zwerg ist</DefaultText>
+      <ID>498</ID>
+      <DefaultText>Gestandene mit niedrigerer Stufe können am Anfang des Kampfes &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Geschockt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; werden</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>512</ID>
       <DefaultText>{0:value:percent} Chance, bei einem Treffer für {0:extravalue:duration} &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; auf sich selbst zu wirken</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>535</ID>
-      <DefaultText>{0:value:percentbonus} Dauer feindliche Gewandtheits-Wirkung</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

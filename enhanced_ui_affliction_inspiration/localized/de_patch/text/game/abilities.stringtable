@@ -26,7 +26,7 @@
     </Entry>
     <Entry>
       <ID>254</ID>
-      <DefaultText>Belegt das Ziel mit einer ansteckenden und hemmenden Krankheit, die es behindert und &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;schwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, bevor sie auf andere Feinde überspringt.</DefaultText>
+      <DefaultText>Belegt das Ziel mit einer ansteckenden und hemmenden Krankheit, die es &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpeln &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; lässti und &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;schwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, bevor sie auf andere Feinde überspringt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -51,7 +51,7 @@
     </Entry>
     <Entry>
       <ID>279</ID>
-      <DefaultText>Der Zauberwirker nutzt seine Lebenskraft, um die Inspiration &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Schnell &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; zu erwerben auf Kosten seiner eigenen Gesundheit, die stetig abnimmt.</DefaultText>
+      <DefaultText>Der Zauberwirker nutzt seine Lebenskraft, um die Inspiration &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Schwungvoll &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; zu erwerben auf Kosten seiner eigenen Gesundheit, die stetig abnimmt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -135,11 +135,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>427</ID>
-      <DefaultText>Die Hand des Zauberwirkers wird zu einem giftigen Parasiten, der dem Ziel Zersetzungsschaden zufügt, es &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;schwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, und seine Lebenskraft in Gesundheit für den Zauberwirker umwandelt.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>433</ID>
       <DefaultText>Infiziert den Verstand von Feinden im Wirkungsbereich mit Delirium und &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; sie.</DefaultText>
       <FemaleText />
@@ -160,11 +155,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>476</ID>
-      <DefaultText>Erzeugt ein intensives Leuchtfeuer, durch das Feinde im Wirkungsbereich einen Malus auf alle Verteidigungen erhalten und Brandzeitschaden erleiden.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>481</ID>
       <DefaultText>Setzt ein magisches Siegel auf den Boden, das in Flammen aufgeht, sobald es von einem Feind berührt wird, wodurch dieser &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Geblendet &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; wird und Brandschaden erleidet.</DefaultText>
       <FemaleText />
@@ -182,6 +172,11 @@
     <Entry>
       <ID>500</ID>
       <DefaultText>Bekränzt Verbündete im Ruhm des Gottes des Priesters, wodurch allen Verbündeten im Wirkungsbereich die Inspirationen &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Einsichtig &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Klug &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Standhaft &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; gewährt wird.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>506</ID>
+      <DefaultText>Entzündet einen mächtigen Eifer in allen Verbündeten, der sich in einer Aura widerspiegelt, durch die alle Feinde in der Nähe &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Geschockt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; werden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -216,12 +211,12 @@
     </Entry>
     <Entry>
       <ID>564</ID>
-      <DefaultText>Elektrisiert die visuellen Rezeptoren eines Feindes, wodurch dieser&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt; Benommen &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Geblendet &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; wird, wie auch Ziele in der Nähe &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Geblendet &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; werden.</DefaultText>
+      <DefaultText>Elektrisiert die visuellen Rezeptoren eines Feindes, wodurch dieser und Feinde in seiner Nähe &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Geblendet &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; werden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>566</ID>
-      <DefaultText>&lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Erschüttert &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; den Sinn des Ziels für die Realität, wodurch es &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; wird.</DefaultText>
+      <DefaultText>&lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Erschüttert &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; das Ziel, indem das Medium ihm eine schreckliche Welt suggeriert.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -241,7 +236,7 @@
     </Entry>
     <Entry>
       <ID>581</ID>
-      <DefaultText>Zwingt Feinde im Wirkungsbereich, zu glauben, dass ihre schlimmsten Ängste wahr wurden, wodurch sie für die Dauer &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; werden und Erkanken.</DefaultText>
+      <DefaultText>Zwingt Feinde im Wirkungsbereich, zu glauben, dass ihre schlimmsten Ängste wahr wurden, wodurch sie für die Dauer &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; werden und &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Erkranken &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -280,11 +275,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>800</ID>
-      <DefaultText>Gewährt Widerstand gegen Entschlossenheits- und Verfassungswirkungen für alle Verbündete im Wirkungsbereich.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>801</ID>
       <DefaultText>Bewegt etwas tief im Inneren von Feinden im Wirkungsbereich, wodurch diese &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Bezaubert &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; werden.</DefaultText>
       <FemaleText />
@@ -295,18 +285,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>804</ID>
-      <DefaultText>Entfernt alle Effekte von Gewandtheitswirkungen bei Verbündeten im Wirkungsbereich.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>806</ID>
       <DefaultText>Feinde im Wirkungsbereich werden &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Gelähmt &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>807</ID>
-      <DefaultText>Verbündete im Wirkungsbereich erhalten Widerstand gegen Gewandtheits- und Machtwirkungen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -353,7 +333,7 @@
       <ID>836</ID>
       <DefaultText>Erzeugt eine dicke Wand aus knorrigen Dornen, die Stichschaden zufügen. Bewirkt auch einen Gifteffekt, der das Ziel &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;schwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
-	</Entry>
+    </Entry>
     <Entry>
       <ID>839</ID>
       <DefaultText>Lässt ein wunderschönes, jedoch Panik einflößendes Feld giftiger Blumen wachsen, die jenen im Wirkungsbereich mit den Wirkungen &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Geschwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; belegt, sowie ihnen direkten Schaden über Zeit zufügt.</DefaultText>
@@ -381,7 +361,7 @@
     </Entry>
     <Entry>
       <ID>863</ID>
-      <DefaultText>(Berserker) – Gewährt die Inspirationen &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Hartnäckig &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; anstatt &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;. Verschaffe ihm während des Zustands der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen. Jedoch ist der Barabar während der Raserei &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; und kann seine eigene Gesundheit nicht sehen und erleidet fortwährend direkten Schaden.</DefaultText>
+      <DefaultText>(Berserker) – Gewährt die Inspirationen &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Hartnäckig &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; und&lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt; Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; anstatt &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;. Verschaffe ihm während des Zustands der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen. Jedoch ist der Barabar während der Raserei &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; und kann seine eigene Gesundheit nicht sehen und erleidet fortwährend direkten Schaden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -401,7 +381,7 @@
     </Entry>
     <Entry>
       <ID>885</ID>
-      <DefaultText>Ein Schlag auf den Kopf, der die Reaktionsfähigkeit der Feinde beeinträchtigen soll. Feinde, die von einem erfolgreichen Angriff betroffen sind, werden&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt; Benommen &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Ein Schlag auf den Kopf, der die Reaktionsfähigkeit der Feinde beeinträchtigen soll. Feinde, die von einem erfolgreichen Angriff betroffen sind, werden &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -440,18 +420,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>954</ID>
-      <DefaultText>(Blitzschläge) – Verstärkt die schnellen Schläge des Mönchs, wodurch jeder, der von dem Angriff getroffen wird, zusätzlichen Schockschaden erleidet.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1015</ID>
       <DefaultText>Erzeugt einen furchterregenden Schrei, der alle Feinde im Wirkungsbereich &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1026</ID>
-      <DefaultText>Waldelfen haben eine natürliche Resistenz gegen Gewandtheitswirkungen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -470,13 +440,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1306</ID>
-      <DefaultText>Nachdem sie einem Willensangriff ausgesetzt waren, erhalten wilde Orlaner vorübergehend einen Bonus auf alle Verteidigungen.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1324</ID>
-      <DefaultText>Schießt einen magischen Magieblitz aus dem Zauberbuch, das Zielen im Wirkungsbereich direkten Schaden zufügt und zu&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt; Benommenheit &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; führt.</DefaultText>
+      <DefaultText>Schießt einen magischen Magieblitz aus dem Zauberbuch, das Zielen im Wirkungsbereich direkten Schaden zufügt und sie&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt; Benommen &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; macht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -486,42 +451,17 @@
     </Entry>
     <Entry>
       <ID>1328</ID>
-      <DefaultText>Bezieht stärkende Kraft der Natur und bewirkt einen Bereich, der die Inspiration &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; gewährt. Womit erhöhte maximale Ausdauer verbunden ist.</DefaultText>
+      <DefaultText>Bezieht stärkende Kraft der Natur und bewirkt einen Bereich, der die Inspiration &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; gewährt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1330</ID>
-      <DefaultText>Der Kämpfer konzentriert sich intensiv auf seine Ausbildung, wodurch er die Inspiration &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Aufmerksam &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; erhält und seine Genauigkeit für eine kurze Zeit deutlich erhöht wird.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1334</ID>
-      <DefaultText>Vogel–Gottähnliche sind mit Fernwaffen schwer zu treffen. Sie erhalten einen Abwehr–Bonus gegen solche Angriffe. Wenn seine Ausdauer unter 50% fällt, steigern sich die Sinne und die Bewegungsfähigkeit eines Vogel–Gottähnlichen – er erhält einen Bonus auf Wahrnehmung und Verteidigung gegen Absetzangriffe.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1338</ID>
-      <DefaultText>Bergzwerge sind die Rasse, die auf ganz Eora am weitesten gereist ist. Während ihrer unglaublichen Reisen waren sie den verschiedensten tödlichen Gefahren ausgesetzt. Das verschafft ihnen Widerstandskraft gegen Verfassungswirkungen.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1341</ID>
-      <DefaultText>Küstenaumauaner sind dafür bekannt, dass sie sich auf See ausgesprochen wohlfühlen und sehr robust gebaut sind. Ob der Grund ihre lange Geschichte als Seefahrer oder eine angeborene Eigenschaft ist – jedenfalls besitzen alle Küstenaumauaner große Widerstandsfähigkeit gegen Machtwirkungen.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1342</ID>
-      <DefaultText>Die Seelen der Gottähnlichen der Natur reagieren stark auf Inspiration. Steht ein Gottähnlicher der Natur unter der Wirkung einer &lt;link="glossary://cc4b4eb9-5d6c-40e4-87b3-adcf56a87572"&gt;Macht-&lt;/link&gt;, &lt;link="glossary://d034e058-3b3e-4737-ade5-bd0d417b4eed"&gt;Verfassungs-&lt;/link&gt; oder &lt;link="glossary://5b14378d-82b4-4c7e-b23a-1fa07d0d85a3"&gt;Gewandtheits&lt;/link&gt;-Inspiration, wird ihre Kraftstufe erhöht.</DefaultText>
+      <DefaultText>Der Kämpfer konzentriert sich intensiv auf seine Ausbildung, wodurch er die Inspiration &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Aufmerksam &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; erhält.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1391</ID>
-      <DefaultText>Ein Trio von Steinklauen bricht aus dem Boden hervor. Jeder, der im Wirkungsbereich gefangen ist, wird versteinert und mit Hiebschaden belegt.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1475</ID>
-      <DefaultText>Der Dieb schafft eine kleine Rauchwolke, die Feinde in der Nähe für kurze Zeit Ablenkt.</DefaultText>
+      <DefaultText>Ein Trio von Steinklauen bricht aus dem Boden hervor. Jeder, der im Wirkungsbereich gefangen ist, wird versteinert, g&lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;elähmt &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; und mit Hiebschaden belegt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -531,27 +471,22 @@
     </Entry>
     <Entry>
       <ID>1480</ID>
-      <DefaultText>Die Chaoskugel ist nach dem exzentrischen aedyranischen Zauberer Tayn benannt. Sie springt zwischen mehreren Feinden hin und her. Dabei fügt sie den Zielen Schaden zu und belegt sie mit einer Reihe von negativen Wirkungen, beispielsweise Versteinert, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Gelähmt &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Geschwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Erkrankt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Geblendet &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Die Chaoskugel ist nach dem exzentrischen aedyrischen Zauberer Tayn benannt. Sie springt zwischen mehreren Feinden hin und her. Dabei fügt sie den Zielen Schaden zu und belegt sie mit einer Reihe von negativen Wirkungen, beispielsweise Versteinert, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Gelähmt &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Geschwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Erkrankt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Geblendet &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1569</ID>
-      <DefaultText>Der Dieb führt einen Primärangriff aus, der das Ziel &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; und zum &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpeln &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; bringt.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1571</ID>
-      <DefaultText>Ninagauths Schattenflamme ist eine ungewöhnliche Variante des beliebten Feuerballs. Sie verursacht Frostschaden und Lähmt jeden, der sich im Wirkungsbereich aufhält.</DefaultText>
+      <DefaultText>Der Dieb führt einen Primärangriff aus, der dem Ziel mit den Effekt &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpelnd &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; zufügt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1578</ID>
-      <DefaultText>Der Sänger füllt sich mit wilder Energie, wodurch er die Inspiration &lt;link="gamedata://c56f70b5-b611-4dee-b80f-335033b98e2f"&gt;&lt;#ff4800&gt;Munter &lt;sprite="Inline" name="attribute_might" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; erhält und seine Angriffsgeschwindigkeit deutlich erhöht.</DefaultText>
+      <DefaultText>Der Sänger füllt sich mit wilder Energie, wodurch er die Inspiration &lt;link="gamedata://c56f70b5-b611-4dee-b80f-335033b98e2f"&gt;&lt;#ff4800&gt;Munter &lt;sprite="Inline" name="attribute_might" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; erhält.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1721</ID>
-      <DefaultText>Ermöglicht es dem Schurken, jeglichen Angriff zu durchbrechen und dem nächsten Angriff gekonnt auszuweichen – er springt einfach an einen anderen Ort, außer Reichweite. Anschließend Lähmt der nächste Angriff des Schurken mit seiner Hauptwaffe das Ziel.</DefaultText>
+      <DefaultText>Ermöglicht es dem Schurken, jeglichen Angriff zu durchbrechen und dem nächsten Angriff gekonnt auszuweichen – er springt einfach an einen anderen Ort, außer Reichweite. Anschließend wird das Ziel beim nächsten Angriff des Schurken mit seiner Hauptwaffe &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Gelähmt &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -560,13 +495,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1730</ID>
-      <DefaultText>Der Sänger erschafft zwei reflektierende Strahlen aus purem Licht. Verbündete, die von ihnen berührt werden, regenerieren Leben und erhalten Immunität gegen negative Willenswirkungen.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1739</ID>
-      <DefaultText>Verbündete erhalten eine Schutzschicht aus hölzerner „Haut“ und bekommen die Eigenschaften von Delemgan verliehen. Sie werden schneller, weniger anfällig gegen Absetzangriffe und immun gegen Gewandtheitswirkungen.</DefaultText>
+      <ID>1740</ID>
+      <DefaultText>Der Kämpfer stürmt blitzartig über das Schlachtfeld und &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; jegliche Ziele, die ihm im Weg stehen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -591,7 +521,7 @@
     </Entry>
     <Entry>
       <ID>1760</ID>
-      <DefaultText>Wenn ein Waldläufer oder sein tierischer Gefährte das Bewusstsein verlieren, erleidet der Partner die normalen Auswirkungen von Verbundene Trauer. Zusätzlich wird er aber für kurze Zeit von konzentriertem Zorn erfüllt und erhält die Inspirationen &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Flink &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Hartnäckig &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;. Während dieser Zeit erhöhen sich seine Geschwindigkeit, seine Bewegung und sein Schaden.</DefaultText>
+      <DefaultText>Wenn ein Waldläufer oder sein tierischer Gefährte das Bewusstsein verlieren, erleidet der Partner die normalen Auswirkungen von Verbundene Trauer. Zusätzlich wird er aber für kurze Zeit von konzentriertem Zorn erfüllt und erhält die Inspirationen &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Flink &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Hartnäckig &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -700,7 +630,7 @@ Einhändig: Reiner Schaden über Zeit</DefaultText>
     </Entry>
     <Entry>
       <ID>2057</ID>
-      <DefaultText>(Auslöschender Hieb) – Gegner in der Nähe des Ziels werden durch den Angriff &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Auslöschender Hieb) – Gegner in der Nähe des Ziels werden durch den Angriff &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Erschüttert &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -725,7 +655,7 @@ Einhändig: Reiner Schaden über Zeit</DefaultText>
     </Entry>
     <Entry>
       <ID>2109</ID>
-      <DefaultText>Gewährt einem Einzelziel für eine mittellange Dauer die Inspiration &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Gewährt einem Einzelziel für eine mittellange Dauer die Inspiration&lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt; Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -744,11 +674,6 @@ Einhändig: Reiner Schaden über Zeit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2134</ID>
-      <DefaultText>Der Krieger erhält einen Bonus auf Verteidigung gegen Intellekt-, Wahrnehmungs- und Verfassungswirkungen.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2137</ID>
       <DefaultText>Der Krieger wird resistent gegen Wahrnehmungswirkungen (&lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Abgelenkt &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Desorientiert &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Geblendet &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
@@ -756,11 +681,6 @@ Einhändig: Reiner Schaden über Zeit</DefaultText>
     <Entry>
       <ID>2139</ID>
       <DefaultText>Der Krieger wird resistent gegen Verfassungswirkungen (&lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Erkrankt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Geschwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1"&gt;&lt;#f7b733&gt;Entkräftet &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2141</ID>
-      <DefaultText>Der Paladin verschafft sich Verteidigungen gegen Entschlossenheits-, Macht- und Gewandtheitswirkungen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -779,11 +699,6 @@ Einhändig: Reiner Schaden über Zeit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2159</ID>
-      <DefaultText>(Die Lichter tanzten über das Moor) – Irrlichter sind stärker als normalerweise und verfügen über einen Ablenkungsangriff.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2160</ID>
       <DefaultText>(Aus ihrem Töten entsprang ein roter Fluss) – Solange sie &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Bezaubert &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; sind, verursachen Gegner mehr Schaden.</DefaultText>
       <FemaleText />
@@ -791,7 +706,7 @@ Einhändig: Reiner Schaden über Zeit</DefaultText>
     <Entry>
       <ID>2192</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-Raserei gewährt die Inspirationen &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Hartnäckig &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; anstelle von &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.
+Raserei gewährt die Inspirationen &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Hartnäckig &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; und&lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt; Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; anstelle von &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.
 
 Verschaffe dir während des Zustands der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen.
 
@@ -814,19 +729,6 @@ Während der Raserei erleidest du fortwährend direkten Schaden.</DefaultText>
 Beschaffe dir die Flammen der Hingabe.
 
 Die Flammen der Hingabe verursachen zusätzlichen Zersetzungsschaden (Schwarze Flammen) und verursachen bei den Zielen die Wirkung &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Erkrankt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2317</ID>
-      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-Erhält erhöhte Kraftstufe bei Verzauberungszaubern.
-
-Erhält die passive Fähigkeit „Freie Handlung“: Wenn der Zauberer von einer Gewandtheits-Wirkung betroffen ist, macht er sich ein Mal pro Begegnung von diesem Effekt frei und wird vorübergehend immun gegen Gewandtheitswirkungen.
-
-&lt;b&gt;Abzug&lt;/b&gt;
-Verliert Zugang zu Zaubern der Illusions- und Transmutationsschulen.
-
-Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zugeordnet sind.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -871,7 +773,7 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
     </Entry>
     <Entry>
       <ID>2486</ID>
-      <DefaultText>(Stählerne Ermunterung) – &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; wird verbessert auf &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Stählerne Ermunterung) – &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; wird verbessert auf&lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt; Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -895,16 +797,6 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2540</ID>
-      <DefaultText>Nutzt die natürliche Verbindung des Druiden zum Hai und ermöglicht es, vorübergehend diese Form anzunehmen. Der Geisterwandler Hai ist gegen Wirkungen auf Gewandtheit immun.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2564</ID>
-      <DefaultText>Der Zauberer kann sich einmal pro Begegnung von einer Wirkung auf Gewandtheit befreien und wird vorübergehend immun gegen Wirkungen auf Gewandtheit.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2571</ID>
       <DefaultText>(Disziplinierte Schläge) – Die Inspiration &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Aufmerksam &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; wird zur &lt;link="gamedata://c2fb23c5-9907-4654-b62e-77adbc37c9bc"&gt;&lt;#ca58ff&gt;Intuitiv &lt;sprite="Inline" name="attribute_perception" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; verbessert.</DefaultText>
       <FemaleText />
@@ -920,18 +812,8 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2635</ID>
-      <DefaultText>Verleiht Verbündeten Resistenz gegen Wirkungen auf Wahrnehmung und Intellekt.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2648</ID>
       <DefaultText>(Zerstörerischer Schlag) – Wenn der Schwächungseffekt endet, erhält das Ziel die Wirkung &lt;link="gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1"&gt;&lt;#f7b733&gt;Entkräftet &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2654</ID>
-      <DefaultText>Schurken, die verletzt oder dem Tode nahe sind, erhalten Immunität gegen Wirkungen auf den Geist (Wahrnehmung, Intellekt und Entschlossenheit).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -971,12 +853,7 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
     </Entry>
     <Entry>
       <ID>2701</ID>
-      <DefaultText>Löst ein lautes Stimmengewirr aus, das Gegner nach hinten wirft und &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2702</ID>
-      <DefaultText>(Das widerwärtige Ding schnappte ein letztes Mal nach Luft) – Wenn die Spore getötet wird, setzt sie ein giftiges Gas frei, das alle in der Nähe bis zum Ende des Kampfes krank macht. </DefaultText>
+      <DefaultText>Löst ein lautes Stimmengewirr aus, das Gegner nach hinten wirft und&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt; Benommen &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; macht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -991,12 +868,12 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
     </Entry>
     <Entry>
       <ID>2760</ID>
-      <DefaultText>(Beständige Schatten) – Die Unsichtbarkeit hält wesentlich länger an und gewährt die Inspiration &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Schnell &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Beständige Schatten) – Die Unsichtbarkeit hält wesentlich länger an und gewährt die Inspiration &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Schwungvoll &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2783</ID>
-      <DefaultText>Sucht den Verstand des Ziels mit düsteren Erinnerungen an all diejenigen heim, die es verloren oder getötet hat. Dadurch wird das Ziel &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Erschüttert &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpelnd &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Sucht den Verstand des Ziels mit düsteren Erinnerungen an all diejenigen heim, die es verloren oder getötet hat. Dadurch wird das Ziel &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Geschockt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpelnd &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1015,18 +892,23 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2827</ID>
+      <DefaultText>Der Waldläufer hat seine Gefährten trainiert, ihre Beweglichkeit und &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Schnell &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;igkeit einzusetzen, um Feinde im Kampf auszumanövrieren. Wenn ein Feind einen tierischen Gefährten des Waldläufers beim Nahkampfangriff verfehlt, trägt das dem Feind einen Abzug für seine Abwehr ein.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2843</ID>
       <DefaultText>Die eigene Haut des Ziels frisst sie langsam auf und versetzt ihm in hohem Umfang Zersetzungsschaden über einen längeren Zeitraum. Außerdem wird das Ziel &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Geschwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; und eine Heilung wird verhindert.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2873</ID>
-      <DefaultText>Beschwört einen mächtigen Blitz vom Himmel auf das Ziel herab, der Schock-Schaden austeilet und es&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt; Benommen &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; macht.</DefaultText>
+      <ID>2849</ID>
+      <DefaultText>Ruft einen Mantel schwarzer Energie hervor, der um den Zauberer herum wirbelt. Der Mantel vernichtet die Nahkampf-Angreifer des Zauberers und &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; sie für kurze Zeit in Dunkelheit. Während dieser Zeit sind sie aller Aktionen unfähig. Außerdem erhalten sie raschen direkten Schaden über längere Zeit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2964</ID>
-      <DefaultText>Bewirkt eine blendende Explosion bunter Blitze, die alle im betroffenen Bereich erschreckt und &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <ID>2873</ID>
+      <DefaultText>Beschwört einen mächtigen Blitz vom Himmel auf das Ziel herab, der Schock-Schaden austeilet und es&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt; Benommen &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; macht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1075,11 +957,6 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3349</ID>
-      <DefaultText>Befreit denjenigen, der die Waffe führt, und alle Verbündeten in der Nähe von allen Gewandtheitswirkungen oder Machtwirkungen.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3368</ID>
       <DefaultText>Eine reichhaltige Pulverladung sorgt für eine Explosion, die alle Ziele in Form eines Kegels erwischt, Brand-/ Wucht-Schaden zufügt, sie zurückschlägt und&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt; Benommen &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; macht.</DefaultText>
       <FemaleText />
@@ -1110,18 +987,8 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3512</ID>
-      <DefaultText>Die Aura gewährt allen Verbündeten in der Nähe einen Willensbonus gegen Auswirkungen auf den Geist.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3523</ID>
       <DefaultText>Bedient sich der Macht des Grabes, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Bezaubert &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; alle Gefäße und erschreckt alle Gestandenen im betroffenen Bereich.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3608</ID>
-      <DefaultText>Gewährt dem Nutzer zu Beginn des Kampfes für kurze Zeit Widerstand gegen Wirkungen auf die Gewandtheit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1142,11 +1009,6 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
     <Entry>
       <ID>3702</ID>
       <DefaultText>Würge-Angriff, der &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Gelähmt &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; auf das Ziel anwendet.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3762</ID>
-      <DefaultText>Während der Wisp dir folgt, haben Intellektwirkungen auf dich eine kürzere Dauer und alle Gruppenmitglieder haben erhöhte Genauigkeit bei ihren Angriffen gegen Geister.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1175,93 +1037,13 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3864</ID>
-      <DefaultText>Während Eviee dir folgt, erhältst du einen Bonus auf Entschlossenheit und Resistenz gegen Entschlossenheitswirkungen. Darüber hinaus wird die Dauer von Entschlossenheitswirkungen, von denen deine Gruppe betroffen ist, verringert.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3899</ID>
-      <DefaultText>Während Algol dir folgt, klingen jegliche Verfassungswirkungen auf dir schneller ab und deine Gruppenmitglieder erhalten etwas Gesundheit, wenn sie einen Gegner töten.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3953</ID>
-      <DefaultText>Gewährt Resistenz gegen Verfassungswirkungen bei gesundem oder unverletztem Zustand.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3971</ID>
-      <DefaultText>Während Rindenschnur dir folgt, klingen Gewandtheitswirkungen auf dir schneller ab und deine Gruppenmitglieder bewegen sich im Kampf schneller.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>4113</ID>
       <DefaultText>Gewährt zu Beginn des Kampfes für kurze Zeit die Inspirationen &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Standhaft &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>4115</ID>
-      <DefaultText>Der Wirker beschwört die bestienhaften Seelenfragmente aus der Blassen Haut herauf, um einen furchtbaren Schrei von sich zu geben, der nahe Gegner verängstigt.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4140</ID>
-      <DefaultText>Gewährt Resistenz gegen Verfassungswirkungen im Unverletzten und Gesunden Zustand.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4145</ID>
-      <DefaultText>Aura, die den Verstand von nahen Verbündeten vernebelt und sie anfälliger für Intellektwirkungen macht.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4160</ID>
-      <DefaultText>Der Träger ist immun gegenüber Verfassungswirkungen, solange er eine oder mehr Verletzungen aufweist.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4276</ID>
-      <DefaultText>Gewährt im Unverletzten und Gesunden Zustand Immunität gegen Verfassungswirkungen.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>4292</ID>
       <DefaultText>Nutze deine Wächter-Kräfte, um durch die Augen deines Ziels tief in seine Seele zu blicken und ihm vorübergehend die Wirkung &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; zuzufügen.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4294</ID>
-      <DefaultText>(Miene des Todesboten): Gewährt dem Wächter bei Benutzung eine Wahrnehmungsinspiration.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4296</ID>
-      <DefaultText>(Zorn des Todesboten): Gewährt dem Wächter bei Benutzung eine Machtinspiration.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4298</ID>
-      <DefaultText>(Esprit des Todesboten): Gewährt dem Wächter bei Benutzung eine Intellektinspiration.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4300</ID>
-      <DefaultText>(Ehrfurcht des Todesboten): Gewährt dem Wächter bei Benutzung eine Macht- und Wahrnehmungsinspiration.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4302</ID>
-      <DefaultText>(Gewand des Todesboten): Gewährt dem Wächter bei Benutzung eine Intellekt- und Wahrnehmungsinspiration.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4304</ID>
-      <DefaultText>(Grausamkeit des Todesboten): Gewährt dem Wächter bei Benutzung eine Macht- und Intellektinspiration.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4306</ID>
-      <DefaultText>(Anmut des Todesboten): Gewährt dem Wächter bei Benutzung eine Intellekt-, Macht- und Wahrnehmungsinspiration.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1295,11 +1077,6 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>4335</ID>
-      <DefaultText>Calmos nachhallender Hass verursacht bei nahen Verbündeten enorme Verteidigungsabzüge gegenüber Intellektwirkungen.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>4336</ID>
       <DefaultText>Bricht eine Angriffsbindung und weicht der nächsten Attacke geschickt aus. Danach folgt ein Sprung außer Reichweite. Blendet und &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; nahe Ziele. Kann einmal pro Ruhepause verwendet werden.</DefaultText>
       <FemaleText />
@@ -1327,11 +1104,6 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
     <Entry>
       <ID>4512</ID>
       <DefaultText>Der Waldläufer nimmt sich die Zeit, seine Umgebung zu untersuchen und erhält vorübergehend die Inspiration &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Einsichtig &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und zusätzliche Fernkampfangriffsdistanz.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4558</ID>
-      <DefaultText>Anstrengung löscht die Furcht des Trägers vor dem bevorstehenden Tod aus. Gewährt Immunität gegenüber Entschlossenheitswirkungen wenn dem Tod nah.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
