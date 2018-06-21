@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3.2-01 -->
+<!-- Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en // version: 0.3.2-03 -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\cyclopedia</Name>
   <NextEntryID>1</NextEntryID>
@@ -35,31 +35,31 @@ When an attack is made, the Accuracy is compared to a corresponding defense (&lt
     </Entry>
     <Entry>
       <ID>94</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#dac79c&gt;Perception&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#dac79c&gt;Perception&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Blinded"&gt;&lt;#ca58ff&gt;Blinded&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=-0.35em&gt;&lt;size=95%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters suffer -5 Perception, are considered Flanked, +50% Recovery, -10 Accuracy, and the distance of all ranged attacks is halved. &lt;link="glossary://GlossaryEntry_Blinded"&gt;&lt;#ca58ff&gt;Blinded&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=-0.35em&gt;&lt;size=95%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters cannot use or be affected by Gaze attacks.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>96</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#dac79c&gt;Intellect&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#dac79c&gt;Intellect&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 A &lt;link="glossary://GlossaryEntry_Charmed"&gt;&lt;#00a4ff&gt;Charmed&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=-0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; character fights for their former enemies, but will only use basic attacks, no abilities.  -5 Intellect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>98</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#dac79c&gt;Intellect&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#dac79c&gt;Intellect&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Confused"&gt;&lt;#00a4ff&gt;Confused&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35&gt;&lt;size=90%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters are -5 Intellect and all of their abilities and attacks are friend or foe.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>100</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#dac79c&gt;Might&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#dac79c&gt;Might&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 A victim of &lt;link="glossary://GlossaryEntry_Dazed"&gt;&lt;#ff4800&gt;Dazed&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=-0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; has -5 Might, cannot Engage, and suffers -4 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>102</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#dac79c&gt;Intellect&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#dac79c&gt;Intellect&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 A &lt;link="glossary://GlossaryEntry_Dominated"&gt;&lt;#00a4ff&gt;Dominated&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=-0.35em&gt;&lt;size=95%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; target is subservient to the will of the enemy and will use everything at its disposal to fight its former teammates. -5 Intellect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
@@ -70,19 +70,19 @@ A &lt;link="glossary://GlossaryEntry_Dominated"&gt;&lt;#00a4ff&gt;Dominated&lt;s
     </Entry>
     <Entry>
       <ID>106</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#dac79c&gt;Resolve&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#dac79c&gt;Resolve&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 A &lt;link="glossary://GlossaryEntry_Frightened"&gt;&lt;#30d3d5&gt;Frightened&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=-0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; character has -5 Resolve, -3 Power Level, and cannot use hostile spells or abilities.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>108</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#dac79c&gt;Dexterity&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#dac79c&gt;Dexterity&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Hobbled"&gt;&lt;#72da26&gt;Hobbled&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35&gt;&lt;size=90%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have -5 Dexterity and reduced Stride.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>110</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#dac79c&gt;Dexterity&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#dac79c&gt;Dexterity&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 A &lt;link="glossary://GlossaryEntry_Paralyzed"&gt;&lt;#72da26&gt;Paralyzed&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=-0.35em&gt;&lt;size=95%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; target can't take any action. They have -5 Dexterity and 25% of all Hits against them convert to Crits.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
@@ -93,31 +93,31 @@ A &lt;link="glossary://GlossaryEntry_Paralyzed"&gt;&lt;#72da26&gt;Paralyzed&lt;s
     </Entry>
     <Entry>
       <ID>116</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#dac79c&gt;Constitution&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#dac79c&gt;Constitution&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 A &lt;link="glossary://GlossaryEntry_Sickened"&gt;&lt;#f7b733&gt;Sickened&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35&gt;&lt;size=90%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; character has -5 to Constitution and all incoming healing is reduced by 25%.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>118</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#dac79c&gt;Dexterity&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#dac79c&gt;Dexterity&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Immobilized"&gt;&lt;#72da26&gt;Immobilized&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=-0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters can't move and have -5 Dexterity.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>120</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#dac79c&gt;Might&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#dac79c&gt;Might&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stunned&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=-0.35em&gt;&lt;size=95%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters can't take any action, cannot Engage, have a penalty to all defenses, -4 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;, and -5 Might.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>122</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#dac79c&gt;Resolve&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#dac79c&gt;Resolve&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 A character who is &lt;link="glossary://GlossaryEntry_Terrified"&gt;&lt;#30d3d5&gt;Terrified&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=-0.35em&gt;&lt;size=95%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; is at -5 Resolve, -3 Power Level, and can take no action other than to flee.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>124</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#dac79c&gt;Constitution&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#dac79c&gt;Constitution&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Weakened"&gt;&lt;#f7b733&gt;Weakened&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=-0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters are at -5 Con and all incoming healing is reduced by half.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
@@ -233,7 +233,7 @@ E.g., if a wizard spell grants +3 to &lt;link="glossary://GlossaryEntry_Deflecti
     </Entry>
     <Entry>
       <ID>322</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#dac79c&gt;Perception&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#dac79c&gt;Perception&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 A &lt;link="glossary://GlossaryEntry_Distracted"&gt;&lt;#ca58ff&gt;Distracted&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35&gt;&lt;size=90%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; character has -5 Perception and is considered Flanked.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
@@ -278,7 +278,7 @@ Fiercely independent, they thrive in the underbrush where their dark coats provi
     </Entry>
     <Entry>
       <ID>533</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#dac79c&gt;Resolve&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#dac79c&gt;Resolve&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 A &lt;link="glossary://GlossaryEntry_Shaken"&gt;&lt;#30d3d5&gt;Shaken&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35&gt;&lt;size=90%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; character suffers -5 Resolve and -3 Power Level.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
@@ -295,13 +295,13 @@ A &lt;link="glossary://GlossaryEntry_Shaken"&gt;&lt;#30d3d5&gt;Shaken&lt;space=0
     </Entry>
     <Entry>
       <ID>681</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#dac79c&gt;Perception&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#dac79c&gt;Perception&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Disoriented"&gt;&lt;#ca58ff&gt;Disoriented&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=-0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have -5 Perception, are considered Flanked, and have +50% Recovery after their actions.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>683</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#dac79c&gt;Might&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#dac79c&gt;Might&#160;Affliction&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Staggered"&gt;&lt;#ff4800&gt;Staggered&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35&gt;&lt;size=90%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have -5 Might and cannot engage enemies.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
@@ -374,25 +374,25 @@ Each Inspiration is categorized by an Attribute, such as Might or Dexterity. Ins
     </Entry>
     <Entry>
       <ID>713</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#dac79c&gt;Might&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#dac79c&gt;Might&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35&gt;&lt;size=90%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Might.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>715</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#dac79c&gt;Might&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#dac79c&gt;Might&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Tenacious"&gt;&lt;#ff4800&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Might and gain +2 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>717</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#dac79c&gt;Might&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#dac79c&gt;Might&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Energized"&gt;&lt;#ff4800&gt;Energized&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Might, gain +2 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; and will Interrupt enemies with crits.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>719</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Constitution"&gt;&lt;#dac79c&gt;Constitution&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Constitution"&gt;&lt;#dac79c&gt;Constitution&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35&gt;&lt;size=90%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Constitution.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
@@ -404,79 +404,79 @@ Each Inspiration is categorized by an Attribute, such as Might or Dexterity. Ins
     </Entry>
     <Entry>
       <ID>723</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Constitution"&gt;&lt;#dac79c&gt;Constitution&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Constitution"&gt;&lt;#dac79c&gt;Constitution&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Robust"&gt;&lt;#f7b733&gt;Robust&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Constitution, gain +2 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;, and will regenerate Health periodically.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>725</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Dexterity"&gt;&lt;#dac79c&gt;Dexterity&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Dexterity"&gt;&lt;#dac79c&gt;Dexterity&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Quick&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35&gt;&lt;size=90%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Dexterity.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>727</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Dexterity"&gt;&lt;#dac79c&gt;Dexterity&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Dexterity"&gt;&lt;#dac79c&gt;Dexterity&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Nimble"&gt;&lt;#72da26&gt;Nimble&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Dexterity and gain +100% Stride.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>729</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Dexterity"&gt;&lt;#dac79c&gt;Dexterity&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Dexterity"&gt;&lt;#dac79c&gt;Dexterity&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Swift"&gt;&lt;#72da26&gt;Swift&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Dexterity, gain +100% Stride, and cannot be Engaged by enemies.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>731</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#dac79c&gt;Perception&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#dac79c&gt;Perception&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Insightful"&gt;&lt;#ca58ff&gt;Insightful&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35&gt;&lt;size=90%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Perception.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>733</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#dac79c&gt;Perception&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#dac79c&gt;Perception&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Aware"&gt;&lt;#ca58ff&gt;Aware&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Perception and 50% Graze to Hit.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>735</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#dac79c&gt;Perception&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#dac79c&gt;Perception&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Intuitive"&gt;&lt;#ca58ff&gt;Intuitive&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Perception, 50% Graze to Hit, and 25% Hit to Crit.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>737</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#dac79c&gt;Intellect&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#dac79c&gt;Intellect&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Smart"&gt;&lt;#00a4ff&gt;Smart&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35&gt;&lt;size=90%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Intellect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>739</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#dac79c&gt;Intellect&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#dac79c&gt;Intellect&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Acute"&gt;&lt;#00a4ff&gt;Acute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Intellect and use their abilities and spells at +1 Power Level.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>741</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#dac79c&gt;Intellect&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#dac79c&gt;Intellect&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Brilliant"&gt;&lt;#00a4ff&gt;Brilliant&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Intellect, use their abilities and spells at +1 Power Level, and periodically regain class resources.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>743</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Resolve"&gt;&lt;#dac79c&gt;Resolve&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Resolve"&gt;&lt;#dac79c&gt;Resolve&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Steadfast"&gt;&lt;#30d3d5&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35&gt;&lt;size=90%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Resolve.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>745</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Resolve"&gt;&lt;#dac79c&gt;Resolve&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Resolve"&gt;&lt;#dac79c&gt;Resolve&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Resolute"&gt;&lt;#30d3d5&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Resolve and periodically gain Concentration.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>747</ID>
-      <DefaultText>&lt;voffset=-1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Resolve"&gt;&lt;#dac79c&gt;Resolve&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
+      <DefaultText>&lt;voffset=1em&gt;&lt;line-height=100%&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Resolve"&gt;&lt;#dac79c&gt;Resolve&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Courageous"&gt;&lt;#30d3d5&gt;Courageous&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=0.35em&gt;&lt;size=95%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Resolve and are immune to Interrupt.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>

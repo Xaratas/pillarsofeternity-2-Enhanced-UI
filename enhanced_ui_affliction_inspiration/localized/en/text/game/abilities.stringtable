@@ -1,35 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-Mod name: PoE2-EnhancedUserInterface // en // version: 0.3.2-02
-
-### CHANGELOG ###
-
-0.3.2-01
-
-- Fixed a few incorrect keyword stylizations.
-- Might inspirations should now use the new icon and rank syntax.
-- Slightly increased the distance between Constitution icons and ranks
-
-0.3.2
-
-- Huge changes to how Affliction and Inspiration icons are displayed. No need for sub/sup tags or similar anymore.
-- Line heights should no longer be affected by icon size or text palcement (the <voffset> tag for example).
-
-
-0.3.1
-
-- Added subscript for all negative afflictions.
-- Changed the color of Perception to a slightly lighter hue for easier reading.
-- Made the damage type text bold and set a fixed width between the damage keyword and it's corresponding icon.
-- Changed the distance between the Dexterity icon and it's rank indicator.
-- Added color for reputation gain in gui.stringtable
-- Added cyclopedia entries for all damage types.
-- Added icon to defensive stats.
-- Fixed some Resolve keywords getting the wrong color and icon.
-- No afflictions or inspirations should no longer have a bold text effect (didn't look quite right).
-- Changed the distance between Shock text and icon.
-
--->
+<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 0.3.2-03 -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
@@ -1265,7 +1235,7 @@ Mod name: PoE2-EnhancedUserInterface // en // version: 0.3.2-02
     </Entry>
     <Entry>
       <ID>1938</ID>
-      <DefaultText>&lt;line-height=100%&gt;The cipher violently lashes out at an enemy, dealing &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; Damage and generating a cone of concussive (&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;Crush&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;) force behind the target. &lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The cipher violently lashes out at an enemy, dealing &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; Damage and generating a cone of concussive force (&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;Crush&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;) behind the target. &lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1936,7 +1906,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.&lt;/line
     </Entry>
     <Entry>
       <ID>2791</ID>
-      <DefaultText>&lt;line-height=100%&gt;Conjures a destructive vortex of wind that can lift its victims into the air and deal &lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;Crush&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; damage to all it touches.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Conjures a destructive vortex of wind that can lift its victims into the air and deal &lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;crush&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; damage to all it touches.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2222,6 +2192,11 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.&lt;/line
     <Entry>
       <ID>3612</ID>
       <DefaultText>&lt;line-height=100%&gt;Wael watches with countless eyes. Casts a Gaze spell in an area, Petrifying or &lt;link="glossary://GlossaryEntry_Terrifying"&gt;&lt;#30d3d5&gt;Terrifying&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.1em&gt;&lt;voffset=-0.35em&gt;&lt;size=95%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; enemies.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3677</ID>
+      <DefaultText>Being near a killed enemy reduces incoming damage by 15% for 10 seconds.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

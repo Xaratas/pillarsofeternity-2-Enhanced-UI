@@ -26,7 +26,7 @@
     </Entry>
     <Entry>
       <ID>254</ID>
-      <DefaultText>Belegt das Ziel mit einer ansteckenden und hemmenden Krankheit, die es behindert und &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;schwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, bevor sie auf andere Feinde überspringt.</DefaultText>
+      <DefaultText>Belegt das Ziel mit einer ansteckenden und hemmenden Krankheit, die es &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpeln &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; lässti und &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;schwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, bevor sie auf andere Feinde überspringt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -51,7 +51,7 @@
     </Entry>
     <Entry>
       <ID>279</ID>
-      <DefaultText>Der Zauberwirker nutzt seine Lebenskraft, um die Inspiration &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Schnell &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; zu erwerben auf Kosten seiner eigenen Gesundheit, die stetig abnimmt.</DefaultText>
+      <DefaultText>Der Zauberwirker nutzt seine Lebenskraft, um die Inspiration &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Schwungvoll &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; zu erwerben auf Kosten seiner eigenen Gesundheit, die stetig abnimmt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -132,11 +132,6 @@
     <Entry>
       <ID>417</ID>
       <DefaultText>Flößt dem Zauberwirker Vitalität ein, wodurch er die Inspirationen &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Klug &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; erhält.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>427</ID>
-      <DefaultText>Die Hand des Zauberwirkers wird zu einem giftigen Parasiten, der dem Ziel Zersetzungsschaden zufügt, es &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;schwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, und seine Lebenskraft in Gesundheit für den Zauberwirker umwandelt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -386,7 +381,7 @@
     </Entry>
     <Entry>
       <ID>885</ID>
-      <DefaultText>Ein Schlag auf den Kopf, der die Reaktionsfähigkeit der Feinde beeinträchtigen soll. Feinde, die von einem erfolgreichen Angriff betroffen sind, werden&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt; Benommen &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Ein Schlag auf den Kopf, der die Reaktionsfähigkeit der Feinde beeinträchtigen soll. Feinde, die von einem erfolgreichen Angriff betroffen sind, werden &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -635,7 +630,7 @@ Einhändig: Reiner Schaden über Zeit</DefaultText>
     </Entry>
     <Entry>
       <ID>2057</ID>
-      <DefaultText>(Auslöschender Hieb) – Gegner in der Nähe des Ziels werden durch den Angriff &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Auslöschender Hieb) – Gegner in der Nähe des Ziels werden durch den Angriff &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Erschüttert &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -858,7 +853,7 @@ Die Flammen der Hingabe verursachen zusätzlichen Zersetzungsschaden (Schwarze F
     </Entry>
     <Entry>
       <ID>2701</ID>
-      <DefaultText>Löst ein lautes Stimmengewirr aus, das Gegner nach hinten wirft und &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Löst ein lautes Stimmengewirr aus, das Gegner nach hinten wirft und&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt; Benommen &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; macht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -873,7 +868,7 @@ Die Flammen der Hingabe verursachen zusätzlichen Zersetzungsschaden (Schwarze F
     </Entry>
     <Entry>
       <ID>2760</ID>
-      <DefaultText>(Beständige Schatten) – Die Unsichtbarkeit hält wesentlich länger an und gewährt die Inspiration &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Schnell &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Beständige Schatten) – Die Unsichtbarkeit hält wesentlich länger an und gewährt die Inspiration &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Schwungvoll &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -904,6 +899,11 @@ Die Flammen der Hingabe verursachen zusätzlichen Zersetzungsschaden (Schwarze F
     <Entry>
       <ID>2843</ID>
       <DefaultText>Die eigene Haut des Ziels frisst sie langsam auf und versetzt ihm in hohem Umfang Zersetzungsschaden über einen längeren Zeitraum. Außerdem wird das Ziel &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Geschwächt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; und eine Heilung wird verhindert.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2849</ID>
+      <DefaultText>Ruft einen Mantel schwarzer Energie hervor, der um den Zauberer herum wirbelt. Der Mantel vernichtet die Nahkampf-Angreifer des Zauberers und &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; sie für kurze Zeit in Dunkelheit. Während dieser Zeit sind sie aller Aktionen unfähig. Außerdem erhalten sie raschen direkten Schaden über längere Zeit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
