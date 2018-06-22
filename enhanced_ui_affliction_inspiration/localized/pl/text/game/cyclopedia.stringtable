@@ -2,76 +2,11 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\cyclopedia</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>875</EntryCount>
+  <EntryCount>884</EntryCount>
   <Entries>
-    <Entry>
-      <ID>94</ID>
-      <DefaultText>Przypadłość związana z percepcją. Oślepione postacie otrzymują karę -5 do percepcji oraz -10 do celności, są uznawane za oflankowane, ich czas odzyskiwania gotowości trwa o 50% dłużej, a zasięg wszystkich ataków dystansowych spada o połowę. Nie mogą też wykorzystywać ataków spojrzeniem ani padać ich ofiarą.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>96</ID>
-      <DefaultText>Przypadłość związana z intelektem. Zauroczona postać walczy dla swego dawnego wroga, nie używając jednak zdolności, a jedynie podstawowych ataków. -5 do intelektu.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>98</ID>
-      <DefaultText>Przypadłość związana z intelektem. Postacie ogarnięte zamętem otrzymują karę -5 do intelektu i wszystkich zdolności oraz atakują zarówno sprzymierzeńców, jak i przeciwników.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>100</ID>
-      <DefaultText>Przypadłość związana z mocą. Oszołomiona postać ma -5 do mocy, nie może nawiązywać walki, a jej penetracja spada o 4.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>102</ID>
-      <DefaultText>Przypadłość związana z intelektem. Zdominowany cel podlega woli wroga i wykorzysta wszystko, co ma do dyspozycji, by pokonać dawnych sojuszników. -5 do intelektu.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>106</ID>
-      <DefaultText>Przypadłość związana ze stanowczością. Przestraszona postać ma -5 do stanowczości, -3 do poziomu siły i nie może wykorzystywać agresywnych czarów oraz zdolności.</DefaultText>
-      <FemaleText />
-    </Entry>
     <Entry>
       <ID>108</ID>
       <DefaultText>Przypadłość związana ze zręcznością. Okulawione postacie mają zręczność obniżoną o 5 oraz mniejszą &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkość &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; ruchu.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>110</ID>
-      <DefaultText>Przypadłość związana ze zręcznością. Sparaliżowany cel nie może podejmować żadnych działań. Otrzymuje -5 do zręczności, a 25% wszystkich otrzymanych przez niego trafień zmienia się w krytyczne.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>112</ID>
-      <DefaultText>Pod wpływem skamienienia dusza postaci tymczasowo zamienia jej ciało w nieruchomy, kruchy kamień. Daje to efekt podobny do paraliżu.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>116</ID>
-      <DefaultText>Przypadłość związana z kondycją. Postać dotknięta mdłościami ma kondycję zmniejszoną o 5, a efekty leczenia jej są o 25% słabsze.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>118</ID>
-      <DefaultText>Przypadłość związana ze zręcznością. Unieruchomione postacie nie mogą się poruszać, a ich zręczność spada o 5.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>120</ID>
-      <DefaultText>Przypadłość związana z mocą. Ogłuszone postacie nie mogą podejmować żadnych działań ani nawiązywać walki, otrzymują karę do wszystkich rodzajów obrony, -4 do penetracji oraz -5 do mocy.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>122</ID>
-      <DefaultText>Przypadłość związana ze stanowczością. Przerażona postać otrzymuje -5 do stanowczości, a jej poziom siły spada o 3. Nie może też wykonywać żadnych działań poza ucieczką.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>124</ID>
-      <DefaultText>Przypadłość związana z kondycją. Osłabione postacie mają kondycję zmniejszoną o 5, a otrzymywane leczenie ulega zmniejszeniu o połowę.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -102,40 +37,8 @@ Niektóre istoty, zwłaszcza dużych rozmiarów, mogą nawiązać walkę z więc
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>322</ID>
-      <DefaultText>Przypadłość związana z percepcją. Rozkojarzona postać ma o 5 punktów niższą percepcję i jest uznawana za oflankowaną.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>533</ID>
-      <DefaultText>Przypadłość związana ze stanowczością. Roztrzęsiona postać otrzymuje -5 do stanowczości i -3 do poziomu siły.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>679</ID>
-      <DefaultText>Przypadłość związana z kondycją. Wycieńczone postacie mają kondycję zmniejszoną o 5, nie mogą być leczone, a wszystkie wrogie efekty utrzymują się na nich o 50% dłużej.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>681</ID>
-      <DefaultText>Przypadłość związana z percepcją. Zdezorientowane postacie mają percepcję zmniejszoną o 5, są uznawane za oflankowane, a ich czas odzyskiwania gotowości wydłuża się o 50%.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>683</ID>
-      <DefaultText>Przypadłość związana z mocą. Wytrącone z równowagi postacie mają moc zmniejszoną o 5 i nie mogą nawiązywać walki z przeciwnikami.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>687</ID>
       <DefaultText>Przypadłości okulawienia, unieruchomienia i paraliżu wpływają na cechę zręczności. Można im zaradzić poprzez inspiracje zręczności (&lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkość &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;lotność &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;zwinność &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;).</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>689</ID>
-      <DefaultText>Inspiracje, podobnie jak przypadłości, to grupy efektów nakładanych na postacie. Zapewniają im one jednak nie negatywne, a pozytywne skutki.
-
-Każda inspiracja kategoryzowana jest przez cechę, jak na przykład moc czy zręczność. Ich otrzymanie znosi oraz zapewnia niewrażliwość na wszelkie przypadłości związane z odpowiadającą im cechą. Na przykład inspiracja mądrości anuluje i znosi przypadłości zamętu, zauroczenia i zdominowania.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -194,41 +97,6 @@ Każda inspiracja kategoryzowana jest przez cechę, jak na przykład moc czy zr�
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>713</ID>
-      <DefaultText>Inspiracja mocy. Silne postacie mają moc zwiększoną o +5.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>715</ID>
-      <DefaultText>Inspiracja mocy. Zawzięte postacie mają moc zwiększoną o +5, a penetrację o +2.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>717</ID>
-      <DefaultText>Inspiracja mocy. Pobudzone postacie mają siłę zwiększoną o +5, penetrację o +2, a ich trafienia krytyczne przerywają działania wrogów.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>719</ID>
-      <DefaultText>Inspiracja kondycji. Sprawne postacie mają kondycję zwiększoną o 5.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>721</ID>
-      <DefaultText>Inspiracja kondycji. Dzielne postacie mają kondycję zwiększoną o 5, a skuteczność pancerza o 2.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>723</ID>
-      <DefaultText>Inspiracja kondycji. Krzepkie postacie mają kondycję zwiększoną o 5, skuteczność pancerza o 2 i co pewien czas regenerują zdrowie.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>725</ID>
-      <DefaultText>Inspiracja zręczności. Szybkie postacie mają zręczność zwiększoną o 5.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>727</ID>
       <DefaultText>Inspiracja zręczności. Lotne postacie mają zręczność zwiększoną o 5, a &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkość &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; ich ruchu rośnie o 100%.</DefaultText>
       <FemaleText />
@@ -239,48 +107,13 @@ Każda inspiracja kategoryzowana jest przez cechę, jak na przykład moc czy zr�
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>731</ID>
-      <DefaultText>Inspiracja percepcji. Wnikliwe postacie mają percepcję zwiększoną o 5.</DefaultText>
+      <ID>753</ID>
+      <DefaultText>Odporność na dany rodzaj przypadłości sprawia, że nałożony na postać efekt ulega obniżeniu o jeden poziom. Oznacza to, że jeśli na przykład jest ona odporna na przypadłości związane z mocą i miałoby na nią zostać nałożone &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;ogłuszenie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, finalnym efektem będzie &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;oszołomienie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;. Owo &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;oszołomienie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; zostałoby obniżone do wytrącenia z równowagi, zaś &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;wytrącenie z równowagi &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; nie zostałoby w ogóle zastosowane.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>733</ID>
-      <DefaultText>Inspiracja percepcji. Świadome postacie mają percepcję zwiększoną o 5, a 50% ich draśnięć zmienia się w trafienia.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>735</ID>
-      <DefaultText>Inspiracja percepcji. Postacie z wyostrzoną intuicją mają percepcję zwiększoną o 5, 50% ich draśnięć zmienia się w trafienia, a 25% trafień w trafienia krytyczne.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>737</ID>
-      <DefaultText>Inspiracja intelektu. Mądre postacie mają intelekt zwiększony o 5.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>739</ID>
-      <DefaultText>Inspiracja intelektu. Bystre postacie mają intelekt zwiększony o 5 i używają swoich zdolności oraz czarów na o 1 wyższym poziomie siły.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>741</ID>
-      <DefaultText>Inspiracja intelektu. Genialne postacie mają intelekt zwiększony o 5, używają swoich zdolności oraz czarów na o 1 wyższym poziomie siły i co pewien czas odnawiają źródła siły.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>743</ID>
-      <DefaultText>Inspiracja stanowczości. Wytrwałe postacie mają stanowczość większą o 5.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>745</ID>
-      <DefaultText>Inspiracja stanowczości. Zdecydowane postacie mają stanowczość większą o 5 i co pewien czas zyskują koncentrację.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>747</ID>
-      <DefaultText>Inspiracja stanowczości. Odważne postacie mają stanowczość większą o 5, co pewien czas zyskują koncentrację i są niewrażliwe na przerwania.</DefaultText>
+      <ID>755</ID>
+      <DefaultText>Wrażliwość na dany rodzaj przypadłości sprawia, że nałożony na postać efekt ulega podwyższeniu o jeden poziom. Na przykład postać wrażliwa na przypadłości związane z mocą zamiast wytrącenia z równowagi otrzymuje &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;oszołomienie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, a zamiast oszołomienia – &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;ogłuszenie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

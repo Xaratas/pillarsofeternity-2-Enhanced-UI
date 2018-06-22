@@ -2,126 +2,36 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>519</EntryCount>
+  <EntryCount>522</EntryCount>
   <Entries>
-    <Entry>
-      <ID>0</ID>
-      <DefaultText>Шанс провести дополнительную атаку и наложить «Встряску» при попадании: {0:value:percent}</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2</ID>
-      <DefaultText>Шанс {0:value:percent} ошеломить цель на {0:extravalue:duration} при попадании</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3</ID>
-      <DefaultText>Шанс ошеломить цель на {0:extravalue:duration} при попадании, если персонаж — гном: {0:value:percent}</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>5</ID>
-      <DefaultText>Шанс наложить на цель ледяной «Паралич» на {0:extravalue:duration} при критическом попадании: {0:value:percent}</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>7</ID>
-      <DefaultText>Попавшие заклинания могут заворожить цель с вероятностью {0:value:percent}</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>8</ID>
-      <DefaultText>Попадания оружием могут с вероятностью {0:value:percent} наложить &lt;link="gamedata://ed93377c-66b3-4817-898c-833ff562ba70"&gt;Форму беспомощного зверя&lt;/link&gt; на цель</DefaultText>
-      <FemaleText />
-    </Entry>
     <Entry>
       <ID>10</ID>
       <DefaultText>При критическом попадании по раз&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ному противнику или чудовищу проводится дополнительная атака, и на цель накладывается «Встряска»</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>13</ID>
-      <DefaultText>Шанс наложить на цель тошноту при попадании: {0:value:percent}</DefaultText>
+      <ID>34</ID>
+      <DefaultText>{0:value:percentbonus} к урону замораживанием на {0:extravalue:duration} при попадании (с&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируется {0:triggercount} р.)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>26</ID>
-      <DefaultText>Приход в бешенство дает вдохновения «Проворство» и «Цепкость»</DefaultText>
+      <ID>36</ID>
+      <DefaultText>{0:value:percentbonus} к разъедающему урону на {0:extravalue:duration} при попадании (с&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируется {0:triggercount} р.)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>38</ID>
-      <DefaultText>Шанс ошеломить при попадании: {0:value:percent}</DefaultText>
+      <ID>60</ID>
+      <DefaultText>Отклонение {0:value} у цели при критическом попадании в течение {0:triggervalue:duration} (с&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируется {0:extravalue:straight} р.)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>39</ID>
-      <DefaultText>Критическое попадание запугивает смертных</DefaultText>
+      <ID>70</ID>
+      <DefaultText>{0:value} от воли цели на {0:extravalue:duration} при попадании (с&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируется {0:triggercount} р.)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>53</ID>
-      <DefaultText>Шанс ошеломить и сбить цель с ног при критическом попадании.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>58</ID>
-      <DefaultText>Шанс отвлечь цель при попадании</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>63</ID>
-      <DefaultText>{0:value:percent} шанс отвлечь цель на {0:extravalue:duration} при попадании</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>77</ID>
-      <DefaultText>Шанс наложить на цель хромоту, «Нокдаун», нанести чистый постепенный урон на 12 сек. или на 25% снизить скорость действий при критическом попадании</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>83</ID>
-      <DefaultText>Шанс оглушить атакующего на {0:extravalue:duration} при попадании оружием ближнего боя: {0:value:percent}</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>86</ID>
-      <DefaultText>Атаки в режиме скрытности оглушают цель</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>124</ID>
-      <DefaultText>Призывает в пустую ячейку быстрого доступа случайное зелье</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>141</ID>
-      <DefaultText>В начале боя призывает в пустую ячейку быстрого доступа случайное зелье. Зелье исчезает после окончания боя.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>149</ID>
-      <DefaultText>Шанс наложить на цель «Встряску» при критическом попадании</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>150</ID>
-      <DefaultText>Шанс наложить на цель и ближайших врагов «Встряску» при критическом попадании</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>157</ID>
-      <DefaultText>Шанс ошеломить цель и ближайших противников при критическом попадании: {0:value:percent}</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>161</ID>
-      <DefaultText>Шанс ошеломить цель при попадании: {0:value:percent}</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>162</ID>
-      <DefaultText>Шанс ошеломить цель при попадании: {0:value:percent}</DefaultText>
+      <ID>152</ID>
+      <DefaultText>{0:value} к отклонению цели на {0:extravalue:duration} при попадании. С&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируется {0:triggercount} р.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -130,18 +40,18 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>171</ID>
-      <DefaultText>Шанс наложить на цель тошноту на {0:extravalue:duration} при попадании: {0:value:percent}</DefaultText>
+      <ID>183</ID>
+      <DefaultText>При убийстве: +2 к силе. 25% попаданий по целям с запасом здоровья не выше 25% преобразуются в критические. +15% к скорости действий на 45 сек. Эффекты с&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируются. Подавляет духовный голод</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>172</ID>
-      <DefaultText>Потеря сознания союзником дает вдохновение крепости на {0:value:duration} сек.</DefaultText>
+      <ID>184</ID>
+      <DefaultText>При убийстве: +6 к силе. 35% попаданий по целям с запасом здоровья не выше 50% преобразуются в критические. +30% к скорости действий на 45 сек. Эффекты с&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируются. Подавляет духовный голод.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>181</ID>
-      <DefaultText>Шанс провести ошеломляющую контратаку, если противник промахнулся в ближнем бою: {0:value:percent}</DefaultText>
+      <ID>185</ID>
+      <DefaultText>При убийстве: +3 к силе. 25% попаданий по целям с запасом здоровья не выше 50% преобразуются в критические. +20% к скорости действий на 45 сек. Эффекты с&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируются. Подавляет духовный голод.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -150,48 +60,28 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>196</ID>
+      <DefaultText>Дает +3% ледяного урона при попадании. Эффект с&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируется до 20 раз</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>201</ID>
+      <DefaultText>Дает +3% разъедающего урона при попадании. Эффект с&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируется до 20 раз</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>202</ID>
       <DefaultText>Когда эффект Темного клинка с&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируется {0:triggercount} р., при критическом попадании на цель накладывается тошнота</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>226</ID>
-      <DefaultText>{0:triggercount} ед. разъедающего урона кажд. {0:value:duration} на {0:triggervalue:duration} при попадании (шанс парализовать цель каждой очередной порцией урона: {0:extravalue:percent})</DefaultText>
+      <ID>214</ID>
+      <DefaultText>Убийства при помощи Милости &lt;xg&gt;Магран&lt;/xg&gt; дают {0:value:percent} урона горением и {0:extravalue:percent} скорости действий {с&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируется {0:triggervalue:straight} р.)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>241</ID>
-      <DefaultText>Шанс ослепить атакующего на 10 сек. при его промахе атакой взглядом: 50%</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>242</ID>
-      <DefaultText>Шанс ошеломить цель на {0:value:duration} и сбить с ног при попадании: {0:extravalue:percent}</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>245</ID>
-      <DefaultText>Шанс ошеломить и отбросить цель при попадании: {0:value:percent}</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>246</ID>
-      <DefaultText>Шанс обездвижить цель при попадании: {0:value:percent}</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>252</ID>
-      <DefaultText>Шанс наложить на цель «Хромоту» при попадании: {0:value:percent}</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>256</ID>
-      <DefaultText>Шанс запутать цель на {0:extravalue:duration} при попадании: {0:value:percent}</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>257</ID>
-      <DefaultText>Если цель отвлечена, критическое попадание сбивает ее с ног</DefaultText>
+      <ID>220</ID>
+      <DefaultText>При попадании цель в окружении получает &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;еренный постепенный чистый урон</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -205,58 +95,38 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>274</ID>
-      <DefaultText>Парализует цель на {0:value:duration} при критическом попадании.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>280</ID>
-      <DefaultText>{0:value} ко всем защитам против атак с воздействием на ловкость, если запас здоровья больше 75%.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>284</ID>
       <DefaultText>При критическом попадании вызывает &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;недомогание &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; на 12 сек. Блокируется стойкостью.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>297</ID>
-      <DefaultText>Вдохновение силы</DefaultText>
+      <ID>287</ID>
+      <DefaultText>+10% к урону в ближнем бою и +5 к отклонению при вступлении в бой. С&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируется до 3 раз</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>298</ID>
-      <DefaultText>Вдохновение: восприятие</DefaultText>
+      <ID>306</ID>
+      <DefaultText>{0:value} к отклонению и {0:extravalue} к реакции до конца боя при попадании противника (с&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируется до {0:triggervalue:straight} р.)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>299</ID>
-      <DefaultText>Вдохновение: интеллект</DefaultText>
+      <ID>340</ID>
+      <DefaultText>При критическом попадании +10% урона наносится как разъедающий до конца боя. С&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируется до 10 раз</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>323</ID>
-      <DefaultText>При использовании двуручного оружия дает «Потрясение» в течение {0:extravalue:duration}</DefaultText>
+      <ID>347</ID>
+      <DefaultText>Получение критических попаданий приносит дополнительную волю ({0:value}) до конца боя (с&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируется {0:extravalue:straight} р.)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>325</ID>
-      <DefaultText>При использовании двуручного оружия дает «Ошеломление» в течение {0:extravalue:duration}</DefaultText>
+      <ID>348</ID>
+      <DefaultText>{0:value} к телосложению при критическом попадании (с&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируется {0:extravalue:straight} р.)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>352</ID>
       <DefaultText>Если атака в ближнем бою не попадает в цель, производится контратака против врага (вызывает &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;ошеломление &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; у цели)</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>379</ID>
-      <DefaultText>Шанс оглушить цель на {0:extravalue:duration} при попадании: {0:value:percent}</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>380</ID>
-      <DefaultText>{0:value:percent} шанс оглушить цель на {0:extravalue:duration} при попадании, если персонаж — гном</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -290,28 +160,18 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>446</ID>
-      <DefaultText>Получение критического попадания в ближнем бою с вероятностью {0:value:percent} вызывает Путаницу у атакующих (в случае критического попадания развивается до заворожения)</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>451</ID>
-      <DefaultText>Шанс {0:value:percent} нанести разъедающий урон конусом по области от себя и вызвать у цели хромоту при атаке</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>453</ID>
       <DefaultText>Ближайшие враги получают &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;отвлечение &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; после убийства врага при помощи оружия в течение {0:value:duration}.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>456</ID>
-      <DefaultText>Шанс {0:value:percent} оглушить атакующего на 8 сек. при попадании оружием ближнего боя</DefaultText>
+      <ID>455</ID>
+      <DefaultText>При попадании накладывает с&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мирующийся эффект на врага. При критическом попадании все враги в области действия теряют все накопленное и получают {0:extravalue} ед. урона электрошоком за каждый экземпляр.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>458</ID>
-      <DefaultText>Враги в области действия получают дезориентацию на {0:extravalue:duration}.</DefaultText>
+      <ID>470</ID>
+      <DefaultText>{0:value} от отклонения цели на 45 сек. при попадании. С&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;мируется 5 раз</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -320,23 +180,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>507</ID>
-      <DefaultText>Шанс оглушить цель на {0:extravalue:duration} при попадании: {0:value:percent}</DefaultText>
+      <ID>489</ID>
+      <DefaultText>Шанс {0:value:percent} вызвать &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;ужас &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; на {0:extravalue:duration} при обычном попадании (исключая легкие)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>508</ID>
-      <DefaultText>{0:value:percent} шанс оглушить цель на {0:extravalue:duration} при попадании, если персонаж — гном</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>512</ID>
-      <DefaultText>Шанс {0:value:percent} подготовки в течение {0:extravalue:duration} на себя при попадании</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>535</ID>
-      <DefaultText>{0:value:percentbonus} к длительности враждебного воздействия на ловкость</DefaultText>
+      <ID>498</ID>
+      <DefaultText>Смертные враги низкого уровня в начале боя могут испытать &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;ужас &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\statuseffects</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>522</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>77</ID>
+      <DefaultText>Chance to inflict &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbled &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, Knockdown, &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage over time for 12.0 sec, or -25% Action Speed on target on scoring Crit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>226</ID>
+      <DefaultText>{0:triggercount} &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode Damage per {0:value:duration} for {0:triggervalue:duration} on Hit ({0:extravalue:percent} chance to &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyze &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; target on tick)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>451</ID>
+      <DefaultText>{0:value:percent} chance to cast &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode Damage cone AoE from self and &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobble &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; target on attack</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

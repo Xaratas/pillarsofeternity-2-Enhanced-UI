@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\cyclopedia</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>884</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>180</ID>
+      <DefaultText>A modal ability is one that can be turned on or off or set to different &lt;i&gt;modes&lt;/i&gt; to produce different effects. For example, all weapon proficiencies grant modal abilities that are available when the proficient weapon or shield is equipped. Similarly, a paladin's Zealous Auras can be set to one of three different states.
+
+Modal abilities should be changed based on the tactical needs of a combat. For example, if a character would not benefit from the additional Penetration of a sabre's Windmill &lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash, it should be turned off to improve the character's Recovery time. A paladin may wish to use Zealous Charge at the opening of a battle but switch it to Zealous Focus to gain more Accuracy once the fight is underway.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>194</ID>
+      <DefaultText>There are eight damage types in Pillars of Eternity: &lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Pierce, &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crush, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn, &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock, &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze, and &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw. Damage types are used to determine how easily a target resists damage of that type based on their Armor Ratings. A creature or suit of armor may be very resistant to one type of damage but quite vulnerable to another. 
+
+Some weapons or attacks may do multiple damage types or list an "or" between their damage types. When an "or" is listed, the attack will always do the damage type that the target is most vulnerable to. &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage is the only damage type that ignores all Armor Ratings and is generally associated with poisons and similar effects. </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>453</ID>
+      <DefaultText>When a damaging attack hits a target, the attack's &lt;b&gt;Penetration&lt;/b&gt; is compared to the target's &lt;b&gt;Armor Rating&lt;/b&gt; to determine how much damage gets through.
+
+Penetration comes from the weapon or spell that is being used, but can be raised through the use of magic, Abilities, Talents, or weapon enchantments. Penetration is compared to the Armor Rating of the attack's damage type. E.g. A Fireball will always check Penetration against &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn Armor Rating. &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage bypasses all armor and does not need to penetrate.
+
+&lt;b&gt;Full Penetration&lt;/b&gt; (+30% Damage) - Penetration is twice the target's Armor Rating or more.
+
+&lt;b&gt;Penetration&lt;/b&gt; (Listed Damage) - Penetration meets or exceeds the target's Armor Rating.
+
+&lt;b&gt;Under Penetration&lt;/b&gt; (-25% Damage per point under the target's Armor, Max -75%) - Penetration is less than the target's Armor Rating.
+
+</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>463</ID>
+      <DefaultText>Though they may appear indistinguishable from a normal vine, assassin vines are anything but. They are primordial creatures, beasts that have existed in Eora for as long as kith - or longer - and are very strange indeed.
+
+In fact a collection of plant vines subsisting in a tightly interwoven colony, assassin vines demonstrate both an unusual and alarming degree of sentience. For example, they have been known to lie in wait for their prey in the shadows of low-lying plants. When their target passes by, the assassin vine whips out from its hiding place, knocks its prey to the ground, constricts them, and drags them back to its lair for an agonizingly slow death by &lt;sprite="Inline" name="cs_blunt" tint=1&gt; crushing and the application of certain liquefying enzymes.
+
+Assassin vines are not only formidable hunters - they are challenging opponents in combat, too. They prefer to &lt;sprite="Inline" name="cs_blunt" tint=1&gt; crush their adversaries to death, but if their foe is out of reach, will settle for tearing thorns off their own body and hurling them at their opponent.
+
+What lies at the heart of an assassin vine nest is, as yet, a mystery. None who have been so foolhardy as to attempt to find out have returned alive, let alone in one piece.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>475</ID>
+      <DefaultText>The scourge of the jungle, panthers are master of the silent kill. Though they prefer swamp and rain forests, they have been known to roam across scrublands and desert. Consequently, they are widespread in the Deadfire Archipelago.
+
+Fiercely independent, they thrive in the underbrush where their dark coats provide them ample camouflage, and eschew interacting with kith unless they perceive a territorial threat. Their impressive musculature and bone structure make these cats lethal pouncers, and the strength of their bite is such that they can &lt;sprite="Inline" name="cs_pierce" tint=1&gt; pierce the shells of armored reptiles. Even a halfhearted strike from their paw is enough to stagger an unprepared opponent.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

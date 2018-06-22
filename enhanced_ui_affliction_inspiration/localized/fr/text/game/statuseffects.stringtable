@@ -2,36 +2,11 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>519</EntryCount>
+  <EntryCount>522</EntryCount>
   <Entries>
     <Entry>
       <ID>0</ID>
       <DefaultText>{0:value:percent} de chances d'infliger &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Frisson &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; à une cible touchée</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2</ID>
-      <DefaultText>{0:value:percent} de chances d'étourdir pendant {0:extravalue:duration} une cible touchée</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3</ID>
-      <DefaultText>{0:value:percent} de chances d'étourdir pendant {0:extravalue:duration} une cible touchée si le porteur est nain</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>5</ID>
-      <DefaultText>{0:value:percent} de chances de paralyser la cible dans une couche de glace pendant {0:extravalue:duration} en cas de coup critique</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>7</ID>
-      <DefaultText>Toucher avec un sort accorde {0:value:percent} de chances de charmer la cible</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>8</ID>
-      <DefaultText>{0:value:percent} de chances de lancer &lt;link="gamedata://ed93377c-66b3-4817-898c-833ff562ba70"&gt;Forme de la bête sans défense&lt;/link&gt; sur une cible touchée</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -40,63 +15,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>13</ID>
-      <DefaultText>{0:value:percent} de chances de contaminer une cible touchée</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>26</ID>
       <DefaultText>Enragez, ce qui accorde de l'&lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Agilité &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; et de la &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Ténacité &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>38</ID>
-      <DefaultText>{0:value:percent} de chances d'étourdir en cas de coup porté</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>39</ID>
-      <DefaultText>Chance d'effrayer une cible kith touchée par un coup critique</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>53</ID>
-      <DefaultText>Chance d'étourdir et de renverser une cible touchée par un coup critique.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>58</ID>
-      <DefaultText>Chance de distraire une cible touchée</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>63</ID>
-      <DefaultText>{0:value:percent} de chances de distraire la cible pendant {0:extravalue:duration} en cas de coup porté</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>77</ID>
       <DefaultText>Chance d'infliger &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Entrave &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, Renversement, des dégâts bruts sur 12,0 sec ou -25 % en Vitesse d'action à une cible touchée par un coup critique</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>83</ID>
-      <DefaultText>{0:value:percent} de chances d'étourdir un attaquant pendant {0:extravalue:duration} en cas de coup porté avec une arme de corps à corps.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>86</ID>
-      <DefaultText>Les attaques effectuées en état de furtivité assomment la cible</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>124</ID>
-      <DefaultText>Invoque une potion aléatoire dans un emplacement rapide vide</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>141</ID>
-      <DefaultText>Invoque au début du combat une potion aléatoire dans un emplacement rapide vide La potion disparaît à la fin du combat.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -110,28 +35,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>157</ID>
-      <DefaultText>{0:value:percent} de chances d'étourdir la cible et les ennemis proches en cas de coup critique</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>161</ID>
-      <DefaultText>{0:value:percent} de chances d'étourdir une cible touchée</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>162</ID>
-      <DefaultText>{0:value:percent} de chances d'étourdir une cible touchée</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>165</ID>
       <DefaultText>Inflige &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Effroi &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; à un kith ou un sauvage touché par un coup critique</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>171</ID>
-      <DefaultText>{0:value:percent} de chances d'intoxiquer la cible pendant {0:extravalue:duration} en cas de coup porté</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -140,98 +45,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>181</ID>
-      <DefaultText>{0:value:percent} de chances d'étourdir une cible qui vous manque au corps à corps</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>195</ID>
-      <DefaultText>Quand Tranchant givré est cumulé {0:value:straight} fois, la cible est paralysée pendant {0:extravalue:duration} en cas de coup critique</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>202</ID>
-      <DefaultText>Quand Lame entachée est cumulée {0:triggercount} fois, la cible touchée par un coup critique est intoxiquée</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>226</ID>
-      <DefaultText>{0:triggercount} de dégâts corrosifs infligés toutes les {0:value:duration} pendant {0:triggervalue:duration} en cas de coup porté ({0:extravalue:percent} de chances de paralyser la cible à chaque application de dégâts)</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>241</ID>
-      <DefaultText>50 % de chances d'aveugler l'attaquant pendant 10,0 sec quand une attaque Regard manque</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>242</ID>
-      <DefaultText>{0:extravalue:percent} de chances d'étourdir la cible pendant {0:value:duration} et de la renverser en cas de coup porté</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>245</ID>
-      <DefaultText>{0:value:percent} de chances d'étourdir et de renverser une cible touchée</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>246</ID>
-      <DefaultText>{0:value:percent} de chances d'immobiliser une cible touchée</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>252</ID>
-      <DefaultText>{0:value:percent} de chances d'entraver une cible touchée</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>256</ID>
-      <DefaultText>{0:value:percent} de chances de rendre la cible confuse pendant {0:extravalue:duration} en cas de coup porté</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>257</ID>
-      <DefaultText>Si la cible est distraite, elle est renversée en accusant un coup critique</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>270</ID>
-      <DefaultText>Si la cible est sous l'effet de l'affliction touchant la Résolution, {0:value:percent} de chances de l'interrompre en cas de coup porté</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>271</ID>
-      <DefaultText>Si la cible est sous l'effet d'une affliction touchant la Résolution, {0:triggercount} dégâts bruts sont infligés toutes les {0:extravalue:duration} pendant {0:value:duration} en cas de coup critique porté</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>274</ID>
-      <DefaultText>La cible touchée par un coup critique est paralysée durant {0:value:duration}</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>280</ID>
-      <DefaultText>{0:value} à toutes les défenses contre les attaques dotées de l'affliction Dextérité tant que la Santé est supérieure à 75 %</DefaultText>
+      <ID>216</ID>
+      <DefaultText>Cône de &lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Désorientation &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; orienté vers une cible touchée par un coup critique</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>284</ID>
       <DefaultText>&lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Intoxication &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; de la cible pendant 12,0 s en cas de coup critique. Opposé par &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robustesse &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>297</ID>
-      <DefaultText>Inspiration de Puissance</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>298</ID>
-      <DefaultText>Inspiration de Perception</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>299</ID>
-      <DefaultText>Inspiration d'Intelligence</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -250,16 +70,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>379</ID>
-      <DefaultText>{0:value:percent} de chances d'assommer la cible pendant {0:extravalue:duration} en cas de coup porté</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>380</ID>
-      <DefaultText>{0:value:percent} de chances d'assommer la cible pendant {0:extravalue:duration} en cas de coup porté si le porteur est nain</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>392</ID>
       <DefaultText>Couronne de l'âme confère les inspirations &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Force &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; et &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Sagacité &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; pendant {0:value:duration}</DefaultText>
       <FemaleText />
@@ -272,11 +82,6 @@
     <Entry>
       <ID>400</ID>
       <DefaultText>Sur cible inconsciente, lance un attaque de zone octroyant aux alliés l'inspiration &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Détermination &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; pendant {0:extravalue:duration} et infligeant Attaque maximum aux ennemis.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>401</ID>
-      <DefaultText>Immunité aux afflictions touchant la Résolution en dessous de {0:extravalue:percent} de Santé</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -305,11 +110,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>456</ID>
-      <DefaultText>{0:value:percent} de chances d'assommer un attaquant pendant 8 secondes en subissant un coup critique avec une arme au corps à corps.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>458</ID>
       <DefaultText>Inflige &lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Désorientation &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; aux ennemis dans la zone d'effet pendant {0:extravalue:duration}.</DefaultText>
       <FemaleText />
@@ -320,13 +120,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>507</ID>
-      <DefaultText>{0:value:percent} de chances d'assommer la cible pendant {0:extravalue:duration} en cas de coup porté</DefaultText>
+      <ID>489</ID>
+      <DefaultText>{0:value:percent} de chances d'infliger &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terreur &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; pendant {0:extravalue:duration} en cas de coup porté (éraflures mises à part)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>508</ID>
-      <DefaultText>{0:value:percent} de chances d'assommer la cible pendant {0:extravalue:duration} en cas de coup porté si le porteur est nain</DefaultText>
+      <ID>498</ID>
+      <DefaultText>Les kiths de niveau inférieur peuvent subir l'affliction &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terreur &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; au début du combat</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -335,8 +135,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>535</ID>
-      <DefaultText>{0:value:percentbonus} de durée des afflictions hostiles touchant la Dextérité</DefaultText>
+      <ID>536</ID>
+      <DefaultText>{0:value} de &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robustesse &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; en restant immobile</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
