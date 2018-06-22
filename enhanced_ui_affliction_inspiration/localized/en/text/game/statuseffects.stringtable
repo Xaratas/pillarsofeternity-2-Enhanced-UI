@@ -38,6 +38,9 @@
      <Entry>
       <ID>8</ID>
       <DefaultText>Hits with this weapon have a {0:value:percent} chance to cast &lt;link="gamedata://ed93377c-66b3-4817-898c-833ff562ba70"&gt;Form of the Helpless Beast&lt;/link&gt; on their target</DefaultText>
+	  <FemaleText />
+	</Entry>
+	 <Entry>
       <ID>9</ID>
       <DefaultText>{0:value:percent} chance to launch &lt;link="glossary://GlossaryEntry_Crushing"&gt;Crush&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; counterattack when missed in melee</DefaultText>
       <FemaleText />
@@ -546,6 +549,9 @@
      <Entry>
       <ID>297</ID>
       <DefaultText>&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;</DefaultText>
+	    <FemaleText />
+     </Entry>
+     <Entry>
       <ID>285</ID>
       <DefaultText>{0:value:percent} chance to cast &lt;link="glossary://GlossaryEntry_Crushing"&gt;Crush&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; Damage Water AoE on target on scoring Hit</DefaultText>
       <FemaleText />
@@ -553,6 +559,9 @@
      <Entry>
       <ID>298</ID>
       <DefaultText>&lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt;</DefaultText>
+	    <FemaleText />
+     </Entry>
+     <Entry>
       <ID>287</ID>
       <DefaultText>+10% Melee Damage and +5 &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflection&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; when Engaged. Stacks 3 times</DefaultText>
       <FemaleText />
@@ -560,6 +569,9 @@
      <Entry>
       <ID>299</ID>
       <DefaultText>&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;</DefaultText>
+	    <FemaleText />
+     </Entry>
+     <Entry>
       <ID>290</ID>
       <DefaultText>&lt;link="glossary://GlossaryEntry_Raw"&gt;Raw&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; Damage over time for 18.0 sec on target below 25% Health on Hit</DefaultText>
       <FemaleText />
@@ -878,7 +890,7 @@
       <ID>535</ID>
       <DefaultText>{0:value:percentbonus} hostile &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; duration</DefaultText>
       <FemaleText />
--	</Entry>
+	</Entry>
     <Entry>
       <ID>536</ID>
       <DefaultText>{0:value} &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Fortitude&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt; while standing still</DefaultText>
