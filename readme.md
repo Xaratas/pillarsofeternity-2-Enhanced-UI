@@ -27,6 +27,8 @@ Due to the fact that this mod has grown quite far beyond the initial scope of on
 
 /Spherikal
 
+***
+
 ### German is in!  de_patch translation pack added!
 **11th of June 2018**\
 After much tweaking and rewriting of the German translation the icons are in. Starting with version 0.3.0 you can get the visible hint together with the German translation fix: [Corrected German translation](https://www.nexusmods.com/pillarsofeternity2/mods/5)
@@ -39,6 +41,8 @@ Der Mod [Corrected german translation](https://www.nexusmods.com/pillarsofeterni
 
 /Xaratas
 
+***
+
 ### Over 200 new entries added to mod version 0.2.3
 **11th of June 2018**\
 This mod version is trying something a little bit different. I have added icons for defensive stats (Fortification, Toughness, Reflexes and Will), offensive weapon types (Slash, Pierce, Crush and Raw) and spell damage (Frost, Burning, Shock and Corrosive).
@@ -47,14 +51,19 @@ This mod version is trying something a little bit different. I have added icons 
 
 It is **strongly** advised that you use the latest game version (1.1.0.00035) when using this mod.
 
+***
+
 ### Italian translation pack added!
 **10th of June 2018**\
 Thanks to [kilay](https://forums.nexusmods.com/index.php?/user/26711484-kilay/) we now have support for the Italian version of the game! Not only did he translate the mod, he also improved upon some parts of the game where the translation didn't really make any sense.
 
+***
 
 ### Patch 1.1.0.0035 is here!
 **10th of June 2018**\
 The patch we've all been waiting for has arrived (albeit only on the beta branch so far) and with it comes loads of changes to different abilities and classes. Don't worry though, we got you covered with a new version of the mod (v. 0.2.2-beta) which includes all the balancing changes in the patch. You can read more about the patch [here](https://forums.obsidian.net/topic/101944-patch-notes-for-1100035/). It's well worth a read, there are some massive changes in this patch!
+
+***
 
 ### Xaratas joins the team!
 **3rd of June 2018**\
