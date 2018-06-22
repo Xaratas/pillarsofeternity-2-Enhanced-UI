@@ -2,8 +2,13 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\gui</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>4358</EntryCount>
+  <EntryCount>4385</EntryCount>
   <Entries>
+    <Entry>
+      <ID>88002</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_raw" tint=1&gt; Direktschaden ignoriert alle Rüstungswerte und wirkt unmittelbar. Die meisten Schadensquellen für &lt;sprite="Inline" name="cs_raw" tint=1&gt; Direktschaden sind Gifte.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>88001</ID>
       <DefaultText>&lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden wird von Zaubern und Fähigkeiten verursacht, die die Naturkraft der Blitze zu Hilfe rufen. Damit einher geht auch meistens die Bewegungsunfähigkeit des Ziels.</DefaultText>
