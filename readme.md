@@ -10,7 +10,7 @@ This mod aims to improve the standard user interface by highlighting gameplay me
 **19th of June 2018**\
 To the great dismay of my fellow co-modders/translators, I am sure, I've just put the finishing touches to the latest version of this mod. The beta version will only be available in English for now but hopefully we'll see German and Italian language support coming shortly!
 
-**New features in mod version 0.3.2:**
+**New features in mod version 0.4:**
 * Better rank indicators for afflictions and inspirations (all afflictions should now have something similar to subscript numbers next to their icons).
 * New cyclopedia entries and tooltips for all damage types (courtesy of the brilliant modder [kilay](https://forums.nexusmods.com/index.php?/user/26711484-kilay/).
 * Added color to reputation gains in the chat window (colors are not final yet).
