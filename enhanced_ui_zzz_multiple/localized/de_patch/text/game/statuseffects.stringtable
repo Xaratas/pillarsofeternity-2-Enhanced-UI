@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\statuseffects</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>519</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>77</ID>
+      <DefaultText>Chance, bei einem kritischen Treffer beim Ziel über einen Zeitraum von 12,0 Sekunden &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpelnd &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, Niedergestreckt oder &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden zu verursachen – oder eine Verringerung der Aktionsgeschwindigkeit um 25 %</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>226</ID>
+      <DefaultText>{0:triggercount} &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden alle {0:value:duration} für die Dauer von {0:triggervalue:duration} bei einem Treffer ({0:extravalue:percent} Chance, dass das Ziel bei jedem Schadenszyklus &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Gelähmt &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; wird)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>451</ID>
+      <DefaultText>{0:value:percent} Chance, bei einem Angriff einen kegelförmigen Flächenzauber mit &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden von sich selbst aus sowie &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpeln &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; auf das Ziel zu wirken</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

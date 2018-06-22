@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3276</EntryCount>
+  <EntryCount>3285</EntryCount>
   <Entries>
     <Entry>
       <ID>238</ID>
@@ -30,23 +30,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>256</ID>
-      <DefaultText>使用炫光夺目的视觉效果影响所有人，降低作用范围内所有目标的意志并造成晕眩状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>258</ID>
       <DefaultText>赋予施法者超乎常人的速度，施法者获得&lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;灵巧 &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;增益状态与额外脱战防御。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>259</ID>
-      <DefaultText>制造一个充斥灵刃的区域，对作用范围内敌人立即造成穿刺或者挥砍伤害与一次蹒跚效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>265</ID>
-      <DefaultText>施法者掷出一道弹性黏网，范围内所有没能成功抵抗的目标都动弹不得。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -80,11 +65,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>303</ID>
-      <DefaultText>以牧师为中心创造一道神圣能量场，灼烧区域内所有魂躯敌人，并为队友恢复适量生命值。圣辉的威力取决于牧师与自身信仰的相性。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>305</ID>
       <DefaultText>圣武士令一名倒下的队友重回战场，目标瞬间恢复大量生命值的同时将获得&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;强力 &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;增益状态。但是目标队友将在短时间后失去恢复的半数生命值。</DefaultText>
       <FemaleText />
@@ -105,18 +85,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>395</ID>
-      <DefaultText>施法者凝结刺目的白色冰雾，使区域内所有目标持续受到冷冻伤害并造成致盲效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>397</ID>
       <DefaultText>施法者获得超自然视觉与超自然感知能力。施法者从法术作用中获得暂时性的&lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;机敏 &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>407</ID>
-      <DefaultText>施法者制造诡异的视觉景象，使区域内敌人陷入迷惑。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -125,23 +95,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>415</ID>
-      <DefaultText>麻痹目标，使其皮肤发疮流脓，对目标单位造成恶心效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>417</ID>
       <DefaultText>施法者体内活力焕发，赋予其&lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;健康 &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;与聪明增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>427</ID>
-      <DefaultText>施法者的手变成剧毒寄生体，对施法者攻击的下一个目标造成腐蚀伤害的同时削弱敌人并且将它的生命能量转化为施法者的生命值。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>433</ID>
-      <DefaultText>施法者令区域内的敌人神志不清，使其迷惑。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -160,11 +115,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>474</ID>
-      <DefaultText>牧师祈求神祇赐予恩泽，以神力提高区域内队友的命中及力量，同时削弱敌人的精准与力量。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>481</ID>
       <DefaultText>牧师在地上放置一道魔法封印，其被敌人触碰时将爆发火焰，造成灼烧伤害并使敌人&lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;目盲 &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;。</DefaultText>
       <FemaleText />
@@ -180,18 +130,13 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>496</ID>
+      <DefaultText>牧师召来&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;强力 &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;圣盾，提升区域内所有队友的格挡。</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>500</ID>
       <DefaultText>牧师在圣光中为队友加冕，赋予作用范围内友军&lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;敏锐 &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;，聪明以及&lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;坚定 &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>511</ID>
-      <DefaultText>德鲁伊凭借与自然的联结，魅惑区域内的敌对动物目标。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>517</ID>
-      <DefaultText>德鲁伊从土地中召唤尖刺荆棘，对被击中的目标造成穿刺伤害并有机会对其造成恶心效果。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -235,11 +180,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>579</ID>
-      <DefaultText>完全摧毁目标的心理防御，使其一段时间内完全受控于译灵使。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>581</ID>
       <DefaultText>使范围内的敌人相信内心的恐惧已经成真，使其惊慌和&lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;恶心 &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;。</DefaultText>
       <FemaleText />
@@ -247,11 +187,6 @@
     <Entry>
       <ID>587</ID>
       <DefaultText>为某位队友提供一层意志屏障，赋予其&lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;身强体壮 &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>589</ID>
-      <DefaultText>发出一阵灵能哀嚎，对区域内目标产生真实伤害及震慑效果并打断敌人行动。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -275,38 +210,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>793</ID>
-      <DefaultText>制造一场雷电爆炸，震慑并击退范围内的敌人。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>800</ID>
-      <DefaultText>提升范围内队友对决心与体质减益状态的抵抗能力。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>801</ID>
-      <DefaultText>魅惑范围内的敌人，激发其内心的骚动。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>803</ID>
       <DefaultText>使范围内的敌人&lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;惊慌 &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>804</ID>
-      <DefaultText>移除范围内队友身上的敏捷减益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>806</ID>
       <DefaultText>使范围内的敌人&lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;麻痹 &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>807</ID>
-      <DefaultText>范围内队友获得对敏捷与力量减益状态的抵抗能力。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -325,18 +235,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>819</ID>
-      <DefaultText>德鲁伊使一片藤蔓迅速生长，缠住误入其中的目标。身处其中的角色将陷入蹒跚状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>829</ID>
       <DefaultText>德鲁伊借助大自然的治愈之力，令区域内友军获得&lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;身强体壮 &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;增益状态，&lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;快速 &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;恢复生命值。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>830</ID>
-      <DefaultText>德鲁伊召唤一场猛烈的风暴，不断对区域内随机一名敌人降下闪电，使其震慑并受到电击伤害。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -357,11 +257,6 @@
     <Entry>
       <ID>839</ID>
       <DefaultText>德鲁伊催生一片美丽的毒花丛，使范围内敌人受到持续的真实伤害，并使其惊慌与&lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;虚弱 &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>844</ID>
-      <DefaultText>施法者和一个队友交换位置，同时于二者间产生一道震荡波，震慑轨迹上的所有目标。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -440,18 +335,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>954</ID>
-      <DefaultText>（奔雷劲）-武僧的攻击充满气劲，可附加电击伤害。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1015</ID>
       <DefaultText>德鲁伊发出令人恐惧的咆哮，令指定区域内的敌人&lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;惊慌 &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1026</ID>
-      <DefaultText>木精灵天生可抵抗敏捷减益状态。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -465,33 +350,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1052</ID>
-      <DefaultText>野蛮人处于轻伤状态或以下时，获得对躯体减益状态的抵抗能力。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1058</ID>
-      <DefaultText>动物伙伴获得对智力与感知减益状态的抵抗能力。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1212</ID>
       <DefaultText>圣武士伸出双手，为自身或范围内的一名友军注入圣光之力，恢复大量生命值同时获得&lt;link="gamedata://dc62af47-239f-4ee4-8d91-a5e8b3b97564"&gt;&lt;#30d3d5&gt;勇往直前 &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1306</ID>
-      <DefaultText>野绒精天生耳听八方，对决心减益状态具有抵抗能力。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1324</ID>
-      <DefaultText>使用魔典释放出一道魔法箭，对区域内的敌人造成真实伤害与晕眩状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1326</ID>
-      <DefaultText>令目标受困，并在其与施法者之间形成一道寒冰射线，使轨迹上所有生物受到冰冻伤害。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -510,28 +370,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1338</ID>
-      <DefaultText>山地矮人是艾欧拉中游历经验最多的一个种族。他们在不可思议的诸多旅行中饱经风霜，此种经历赋予了他们针对体质减益状态的抗性。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1341</ID>
-      <DefaultText>沿岸海裔因自己天生的“海上适应性”与强壮的体格而闻名于世。不管是因为常年的海上生活还是因为某种内在原因，所有沿岸海裔都有针对力量减益状态的抗性。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1342</ID>
-      <DefaultText>自然神嗣的灵魂与增益状态有着强大的共鸣。当自然神嗣被任何&lt;link="glossary://cc4b4eb9-5d6c-40e4-87b3-adcf56a87572"&gt;力量&lt;/link&gt;、&lt;link="glossary://d034e058-3b3e-4737-ade5-bd0d417b4eed"&gt;体质&lt;/link&gt;或者&lt;link="glossary://5b14378d-82b4-4c7e-b23a-1fa07d0d85a3"&gt;敏捷&lt;/link&gt;增益状态影响时它们将能获得强化过的效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1391</ID>
       <DefaultText>三只石爪自地下爆发，对区域内所有目标造成挥砍伤害并使其&lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;麻痹 &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1475</ID>
-      <DefaultText>游荡者制造一小片烟雾云，作用范围内除了游荡者之外的所有目标将承受暂时性的烦乱效果。</DefaultText>
+      <ID>1465</ID>
+      <DefaultText>德鲁伊为队友创造一道&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;强力 &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;护盾，使其免受自然之力的侵袭，作用目标获得大量针对灼烧，腐蚀，冰冻以及电击伤害的护甲值。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -545,13 +390,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1569</ID>
-      <DefaultText>游荡者进行一次会对目标造成困惑和蹒跚效果的主要攻击。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1571</ID>
-      <DefaultText>常见火球术的变种，耐高司的暗影烈焰将对作用范围内的所有目标施加冰冻伤害与麻痹效果。</DefaultText>
+      <ID>1577</ID>
+      <DefaultText>使用&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;强力 &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;的寒风冲击毁灭敌人，对目标造成冰冻效果与钝击伤害（高穿透效果）的同时减缓其移动速度。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -560,38 +400,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1721</ID>
-      <DefaultText>游荡者中断交战跃至指定地点，闪避下次来袭攻击。作用后游荡者的下一次主武器攻击将会麻痹目标。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1723</ID>
       <DefaultText>法师激活瓦利亚著名法师靡奥塔的符印。施法者若在近战中被击中，符印将造成穿刺伤害回击，推开目标并使其&lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;震慑 &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1730</ID>
-      <DefaultText>吟唱者制造出两道不断弹射的光线，为所有被光线触碰到的队友恢复生命值的同时赋予他们决心减益状态免疫能力。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1739</ID>
-      <DefaultText>队友获得一层木质皮肤与树妖的特性：速度更快，不易遭受借机攻击，并免疫敏捷减益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1749</ID>
-      <DefaultText>在地面刻印贝拉斯的符记，对范围内敌人造成虚弱效果与间歇性的腐蚀伤害。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1751</ID>
-      <DefaultText>在地面刻印玛珈岚的符记，对范围内敌人造成目盲与间歇性的灼烧伤害。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1753</ID>
-      <DefaultText>在地面刻印司坎的符记，对范围内的敌人造成蹒跚效果的同时对它们间歇性地施加穿刺伤害。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -602,11 +412,6 @@
     <Entry>
       <ID>1760</ID>
       <DefaultText>游侠或动物伙伴中有一方被击倒时另一方将会承受联结之殇，但是他们在短时间内将获得专注怒火。被影响时他们将会获得&lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;灵巧 &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;以及&lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;强硬 &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1764</ID>
-      <DefaultText>法师召出一张能够对敌人造成腐蚀伤害与恐惧效果的骇人大弓。施法者射出的每支能量箭都将弹射一个额外目标。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -625,11 +430,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1883</ID>
-      <DefaultText>（灵魂狂暴）-启动时攻击将会造成踉跄效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1928</ID>
       <DefaultText>译灵使重新唤醒一名队友针对过去的回忆，鼓励队友奋勇杀敌。赋予&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;强力 &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;与&lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;敏锐 &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;增益状态</DefaultText>
       <FemaleText />
@@ -645,16 +445,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1983</ID>
-      <DefaultText>（万千苦痛)——目标身后的敌人现在将会承受震慑效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1994</ID>
-      <DefaultText>将自身笼罩于圣光之中，对周遭区域敌人施加目盲效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2004</ID>
       <DefaultText>圣武士的徒手攻击将移除队伍成员的&lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;魅惑 &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;，困惑与受控减益状态。</DefaultText>
       <FemaleText />
@@ -665,57 +455,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2029</ID>
-      <DefaultText>牺牲远程行动速度换取护甲穿透。在此期间造成的暴击将会瘫痪敌人。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2032</ID>
       <DefaultText>（&lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;健壮 &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;伙伴）-赋予同伴&lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;健壮 &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2038</ID>
-      <DefaultText>游荡者对目标头部进行残暴攻击，打断目标。此种攻击的加成效果基于武器种类。
-
-远程武器：额外穿透
-双手武器：施加踉跄效果
-单手武器：持续性真实伤害</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2041</ID>
-      <DefaultText>（干扰打击）-成功命中会对目标施加烦乱效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2044</ID>
-      <DefaultText>（混淆盲目）-所有针对目盲目标的攻击都会施予其可叠加的格挡惩罚。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2045</ID>
-      <DefaultText>攻击对手视力的下流攻击，对目标施加目盲效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2047</ID>
-      <DefaultText>增加游荡者的交战上限，游荡者交战的敌人将承受烦乱效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2055</ID>
-      <DefaultText>（致残打击）-双手武器的踉跄效果升级为晕眩效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2057</ID>
-      <DefaultText>（凶暴轰击）-目标附近敌人将会被攻击惊吓到并承受惊慌效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2063</ID>
-      <DefaultText>野蛮人凭借自身内部强烈的灵魂力量飞跃至空中然后对着下方敌人猛砸，对敌人施加晕眩效果。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -726,11 +467,6 @@
     <Entry>
       <ID>2083</ID>
       <DefaultText>赋予目标队友长时间的&lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;健康 &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2090</ID>
-      <DefaultText>赋予目标队友长时间的聪明增益状态。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -754,11 +490,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2134</ID>
-      <DefaultText>战士获得针对智力，感知以及体质类减益状态的防御加成。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2137</ID>
       <DefaultText>圣武士获得针对抵抗感知类减益状态（&lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;烦乱 &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;，&lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;目盲 &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;，&lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;迷离 &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;）的抗性。</DefaultText>
       <FemaleText />
@@ -769,33 +500,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2141</ID>
-      <DefaultText>圣武士获得针对决心，力量以及敏捷类减益状态的防御加成。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2155</ID>
-      <DefaultText>（……惊惧随之入山间）-当麻痹状态结束之后敌人将承受惊慌效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2156</ID>
       <DefaultText>（囚其牢吏，断其生天）-敏捷效果被清除的角色将获得&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;强力 &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2157</ID>
-      <DefaultText>咏者附近敌人承受虚弱效果，敌人力量将遭到削弱。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2159</ID>
-      <DefaultText>（姊妹越池过沼去，流光溯洄水中沚）-灵球更加强大，攻击带有烦乱效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2160</ID>
-      <DefaultText>（海誓山盟在，赤河血长流）-魅惑状态下敌人造成更多伤害。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -827,21 +533,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2317</ID>
-      <DefaultText>&lt;b&gt;加成&lt;/b&gt;
-附魔系法术的力量等级增加。
-
-获得“自由行动”被动效果：当法师受敏捷减益状态影响时，他们会清除该减益状态并短暂对该状态免疫，每场战斗一次。
-
-&lt;b&gt;惩罚&lt;/b&gt;
-无法使用幻术系和变化系法术。
-
-非附魔系法术的冷却时间延长。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2401</ID>
-      <DefaultText>（灵魂龙卷）-幽魂将随技能一齐奔涌而出，对敌人造成冰冻伤害与恐惧效果</DefaultText>
+      <ID>2421</ID>
+      <DefaultText>（&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;强力 &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;怒吼）——敌人也会被击退并受到钝击伤害。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -852,11 +545,6 @@
     <Entry>
       <ID>2459</ID>
       <DefaultText>野蛮人进入狂暴状态，获得&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;强力 &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;与&lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;健康 &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;增益状态以及行动速度加成。处于狂暴状态下的野蛮人将受到格挡惩罚。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2467</ID>
-      <DefaultText>（荒芜行者）-黑色火焰，将施加恶心减益状态。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -905,16 +593,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2540</ID>
-      <DefaultText>德鲁伊和野生动物的天然联系使其能够短暂变身为鲨鱼。鲨鱼形态能够免疫敏捷减益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2564</ID>
-      <DefaultText>当施法者被敏捷减益状态影响时，他们将会消除该效果并在短时间内免疫敏捷减益状态，每次遭遇仅能起效一次。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2571</ID>
       <DefaultText>（严谨打击）-察觉增益状态改进为&lt;link="gamedata://c2fb23c5-9907-4654-b62e-77adbc37c9bc"&gt;&lt;#ca58ff&gt;直觉超群 &lt;sprite="Inline" name="attribute_perception" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;增益状态。</DefaultText>
       <FemaleText />
@@ -925,33 +603,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2609</ID>
-      <DefaultText>（顿悟之痛）——武僧还能够获得聪明增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2635</ID>
-      <DefaultText>赋予队友针对感知与智力减益状态的抗性加成。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2648</ID>
-      <DefaultText>（残酷打击）-当虚弱效果结束后目标将承受无力减益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2654</ID>
-      <DefaultText>处于重伤或者是濒死状态下的游荡者将免疫心智类（感知，智力与决心）减益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2658</ID>
-      <DefaultText>在一片五彩斑斓的炫光之中转移至目标区域，同时将获得暂时性的隐形效果。起始位置附近之人因为此景将承受暂时性的困惑效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2661</ID>
-      <DefaultText>译灵使瞄准一名魂躯或者灵体，撕裂它们的内部灵魂能量，目标与其周身魂躯或者灵体将迸发出一阵惊骇尖叫，附近所有人都将烦乱效果与真实伤害。</DefaultText>
+      <ID>2590</ID>
+      <DefaultText>以自身防护性为代价使出&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;强力 &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;的长剑突刺。以格挡为代价获得穿透加成。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -970,33 +623,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2682</ID>
-      <DefaultText>（新妇慧目识奸计，凶顽死伤自有因）-队友将同时获得聪明增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2693</ID>
-      <DefaultText>（烟雾弹）-游荡者能够将炸弹投掷向目标区域，炸弹将额外施加恶心效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2701</ID>
-      <DefaultText>凭借音爆击退并晕眩敌人。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2702</ID>
-      <DefaultText>（愚物闭目稍喘息，一命呜呼哀哉即）-菌怪被杀死后将释放一团恶心周遭所有人的恶臭毒气，效果持续至战斗结束。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2723</ID>
       <DefaultText>复活一名陨落队友，赋予其长时间的&lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;身强体壮 &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2758</ID>
-      <DefaultText>（剑刃乱舞）-游荡者在传送之前向周遭敌人投掷匕首，造成穿刺伤害并且对敌人造成蹒跚效果。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1005,18 +633,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2783</ID>
-      <DefaultText>让目标生命中失去与杀害的人萦绕在其脑海，使其惊慌恐惧不得安宁。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2798</ID>
       <DefaultText>（卓越打击）——打击之后，暂时获得&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;&lt;link="gamedata://c4ada862-ee17-4c10-8967-734e08daa4aa"&gt;&lt;#00a4ff&gt;聪慧 &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;和&lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;身轻如燕 &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2813</ID>
-      <DefaultText>创造一个神圣黑暗球体，对身处或走入其中的目标造成目盲减益状态。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1032,31 +650,6 @@
     <Entry>
       <ID>2873</ID>
       <DefaultText>召唤天降雷电打击目标，造成电击伤害与&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;晕眩 &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2964</ID>
-      <DefaultText>制造一连串五彩斑斓的耀眼火花，对作用区域内所有人造成迷惑。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2966</ID>
-      <DefaultText>对爆炸范围内一切目标施加震慑效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2968</ID>
-      <DefaultText>制造一大团煤渣烟灰，灼烧并且致盲云雾内所有人。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2980</ID>
-      <DefaultText>电弧将在目标之间弹跳，造成电击伤害，被电弧路径触碰到的所有目标将无法动弹。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2982</ID>
-      <DefaultText>瞬间冰冻周遭区域，对区域内所有人造成伤害与减速效果，所有目标都将动弹不得。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1080,16 +673,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3319</ID>
-      <DefaultText>发动回旋斩，对区域内所有目标造成穿刺/挥砍伤害，同时将其击退并造成蹒跚效果。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3349</ID>
-      <DefaultText>解除施法者与附近友军身上的敏捷与力量减益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3368</ID>
       <DefaultText>大量火药上膛倾泻而出，对锥状区域内所有目标造成灼烧/钝击伤害，将其击退并&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;晕眩 &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;。</DefaultText>
       <FemaleText />
@@ -1110,28 +693,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3449</ID>
-      <DefaultText>（晋升）——你现在也可以与友军交换位置。发动后将为该友军赋予聪明增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3506</ID>
       <DefaultText>发射一条电矛刺穿多个目标，造成穿刺伤害，将其击退并&lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;定身 &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3512</ID>
-      <DefaultText>光环会为附近友军提供意志加成对抗心智减益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3523</ID>
       <DefaultText>召唤墓穴之力，魅惑效果范围内所有魂躯，同时使所有基斯&lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;惊慌 &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3608</ID>
-      <DefaultText>在战斗开始时暂时为使用者赋予敏捷减益状态抗性。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1150,16 +718,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3702</ID>
-      <DefaultText>对目标施加麻痹状态的窒息攻击。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3762</ID>
-      <DefaultText>灵球跟随你时你承受的智力减益状态将缩短作用时间，所有队伍成员攻击灵体时都将获得精准加成。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3764</ID>
       <DefaultText>锥形攻击将目标向后击飞，同时有几率将其&lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;震慑 &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;。</DefaultText>
       <FemaleText />
@@ -1170,28 +728,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3820</ID>
-      <DefaultText>支配一名基斯或魔物。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3825</ID>
-      <DefaultText>支配一具魂躯。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3856</ID>
       <DefaultText>（蹒跚射击）-游侠的射击将造成目标&lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;蹒跚 &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3864</ID>
-      <DefaultText>当伊维跟随你时，你获得决心与决心减益状态抗性加成。此外，决心减益状态对全队伍的影响时间也会降低。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3899</ID>
-      <DefaultText>当阿尔戈跟随你时，你身上的体质减益状态消除更快，队友击杀敌人时恢复部分生命值。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1200,38 +738,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3971</ID>
-      <DefaultText>当树皮细线跟随你时，你身上的敏捷减益状态消除更快，全队战斗时移动更快。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4092</ID>
-      <DefaultText>持有者陷入重伤状态时，将获得随机一种长时间心智增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>4113</ID>
       <DefaultText>战斗开始时暂时获得&lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;健康 &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;与&lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;坚定 &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;增益状态。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>4115</ID>
-      <DefaultText>施法者从褪色兽皮中召唤出野兽的灵魂碎片，发出一声邪恶的怒号，使附近敌人陷入恐惧之中。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>4140</ID>
       <DefaultText>处于&lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;健康 &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;或未受伤状态时获得体质减益状态抗性。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4145</ID>
-      <DefaultText>光环遮蔽附近友军的心灵，使其更易受到智力减益状态的影响。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4160</ID>
-      <DefaultText>持有者处于一种以上伤势时对体质减益状态免疫。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1242,46 +755,6 @@
     <Entry>
       <ID>4292</ID>
       <DefaultText>使用灵视者的力量，凝视目标双眼深入其灵魂，暂时使其&lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;惊慌 &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4294</ID>
-      <DefaultText>（死亡使者的风采）——使用后赋予灵视者感知增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4296</ID>
-      <DefaultText>（死亡使者的忿怒）——使用后赋予灵视者力量增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4298</ID>
-      <DefaultText>（死亡使者的智慧）——使用后赋予灵视者智力增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4300</ID>
-      <DefaultText>（死亡使者的敬畏）——使用后赋予灵视者力量与感知增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4302</ID>
-      <DefaultText>（死亡使者的服饰）——使用后赋予灵视者智力与感知增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4304</ID>
-      <DefaultText>（死亡使者的残忍）——使用后赋予灵视者力量与智力增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4306</ID>
-      <DefaultText>（死亡使者的权威）——使用后赋予灵视者智力、力量与感知增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4308</ID>
-      <DefaultText>召唤愿意追随你之人的灵魂。其存在会使区域内所有敌人分神。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1307,11 +780,6 @@
     <Entry>
       <ID>4333</ID>
       <DefaultText>你已预见到这场背叛的来临。当任意队友受到魅惑或支配影响时，持有者获得&lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;身轻如燕 &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;与&lt;link="gamedata://c2fb23c5-9907-4654-b62e-77adbc37c9bc"&gt;&lt;#ca58ff&gt;直觉超群 &lt;sprite="Inline" name="attribute_perception" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4335</ID>
-      <DefaultText>卡尔莫未消的余恨会对附近友军造成对智力减益状态防御的惩罚。</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1350,16 +818,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>4560</ID>
-      <DefaultText>首次交战时获得聪明增益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4562</ID>
-      <DefaultText>与敌人首次交战可对目标施加困惑减益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>4588</ID>
       <DefaultText>创造赐予生命的泉水井，恢复范围内队友的生命值，并赋予&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;强力 &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;增益状态。</DefaultText>
       <FemaleText />
@@ -1377,31 +835,6 @@
     <Entry>
       <ID>4640</ID>
       <DefaultText>如果使用者为矮人，则有更高几率在命中时造成目标&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;晕眩 &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4641</ID>
-      <DefaultText>有几率在命中时震慑目标。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4642</ID>
-      <DefaultText>如果使用者为矮人，则有更高几率在命中时震慑目标。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4643</ID>
-      <DefaultText>腐烂之心给射击注入有削弱作用的毒素，对目标施加蹒跚和虚弱减益状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4672</ID>
-      <DefaultText>被寒霜攻击命中时将处于无力状态。</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4673</ID>
-      <DefaultText>用武器柄末端的圆球打击，对目标造成额外钝击和电击伤害，并对其施加震慑效果。</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

@@ -2,56 +2,16 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3276</EntryCount>
+  <EntryCount>3285</EntryCount>
   <Entries>
     <Entry>
-      <ID>238</ID>
-      <DefaultText>Просьба о божественной милости, дает вдохновение проницательности союзникам в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>239</ID>
-      <DefaultText>Вселяет страх в сердца недостойных, пугая всех врагов в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>245</ID>
-      <DefaultText>Создает область божественной милости вокруг заклинателя, дает вдохновение силы всем союзникам в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>252</ID>
-      <DefaultText>Делает сражающихся союзников сильнее, давая им вдохновение осведомленности.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>254</ID>
-      <DefaultText>Заражает цель изнуряющей заразной болезнью, которая вызывает хромоту и слабость, а затем передается другим врагам.</DefaultText>
+      <ID>237</ID>
+      <DefaultText>Наказывает цель за грехи, нанося колющий урон и &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;еньшая показатели отклонения, стойкости, реакции и воли.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>256</ID>
       <DefaultText>Поражает всех в области действия яркими и сбивающими с толку пиротехническими эффектами, ослабляя Волю и вызывая &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;ошеломление &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>258</ID>
-      <DefaultText>Придает владельцу невероятную скорость, вдохновение проворства и бонус к защите при выходе из боя.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>259</ID>
-      <DefaultText>Вызывает поле сверхъестественных лезвий, наносит мгновенный рубящий и колющий урон, а также вызывает хромоту целей в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>265</ID>
-      <DefaultText>Сплетает прочную паутину в области действия, обездвиживая всех, кто не сможет противостоять ей.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>279</ID>
-      <DefaultText>Заклинатель расходует свою жизненную силу, чтобы получить вдохновение стремительности ценой постепенно убывающего здоровья.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -75,53 +35,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>301</ID>
-      <DefaultText>Мощная атака подбрасывает врага в воздух, затем роняет навзничь, вызывая дезориентацию.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>303</ID>
-      <DefaultText>Создает поле святой энергии вокруг жреца, которое наносит урон горением и встряхивает любых носителей поблизости и восстанавливает небольшое количество здоровья союзников. Мощность Святого сияния жреца зависит от того, насколько его репутация соответствует поведению, предпочитаемому в его вере.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>305</ID>
-      <DefaultText>Паладины могут заставить союзника без сознания восстать, мгновенно восстановив часть его здоровья и придав вдохновение силы. Но вскоре союзник потеряет половину восстановленного здоровья.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>311</ID>
-      <DefaultText>Приказывает союзнику собрать все свои силы и временно игнорировать враждебные воздействия, получив вдохновение устремленности. Воздействия возобновляются сразу после окончания эффекта.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>314</ID>
-      <DefaultText>Когда противник совершает атаку с проверкой Воли сайфера, вызывается ответный оглушающий удар.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>325</ID>
-      <DefaultText>Приказывает союзнику удвоить усилия, улучшая его отклонение и давая вдохновение подготовки.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>395</ID>
       <DefaultText>Призывает ослепительно белый ледяной т&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ан, вызывая &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;ослепление &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; и нанося постепенный ледяной урон всем в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>397</ID>
-      <DefaultText>Дарит заклинателю зоркий взгляд, помогая всегда оставаться начеку. Волшебник временно получает вдохновение осведомленности.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>407</ID>
-      <DefaultText>Создает причудливые и озадачивающие визуальные эффекты, запутывая врагов в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>413</ID>
-      <DefaultText>Обволакивает глаза цели непроницаемой тьмой, ослепляя ее.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -132,11 +47,6 @@
     <Entry>
       <ID>417</ID>
       <DefaultText>Наполняет заклинателя жизненной силой и дает вдохновения подготовки и &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;а.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>427</ID>
-      <DefaultText>Рука заклинателя превращается в токсичного паразита, нанося разъедающий урон следующей цели волшебника, ослабляя ее и превращая часть жизненной силы в здоровье заклинателя.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -155,28 +65,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>458</ID>
-      <DefaultText>Ум жреца проясняется, передавая эту ясность ближайшим союзникам, обеспечивая вдохновение решительности.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>474</ID>
-      <DefaultText>Вызывает благословение бога-покровителя жреца, дающее в области действия бонусы к точности и силе союзникам и аналогичные штрафы врагам.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>481</ID>
       <DefaultText>Размещает на земле магическую печать, которая взрывается, когда противник наступает на нее, вызывая &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;ослепление &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; и нанося огненный урон.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>483</ID>
-      <DefaultText>Придает союзникам праведное рвение в бою, даря вдохновение силы. Когда союзник в области действия наносит смертельный удар, его здоровье восстанавливается.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>485</ID>
-      <DefaultText>Дает божественную милость союзнику, наделяя вдохновениями решительности и цепкости, а также бонусным вступлением в бой, пока эффект сохраняется.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -185,18 +75,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>511</ID>
-      <DefaultText>Друид использует свою внутреннюю связь с миром природы, чтобы заворожить враждебных животных в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>517</ID>
       <DefaultText>Выпускает во врагов острые колючки, которые наносят колющий урон и могут вызвать &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;недомогание &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; у всех в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>525</ID>
-      <DefaultText>Заклинатель издает пронзительный вопль, парализуя всех, кроме самых устрашающих животных.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -205,33 +85,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>552</ID>
-      <DefaultText>Призывает шторм страшной силы, создавая заряженный ореол, который наносит электрический урон и пугает всех поблизости.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>554</ID>
       <DefaultText>Призывает огромный рой ядовитых насекомых, они наносят чистый постепенный урон и вызывают &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;недомогание &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; у всех в области действия. Пока эффект сохраняется, цели не могут обладать концентрацией.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>564</ID>
-      <DefaultText>Бьет по визуальным рецепторам цели, ослепляя ее и ближайших врагов.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>566</ID>
-      <DefaultText>Размывает ощущение реальности у цели, вызывая встряску и путаницу.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>573</ID>
-      <DefaultText>Подавляет психическую коммуникацию цели с собственным телом, парализуя ее и вызывая из души ударную волну, которая может обездвижить врагов поблизости.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>577</ID>
-      <DefaultText>Вмешивается в память противника, извлекая на поверхность яркие воспоминания о прошлых падениях на землю и вызывая хромоту и слабость.</DefaultText>
+      <ID>571</ID>
+      <DefaultText>От выбранного союзника, не причиняя тому вреда, к ближайшему противнику отскакивает психическая &lt;link="gamedata://c56f70b5-b611-4dee-b80f-335033b98e2f"&gt;&lt;#ff4800&gt;энергия &lt;sprite="Inline" name="attribute_might" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;, нанося колющий урон и сильно отбрасывая.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -245,18 +105,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>587</ID>
-      <DefaultText>Блокирует боль союзника ментальной преградой, обеспечивая вдохновение непоколебимости.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>589</ID>
-      <DefaultText>Испускает психический вопль, оглушая цель, нанося чистый урон и упреждая всех врагов поблизости.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>597</ID>
       <DefaultText>Внушает всем врагам в области действия коварное и мощное побуждение подчиняться сайферу, вызывая &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;доминирование &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; над целью и завораживая всех остальных.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>599</ID>
+      <DefaultText>Проявляет сильные стороны раз&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;а союзника и мощно проецирует их в мир, вызывая ударную волну, которая наносит дробящий урон и сбивает с ног врагов в области действия.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -265,18 +120,13 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>603</ID>
+      <DefaultText>Сжигает эфирные связки, скрепляющие &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, тело и душу врага, быстро вызывая чистый урон. Цели, здоровье которых упало до нуля, распадаются в небытие.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>605</ID>
       <DefaultText>Соединяет раз&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; сайфера с раз&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ом соратника, давая им вдохновение осведомленности и увеличивает степень вовлеченности в бой.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>614</ID>
-      <DefaultText>Осуждает врагов жреца, ошеломляя всех врагов в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>793</ID>
-      <DefaultText>Вызывает разрушительный взрыв, который оглушает и отбрасывает врагов в области действия.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -285,53 +135,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>801</ID>
-      <DefaultText>Затрагивает глубокие струны в душах врагов в зоне действия, завораживая их.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>803</ID>
-      <DefaultText>Пугает врагов в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>804</ID>
-      <DefaultText>Снимает воздействия на ловкость союзников в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>806</ID>
-      <DefaultText>Парализует врагов в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>807</ID>
-      <DefaultText>Союзники в зоне действия получают сопротивление воздействиям на ловкость и силу.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>812</ID>
-      <DefaultText>Дает всем союзникам в области действия вдохновение силы и устремленности.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>813</ID>
-      <DefaultText>Дает всем союзникам в области действия вдохновение быстроты и проницательности.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>818</ID>
-      <DefaultText>Призывает колонну яркого солнечного света, обжигая и — потенциально — ослепляя всех в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>819</ID>
-      <DefaultText>Быстро выращивает участок скрученной лозы, которая окружает и опутывает всех, кто, к своему несчастью, попадает внутрь. Персонажи, ступившие в область действия, начинают хромать.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>829</ID>
-      <DefaultText>Опираясь на целительные силы природы, обеспечивает вдохновение непоколебимости и быстрое восстановление членов отряда.</DefaultText>
+      <ID>826</ID>
+      <DefaultText>Оружие ближнего боя заклинателя становится идеальным инстр&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ентом для охоты, добавляя постоянный чистый урон к одиночной улучшенной атаке и восстанавливая здоровье заклинателя.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -340,33 +145,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>832</ID>
-      <DefaultText>Выпускает из земли толстые колючие лианы, которые наносят постоянный колющий урон и вызывают хромоту у всех, кто остался в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>835</ID>
       <DefaultText>Создает смертельный шторм, который часто атакует врагов в области действия шаровыми молниями, вызывая &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;оглушение &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; и нанося электрический урон.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>836</ID>
-      <DefaultText>Создает толстую стену из кривых шипов, наносящих колющий урон и вызывающих отравление, которое приводит к слабости.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>839</ID>
-      <DefaultText>Выращивает поле красивых, но устрашающих ядовитых цветов, которые пугают, ослабляют и наносят постепенный чистый урон всем в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>844</ID>
-      <DefaultText>Меняет местами заклинателя и выбранного союзника, создавая между ними ударную волну, которая оглушает врагов.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>857</ID>
-      <DefaultText>Создает полупроницаемый барьер, который наносит дробящий урон и вызывает хромоту у проходящих через него врагов, но оставляет союзников невредимыми.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -375,83 +155,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>861</ID>
-      <DefaultText>Призывает огромную сосульку, нанося ледяной урон всем в области действия и создавая круг гололеда, который может вызвать хромоту у тех, кто его коснется.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>863</ID>
       <DefaultText>(Берсерк) — Дает вдохновения цепкости и крепости вместо подготовки и силы. Попадания в ближнем бою становятся критическими попаданиями, резня в состоянии без&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ия усиливается. Но варвар в состоянии путаницы не ощущает своего здоровья и получает постоянный чистый урон, пока без&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ие не пройдет.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>865</ID>
-      <DefaultText>Варвар получает возможность атаковать с безрассудным неистовством, получая вдохновение проворства и неуязвимость к вступлению в бой.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>866</ID>
-      <DefaultText>Варвар использует свою решимость, получая на некоторое время вдохновение непоколебимости.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>871</ID>
-      <DefaultText>Испускает пугающий вопль, который вызывает встряску у всех врагов в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>885</ID>
-      <DefaultText>Удар, нацеленный в голову, должен лишить врага возможности реагировать, оглушив его.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>886</ID>
-      <DefaultText>Руки монаха наносят настолько быстрые удары, что их не видно. Скорость действий ненадолго возрастает, давая вдохновение быстроты.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>892</ID>
       <DefaultText>Использует узы всеобщего страдания, связывающие всех существ. Цель получает сильный удар с дополнительным дробящим уроном. Противники, находящиеся в конусе за целью, также получают дробящий урон и &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;потрясение &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>897</ID>
-      <DefaultText>Нацеливаясь на определенные точки на теле врага, монах способен вызвать физическую слабость. Критические попадания оружием ближнего боя вызывают у цели слабость.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>913</ID>
-      <DefaultText>Создает под ногами цели корни, обездвиживающие ее.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>916</ID>
-      <DefaultText>Призывает животное-спутника следопыта, давая животному вдохновение проворства и позволяя очень быстро возвращаться к следопыту.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>922</ID>
-      <DefaultText>Авантюрист атакует способность своего врага эффективно передвигаться, вызывая хромоту у любого пораженного врага.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>928</ID>
-      <DefaultText>Авантюрист целится в жизненно важную область, ослабляя цель.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>954</ID>
-      <DefaultText>(Удары молнии) — Придает энергии атакам монаха, чтобы они дополнительно наносили урон электрошоком.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1015</ID>
-      <DefaultText>Испускает ужасающий рев, пугая врагов в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1026</ID>
-      <DefaultText>Лесные эльфы обладают естественным сопротивлением воздействиям на ловкость.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -465,21 +175,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1052</ID>
-      <DefaultText>Варвар (если он только ранен и не хуже) получает сопротивление воздействиям на тело.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1058</ID>
-      <DefaultText>Животное-спутник следопыта получает сопротивление воздействиям на интеллект и восприятие.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1212</ID>
-      <DefaultText>Возлагая руки, паладин (или союзник в радиусе действия) окутывается светом, восстанавливая здоровье и получая вдохновение храбрости.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1306</ID>
       <DefaultText>Дикие орланы отличаются трезвостью &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;а и получают сопротивление воздействиям на &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;решительность &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;</DefaultText>
       <FemaleText />
@@ -490,28 +185,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1326</ID>
-      <DefaultText>Цель застревает и становится якорем для испускаемого волшебником крайне холодного луча энергии, который причиняет ледяной урон врагам на своем пути.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1328</ID>
       <DefaultText>Живительная &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;сила &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; природы на какое-то время дает вдохновение подготовки в области.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1330</ID>
-      <DefaultText>Боец сосредотачивается на своей подготовке, ненадолго получая вдохновение осведомленности.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1334</ID>
-      <DefaultText>Пернатые богоподобные сообразительны и точны, что дает им сопротивление воздействиям на интеллект и восприятие.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1338</ID>
-      <DefaultText>Горные гномы — самая путешествующая раса на Эоре. В своих невероятных путешествиях они подвергались воздействию всевозможных смертельных ядов и ужасных заболеваний, получив сопротивление к воздействиям на телосложение.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -520,13 +195,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1342</ID>
-      <DefaultText>Души природных богоподобных сильно откликаются на вдохновение. Когда природный богоподобный получает вдохновение &lt;link="glossary://cc4b4eb9-5d6c-40e4-87b3-adcf56a87572"&gt;силы&lt;/link&gt;, &lt;link="glossary://d034e058-3b3e-4737-ade5-bd0d417b4eed"&gt;телосложения&lt;/link&gt; или &lt;link="glossary://5b14378d-82b4-4c7e-b23a-1fa07d0d85a3"&gt;ловкости&lt;/link&gt;, он также получает дополнительный уровень мощи.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1391</ID>
-      <DefaultText>Из-под земли выдвигаются три каменных когтя, которые превращают плоть в камень, парализуют и наносят рубящий урон всем, кто находится поблизости.</DefaultText>
+      <ID>1466</ID>
+      <DefaultText>Боец встает между союзниками, которые находятся поблизости, и противниками, которые их атакуют. С&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;марный урон любой атаки против находящегося поблизости союзника &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;еньшается вдвое, а боец получает вторую половину в виде чистого урона.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -535,28 +205,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1477</ID>
-      <DefaultText>Это заклинание создает мощный боевой посох, который увеличивает отклонение и отталкивает врагов, вызывая у них хромоту при каждой успешной атаке. При самом вызове посоха всех (включая союзников) отбрасывает от заклинателя.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1480</ID>
       <DefaultText>Названная в честь эксцентричного аэдирского волшебника Тейна, хаотическая сфера перепрыгивает между несколькими противниками, нанося удар и вызывая ряд отрицательных воздействий, включая окаменение, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;паралич &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;ослабление &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;недомогание &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;оглушение &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; и &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;ослепление &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1569</ID>
-      <DefaultText>Авантюрист проводит основную атаку, после которой цель получает эффекты путаницы и хромоты.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1571</ID>
-      <DefaultText>Любопытная вариация популярного «Огненного шара», заклинание «Призрачный огонь Нинагвата» наносит ледяной урон и парализует всех, кто попадет в его область действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1578</ID>
-      <DefaultText>Певчий наполняет себя энергией ярости, получая вдохновение энергичности.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -565,18 +215,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1723</ID>
-      <DefaultText>Волшебник использует знак известной вайлианской волшебницы Минолетты. Если по волшебнику попадают в ближнем бою, знак наносит напавшему колющий урон, отталкивает врага назад и оглушает его.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1730</ID>
       <DefaultText>Певчий создает два отражающихся луча чистого света, которые, попадая в союзников, восстанавливают их здоровье и дают неуязвимость к воздействиям на &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;решительность &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1739</ID>
-      <DefaultText>Союзники получают защитный слой деревянной «кожи» и усиливаются характеристиками делемган, становясь быстрее, менее уязвимыми для атак при выходе из боя и невосприимчивыми к воздействиям на ловкость.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -590,38 +230,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1753</ID>
-      <DefaultText>Создает на земле символ Скейна, который периодически наносит колющий урон врагам в области действия и вызывает хромоту.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1757</ID>
-      <DefaultText>Дает одному союзнику временную неуязвимость к ослеплению, путанице, ошеломлению, отвлечению, испугу, хромоте, сбиванию с ног, недомоганию и застреванию.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1760</ID>
-      <DefaultText>Когда следопыт или его животное-спутник теряют сознание, партнер получает обычные эффекты от «Общего горя», но наполняется сосредоточенной яростью на непродолжительное время. В этом состоянии он получает вдохновение проворства и цепкости.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1764</ID>
-      <DefaultText>Волшебник призывает угрожающего вида лук, который наносит разъедающий урон и ужасает врагов. Каждый разряд энергии, выпускаемый волшебником, отскакивает в одну дополнительную цель.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1765</ID>
       <DefaultText>Призрачная костлявая рука проносится по области, нанося ледяной урон врагам и вызывая у них &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;ослабление &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; и хромоту.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1769</ID>
-      <DefaultText>По полю боя проносится знойный ветер, который наносит всем в области действия чистый урон и ослабляет их.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1771</ID>
-      <DefaultText>Призывает три мощных щупальца, которые не могут перемещаться, но способны наносить дробящий и разъедающий урон, а также обездвиживать тех, по кому попадут.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -630,48 +240,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1928</ID>
-      <DefaultText>Сайфер выносит на поверхность эхо прошлых жизней союзника, вдохновляя его на великие подвиги. Дает вдохновение силы и проницательности.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1930</ID>
       <DefaultText>Сайфер подчиняет раз&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; противника своей воле, вызывая &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;заворожение &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1981</ID>
-      <DefaultText>Вы собираете все силы для удара. Пока эффект сохраняется, вы получаете вдохновение цепкости.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1983</ID>
-      <DefaultText>(Усиленные страдания) — враги за целью теперь не потрясены, а оглушены.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1994</ID>
-      <DefaultText>Окутайте себя священным светом, ослепив врагов поблизости.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2004</ID>
-      <DefaultText>Атаки паладина в ближнем бою снимают воздействия заворожения, путаницы и доминирования с членов отряда.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2022</ID>
-      <DefaultText>Следопыт стремительно уходит на безопасное расстояние, получая вдохновение быстроты. Эта способность не вызывает восстановления.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2029</ID>
-      <DefaultText>Можно пожертвовать скоростью действий в дальнем бою ради пробивания брони. Во время действия эффекта критические попадания будут обездвиживать цель.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2032</ID>
-      <DefaultText>(Крепкий спутник) — также дает вдохновение крепости спутнику.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -684,18 +254,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2041</ID>
-      <DefaultText>(Изнуряющий удар) — успешные удары теперь отвлекают цель.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2044</ID>
       <DefaultText>(Обессиливающая слепота) — пока действует &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;ослепление &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, все атаки по цели дополнительно ослабляют отклонение.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2045</ID>
-      <DefaultText>Грязная атака, которая лишает противника возможности видеть. Ослепляет цель.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -704,43 +264,18 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2055</ID>
-      <DefaultText>(Разбить колокол) — эффект потрясения от двуручного оружия развивается до ошеломления.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2057</ID>
       <DefaultText>(Уничтожающий удар) — атака вызывает &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;испуг &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; у врагов рядом с целью.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2063</ID>
-      <DefaultText>Черпая из запасов духовных сил, варвары могут прыгнуть высоко в воздух и обрушиться на врагов, ошеломляя их.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2076</ID>
-      <DefaultText>Создает волну эха, пролетающую к цели через союзников, давая союзникам вдохновение решительности и лишая врагов концентрации.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2083</ID>
-      <DefaultText>Дает указанному союзнику вдохновение подготовки на длительное время.</DefaultText>
+      <ID>2061</ID>
+      <DefaultText>(Кровавое без&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ие) — во время действия критические попадания вызывают у цели кровотечение, постепенно нанося чистый урон.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2090</ID>
       <DefaultText>Дает указанному союзнику вдохновение &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;а на длительное время.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2109</ID>
-      <DefaultText>Дает одной цели вдохновение крепости на некоторое время.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2112</ID>
-      <DefaultText>Дает одной цели вдохновение сообразительности на некоторое время.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -751,11 +286,6 @@
     <Entry>
       <ID>2129</ID>
       <DefaultText>Боец получает сопротивление к воздействиям на ловкость (&lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;хромота &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;обездвиженность &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;паралич &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2134</ID>
-      <DefaultText>Боец получает дополнительный бонус к защите от воздействий на интеллект, восприятие и телосложение.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -779,23 +309,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2156</ID>
-      <DefaultText>(Пленники превратились в пленителей) — пленники, у которых эффекты ловкости сняты, получают вдохновение силы.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2157</ID>
       <DefaultText>Враги рядом с певчим получают &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;ослабление &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, их &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;сила &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; снижается.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2159</ID>
-      <DefaultText>(Над болотом витали огоньки) — огоньки становятся сильнее, получают отвлекающую атаку.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2160</ID>
-      <DefaultText>(Вместе они пролили целую реку крови) — при заворожении враги наносят больший урон.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -811,11 +326,6 @@
 При без&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ии не виден запас здоровья.
 
 При без&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ии персонаж получает чистый урон.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2225</ID>
-      <DefaultText>При помощи возложения рук паладин восстанавливает значительную часть здоровья и дает вдохновение непоколебимости себе или любому союзнику в пределах досягаемости.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -840,18 +350,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2401</ID>
-      <DefaultText>(Духовный торнадо) — призрачные духи разлетаются по спирали, нанося ледяной урон и ужасая врагов.</DefaultText>
+      <ID>2335</ID>
+      <DefaultText>Сопротивление: воздействия на &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;решительность &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2423</ID>
-      <DefaultText>(Ошеломляющий крик) — враги также получают дробящий урон и оказываются ошеломлены.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2459</ID>
-      <DefaultText>Варвар впадает в ярость, получая вдохновения силы и подготовки, бонус к скорости действий, но также и штраф к отклонению.</DefaultText>
+      <ID>2337</ID>
+      <DefaultText>Неуязвимость: воздействия на &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;решительность &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -860,113 +365,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2476</ID>
-      <DefaultText>(Дополнительное увещевание) — вдохновение устремленности развивается до решительности.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2478</ID>
-      <DefaultText>(Освобождающая команда) — дает вдохновение быстроты в дополнение к устремленности.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2480</ID>
-      <DefaultText>Паладин может скомандовать союзнику действовать быстрее, временно дав вдохновение быстроты.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2484</ID>
-      <DefaultText>(Укрепляющая команда) — дает цели вдохновение устремленности в дополнение к подготовке.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2486</ID>
-      <DefaultText>(Стальное увещевание) — вдохновение подготовки развивается до крепости.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2494</ID>
-      <DefaultText>(Подгоняющая команда) — дает вдохновение силы в дополнение к быстроте.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2496</ID>
-      <DefaultText>(Фанатичное увещевание) — вдохновение быстроты развивается до проворства.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2509</ID>
-      <DefaultText>(Ободряющая команда) — дает вдохновение подготовки в дополнение к силе.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2511</ID>
-      <DefaultText>(Перерождающее увещевание) — вдохновение силы развивается до цепкости.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2540</ID>
-      <DefaultText>Использует естественную связь друида с акулой, временно позволяя принять образ животного. При трансформации дает неуязвимость к воздействиям на ловкость.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2564</ID>
-      <DefaultText>Один раз за бой, когда волшебник находится под воздействием на ловкость, эффект снимается, волшебник ненадолго получает невосприимчивость к воздействиям на ловкость.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2571</ID>
-      <DefaultText>(Дисциплинированные удары) — вдохновение осведомленности развивается до интуиции.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2572</ID>
-      <DefaultText>(Тактический залп) — боец также получает вдохновение сообразительности.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2609</ID>
       <DefaultText>(Ясность &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;а) — монах получает вдохновение &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;а.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2635</ID>
-      <DefaultText>Дает союзникам сопротивление воздействию на восприятие и интеллект.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2648</ID>
-      <DefaultText>(Гибельный удар) — когда заканчивается эффект ослабления, цель получает воздействие «Немощь».</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2654</ID>
       <DefaultText>В состоянии «в крови» или «при смерти» авантюрист получает неуязвимость к воздействиям на рассудок (восприятие, интеллект, &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;решительность &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;).</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2658</ID>
-      <DefaultText>В ярких сполохах света вы переместитесь к цели и станете невидимы на некоторое время. Оказавшиеся рядом будут ненадолго запутаны.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2661</ID>
-      <DefaultText>Сайфер нацеливается на духа или носителя, разрывает внутри него сплоченную духовную энергию, заставляя его и ближайших духов и носителей издавать оглушительный вопль, который отвлекает всех поблизости, нанося им чистый урон.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2667</ID>
-      <DefaultText>Когда сайфер убивает врага, враг поблизости может испугаться.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2672</ID>
-      <DefaultText>(Несгибаемый щит) — боец и его союзники также получают вдохновение решительности.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2674</ID>
-      <DefaultText>Атакует врага мощной атакой ближнего боя, нанося значительный урон и оглушая его. Враги за целью оказываются потрясены и получают чистый урон.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -985,123 +390,38 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2702</ID>
-      <DefaultText>(Мерзкая тварь испустила последний вздох) — будучи убитой, спора выпускает ядовитый газ, вызывающий болезнь у всех поблизости до самого конца боя.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2723</ID>
-      <DefaultText>Оживите павшего союзника и дайте ему вдохновение непоколебимости на долгое время.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2758</ID>
-      <DefaultText>(Шквал клинков) — перед телепортацией авантюрист бросает кинжалы в ближайших врагов, нанося колющий урон и вызывая хромоту.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2760</ID>
-      <DefaultText>(Стойкие тени) — невидимость действует дольше и дает вдохновение стремительности.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2783</ID>
       <DefaultText>Цель преисполняется ужаса и начинает хромать, не в &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;сила &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;х прогнать мысли о потерянных близких и лишившихся жизни врагах.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2798</ID>
-      <DefaultText>(Удар вдохновения) — после удара вы временно получаете вдохновение сообразительности и стремительности.</DefaultText>
+      <ID>2896</ID>
+      <DefaultText>(Без&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ие дикого удара — ожог) — каждое убийство во время трансформации продлевает ее действие, обжигает и наносит постепенный урон ближайшим врагам.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2813</ID>
-      <DefaultText>На поле появляется сфера божественной тьмы, ослепляющая каждого, кто оказался внутри или неосторожно приблизился.</DefaultText>
+      <ID>2898</ID>
+      <DefaultText>(Без&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ие дикого удара — разъедание) — каждое убийство во время трансформации продлевает ее действие, разъедает и понижает класс защиты ближайших врагов.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2817</ID>
-      <DefaultText>Жрец окружает себя божественным ореолом Ваэля. Все ближайшие соратники получают бонус ко всем видам защиты. Кроме того, враг, дерзнувший посягнуть на того, кто осенен божественной милостью, рискует ослепнуть.</DefaultText>
+      <ID>2900</ID>
+      <DefaultText>(Без&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ие дикого удара — замораживание) — каждое убийство во время трансформации продлевает ее действие, замораживает и понижает скорость действий ближайших врагов.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2843</ID>
-      <DefaultText>Цель начинает разъедать ее собственная кожа, нанося сильный постепенный разъедающий урон, ослабляя и не давая исцелиться.</DefaultText>
+      <ID>2902</ID>
+      <DefaultText>(Без&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ие дикого удара — электрошок) — каждое убийство во время трансформации продлевает ее действие, бьет электричеством и упреждает действия ближайших врагов.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2873</ID>
-      <DefaultText>Создает мощную молнию, бьющую с неба в цель, нанося электрический урон и ошеломляя ее.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2964</ID>
-      <DefaultText>Создает сверкающее облако цветных блесток, ошеломляющее и запутывающее всех в области поражения.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2966</ID>
-      <DefaultText>Оглушает всех в зоне поражения.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2968</ID>
-      <DefaultText>Создает облако удушливого дыма и пепла, обжигающего и ослепляющего всех, кто в него попал.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2980</ID>
-      <DefaultText>Электрические разряды бьют от цели к цели, нанося электрический урон и обездвиживая.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2982</ID>
-      <DefaultText>Мгновенно замораживает окружающую область, нанося урон всем в ней, замедляя и обездвиживая их.</DefaultText>
+      <ID>2978</ID>
+      <DefaultText>Из устройства вырывается едкий т&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ан, нанося разъедающий урон и снижая класс защиты.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3098</ID>
       <DefaultText>Создает луч разрушительной силы, вызывая &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;потрясение &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; у цели и всех, попавших в луч.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3307</ID>
-      <DefaultText>Находящаяся на расстоянии цель притягивается ближе, получая рубящий и колющий урон, а также эффект «Ошеломление».</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3309</ID>
-      <DefaultText>Мощная атака подбрасывает врага в воздух, затем роняет навзничь, вызывая дезориентацию.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3313</ID>
-      <DefaultText>Находящаяся на расстоянии цель притягивается ближе, получая рубящий и колющий урон, а также эффект «Ошеломление». Скорость атаки ненадолго увеличивается.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3319</ID>
-      <DefaultText>Атакует, вращаясь по большой дуге и наносит колющий и рубящий урон всем целям в области, отталкивает их и вызывает хромоту.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3349</ID>
-      <DefaultText>Освобождает персонажа и ближайших соратников от любых воздействий на ловкость и силу.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3368</ID>
-      <DefaultText>Особо щедрая порция пороха вызывает мощный взрыв по конусу, наносящий врагам огненный и дробящий урон, а также ошеломляющий их и отбрасывающий назад.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3395</ID>
-      <DefaultText>Мощный удар по всем окружающим противникам, наносящий им колющий и рубящий урон и пугающий их.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3435</ID>
-      <DefaultText>По полю битвы отдается эхо обращения Аамиины к племени Синей воды. Дает ближайшим соратникам вдохновение решительности, а также накладывает Встряску на ближайших врагов.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1115,11 +435,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3506</ID>
-      <DefaultText>Несколько целей получают удар удлиненным разрядом, наносящим колющий урон, а также отбрасывающим и обездвиживающим их.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3512</ID>
       <DefaultText>Ореол дает всем ближайшим соратникам бонус к воле при сопротивлении попыткам наложить воздействие на раз&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
@@ -1130,38 +445,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3608</ID>
-      <DefaultText>Дает кратковременное сопротивление воздействиям на ловкость в начале боя.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3612</ID>
       <DefaultText>Ваэль не смыкает бесчисленных глаз. Накладывает на область заклинание «Взгляд», заставляя врагов окаменеть или впасть в &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;ужас &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3689</ID>
-      <DefaultText>Атака конусом, способная отбросить и оглушить цели в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3695</ID>
-      <DefaultText>Телепортация к врагу и атака с выпуском ядовитого облака, ослабляющего всех в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3702</ID>
-      <DefaultText>Удушающая атака, парализующая цель.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3762</ID>
-      <DefaultText>Пока за вами следует огонек, воздействия на ваш интеллект действуют не так долго, а все члены отряда становятся более меткими, если их атаки нацелены на духов.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3764</ID>
-      <DefaultText>Атака конусом, отбрасывающая противников назад. Может оглушить.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1175,53 +460,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3825</ID>
-      <DefaultText>Подчинение носителя.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3856</ID>
-      <DefaultText>(Вызывающий хромоту выстрел) — выстрелы следопыта теперь вызывают у цели хромоту.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3864</ID>
       <DefaultText>Когда за вами следует Эвии, вы получаете бонус к решительности и сопротивление к воздействиям на &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;решительность &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;. Кроме того, продолжительность наложенных на ваш отряд воздействий на &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;решительность &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; снижена.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3899</ID>
-      <DefaultText>Пока Алголь следует за вами, наложенные на вас воздействия на телосложение быстрее исчезают, а члены вашего отряда восстанавливают часть здоровья после убийства противника.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3953</ID>
-      <DefaultText>Дает сопротивление к воздействию на телосложение при статусах «В порядке» и «Ни царапины».</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3971</ID>
-      <DefaultText>Пока Заливистый лай следует за вами, наложенные на вас воздействия на ловкость быстрее исчезают, а члены вашего отряда быстрее двигаются в бою.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4092</ID>
-      <DefaultText>Дает случайное вдохновение раз&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;а с продолжительным действием при переходе к статусу «в крови».</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4113</ID>
-      <DefaultText>Дает кратковременные вдохновения подготовки и устремленности в начале боя.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4115</ID>
-      <DefaultText>Заклинатель обращается к осколкам души, оставшимся в Белой шкуре, и те издают ужасающий вопль, пугая всех оказавшихся поблизости врагов.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4140</ID>
-      <DefaultText>Дает сопротивление к воздействию на телосложение при статусах «В порядке» и «Ни царапины».</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1230,118 +470,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>4160</ID>
-      <DefaultText>Дает невосприимчивость к воздействиям на телосложение при наличии хотя бы одной травмы. Пассивная способность.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4276</ID>
-      <DefaultText>Дает неуязвимость к воздействию на телосложение при статусах «В порядке» и «Ни царапины».</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4292</ID>
-      <DefaultText>Используя дар Хранителя, вы заглядываете противнику прямо в душу, временно пугая его.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4294</ID>
-      <DefaultText>(Образ вестника смерти) — при использовании Хранитель получает вдохновение восприятия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4296</ID>
-      <DefaultText>(Гнев вестника смерти) — при использовании Хранитель получает вдохновение силы.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4298</ID>
-      <DefaultText>(Мудрость вестника смерти) — при использовании Хранитель получает вдохновение интеллекта.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4300</ID>
-      <DefaultText>(Страх вестника смерти) — при использовании Хранитель получает вдохновение силы и восприятия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4302</ID>
-      <DefaultText>(Облачение вестника смерти) — при использовании Хранитель получает вдохновение интеллекта и восприятия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4304</ID>
-      <DefaultText>(Жестокость вестника смерти) — при использовании Хранитель получает вдохновение силы и интеллекта.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4306</ID>
-      <DefaultText>(Величие вестника смерти) — при использовании Хранитель получает вдохновение силы, интеллекта и восприятия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4308</ID>
-      <DefaultText>Хранитель призывает души тех, что согласились следовать за ним. Их появление отвлекает всех противников в области.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4313</ID>
-      <DefaultText>(Презрение к потерянным) — Души также дают Хранителю вдохновение устремленности.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4315</ID>
-      <DefaultText>(Хор потерянных) — Души также заставляют противников хромать.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4317</ID>
-      <DefaultText>(Жалость к потерянным) — Души также дают соратникам вдохновение подготовки.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4321</ID>
-      <DefaultText>(Хор проклятых) — Души также обездвиживают противников.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4333</ID>
-      <DefaultText>Вы предвидели это предательство. Если кто-либо из членов отряда заворожен или поддался доминированию, вы получаете вдохновения стремительности и интуиции.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4335</ID>
-      <DefaultText>Черная ненависть Калмо значительно снижает защиту ближайших соратников от воздействий на интеллект.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>4336</ID>
       <DefaultText>Позволяет выйти из боя и &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ело избежать следующей атаки, выйдя из опасного радиуса в указанную точку. Ослепляет и дезориентирует ближайшие цели. Один раз между передышками.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4382</ID>
-      <DefaultText>Широкий взмах клинком, наносящий всем ближайшим целям колющий и рубящий урон, а также отбрасывающий противников и заставляющий их хромать.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4387</ID>
-      <DefaultText>Создает мощную молнию, бьющую с неба в цель, нанося электрический урон и оглушая ее.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4412</ID>
-      <DefaultText>Вокруг заклинателя появляется поле святой энергии, наносящее огненный урон и пугающее всех ближайших носителей, а также восстанавливающее большую часть запаса здоровья соратников.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4483</ID>
-      <DefaultText>Дух грифона вселяет в ваш отряд смелость. Когда персонаж оказывается в крови, он сам и ближайшие соратники получают вдохновение устремленности.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4512</ID>
-      <DefaultText>Следопыт некоторое время осматривает окрестности, на время получая вдохновение проницательности, кроме того, увеличивается расстояние атак дальнего боя.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1355,53 +485,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>4562</ID>
-      <DefaultText>Первая атака противников во время боя запутывает цель.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4588</ID>
-      <DefaultText>Создает родник с живой водой, который восстанавливает здоровье и дает вдохновение силы союзникам в зоне действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>4634</ID>
       <DefaultText>Сконцентрируйтесь и превратите свою силу в чистую дисциплину, на короткое время давая все виды вдохновения 1 ур. (Сила, &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;подготовка &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;быстрота &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;проницательность &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; и &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;устремленность &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>4638</ID>
-      <DefaultText>Шанс ошеломить цель при попадании.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4640</ID>
-      <DefaultText>Увеличенный шанс ошеломить цель при попадании, если персонаж — гном.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4641</ID>
-      <DefaultText>Шанс оглушить цель при попадании.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4642</ID>
-      <DefaultText>Увеличенный шанс оглушить цель при попадании, если персонаж — гном.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>4643</ID>
       <DefaultText>Зловонная ядовитая сердцевина вызывает у целей хромоту и &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;ослабление &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4672</ID>
-      <DefaultText>Персонаж становится немощным, получая урон от морозных атак.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4673</ID>
-      <DefaultText>Удар эфесом наносит дополнительный дробящий и электрический урон, оглушая цель.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

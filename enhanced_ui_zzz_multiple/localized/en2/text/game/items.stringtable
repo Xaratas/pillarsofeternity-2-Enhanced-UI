@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\items</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>2831</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>3398</ID>
+      <DefaultText>Calls down a shaft of intense sunlight, &lt;sprite="Inline" name="cs_burn" tint=1&gt; burning and potentially &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinding &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; those caught in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3414</ID>
+      <DefaultText>Creates a beam of &lt;sprite="Inline" name="cs_blunt" tint=1&gt; crushing force, &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Staggering &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; the target and anyone caught in the beam.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3419</ID>
+      <DefaultText>A trio of stone claws erupt from the ground, turning flesh to stone, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzing &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; and inflicting &lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash damage on everyone caught in the area.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3422</ID>
+      <DefaultText>Summons an enormous infestation of venomous insects, dealing &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage over time, reducing Concentration and &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickening &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; anyone in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3435</ID>
+      <DefaultText>A parching wind blows across the battlefield, inflicting &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage on anyone in the area and leaving them &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Weakened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Mod name: EnhancedUserInterface-AfflictionsAndInspirations // en2 // version: 0.3.0.002 -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3276</EntryCount>
+  <EntryCount>3285</EntryCount>
   <Entries>
     <Entry>
       <ID>238</ID>
@@ -161,11 +160,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>474</ID>
-      <DefaultText>Invokes the benediction of the priest's god, imbuing allies in the area of effect with Accuracy and Might bonuses while enemies receive penalties to the same.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>481</ID>
       <DefaultText>Places a magical seal on the floor that bursts into flame when an enemy comes into contact with it, &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinding &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; them and inflicting Burn damage.</DefaultText>
       <FemaleText />
@@ -281,11 +275,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>800</ID>
-      <DefaultText>Grants resistance against &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; for allies in the area of effect. </DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>801</ID>
       <DefaultText>Stirs something deep inside enemies in the area of effect, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charming &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; them. </DefaultText>
       <FemaleText />
@@ -296,18 +285,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>804</ID>
-      <DefaultText>Removes &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; effects for allies in the area of effect.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>806</ID>
       <DefaultText>&lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzes &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; enemies in the area of effect. </DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>807</ID>
-      <DefaultText>Allies in the area of effect gain Resistance against &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -329,6 +308,11 @@
     <Entry>
       <ID>819</ID>
       <DefaultText>Rapidly grows a patch of twisted vines that surround and entangle anyone unlucky enough to get caught inside. Characters who set foot inside the area of effect become &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbled &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>822</ID>
+      <DefaultText>&lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Quick &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ly generates an explosive flash of flame, inflicting Burn damage to anyone in the area of effect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -442,48 +426,23 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>954</ID>
-      <DefaultText>(Lightning Strikes) - Energizes the monk's attacks to also deal Shock damage.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1015</ID>
       <DefaultText>Lets out a terrifying roar, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightening &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; enemies in the area of effect. </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1026</ID>
-      <DefaultText>Wood elves have a natural Resistance towards &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1048</ID>
-      <DefaultText>The paladin becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, (&lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charmed &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominated &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The paladin becomes resistant to Intellect Afflictions, (&lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charmed &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominated &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1050</ID>
-      <DefaultText>The fighter becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, (&lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Staggered &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazed &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stunned &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1052</ID>
-      <DefaultText>While Hurt or better the barbarian gains resistance against Body Afflictions.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1058</ID>
-      <DefaultText>The ranger's animal companion gains resistance against &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>The fighter becomes resistant to Might Afflictions, (&lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Staggered &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazed &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stunned &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1212</ID>
       <DefaultText>With a touch of their hands, the paladin imbues themselves or an ally within range with light, restoring a substantial amount of Health and granting the &lt;link="gamedata://dc62af47-239f-4ee4-8d91-a5e8b3b97564"&gt;&lt;#30d3d5&gt;Courageous &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; Inspiration.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1306</ID>
-      <DefaultText>Wild orlans are naturally sound of mind and gain Resistance towards &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -504,26 +463,6 @@
     <Entry>
       <ID>1330</ID>
       <DefaultText>The fighter intensely focuses on their training, gaining the &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Aware &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; Inspiration for a short time.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1334</ID>
-      <DefaultText>Avian godlike are acute and precise, granting a Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1338</ID>
-      <DefaultText>Mountain dwarves are the most well-traveled race in Eora. Their incredible journeys have exposed them to all manner of lethal hazards, giving them resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1341</ID>
-      <DefaultText>Coastal aumaua are renowned for their natural "sea legs" and sturdy builds. Whether it's due to their long history of seafaring or something innate, all coastal aumaua have resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1342</ID>
-      <DefaultText>The souls of nature godlike respond powerfully to Inspiration. While a nature godlike is under the effects of any &lt;link="glossary://cc4b4eb9-5d6c-40e4-87b3-adcf56a87572"&gt;Might&lt;/link&gt;, &lt;link="glossary://d034e058-3b3e-4737-ade5-bd0d417b4eed"&gt;Constitution&lt;/link&gt;, or &lt;link="glossary://5b14378d-82b4-4c7e-b23a-1fa07d0d85a3"&gt;Dexterity&lt;/link&gt; Inspiration they benefit from an increased Power Level.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -572,13 +511,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1730</ID>
-      <DefaultText>The chanter creates two bouncing beams of pure light that restore Health and grant immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; on all allies they touch.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1739</ID>
-      <DefaultText>Allies gain a protective layer of wooden "skin" and are imbued with the characteristics of a delemgan, becoming faster, less vulnerable to Disengagement attacks, and immune to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <ID>1740</ID>
+      <DefaultText>The fighter dashes across the battlefield in a flash, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stunning &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; anyone caught in their path.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -673,7 +607,7 @@
     </Entry>
     <Entry>
       <ID>2032</ID>
-      <DefaultText>(Hardy Companion) - Also grants the &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Hardy &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; Inspiration to the companion.</DefaultText>
+      <DefaultText>(&lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Hardy &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; Companion) - Also grants the &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Hardy &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; Inspiration to the companion.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -747,32 +681,22 @@ One-Handed: Raw Damage over time</DefaultText>
     </Entry>
     <Entry>
       <ID>2124</ID>
-      <DefaultText>The fighter becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, (&lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Shaken &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightened &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrified &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The fighter becomes resistant to Resolve Afflictions, (&lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Shaken &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightened &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrified &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2129</ID>
-      <DefaultText>The fighter becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, (&lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbled &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilized &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzed &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2134</ID>
-      <DefaultText>The fighter gains bonus defense against &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>The fighter becomes resistant to Dexterity Afflictions, (&lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbled &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilized &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzed &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2137</ID>
-      <DefaultText>The paladin becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, (&lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distracted &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Disoriented &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinded &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The paladin becomes resistant to Perception Afflictions, (&lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distracted &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Disoriented &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinded &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2139</ID>
-      <DefaultText>The paladin becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, (&lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Weakened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1"&gt;&lt;#f7b733&gt;Enfeebled &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2141</ID>
-      <DefaultText>The paladin gains defense against &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>The paladin becomes resistant to Constitution Afflictions, (&lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Weakened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1"&gt;&lt;#f7b733&gt;Enfeebled &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -829,26 +753,13 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2317</ID>
-      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-Gain increased Power Level with Enchanting Spells.
-
-Gain "Free Action" passive: Once per encounter, when the wizard is affected by a &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, they will clear that effect and become temporarily immune to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.
-
-&lt;b&gt;Penalty&lt;/b&gt;
-Lose access to spells from Illusion and Transmutation schools.
-
-Increased Recovery Time for Wizard Spells not of the Enchanting School.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2401</ID>
       <DefaultText>(Spirit Tornado) - Ghostly spirits spin outwards when activated, causing Freeze damage and &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrify &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2423</ID>
-      <DefaultText>(Dazing Shout) - Enemies also take Crush Damage and are &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazed &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(&lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazing &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; Shout) - Enemies also take Crush Damage and are &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazed &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -907,16 +818,6 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2540</ID>
-      <DefaultText>Draws upon the druid's natural connection to the shark, temporarily allowing them to assume that form. The shark spiritshift has immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2564</ID>
-      <DefaultText>Once per encounter, when the wizard is affected by a &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, they will clear that effect and become immune to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; for a short time.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2571</ID>
       <DefaultText>(Disciplined Strikes) - &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Aware &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; Inspiration is now improved to the &lt;link="gamedata://c2fb23c5-9907-4654-b62e-77adbc37c9bc"&gt;&lt;#ca58ff&gt;Intuitive &lt;sprite="Inline" name="attribute_perception" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; Inspiration.</DefaultText>
       <FemaleText />
@@ -932,18 +833,8 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2635</ID>
-      <DefaultText>Grants allies resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2648</ID>
       <DefaultText>(Perishing Strike) - When the &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Weakened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; effect ends, the target receives the &lt;link="gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1"&gt;&lt;#f7b733&gt;Enfeebled &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; Affliction.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2654</ID>
-      <DefaultText>While Bloodied or Near Death, the rogue gains immunity against Mind Afflictions (Perception, Intellect, and Resolve).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1037,28 +928,13 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2964</ID>
-      <DefaultText>Produces a dazzling swarm of colorful bursts, startling and confusing everyone in the affected area.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2966</ID>
       <DefaultText>Applies &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stun &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; to anyone in the blast area.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2968</ID>
-      <DefaultText>Produces a cloud of noxious smoke and cinders, burning and blinding those caught within it.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2980</ID>
       <DefaultText>Electric bolts arc target to target, dealing Shock damage and &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilizing &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; any targets in their path.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2982</ID>
-      <DefaultText>Flash-freezes the surrounding area, damaging, slowing, and immobilizing everyone in the area of effect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1087,11 +963,6 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3349</ID>
-      <DefaultText>Frees the wielder and any nearby allies from any &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; or &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3368</ID>
       <DefaultText>A copious powder load creates a blast that hits all targets in a cone, inflicting Burn/Crush Damage, knocking them back, and &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazing &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; them.</DefaultText>
       <FemaleText />
@@ -1117,23 +988,8 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3506</ID>
-      <DefaultText>Fire a spear-like bolt through multiple targets, inflicting Pierce Damage, knocking them back and immobilizing them in place.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3512</ID>
-      <DefaultText>Aura grants Will bonus against Mind Afflictions to all nearby allies.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3523</ID>
       <DefaultText>Calls upon the power of the grave, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charming &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; Vessels and &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightening &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; any Kith in the area of effect.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3608</ID>
-      <DefaultText>Grants the user Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; at the beginning of combat, for a short time.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1154,11 +1010,6 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     <Entry>
       <ID>3702</ID>
       <DefaultText>Choking attack that applies &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzed &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; to the target.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3762</ID>
-      <DefaultText>While the wisp is following you around, Intellect afflictions applied to you have a reduced duration and all party members are more accurate in their attacks against Spirits.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1183,32 +1034,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>3856</ID>
-      <DefaultText>(Hobbling Shot) - The ranger's shot now &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbles &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; the target.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3864</ID>
-      <DefaultText>While Eviee is following you around, you gain a bonus to Resolve and &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; Resistance. Also, the duration of &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to your party is reduced.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3899</ID>
-      <DefaultText>While Algol is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and party members regain some Health when they kill an enemy.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3953</ID>
-      <DefaultText>Grants Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while Healthy or Unharmed.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3971</ID>
-      <DefaultText>While Bark String is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and your party moves more quickly in combat.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4092</ID>
-      <DefaultText>When the wearer becomes Bloodied, they are granted a random Mind Inspiration for a long duration.</DefaultText>
+      <DefaultText>(&lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbling &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; Shot) - The ranger's shot now &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbles &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; the target.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1217,68 +1043,8 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>4115</ID>
-      <DefaultText>The caster calls upon the bestial soul fragments from within the Pale Hide to produce a wicked howl, provoking fear in nearby enemies.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4140</ID>
-      <DefaultText>Gain Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while Unharmed or Healthy.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4145</ID>
-      <DefaultText>Aura that clouds the minds of nearby allies, making them more susceptible to &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4160</ID>
-      <DefaultText>Wearer is Immune to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while they carry one or more Injuries.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4276</ID>
-      <DefaultText>Gain Immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while Unharmed or Healthy,</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>4292</ID>
       <DefaultText>Use your watcher powers to gaze through your target's eyes deep into their soul, temporarily &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightening &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; them.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4294</ID>
-      <DefaultText>(Mien of Death's Herald) - Grants the Watcher a &lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4296</ID>
-      <DefaultText>(Ire of Death's Herald) - Grants the Watcher a &lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4298</ID>
-      <DefaultText>(Wit of Death's Herald) - Grants the Watcher an &lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4300</ID>
-      <DefaultText>(Awe of Death's Herald) - Grants the Watcher a &lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspirations&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Inspration&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4302</ID>
-      <DefaultText>(Raiment of Death's Herald) - Grants the Watcher an &lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Inspration&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4304</ID>
-      <DefaultText>(Cruelty of Death's Herald) - Grants the Watcher a &lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspirations&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4306</ID>
-      <DefaultText>(Majesty of Death's Herald) - Grants the Watcher an &lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Inspiration&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspirations&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Perception&#160;Inspration&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1312,11 +1078,6 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>4335</ID>
-      <DefaultText>Calmo's lingering resentment inflicts major Defense penalties to nearby allies against &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>4336</ID>
       <DefaultText>Breaks Engagement and expertly avoids the next attack, diving out of range to a specific location. &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinds &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuses &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; nearby targets. Use once per Rest.</DefaultText>
       <FemaleText />
@@ -1344,11 +1105,6 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     <Entry>
       <ID>4512</ID>
       <DefaultText>The ranger takes the time to study their surroundings, temporarily gaining the &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Insightful &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspiration and additional ranged attack distance.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4558</ID>
-      <DefaultText>Effort purges fear of imminent death from the wielder. Grants immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when Near Death.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

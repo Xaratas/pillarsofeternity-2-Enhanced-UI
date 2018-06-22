@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\items</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>2827</EntryCount>
+  <EntryCount>2831</EntryCount>
   <Entries>
     <Entry>
       <ID>3145</ID>
@@ -10,18 +10,13 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3156</ID>
+      <DefaultText>Это зелье очищает раз&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; от страхов и отвлекающих факторов, снижая эффективность воздействий на раз&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3394</ID>
       <DefaultText>Просьба о божественной милости, дающая вдохновение c &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;проницательность &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;ю союзникам в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3398</ID>
-      <DefaultText>Призывает колонну яркого солнечного света, обжигая и потенциально ослепляя всех в области действия.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3403</ID>
-      <DefaultText>Молитвенная служба, на долгий срок дающая целевому союзнику вдохновение с подготовкой.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -35,53 +30,18 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3419</ID>
-      <DefaultText>Из-под земли выдвигаются три каменных когтя, которые превращают плоть в камень, парализуют и наносят рубящий урон всем, кто находится поблизости.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3422</ID>
       <DefaultText>Призывает огромный рой ядовитых насекомых, наносящих чистый постепенный урон, снижающих концентрацию и вызывающих &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;недомогание &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; у всех в области действия.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3435</ID>
-      <DefaultText>По полю боя проносится знойный ветер, который наносит всем в области действия чистый урон и ослабляет их.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3648</ID>
-      <DefaultText>Пока Алголь следует за вами, наложенные на вас воздействия на телосложение быстрее исчезают, а члены вашего отряда восстанавливают часть здоровья после убийства противника.</DefaultText>
+      <ID>3429</ID>
+      <DefaultText>Читающий бросает шар священного огня в противника, уничтожая его защиту и приближая гибель. В течение пяти секунд наносит огненный урон и ускоряет протекание всех благотворных (кроме лечения) и наносящих урон воздействий на цель. Переходит максим&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;ум &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; на двоих других находящихся поблизости врагов.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3693</ID>
       <DefaultText>Когда за вами следует Эвии, вы получаете бонус к решительности и сопротивление к воздействиям на &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;решительность &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;. Кроме того, продолжительность наложенных на ваш отряд воздействий на &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;решительность &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; снижена.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3830</ID>
-      <DefaultText>Пригоршня заостренных колючек, покрытых лишающим сил ядом. Если бросить их в цель, они впиваются в голую кожу, ткань или кожаный доспех, быстро доставляя в организм отраву. Вызывает хромоту.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3941</ID>
-      <DefaultText>Пригоршня извивающихся личинок. Они слепые, хотят есть и инстинктивно ползут к любому источнику пищи.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4261</ID>
-      <DefaultText>Быстрое касание Эгора</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4485</ID>
-      <DefaultText>Пока Заливистый лай следует за вами, наложенные на вас воздействия на ловкость быстрее исчезают, а члены вашего отряда быстрее двигаются в бою.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>5137</ID>
-      <DefaultText>Применить воздействия на ловкость: {0} шт.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

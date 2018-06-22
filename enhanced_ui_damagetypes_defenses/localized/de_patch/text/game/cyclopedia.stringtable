@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\cyclopedia</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>875</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>194</ID>
+      <DefaultText>In Pillars of Eternity gibt es acht Schadensarten: &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hieb-, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stich-, &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wucht-, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schock-, &lt;g&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzung&lt;/g&gt;s-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost- und &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Schaden. Die Schadensarten werden dazu genutzt, zu bestimmten, wie leicht ein Ziel solchem Schaden widerstehen kann, basierend auf seinen Schadensreduktionen. Eine Kreatur oder Rüstung kann einer Schadensart gegenüber sehr resistent sein, einer anderen gegenüber aber sehr anfällig. 
+
+Manche Waffen oder Angriffe können mehrere Schadensarten anrichten oder zeigen zwischen ihren Schadensarten ein „oder“. Wenn ein „oder“ aufgeführt wird, verursacht der Angriff immer die Schadensart, gegen die das Ziel am anfälligsten ist. Direkter Schaden ist die einzige Schadensart, die alle Schadensreduktionen ignoriert – und meist mit Giften und ähnlichen Effekten in Verbindung steht.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\gui</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>4358</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>88001</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden wird von Zaubern und Fähigkeiten verursacht, die die Naturkraft der Blitze zu Hilfe rufen. Damit einher geht auch meistens die Bewegungsunfähigkeit des Ziels.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88003</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden wird durch Feuer verursacht. Magier können es in Feuerbälle, Lavakugeln oder „Wände“ formen. Viele Feuerfähgkeiten verursachen Zeitschaden und betreffen einen ganzen Bereich. Wer in der Nähe von Pulverfässern mit offenem Feuer hantiert sollte sich nicht wundern, wenn diese in einer fürchterlichen Explosion allen umstehenden schweren &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügen.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88004</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden entsteht durch Unterkühlung. Fähigkeiten die Eis oder große Kälte heraufbeschwören können meist auch das Ziel verlangsamen oder sogar komplett einfrieren.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88005</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden basiert auf Säure über die Zeit Schaden verursacht. Damit einher gehen Wirkungen auf die Konstitution.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88006</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden wird mit stumpfen Waffen wie Kriegshämmern und Morgensternen verursacht. Durch die &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wucht des Auftreffens ist die Chance das Opfer zu unterbrechen oder Niederzustrecken sehr hoch.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88007</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden wird von leichten, scharfen Waffen wie Stiletten und Degen zugefügt. Ebenso können Magier ihre Schläge in Speerform bringen und damit &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden verursachen. Fähigkeiten die &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden verursachen können meist einen Teil des Rüstungswertes umgehen.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88008</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_slash" tint=1&gt; Hiebschaden wird von stumpfen Klingenwaffen wie Schwertern und Zweihändern verursacht. Fähigkeiten mit &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hiebschaden haben meistens einen Zeitschadenseffekt.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>
