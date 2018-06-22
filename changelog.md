@@ -1,5 +1,5 @@
 ### CHANGELOG ###
-0.4-beta
+0.5-beta
 - Changed the font of rank 1 afflictions and inspirations to something more distinctive (I picked EspinosaNova-Regular SDF istead of EBGaramond-Regular SDF) - not final, probably, what do you think Xaratas?
 - The keywords Might and Tenacious now have the correct color code (from #f7b733 to #ff4800).
 - Fixed a wrongly (?) applied icon in entry #1270 (abilities.stringtable) - "Summons three missiles that each pierce (<== this one) through the target and then leap to additional targets.".
