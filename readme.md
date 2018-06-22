@@ -23,7 +23,7 @@ appearance mirroring some elements of the standard UI.
 * Lots and lots of bug fixes.
 
 **Regarding the name change:**\
-Due to the fact that this mod has grown quite far beyond the initial scope of only colorizing afflictions and inspirations it felt quite natural to drop the *Affliction and Inspiration* name in favor of the already half-established *Enhanced User Interface* which I feel is a more accurate representation of what this mod aims to accomplish. I've found some [interesting information](http://digitalnativestudios.com/textmeshpro/docs/rich-text/) regarding styling of `.stringtable` files so expect some cool new features in the future!
+Due to the fact that this mod has grown quite far beyond the initial scope of only colorizing afflictions and inspirations it felt quite natural to drop the **Affliction and Inspiration** name in favor of the already half-established **Enhanced User Interface** which I feel is a more accurate representation of what this mod aims to accomplish. I've found some [interesting information](http://digitalnativestudios.com/textmeshpro/docs/rich-text/) regarding styling of `.stringtable` files so expect some cool new features in the future!
 
 /Spherikal
 
