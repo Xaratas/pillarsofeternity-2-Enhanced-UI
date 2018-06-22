@@ -43,7 +43,7 @@ Der Mod [Corrected german translation](https://www.nexusmods.com/pillarsofeterni
 **11th of June 2018**\
 This mod version is trying something a little bit different. I have added icons for defensive stats (Fortification, Toughness, Reflexes and Will), offensive weapon types (Slash, Pierce, Crush and Raw) and spell damage (Frost, Burning, Shock and Corrosive).
 
-![alt text](https://i.imgur.com/GU2MVTc.png "Damage icons")
+![alt text](https://i.imgur.com/p4XGP1G.png "Damage icons")
 
 It is **strongly** advised that you use the latest game version (1.1.0.00035) when using this mod.
 
