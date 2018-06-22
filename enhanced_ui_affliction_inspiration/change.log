@@ -1,11 +1,11 @@
 ### CHANGELOG ###
 0.5-beta
-- Changed the font of rank 1 afflictions and inspirations to something more distinctive (I picked EspinosaNova-Regular SDF istead of EBGaramond-Regular SDF) - not final, probably, what do you think Xaratas?
+- Changed the font of rank 1 afflictions and inspirations to something more distinctive (I picked EspinosaNova-Regular SDF istead of EBGaramond-Regular SDF) - not final, probably.
 - The keywords Might and Tenacious now have the correct color code (from #f7b733 to #ff4800).
 - Fixed a wrongly (?) applied icon in entry #1270 (abilities.stringtable) - "Summons three missiles that each pierce (<== this one) through the target and then leap to additional targets.".
-- Standardized all distances between icons and ranks. All icons and ranks should now have the distance 0.7em between the keyword and the icon and 0.3em between the icon and the rank text. Probably needs further adjustments for each attribute to look "just right".
-- The attribute tittles in entries 94, 96, 98, 100, 102, 106, 108, 110, 116, 118, 120, 122, 124, 322, 533, 679, 681, 683, 713, 715, 717, 719, 721, 723, 725, 727, 729, 731, 733, 735, 737, 739, 741, 743, 745, 747 in cyclopedia.stringtable should now all have the same font size and placement.
 - Updated statuseffects.stringtable to match the font stylizations in the other .stringtable-files.
+- All icons and ranks now have the same distance between the keyword and the icon (0.7em) and the icon and the rank indicator (0.3em). Probably needs further adjustments for each attribute to look "just right".
+- Attribute titles in entries 94, 96, 98, 100, 102, 106, 108, 110, 116, 118, 120, 122, 124, 322, 533, 679, 681, 683, 713, 715, 717, 719, 721, 723, 725, 727, 729, 731, 733, 735, 737, 739, 741, 743, 745, 747 in cyclopedia.stringtable should now all have the same font size and placement.
 Side note(s):
 - Added a lot of improvements to the macros I'm using which should result in less buggy texts as well as future-proofing it against future patches.
 - I'm using this RegEx to remove all text except the Entry ID's: [\S\s]+?<ID>(\d+?)<\/ID>
