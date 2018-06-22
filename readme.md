@@ -16,7 +16,7 @@ To the great dismay of my fellow co-modders/translators, I am sure, I've just pu
 * Added color to reputation gains in the chat window (colors are not final yet).
 * Defensive stats (Will, Fortitude, Deflection and Reflex) now have a colorized icon:
 
- ![alt text](https://i.imgur.com/JFoMw5O.png "Defense icons")
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://i.imgur.com/JFoMw5O.png "Defense icons")
 
 * Affliction and inspiration tooltips now have a more aesthetically pleasing 
 appearance mirroring some elements of the standard UI.
