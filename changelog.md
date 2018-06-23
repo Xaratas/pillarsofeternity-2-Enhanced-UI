@@ -11,6 +11,7 @@
 - Added missing `<FemaleText />` and `</Entry>` tags to ID `9`.
 - Added missing keywords to Entry `240` and `1470`.
 - Added missing cyclopedia link and icon to the keyword "Armor Rating" in `statuseffects.stringtable`.
+- Removed a wrongly applied keyword to ID `603` in `abilities.stringtable`.
 
 **Side note(s):**
 - Added a lot of improvements to the macros I'm using which should result in less buggy texts as well as making it easier to adapt to future patches to the main game.
