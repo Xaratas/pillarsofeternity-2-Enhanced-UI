@@ -20,8 +20,12 @@
 - I'm using this RegEx to remove all text except the Entry ID's: `[\S\s]+?<ID>(\d+?)<\/ID>`\
   It's a neat little RegEx to use if you want to get a list of all ID's in a `.stringtable` file.
 
+***
+
 ### 0.4
 - On par with de_patch
+
+***
 
 ### 0.3.2-04
 - Added a better description to the "Death Runes" status effect. (abilities.stringtable ID #3677) /Spherikal
