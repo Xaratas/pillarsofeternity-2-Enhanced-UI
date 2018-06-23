@@ -10,7 +10,7 @@
 - Attribute titles in entries `94`, `96`, `98`, `100`, `102`, `106`, `108`, `110`, `116`, `118`, `120`, `122`, `124`, `322`, `533`, `679`, `681`, `683`, `713`, `715`, `717`, `719`, `721`, `723`, `725`, `727`, `729`, `731`, `733`, `735`, `737`, `739`, `741`, `743`, `745`, `747` in `cyclopedia.stringtable` should now all have the same font size and placement.
 - Added missing `<FemaleText />` and `</Entry>` tags to ID `9`.
 - Added missing keywords to Entry `240` and `1470`.
-- Added missing cyclopedia link and icon to the keyword "Armor Rating" in statuseffects.stringtable.
+- Added missing cyclopedia link and icon to the keyword "Armor Rating" in `statuseffects.stringtable`.
 
 **Side note(s):**
 - Added a lot of improvements to the macros I'm using which should result in less buggy texts as well as making it easier to adapt to future patches to the main game.
