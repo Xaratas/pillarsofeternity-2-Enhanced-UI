@@ -5,7 +5,7 @@
   <EntryCount>3276</EntryCount>
   <Entries>
   <Entry>
-      <ID>237</ID>
+  <ID>237</ID>
       <DefaultText>Punisce i peccati di un bersaglio, applicando danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; e riducendone &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt;
 .</DefaultText>
       <FemaleText />
@@ -49,6 +49,11 @@
 	<Entry>
       <ID>249</ID>
       <DefaultText>Benedice gli alleati con l'aiuto di un'anima comprensiva, attivando un effetto curativo sono Agonizzanti.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>251</ID>
+      <DefaultText>Confrontandosi con una fede incrollabile, i nemici nell'area d'effetto vengono divorati da dubbi atroci, perdendo &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; in mischia e convertendo i Critici in Colpi a segno</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -98,8 +103,12 @@
     </Entry>
 	<Entry>
       <ID>263</ID>
-      <DefaultText>Evoca un numero variabile di dardi incantati che si schiantano sul bersaglio infliggendo danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; o &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;
-.</DefaultText>
+      <DefaultText>Evoca un numero variabile di dardi incantati che si schiantano sul bersaglio infliggendo danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; o &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>264</ID>
+      <DefaultText>Circonda il lanciatore con uno Scudo di energia spirituale che aumenta la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; e fornisce un bonus Concentrazione.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -129,7 +138,7 @@
     </Entry>
 	<Entry>
       <ID>275</ID>
-      <DefaultText>Svela a tutti le vulnerabilità dei nemici causando Arresto e riducendone Soglia di Danno e &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Svela a tutti le vulnerabilità dei nemici causando Arresto e riducendone &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -159,7 +168,7 @@
     </Entry>
 	<Entry>
       <ID>284</ID>
-      <DefaultText>Manifesta l'odio reciproco fra cipher e bersaglio nemico sotto forma di materia tossica. Chiunque si trovi tra i due subisce danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Manifesta l'odio reciproco fra Cipher e bersaglio nemico sotto forma di materia tossica. Chiunque si trovi tra i due subisce danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -183,13 +192,23 @@
       <FemaleText />
     </Entry>
 	<Entry>
+      <ID>294</ID>
+      <DefaultText>Il Guerriero rotea la sua arma da mischia con un'ampia spazzata, rendendo Proni i nemici e infliggendo danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
       <ID>296</ID>
-      <DefaultText>Il guerriero, esaltato dall'impeto della battaglia, recupera continuamente modeste quantità di Salute.</DefaultText>
+      <DefaultText>Il Guerriero, esaltato dall'impeto della battaglia, recupera continuamente modeste quantità di Salute.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>298</ID>
+      <DefaultText>Il Guerriero adotta una strategia più prudente, concentrandosi sul bloccare i nemici che si avvicinano troppo. Questo aumenta a tre il numero dei bersagli ingaggiabili, ma va a discapito della &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>300</ID>
-      <DefaultText>Il guerriero si lancia in battaglia portandosi immediatamente a portata di mischia di un nemico, infliggendo danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; e causando &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientamento &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Il Guerriero si lancia in battaglia portandosi immediatamente a portata di mischia di un nemico, infliggendo danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; e causando &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientamento &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
    <Entry>
@@ -214,12 +233,17 @@
     </Entry>
     <Entry>
       <ID>314</ID>
-      <DefaultText>Invoca un contrattacco e &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordendo &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; il nemico ogni volta che prende di mira la difesa della &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt; del cipher.</DefaultText>
+      <DefaultText>Invoca un contrattacco e &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordendo &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; il nemico ogni volta che prende di mira la difesa della &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt; del Cipher.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>315</ID>
       <DefaultText>Invoca uno scudo protettivo magico che aumenta notevolmente la &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; del Mago e conferisce Concentrazione. Il Velo Arcano non ha effeto su attacchi con armi da fuoco o con effetti di penetrazione del Velo</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>318</ID>
+      <DefaultText>La fede pura e intensa del Paladino rinnova la convinzione dei suoi alleati e ne aumenta la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;. Non si può attivare in presenza di altre Auree Solerti.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -238,8 +262,18 @@
       <FemaleText />
     </Entry>
 	<Entry>
+      <ID>327</ID>
+      <DefaultText>Colma il Paladino e i suoi alleati di una fiducia incrollabile, aumentandone la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;. Non si può attivare in presenza di altre Auree Solerti.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
       <ID>352</ID>
       <DefaultText>Grazie alla sua conoscenza delle forze della natura, il Druido è in grado d'infliggere automaticamente danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; aggiuntivo quando è in Metamorfosi.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>354</ID>
+      <DefaultText>Grazie alla sua conoscenza delle forze della natura, il Druido è in grado d'infliggere automaticamente danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; aggiuntivo quando è in metamorfosi.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -274,7 +308,7 @@
     </Entry>
 	<Entry>
       <ID>400</ID>
-      <DefaultText>Le mani del lanciatore diventano così fredde da congelare tutto ciò che toccano. Infligge danno da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; al bersaglio e ne riduce la Precisione.</DefaultText>
+      <DefaultText>Le mani del lanciatore diventano così fredde da congelare tutto ciò che toccano. Infligge danno da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; al bersaglio e ne riduce la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -344,7 +378,7 @@
     </Entry>
 	<Entry>
       <ID>439</ID>
-      <DefaultText>Genera una nube di veleno che infligge danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; a intervalli regolari a tutti quelli che rimangono al suo interno.</DefaultText>
+      <DefaultText>Genera una nube di veleno che infligge danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; a intervalli regolari a tutti quelli che rimangono al suo interno.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -364,7 +398,7 @@
     </Entry>
 	 <Entry>
       <ID>455</ID>
-      <DefaultText>Crea una vampata di forza letale intorno al lanciatore, che infligge danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; ai nemici nelle immediate vicinanze, ignorando la loro soglia di danno.</DefaultText>
+      <DefaultText>Crea una vampata di forza letale intorno al lanciatore, che infligge danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; ai nemici nelle immediate vicinanze, ignorando la loro &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -379,7 +413,7 @@
     </Entry>
     <Entry>
       <ID>474</ID>
-      <DefaultText>Invoca la benedizione della divinità del Sacerdote, donando bonus Precisione e Vigore agli alleati nell'area d'effetto, mentre i nemici ricevono una penalità equivalente.</DefaultText>
+      <DefaultText>Invoca la benedizione della divinità del Sacerdote, donando bonus &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e Vigore agli alleati nell'area d'effetto, mentre i nemici ricevono una penalità equivalente.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -434,7 +468,7 @@
     </Entry>
     <Entry>
       <ID>511</ID>
-      <DefaultText>Il druido sfrutta il proprio legame innato col mondo naturale per infliggere &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charme &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; agli animali nemici nell'area d'effetto.</DefaultText>
+      <DefaultText>Il Druido sfrutta il proprio legame innato col mondo naturale per infliggere &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charme &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; agli animali nemici nell'area d'effetto.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -469,12 +503,12 @@
     </Entry>
 	<Entry>
       <ID>528</ID>
-      <DefaultText>Orde di vermi scavatori infestano la pelle dei nemici nell'area d'effetto, infliggendo danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo. Più il bersaglio è ferito, maggiore è il danno. I bersagli con Salute massima non subiscono danni da questo incantesimo.</DefaultText>
+      <DefaultText>Orde di vermi scavatori infestano la pelle dei nemici nell'area d'effetto, infliggendo danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo. Più il bersaglio è ferito, maggiore è il danno. I bersagli con Salute massima non subiscono danni da questo incantesimo.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>532</ID>
-      <DefaultText>Due massi micidiali vengono scagliati dalla posizione del druido, infliggendo danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; a chiunque si trovi in traiettoria. Inoltre esplodono al contatto con le superfici solide, causando danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; nell'area circostante.</DefaultText>
+      <DefaultText>Due massi micidiali vengono scagliati dalla posizione del Druido, infliggendo danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; a chiunque si trovi in traiettoria. Inoltre esplodono al contatto con le superfici solide, causando danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; nell'area circostante.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -514,7 +548,7 @@
     </Entry>
     <Entry>
       <ID>554</ID>
-      <DefaultText>Evoca un'enorme colonia di insetti velenosi, infliggendo danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseando &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; tutti i presenti nell'area d'effetto. Per tutta la durata i bersagli non possono acquisire Concentrazione</DefaultText>
+      <DefaultText>Evoca un'enorme colonia di insetti velenosi, infliggendo danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseando &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; tutti i presenti nell'area d'effetto. Per tutta la durata i bersagli non possono acquisire Concentrazione</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -549,12 +583,17 @@
     </Entry>
     <Entry>
       <ID>579</ID>
-      <DefaultText>Distrugge le difese psichiche di un bersaglio, infliggendogli la &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominazione &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; del cipher per tutta la durata dell'incantesimo.</DefaultText>
+      <DefaultText>Distrugge le difese psichiche di un bersaglio, infliggendogli la &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominazione &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; del Cipher per tutta la durata dell'incantesimo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>581</ID>
       <DefaultText>Fa credere ai nemici nell'area d'effetto che le loro peggiori paure si siano avverate, infliggendo &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spavento &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nausea &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; per tutta la durata dell'incantesimo.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>583</ID>
+      <DefaultText>Il Cipher sonda mente e anima del bersaglio nemico, individuando i punti di forza delle sue difese e impadronendosene. Sottrae parte della &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; del bersaglio, trasferendola come bonus al Cipher.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -569,17 +608,22 @@
     </Entry>
     <Entry>
       <ID>589</ID>
-      <DefaultText>Produce un grido psichico nell'area bersaglio, infliggendo &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordimento &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;al bersaglio e Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; a tutti i nemici nelle vicinanze. Ha elevata probabilità di causare un Arresto.</DefaultText>
+      <DefaultText>Produce un grido psichico nell'area bersaglio, infliggendo &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordimento &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;al bersaglio e Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; a tutti i nemici nelle vicinanze. Ha elevata probabilità di causare un Arresto.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>593</ID>
+      <DefaultText>Sottrae energia all'Acume e alla Percezione di un nemico, danneggiando questi attributi e aumentando Difese e &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; del Cipher.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>595</ID>
-      <DefaultText>Frantuma l'anima del bersaglio con la forza bruta infliggendo danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;; i bersagli con Salute bassa esplodono, causando danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; a tutti i presenti i presenti nell'area d'effetto.</DefaultText>
+      <DefaultText>Frantuma l'anima del bersaglio con la forza bruta infliggendo danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;; i bersagli con Salute bassa esplodono, causando danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; a tutti i presenti i presenti nell'area d'effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>597</ID>
-      <DefaultText>Il cipher instilla un'insidiosa e irresistibile pulsione a obbedirgli in tutti i nemici nell'area d'effetto, infliggendo &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominazione &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; al bersaglio e &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charme &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; agli altri.</DefaultText>
+      <DefaultText>Il Cipher instilla un'insidiosa e irresistibile pulsione a obbedirgli in tutti i nemici nell'area d'effetto, infliggendo &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominazione &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; al bersaglio e &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charme &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; agli altri.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -589,17 +633,17 @@
     </Entry>
     <Entry>
       <ID>601</ID>
-      <DefaultText>Distrugge la memoria di un nemico con precisione calcolata, rendendolo &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientato &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; prima che rapidamente possa raggiungere fino a un massimo di altri cinque nemici.</DefaultText>
+      <DefaultText>Distrugge la memoria di un nemico con &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; calcolata, rendendolo &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientato &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; prima che rapidamente possa raggiungere fino a un massimo di altri cinque nemici.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>603</ID>
-      <DefaultText>Sgretola la forza eterea che tiene insieme mente, corpo e anima del nemico bersaglio, infliggendogli rapidamente danno Puro. I bersagli che hanno la Salute ridotta a zero si disintegrano nel nulla.</DefaultText>
+      <DefaultText>Sgretola la forza eterea che tiene insieme mente, corpo e anima del nemico bersaglio, infliggendogli rapidamente &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;. I bersagli che hanno la Salute ridotta a zero si disintegrano nel nulla.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>605</ID>
-      <DefaultText>Il cipher si collega mentalmente a un alleato, acquisendo per sé e per il proprio alleato Ispirazione &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Consapevole &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e un Limite Ingaggio aumentato.</DefaultText>
+      <DefaultText>Il Cipher si collega mentalmente a un alleato, acquisendo per sé e per il proprio alleato Ispirazione &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Consapevole &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e un Limite Ingaggio aumentato.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -619,12 +663,17 @@
     </Entry>
 	<Entry>
       <ID>646</ID>
-      <DefaultText>Attacca la forza vitale di tutti i nemici nell'area d'effetto, causando Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;. Se viene colpito almeno un nemico, anche il cantore recupererà parte della salute.</DefaultText>
+      <DefaultText>Attacca la forza vitale di tutti i nemici nell'area d'effetto, causando Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;. Se viene colpito almeno un nemico, anche il Cantore recupererà parte della Salute.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>790</ID>
+      <DefaultText>Riduce la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; dei nemici nell'area d'effetto.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>791</ID>
-      <DefaultText>Aumenta la Soglia di Danno da &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; per gli alleati nell'area d'effetto.</DefaultText>
+      <DefaultText>Aumenta la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; da &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; per gli alleati nell'area d'effetto.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -640,6 +689,11 @@
 	 <Entry>
       <ID>794</ID>
       <DefaultText>Preleva energia elettrostatica dall'ambiente per creare tre saette che infliggono danno da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; a chiunque colpiscano.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>796</ID>
+      <DefaultText>Riduce la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; degli attacchi in Disingaggio dei nemici nell'area d'effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -744,12 +798,12 @@
     </Entry>
 	<Entry>
       <ID>826</ID>
-      <DefaultText>L'arma da mischia del lanciatore diventa uno strumento ideale per la caccia, aggiungendo Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; continuo agli attacchi e ripristinando la Salute del lanciatore a ogni colpo.</DefaultText>
+      <DefaultText>L'arma da mischia del lanciatore diventa uno strumento ideale per la caccia, aggiungendo Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; continuo agli attacchi e ripristinando la Salute del lanciatore a ogni colpo.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>827</ID>
-      <DefaultText>Crea uno spesso strato di corteccia sugli alleati nell'area d'effetto, dando un bonus alla Soglia di Danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Crea uno spesso strato di corteccia sugli alleati nell'area d'effetto, dando un bonus alla &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -760,6 +814,11 @@
     <Entry>
       <ID>830</ID>
       <DefaultText>Crea una potente tempesta, che colpisce periodicamente un nemico a caso nell'area d'effetto con saette che causano &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordimento &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; e danno da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>831</ID>
+      <DefaultText>Invoca un enorme corno di cervo che attacca il bersaglio, provocando danno da Perforazione e infliggendo penalità a &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -789,17 +848,17 @@
     </Entry>
 	<Entry>
       <ID>838</ID>
-      <DefaultText>Crea dei teschi putrescenti e infetti nelle mani del lanciatore, che potrà utilizzarli come un'arma a distanza provocando danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; e formando un'area infetta da Malattia ad effetto Corrosivo che infligge danno nel tempo.</DefaultText>
+      <DefaultText>Crea dei teschi putrescenti e infetti nelle mani del lanciatore, che potrà utilizzarli come un'arma a distanza provocando danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; e formando un'area infetta da Malattia ad effetto &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosivo&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; che infligge danno nel tempo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>839</ID>
-      <DefaultText>Crea un campo di fiori velenosi, bellissimi e ammalianti, che infliggono &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spavento &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indebolimento &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; e Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo a chi si trova nell'area d'effetto.</DefaultText>
+      <DefaultText>Crea un campo di fiori velenosi, bellissimi e ammalianti, che infliggono &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spavento &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indebolimento &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; e Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo a chi si trova nell'area d'effetto.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>843</ID>
-      <DefaultText>Dona al mago un lucente bastone ferrato di energia pura, offrendo un'occasione bonus per colpire e ripristinando Salute a ogni colpo andato a segno.</DefaultText>
+      <DefaultText>Dona al Mago un lucente bastone ferrato di energia pura, offrendo un'occasione bonus per colpire e ripristinando Salute a ogni colpo andato a segno.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -809,7 +868,12 @@
     </Entry>
 	<Entry>
       <ID>847</ID>
-      <DefaultText>Avvolge il lanciatore nel fuoco, aumentando la Soglia di Danno da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; e infliggendo danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; a chiunque lo colpisca con un attacco in mischia.</DefaultText>
+      <DefaultText>Avvolge il lanciatore nel fuoco, aumentando la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; e infliggendo danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; a chiunque lo colpisca con un attacco in mischia.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>848</ID>
+      <DefaultText>Trasforma la pelle del lanciatore in ferro, aumentando notevolmente la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;. L'effetto dura per un massimo di dieci attacchi.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -829,17 +893,17 @@
     </Entry>
 	<Entry>
       <ID>856</ID>
-      <DefaultText>Quando il lanciatore raggiunge il 50% di Salute, si attiva un'insidiosa contingenza magica che gli permette di infliggere Prono ai nemici circostanti e di ottenere bonus per soglia di danno e difesa per un breve periodo.</DefaultText>
+      <DefaultText>Quando la Salute del lanciatore è al del 50%, si attiva un'insidiosa contingenza magica che gli permette di infliggere Prono ai nemici circostanti e di ottenere bonus a &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; e Difese per un breve periodo.</DefaultText>
       <FemaleText />
     </Entry>
-    <Entry>
+	<Entry>
       <ID>857</ID>
       <DefaultText>Crea una barriera semi-permeabile che infligge danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; e &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppa &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; i nemici che la attraversano ma lascia illesi gli alleati.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>859</ID>
-      <DefaultText>Il lanciatore sacrifica temporaneamente l'energia arcana in cambio di potenza marziale. Il mago otterrà bonus per &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e Precisione, inoltre acquisirà le Ispirazioni &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;In Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Veloce &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, ma non potrà lanciare incantesimi né cambiare grimorio per tutta la durata dell'incantesimo.</DefaultText>
+      <DefaultText>Il lanciatore sacrifica temporaneamente l'energia arcana in cambio di potenza marziale. Il Mago otterrà bonus per &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, inoltre acquisirà le Ispirazioni &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;In Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Veloce &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, ma non potrà lanciare incantesimi né cambiare grimorio per tutta la durata dell'incantesimo.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -854,22 +918,22 @@
     </Entry>
     <Entry>
       <ID>863</ID>
-      <DefaultText>Pervade il barbaro di una frenesia assassina che dona le Ispirazioni &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenace &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Poderoso &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; invece di &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;In Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;. Quando il Parossismo del barbaro è attivo,la possibilità di effettuare un colpo critico viene considerevolmente aumentata durante gli attacchi in Mischia e Massacro  , inoltre il Barbaro è &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; ,non può vedere la sua Salute e subisce Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
+      <DefaultText>Pervade il Barbaro di una frenesia assassina che dona le Ispirazioni &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenace &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Poderoso &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; invece di &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;In Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;. Quando il Parossismo del Barbaro è attivo,la possibilità di effettuare un colpo critico viene considerevolmente aumentata durante gli attacchi in Mischia e Massacro  , inoltre il Barbaro è &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; ,non può vedere la sua Salute e subisce Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>865</ID>
-      <DefaultText>Il barbaro può caricare in modo spericolato guadagnando l'Ispirazione &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Lesto &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;, così come l'Immunità all'Ingaggio.</DefaultText>
+      <DefaultText>Il Barbaro può caricare in modo spericolato guadagnando l'Ispirazione &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Lesto &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;, così come l'Immunità all'Ingaggio.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>866</ID>
-      <DefaultText>Il barbaro incanala la propria determinazione, garantendo l'Ispirazione &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robusto &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; per un breve periodo di tempo.</DefaultText>
+      <DefaultText>Il Barbaro incanala la propria determinazione, garantendo l'Ispirazione &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robusto &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; per un breve periodo di tempo.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>867</ID>
-      <DefaultText>Il barbaro mena colpi alla cieca quando avverte dolore, ottenendo un bonus al danno finché la Salute resta al di sotto del 50%.</DefaultText>
+      <DefaultText>Il Barbaro mena colpi alla cieca quando avverte dolore, ottenendo un bonus al danno finché la Salute resta al di sotto del 50%.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -884,12 +948,22 @@
     </Entry>
 	<Entry>
       <ID>877</ID>
-      <DefaultText>Evoca un'energia primitiva che rigenera continuamente la Salute degli alleati presenti nel raggio d'azione durante l'incantazione del cantore.</DefaultText>
+      <DefaultText>Evoca un'energia primitiva che rigenera continuamente la Salute degli alleati presenti nel raggio d'azione durante l'incantazione del Cantore.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>878</ID>
+      <DefaultText>Grazie al suo legame naturale con l'orso, il Druido è in grado di assumerne temporaneamente le sembianze. La Metamorfosi dell'Orso ha una &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; elevata e può evocare uno spaventoso ruggito.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>879</ID>
-      <DefaultText>Grazie al suo legame naturale con il cinghiale, il druido è in grado di assumerne temporaneamente le sembianze. La metamorfosi del cinghiale rigenera la Salute perduta e infligge danno nel tempo con i suoi attacchi in mischia.</DefaultText>
+      <DefaultText>Grazie al suo legame naturale con il cinghiale, il Druido è in grado di assumerne temporaneamente le sembianze. La metamorfosi del cinghiale rigenera la Salute perduta e infligge danno nel tempo con i suoi attacchi in mischia.</DefaultText>
+      <FemaleText />
+    </Entry>
+		<Entry>
+      <ID>884</ID>
+      <DefaultText>(Posa del conquistatore) - Il Guerriero sopra il 50% di Salute aumenta la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, mentre quando è sotto il 50% di Salute aumenta la &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -899,7 +973,12 @@
     </Entry>
     <Entry>
       <ID>886</ID>
-      <DefaultText>Le mani del monaco diventano un turbine di attacchi, aumentando il tasso d'attacco per un breve periodo e garantendo l'Ispirazione &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Veloce &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Le mani del Monaco diventano un turbine di attacchi, aumentando il tasso d'attacco per un breve periodo e garantendo l'Ispirazione &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Veloce &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>887</ID>
+      <DefaultText>I Monaci raggiungono una maggiore comprensione delle capacità del loro corpo sopportando le avversità dell'esistenza. Il Danno, la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e la &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; di base dei pugni e dei calci del Monaco sono molto più elevati rispetto agli altri personaggi e aumentano permanentemente salendo di Livello di Potere.</DefaultText>
       <FemaleText />
     </Entry>
    <Entry>
@@ -914,7 +993,7 @@
     </Entry>
     <Entry>
       <ID>897</ID>
-      <DefaultText>Colpendo in determinati punti, il monaco è in grado d'indebolire il nemico e d'infliggergli &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indebolimento &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; con i colpi critici andati a segno in Mischia.</DefaultText>
+      <DefaultText>Colpendo in determinati punti, il Monaco è in grado d'indebolire il nemico e d'infliggergli &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indebolimento &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; con i colpi critici andati a segno in Mischia.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -924,7 +1003,12 @@
     </Entry>
 	<Entry>
       <ID>905</ID>
-      <DefaultText>Proprio come farebbe con una preda in fuga, il cacciatore individua un punto vulnerabile, infliggendogli Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
+      <DefaultText>Proprio come farebbe con una preda in fuga, il cacciatore individua un punto vulnerabile, infliggendogli Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>908</ID>
+      <DefaultText>Designa un bersaglio singolo come preda e conferisce al Ranger e al compagno animale un bonus &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; contro quel bersaglio.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -948,13 +1032,18 @@
       <FemaleText />
     </Entry>
 	<Entry>
+      <ID>924</ID>
+      <DefaultText>Il Ladro cerca un'occasione per contrattaccare in combattimento. Gli attacchi in mischia diretti alla &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; del bersaglio e andati a vuoto consentono un contrattacco immediato doppio. Abilità attiva solo con armi da mischia equipaggiate.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
       <ID>926</ID>
       <DefaultText>Il Ladro diventa estremamente abile a schivare gli attacchi. Molti dei colpi di striscio contro &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; diventano colpi a vuoto.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>927</ID>
-      <DefaultText>Grazie alla sua esperienza nell'arte del dolore, tutto il danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; inflitto dal Ladro causa anche Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
+      <DefaultText>Grazie alla sua esperienza nell'arte del dolore, tutto il danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; inflitto dal Ladro causa anche Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -962,9 +1051,14 @@
       <DefaultText>Il Ladro mira a un punto vitale, infliggendo  &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indebolimento &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; al bersaglio.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>941</ID>
+      <DefaultText>Il Barbaro impara come meglio combinare i suoi colpi più selvaggi, migliorando la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; degli attacchi secondari di Massacro.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>954</ID>
-      <DefaultText>(Colpi rapidi) - Dà energia agli attacchi del monaco. Chi viene colpito dall'attacco subisce danno da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; aggiuntivo.</DefaultText>
+      <DefaultText>(Colpi rapidi) - Dà energia agli attacchi del Monaco. Chi viene colpito dall'attacco subisce danno da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; aggiuntivo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -975,6 +1069,11 @@
 	 <Entry>
       <ID>1016</ID>
       <DefaultText>I compagni antilope hanno per natura migliori difese (&lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt;).</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>1017</ID>
+      <DefaultText>I Compagni Orso hanno una &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; insolitamente alta, perciò sono particolarmente protetti da ogni forma di danno.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1014,7 +1113,7 @@
     </Entry>
     <Entry>
       <ID>1050</ID>
-      <DefaultText>Il guerriero diventa resistente alle alterazioni Vigore (&lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Sorpreso &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientato &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordito &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>Il Guerriero diventa resistente alle alterazioni Vigore (&lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Sorpreso &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientato &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordito &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1022,9 +1121,14 @@
       <DefaultText>Se Lesionato o in miglior condizione il Barbaro guadagna resistenza contro le Alterazioni del Corpo</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>1054</ID>
+      <DefaultText>(Placcaggio Brutale) - Il Ranger addestra il suo compagno animale garantendo un notevole Bonus alla &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; dell'attacco.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>1058</ID>
-      <DefaultText>Aumenta le difese del compagno animale del ranger contro le Alterazioni di Acume e Percezione.</DefaultText>
+      <DefaultText>Aumenta le difese del compagno animale del Ranger contro le Alterazioni di Acume e Percezione.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1033,8 +1137,13 @@
       <FemaleText />
     </Entry>
 	<Entry>
+      <ID>1076</ID>
+      <DefaultText>Aumenta la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; del personaggio con le armi a distanza usate contro bersagli lontani.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
       <ID>1082</ID>
-      <DefaultText>Il Monaco infligge immediatamente a se stesso Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; e guadagna Ferite.</DefaultText>
+      <DefaultText>Il Monaco infligge immediatamente a se stesso Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; e guadagna Ferite.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1049,7 +1158,7 @@
     </Entry>
      <Entry>
       <ID>1212</ID>
-      <DefaultText>Con un tocco delle mani, il paladino infonde di luce se stesso o un alleato nel raggio d'azione, ripristinando una quantità sostanziale di salute e garantendo l'ispirazione &lt;link="gamedata://dc62af47-239f-4ee4-8d91-a5e8b3b97564"&gt;&lt;#30d3d5&gt;Coraggioso &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Con un tocco delle mani, il Paladino infonde di luce se stesso o un alleato nel raggio d'azione, ripristinando una quantità sostanziale di Salute e garantendo l'ispirazione &lt;link="gamedata://dc62af47-239f-4ee4-8d91-a5e8b3b97564"&gt;&lt;#30d3d5&gt;Coraggioso &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -1069,17 +1178,17 @@
     </Entry>
 	<Entry>
       <ID>1307</ID>
-      <DefaultText>Quando i deiformi del fuoco sono Insanguinati o Agonizzanti , i loro corpi si induriscono, aumentando la soglia di danno, e le loro anime attaccano gli assalitori, infliggendo danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; a chiunque li colpisca in mischia.</DefaultText>
+      <DefaultText>Quando i deiformi del fuoco sono Sanguinanti o Agonizzanti , i loro corpi si induriscono, aumentando la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;, mentre le loro anime attaccano gli assalitori, infliggendo danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; a chiunque li colpisca in mischia.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1324</ID>
-      <DefaultText>Scatena una scarica di energia magica dal grimorio, che infligge Danno Puro e causa &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientamento &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; ai bersagli nell'area.</DefaultText>
+      <DefaultText>Scatena una scarica di energia magica dal grimorio, che infligge Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; e causa &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientamento &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; ai bersagli nell'area.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1326</ID>
-      <DefaultText>Il bersaglio viene &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilizzato &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; e diviene l'ancora per un raggio di energia gelida proveniente dal mago, che infligge danno da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; ai nemici sulla sua traiettoria.</DefaultText>
+      <DefaultText>Il bersaglio viene &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilizzato &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; e diviene l'ancora per un raggio di energia gelida proveniente dal Mago, che infligge danno da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; ai nemici sulla sua traiettoria.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1089,7 +1198,7 @@
     </Entry>
     <Entry>
       <ID>1330</ID>
-      <DefaultText>Il guerriero si concentra intensamente sul proprio addestramento, ottenendo l'Ispirazione &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Consapevole &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; per un breve periodo.</DefaultText>
+      <DefaultText>Il Guerriero si concentra intensamente sul proprio addestramento, ottenendo l'Ispirazione &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Consapevole &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; per un breve periodo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1104,7 +1213,7 @@
     </Entry>
     <Entry>
       <ID>1337</ID>
-      <DefaultText>Tutti gli umani hanno uno spirito indomabile che si risveglia quando la situazione si fa cupa. Ogni volta che un umano scende sotto il 50% di Salute, guadagna un bonus di Precisione e danno.</DefaultText>
+      <DefaultText>Tutti gli umani hanno uno spirito indomabile che si risveglia quando la situazione si fa cupa. Ogni volta che un umano scende sotto il 50% di Salute, guadagna un bonus di &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e danno.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1124,7 +1233,7 @@
     </Entry>
     <Entry>
       <ID>1342</ID>
-      <DefaultText>Le anime dei deiformi della natura reagiscono energicamente alle Ispirazioni. Se un deiforme della natura è sotto gli effetti di qualsiasi Ispirazione di &lt;link="glossary://cc4b4eb9-5d6c-40e4-87b3-adcf56a87572"&gt;Vigore&lt;/link&gt;, &lt;link="glossary://d034e058-3b3e-4737-ade5-bd0d417b4eed"&gt;Costituzione&lt;/link&gt; o &lt;link="glossary://5b14378d-82b4-4c7e-b23a-1fa07d0d85a3"&gt;Destrezza&lt;/link&gt;, ottiene un maggiore Livello di potere.</DefaultText>
+      <DefaultText>Le anime dei deiformi della natura reagiscono energicamente alle Ispirazioni. Se un deiforme della natura è sotto gli effetti di qualsiasi Ispirazione di &lt;link="glossary://cc4b4eb9-5d6c-40e4-87b3-adcf56a87572"&gt;Vigore&lt;/link&gt;, &lt;link="glossary://d034e058-3b3e-4737-ade5-bd0d417b4eed"&gt;Costituzione&lt;/link&gt; o &lt;link="glossary://5b14378d-82b4-4c7e-b23a-1fa07d0d85a3"&gt;Destrezza&lt;/link&gt;, ottiene un maggiore Livello di Potere.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1144,12 +1253,17 @@
     </Entry>
 	<Entry>
       <ID>1466</ID>
-      <DefaultText>Il Guerriero usa il proprio corpo per difendere gli alleati vicini che stanno per essere attaccati. Il danno finale e complessivo di ciascun attacco sull'alleato viene dimezzato, mentre il guerriero incassa l'altra metà sotto forma di Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Il Guerriero usa il proprio corpo per difendere gli alleati vicini che stanno per essere attaccati. Il danno finale e complessivo di ciascun attacco sull'alleato viene dimezzato, mentre il Guerriero incassa l'altra metà sotto forma di Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>1467</ID>
+      <DefaultText>Il Guerriero sferra un attacco primario che infligge danno aggiuntivo e riduce la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; base del bersaglio.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>1468</ID>
-      <DefaultText>Il paladino concentra la propria fede e si immola in una fiamma blu. Ogni volta che sfrutta questa abilità, il paladino subisce una lieve quantità di Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;, ma i nemici nell'area subiscono danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;. Gli alleati ricevono una piccola quantità di Salute.</DefaultText>
+      <DefaultText>Il Paladino concentra la propria fede e si immola in una fiamma blu. Ogni volta che sfrutta questa abilità, il Paladino subisce una lieve quantità di Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;, ma i nemici nell'area subiscono danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;. Gli alleati ricevono una piccola quantità di Salute.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1164,17 +1278,17 @@
     </Entry>
 	<Entry>
       <ID>1474</ID>
-      <DefaultText>Il compagno animale del ranger cade a terra e si finge morto per un tempo limitato, durante il quale recupera Salute e non può essere attaccato.</DefaultText>
+      <DefaultText>Il compagno animale del Ranger cade a terra e si finge morto per un tempo limitato, durante il quale recupera Salute e non può essere attaccato.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1475</ID>
-      <DefaultText>Il ladro crea una piccola nube di fumo che, per breve tempo, lascia &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distratti &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; i nemici nei paraggi.</DefaultText>
+      <DefaultText>Il Ladro crea una piccola nube di fumo che, per breve tempo, lascia &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distratti &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; i nemici nei paraggi.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
       <ID>1476</ID>
-      <DefaultText>Il mago scaglia una piccola palla di fuoco che rimane ferma per un determinato periodo di tempo prima di esplodere, infliggendo grave danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Il Mago scaglia una piccola palla di fuoco che rimane ferma per un determinato periodo di tempo prima di esplodere, infliggendo grave danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1184,12 +1298,12 @@
     </Entry>
 	<Entry>
       <ID>1478</ID>
-      <DefaultText>Un incantesimo che infligge una notevole quantità di Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; al bersaglio. Se abbatte un nemico che non è uno spirito, evoca un Fantasma al suo posto, che il lanciatore potrà controllare.</DefaultText>
+      <DefaultText>Un incantesimo che infligge una notevole quantità di Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; al bersaglio. Se abbatte un nemico che non è uno spirito, evoca un Fantasma al suo posto, che il lanciatore potrà controllare.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1480</ID>
-      <DefaultText>Così chiamata dal nome dell'eccentrico mago Aedyr Tayn, questa sfera caotica rimbalza tra i nemici, infliggendo danno e una serie di Alterazioni tra cui Pietrificato, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralizzato &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indebolito &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseato &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordito &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Accecato &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Così chiamata dal nome dell'eccentrico Mago Aedyr Tayn, questa sfera caotica rimbalza tra i nemici, infliggendo danno e una serie di Alterazioni tra cui Pietrificato, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralizzato &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indebolito &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseato &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordito &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Accecato &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -1199,12 +1313,12 @@
     </Entry>
     <Entry>
       <ID>1569</ID>
-      <DefaultText>Il ladro sferra un attacco Primario che lascia il bersaglio &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppato &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Il Ladro sferra un attacco Primario che lascia il bersaglio &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppato &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>1570</ID>
-      <DefaultText>Questa variante più potente del comune incantesimo Raggio di Fuoco infligge Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;, attacca la &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt; del bersaglio e colpisce solo i nemici.</DefaultText>
+      <DefaultText>Questa variante più potente del comune incantesimo Raggio di Fuoco infligge Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;, attacca la &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt; del bersaglio e colpisce solo i nemici.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1214,7 +1328,12 @@
     </Entry>
 	<Entry>
       <ID>1572</ID>
-      <DefaultText>La variante di Dardi minori di Minolea ideata da Concelhaut infligge Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;, attacca la &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt; del bersaglio e trasferisce la Salute sottratta al lanciatore.</DefaultText>
+      <DefaultText>La variante di Dardi minori di Minolea ideata da Concelhaut infligge Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;, attacca la &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt; del bersaglio e trasferisce la Salute sottratta al lanciatore.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>1573</ID>
+      <DefaultText>Il Flagello schiacciante di Concelhaut, un incantesimo davvero unico, evoca un enorme martello magico che si abbatte più e più volte sul bersaglio, infliggendo danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; e mandandolo Prono. Il martello colpisce più volte, diventando a ogni colpo più grande, preciso e potente.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1229,27 +1348,27 @@
     </Entry>
 	<Entry>
       <ID>1595</ID>
-      <DefaultText>Chi indossa il mantello migliora la propria Soglia di Danno per il &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; e infligge danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; a chi lo attacca in mischia.</DefaultText>
+      <DefaultText>Chi indossa il mantello migliora la propria &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; per il &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; e infligge danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; a chi lo attacca in mischia.</DefaultText>
       <FemaleText />
     </Entry>
    <Entry>
       <ID>1721</ID>
-      <DefaultText>Permette al ladro di liberarsi dall'Ingaggio ed evitare con perizia l'attacco seguente, tuffandosi fuori portata in un luogo specifico. Dopodiché, l'attacco successivo del ladro con l'arma principale &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralizza &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; il bersaglio.</DefaultText>
+      <DefaultText>Permette al Ladro di liberarsi dall'Ingaggio ed evitare con perizia l'attacco seguente, tuffandosi fuori portata in un luogo specifico. Dopodiché, l'attacco successivo del Ladro con l'arma principale &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralizza &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; il bersaglio.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1723</ID>
-      <DefaultText>Il mago evoca il sigillo di Minolea, la celebre maga vailiana. Non appena subisce un colpo in mischia, il sigillo contrattacca respingendo il bersaglio, infliggendogli danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; e lasciandolo &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordito &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Il Mago evoca il sigillo di Minolea, la celebre maga vailiana. Non appena subisce un colpo in mischia, il sigillo contrattacca respingendo il bersaglio, infliggendogli danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; e lasciandolo &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordito &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1730</ID>
-      <DefaultText>Il cantore crea due raggi rimbalzanti di luce pura che ripristinano la Salute e garantisco l'immunità dalle &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Alterazioni&#160;della Risolutezza&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; quando entrano in contatto con gli alleati.</DefaultText>
+      <DefaultText>Il Cantore crea due raggi rimbalzanti di luce pura che ripristinano la Salute e garantisco l'immunità dalle &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Alterazioni&#160;della Risolutezza&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; quando entrano in contatto con gli alleati.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
       <ID>1733</ID>
-      <DefaultText>Il Cipher usa l'anima di un alleato per creare "lame" di pura energia che sgorgano da entrambe le mani. Le lame provocano Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; e generano Sinergia per il Cipher che le ha create.</DefaultText>
+      <DefaultText>Il Cipher usa l'anima di un alleato per creare "lame" di pura energia che sgorgano da entrambe le mani. Le lame provocano Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; e generano Sinergia per il Cipher che le ha create.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -1264,22 +1383,22 @@
     </Entry>
 	<Entry>
       <ID>1740</ID>
-      <DefaultText>Il guerriero attraversa il campo di battaglia come un lampo, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordendo &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; chiunque si trovi sul suo cammino.</DefaultText>
+      <DefaultText>Il Guerriero attraversa il campo di battaglia come un lampo, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordendo &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; chiunque si trovi sul suo cammino.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>1743</ID>
-      <DefaultText>I colpi del Monaco creano una risonanza empatica con il suo bersaglio. L'intensità della risonanza aumenta a ogni colpo inferto. In qualunque momento il monaco può far sì che ogni risonanza infligga un devastante Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; a chiunque ne sia afflitto.</DefaultText>
+      <DefaultText>I colpi del Monaco creano una risonanza empatica con il suo bersaglio. L'intensità della risonanza aumenta a ogni colpo inferto. In qualunque momento il Monaco può far sì che ogni risonanza infligga un devastante Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; a chiunque ne sia afflitto.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>1745</ID>
-      <DefaultText>Tramite la forza di &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt;, il Paladino può distruggere qualsiasi spirito o creatura evocata di livello inferiore al suo. Gli spiriti e le creature evocate di livello pari o superiore a quello del Paladino subiscono Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Tramite la forza di &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt;, il Paladino può distruggere qualsiasi spirito o creatura evocata di livello inferiore al suo. Gli spiriti e le creature evocate di livello pari o superiore a quello del Paladino subiscono Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
       <ID>1748</ID>
-      <DefaultText>Il sacerdote invoca un raggio di luce che cura gli alleati e provoca danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; ai nemici che colpisce.</DefaultText>
+      <DefaultText>Il Sacerdote invoca un raggio di luce che cura gli alleati e provoca danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; ai nemici che colpisce.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1314,12 +1433,12 @@
     </Entry>
     <Entry>
       <ID>1760</ID>
-      <DefaultText>Quando un ranger o il suo compagno animale vengono messi K.O. , il partner soffre i normali effetti di Vincoli della pena, ma viene pervaso da da un'ira che gli dona le ispirazioni &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Lesto &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenace &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; per un breve periodo.</DefaultText>
+      <DefaultText>Quando un Ranger o il suo compagno animale vengono messi K.O. , il partner soffre i normali effetti di Vincoli della pena, ma viene pervaso da da un'ira che gli dona le ispirazioni &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Lesto &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenace &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; per un breve periodo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1764</ID>
-      <DefaultText>Il mago evoca un arco spaventoso che infligge danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; al nemico e lo lascia &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrorizzato &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;. Ciascun dardo energetico scagliato dal mago rimbalzerà su un secondo bersaglio.</DefaultText>
+      <DefaultText>Il Mago evoca un arco spaventoso che infligge danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; al nemico e lo lascia &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrorizzato &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;. Ciascun dardo energetico scagliato dal Mago rimbalzerà su un secondo bersaglio.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1339,7 +1458,7 @@
     </Entry>
     <Entry>
       <ID>1769</ID>
-      <DefaultText>Un vento bruciante spazza il campo di battaglia, infliggendo Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; a chiunque vi si trovi e lasciandolo &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indebolito &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Un vento bruciante spazza il campo di battaglia, infliggendo Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; a chiunque vi si trovi e lasciandolo &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indebolito &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1350,6 +1469,11 @@
 	 <Entry>
       <ID>1806</ID>
       <DefaultText>I Tiratori Scelti sono specializzati negli attacchi a distanza e coordinati con i loro compagni animali. Guadagnano +10% Velocità d'azione con gli Archi e +20% Velocità di ricarica. Non essendo addestrati nel combattimento corpo a corpo, hanno -10 &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; contro gli attacchi in mischia e subiscono +50% danno dagli attacchi che interrompono l'Ingaggio.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>1852</ID>
+      <DefaultText>Il Barbaro si è addestrato diligentemente per andare a segno con la sua arma preferita. Tutte le armi di cui è esperto ottengono &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; bonus.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1369,17 +1493,17 @@
     </Entry>
     <Entry>
       <ID>1928</ID>
-      <DefaultText>Il cipher fa emergere echi delle vite passate di un alleato, ispirandolo a grandi atti di eroismo. Fornisce le Ispirazioni &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Profondo &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Il Cipher fa emergere echi delle vite passate di un alleato, ispirandolo a grandi atti di eroismo. Fornisce le Ispirazioni &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Profondo &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1930</ID>
-      <DefaultText>Il cipher sottomette la mente di un nemico alla sua &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt;, infliggendo &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charme &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; per tutta la durata.</DefaultText>
+      <DefaultText>Il Cipher sottomette la mente di un nemico alla sua &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt;, infliggendo &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charme &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; per tutta la durata.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>1938</ID>
-      <DefaultText>Il Cipher frusta violentemente un nemico, infliggendo Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; e generando un cono di forza contundente dietro il bersaglio.</DefaultText>
+      <DefaultText>Il Cipher frusta violentemente un nemico, infliggendo Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; e generando un cono di forza contundente dietro il bersaglio.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1389,7 +1513,7 @@
     </Entry>
 	 <Entry>
       <ID>1951</ID>
-      <DefaultText>(Contraccolpo Brutale) - Il contraccolpo del Cipher diventa particolarmente traumatico e infligge Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; extra.</DefaultText>
+      <DefaultText>(Contraccolpo Brutale) - Il contraccolpo del Cipher diventa particolarmente traumatico e infligge Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; extra.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1413,6 +1537,11 @@
       <FemaleText />
     </Entry>
 	<Entry>
+      <ID>1971</ID>
+      <DefaultText>Esegui una sequenza dolorosa di movimenti, assicurando un bonus gradualmente incrementabile a &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e a Ferite. Quando subisci un danno, l'effetto termina.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
       <ID>1975</ID>
       <DefaultText>(Turbine &lt;xg&gt;rapido&lt;/xg&gt;) - Quando è attivo, i colpi critici delle armi in mischia hanno una possibilità di scatenare immediatamente un altro attacco.</DefaultText>
       <FemaleText />
@@ -1425,6 +1554,19 @@
     <Entry>
       <ID>1983</ID>
       <DefaultText>(Tormento aumentato) - I nemici dietro il bersaglio sono &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Storditi &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; invece che &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Sorpresi &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>1990</ID>
+      <DefaultText>Conferisce tre Auree del Paladino che si escludono a vicenda:
+Sinergia - Conferisce &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;
+Carica - Conferisce Andatura
+Resistenza - Conferisce &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>1992</ID>
+      <DefaultText>Quando subisci danni, ottieni un bonus all &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; contro quel tipo di danno per breve tempo, mentre tutti gli altri bonus di Difesa ispirata saranno rimossi.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1449,7 +1591,7 @@
     </Entry>
     <Entry>
       <ID>2004</ID>
-      <DefaultText>Gli attacchi in mischia del paladino rimuovono le Alterazioni &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Incantato &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominato &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; dai componenti del gruppo.</DefaultText>
+      <DefaultText>Gli attacchi in mischia del Paladino rimuovono le Alterazioni &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Incantato &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominato &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; dai componenti del gruppo.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1474,12 +1616,12 @@
     </Entry>
     <Entry>
       <ID>2022</ID>
-      <DefaultText>Il ranger si lancia rapidamente a una distanza di sicurezza e ottiene l'ispirazione &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Veloce &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;. Quest'abilità non provoca Recupero.</DefaultText>
+      <DefaultText>Il Ranger si lancia rapidamente a una distanza di sicurezza e ottiene l'ispirazione &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Veloce &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;. Quest'abilità non provoca Recupero.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2029</ID>
-      <DefaultText>La Velocità d'azione a distanza viene sacrificata in cambio di maggiore Penetrazione armatura. In questo periodo di tempo, i colpi critici &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilizzano &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; i bersagli.</DefaultText>
+      <DefaultText>La Velocità d'azione a distanza viene sacrificata in cambio di maggiore &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; armatura. In questo periodo di tempo, i colpi critici &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilizzano &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; i bersagli.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
@@ -1489,11 +1631,11 @@
     </Entry>
     <Entry>
       <ID>2038</ID>
-      <DefaultText>Il ladro colpisce violentemente il bersaglio in testa, arrestandolo. Gli effetti bonus di questo attacco variano a seconda del tipo di arma utilizzata.
+      <DefaultText>Il Ladro colpisce violentemente il bersaglio in testa, arrestandolo. Gli effetti bonus di questo attacco variano a seconda del tipo di arma utilizzata.
 
-A distanza: Penetrazione bonus
+A distanza: &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; bonus
 A due mani: Applica &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Sorpreso &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;
-A una mano: Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo</DefaultText>
+A una mano: Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1513,7 +1655,7 @@ A una mano: Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&l
     </Entry>
     <Entry>
       <ID>2047</ID>
-      <DefaultText>Il limite di ingaggio del ladro aumenta e i nemici da lui ingaggiati vengono &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distratti &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Il limite di ingaggio del Ladro aumenta e i nemici da lui ingaggiati vengono &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distratti &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1528,7 +1670,7 @@ A una mano: Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&l
     </Entry>
 	 <Entry>
       <ID>2061</ID>
-      <DefaultText>(Parossismo di Sangue) - Quando è attivo, i colpi critici fanno sanguinare il bersaglio con Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
+      <DefaultText>(Parossismo di Sangue) - Quando è attivo, i colpi critici fanno sanguinare il bersaglio con Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1559,6 +1701,11 @@ A una mano: Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&l
     <Entry>
       <ID>2112</ID>
       <DefaultText>Conferisce a un singolo bersaglio l'Ispirazione &lt;link="gamedata://c4ada862-ee17-4c10-8967-734e08daa4aa"&gt;&lt;#00a4ff&gt;Perspicace &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; per una durata moderata.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>2120</ID>
+      <DefaultText>(Abbassa la Guardia) - La &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; del nemico si riduce notevolmente per l'attacco successivo che riceve.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1603,7 +1750,7 @@ A una mano: Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&l
     </Entry>
     <Entry>
       <ID>2157</ID>
-      <DefaultText>I nemici accanto al cantore si &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indeboliscono &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; e il loro Vigore si riduce.</DefaultText>
+      <DefaultText>I nemici accanto al Cantore si &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indeboliscono &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; e il loro Vigore si riduce.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1626,20 +1773,20 @@ Ottieni una significativa conversione dei colpi a segno in colpi critici negli a
 &lt;b&gt;Penalità&lt;/b&gt;
 &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; durante il Parossismo.
 
-È impossibile vedere il livello di salute durante il Parossismo.
+È impossibile vedere il livello di Salute durante il Parossismo.
 
-Subisce Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; continuamente durante il Parossismo.</DefaultText>
+Subisce Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; continuamente durante il Parossismo.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
       <ID>2225</ID>
-      <DefaultText>Con un tocco delle mani, il paladino ripristina una quantità sostanziale di salute e applica a se stesso o a un alleato nel raggio d'azione l'Ispirazione &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robusto &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Con un tocco delle mani, il Paladino ripristina una quantità sostanziale di Salute e applica a se stesso o a un alleato nel raggio d'azione l'Ispirazione &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robusto &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>2247</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-Ottieni l'abilità Annientamento dell'anima: un migliore attacco in mischia dell'anima che consuma la riserva di potere del Cipher e la converte in Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; sul bersaglio.
+Ottieni l'abilità Annientamento dell'anima: un migliore attacco in mischia dell'anima che consuma la riserva di potere del Cipher e la converte in Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; sul bersaglio.
 
 Gli incantesimi del Cipher con la parola chiave Brandello costano meno Sinergia.
 
@@ -1654,14 +1801,29 @@ La Sinergia massima diminuisce. (E anche la quantità di Sinergia con cui inizi 
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 Ingaggio +1.
 
-Maggiore Penetrazione sugli attacchi in Disingaggio.
+Maggiore &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; sugli attacchi in Disingaggio.
 
-Ottiene Padronanza Scudo con Valore Armatura bonus quando si indossa uno Scudo.
+Ottiene Padronanza Scudo con &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; bonus quando si indossa uno Scudo.
 
 &lt;b&gt;Penalità&lt;/b&gt;
 Minore Andatura in combattimento.
 
 Minori &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>2263</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Puoi selezionare una Competenza nell'uso dell'arma da mischia singola come arma prescelta.
+
+Maggiore &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; con l'arma prescelta.
+
+Maggiore danno da colpo Critico con l'arma prescelta.
+
+&lt;b&gt;Penalità&lt;/b&gt;
+La &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; è penalizzata quando si usa un'arma che non è quella prescelta.
+
+Ottieni una sola Competenza e non ne guadagni nessuna nuova quando sali di livello.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1683,10 +1845,18 @@ Ottieni Fiamme della Devozione.
 Le Fiamme della Devozione provocano danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; extra (Fiamme nere) e applicano l'Alterazione &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseato &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; ai bersagli.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>2277</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Ottieni Nemico Giurato.
+
+Nemico Giurato ottiene la miglioria Ostilità Dorata causando una benedizione d'oro al Paladino che dichiara un Nemico Giurato. Il Paladino riceve &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; bonus finché l'oro non si rompe in seguito ai colpi ricevuti.</DefaultText>
+      <FemaleText />
+    </Entry>
 	<Entry>
       <ID>2287</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-I sacerdoti di Magran imparano automaticamente i seguenti incantesimi al Livello di potere corrispondente:
+I sacerdoti di Magran imparano automaticamente i seguenti incantesimi al Livello di Potere corrispondente:
 1. Ventaglio di fiamme
 2. Arma spirituale
 3. Raggio di fuoco
@@ -1703,7 +1873,7 @@ I sacerdoti di Magran imparano automaticamente i seguenti incantesimi al Livello
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 Conversione bonus da colpo a segno a colpo critico durante l'attacco a bersagli più distanti di 4 m.
 
-Penetrazione bonus durante l'attacco a bersagli distanti non più di 4 m.
+&lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; bonus durante l'attacco a bersagli distanti non più di 4 m.
 
 &lt;b&gt;Penalità&lt;/b&gt;
 Tempo di recupero maggiore.
@@ -1714,23 +1884,32 @@ Tempo di recupero maggiore.
 	<Entry>
       <ID>2299</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-L'infiltrato e il suo compagno ottengono &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e Valore Armatura bonus quando distano l'un l'altro non più di 4 m.
+L'Infiltrato e il suo compagno ottengono &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; bonus quando distano l'un l'altro non più di 4 m.
 
 &lt;b&gt;Penalità&lt;/b&gt;
 L'infiltrato e il suo compagno subiscono Vincoli della Pena quando distano l'un l'altro più di 7 m.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>2305</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Ottieni Assassinare passivo che conferisce agli Attacchi Furtivi maggior &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e danni da colpo critico extra.
+
+&lt;b&gt;Penalità&lt;/b&gt;
+Tutti i danni ricevuti aumentano.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>2317</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-Ottieni un Livello di potere maggiore con gli incantesimi di Incantazione.
+Ottieni un Livello di Potere maggiore con gli incantesimi di Incantazione.
 
-Ottieni Azione libera passiva. Una volta per combattimento, quando il mago subisce un'alterazione della Destrezza, eliminerà quell'effetto e diventerà temporaneamente immune a quel tipo di Alterazioni.
+Ottieni Azione libera passiva. Una volta per combattimento, quando il Mago subisce un'alterazione della Destrezza, eliminerà quell'effetto e diventerà temporaneamente immune a quel tipo di Alterazioni.
 
 &lt;b&gt;Penalità&lt;/b&gt;
 Perdi l'accesso agli incantesimi di tipo Trasmutazione e Illusione.
 
-Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazione.</DefaultText>
+Maggiore Tempo di recupero per gli incantesimi del Mago non del tipo Incantazione.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -1741,6 +1920,20 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     <Entry>
       <ID>2337</ID>
       <DefaultText>Immunità: &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Alterazioni&#160;della Risolutezza &#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>2356</ID>
+      <DefaultText>Il volo conferisce agli uccelli un'abilità naturale per evitare completamente l'Ingaggio.
+
+I Ranger instaurano una forte connessione spirituale con una sola creatura, il loro compagno animale. Questa connessione permette ai Ranger e ai loro compagni di coordinare gli attacchi e abbattere la preda in modo efficace. Di solito, il compagno blocca la preda mentre il Ranger attacca a distanza.
+
+Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condividono un vero e proprio legame vitale con i loro compagni animali. Se uno dei due è ferito, l'altro lo sente e prova un intenso dolore emotivo. Se un Ranger o un compagno animale cadono svenuti, la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e altre statistiche del partner sono limitate dai Vincoli della pena finché l'alleato non viene rianimato. Se un Ranger viene ucciso, il suo compagno muore immediatamente per il dolore.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>2384</ID>
+      <DefaultText>Indurisce la pelle già dura del Barbaro, aumentando la sua &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; e consentendo una presenza in combattimento più dominante.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1763,6 +1956,11 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
       <DefaultText>Il Barbaro colpisce con tanta forza da sbaragliare con facilità le normali difese. Gli attacchi normalmente diretti contro la &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; saranno invece diretti contro la &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;, se è la difesa minore.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>2393</ID>
+      <DefaultText>(Scatto del Leone) - L'attacco successivo eseguito durante lo scatto ottiene una grande quantità di &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
    <Entry>
       <ID>2401</ID>
       <DefaultText>(Tornado dello spirito) - Gli spiriti girano verso l'esterno provocando danno da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; e &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrorizzando &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
@@ -1775,7 +1973,7 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
 	<Entry>
       <ID>2411</ID>
-      <DefaultText>(Balzo della Pantera) - Schiaccia tutti i nemici accanto al luogo dell'&lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;, provocando danno da &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; e Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
+      <DefaultText>(Balzo della Pantera) - Schiaccia tutti i nemici accanto al luogo dell'&lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;, provocando danno da &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; e Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -1790,7 +1988,7 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
     <Entry>
       <ID>2459</ID>
-      <DefaultText>Pervade il Barbaro di una frenesia assassina che conferisce le Ispirazioni &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;In Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e offre un bonus alla Velocità d'azione. Durante questo stato, il barbaro riceve una penalità alla &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Pervade il Barbaro di una frenesia assassina che conferisce le Ispirazioni &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;In Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e offre un bonus alla Velocità d'azione. Durante questo stato, il Barbaro riceve una penalità alla &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -1823,6 +2021,11 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
       <DefaultText>Il Paladino può ordinare a un alleato di aumentare il ritmo in combattimento, conferendogli temporaneamente l'Ispirazione &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Veloce &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>2482</ID>
+      <DefaultText>Il Paladino accumula &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; bonus quando è fermo. Non appena si muove, l'effetto termina.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>2484</ID>
       <DefaultText>(Comando Rinvigorente) - Otre all'Ispirazione &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;In Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, conferisce all'obiettivo quella &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Nerbo &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
@@ -1843,6 +2046,11 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
       <DefaultText>(Incitamento Solerte) - Ispirazione &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Veloce &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; potenziata a &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Lesto &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>2501</ID>
+      <DefaultText>Il personaggio rotea il proprio Spadone con incredibile forza, aumentando il danno a discapito della &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
 	<Entry>
       <ID>2507</ID>
       <DefaultText>Un'esplosione di luce divina arriva dall'alto e circonda il Paladino. La luce cura tutti gli alleati vicini e brucia i Posseduti e gli Spiriti ostili provocando un'ingente quantità di danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;.</DefaultText>
@@ -1856,6 +2064,11 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
      <Entry>
       <ID>2511</ID>
       <DefaultText>(Incitamento della Rinascita) - Ispirazione &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; potenziata a &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenace &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>2530</ID>
+      <DefaultText>Usa il tuo scudo piccolo per intercettare meglio gli attacchi e i contrattacchi in mischia con armi, a spese del Tempo di recupero. Quando manchi il colpo con le armi da mischia, ottieni maggiore &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; nell'attacco con l'arma successiva.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1885,7 +2098,7 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
     <Entry>
       <ID>2564</ID>
-      <DefaultText>Una volta per combattimento, quando il mago ha un'&lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Alterazioni&#160;della Destrezza &#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, tale effetto viene eliminato e ne diventa immune per breve tempo.</DefaultText>
+      <DefaultText>Una volta per combattimento, quando il Mago ha un'&lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Alterazioni&#160;della Destrezza &#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, tale effetto viene eliminato e ne diventa immune per breve tempo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1895,12 +2108,12 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
     <Entry>
       <ID>2572</ID>
-      <DefaultText>(Raffica Tattica) - Il guerriero adesso ottiene anche l'Ispirazione &lt;link="gamedata://c4ada862-ee17-4c10-8967-734e08daa4aa"&gt;&lt;#00a4ff&gt;Perspicace &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Raffica Tattica) - Il Guerriero adesso ottiene anche l'Ispirazione &lt;link="gamedata://c4ada862-ee17-4c10-8967-734e08daa4aa"&gt;&lt;#00a4ff&gt;Perspicace &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
       <ID>2574</ID>
-      <DefaultText>Il Guerriero adotta una strategia equilibrata adatta ad affrontare un combattente faccia a faccia. In questa posizione, ottiene maggiore Precisione e &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Il Guerriero adotta una strategia equilibrata adatta ad affrontare un combattente faccia a faccia. In questa posizione, ottiene maggiore &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1920,7 +2133,7 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
 	<Entry>
       <ID>2590</ID>
-      <DefaultText>Ti permette di eseguire potenti attacchi con lo Stocco, pur lasciandoti vulnerabile. Ottenendo Penetrazione, ma perdendo in &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Ti permette di eseguire potenti attacchi con lo Stocco, pur lasciandoti vulnerabile. Ottenendo &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;, ma perdendo in &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -1935,12 +2148,12 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
     <Entry>
       <ID>2609</ID>
-      <DefaultText>(Agonia Illuminata) - Il monaco adesso ottiene anche l'Ispirazione &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Arguto &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Agonia Illuminata) - Il Monaco adesso ottiene anche l'Ispirazione &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Arguto &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>2613</ID>
-      <DefaultText>Circonda un alleato con un campo di energia spirituale che infligge Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; sui nemici all'interno dell'area.</DefaultText>
+      <DefaultText>Circonda un alleato con un campo di energia spirituale che infligge Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; sui nemici all'interno dell'area.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1950,7 +2163,7 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
 	 <Entry>
       <ID>2639</ID>
-      <DefaultText>Gli effetti degli incantesimi del Cipher indirizzati alla &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt; dei nemici ottengono Precisione bonus.</DefaultText>
+      <DefaultText>Gli effetti degli incantesimi del Cipher indirizzati alla &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt; dei nemici ottengono &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; bonus.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1975,22 +2188,27 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
     <Entry>
       <ID>2661</ID>
-      <DefaultText>Il Cipher sceglie uno Spirito o un Posseduto e cerca di strappargli l'energia dell'anima al suo interno. Tutti gli spiriti o i posseduti, anche quelli accanto al bersaglio, emettono un urlo assordante che &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distrae &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e infligge Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; a chi li circonda.</DefaultText>
+      <DefaultText>Il Cipher sceglie uno Spirito o un Posseduto e cerca di strappargli l'energia dell'anima al suo interno. Tutti gli spiriti o i posseduti, anche quelli accanto al bersaglio, emettono un urlo assordante che &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distrae &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e infligge Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; a chi li circonda.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2667</ID>
-      <DefaultText>Quando il cipher uccide un nemico, un altro nemico vicino può diventare &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spaventato &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Quando il Cipher uccide un nemico, un altro nemico vicino può diventare &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spaventato &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>2671</ID>
+      <DefaultText>Erode l'armatura del bersaglio, con un impatto significativo sulla sua &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2672</ID>
-      <DefaultText>(Scudo inflessibile) - Ora il guerriero e i suoi alleati ottengono anche l'Ispirazione &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;Risoluto &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Scudo Inflessibile) - Ora il Guerriero e i suoi alleati ottengono anche l'Ispirazione &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;Risoluto &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
    <Entry>
       <ID>2674</ID>
-      <DefaultText>Colpisci un nemico con un potente attacco da mischia, infliggendogli danni elevati e &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordimento &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;. Gli avversari vicino al nemico vegono &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Sorpresi &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e ricevono Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Colpisci un nemico con un potente attacco da mischia, infliggendogli danni elevati e &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordimento &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;. Gli avversari vicino al nemico vegono &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Sorpresi &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e ricevono Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2000,7 +2218,7 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
 	<Entry>
       <ID>2685</ID>
-      <DefaultText>Quando il ranger è al di sotto del 75% di Salute, sia lui che il suo compagno animale ottengono un bonus Precisione contro nemici in stato Sanguinante o inferiore.</DefaultText>
+      <DefaultText>Quando il Ranger è al di sotto del 75% di Salute, sia lui che il suo compagno animale ottengono un bonus &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; contro nemici in stato Sanguinante o inferiore.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2025,7 +2243,7 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
 	<Entry>
       <ID>2699</ID>
-      <DefaultText>Scatena un effetto che infligge Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; ai nemici nell'area. Gli Agonizzanti possono esplodere e provocare danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; sui nemici nei paraggi.</DefaultText>
+      <DefaultText>Scatena un effetto che infligge Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; ai nemici nell'area. Gli Agonizzanti possono esplodere e provocare danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; sui nemici nei paraggi.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2040,7 +2258,12 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
 	 <Entry>
       <ID>2074</ID>
-      <DefaultText>(Ira dei Cinque Soli) - Il paladino spara cinque proiettili ardenti dalla mano verso l'obiettivo della sua furia legittima causando danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Ira dei Cinque Soli) - Il Paladino spara cinque proiettili ardenti dalla mano verso l'obiettivo della sua furia legittima causando danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>2705</ID>
+      <DefaultText>Aumenta la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e il Danno degli alleati contro nemici di tipo Belva.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2069,13 +2292,23 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
       <FemaleText />
     </Entry>
 	<Entry>
+      <ID>2738</ID>
+      <DefaultText>La &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; del Monaco aumenta leggermente per ogni Ferita che possiede.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
       <ID>2752</ID>
-      <DefaultText>Tramite la forza di &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt;, il Sacerdote è in grado di distruggere qualsiasi spirito o posseduto di livello inferiore al suo. Gli spiriti e le creature possedute dello stello livello del Sacerdote, o superiore, subiscono Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Tramite la forza di &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt;, il Sacerdote è in grado di distruggere qualsiasi spirito o posseduto di livello inferiore al suo. Gli spiriti e le creature possedute dello stello livello del Sacerdote, o superiore, subiscono Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>2755</ID>
+      <DefaultText>Il personaggio spara e ricarica rapidamente la pistola, perdendo in &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
       <ID>2758</ID>
-      <DefaultText>(Turbine di Lame) - Prima di teletrasportarsi, il ladro lancia pugnali sui nemici circostanti, infliggendo danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; e &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppandoli &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Turbine di Lame) - Prima di teletrasportarsi, il Ladro lancia pugnali sui nemici circostanti, infliggendo danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; e &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppandoli &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2090,7 +2323,7 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
 	 <Entry>
       <ID>2781</ID>
-      <DefaultText>Spezza l'anima del bersaglio causandogli Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo. Gli incantesimi con la parola chiave Brandello usati sul bersaglio causano un'altra frattura, infliggendo immediatamente Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; ed estendendo la durata dell'effetto.</DefaultText>
+      <DefaultText>Spezza l'anima del bersaglio causandogli Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo. Gli incantesimi con la parola chiave Brandello usati sul bersaglio causano un'altra frattura, infliggendo immediatamente Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; ed estendendo la durata dell'effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2098,9 +2331,19 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
       <DefaultText>Ossessiona la mente del bersaglio con ricordi oscuri di coloro che ha perso e ucciso, &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrorizzandolo &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppandolo &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>2791</ID>
+      <DefaultText>Invoca un devastante vortice di vento che scaglia in aria le sue vittime e infligge danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; a tutto ciò che tocca.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>2798</ID>
       <DefaultText>(Colpo Ispirato) - Dopo il colpo, riceve temporaneamente le Ispirazioni &lt;link="gamedata://c4ada862-ee17-4c10-8967-734e08daa4aa"&gt;&lt;#00a4ff&gt;Perspicace &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Rapido&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>2811</ID>
+      <DefaultText>Gli attacchi potenziati del Monaco ignorano tutti le Soglie di Danno e ottengono un enorme bonus &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
@@ -2145,12 +2388,12 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
 	<Entry>
       <ID>2849</ID>
-      <DefaultText>Evoca un mantello vorticoso di energia oscura intorno al mago che bandisce gli assalitori in mischia imprigionandoli nell'oscurità per breve tempo, durante il quale non possono agire e ricevono rapidamente Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
+      <DefaultText>Evoca un mantello vorticoso di energia oscura intorno al Mago che bandisce gli assalitori in mischia imprigionandoli nell'oscurità per breve tempo, durante il quale non possono agire e ricevono rapidamente Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
       <ID>2854</ID>
-      <DefaultText>Il Ranger esegue un violento vortice di attacchi letali, provocando attacchi doppi su tutti i nemici a portata di tiro e applicando Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo. Richiede arma da mischia.</DefaultText>
+      <DefaultText>Il Ranger esegue un violento vortice di attacchi letali, provocando attacchi doppi su tutti i nemici a portata di tiro e applicando Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo. Richiede arma da mischia.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -2160,12 +2403,17 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
 	 <Entry>
       <ID>2870</ID>
-      <DefaultText>Un migliore attacco dell'anima in mischia che consuma la Riserva di Potere rimanente del Cipher e la converte in Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; sul bersaglio.</DefaultText>
+      <DefaultText>Un migliore attacco dell'anima in mischia che consuma la Riserva di Potere rimanente del Cipher e la converte in Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; sul bersaglio.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2873</ID>
       <DefaultText>Evoca un potente fulmine che colpisce l'obiettivo, infliggendo danno da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; e causando &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientamento &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>2876</ID>
+      <DefaultText>(Ostilità Dorata) - Causa una benedizione d'oro, conferendo &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; bonus finché l'oro non viene colpito fino a rompersi.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2185,7 +2433,7 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
 	<Entry>
       <ID>2898</ID>
-      <DefaultText>(Parossismo Selvaggio - &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;) - Ogni uccisione in stato di Metamorfosi aumenta la durata dell'effetto della Metamorfosi, infligge danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; e diminuisce il Valore Armatura dei nemici circostanti.</DefaultText>
+      <DefaultText>(Parossismo Selvaggio - &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;) - Ogni uccisione in stato di Metamorfosi aumenta la durata dell'effetto della Metamorfosi, infligge danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; e diminuisce la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; dei nemici circostanti.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2210,7 +2458,12 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
     <Entry>
       <ID>2968</ID>
-      <DefaultText>Produce una nube di fumo e polvere nociva, bruciando e accecando tutti coloro che colpisce.</DefaultText>
+      <DefaultText>Produce una nube di fumo e polvere nociva, provocando danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; e &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Accecando &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; tutti coloro che colpisce.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>2978</ID>
+      <DefaultText>Una nube acida fuoriesce dal congegno, infliggendo danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; e riducendo la SD.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2234,6 +2487,11 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
       <FemaleText />
     </Entry>
 	 <Entry>
+      <ID>3133</ID>
+      <DefaultText>Dall'aroma floreale o muschiato, questa pozione contiene energia spirituale e, se bevuta da un lanciatore, lo circonda con uno Scudo mistico che aumenta &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; e Concentrazione.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
       <ID>3186</ID>
       <DefaultText>Quando l'Orsacchiotto ti segue, ricevi un bonus alla &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;, mentre il tuo gruppo ne riceve uno ai danni da mischia.</DefaultText>
       <FemaleText />
@@ -2245,12 +2503,17 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
     </Entry>
 	<Entry>
       <ID>3207</ID>
-      <DefaultText>Quando il Cucciolo di Nāga del Fuoco ti segue, ottieni Armatura da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; bonus e tutti i membri del gruppo ottengono Precisione bonus con attacchi di fuoco.</DefaultText>
+      <DefaultText>Quando il Cucciolo di Nāga del Fuoco ti segue, ottieni Armatura da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; bonus e tutti i membri del gruppo ottengono &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; bonus con attacchi di fuoco.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
       <ID>3252</ID>
       <DefaultText>Sovraccarica i proiettili magici del Blaster arcano provocando danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;/&lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; extra a ogni tiro, a spese della Velocità di ricarica. Incantamenti aggiuntivi possono causare effetti aggiuntivi.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>3284</ID>
+      <DefaultText>Lo Scudo è un simbolo di determinazione e resistenza. L'aura conferisce una &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; bonus agli alleati circostanti ma non a chi l'impugna.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -2288,7 +2551,7 @@ Maggiore Tempo di recupero per gli incantesimi del mago non del tipo Incantazion
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 Ottiene competenza nell'uso dell'accetta.
 
-I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello di potere corrispondente:
+I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello di Potere corrispondente:
 1. Mietitura benedetta
 2. Ritirata
 3. Spine traditrici
@@ -2326,6 +2589,11 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <FemaleText />
     </Entry>
 	 <Entry>
+      <ID>3399</ID>
+      <DefaultText>Conferisce danno da mischia e &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; extra per il primo attacco a segno con l'arma durante il combattimento.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
       <ID>3401</ID>
       <DefaultText>Conferisce &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; extra per breve tempo all'inizio del combattimento.</DefaultText>
       <FemaleText />
@@ -2333,6 +2601,11 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
 	<Entry>
       <ID>3429</ID>
       <DefaultText>Quando chi l'indossa è Sanguinante o Agonizzante, diventa immune al danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>3431</ID>
+      <DefaultText>Erode l'armatura del bersaglio, con un impatto significativo sulla sua &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2367,7 +2640,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
 	 <Entry>
       <ID>3521</ID>
-      <DefaultText>Chi brandisce il Kapana Taga è solo contro tutti gli sfidanti. Aumenta il Valore armatura e la &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; quando non ci sono alleati nelle vicinanze.</DefaultText>
+      <DefaultText>Chi brandisce il Kapana Taga è solo contro tutti gli sfidanti. Aumenta ila &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; e la &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; quando non ci sono alleati nelle vicinanze.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2387,7 +2660,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
 	 <Entry>
       <ID>3596</ID>
-      <DefaultText>La signora Kaul canta attraverso la lama. Conferisce casualmente bonus al Valore Armatura, danno da mischia o &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; all'inizio del combattimento.</DefaultText>
+      <DefaultText>La signora Kaul canta attraverso la lama. Conferisce casualmente un bonus alla &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; da mischia o alla &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; all'inizio del combattimento.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2400,9 +2673,9 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <DefaultText>Wael guarda con innumerevoli occhi. Lancia un incantesimo Sguardo su un'area, pietrificando o &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrorizzando &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; i nemici.</DefaultText>
       <FemaleText />
     </Entry>
-	<Entry>
+	 <Entry>
       <ID>3613</ID>
-      <DefaultText>(...Il suo fragore fu innegabile) - Ottiene un bonus Precisione.</DefaultText>
+      <DefaultText>(...Il Suo Fragore Fu Innegabile) - Ottiene un bonus &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2422,7 +2695,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
 	<Entry>
       <ID>3697</ID>
-      <DefaultText>Abilità passiva. Il primo attacco a segno in mischia effettuato in Modalità Furtiva causa Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo per una lunga durata.</DefaultText>
+      <DefaultText>Abilità passiva. Il primo attacco a segno in mischia effettuato in modalità Furtiva causa Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo per una lunga durata.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2432,7 +2705,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
 	 <Entry>
       <ID>3749</ID>
-      <DefaultText>I Tiratori Scelti si concentrano esclusivamente sul combattimento a distanza e affidano ai compagni animali il compito di coprire loro le spalle. La loro Penetrazione e Precisione con armi a lunga distanza è sopraffina, ma tra un attacco e l'altro hanno tempi di recupero più lunghi e una scarsa &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>I Tiratori Scelti si concentrano esclusivamente sul combattimento a distanza e affidano ai compagni animali il compito di coprire loro le spalle. La loro &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; con armi a lunga distanza è sopraffina, ma tra un attacco e l'altro hanno tempi di recupero più lunghi e una scarsa &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -2477,7 +2750,12 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
 	<Entry>
       <ID>3794</ID>
-      <DefaultText>(Legame dell'Infiltrato) - Il Ranger guadagna anche un bonus alla Precisione quando lotta contro ogni nemico minacciato dal compagno animale.</DefaultText>
+      <DefaultText>(Legame dell'Infiltrato) - Il Ranger guadagna anche un bonus alla &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; quando lotta contro ogni nemico minacciato dal compagno animale.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>3803</ID>
+      <DefaultText>Colpisci attentamente con il Broccio, mira ai punti vitali per assicurarti una buona riuscita. Combattere in questo modo aumenta la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; a spese del Recupero.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2512,12 +2790,19 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
 	 <Entry>
       <ID>3835</ID>
-      <DefaultText>Prepara un bersaglio per la tua lama. Riduce la &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; degli attacchi in mischia e il Valore Armatura del bersaglio contro il danno da &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Prepara un bersaglio per la tua lama. Riduce la &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; degli attacchi in mischia e la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; del bersaglio contro il danno da &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>3854</ID>
+      <DefaultText>Tutti i Ranger instaurano una forte connessione spirituale con una sola creatura, il loro compagno animale. Questa connessione permette ai Ranger e ai loro compagni di coordinare gli attacchi e abbattere la preda in modo efficace. Di solito, il compagno blocca la preda mentre il Ranger attacca a distanza.
+
+Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condividono un vero e proprio legame vitale con i loro compagni animali. Se uno dei due è ferito, l'altro lo sente e prova un intenso dolore emotivo. Se un Ranger o un compagno animale cadono svenuti, la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e altre statistiche del partner sono limitate dai Vincoli della pena finché l'alleato non viene rianimato. Se un Ranger viene ucciso, il suo compagno muore immediatamente per il dolore.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
       <ID>3856</ID>
-      <DefaultText>(Tiro azzoppante) - il tiro del ranger &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppa &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; l'obiettivo.</DefaultText>
+      <DefaultText>(Tiro azzoppante) - il tiro del Ranger &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppa &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; l'obiettivo.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2560,6 +2845,11 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <DefaultText>Se Algol ti segue, ogni Alterazione della Costituzione svanisce più rapidamente e i membri del gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>3901</ID>
+      <DefaultText>Se Atlas ti segue, ottieni un bonus Percezione e il tuo gruppo riceve un bonus alla &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; delle armi a distanza.</DefaultText>
+      <FemaleText />
+    </Entry>
 	 <Entry>
       <ID>3903</ID>
       <DefaultText>Se Chili ti segue, ricevi un bonus Risolutezza e il tuo gruppo ottiene un bonus &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt;.</DefaultText>
@@ -2571,8 +2861,18 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <FemaleText />
     </Entry>
 	 <Entry>
+      <ID>3913</ID>
+      <DefaultText>Se Harley ti segue, ricevi un bonus ai danni a distanza, mentre il tuo gruppo ne riceve uno alla &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; delle armi a distanza.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
       <ID>3915</ID>
       <DefaultText>Se Hemp ti segue, ricevi un bonus Costituzione, mentre il tuo gruppo ne riceve uno alla &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>3921</ID>
+      <DefaultText>Se Nikki ti segue, è più probabile che gli attacchi nemici ti colpiscano di striscio e il tuo gruppo riceve un bonus alla &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; delle armi da mischia.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2592,17 +2892,22 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
 	<Entry>
       <ID>3962</ID>
-      <DefaultText>Se la Viverna del Dragone dei cieli ti segue provochi una maggiore quantità di danni con le armi a distanza e il tuo gruppo guadagna Precisione, &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; nei confronti dei bersagli lontani.</DefaultText>
+      <DefaultText>Se la Viverna del Dragone dei cieli ti segue provochi una maggiore quantità di danni con le armi a distanza e il tuo gruppo guadagna &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; nei confronti dei bersagli lontani.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>3965</ID>
-      <DefaultText>L'attacco Morso infligge Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; da Veleno nel tempo.</DefaultText>
+      <DefaultText>L'attacco Morso infligge Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; da Veleno nel tempo.</DefaultText>
       <FemaleText />
-    </Entry>	
+    </Entry>
     <Entry>
       <ID>3971</ID>
       <DefaultText>Se Filo di corteccia ti segue, ogni &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Alterazione&#160;della Destrezza &#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applicata su di te svanisce più velocemente e il tuo gruppo è più veloce in combattimento.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>3973</ID>
+      <DefaultText>L'esperienza in combattimento maturata con lo Scudo ti ha insegnato a mitigare gli attacchi in arrivo e ti fa guadagnare un bonus alla &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; quando uno Scudo è equipaggiato.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -2641,13 +2946,33 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <FemaleText />
     </Entry>
 	 <Entry>
+      <ID>4124</ID>
+      <DefaultText>Il sangue riempie gli spazi vuoti tra le maglie e respinge gli urti in arrivo. Conferisce un bonus alla &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; se il portatore è Sanguinante.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>4128</ID>
+      <DefaultText>Aura che fornisce agli alleati nelle vicinanze un bonus alla &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; se hanno un buon rapporto con chi la indossa.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>4130</ID>
+      <DefaultText>Aura che infligge ai membri del gruppo nelle vicinanze una piccola penalità alla &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; se hanno un cattivo rapporto con chi la indossa.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
       <ID>4132</ID>
-      <DefaultText>Aura che fornisce agli alleati nelle vicinanze un bonus a Valore armatura, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt; se hanno un buon rapporto con chi la indossa.</DefaultText>
+      <DefaultText>Aura che fornisce agli alleati nelle vicinanze un bonus alla &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt; se hanno un buon rapporto con chi la indossa.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
       <ID>4134</ID>
       <DefaultText>Dà una possibilità di lanciare una piccola scarica di gelo attorno al lanciatore che infligge danni da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; ai nemici nelle vicinanze una volta ricevuto un colpo critico, purché non ci siano alleati vicini. Ottieni Concentrazione per ogni secondo passato lontano da ogni alleato.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>4138</ID>
+      <DefaultText>Conferisce un bonus &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; se 3 o più alleati si trovano nel raggio di 2 m.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2672,12 +2997,12 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
 	<Entry>
       <ID>4152</ID>
-      <DefaultText>Durante la notte, il portatore riceve un Livello di potere superiore per gli attacchi da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Durante la notte, il portatore riceve un Livello di Potere superiore per gli attacchi da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>4155</ID>
-      <DefaultText>Aura che infligge Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo ai nemici nelle vicinanze, sulla base della loro Salute rimasta. (È inflitto un danno completo agli avversari Agonizzanti)</DefaultText>
+      <DefaultText>Aura che infligge Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo ai nemici nelle vicinanze, sulla base della loro Salute rimasta. (È inflitto un danno completo agli avversari Agonizzanti)</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2687,7 +3012,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
 	<Entry>
       <ID>4159</ID>
-      <DefaultText>Il portatore trasforma i danni da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; in salute, nel caso in cui abbia una o più Menomazioni.</DefaultText>
+      <DefaultText>Il portatore trasforma i danni da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; in Salute, nel caso in cui abbia una o più Menomazioni.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2698,6 +3023,16 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
 	 <Entry>
       <ID>4245</ID>
       <DefaultText>Ricuce la carne e aggiusta le ossa, rimuovendo le Menomazioni dal bersaglio. La procedura è molto cruenta, comunque, e il paziente ha le difese abbassate fino a quando non si sarà concesso il riposo necessario.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>4273</ID>
+      <DefaultText>Conferisce un bonus &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; se 3 o più alleati si trovano nel raggio di 2 m. Quando è attiva, gli attacchi verso i nemici senza nessun alleato nelle vicinanze possono causare Arresto.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>4274</ID>
+      <DefaultText>Conferisce un bonus &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; se 3 o più alleati si trovano entro 2 m.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2787,7 +3122,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
 	<Entry>
       <ID>4338</ID>
-      <DefaultText>Scaglia una freccia contro un alleato. Il portatore riceve Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;, mentre il bersaglio riceve Salute. La Salute fornita aumenta all'aumentare della capacità Religione del portatore.</DefaultText>
+      <DefaultText>Scaglia una freccia contro un alleato. Il portatore riceve Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;, mentre il bersaglio riceve Salute. La Salute fornita aumenta all'aumentare della capacità Religione del portatore.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2795,14 +3130,39 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <DefaultText>Il proiettile si disintegra all'&lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;, inondando l'area di schegge conduttive. Lancia un impulso da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; su tutti i bersagli nell'area per breve tempo.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>4356</ID>
+      <DefaultText>La Pistola crea una zona caricata con energia elettrica. La &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e la Velocità d'azione di ogni nemico o alleato che sia equipaggiato con uno Scudo, un'Armatura Pesante o Media diminuiranno nel caso in cui si avvicini troppo al portatore.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4357</ID>
+      <DefaultText>I proiettili si dirigono verso bersagli metallici. Aumenta la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; contro i bersagli equipaggiati con Scudi e Armature Pesanti, o contro i nemici composti da una quantità sufficiente di metallo.</DefaultText>
+      <FemaleText />
+    </Entry>
 	<Entry>
       <ID>4361</ID>
-      <DefaultText>Aura che infligge Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo ai nemici nelle vicinanze e diminuisce il loro Valore Armatura. (È inflitto un danno completo agli avversari Agonizzanti)</DefaultText>
+      <DefaultText>Aura che infligge Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo ai nemici nelle vicinanze e diminuisce la loro &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;. (È inflitto un danno completo agli avversari Agonizzanti)</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
       <ID>4362</ID>
       <DefaultText>L'elettricità scorre nelle vene del portatore, rinvigorendone la carne. Restituisce Salute al portatore nel caso in cui abbia ricevuto danni da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>4364</ID>
+      <DefaultText>I vincoli che legano i compagni all'Osservatore accrescono la loro resilienza. Conferisce &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; contro le armi agli alleati nelle vicinanze se la loro relazione con l'Osservatore è Positiva. Migliora se è Molto Positiva.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>4366</ID>
+      <DefaultText>I sentimenti negativi tra i compagni e l'Osservatore indeboliscono la loro resilienza. Diminuisce la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; dei compagni nel caso in cui abbiano una relazione Negativa con l'Osservatore. Peggiora se è Molto Negativa.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>4368</ID>
+      <DefaultText>I compagni sono come una famiglia e restano uniti come se fossero una persona sola. Aumenta la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; e le Difese dei compagni nel caso in cui abbiano una relazione Positiva con l'Osservatore. Migliora se è Molto Positiva.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2817,7 +3177,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
 	<Entry>
       <ID>4384</ID>
-      <DefaultText>Infilza un bersaglio, lo manda al tappeto e lo fa sanguinare causandogli Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Infilza un bersaglio, lo manda al tappeto e lo fa sanguinare causandogli Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2830,9 +3190,24 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <DefaultText>Se Cometa ti segue ricevi un bonus Vigore e il tuo gruppo guadagna bonus &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; contro gli attacchi delle armi nemiche.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>4405</ID>
+      <DefaultText>Se la Viverna di Ossidiana ti segue ottieni un bonus alle capacità Furtività e Mano Lesta e il tuo gruppo guadagna un bonus &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; contro i nemici accerchiati.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>4412</ID>
       <DefaultText>Crea un campo di energia sacra introno al lanciatore, infligge Danni da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; e &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spaventa &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; tutti i posseduti nelle vicinanze, mentre rigenera gran parte della Salute degli alleati.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>4442</ID>
+      <DefaultText>Gli attacchi potenziati ottengono &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; maggiore.</DefaultText>
+      <FemaleText />
+    </Entry>
+	  <Entry>
+      <ID>4452</ID>
+      <DefaultText>Ottiene l'aumento dell'efficacia negli attacchi disarmati. Tuttavia, anche se è non efficace quanto i colpi disarmati del Monaco, beneficia di &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, danno e &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; aumentati man mano che cresci di livello.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2840,19 +3215,29 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <DefaultText>Lo spirito di Griffin potenzia il coraggio del gruppo. Conferisce &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Nerbo &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; al portatore e agli alleati nelle vicinanze se il portatore è Sanguinante.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>4493</ID>
+      <DefaultText>Le piastre d'ottone contengono ancora un po' di vita. Aumenta la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; nei confronti delle armi se il portatore è Sanguinante.</DefaultText>
+      <FemaleText />
+    </Entry>
 	 <Entry>
       <ID>4507</ID>
       <DefaultText>Lancia un dardo avvelenato a un bersaglio nei paraggi, infliggendo un danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; e applicando gli effetti di un danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>4510</ID>
+      <DefaultText>Il Paladino si concentra nel proteggersi da attacchi in arrivo, guadagnando un bonus alla &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; temporaneo.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>4512</ID>
-      <DefaultText>Il ranger studia attentamente la zona circostante, guadagnando temporaneamente l'Ispirazione &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Profondo &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e una maggiore gittata dell'attacco a distanza.</DefaultText>
+      <DefaultText>Il Ranger studia attentamente la zona circostante, guadagnando temporaneamente l'Ispirazione &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Profondo &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e una maggiore gittata dell'attacco a distanza.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>4516</ID>
-      <DefaultText>Usando delle tecniche di meditazione è possibile alleviare il dolore di un alleato Menomato, ripristinarne la salute gradualmente e sospendere ogni effetto ostile. (Può essere utilizzato solo su personaggi con Menomazioni).</DefaultText>
+      <DefaultText>Usando delle tecniche di meditazione è possibile alleviare il dolore di un alleato Menomato, ripristinarne la Salute gradualmente e sospendere ogni effetto ostile. (Può essere utilizzato solo su personaggi con Menomazioni).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2864,10 +3249,15 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <ID>4559</ID>
       <DefaultText>Conferisce un aumento della &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; quando si verifica una perdita di Salute. Il portatore non può muoversi quando in stato Agonizzante.</DefaultText>
       <FemaleText />
-    </Entry> 	
+    </Entry>
     <Entry>
       <ID>4560</ID>
       <DefaultText>Conferisce l'Ispirazione &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Arguto &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; quando ingaggiato in combattimento per la prima volta.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>4561</ID>
+      <DefaultText>Conferisce un bonus &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; e Rigenerazione Salute quando in stato Agonizzante.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2882,7 +3272,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
     <Entry>
       <ID>4588</ID>
-      <DefaultText>Crea una fonte di acqua rinvigorente, ripristinando salute e garantendo l'Ispirazione &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; agli alleati nell'area.</DefaultText>
+      <DefaultText>Crea una fonte di acqua rinvigorente, ripristinando Salute e garantendo l'Ispirazione &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; agli alleati nell'area.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -2927,7 +3317,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
 	<Entry>
       <ID>4659</ID>
-      <DefaultText>Colpisce con l'impugnatura scheggiata dell'arma, infliggendo danno da arma e applicando Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo al bersaglio.</DefaultText>
+      <DefaultText>Colpisce con l'impugnatura scheggiata dell'arma, infliggendo danno da arma e applicando Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo al bersaglio.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -2948,6 +3338,11 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
 	 <Entry>
       <ID>4685</ID>
       <DefaultText>Conferisce &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; bonus se vicino ad alleati.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>4755</ID>
+      <DefaultText>All'inizio del e solo per il primo attacco con arma combattimento conferisce bonus a &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e al danno.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

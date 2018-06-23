@@ -4,6 +4,32 @@
   <NextEntryID>1</NextEntryID>
   <EntryCount>875</EntryCount>
   <Entries>
+   <Entry>
+      <ID>84</ID>
+      <DefaultText>La Precisione incide su praticamente tutti gli attacchi e determina la probabilità che l'attacco colpisca il bersaglio. Dipende principalmente da classe e livello del personaggio, ma può essere influenzata da Percezione, Talenti e da altri effetti attivi, come oggetti o incantesimi. Quando viene sferrato un attacco, la Precisione viene confrontata con la relativa difesa del bersaglio (&lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt;, o &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt;) per determinare le modifiche al tiro d'attacco. Se la Precisione è superiore alla difesa del bersaglio, sarà più facile ottenere un colpo a segno o critico e meno probabile ottenere un colpo di striscio o a vuoto.
+	  Un'abilità o un talento che non utilizzano un'arma all'interno di un attacco ottengono un piccolo bonus Precisione in funzione del livello del personaggio.</DefaultText>
+      <FemaleText />
+    </Entry>
+	  <Entry>
+      <ID>86</ID>
+      <DefaultText>La &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; è la difesa usata per evitare gli attacchi in mischia e a distanza contro il personaggio che non effetuano attacchi ad area d'effetto (AE). Dipende da classe, livello e Risolutezza del personaggio, ma può essere influenzata dagli Scudi, da certe armi, dai Talenti e da altri effetti di oggetti o incantesimi.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>88</ID>
+      <DefaultText>La &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt; è la difesa contro gli attacchi all'organismo del personaggio (come Veleno, Malattia, ecc.). Dipende da classe del personaggio, livello, Vigore e Costituzione, ma è anche influenzata da altri effetti.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>90</ID>
+      <DefaultText>I &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; sono la difesa usata per evitare gli attacchi fisici ad area d'effetto (come esplosioni, saette, ecc). Dipendono da classe del personaggio, livello, Destrezza e Percezione, ma sono anche influenzati da altri effetti.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>92</ID>
+      <DefaultText>La &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt; è la difesa contro attacchi di tipo psichico (come gli incantesimi che paralizzano mentalmente il bersaglio). Dipende da classe del personaggio, livello, Acume e Risolutezza, ma è anche influenzata da altri effetti.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>94</ID>
       <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Alterazione&#160; della Percezione &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. I personaggi &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Accecati &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; hanno -5 Percezione, vengono considerati Accerchiati, +50%  Recupero, -10 Precisione e la portata di tutti gli attacchi a distanza è dimezzata. I personaggi &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Accecati&lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; non possono usare o subire attacchi da Sguardo.</DefaultText>
@@ -21,7 +47,7 @@
     </Entry>
     <Entry>
       <ID>100</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Alterazione&#160; del Vigore &#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Una vittima &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientata &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; ha -5 Vigore, non può ingaggiare alcun nemico e ha -4 Penetrazione.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Alterazione&#160; del Vigore &#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Una vittima &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientata &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; ha -5 Vigore, non può ingaggiare alcun nemico e ha -4 &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -29,9 +55,14 @@
       <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Alterazione&#160; dell'Acume &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Un bersaglio &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominato &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; è assoggettato alla volontà del nemico e userà tutto ciò di cui dispone per combattere i suoi ex compagni. -5 Acume.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>104</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; ridotta di 10.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>106</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Alterazione&#160; della Risolutezza &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Un personaggio &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spaventato &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; ha -5 Risolutezza, -3 Livello di potere e non può usare incantesimi o abilità ostili.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Alterazione&#160; della Risolutezza &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Un personaggio &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spaventato &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; ha -5 Risolutezza, -3 Livello di Potere e non può usare incantesimi o abilità ostili.</DefaultText>
       <FemaleText />
     </Entry>
    <Entry>
@@ -66,12 +97,12 @@
     </Entry>
     <Entry>
       <ID>120</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Alterazione&#160; del Vigore &#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. I personaggi &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Storditi &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; non possono intraprendere alcuna azione, non possono ingaggiare, hanno una penalità a tutte le difese, -4 Penetrazione e -5 Vigore.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Alterazione&#160; del Vigore &#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. I personaggi &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Storditi &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; non possono intraprendere alcuna azione, non possono ingaggiare, hanno una penalità a tutte le difese, -4 &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; e -5 Vigore.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>122</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Alterazione&#160; della Risolutezza &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Un personaggio &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrificato &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; ha -5 Risolutezza, -3 Livello di potere e non può intraprendere alcuna azione, se non quella di fuggire.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Alterazione&#160; della Risolutezza &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Un personaggio &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrificato &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; ha -5 Risolutezza, -3 Livello di Potere e non può intraprendere alcuna azione, se non quella di fuggire.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -79,9 +110,26 @@
       <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazione&#160; della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. I personaggi &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indeboliti &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; hanno -5 Costituzione e tutte le cure ricevute sono dimezzate.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>130</ID>
+      <DefaultText>Il Polso slogato infligge una penalità alla &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>134</ID>
+      <DefaultText>Una Caviglia slogata riduce i &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; del personaggio.</DefaultText>
+      <FemaleText />
+    </Entry>
 	<Entry>
       <ID>140</ID>
-      <DefaultText>Un tiro d'attacco da 100 in su infligge un colpo Critico. Un Critico che infligge danni aumenta il danno totale del 25% e la Penetrazione dell'attacco del %50%. Un critico con effetti a durata (tipicamente Alterazioni come &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseato&lt;/color&gt;&lt;/link&gt; o &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralizzato&lt;/color&gt;&lt;/link&gt;) aumenterà la durata del 25%.</DefaultText>
+      <DefaultText>Un tiro d'attacco da 100 in su infligge un colpo Critico. Un Critico che infligge danni aumenta il danno totale del 25% e la &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; dell'attacco del %50%. Un critico con effetti a durata (tipicamente Alterazioni come &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseato&lt;/color&gt;&lt;/link&gt; o &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralizzato&lt;/color&gt;&lt;/link&gt;) aumenterà la durata del 25%.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>146</ID>
+      <DefaultText>Ci sono quattro difese in Pillars of Eternity: &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt;. Ciascuna difesa si oppone a una diversa categoria di attacchi nel tiro d'attacco. La &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; si oppone a gran parte degli attacchi diretti con armi o simili. La &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt; si oppone ai tentativi fisici di avere la meglio sul bersaglio o agli attacchi all'organismo (per es. il veleno). I Riflessi si oppongono agli attacchi fisici ad area d'effetto come sfere di fuoco e fulmini.
+
+La &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt; si oppone a praticamente tutti gli attacchi mentali. &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt; sono basati su coppie di attributi. Vigore e Costituzione determinano la &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;, Destrezza e Percezione determinano i &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt;, Acume e Risolutezza determinano la &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt;. La &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; base è determinata dalla classe e dalla Risolutezza del personaggio. Tutti i personaggi ricevono bonus fissi alle difese a ciascun livello. Infine, le Difese del personaggio possono essere influenzate da incantesimi, abilità, alterazioni e oggetti.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -91,9 +139,51 @@
 
 Le Alterazioni di Attributo possono essere respinte facilmente con la corrispondente Ispirazione di Attributo, che garantirà anche l'Immunità a quella categoria di Alterazioni. Per esempio ogni &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Alterazione&#160; della Destrezza &#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; può essere rimossa dalle Ispirazioni &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Veloce&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Lesto&lt;/color&gt;&lt;/link&gt;, o &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Rapido&lt;/color&gt;&lt;/link&gt;.
 
-Alcuni personaggi sono completamente Immuni ad una o più Alterazioni. Se il personaggio ha Resistenza ad una categoria di Alterazioni, le Alterazioni di quel tipo in arrivo verrano depotenziate. La Resistenza garantisce una completa immunità alle Alterazioni più deboli di quell'Attributo. 
+Alcuni personaggi sono completamente Immuni ad una o più Alterazioni. Se il personaggio ha Resistenza ad una categoria di Alterazioni, le Alterazioni di quel tipo in arrivo verrano depotenziate. La Resistenza garantisce una completa immunità alle Alterazioni più deboli di quell'Attributo.
 
 Per esempio: Gli Elfi dei Boschi Hanno Resistenza a &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Alterazioni&#160; della Destrezza &lt;/color&gt;&lt;/link&gt;. Un Elfo dei Boschi colpito dall'effetto &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilizzato&lt;/color&gt;&lt;/link&gt; sarà invece colpito da &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppato&lt;/color&gt;&lt;/link&gt;. Se quell'elfo fosse stato colpito dall'effetto &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppato&lt;/color&gt;&lt;/link&gt; , esso non si applicherà del tutto.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>150</ID>
+      <DefaultText>Quando un personaggio ha un'abilità o talento passivo, il relativo bonus si applica automaticamente. Per esempio, un personaggio con Riflessi del serpente riceve automaticamente il bonus alla difesa &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>154</ID>
+      <DefaultText>Tutti gli attacchi in Pillars of Eternity confrontano il valore di &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; dell'attaccante con una delle quattro difese: &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; (attacchi diretti in mischia o a distanza), &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt; (attacchi all'organismo, come veleni e malattie), &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; (attacchi con danno ad area d'effetto) e &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt; (attacchi mentali).
+
+Per decidere il risultato dell'attacco, viene generato un numero da 1 a 100 a cui si somma la differenza tra &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e Difesa: minore o uguale a 15 = colpo a vuoto; 16-50 = colpo di striscio; 51-100 = colpo a segno; maggiore o uguale a 100 = colpo critico.
+
+In una situazione in cui attacco e difesa sono equilibrati, gran parte degli attacchi porteranno a colpi a segno o colpi di striscio. Quando la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; è superiore alla difesa si avranno più colpi critici. Quando la difesa è superiore alla &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; si avranno più colpi a vuoto.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>158</ID>
+      <DefaultText>Quando un attacco colpisce, il modo principale per mitigare il danno: &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;.
+
+Il valore di &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; è dovuto per lo più all'armatura, ma molte creature hanno una SD naturale oppure possono aumentarla con la magia, le abilità, i talenti o altro equipaggiamento.
+
+Il valore di &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; viene confrontato con la &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; degli attacchi subiti per determinare l'efficacia complessiva dell'attacco. La Piena Penetrazione (Danno 130%) si verifica quando la &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; è pari o superiore al doppio del valore nominale della &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; del bersaglio.
+
+La Penetrazione Parziale (100% Danno) si verifica quando la &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; corrisponde o supera il valore nominale della &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; del bersaglio. La Penetrazione Bassa (-25% di danni per punto sotto la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; del bersaglio, Max -75%) si verifica quando la &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; è inferiore al valore nominale della &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; del bersaglio. Si noti che molti completi di armatura e molte creature offriranno diversi valori di &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; contro i diversi tipi di danno. Le SD più basse proteggono meno da questo tipo di danno, rendendo il bersaglio più vulnerabile agli attacchi di questo tipo.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>180</ID>
+      <DefaultText>Un'abilità modale è quella che può essere attivata o disattivata o impostata su diverse &lt;i&gt;modalità &lt;/i&gt; per produrre effetti diversi. Per esempio, tutte le abilità di arma garantiscono abilità modali che sono disponibili quando l'arma o lo scudo abile è equipaggiato. Similmente, le Auree solerti di un Paladino possono essere impostate su uno dei tre diversi stati. Le abilità modali devono essere cambiate in base alle necessità tattiche di un combattimento. Ad esempio, se un personaggio non beneficia della Penetrazione aggiuntiva di Lacerazione del mulino a vento di una sciabola, dovrebbe essere disattivata per migliorare il tempo di recupero del personaggio. Un Paladino può desiderare di utilizzare Carica solerte all'inizio di una battaglia, ma passare a Sinergia solerte per ottenere maggiore Precisione una volta che il combattimento è in corso.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>192</ID>
+      <DefaultText>Le difese secondarie vengono usate per gli attacchi in seconda fase, per esempio il veleno su un Pugnale. In questo esempio, il primo attacco (la coltellata) agisce contro una difesa (la &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;) e l'attacco del Veleno viene verificato solo se il primo attacco va a segno. In quel caso, si controlla la difesa secondaria (nell'esempio, la &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt; contro il Veleno) per determinare gli effetti. Se l'attacco iniziale va a vuoto, la difesa secondaria non viene controllata.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>194</ID>
+      <DefaultText>Ci sono otto tipi di danno in Pillars of Eternity: &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; e Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;. I tipi di danno vengono usati per determinare con che facilità un bersaglio resiste a un dato tipo di danno, grazie alla &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;. Una creatura o un'armatura può essere molto resistente a un tipo di danno ma vulnerabile a un altro.
+
+Alcuni attacchi o armi possono infliggere più tipi di danno o avere un elenco di alternative indicate con "o". In questo caso, l'attacco infliggerà sempre il tipo di danno a cui il bersaglio è più vulnerabile. Il Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; è l'unico tipo di danno che ignora tutte le riduzioni del danno; tipicamente, è associato a veleni ed effetti simili.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -107,13 +197,24 @@ Alcune Alterazioni rendono impossibile a un personaggio Ingaggiare un nemico. Tu
 Alcune creature, specialmente quelle più grandi, potrebbero essere in grado di ingaggiare più di una creatura alla volta.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>207</ID>
+      <DefaultText>Le regole di accumulo governano la somma di bonus e penalità. Per semplicità, il gioco distingue due categorie di fonti di bonus: &lt;b&gt;passiva&lt;/b&gt; e &lt;b&gt;attiva&lt;/b&gt;.
+
+La maggior parte dei bonus passivi viene da oggetti equipaggiati (armi e scudi compresi) e da abilità passive. Se un effetto non ha durata e non deve essere attivato o disattivato, generalmente viene considerato un bonus passivo. &lt;b&gt;Tutti i bonus passivi si accumulano tra loro.&lt;/b&gt;
+
+I bonus attivi vengono da incantesimi, oggetti e abilità che necessitano di attivazione. Sono comprese le abilità modali che si attivano dalla barra delle azioni, come gli attacchi con armi modali, l'aura del Paladino e le posizioni del Guerriero. &lt;i&gt;I bonus attivi usano il bonus più alto secondo la statistica ed eliminano tutti i bonus di valore uguale o inferiore.&lt;/i&gt;
+
+Per esempio, se l'incantesimo di un Mago conferisce +3 &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e un'aura del Paladino conferisce +5, il bonus attivo più alto è +5, di conseguenza il bonus +3 viene eliminato. Se lo stesso incantesimo del Mago conferisse anche un bonus Destrezza, verrebbe applicato, a meno che non fosse superato &lt;i&gt;anche&lt;/i&gt; da un bonus Destrezza superiore proveniente da un'altra fonte attiva/modale.</DefaultText>
+      <FemaleText />
+    </Entry>
 	<Entry>
       <ID>315</ID>
-      <DefaultText>Le armi con legame dell'anima sono oggetti unici che possono stabilire un collegamento magico con l'anima di un singolo personaggio. Una volta legata, l'arma può essere usata solo da quel personaggio, a meno che il legame non venga reciso. Un'arma con legame dell'anima acquisirà più potere man mano che il suo proprietario soddisfa i requisiti indicati nella descrizione della stessa.
+      <DefaultText>Le armi con Legame dell'Anima sono oggetti unici che possono stabilire un collegamento magico con l'anima di un singolo personaggio. Una volta legata, l'arma può essere usata solo da quel personaggio, a meno che il legame non venga reciso. Un'arma con legame dell'anima acquisirà più potere man mano che il suo proprietario soddisfa i requisiti indicati nella descrizione della stessa.
 
-I poteri che verranno acquisiti saranno differenti a seconda della classe del personaggio, in caso di personaggi multiclasse si dovrà scegliere a quale classe associare l'arma. 
+I poteri che verranno acquisiti saranno differenti a seconda della classe del personaggio, in caso di personaggi multiclasse si dovrà scegliere a quale classe associare l'arma.
 
-Se il legame dell'anima viene reciso, l'arma perde tutte le abilità guadagnate nel corso del tempo.</DefaultText>
+Se il Legame dell'Anima viene reciso, l'arma perde tutte le abilità guadagnate nel corso del tempo.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
@@ -121,12 +222,37 @@ Se il legame dell'anima viene reciso, l'arma perde tutte le abilità guadagnate 
       <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Alterazione&#160; della Percezione &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Un personaggio &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distratto &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; subisce -5 Percezione ed è considerato Accerchiato.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>324</ID>
+      <DefaultText>I personaggi K.O. non possono intraprendere alcuna azione. La loro Destrezza si riduce a 0.
+	  I loro
+&lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; e la loro &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; vengono ridotti di 40.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>453</ID>
+      <DefaultText>Quando un attacco che infligge danni colpisce un bersaglio, la &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; dell'attacco è messa a confronto con la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; per determinare quanto danno subisce.
+
+La &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; dipende dall'arma o dall'incantesimo che si sta usando, ma può essere aumentata attraverso l'uso di magia, abilità, talenti o incantamenti dell'arma. La &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; è messa a confronto con la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; del tipo di danno dell'attacco. Es. Una Palla di Fuoco confronta sempre la &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; con la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;. Il &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; supera ogni &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; e non ha bisogno di penetrare.
+
+&lt;b&gt;Piena penetrazione&lt;/b&gt; (+30% di danno): la &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; è il doppio o più del &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;.
+
+&lt;b&gt;Penetrazione&lt;/b&gt; (danno base): la &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; è pari o superiore alla &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; del bersaglio.
+
+&lt;b&gt;Penetrazione Bassa&lt;/b&gt; (-25% di danni per punto sotto la SD del bersaglio, Max -75%): la &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; è minore rispetto alla &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; del bersaglio.</DefaultText>
+      <FemaleText />
+    </Entry>
      <Entry>
       <ID>533</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Alterazione&#160; della Risolutezza &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Un personaggio &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Scosso &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; ha -5 Risolutezza e -3 Livello di potere.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Alterazione&#160; della Risolutezza &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Un personaggio &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Scosso &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; ha -5 Risolutezza e -3 Livello di Potere.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>590</ID>
+      <DefaultText>I Tiratori Scelti si concentrano esclusivamente sul combattimento a distanza e affidano ai compagni animali il compito di coprire loro le spalle. La loro &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; con armi a lunga distanza è sopraffina, ma tra un attacco e l'altro hanno tempi di Recupero più lunghi e una scarsa &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
       <ID>679</ID>
       <DefaultText>&lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazione&#160; della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. I personaggi &lt;link="gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1"&gt;&lt;#f7b733&gt;Debilitati &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; hanno -5 Costituzione, non possono essere guariti e tutti gli effetti ostili che subiscono durano il 50% più a lungo.</DefaultText>
       <FemaleText />
@@ -230,12 +356,12 @@ Ogni ispirazione è classificata da un attributo, come Vigore oppure Destrezza. 
     </Entry>
     <Entry>
       <ID>721</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Inspirations_Constitution"&gt;&lt;#f7b733&gt;Ispirazione&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. I personaggi &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Poderosi &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; hanno +5 Costituzione e guadagnano +2 Valore armatura.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Inspirations_Constitution"&gt;&lt;#f7b733&gt;Ispirazione&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. I personaggi &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Poderosi &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; hanno +5 Costituzione e guadagnano +2 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>723</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Inspirations_Constitution"&gt;&lt;#f7b733&gt;Ispirazione&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. I personaggi &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robusti &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; hanno +5 Costituzione, guadagnano +2 Valore armatura e rigenerano periodicamente Salute.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Inspirations_Constitution"&gt;&lt;#f7b733&gt;Ispirazione&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. I personaggi &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robusti &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; hanno +5 Costituzione, guadagnano +2 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; e rigenerano periodicamente Salute.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -280,7 +406,7 @@ Ogni ispirazione è classificata da un attributo, come Vigore oppure Destrezza. 
     </Entry>
     <Entry>
       <ID>741</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Ispirazione&#160;dell'Acume &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. I personaggi &lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;Brillanti &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; hanno +5 Acume, usano le i loro incantesimi e abilità a +1 Livello di potere  e riguadagnano periodicamente risorse di Classe.</DefaultText>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Ispirazione&#160;dell'Acume &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. I personaggi &lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;Brillanti &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; hanno +5 Acume, usano le i loro incantesimi e abilità a +1 Livello di Potere  e riguadagnano periodicamente risorse di Classe.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -296,6 +422,11 @@ Ogni ispirazione è classificata da un attributo, come Vigore oppure Destrezza. 
    <Entry>
       <ID>747</ID>
       <DefaultText>&lt;link="glossary://GlossaryEntry_Inspirations_Resolve"&gt;&lt;#30d3d5&gt;Ispirazione&#160;della Risolutezza &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. I personaggi &lt;link="gamedata://dc62af47-239f-4ee4-8d91-a5e8b3b97564"&gt;&lt;#30d3d5&gt;Coraggiosi &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; hanno +5 Risolutezza e sono Immuni ad Arresto.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>753</ID>
+      <DefaultText>I personaggi resistenti a un tipo di Alterazione riducono qualsiasi Alterazione di quel tipo a loro inflitta di un livello. Per esempio, un personaggio con Resistenza alle &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Alterazioni&#160;del Vigore &#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; retrocederebbe da &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordito &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; a &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientato &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;. Un'Alterazione &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientato &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; verrebbe retrocessa a &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Sorpreso &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e un'Alterazione &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Sorpreso &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; fallirebbe.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
