@@ -9,7 +9,7 @@
 - All icons and ranks now have the same distance between the keyword and the icon (`0.7em`) and the icon and the rank indicator (`0.3em`). Probably needs further adjustments for each attribute to look "just right".
 - Attribute titles in entries `94`, `96`, `98`, `100`, `102`, `106`, `108`, `110`, `116`, `118`, `120`, `122`, `124`, `322`, `533`, `679`, `681`, `683`, `713`, `715`, `717`, `719`, `721`, `723`, `725`, `727`, `729`, `731`, `733`, `735`, `737`, `739`, `741`, `743`, `745`, `747` in `cyclopedia.stringtable` should now all have the same font size and placement.
 - Added missing `<FemaleText />` and `</Entry>` tags to ID `9`.\
-**Build 0.5.1**\
+**Build 0.5.1**
 - Added missing keywords to Entry `240` and `1470`.
 - Added missing cyclopedia link and icon to the keyword "Armor Rating" in `statuseffects.stringtable`.
 - Removed an incorrectly applied keyword to ID `603` in `abilities.stringtable`.
