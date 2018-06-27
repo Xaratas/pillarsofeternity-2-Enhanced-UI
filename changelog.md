@@ -1,4 +1,4 @@
-## CHANGELOG
+## CHANGELOG (LIVE)
 ### 0.4
 - On par with de_patch
 
