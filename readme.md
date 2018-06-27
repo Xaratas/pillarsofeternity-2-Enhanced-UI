@@ -1,6 +1,9 @@
 #### Pillars of Eternity 2
 # Enhanced User Interface
 
+[Changelog - v. 0.4.0 (Live)](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/changelog.md)\
+[Changelog - v. 0.5.1 (Beta)](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/beta/changelog.md)
+
 ## What does this mod do?
 
 This mod aims to improve the standard user interface by highlighting gameplay mechanics such as afflictions and inspirations, damage and defense keywords and much more. In total close to 900 ability, item or UI entries have been modified to enhance the user experience and to make some fairly opaque game mechanics a bit more transparent.
@@ -18,7 +21,7 @@ To the great dismay of my fellow co-modders/translators, I am sure, I've just pu
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://i.imgur.com/JFoMw5O.png "Defense icons")
 
-* Affliction and inspiration tooltips now have a more aesthetically pleasing 
+* Affliction and inspiration tooltips now have a more aesthetically pleasing
 appearance mirroring some elements of the standard UI.
 * Lots and lots of bug fixes.
 
@@ -36,7 +39,7 @@ After much tweaking and rewriting of the German translation the icons are in. St
 The dependency is necessary!
 
 **Deutsch:**\
-Nach langem anpassen der deutschen Übersetzung sind die Icons ab Version 0.3.0 auch in der korrigierten, deutschen Version enthalten. 
+Nach langem anpassen der deutschen Übersetzung sind die Icons ab Version 0.3.0 auch in der korrigierten, deutschen Version enthalten.
 Der Mod [Corrected german translation](https://www.nexusmods.com/pillarsofeternity2/mods/5) wird zwingend benötigt!
 
 /Xaratas
