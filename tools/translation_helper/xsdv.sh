@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # call xsdv
 
 #First find out where we are relative to the user dir
