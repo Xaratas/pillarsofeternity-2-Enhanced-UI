@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 0.5-beta -->
+<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 0.5.2 -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3276</EntryCount>
+  <EntryCount>3288</EntryCount>
   <Entries>
     <Entry>
       <ID>237</ID>
@@ -127,7 +127,7 @@
     </Entry>
     <Entry>
       <ID>279</ID>
-      <DefaultText>&lt;line-height=100%&gt;Caster draws upon their life force to gain the &lt;link="glossary://GlossaryEntry_Swift"&gt;&lt;#72da26&gt;Swift&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration at the cost their own Health draining over time.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Caster draws upon their life force to gain the &lt;link="glossary://GlossaryEntry_Swift"&gt;&lt;#72da26&gt;Swift&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration and Action Speed at the cost their own Health draining over time.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -542,7 +542,7 @@
     </Entry>
     <Entry>
       <ID>607</ID>
-      <DefaultText>&lt;line-height=100%&gt;Creates a ghostly double of the caster that causes &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; damage to enemies it strikes.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a ghostly double of the caster that copies the caster's weapons and appearance.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
