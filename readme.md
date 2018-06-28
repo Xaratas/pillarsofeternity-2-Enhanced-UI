@@ -15,7 +15,7 @@ Obsidian Entertainment just released a beta version of the [1.2.0.0008](https://
 
 Anyway, I squished a few bugs and added a few missing features to the mod which can be read below:
 #### 0.6.0
-**Abilities.stringtable**:\
+**Abilities.stringtable**:
 - Removed a duplicated `line-height` tag in ID 564 (abilities.stringtable).
 - Added the "Penetrate" keyword to 32 new entries (abilities.stringtable).
 - Added the keyword "Armor Rating" to 14 new entries (abilities.stringtable).
