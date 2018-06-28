@@ -10,7 +10,7 @@ This mod aims to improve the standard user interface by highlighting gameplay me
 
 ## Latest news:
 ### A big mod update (and a new game patch)!
-**28th of June 2018**
+**28th of June 2018**\
 Obsidian Entertainment just released a beta version of the [1.2.0.0008](https://forums.obsidian.net/topic/103043-patch-120-updates-thread/) game build! There are a lot of cool new features (a mod manager!) that you should be really excited about. Like, the [modding documentation](https://eternity.obsidian.net/game-data-formats/concepts).
 
 Anyway, I squished a few bugs and added a few missing features to the mod which can be read below:
@@ -37,10 +37,10 @@ Anyway, I squished a few bugs and added a few missing features to the mod which 
 Mod 0.6.0 patch notes can be found [here](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/beta/changelog.md#changelog).
 
 ### Mod version 0.4 is released (and the mod changes name)
-**19th of June 2018**
+**19th of June 2018**\
 To the great dismay of my fellow co-modders/translators, I am sure, I've just put the finishing touches to the latest version of this mod. The beta version will only be available in English for now but hopefully we'll see German and Italian language support coming shortly!
 
-**New features in mod version 0.4:**
+**New features in mod version 0.4:**\
 * Better rank indicators for afflictions and inspirations (all afflictions should now have something similar to subscript numbers next to their icons).
 * New cyclopedia entries and tooltips for all damage types (courtesy of the brilliant modder [kilay](https://forums.nexusmods.com/index.php?/user/26711484-kilay/).
 * Added color to reputation gains in the chat window (colors are not final yet).
