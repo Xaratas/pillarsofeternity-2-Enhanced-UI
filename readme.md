@@ -2,15 +2,42 @@
 # Enhanced User Interface
 
 [Changelog - v. 0.4.0 (Live)](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/changelog.md)\
-[Changelog - v. 0.5.2 (Beta)](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/beta/changelog.md)
+[Changelog - v. 0.6.0 (Beta)](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/beta/changelog.md)
 
 ## What does this mod do?
 
 This mod aims to improve the standard user interface by highlighting gameplay mechanics such as afflictions and inspirations, damage and defense keywords and much more. In total close to 900 ability, item or UI entries have been modified to enhance the user experience and to make some fairly opaque game mechanics a bit more transparent.
 
 ## Latest news:
+### A big mod update (and a new game patch)!
+**28th of June 2018**
+Obsidian Entertainment just released a beta version of the [1.2.0.0008](https://forums.obsidian.net/topic/103043-patch-120-updates-thread/) game build! There are a lot of cool new features (a mod manager!) that you should be really excited about. Like, the [modding documentation](https://eternity.obsidian.net/game-data-formats/concepts).
+
+Anyway, I squished a few bugs and added a few missing features to the mod which can be read below:
+#### 0.6.0
+**Abilities.stringtable**:\
+- Removed a duplicated `line-height` tag in ID 564 (abilities.stringtable).
+- Added the "Penetrate" keyword to 32 new entries (abilities.stringtable).
+- Added the keyword "Armor Rating" to 14 new entries (abilities.stringtable).
+- Removed ID incorrectly applied text stylization to ID 607, 631, 643, 811, 1573, 1962, 1964, 1967, 1968, 2271, 2896, 2898, 2900 and 2902 (abilities.stringtable).
+- Added missing keywords to ID's 614, 831, 925, 2039, 2663, 2732, 3923, 4092, 4166 and 4774 (abilities.stringtable).
+- Might inspiration Energized should now have the correct color code (abilities.stringtable).
+- Fixed broken links to glossary entry `Terrified` (abilities.stringtable).
+**Cyclopedia.stringtable**:\
+- Added missing `line-height` tag in ID `679 (cyclopedia.stringtable).
+- Added support for the keywords `Armor Rating` and `Penetrate (cyclopedia.stringtable).
+**Gui.stringtable**:\
+- Added a lot of missing entries (gui.stringtable).
+**Items.stringtable**:\
+- Added a few missing font tags to multiple entries (items.stringtable).
+**Statuseffects.stringtable**:\
+- Added missing `line-height` tags (statuseffects.stringtable).
+- Fixed a few incorrectly applied font stylizations (statuseffects.stringtable).
+
+Mod 0.6.0 patch notes can be found [here](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/beta/changelog.md#changelog).
+
 ### Mod version 0.4 is released (and the mod changes name)
-**19th of June 2018**\
+**19th of June 2018**
 To the great dismay of my fellow co-modders/translators, I am sure, I've just put the finishing touches to the latest version of this mod. The beta version will only be available in English for now but hopefully we'll see German and Italian language support coming shortly!
 
 **New features in mod version 0.4:**
