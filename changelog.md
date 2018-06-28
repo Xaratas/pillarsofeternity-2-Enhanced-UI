@@ -1,4 +1,24 @@
-## CHANGELOG (BETA)
+## CHANGELOG
+## 0.5.3
+**Abilities.stringtable**:\
+- Removed a duplicated `line-height` tag in ID 564.
+- Added the "Penetrate" keyword to 32 new entries.
+- Added the keyword "Armor Rating" to 14 new entries.
+- Removed ID incorrectly applied text stylization to ID 607, 631, 643, 811, 1573, 1962, 1964, 1967, 1968, 2271, 2896, 2898, 2900 and 2902.
+- Added missing keywords to ID's 614, 831, 925, 2039, 2663, 2732, 3923, 4092, 4166 and 4774.
+- Might inspiration Energized should now have the correct color code.
+- Fixed broken links to glossary entry `Terrified`.
+**Cyclopedia.stringtable**:
+- Added missing `line-height` tag in ID `679`.
+- Added support for the keywords `Armor Rating` and `Penetrate`.
+**Gui.stringtable**:
+- Added a lot of missing entries.
+**Items.stringtable**:
+- Added a few missing font tags to multiple entries.
+**Statuseffects.stringtable**:
+- Added missing `line-height` tags.
+- Fixed a few incorrectly applied font stylizations.
+
 ### 0.5.2
 - Updated the mod for game build `1.2.0.0008`.
 ### 0.5.1
