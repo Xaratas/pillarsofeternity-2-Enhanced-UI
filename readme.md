@@ -14,7 +14,7 @@ This mod aims to improve the standard user interface by highlighting gameplay me
 Obsidian Entertainment just released a beta version of the [1.2.0.0008](https://forums.obsidian.net/topic/103043-patch-120-updates-thread/) game build! There are a lot of cool new features that you should be really excited about, like the [modding documentation](https://eternity.obsidian.net/game-data-formats/concepts) or the fact that we now got a built-in mod manager!
 
 Anyway, I squished a few bugs and added a few missing features to the mod which can be read below:
-#### 0.6.0
+#### Mod version 0.6.0
 **Abilities.stringtable**:
 - Removed a duplicated `line-height` tag in ID 564 (abilities.stringtable).
 - Added the "Penetrate" keyword to 32 new entries (abilities.stringtable).
