@@ -1,4 +1,6 @@
 ## CHANGELOG (BETA)
+### 0.5.2
+- Updated the mod for game build `1.2.0.0008`.
 ### 0.5.1
 - Added missing keywords to Entry `240` and `1470`.
 - Added missing cyclopedia link and icon to the keyword "Armor Rating" in `statuseffects.stringtable`.
