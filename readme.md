@@ -22,19 +22,19 @@ Anyway, I squished a few bugs and added a few missing features to the mod which 
 - Removed ID incorrectly applied text stylization to ID 607, 631, 643, 811, 1573, 1962, 1964, 1967, 1968, 2271, 2896, 2898, 2900 and 2902 (abilities.stringtable).
 - Added missing keywords to ID's 614, 831, 925, 2039, 2663, 2732, 3923, 4092, 4166 and 4774 (abilities.stringtable).
 - Might inspiration Energized should now have the correct color code (abilities.stringtable).
-- Fixed broken links to glossary entry `Terrified` (abilities.stringtable).
-**Cyclopedia.stringtable**:\
+- Fixed broken links to glossary entry `Terrified` (abilities.stringtable).\
+**Cyclopedia.stringtable**:
 - Added missing `line-height` tag in ID `679 (cyclopedia.stringtable).
-- Added support for the keywords `Armor Rating` and `Penetrate (cyclopedia.stringtable).
-**Gui.stringtable**:\
-- Added a lot of missing entries (gui.stringtable).
-**Items.stringtable**:\
-- Added a few missing font tags to multiple entries (items.stringtable).
-**Statuseffects.stringtable**:\
+- Added support for the keywords `Armor Rating` and `Penetrate (cyclopedia.stringtable).\
+**Gui.stringtable**:
+- Added a lot of missing entries (gui.stringtable).\
+**Items.stringtable**:
+- Added a few missing font tags to multiple entries (items.stringtable).\
+**Statuseffects.stringtable**:
 - Added missing `line-height` tags (statuseffects.stringtable).
 - Fixed a few incorrectly applied font stylizations (statuseffects.stringtable).
 
-Mod 0.6.0 patch notes can be found [here](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/beta/changelog.md#changelog).
+Mod patch notes can always be found [here](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/beta/changelog.md#changelog).
 
 ### Mod version 0.4 is released (and the mod changes name)
 **19th of June 2018**\
