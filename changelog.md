@@ -1,4 +1,9 @@
 ## CHANGELOG
+### 0.6.1
+- Removed duplicated text sections from the Penetration entry (cyclopedia.stringtable).
+- Removed a unnecessary keyword stylization from entry ID `435` (abilities.stringtable)
+- Added missing keywords to entries `4416`, `4419`, `4420` and `4422` (abilities.stringtable).
+
 ### 0.6.0
 **Abilities.stringtable**:\
 - Removed a duplicated `line-height` tag in ID 564 (abilities.stringtable).
