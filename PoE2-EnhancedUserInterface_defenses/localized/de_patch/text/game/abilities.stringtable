@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3285</EntryCount>
+  <EntryCount>3288</EntryCount>
   <Entries>
     <Entry>
       <ID>237</ID>
@@ -1437,8 +1437,13 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3833</ID>
+      <DefaultText>Während der Grabhund-Welpe dir folgt, erteilst du zusätzlichen Schaden gegen Gefäße und alle Gruppenmitglieder erleiden verringerten &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3835</ID>
-      <DefaultText>Bereite ein Ziel auf deine Klinge vor. Senkt Nahkampfabwehr und &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert des Ziels.</DefaultText>
+      <DefaultText>Bereite ein Ziel auf deine Klinge vor. Senkt Nahkampfabwehr des Ziels und seinen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gegen &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hiebschaden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1453,7 +1458,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>3866</ID>
-      <DefaultText>Während Xopn’aua dir folgt, erhältst du einen Bonus auf Einsicht und Metaphysik. Darüber hinaus erhält deine Gruppe einen Bonus auf &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;.</DefaultText>
+      <DefaultText>Während Xopn’aua dir folgt, erhältst du einen Bonus auf Tiefblick und Metaphysik. Darüber hinaus erhält deine Gruppe einen Bonus auf &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
