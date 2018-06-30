@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\statuseffects</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>522</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>0</ID>
+      <DefaultText>{0:value:percent} de chance do ataque &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Abalado &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; conseguir um Acerto</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>10</ID>
+      <DefaultText>Ataque &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Abalado &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; em alvos Kins ou Selvagens se conseguir um Crítico</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>26</ID>
+      <DefaultText>Enfureça, ganhando &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Ágil &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenaz &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>77</ID>
+      <DefaultText>Chance de causar &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Mancando &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, Nocaute e Dano Puro ao longo do tempo por 12.0 segundos, ou -25% Velocidade de Ação no alvo quando em Crítico</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>149</ID>
+      <DefaultText>Chance de deixar &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Abalado &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; o alvo com Acerto Crítico</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>150</ID>
+      <DefaultText>Chance de deixar &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Abalado &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; o alvo e os inimigos próximos com Acerto Crítico</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>165</ID>
+      <DefaultText>Ataque &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Amedrontado &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; em um alvo kin ou Selvagem quando acertar Crítico</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>172</ID>
+      <DefaultText>Inspiração &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Resistente &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; pra si mesmo quando um aliado cai inconsciente</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>181</ID>
+      <DefaultText>{0:value:percent} chance de lançar um ataque &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Ofuscado &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; no alvo quando Errar o ataque no combate corpo a corpo</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>252</ID>
+      <DefaultText>{0:value:percent} chance de deixar o alvo &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Mancando &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; durante o Acerto</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>256</ID>
+      <DefaultText>{0:value:percent} de chance do alvo se ficar &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; por {0:extravalue:duration} no Acerto</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>257</ID>
+      <DefaultText>Se o alvo está &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distraído &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; se torna Vulnerável quando acertado por Crítico</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>323</ID>
+      <DefaultText>Duas Mãos recebe &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Desconcertado &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; por {0:extravalue:duration}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>325</ID>
+      <DefaultText>Duas Mãos recebe &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Ofuscado &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; por {0:extravalue:duration}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>392</ID>
+      <DefaultText>Coroa da Alma concede as Inspirações &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Esperto &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; por {0:value:duration}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>399</ID>
+      <DefaultText>Acertos Críticos pode causar Aflições de &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Adoecido &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; ou &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Mancando &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; por {0:extravalue:duration}.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>400</ID>
+      <DefaultText>Ao ficar Inconsciente, lança uma AdE que concede &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Firme &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; aos Aliados por {0:extravalue:duration} e ativa um Ataque Completo contra os Inimigos.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>413</ID>
+      <DefaultText>Concede a Inspiração Inteligente para Si Mesmo e a Aflição &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; para um inimigo por {0:value:duration} enquanto engajado pela primeira vez em combate.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>446</ID>
+      <DefaultText>Receber Acertos Críticos de Ataques de Combate Corpo a Corpo possui {0:value:percent} de chance de deixar atacantes Confusos (melhora para &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Encantado &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; no Acerto Crítico)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>451</ID>
+      <DefaultText>{0:value:percent} de chance de lançar Dano de Corrosão numa Área de Efeito cônica de si e deixar o alvo &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Mancando &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; ao atacar</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>488</ID>
+      <DefaultText>{0:value:percent} de chances de aplicar &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Amedrontado &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; por {0:extravalue:duration} ao conseguir Acerto (excluem-se raspões)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>489</ID>
+      <DefaultText>{0:value:percent} de chance de aplicar &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Aterrorizado &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; por {0:extravalue:duration} ao conseguir Acerto (excluem-se raspões)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>512</ID>
+      <DefaultText>{0:value:percent} de chance de &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Em Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; para {0:extravalue:duration} em si mesmo quando conseguir Acerto</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

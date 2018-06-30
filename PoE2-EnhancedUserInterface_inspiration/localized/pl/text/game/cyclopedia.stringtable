@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\cyclopedia</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>884</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>108</ID>
+      <DefaultText>Przypadłość związana ze zręcznością. Okulawione postacie mają zręczność obniżoną o 5 oraz mniejszą &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkość &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; ruchu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>140</ID>
+      <DefaultText>Trafienie krytyczne to atak z wynikiem rzutu 100 lub więcej. Jeśli takie trafienie powoduje obrażenia, zostają one zwiększone o 25%, zaś jego penetracja o 50%. Trafienie krytyczne w przypadku efektów trwających przez pewien czas (jak np. &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;paraliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; lub &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;) przedłuża ów okres o 25%.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>148</ID>
+      <DefaultText>Przypadłości to grupa negatywnych efektów, jakie mogą zostać nałożone na postać. Większość z nich grupowana jest według atrybutów – na przykład zarówno &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;okulawienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, jak i &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;unieruchomienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; stanowią przypadłości związane ze zręcznością.
+
+Przypadłości danego atrybutu można łatwo skontrować za pomocą odpowiadającej im inspiracji, która zapewnia również niewrażliwość na daną kategorię przypadłości. Przykładowo dowolna przypadłość związana ze zręcznością może zostać zniesiona przez inspirację szybkości, lotności albo zwinności.
+
+Niektóre postacie są całkowicie niewrażliwe na jedną lub więcej przypadłości. Jeśli dany bohater jest odporny na kategorię przypadłości, te, które otrzymuje, mają zmniejszoną siłę. Odporność zapewnia też całkowitą niewrażliwość na najsłabsze przypadłości danej cechy.
+
+Leśne elfy są na przykład odporne na przypadłości związane ze zręcznością. Osobnik tego gatunku, którego dotknie &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;unieruchomienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, zostaje zamiast tego okulawiony. Jeśli dotknęłoby go &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;okulawienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, nie zostałoby ono w ogóle nałożone.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>203</ID>
+      <DefaultText>Nawiązanie walki jest możliwe dzięki czarom, zdolnościom, talentom lub noszeniu tarczy.
+
+Ma ono miejsce podczas każdego ataku postaci podejmowanego w zwarciu: kiedy znajdzie się ona odpowiednio blisko wroga, nawiąże walkę i – jeśli nastąpi to po raz pierwszy – przestanie się przemieszczać. Będzie mogła, co prawda, wciąż krążyć wokół przeciwnika, ale odejście sprowokuje atak związany z odstąpieniem od walki. Gdy nastąpi owo odstąpienie, wróg może ponownie nawiązać walkę dopiero po upływie określonego czasu.
+
+Nawiązywanie walki może zostać uniemożliwione przez niektóre przypadłości, m.in. te związane z mocą, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;paraliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, skamienienie czy powalenie. Każdy z tych efektów automatycznie przerywa starcie, można je więc wykorzystywać do wydostawania się z opresji.
+
+Niektóre istoty, zwłaszcza dużych rozmiarów, mogą nawiązać walkę z więcej niż jedną postacią naraz.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>687</ID>
+      <DefaultText>Przypadłości okulawienia, unieruchomienia i paraliżu wpływają na cechę zręczności. Można im zaradzić poprzez inspiracje zręczności (&lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkość &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;lotność &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;zwinność &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>695</ID>
+      <DefaultText>Przypadłości wytrącenia z równowagi, oszołomienia i ogłuszenia wpływają na cechę mocy. Można im zaradzić poprzez inspiracje mocy (siłę, &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;zawziętość &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://c56f70b5-b611-4dee-b80f-335033b98e2f"&gt;&lt;#ff4800&gt;pobudzenie &lt;sprite="Inline" name="attribute_might" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>696</ID>
+      <DefaultText>Przypadłości &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, osłabienia i wycieńczenia wpływają na cechę kondycji. Można im zaradzić poprzez inspiracje kondycji (&lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;sprawność &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;dzielność &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;krzepkość &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>697</ID>
+      <DefaultText>Przypadłości zamętu, zauroczenia i zdominowania wpływają na cechę intelektu. Można im zaradzić poprzez inspiracje intelektu (&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;mądrość &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://c4ada862-ee17-4c10-8967-734e08daa4aa"&gt;&lt;#00a4ff&gt;bystrość &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;geniusz &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>698</ID>
+      <DefaultText>Przypadłości rozkojarzenia, dezorientacji i oślepienia wpływają na cechę percepcji. Można im zaradzić poprzez inspiracje percepcji (&lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;wnikliwość &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;świadomość &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; i intuicję).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>699</ID>
+      <DefaultText>Przypadłości roztrzęsienia, przestraszenia i przerażenia wpływają na cechę stanowczości. Można im zaradzić poprzez inspiracje stanowczości (&lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;wytrwałość &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, zdecydowanie i odwagę).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>701</ID>
+      <DefaultText>Inspiracje siły, zawziętości i pobudzenia wpływają na cechę mocy. Mogą zostać zniesione przez przypadłości związane z mocą (&lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;wytrącenie z równowagi &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;oszołomienie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;ogłuszenie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>703</ID>
+      <DefaultText>Inspiracje sprawności, dzielności i krzepkości wpływają na cechę kondycji. Mogą zostać zniesione przez przypadłości związane z kondycją (&lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;osłabienie &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; lub &lt;link="gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1"&gt;&lt;#f7b733&gt;wycieńczenie &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>705</ID>
+      <DefaultText>Inspiracje szybkości, lotności i zwinności wpływają na cechę zręczności. Mogą zostać zniesione przez przypadłości związane ze zręcznością (&lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;okulawienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;unieruchomienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; lub &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;paraliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>707</ID>
+      <DefaultText>Inspiracje mądrości, bystrości i inspiracji wpływają na cechę intelektu. Mogą zostać zniesione przez przypadłości związane z intelektem (&lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;zamęt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;zauroczenie &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; lub &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;zdominowanie &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>709</ID>
+      <DefaultText>Inspiracje wnikliwości, świadomości i intuicji wpływają na cechę percepcji. Mogą zostać zniesione przez przypadłości związane z percepcją (&lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;rozkojarzenie &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, dezorientację i &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;oślepienie &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>711</ID>
+      <DefaultText>Inspiracje wytrwałości, zdecydowania i odwagi wpływają na cechę stanowczości. Mogą zostać zniesione przez przypadłości związane ze stanowczością (&lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;roztrzęsienie &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;przestraszenie &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;przerażenie &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>727</ID>
+      <DefaultText>Inspiracja zręczności. Lotne postacie mają zręczność zwiększoną o 5, a &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkość &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; ich ruchu rośnie o 100%.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>729</ID>
+      <DefaultText>Inspiracja zręczności. Zwinne postacie mają zręczność zwiększoną o 5, &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkość &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; ich ruchu rośnie o +100%, a wróg nie może nawiązać z nimi walki.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>753</ID>
+      <DefaultText>Odporność na dany rodzaj przypadłości sprawia, że nałożony na postać efekt ulega obniżeniu o jeden poziom. Oznacza to, że jeśli na przykład jest ona odporna na przypadłości związane z mocą i miałoby na nią zostać nałożone &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;ogłuszenie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, finalnym efektem będzie &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;oszołomienie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;. Owo &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;oszołomienie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; zostałoby obniżone do wytrącenia z równowagi, zaś &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;wytrącenie z równowagi &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; nie zostałoby w ogóle zastosowane.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>755</ID>
+      <DefaultText>Wrażliwość na dany rodzaj przypadłości sprawia, że nałożony na postać efekt ulega podwyższeniu o jeden poziom. Na przykład postać wrażliwa na przypadłości związane z mocą zamiast wytrącenia z równowagi otrzymuje &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;oszołomienie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, a zamiast oszołomienia – &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;ogłuszenie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\gui</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>4385</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>469</ID>
+      <DefaultText>Entschlossenheit trägt zur Dauer der feindlichen Wirkung bei wie auch zu den Verteidigungen Wille und Abwehr. Sie spiegelt den inneren Antrieb eines Charakters, seine Entschiedenheit und Furchtlosigkeit wieder.
+
+ 5 – Schüchtern
+10 – Durchschnitt
+15 – &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Starke &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;r &lt;xg&gt;Wille&lt;/xg&gt;
+20 – Furchtlos</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>470</ID>
+      <DefaultText>Macht trägt zum Waffenschaden, Heilungswirkung und der Tapferkeits-Verteidigung bei. Sie stellt die brachiale, körperliche Stärke eines Charakters dar ebenso wie seine Fähigkeit, starke Magie zu wirken.
+
+ 5 – Schwach
+10 – Durchschnitt
+15 – &lt;xg&gt;&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;&lt;/xg&gt;
+20 – Unglaublich mächtig</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>472</ID>
+      <DefaultText>Intellekt trägt zur Willensverteidigung bei und beeinflusst Dauer und Bereiche der Auswirkung für alle Fähigkeiten. Sie repräsentiert die logischen, argumentativen und schlussfolgernden Fähigkeiten eines Charakters.
+
+ 5 – Gering
+10 – Durchschnitt
+15 – Schlagfertig
+20 – &lt;xg&gt;&lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;Brillant &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;&lt;/xg&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1236</ID>
+      <DefaultText>{0} Schaden gegen Niedergestreckte, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubte &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, Flankierte Feinde</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2314</ID>
+      <DefaultText>Mindestschaden gegen &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrte &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Bezauberte &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Beherrschte &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; Charaktere</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2815</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Raserei gewährt die Inspirationen &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Hartnäckig &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; und&lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt; Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; anstelle von &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.
+
+Verschaffe dir während des Zustands der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen.
+
+&lt;b&gt;Abzug&lt;/b&gt;
+Während Raserei bist du &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.
+
+Während Raserei kannst du die Gesundheit nicht sehen.
+
+Während der Raserei erleidest du fortwährend direkten Schaden.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>
