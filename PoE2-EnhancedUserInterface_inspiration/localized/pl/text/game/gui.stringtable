@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\gui</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>4377</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>470</ID>
+      <DefaultText>Moc wpływa na obrażenia, efektywność leczenia oraz hart. Odzwierciedla umiejętności fizyczne postaci i jej siłę duchową, a także zdolność do korzystania z potężnej magii.
+
+5 – słabość
+10 – wartość przeciętna
+15 – &lt;xg&gt;&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;siła &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;&lt;/xg&gt;
+20 – ogromna &lt;xg&gt;&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;siła &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;&lt;/xg&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>471</ID>
+      <DefaultText>Zręczność wpływa na &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkość &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; działania postaci w przypadku wszystkich ataków, czarów oraz zdolności, a także stanowi jeden z czynników określających refleks. Jest ona kombinacją koordynacji wzrokowo-ruchowej, zwinności i ogólnej gracji ruchu.
+
+5 – niezdara
+10 – wartość przeciętna
+15 – &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;zwinność &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;
+20 – wcielenie gracji</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>472</ID>
+      <DefaultText>Intelekt wpływa na wolę oraz czas trwania i obszar działania wszystkich zdolności. Stanowi odzwierciedlenie logicznego myślenia, rozumowania i zdolności dedukcyjnych postaci.
+
+5 – głupota
+10 – wartość przeciętna
+15 – bystry umysł
+20 – &lt;xg&gt;&lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;geniusz &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;&lt;/xg&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>474</ID>
+      <DefaultText>Percepcja zwiększa celność i obronę – refleks, odzwierciedlając &lt;link="gamedata://c4ada862-ee17-4c10-8967-734e08daa4aa"&gt;&lt;#00a4ff&gt;bystrość &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; zmysłów postaci oraz jej instynktowną zdolność dostrzegania szczegółów takich jak pułapki czy ukryte przedmioty.
+
+5 – nie&lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;świadomość &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;
+10 – wartość przeciętna
+15 – spostrzegawczość
+20 – sokole oko</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2815</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
+Szał zapewnia inspiracje zawziętości i dzielności zamiast mocy i sprawności.
+
+Gdy postać wpada w szał, zadaje znacznie więcej obrażeń krytycznych wręcz i ataków masakry.
+
+&lt;b&gt;Kara&lt;/b&gt;
+Szał powoduje u postaci &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;zamęt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.
+
+W stanie szału poziom zdrowia jest niewidoczny.
+
+Postać w stanie szału otrzymuje nieustannie obrażenia bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2832</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
++1 nawiązanie walki.
+
+Zwiększona penetracja ataków przy odstąpieniu od walki.
+
+Postać zyskuje mistrzostwo tarczy, które zapewnia premię do skuteczności pancerza podczas używania tarczy.
+
+&lt;b&gt;Kara&lt;/b&gt;
+Mniejsza &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkość &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; ruchu podczas walki.
+
+Gorszy refleks.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2837</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
+Postać zdobywa płomienie poświęcenia.
+
+Zadają one dodatkowe obrażenia od kwasu (czarne płomienie) i wywołują u celów &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

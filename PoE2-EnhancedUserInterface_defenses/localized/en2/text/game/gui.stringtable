@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\gui</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>4377</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>367</ID>
+      <DefaultText>{0}% Damage and Healing, {1} &lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>368</ID>
+      <DefaultText>{0}% Health, {1} &lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>370</ID>
+      <DefaultText>{0} Accuracy, and {1} &lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>371</ID>
+      <DefaultText>{0}% Area of Effect, {1}% Ability Duration, and {2} &lt;sprite="Inline" name="cs_will" tint=1&gt; Will</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>372</ID>
+      <DefaultText>{0} Hostile Effect Duration, {1} &lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection, and {2} &lt;sprite="Inline" name="cs_will" tint=1&gt; Will</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>469</ID>
+      <DefaultText>Resolve contributes towards reducing Hostile Effect Durations, as well as improving &lt;sprite="Inline" name="cs_will" tint=1&gt; Will and &lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection defenses. It reflects a character's internal drive, determination, and fearlessness.
+
+5 - Timid
+10 - Average
+15 - &lt;xg&gt;Strong&lt;/xg&gt;-&lt;sprite="Inline" name="cs_will" tint=1&gt; Willed
+20 - Fearless</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>470</ID>
+      <DefaultText>Might contributes to Damage, Healing Effectiveness, and the &lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude defense. It represents a character's physical and spiritual strength, brute force as well as their ability to channel powerful magic.
+
+5 - Weak
+10 - Average
+15 - &lt;xg&gt;Strong&lt;/xg&gt;
+20 - Fantastically Powerful</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>471</ID>
+      <DefaultText>Dexterity affects the character's Action Speed with all attacks, spells, and abilities and contributes to the &lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex defense. It represents a combination of hand-eye coordination, swiftness, and overall grace.
+
+5 - Clumsy
+10 - Average
+15 - Agile
+20 - Incredibly Graceful</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>472</ID>
+      <DefaultText>Intellect contributes to the &lt;sprite="Inline" name="cs_will" tint=1&gt; Will defense and influences Durations and Areas of Effect for all Abilities. It represents a character's logic, reasoning, and deduction capabilities.
+
+5 - Dim
+10 - Average
+15 - &lt;xg&gt;Quick&lt;/xg&gt;-Witted
+20 - &lt;xg&gt;Brilliant&lt;/xg&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>473</ID>
+      <DefaultText>Constitution affects Health and the &lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude defense. It represents a combination of the character's overall health and stamina.
+
+5 - Frail
+10 - Average
+15 - &lt;xg&gt;Healthy&lt;/xg&gt;
+20 - Indestructible</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>474</ID>
+      <DefaultText>Perception contributes to Accuracy and the &lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex defense. &lt;xg&gt;Perception&lt;/xg&gt; represents a character's senses as well as their instinctive ability to pick up on details, such as detecting traps or hidden objects.
+
+5 - Oblivious
+10 - Average
+15 - Observant
+20 - Eagle-Eyed</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1147</ID>
+      <DefaultText>Drains {0} Resolve for {1} &lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1169</ID>
+      <DefaultText>{0} Accuracy, &lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection, &lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex against distant enemies</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1175</ID>
+      <DefaultText>{0} of incoming Hits converted to Grazes (&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection or &lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex only)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1176</ID>
+      <DefaultText>{0} of incoming Hits converted to Grazes (&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude or &lt;sprite="Inline" name="cs_will" tint=1&gt; Will only)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1214</ID>
+      <DefaultText>{0} of incoming Grazes converted to Misses (&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex only)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1261</ID>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection against ranged attacks</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1466</ID>
+      <DefaultText>Druids select a damage type (&lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Pierce, &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crush, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn, &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze, or &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock) that is added to any attack they use that inflicts damage of one of those types to a target.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1582</ID>
+      <DefaultText>{0}% Action Speed and {1} &lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1628</ID>
+      <DefaultText>{0} Shield &lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1629</ID>
+      <DefaultText>Shield &lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection bonus also applies to &lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1676</ID>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection while wielding a two-handed weapon</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1739</ID>
+      <DefaultText>{0} All Defenses except &lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2815</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Frenzy grants the Tenacious and Hardy Inspirations, instead of Strong and Fit.
+
+Gain significant Hit to Crit conversion on melee and carnage attacks while frenzied.
+
+&lt;b&gt;Penalty&lt;/b&gt;
+Confused while frenzied.
+
+Cannot see Health while frenzied.
+
+Takes &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage continuously while frenzied.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2823</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Gains "Soul Annihilation" ability: A soul enhanced melee strike that consumes the cipher's remaining power pool and converts it into &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage on the target.
+
+Shred cipher spells cost less Focus.
+
+Downing an enemy with a Melee Weapon temporarily grants Concentration and raises Max Focus.
+
+&lt;b&gt;Penalty&lt;/b&gt;
+Max Focus is reduced. (Combat starting amount as well)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2827</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Instead of an animal form, Furies spiritshift into a storm blight.
+
+Elemental druid spells gain increased range and &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration.
+
+Killing an enemy while spiritshifted extends the duration of the shift.
+
+Automatically learn the following druid spells at new power levels:
+1. Dancing Bolts
+2. Burst of Summer Flame
+3. Returning Storm
+4. Hail Storm
+5. Relentless Storm
+6. Sunlance
+7. Weather the Storm
+8. Avenging Storm
+9. Great Maelstrom
+
+&lt;b&gt;Penalty&lt;/b&gt;
+Cannot cast Rejuvenation spells.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2830</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+May select a single weapon proficiency as their chosen weapon.
+
+Increased &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration with their chosen weapon.
+
+Increased Critical Hit damage with their chosen weapon.
+
+&lt;b&gt;Penalty&lt;/b&gt;
+Accuracy is penalized whenever using a weapon that is not their chosen weapon.
+
+Only gain a single proficiency and no new proficiencies during level up.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2832</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
++1 Engagement.
+
+Increased &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration on Disengagement Attacks.
+
+Gains "Shield Mastery" providing bonus &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating while wearing a shield.
+
+&lt;b&gt;Penalty&lt;/b&gt;
+Lower Stride in combat.
+
+Lower &lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexes.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2837</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Gain Flames of Devotion.
+
+Flames of Devotion deals additional &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode damage (Black Flames) and applies the Sickened Affliction to targets.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2839</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Gain Sworn Enemy.
+
+Sworn Enemy gains the upgrade "Gilded Enmity" which causes the paladin to be imbued with a blessing of gold when they declare a Sworn Enemy. The paladin receives bonus &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating until struck enough times for the gold to break.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2849</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Bonus Hit to Crit conversion when attacking targets greater than 4m away.
+
+Bonus &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration when attacking targets 4m or closer.
+
+&lt;b&gt;Penalty&lt;/b&gt;
+Slower Recovery Time.
+
+Lower &lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2850</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+The stalker and their companion gain bonus &lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection and &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating when within 4m of each other.
+
+&lt;b&gt;Penalty&lt;/b&gt;
+The stalker and their companion suffer Bonded Grief when they are more than 7m from each other.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2853</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Gain the "Assassinate" passive which grants stealth attacks bonus &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration, Accuracy, and Critical Hit damage.
+
+&lt;b&gt;Penalty&lt;/b&gt;
+All damage received is increased.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3012</ID>
+      <DefaultText>{0:Value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3028</ID>
+      <DefaultText>{0:Value} &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3938</ID>
+      <DefaultText>{0:Value} {0:DamageType} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>
