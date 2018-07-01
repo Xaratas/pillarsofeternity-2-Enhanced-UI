@@ -1,7 +1,11 @@
 ## CHANGELOG
-### 0.6.1
+### 0.6.1-beta.2
+- Changed the color of reputation gains and losses to a slightly darker hue.
+- Added a missing keyword to ID `2843` (Minoletta's Missile Salvo).
+
+### 0.6.1-beta.1
 - Removed duplicated text sections from the Penetration entry (cyclopedia.stringtable).
-- Removed a unnecessary keyword stylization from entry ID `435` (abilities.stringtable)
+- Removed a unnecessary keyword stylization from entry ID `435` (abilities.stringtable).
 - Added missing keywords to entries `4416`, `4419`, `4420` and `4422` (abilities.stringtable).
 
 ### 0.6.0
