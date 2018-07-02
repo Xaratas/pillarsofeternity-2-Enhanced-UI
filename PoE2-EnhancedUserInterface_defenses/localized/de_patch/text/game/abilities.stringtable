@@ -1578,7 +1578,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>4338</ID>
-      <DefaultText>Feuert einen Pfeil auf einen Verbündeten ab. Der Träger erleidet &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden, während das Ziel Gesundheit erhält. Die erhaltene Gesundheit wird durch die Religionskompetenz des Trägers erhöht.</DefaultText>
+      <DefaultText>Feuert einen Pfeil auf einen Verbündeten ab. Der Träger erleidet &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden, während das Ziel Gesundheit erhält. Die erhaltene Gesundheit wird durch die Fertigkeit Religion des Trägers erhöht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1624,6 +1624,11 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     <Entry>
       <ID>4382</ID>
       <DefaultText>Schwingt die Klinge in einem weiten Bogen, wodurch alle nahen Ziele &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hieb-/&lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden erleiden, zurückgeworfen und zum Humpeln gebracht werden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4384</ID>
+      <DefaultText>Spießt ein Ziel auf, wirft es zurück und lässt es mit &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden bluten.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

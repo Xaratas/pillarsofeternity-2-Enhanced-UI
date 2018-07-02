@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\statuseffects</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>523</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>70</ID>
+      <DefaultText>{0:value} &lt;link="glossary://GlossaryEntry_&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;"&gt;Воли&lt;/link&gt; цели в течение {0:extravalue:duration}, при обычном или критическом попадании (суммируется {0:triggercount} р.)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>125</ID>
+      <DefaultText>{0:value} &lt;link="stringtooltip://cyclopedia/2043"&gt;Все защиты&lt;/link&gt;, кроме &lt;link="glossary://GlossaryEntry_&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;"&gt;Отклонения&lt;/link&gt; (эффект повышается с ростом навыка &lt;link="glossary://GlossaryEntry_History"&gt;Истории&lt;/link&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>209</ID>
+      <DefaultText>{0:value} &lt;link="stringtooltip://cyclopedia/2043"&gt;Все защиты&lt;/link&gt; кроме &lt;link="glossary://GlossaryEntry_&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;"&gt;Отклонения&lt;/link&gt; в течение {0:extravalue:duration}, для ближайших союзников, за каждое убийство Ключеломом.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>284</ID>
+      <DefaultText>Недомогание на 12 сек. при критическом попадании. Блокируется &lt;link="glossary://GlossaryEntry_&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;"&gt;Стойкостью&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>287</ID>
+      <DefaultText>+10% Урон в ближнем бою и +5 &lt;link="glossary://GlossaryEntry_&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;"&gt;Отклонение&lt;/link&gt; при &lt;link="glossary://GlossaryEntry_Engagement"&gt;вступлении в бой&lt;/link&gt; с противником (суммируется до 3 раз)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>347</ID>
+      <DefaultText>Получение критических попаданий увеличивает защиту &lt;link="glossary://GlossaryEntry_&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;"&gt;Волей&lt;/link&gt; на {0:value} до конца боя (суммируется до {0:extravalue:straight} раз)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>411</ID>
+      <DefaultText>Дает бонусное Отклонение при снижении запаса Здоровья. Вплоть до {0:value} &lt;link="glossary://GlossaryEntry_&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;"&gt;Отклонения&lt;/link&gt; при 0% Здоровья.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>424</ID>
+      <DefaultText>Получение критического попадания атаки огнем &lt;link="glossary://GlossaryEntry_Interruption"&gt;Упреждает&lt;/link&gt; и дает штраф {0:value} к &lt;link="glossary://GlossaryEntry_&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;"&gt;Воле&lt;/link&gt; на {0:extravalue:duration}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>463</ID>
+      <DefaultText>{0:value} &lt;link="stringtooltip://cyclopedia/2043"&gt;Все защиты&lt;/link&gt; кроме &lt;link="glossary://GlossaryEntry_&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;"&gt;Отклонения&lt;/link&gt; если отношения хорошие, {0:extravalue} &lt;link="stringtooltip://cyclopedia/2043"&gt;Все защиты&lt;/link&gt; кроме &lt;link="glossary://GlossaryEntry_&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;"&gt;Отклонения&lt;/link&gt; если отношения очень хорошие</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>469</ID>
+      <DefaultText>Случайным образом ненадолго дает {0:value} Класс Защиты, {0:value} &lt;link="glossary://GlossaryEntry_&lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration"&gt;Пробивание&lt;/link&gt; или {0:extravalue:percentbonus} &lt;link="glossary://GlossaryEntry_Recovery"&gt;Время восстановления&lt;/link&gt; при &lt;link="glossary://GlossaryEntry_Engagement"&gt;вступлении в бой&lt;/link&gt; с врагом.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

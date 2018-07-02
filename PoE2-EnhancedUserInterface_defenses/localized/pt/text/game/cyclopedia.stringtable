@@ -8,40 +8,40 @@
       <ID>84</ID>
       <DefaultText>Precisão faz parte de quase todo ataque. Ela influencia a probabilidade do ataque afetar o alvo. A precisão é definida primeiramente pela classe e nível do personagem, mas também é influenciada pela Percepção, Talentos e outros efeitos ativos, como feitiços e itens.
 
-Quando ocorre um ataque, a Precisão é comparada com uma defesa correspondente (Desvio,  &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;Fortitude&lt;/color&gt;,  &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;Reflex&lt;/color&gt;o ou Vontade) no alvo para determinar quanto do ataque será modificado. Se a Precisão estiver acima da defesa do alvo, as chances serão maior de resultar em um Acerto ou um Crítico, e há menos chance de resultar em um Raspão ou Erro.</DefaultText>
+Quando ocorre um ataque, a Precisão é comparada com uma defesa correspondente (Desvio, &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o ou Vontade) no alvo para determinar quanto do ataque será modificado. Se a Precisão estiver acima da defesa do alvo, as chances serão maior de resultar em um Acerto ou um Crítico, e há menos chance de resultar em um Raspão ou Erro.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>88</ID>
-      <DefaultText> &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;Fortitude&lt;/color&gt; resiste à ataques ao sistema físico interno do personagem (como veneno, doença, etc.).
+      <DefaultText>&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt; resiste à ataques ao sistema físico interno do personagem (como veneno, doença, etc.).
  É definida pela classe, nível, Força e Constituição do personagem, mas também pode ser influenciada por outros efeitos.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>90</ID>
-      <DefaultText>A defesa  &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;Reflex&lt;/color&gt;o permite aos personagens se esquivarem de ataques físicos AdE (como explosões, raios etc.). É definida pela classe, nível, Destreza e Percepção do personagem, mas também pode ser influenciada por outros efeitos.</DefaultText>
+      <DefaultText>A defesa &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o permite aos personagens se esquivarem de ataques físicos AdE (como explosões, raios etc.). É definida pela classe, nível, Destreza e Percepção do personagem, mas também pode ser influenciada por outros efeitos.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>134</ID>
-      <DefaultText>Uma lesão de Tornozelo Torcido reduz a defesa  &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;Reflex&lt;/color&gt;o de um personagem.</DefaultText>
+      <DefaultText>Uma lesão de Tornozelo Torcido reduz a defesa &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o de um personagem.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>146</ID>
-      <DefaultText>Existem quatro defesas em Pillars of Eternity: Desvio,  &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;Fortitude&lt;/color&gt;,  &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;Reflex&lt;/color&gt;o e Vontade. Cada defesa é usada para resistir a uma categoria diferente de ataques durante a Rolagem de Ataque. Desvio é usada para resistir a maioria dos ataques diretos de armas ou ataques que são similares à armas.  &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;Fortitude&lt;/color&gt; se opõe à tentativas físicas de dominar um personagem ou atacar seu corpo internamente (por exemplo: via envenenamento). Ataques com efeito físico em área, como bolas de fogo e raios são resistidos por  &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;Reflex&lt;/color&gt;o. Quase todos os ataques mentais são resistidos por Vontade.
+      <DefaultText>Existem quatro defesas em Pillars of Eternity: Desvio, &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o e Vontade. Cada defesa é usada para resistir a uma categoria diferente de ataques durante a Rolagem de Ataque. Desvio é usada para resistir a maioria dos ataques diretos de armas ou ataques que são similares à armas. &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt; se opõe à tentativas físicas de dominar um personagem ou atacar seu corpo internamente (por exemplo: via envenenamento). Ataques com efeito físico em área, como bolas de fogo e raios são resistidos por &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o. Quase todos os ataques mentais são resistidos por Vontade.
 
- &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;Fortitude&lt;/color&gt;,  &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;Reflex&lt;/color&gt;o e Vontade são baseados em pares de atributos. Força e Constituição definem  &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;Fortitude&lt;/color&gt;. Destreza e Percepção definem  &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;Reflex&lt;/color&gt;o. Intelecto e Determinação definem Vontade.  &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;Reflex&lt;/color&gt;o base é definido pela Determinação e classe do personagem. Todos os personagens recebem bônus em suas defesas à cada nível. Além disso, feitiços, habilidades, aflições e itens podem modificar a defesa de um personagem.</DefaultText>
+&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o e Vontade são baseados em pares de atributos. Força e Constituição definem &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;. Destreza e Percepção definem &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o. Intelecto e Determinação definem Vontade. &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o base é definido pela Determinação e classe do personagem. Todos os personagens recebem bônus em suas defesas à cada nível. Além disso, feitiços, habilidades, aflições e itens podem modificar a defesa de um personagem.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>150</ID>
-      <DefaultText>Uma habilidade ou talento Passivos são aqueles que podem ser adicionados a um personagem onde o bônus é ganho automaticamente. Por exemplo, os bônus de  &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;Reflex&lt;/color&gt;o ganhos por um personagem com  &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;Reflex&lt;/color&gt;o de Cobra são salvos automaticamente.</DefaultText>
+      <DefaultText>Uma habilidade ou talento Passivos são aqueles que podem ser adicionados a um personagem onde o bônus é ganho automaticamente. Por exemplo, os bônus de &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o ganhos por um personagem com &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o de Cobra são salvos automaticamente.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>154</ID>
-      <DefaultText>Todos os ataques em Pillars of Eternity comparam o valor de Precisão do atacante com uma de quatro defesas: Desvio (ataques corpo a corpo e de longo alcance),  &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;Fortitude&lt;/color&gt; (ataques ao sistema do corpo, como veneno e doença),  &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;Reflex&lt;/color&gt;o (ataques com dano em área) e Vontade (ataques mentais). 
+      <DefaultText>Todos os ataques em Pillars of Eternity comparam o valor de Precisão do atacante com uma de quatro defesas: Desvio (ataques corpo a corpo e de longo alcance), &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt; (ataques ao sistema do corpo, como veneno e doença), &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o (ataques com dano em área) e Vontade (ataques mentais). 
 
 Um número entre 1 e 100 é gerado e adicionado à diferença entre Precisão e defesa, para determinar os resultados do ataque. Menos ou igual a 30 = Erro, 31-50 = Raspão, 51-100 = Acerto, maior que 100 = Crítico. 
 
@@ -52,12 +52,12 @@ Por padrão, apenas alguns ataques são capazes de atingir de raspão, a menos q
     </Entry>
     <Entry>
       <ID>192</ID>
-      <DefaultText>Defesas Secundárias são usadas contra ataques com efeitos secundários, como por exemplo o veneno em uma adaga. Nesse exemplo, o primeiro ataque (o golpe da adaga) tem como alvo uma defesa (Desvio) e o veneno do ataque apenas será ativado se o primeiro ataque acertar. Se o ataque acertar, então a Defesa Secundária (nesse caso,  &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;Fortitude&lt;/color&gt; contra Veneno) irá determinar o efeito. Se o ataque inicial falhar, então a Defesa Secundária não será utilizada.</DefaultText>
+      <DefaultText>Defesas Secundárias são usadas contra ataques com efeitos secundários, como por exemplo o veneno em uma adaga. Nesse exemplo, o primeiro ataque (o golpe da adaga) tem como alvo uma defesa (Desvio) e o veneno do ataque apenas será ativado se o primeiro ataque acertar. Se o ataque acertar, então a Defesa Secundária (nesse caso, &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt; contra Veneno) irá determinar o efeito. Se o ataque inicial falhar, então a Defesa Secundária não será utilizada.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>324</ID>
-      <DefaultText>Personagens Inconscientes não podem realizar nenhuma ação. Destreza é reduzida para 0.  &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;Reflex&lt;/color&gt;o e Desvio são reduzidos em 40.</DefaultText>
+      <DefaultText>Personagens Inconscientes não podem realizar nenhuma ação. Destreza é reduzida para 0. &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o e Desvio são reduzidos em 40.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
