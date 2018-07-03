@@ -1,7 +1,18 @@
 ## CHANGELOG
+### Version 0.7.1
+- Updated to the correct it version.
+
+### Version 0.7
+- Added Damage Types for de_patch.
+- Added Defense Icons for de_patch.
+- Included ru.
+- Updated it.
+- Fixed a few en entries.
+
 ### 0.6.1-beta.2
 - Changed the color of reputation gains and losses to a slightly darker hue.
 - Added a missing keyword to ID `2843` (Minoletta's Missile Salvo).
+- Updated the mod for game build `1.2.0.0009`.
 
 ### 0.6.1-beta.1
 - Removed duplicated text sections from the Penetration entry (cyclopedia.stringtable).
@@ -9,22 +20,17 @@
 - Added missing keywords to entries `4416`, `4419`, `4420` and `4422` (abilities.stringtable).
 
 ### 0.6.0
-**Abilities.stringtable**:\
-- Removed a duplicated `line-height` tag in ID 564 (abilities.stringtable).
+- Removed a duplicated `line-height` tag in ID `564` (abilities.stringtable).
 - Added the "Penetrate" keyword to 32 new entries (abilities.stringtable).
 - Added the keyword "Armor Rating" to 14 new entries (abilities.stringtable).
-- Removed ID incorrectly applied text stylization to ID 607, 631, 643, 811, 1573, 1962, 1964, 1967, 1968, 2271, 2896, 2898, 2900 and 2902 (abilities.stringtable).
-- Added missing keywords to ID's 614, 831, 925, 2039, 2663, 2732, 3923, 4092, 4166 and 4774 (abilities.stringtable).
-- Might inspiration Energized should now have the correct color code (abilities.stringtable).
+- Removed ID incorrectly applied text stylization to ID `607`, `631`, `643`, `811`, `1573`, `1962`, `1964`, `1967`, `1968`, `2271`, `2896`, `2898`, `2900` and `2902` (abilities.stringtable).
+- Added missing keywords to ID's `614`, `831`, `925`, `2039`, `2663`, `2732`, `3923`, `4092`, `4166` and `4774` (abilities.stringtable).
+- The Might inspiration Energized should now have the correct color code (abilities.stringtable).
 - Fixed broken links to glossary entry `Terrified` (abilities.stringtable).
-**Cyclopedia.stringtable**:\
-- Added missing `line-height` tag in ID `679 (cyclopedia.stringtable).
-- Added support for the keywords `Armor Rating` and `Penetrate (cyclopedia.stringtable).
-**Gui.stringtable**:\
+- Added missing `line-height` tag in ID `679` (cyclopedia.stringtable).
+- Added support for the keywords `Armor Rating` and `Penetrate` (cyclopedia.stringtable).
 - Added a lot of missing entries (gui.stringtable).
-**Items.stringtable**:\
 - Added a few missing font tags to multiple entries (items.stringtable).
-**Statuseffects.stringtable**:\
 - Added missing `line-height` tags (statuseffects.stringtable).
 - Fixed a few incorrectly applied font stylizations (statuseffects.stringtable).
 
@@ -44,7 +50,7 @@
 - Updated `statuseffects.stringtable` to match the font stylizations in the other `.stringtable-files`.
 - All icons and ranks now have the same distance between the keyword and the icon (`0.7em`) and the icon and the rank indicator (`0.3em`). Probably needs further adjustments for each attribute to look "just right".
 - Attribute titles in entries `94`, `96`, `98`, `100`, `102`, `106`, `108`, `110`, `116`, `118`, `120`, `122`, `124`, `322`, `533`, `679`, `681`, `683`, `713`, `715`, `717`, `719`, `721`, `723`, `725`, `727`, `729`, `731`, `733`, `735`, `737`, `739`, `741`, `743`, `745`, `747` in `cyclopedia.stringtable` should now all have the same font size and placement.
-- Added missing `<FemaleText />` and `</Entry>` tags to ID `9`.\
+- Added missing `<FemaleText />` and `</Entry>` tags to ID `9`.
 
 **Side note(s):**
 - Added a lot of improvements to the macros I'm using which should result in less buggy texts as well as making it easier to adapt to future patches to the main game.
