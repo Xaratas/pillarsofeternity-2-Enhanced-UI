@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\items</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>2831</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>1798</ID>
+      <DefaultText>효과 범위에 있는 적들을 창백한 녹색 빛으로 빛나게 해서 더 쉽게 공격할 수 있습니다. 적들의 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;와 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;이 감소합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2361</ID>
+      <DefaultText>영혼 에너지가 담긴 이 칼들은 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입히며, 집중력을 수확해 칼들을 만든 영매사에게 전한다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2852</ID>
+      <DefaultText>어린 곰이 따라다니는 동안 &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;가 상승하며, 파티의 근접 공격 대미지가 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2866</ID>
+      <DefaultText>{0}의 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3114</ID>
+      <DefaultText>부식성 분말과 질식성 가스가 들어있는 깨지기 쉬운 구체. 폭발할 경우, 장치에서 산성 안개 구름이 뿜어져 나와 범위 내의 모두에게 &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; 대미지를 입히고 갑옷의 효율을 감소시킨다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3116</ID>
+      <DefaultText>철사와 폭탄 기본 구성으로 이뤄진 복합체. 살갗이나 갑옷 근처에 닿으면 구리 도화선이 불꽃을 튀긴다. 활성화시키면, 번개 그물이 장치에서 튀어나가 폭발에 휘말린 크리처에게 &lt;link="glossary://GlossaryEntry_Shock&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; 대미지를 입힌다. 일정 확률로 상대를 마비시킨다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3122</ID>
+      <DefaultText>파괴적인 힘을 가진 연금술 장치. 안쪽 깊은 곳에서 잃어버린 속삭임들이 발산되어, 파쇄와 어둠의 노래를 부른다. 폭발 시 생성되는 균열이 범위 내의 모두를 검은 수평선으로 끌어당겨 &lt;link="glossary://GlossaryEntry_Crushing&gt;&lt;b&gt;부수기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; 대미지를 입힌다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3138</ID>
+      <DefaultText>고약한 맛을 내는 영약으로, 피부와 신체 내부 구조를 변화시킨다. &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing&gt;&lt;b&gt;동결&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Shock&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; 대미지를 더 잘 버티도록 해주는 효과가 있다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3143</ID>
+      <DefaultText>거품이 이는 액체. 삼키게 되면 불타는 듯한 느낌이 들며, 머릿속에서는 분노가 들끓게 된다. &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;를 희생하는 대가로 행동 속도와 근접 대미지가 증가하는 효과가 있다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3145</ID>
+      <DefaultText>플라스크 안의 액체는 부글거리며 물결치고 있다. 영약을 삼키게 되면, 얼굴을 뒤틀어 악몽에서나 볼 법한 썩고 벌레가 들끓는 피부와 온갖 끔찍한 모양으로 변화시킨다. 근처의 적들을 &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;공포 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;와 &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;구역질 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;로 만드는 효과가 있다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3154</ID>
+      <DefaultText>신체의 &lt;link="gamedata://c56f70b5-b611-4dee-b80f-335033b98e2f"&gt;&lt;#ff4800&gt;활력&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;을 북돋워 신체 고통 감소 및 보호 효과가 있다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3180</ID>
+      <DefaultText>신체 조직에 스며들어, 지속 시간 동안 피부가 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing&gt;&lt;b&gt;동결&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Shock&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; 대미지에 면역이 되도록 해주는 영약. 주입된 물약이 소진되거나 강한 대미지를 받을 경우 보호는 깨진다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3394</ID>
+      <DefaultText>효과 범위 내 동료들에게 &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;통찰력&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화를 부여하는 신의 은총을 소환한다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3395</ID>
+      <DefaultText>읽는 이의 앞쪽으로 불의 원뿔을 생성하여, 효과 범위 내의 모두에게 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입힌다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3398</ID>
+      <DefaultText>한 줄기의 강렬한 햇빛을 불러내, 효과 범위 내에 있는 자들을 불태우고 일정 확률로 &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;실명 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;로 만듭니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3401</ID>
+      <DefaultText>읽는 이의 손에 강력한 검을 생성한다. 순수한 불의 날로 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입히며, 다른 무기로 교체 시 주문은 종료된다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3402</ID>
+      <DefaultText>공격적인 곤충 떼 한 무리를 불러들여, 지속적인 &lt;link="glossary://GlossaryEntry_Piercing&gt;&lt;b&gt;관통&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; 대미지를 입히고 효과 범위 내에 있는 모두의 집중력을 감소시킨다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3403</ID>
+      <DefaultText>긴 시간 동안 대상 동료에게 &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;건강함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화를 부여하는 기도서.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3404</ID>
+      <DefaultText>읽는 이와 대상 사이에 불타는 화염 광선을 만들어 대상과 광선의 경로에 들어온 모두에게 지속적인 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입힌다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3407</ID>
+      <DefaultText>읽는 이의 손에 에너지의 구슬을 생성한다. 적에게 던질 경우 효과 범위 내에 있는 모두에게 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing&gt;&lt;b&gt;동결&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, 또는 &lt;link="glossary://GlossaryEntry_Shock&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; 대미지를 입힌다. 주문이 종료될 때까지 블라이트는 지속적으로 채워진다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3409</ID>
+      <DefaultText>긴 시간 동안 대상 동료에게 &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;영리함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화를 부여하는 기도서.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3410</ID>
+      <DefaultText>소환된 거대한 사슴뿔로 명중시킨 첫 번째 대상을 공격하여, &lt;link="glossary://GlossaryEntry_Piercing&gt;&lt;b&gt;관통&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; 대미지를 입히고 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;와 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;에 페널티를 부여한다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3411</ID>
+      <DefaultText>읽는 이의 위치에서 두 개의 치명적인 바위를 날려보내, 그 경로에 있는 모두에게 &lt;link="glossary://GlossaryEntry_Crushing&gt;&lt;b&gt;부수기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; 대미지를 입히고, 단단한 표면과 닿을 경우 폭발해 파편이 근처의 모두를 관통하는 효과가 있다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3412</ID>
+      <DefaultText>원뿔 형태의 효과 범위에 있는 모두에게 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입히고 뒤로 밀어낸다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3414</ID>
+      <DefaultText>으스러뜨리는 힘을 가진 광선을 만들어, 대상과 광선에 맞은 모두를 &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;비틀거리게&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 만든다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3415</ID>
+      <DefaultText>대상에게 순수한 힘의 미사일 5개를 발사해, 인접한 적들에게 &lt;link="glossary://GlossaryEntry_Crushing&gt;&lt;b&gt;부수기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; 대미지를 입히는 충격파를 일으킨다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3418</ID>
+      <DefaultText>강렬한 빛의 횃불을 소환해, 효과 범위에 있는 적들의 모든 방어에 페널티를 주고 지속적인 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입힌다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3419</ID>
+      <DefaultText>땅에서 세 개의 돌 발톱이 솟아나 살을 돌로 바꾸면서, 범위 내에 붙잡힌 모두를 마비시키고 &lt;link="glossary://GlossaryEntry_Slashing&gt;&lt;b&gt;베기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; 대미지를 입힌다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3422</ID>
+      <DefaultText>대규모의 독충 무리를 소환해, 효과 범위 내에 있는 모두에게 지속적인 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입히고 집중력을 감소시키며 &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;구역질 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;로 만든다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3424</ID>
+      <DefaultText>읽는 이 주위에 끔찍한 지옥불을 출현시켜, 근처에 있는 모두에게 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입힌다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3429</ID>
+      <DefaultText>읽는 이는 신성한 화염 구슬을 적에게 던져 적의 보호를 제거하고 파멸을 가속시킨다. 5초 동안 지속적인 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입히고 대상에게 걸린 모든 유익한 효과(치유 제외) 및 지속적인 대미지 효과를 가속시킨다. 근처에 있는 최대 2명의 적에게 전이되는 효과가 있다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3432</ID>
+      <DefaultText>효과 범위에 끔찍한 불의 비를 내려, 범위 내의 모두에게 반복적으로 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입힌다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3435</ID>
+      <DefaultText>타는 듯한 바람이 전장에 불어닥쳐, 범위 내에 있는 모두에게 지속적인 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입히고 &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;약화 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;로 만든다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3436</ID>
+      <DefaultText>경이로운 힘을 가진 냉풍을 발생시켜 효과 범위 내의 모든 대상을 밀어내고 &lt;link="glossary://GlossaryEntry_Freezing&gt;&lt;b&gt;동결&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; 대미지를 입힌다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3437</ID>
+      <DefaultText>읽는 이는 효과 범위 내에 있는 자기 레벨 이하의 모든 영혼이나 베슬, 혹은 소환된 크리처를 파괴할 수 있게 된다. 읽는 이와 레벨이 같거나 높은 대상은 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입는다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3439</ID>
+      <DefaultText>불타는 유성들이 하늘에서 떨어져 지역을 내리친다. 충돌 시 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입히고, 추가로 지속적인 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입힌다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3639</ID>
+      <DefaultText>진저 데몬이 따라니는 동안 &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;통찰력&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;이 상승하며, 파티의 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;이 상승합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3640</ID>
+      <DefaultText>캐스린 본 킬리안 캣이 따라다니는 동안 지능이 상승하며, 모든 파티원의 &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;가 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3641</ID>
+      <DefaultText>릴 밥스가 따라다니는 동안 민첩이 상승하며, 적의 공격에 대한 모든 파티원의 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;가 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3650</ID>
+      <DefaultText>칠리가 따라다니는 동안 결의가 상승하며, 모든 파티원의 &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;가 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3653</ID>
+      <DefaultText>기즈모가 따라다니는 동안 전투 중 이동 속도가 상승하며, 모든 파티원의 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;이 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3655</ID>
+      <DefaultText>헴프가 따라다니는 동안 체질이 상승하며, 모든 파티원의 &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;가 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3659</ID>
+      <DefaultText>팬케이크가 따라다니는 동안 힘이 상승하며, &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지에 대한 파티의 저항력이 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3691</ID>
+      <DefaultText>심혼냥이가 따라다니는 동안 신비학과 형이상학 스킬이 상승하며, 모든 파티원이 불러내는 소환수의 힘과 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3695</ID>
+      <DefaultText>조프나우아가 따라다니는 동안 간파와 형이상학 스킬이 상승합니다. 더불어 모든 파티원의 &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;가 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4390</ID>
+      <DefaultText>어린 무덤 사냥개가 따라다니는 동안 베슬에 대한 대미지가 상승하며, &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; 대미지에 대한 파티원의 저항력이 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4410</ID>
+      <DefaultText>레어 댄이 따라다니는 동안 적에게 공격받을 때 스침 판정을 받을 확률이 상승하며, 모든 파티원의 &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;가 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4429</ID>
+      <DefaultText>읽는 이의 앞쪽으로 불의 원뿔을 생성하여, 효과 범위 내의 모두에게 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입힌다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4456</ID>
+      <DefaultText>아기 멧돼지가 따라다니는 동안 근접 무기로 공격할 때 대상을 방해할 확률이 상승하며, 모든 파티원의 &lt;link="glossary://GlossaryEntry_Slashing&gt;&lt;b&gt;베기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; 대미지가 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4645</ID>
+      <DefaultText>포치가 따라다니는 동안 화염 능력의 위력이 상승하며, 모든 파티원의 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;이 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4647</ID>
+      <DefaultText>소크라테스가 따라다니는 동안 직접 적을 처치할 때마다 체력을 일정량 회복하며, 근접 공격에 대한 모든 파티원의 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;가 상승합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4922</ID>
+      <DefaultText>코멧이 따라다니는 동안 힘이 상승하며, 적의 공격에 대한 파티원의 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;가 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5145</ID>
+      <DefaultText>{0}의 &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; 대미지 피해</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5149</ID>
+      <DefaultText>{0}의 &lt;link="glossary://GlossaryEntry_Shock&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; 대미지 피해</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>
