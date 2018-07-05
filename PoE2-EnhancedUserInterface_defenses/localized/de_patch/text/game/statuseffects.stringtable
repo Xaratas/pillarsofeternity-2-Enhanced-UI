@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>523</EntryCount>
+  <EntryCount>524</EntryCount>
   <Entries>
     <Entry>
       <ID>4</ID>
@@ -121,7 +121,7 @@
     </Entry>
     <Entry>
       <ID>90</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschadenangriff auf das Ziel bei einem kritischen Treffer im Nahkampf</DefaultText>
+      <DefaultText>{0:value:percent} Chance, bei einem kritischen Treffer mit einer Nahkampfwaffe einen Angriff mit &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden gegen das Ziel zu starten</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -141,7 +141,7 @@
     </Entry>
     <Entry>
       <ID>110</ID>
-      <DefaultText>{0:value:percent} Chance, bei einem im Nahkampf erlittenem kritischen Treffer, einen unterbrechenden Flächenzauber mit &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden auszulösen.</DefaultText>
+      <DefaultText>{0:value:percent} Chance, bei einem im Nahkampf erlittenem kritischen Treffer, einen unterbrechenden Flächenzauber mit &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zu wirken.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -181,7 +181,7 @@
     </Entry>
     <Entry>
       <ID>138</ID>
-      <DefaultText>{0:extravalue} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-Rüstwert, der sich erhöht, wenn der Träger an Gesundheit verliert (max {0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; RW)</DefaultText>
+      <DefaultText>{0:extravalue} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-&lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert, der sich erhöht, wenn der Träger an Gesundheit verliert (max {0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; RW)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -246,7 +246,7 @@
     </Entry>
     <Entry>
       <ID>211</ID>
-      <DefaultText>Tötet man einen Gegner mit &lt;g&gt;Magrans&lt;/g&gt; Gunst erleiden Gegner in der Nähe &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden</DefaultText>
+      <DefaultText>Tötet man einen Gegner mit &lt;xg&gt;Magrans&lt;/xg&gt; Gunst erleiden Gegner in der Nähe &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -256,12 +256,12 @@
     </Entry>
     <Entry>
       <ID>213</ID>
-      <DefaultText>{0:value:percent} des mit &lt;g&gt;Magrans&lt;/g&gt; Gunst zugefügten &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden heilt den Träger</DefaultText>
+      <DefaultText>{0:value:percent} des mit &lt;xg&gt;Magrans&lt;/xg&gt; Gunst zugefügten &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden heilt den Träger</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>214</ID>
-      <DefaultText>Töten mit &lt;g&gt;Magrans&lt;/g&gt; Gunst gewährt {0:value:percent} Schaden als &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden und {0:extravalue:percent} Aktionsgeschwindigkeit ({0:triggervalue:straight}-mal stapelbar)</DefaultText>
+      <DefaultText>Tötungen mit &lt;xg&gt;Magrans&lt;/xg&gt; Gunst gewähren {0:value:percent} Schaden als &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden und {0:extravalue:percent} Aktionsgeschwindigkeit ({0:triggervalue:straight}-mal stapelbar)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -291,7 +291,7 @@
     </Entry>
     <Entry>
       <ID>240</ID>
-      <DefaultText>Wirft 20 % des &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschadens von einem Feuerangriff auf den Angreifer zurück</DefaultText>
+      <DefaultText>Wirft 20 % des &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschadens von Feuerangriffen auf den Angreifer zurück</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -311,12 +311,12 @@
     </Entry>
     <Entry>
       <ID>261</ID>
-      <DefaultText>Modifiziert belegte Munition bei einem Treffer mit {0:value:percent}, um über Zeit &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden hinzuzufügen</DefaultText>
+      <DefaultText>Modifiziert belegte Munition mit einer {0:value:percent} Chance bei einem erzielten Treffer, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden über Zeit hinzuzufügen</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>271</ID>
-      <DefaultText>{0:triggercount} &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Schaden alle {0:extravalue:duration} für die Dauer von {0:value:duration} bei kritischem Treffer, wenn Ziel mit Entschlossenheitswirkung belegt ist</DefaultText>
+      <DefaultText>Wenn das Ziel mit einer Entschlossenheitswirkung belegt ist, füge bei einem erzielten kritischen Treffer alle {0:extravalue:duration} für die Dauer von {0:value:duration} &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden zu</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
