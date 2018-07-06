@@ -3,6 +3,13 @@
 
 [Changelog - v. 0.7.1](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/changelog.md#changelog)
 
+Credits:
+en: Spherikal
+de_patch: Xaratatas
+it: Kilay
+ko: Xinkle
+ru: phenomenum
+
 ## What does this mod do?
 
 This mod aims to improve the standard user interface by highlighting gameplay mechanics such as afflictions and inspirations, damage and defense keywords and much more. In total close to 900 ability, item or UI entries have been modified to enhance the user experience and to make some fairly opaque game mechanics a bit more transparent.
