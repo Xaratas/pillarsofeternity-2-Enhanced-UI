@@ -1,7 +1,7 @@
 #### Pillars of Eternity 2
 # Enhanced User Interface
 
-[Changelog - v. 0.7.1](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/changelog.md#changelog)
+[Changelog - v. 0.9-beta.1](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/changelog.md#changelog)
 
 Credits:
 en: Spherikal
@@ -25,7 +25,7 @@ Subfolders with a 2 in their name are from the tool if there is a community driv
 Tool is [here](https://github.com/AurelioSilver/pillarsofeternity-2-german-patch/tree/master/translation_helper/PoE2%20-%20eclipse%20project%20text%20normalisierer)
 
 ## Latest news:
-### Upcoming features: New Enchanting Icons for Weapons and Armor
+### Upcoming feature: new enchanting icons for weapons and armor
 **7th of July 2018**\
 Armor and weapon enchants will now have a icon next to their text in order to make it easier for the user to determine which upgrades are exclusive to each other.
 
