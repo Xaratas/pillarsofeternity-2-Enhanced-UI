@@ -1,4 +1,11 @@
 ## CHANGELOG
+### Version 0.8.1
+- Updated the mod for the new in-game mod manager (added `thumb.png` and `manifest.json` to all folders).
+
+### Version 0.8
+- Added Korean files from Xinkle.
+- Updated de_patch.
+
 ### Version 0.7.1
 - Updated to the correct it version.
 
