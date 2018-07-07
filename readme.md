@@ -3,12 +3,12 @@
 
 [Changelog - v. 0.8.1](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/changelog.md#changelog)
 
-Credits:\
-en: Spherikal\
-de_patch: Xaratatas\
-it: Kilay\
-ko: Xinkle\
-ru: phenomenum
+**Credits:**\
+English: *Spherikal*\
+German: *Xaratatas*\
+Italian: *Kilay*\
+Korean: *Xinkle*\
+Russian: *phenomenum*
 
 ## What does this mod do?
 
