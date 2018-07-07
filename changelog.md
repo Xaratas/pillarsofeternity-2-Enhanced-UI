@@ -1,4 +1,44 @@
 ## CHANGELOG
+### Version 0.9-beta.1
+- Added support for the following items:
+   - Aloth's Leather Armor (Deadfire)
+   - Blackened Plate Armor
+   - Cabalist's Gambeson
+   - Casità Samelia's Legacy
+   - Deltro's Cage
+   - Desgraza Breastplate
+   - Devil of Caroc Breastplate
+   - Effigy's Husk
+   - Five Suns Breastplate
+   - Fleshmender
+   - Furrante's Breastplate
+   - Garari Cuirass
+   - Gipon Prudensco
+   - Hearth Defender's Scale
+   - Honor Guard Breastplate
+   - Humility
+   - Iridescent Scale
+   - Magnera's Chain
+   - Miscreant's Leathers
+   - Nomad's Brigandine
+   - Pale Hide
+   - Patinated Plate
+   - Reckless Brigandine
+   - Saint's War Armor (Deadfire)
+   - Serafen's Padded Mail
+   - Sharpshooter's Garb
+   - Spider Silk Robe
+   - Swift Hunter's Garb
+   - The Bloody Links
+   - Vestments of Gaun
+
+### Version 0.8.1
+- Updated the mod for the new in-game mod manager (added `thumb.png` and `manifest.json` to all folders).
+
+### Version 0.8
+- Added Korean files from Xinkle.
+- Updated de_patch.
+
 ### Version 0.7.1
 - Updated to the correct it version.
 

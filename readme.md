@@ -25,6 +25,21 @@ Subfolders with a 2 in their name are from the tool if there is a community driv
 Tool is [here](https://github.com/AurelioSilver/pillarsofeternity-2-german-patch/tree/master/translation_helper/PoE2%20-%20eclipse%20project%20text%20normalisierer)
 
 ## Latest news:
+### Upcoming features: New Enchanting Icons for Weapons and Armor
+**7th of July 2018**\
+Armor and weapon enchants will now have a icon next to their text in order to make it easier for the user to determine which upgrades are exclusive to each other.
+
+**In-game example:**
+
+![Example of what the icons will look like in-game](https://i.imgur.com/KSzXXnI.jpg)
+
+**To-Do:**
+
+- [x] Armor
+- [ ] Weapons
+
+***
+
 ### A big mod update (and a new game patch)!
 **28th of June 2018**\
 Obsidian Entertainment just released a beta version of the [1.2.0.0008](https://forums.obsidian.net/topic/103043-patch-120-updates-thread/) game build! There are a lot of cool new features that you should be really excited about, like the [modding documentation](https://eternity.obsidian.net/game-data-formats/concepts) or the fact that we now got a built-in mod manager!
