@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3285</EntryCount>
+  <EntryCount>3299</EntryCount>
   <Entries>
     <Entry>
       <ID>238</ID>
@@ -21,7 +21,7 @@
     </Entry>
     <Entry>
       <ID>279</ID>
-      <DefaultText>O Lançador sacrifica sua força vital para ganhar a Inspiração &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Veloz &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; ao custo de seus Pontos de Vida diminuírem com o tempo.</DefaultText>
+      <DefaultText>O lançador sacrifica sua força vital para ganhar a Inspiração &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Veloz &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; ao custo de seus Pontos de Vida diminuírem com o tempo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -36,7 +36,7 @@
     </Entry>
     <Entry>
       <ID>303</ID>
-      <DefaultText>Cria um campo de energia sagrada ao redor do sacerdote, causando dano de Queima e aplicando &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Abalado &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; a qualquer receptáculo nas proximidades enquanto regenera uma quantidade moderada de Pontos de Vida para os aliados. O poder da Radiância Santa de um sacerdote é modificado pelo quão bem sua reputação se alinha com as preferências de comportamento de sua fé.</DefaultText>
+      <DefaultText>Cria um campo de energia sagrada ao redor do sacerdote, causando dano de Queima e aplicando &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Abalado &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; a qualquer receptáculo nas proximidades enquanto regenera uma quantidade moderada de Pontos de Vida para os aliados. O poder da Radiância Santa de um sacerdote é modificado pelo quão bem suas Reputações se alinham com as preferências de comportamento de sua fé.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -116,7 +116,7 @@
     </Entry>
     <Entry>
       <ID>859</ID>
-      <DefaultText>O lançador temporariamente sacrifica poder arcano em troca de força marcial. O mago ganha bônus em Desvio e Precisão, além das Inspirações &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Rápido &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Em Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, mas fica incapaz de lançar feitiços pela duração do efeito.</DefaultText>
+      <DefaultText>O lançador temporariamente sacrifica poder arcano em troca de força marcial. O mago ganha bônus em Deflexão e Precisão, além das Inspirações &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Rápido &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Em Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, mas fica incapaz de lançar feitiços ao longo da duração do efeito.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -176,7 +176,7 @@
     </Entry>
     <Entry>
       <ID>1477</ID>
-      <DefaultText>Esse feitiço conjura um poderoso bastão que adiciona Desvio e empurra os inimigos, deixando-os &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Mancando &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; com cada ataque bem sucedido. A invocação do próprio bastão também empurra todos (aliados inclusos) para longe do lançador.</DefaultText>
+      <DefaultText>Esse feitiço conjura um poderoso bastão que adiciona Deflexão e empurra os inimigos, deixando-os &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Mancando &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; a cada ataque bem sucedido. A invocação do próprio bastão também empurra todos (aliados inclusos) para longe do lançador.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -250,7 +250,7 @@ Uma Mão: Dano Puro ao longo do tempo</DefaultText>
     </Entry>
     <Entry>
       <ID>2044</ID>
-      <DefaultText>(Cegueira Desorientante) - Enquanto &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Cego &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, todos os ataques no alvo adicionarão uma penalidade cumulativa sobre seu Desvio.</DefaultText>
+      <DefaultText>(Cegueira Desorientante) - Enquanto &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Cego &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, todos os ataques no alvo adicionarão uma penalidade cumulativa sobre sua Deflexão.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -382,6 +382,11 @@ Chamas da Devoção causa dano de Corrosão adicional (Chamas Negras) e aplica A
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2682</ID>
+      <DefaultText>(Convencidos de Seus Propósitos, Todos Eles Sabiam Sua Parte) - Aliados agora recebem Inspiração &lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;Brilhante &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2693</ID>
       <DefaultText>(Granada de Fumaça) - O ladino pode arremessar uma bomba na área marcada e a bomba aplicará efeito &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Adoecido &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
@@ -412,28 +417,18 @@ Chamas da Devoção causa dano de Corrosão adicional (Chamas Negras) e aplica A
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3435</ID>
-      <DefaultText>Parece o eco do aviso de Aamiina para a Tribo da Água Azul. Garante inspiração Resoluta para os aliados próximos e a Aflição &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Abalado &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; para os inimigos próximos.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>4113</ID>
-      <DefaultText>Entrega as Inspirações &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Firme &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e Boa Forma por pouco tempo no inicio do combate.</DefaultText>
+      <DefaultText>Concede as Inspirações &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Firme &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e Boa Forma por pouco tempo no início do combate.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4313</ID>
-      <DefaultText>(Sem Piedade pelos Perdidos) - Almas agora providenciarão a Inspiração &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Firme &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; para o Observante.</DefaultText>
+      <DefaultText>(Sem Piedade pelos Perdidos) - Almas agora providenciam a Inspiração &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Firme &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; ao Observante.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4333</ID>
       <DefaultText>Você já esperava esta traição acontecer. Enquanto qualquer membro de grupo estiver afetado com Encanto ou Dominar, o portador receberá as Inspirações &lt;link="gamedata://c2fb23c5-9907-4654-b62e-77adbc37c9bc"&gt;&lt;#ca58ff&gt;Intuitivo &lt;sprite="Inline" name="attribute_perception" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Veloz &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4382</ID>
-      <DefaultText>Gira a lâmina em um grande arco, atingindo todos os inimigos próximos causando Dano de Corte/Perfuração, jogando eles para trás e &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Mancando &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;-os.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -443,12 +438,12 @@ Chamas da Devoção causa dano de Corrosão adicional (Chamas Negras) e aplica A
     </Entry>
     <Entry>
       <ID>4483</ID>
-      <DefaultText>O espírito de Griffin reforça a coragem do grupo. Entrega &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Firme &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; para o portador e aliados próximos quando o portador estiver Ensanguentado.</DefaultText>
+      <DefaultText>O espírito de Griffin reforça a coragem do grupo. Concede &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Firme &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;za para o portador e aliados próximos quando o portador estiver Ensanguentado.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4512</ID>
-      <DefaultText>O patrulheiro toma um tempo para estudar os arredores, ganhando temporariamente Inspiração &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Perspicaz &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e alcance de ataque a distância.</DefaultText>
+      <DefaultText>O patrulheiro toma um tempo para estudar os arredores, ganhando temporariamente Inspiração &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Perspicaz &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e alcance de ataque à distância.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

@@ -2,8 +2,13 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\gui</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>4377</EntryCount>
+  <EntryCount>4389</EntryCount>
   <Entries>
+    <Entry>
+      <ID>3012</ID>
+      <DefaultText>{0:Value} do &lt;link="glossary://GlossaryEntry_&lt;sprite="Inline" name="cs_ar" tint=1&gt; AR"&gt;skuteczności pancerza&lt;/link&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>3028</ID>
       <DefaultText>{0:Value} do &lt;link="glossary://GlossaryEntry_&lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration"&gt;penetracji&lt;/link&gt;</DefaultText>
