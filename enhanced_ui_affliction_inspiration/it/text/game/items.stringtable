@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\items</Name>
-  <NextEntryID>1</NextEntryID>
-  <EntryCount>2827</EntryCount>
+  
+  
   <Entries>
    <Entry>
       <ID>1798</ID>
-      <DefaultText>Fa risplendere di una tenue luce verde i nemici nell'area d'effetto, rendendoli bersagli più facili. I nemici colpiti hanno &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; ridotti.</DefaultText>
+      <DefaultText>Fa risplendere di una tenue luce verde i nemici nell'Area d'Effetto, rendendoli bersagli più facili. I nemici colpiti hanno &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; ridotti.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -21,7 +21,7 @@
     </Entry>
 	<Entry>
       <ID>2866</ID>
-      <DefaultText>Infliggi {0} danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;</DefaultText>
+      <DefaultText>Infliggi {0} Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;</DefaultText>
       <FemaleText />
     </Entry>
   <Entry>
@@ -36,12 +36,12 @@
     </Entry>
    <Entry>
       <ID>3105</ID>
-      <DefaultText>Un insieme rudimentale di ceneri e fuliggine. Produce una nube di fumo e polvere nocivi, causando danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; e &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Accecando &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; tutti coloro che vengono colpiti.</DefaultText>
+      <DefaultText>Un insieme rudimentale di ceneri e fuliggine. Produce una nube di fumo e polvere nocivi, causando Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; e &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Accecando &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; tutti coloro che vengono colpiti.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>3114</ID>
-      <DefaultText>Una fragile sfera contenente composti caustici e gas soffocanti. Quando esplode, una nube acida fuoriesce dal congegno, infliggendo danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; e riducendo il valore effettivo dell'armatura.</DefaultText>
+      <DefaultText>Una fragile sfera contenente composti caustici e gas soffocanti. Quando esplode, una nube acida fuoriesce dal congegno, infliggendo Danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; e riducendo il valore effettivo dell'armatura.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -51,7 +51,7 @@
     </Entry>
     <Entry>
       <ID>3116</ID>
-      <DefaultText>Una labirinto di cavi e parti elementali. La miccia di rame emette terribili scintille in prossimità di carne e armature. Se attivato, il dispositivo libera un nugolo di scariche elettriche infliggendo un danno da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; ed eventualmente &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralizzando &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; qualsiasi creatura colpita dall'esplosione.</DefaultText>
+      <DefaultText>Una labirinto di cavi e parti elementali. La miccia di rame emette terribili scintille in prossimità di carne e armature. Se attivato, il dispositivo libera un nugolo di scariche elettriche infliggendo un Danno da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; ed eventualmente &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralizzando &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; qualsiasi creatura colpita dall'esplosione.</DefaultText>
       <FemaleText />
     </Entry>
 	  <Entry>
@@ -61,7 +61,7 @@
     </Entry>
     <Entry>
       <ID>3120</ID>
-      <DefaultText>Schegge di Ghiaccio elementale sospese in acceleratori alchemici. La sfera pulsa di energie instabili. Se frantumata, rilascia una furia ibernante che provoca danno da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; nell'area circostante, rallentando e &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralizzando &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; qualsiasi creatura nelle vicinanze.</DefaultText>
+      <DefaultText>Schegge di Ghiaccio elementale sospese in acceleratori alchemici. La sfera pulsa di energie instabili. Se frantumata, rilascia una furia ibernante che provoca Danno da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; nell'area circostante, rallentando e &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralizzando &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; qualsiasi creatura nelle vicinanze.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -71,7 +71,7 @@
     </Entry>
     <Entry>
       <ID>3122</ID>
-      <DefaultText>Un dispositivo alchemico di potenza devastante. Sussurri perduti provengono dall'interno, con canti di straziante oscurità. Quando la carica esplode, forma una voragine che risucchia tutto ciò che la circonda verso un buio orizzonte, infliggendo un danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Un dispositivo alchemico di potenza devastante. Sussurri perduti provengono dall'interno, con canti di straziante oscurità. Quando la carica esplode, forma una voragine che risucchia tutto ciò che la circonda verso un buio orizzonte, infliggendo un Danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -81,12 +81,12 @@
     </Entry>
 	  <Entry>
       <ID>3143</ID>
-      <DefaultText>Se ingoiato, questo liquido gorgogliante brucia come la lava. Pervade il corpo di furia, aumentando la Velocità d'azione e il danno da mischia a spese della &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Se ingoiato, questo liquido gorgogliante brucia come la lava. Pervade il corpo di furia, aumentando la Velocità d'Azione e il Danno da mischia a spese della &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
   <Entry>
       <ID>3145</ID>
-      <DefaultText>Il liquido contenuto in questo flacone schiumeggia e ribolle naturalmente. Se ingerito, l'elisir contorce e deforma il volto, trasformandolo in un'orribile maschera di carne putrefatta e divorata dagli insetti e altri elementi disgustosi che &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrorizzano &#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&#179;&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseano &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt;. i nemici vicini.</DefaultText>
+      <DefaultText>Il liquido contenuto in questo flacone schiumeggia e ribolle naturalmente. Se ingerito, l'elisir contorce e deforma il volto, trasformandolo in un'orribile maschera di carne putrefatta e divorata dagli insetti e altri elementi disgustosi che &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrorizzano &#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&#179;&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseano &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&#185;&lt;/color&gt;&lt;/link&gt; i nemici vicini.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -101,7 +101,7 @@
     </Entry>
 	 <Entry>
       <ID>3180</ID>
-      <DefaultText>Questo elisir permea i tessuti corporei, rendendoli immuni agli effetti del danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; per un certo periodo di tempo. Se la pozione bevuta si esaurisce o è superata dai danni, la protezione fallisce.</DefaultText>
+      <DefaultText>Questo elisir permea i tessuti corporei, rendendoli immuni agli effetti del Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; per un certo periodo di tempo. Se la pozione bevuta si esaurisce o è superata dai danni, la protezione fallisce.</DefaultText>
       <FemaleText />
     </Entry>
    <Entry>
@@ -111,37 +111,37 @@
     </Entry>
     <Entry>
       <ID>3394</ID>
-      <DefaultText>Invoca il favore divino garantendo l'Ispirazione &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Profondo &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; agli alleati nell'area d'effetto.</DefaultText>
+      <DefaultText>Invoca il favore divino garantendo l'Ispirazione &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Profondo &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; agli Alleati nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
       <ID>3395</ID>
-      <DefaultText>Crea un cono di fuoco davanti al lettore, infliggendo danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; a tutti i presenti nell'area d'effetto.</DefaultText>
+      <DefaultText>Crea un cono di Fuoco davanti al lettore, infliggendo Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; a tutti i presenti nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3398</ID>
-      <DefaultText>Richiama un intenso raggio di sole, che infligge &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; e possibile &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Cecità &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; a chi si trova nell'area d'effetto.</DefaultText>
+      <DefaultText>Richiama un intenso raggio di sole, che infligge &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; e possibile &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Cecità &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; a chi si trova nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3401</ID>
-      <DefaultText>Crea una potente spada dalla lama di puro fuoco che infligge danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;. L'incantesimo termina se il lettore prende in mano un'altra arma.</DefaultText>
+      <DefaultText>Crea una potente spada dalla lama di puro fuoco che infligge Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;. L'incantesimo termina se il lettore prende in mano un'altra arma.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3402</ID>
-      <DefaultText>Attira uno sciame di insetti aggressivi, infliggendo danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; nel tempo e riducendo la Concentrazione di tutti i presenti nell'area d'effetto.</DefaultText>
+      <DefaultText>Attira uno sciame di insetti aggressivi, infliggendo Danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; nel tempo e riducendo la Concentrazione di tutti i presenti nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3403</ID>
-      <DefaultText>Conferisce all'alleato prescelto l'ispirazione &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;In forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; per molto tempo.</DefaultText>
+      <DefaultText>Conferisce all'Alleato prescelto l'ispirazione &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;In forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; per molto tempo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3404</ID>
-      <DefaultText>Crea un raggio di fiamme roventi fra lettore e bersaglio, infliggendo danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; continuo al bersaglio e a chiunque si trovi sulla traiettoria.</DefaultText>
+      <DefaultText>Crea un raggio di fiamme roventi fra lettore e bersaglio, infliggendo Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; continuo al bersaglio e a chiunque si trovi sulla traiettoria.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -151,37 +151,37 @@
     </Entry>
     <Entry>
       <ID>3406</ID>
-      <DefaultText>La pergamena scaglia un potente dardo elettrico che procede in linea retta e poi rimbalza sulle pareti, causando danno da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; chiunque incontri al proprio passaggio.</DefaultText>
+      <DefaultText>La pergamena scaglia un potente dardo elettrico che procede in linea retta e poi rimbalza sulle pareti, causando Danno da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; chiunque incontri al proprio passaggio.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3407</ID>
-      <DefaultText>Crea una sfera di energia nella mano del lettore che può essere lanciata contro un nemico infliggendo danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; o &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; ai nemici nell'area d'effetto. Il morbo viene riapplicato in continuazione fino alla fine dell'incantesimo.</DefaultText>
+      <DefaultText>Crea una sfera di energia nella mano del lettore che può essere lanciata contro un nemico infliggendo Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; o &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; ai nemici nell'Area d'Effetto. Il morbo viene riapplicato in continuazione fino alla fine dell'incantesimo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3408</ID>
-      <DefaultText>Ripristina una modesta quantità di Salute a tutti gli alleati nell'area d'effetto.</DefaultText>
+      <DefaultText>Ripristina una modesta quantità di Salute a tutti gli Alleati nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>3409</ID>
-      <DefaultText>Conferisce all'alleato prescelto l'Ispirazione &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Arguto &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; per molto tempo.</DefaultText>
+      <DefaultText>Conferisce all'Alleato prescelto l'Ispirazione &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Arguto &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; per molto tempo.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
       <ID>3410</ID>
-      <DefaultText>Invoca un enorme corno di cervo che attacca il bersaglio, provocando danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; e infliggendo penalità a &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Invoca un enorme corno di cervo che attacca il bersaglio, provocando Danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; e infliggendo penalità a &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
       <ID>3411</ID>
-      <DefaultText>Due massi micidiali vengono scagliati dalla posizione del lettore, infliggendo danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; a chiunque si trovi nella traiettoria. Inoltre, esplodono al contatto con le superfici solide, causando danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; nell'area circostante.</DefaultText>
+      <DefaultText>Due massi micidiali vengono scagliati dalla posizione del lettore, infliggendo Danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; a chiunque si trovi nella traiettoria. Inoltre, esplodono al contatto con le superfici solide, causando Danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; nell'area circostante.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3412</ID>
-      <DefaultText>Chiunque si trovi all'interno del cono d'effetto riceve danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; e viene respinto.</DefaultText>
+      <DefaultText>Chiunque si trovi all'interno del cono d'effetto riceve Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; e viene respinto.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
@@ -191,47 +191,47 @@
     </Entry>
 	<Entry>
       <ID>3415</ID>
-      <DefaultText>Colpisce il bersaglio con cinque dardi di energia pura, mentre un'onda d'urto infligge danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; ai nemici nelle vicinanze.</DefaultText>
+      <DefaultText>Colpisce il bersaglio con cinque dardi di energia pura, mentre un'onda d'urto infligge Danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; ai nemici nelle vicinanze.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>3418</ID>
-      <DefaultText>Invoca una luce sfolgorante che infligge penalità a tutte le Difese dei nemici nell'area d'effetto e danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
+      <DefaultText>Invoca una luce sfolgorante che infligge penalità a tutte le Difese dei nemici nell'Area d'Effetto e Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3419</ID>
-      <DefaultText>Tre artigli di pietra emergono dal terreno, trasformando la carne in pietra, infliggendo &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralisi &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; e danno da &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; a chiunque si trovi nell'area.</DefaultText>
+      <DefaultText>Tre artigli di pietra emergono dal terreno, trasformando la carne in pietra, infliggendo &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralisi &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; e Danno da &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; a chiunque si trovi nell'area.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3422</ID>
-      <DefaultText>Evoca un'enorme colonia di insetti velenosi, infliggendo Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo, riducendo la Concentrazione e causando &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nausea &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; a tutti i presenti nell'area d'effetto.</DefaultText>
+      <DefaultText>Evoca un'enorme colonia di insetti velenosi, infliggendo Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo, riducendo la Concentrazione e causando &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nausea &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; a tutti i presenti nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>3424</ID>
-      <DefaultText>Scatena un rogo terrificante intorno al lettore, infliggendo danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; a chiunque gli si trovi vicino.</DefaultText>
+      <DefaultText>Scatena un rogo terrificante intorno al lettore, infliggendo Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; a chiunque gli si trovi vicino.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>3425</ID>
-      <DefaultText>Il lettore evoca una spaventosa saetta di elettricità che piomba direttamente su un bersaglio singolo e poi salta sui nemici circostanti, fino a un massimo di sei, provocando danno da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;. Gli altri personaggi presenti nell'area d'effetto non vengono danneggiati da questo fulmine arcano.</DefaultText>
+      <DefaultText>Il lettore evoca una spaventosa saetta di Elettricità che piomba direttamente su un bersaglio singolo e poi salta sui nemici circostanti, fino a un massimo di sei, provocando Danno da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;. Gli altri personaggi presenti nell'Area d'Effetto non vengono danneggiati da questo fulmine arcano.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3428</ID>
-      <DefaultText>Evoca un pilastro fiammeggiante di fuoco che &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; chiunque si trovi nell'area d'effetto.</DefaultText>
+      <DefaultText>Evoca un pilastro fiammeggiante di Fuoco che &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; chiunque si trovi nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3429</ID>
-      <DefaultText>Il lettore lancia una sfera di fuoco sacro sul nemico, volatilizzandone le protezioni e accelerandone la rovina. Infligge danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; per cinque secondi, riduce la durata degli effetti benefici del bersaglio (Guarigione esclusa) e delle alterazioni dannose già attive. La sfera può proseguire e colpire altri due nemici circostanti.</DefaultText>
+      <DefaultText>Il lettore lancia una sfera di Fuoco sacro sul nemico, volatilizzandone le protezioni e accelerandone la rovina. Infligge Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; per cinque secondi, riduce la durata degli effetti benefici del bersaglio (Guarigione esclusa) e delle alterazioni dannose già attive. La sfera può proseguire e colpire altri due nemici circostanti.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3430</ID>
-      <DefaultText>Ripristina una notevole quantità di Salute a tutti gli alleati nell'area d'effetto.</DefaultText>
+      <DefaultText>Ripristina una notevole quantità di Salute a tutti gli Alleati nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -241,7 +241,7 @@
     </Entry>
 	  <Entry>
       <ID>3432</ID>
-      <DefaultText>Una terribile pioggia di fuoco si abbatte sull'area d'effetto, infliggendo ripetuti danni da ustione a tutti coloro che vi si trovano.</DefaultText>
+      <DefaultText>Una terribile pioggia di Fuoco si abbatte sull'Area d'Effetto, infliggendo ripetuti danni da Ustione a tutti coloro che vi si trovano.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -251,7 +251,7 @@
     </Entry>
     <Entry>
       <ID>3434</ID>
-      <DefaultText>Il lettore invoca un raggio di luce che cura gli alleati e &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustiona&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; i nemici sul proprio cammino.</DefaultText>
+      <DefaultText>Il lettore invoca un raggio di luce che cura gli Alleati e &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustiona&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; i nemici sul proprio cammino.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
@@ -261,7 +261,7 @@
     </Entry>
     <Entry>
       <ID>3436</ID>
-      <DefaultText>Richiama un vento gelido incredibilmente potente, respingendo chiunque si trovi nell'area d'effetto e infliggendo danno da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Richiama un vento gelido incredibilmente potente, respingendo chiunque si trovi nell'Area d'Effetto e infliggendo Danno da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -271,7 +271,7 @@
     </Entry>
     <Entry>
       <ID>3438</ID>
-      <DefaultText>Un cataclisma di vento, fuoco, fulmini e pioggia si abbatte sull'area prescelta. Chi viene catturato dal maelstrom subisce diversi tipi di danno.</DefaultText>
+      <DefaultText>Un cataclisma di vento, fuoco, fulmini e pioggia si abbatte sull'area prescelta. Chi viene catturato dal maelstrom subisce diversi tipi di Danno.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -281,7 +281,7 @@
     </Entry>
     <Entry>
       <ID>3440</ID>
-      <DefaultText>Invoca un devastante vortice di vento che scaglia in aria le sue vittime e infligge danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; su tutto ciò che tocca.</DefaultText>
+      <DefaultText>Invoca un devastante vortice di vento che scaglia in aria le sue vittime e infligge Danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; su tutto ciò che tocca.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -351,7 +351,7 @@
     </Entry>
 	<Entry>
       <ID>4390</ID>
-      <DefaultText>Quando il cucciolo di segugio dei sepolcri ti segue infliggi un bonus danno contro i Posseduti e tutti quelli del gruppo subiscono un danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; ridotto.</DefaultText>
+      <DefaultText>Quando il cucciolo di segugio dei sepolcri ti segue infliggi un bonus Danno contro i Posseduti e tutti quelli del gruppo subiscono un Danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; ridotto.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -361,7 +361,7 @@
     </Entry>
 	<Entry>
       <ID>4429</ID>
-      <DefaultText>Crea un cono di fuoco davanti al lettore, infliggendo danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; a tutti i presenti nell'area d'effetto.</DefaultText>
+      <DefaultText>Crea un cono di Fuoco davanti al lettore, infliggendo Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; a tutti i presenti nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
