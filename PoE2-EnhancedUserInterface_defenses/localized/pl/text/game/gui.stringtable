@@ -10,6 +10,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1676</ID>
+      <DefaultText>&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Odbicie&lt;/color&gt; (broń dwuręczna): {0}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2815</ID>
       <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
 Szał zapewnia inspiracje zawziętości i dzielności zamiast mocy i sprawności.
@@ -35,16 +40,6 @@ Pokonanie przeciwnika bronią do walki wręcz zapewnia tymczasowo koncentrację 
 
 &lt;b&gt;Kara&lt;/b&gt;
 Maksymalne skupienie ulega zmniejszeniu (dotyczy to również jego początkowej ilości w walce).</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3012</ID>
-      <DefaultText>{0:Value} do &lt;link="glossary://GlossaryEntry_&lt;sprite="Inline" name="cs_ar" tint=1&gt; AR"&gt;skuteczności pancerza&lt;/link&gt;</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3028</ID>
-      <DefaultText>{0:Value} do &lt;link="glossary://GlossaryEntry_&lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration"&gt;penetracji&lt;/link&gt;</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

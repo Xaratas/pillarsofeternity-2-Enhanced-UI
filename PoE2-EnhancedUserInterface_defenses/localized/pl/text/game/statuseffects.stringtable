@@ -85,6 +85,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>138</ID>
+      <DefaultText>{0:extravalue} do skuteczności pancerza przeciw ogniowi; rośnie w miarę utraty zdrowia przez noszącego (maks. {0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; SP)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>154</ID>
       <DefaultText>Zadaje {0:value} pkt obrażeń od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności przy trafieniu krytycznym</DefaultText>
       <FemaleText />
@@ -117,6 +122,11 @@
     <Entry>
       <ID>230</ID>
       <DefaultText>{0:extravalue:percent} obrażeń jako &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczność za każdą posiadaną strofę pieśniarza</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>240</ID>
+      <DefaultText>&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Odbicie&lt;/color&gt; 20% poparzeń od ataków ognistych na atakującego</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -155,8 +165,18 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>318</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_ar" tint=1&gt; Skuteczność pancerza wzrasta w miarę utraty zdrowia przez noszącego (maksymalna wartość: {0:extravalue})</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>332</ID>
       <DefaultText>Postać otrzymuje {0:value:percent} zadawanych obrażeń jako &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>337</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetracja broni rośnie wraz z poziomem użytkownika</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

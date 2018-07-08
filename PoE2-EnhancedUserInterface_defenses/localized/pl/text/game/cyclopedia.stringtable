@@ -5,10 +5,56 @@
   <EntryCount>884</EntryCount>
   <Entries>
     <Entry>
+      <ID>86</ID>
+      <DefaultText>&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Odbicie&lt;/color&gt; jest rodzajem obrony chroniącej przed atakami bezpośrednimi oraz dystansowymi, które nie są atakami obszarowymi. Skuteczność &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Odbicia&lt;/color&gt; zależy od klasy postaci, jej poziomu oraz Stanowczości. Jednak mogą mieć na nią wpływ tarcze, niektóre odmiany broni, Talenty i efekty będące wynikiem użycia zaklęć lub przedmiotów.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88</ID>
+      <DefaultText>&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Hart&lt;/color&gt; odpowiada za obronę przed atakami wymierzonymi w narządy wewnętrzne postaci (np. truciznami, chorobami itp.).
+Zależy od klasy postaci, poziomu, mocy i kondycji, ale mają na niego wpływ także inne efekty.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>90</ID>
+      <DefaultText>&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Refleks&lt;/color&gt; umożliwia obronę w postaci uników przed atakami obszarowymi o charakterze fizycznym (np. wybuchami czy piorunami). Zależny jest od klasy postaci, jej poziomu, Zręczności i Percepcji, ale inne efekty również mają na niego wpływ.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>92</ID>
+      <DefaultText>&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wola&lt;/color&gt; odpowiada za obronę przed atakami opartymi na sile umysłu (np. zaklęciami, które mentalnie paraliżują cel). Zależy od klasy postaci, jej poziomu, Intelektu i Stanowczości, ale mogą wpływać na nią także inne czynniki.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>104</ID>
+      <DefaultText>&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Odbicie&lt;/color&gt; zostaje obniżone o 10.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>130</ID>
+      <DefaultText>Zwichnięty nadgarstek ma negatywny wpływ na &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Odbicie&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>146</ID>
-      <DefaultText>W Pillars of Eternity istnieją cztery rodzaje obrony: odbicie, hart, refleks i wola. Każdy z nich służy do niwelowania w ramach rzutu na atak innego rodzaju ciosów. Odbicie pozwala zmniejszać efekty większości ataków bezpośrednich bronią lub ciosów podobnych do takich ataków. Hart pozwala zniweczyć próby fizycznego przeważenia nad postacią oraz ataki, które sprawiają, że postać odnosi obrażenia ustrojowe (np. od trucizny). Fizyczne ataki obszarowe, takie jak kule ognia czy uderzenia błyskawic, odpierane są przez refleks. Niemal wszystkim atakom mentalnym przeciwstawiana jest wola.
+      <DefaultText>W Pillars of Eternity istnieją cztery rodzaje obrony: odbicie, hart, refleks i wola. Każdy z nich służy do niwelowania w ramach rzutu na atak innego rodzaju ciosów. &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Odbicie&lt;/color&gt; pozwala zmniejszać efekty większości ataków bezpośrednich bronią lub ciosów podobnych do takich ataków. &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Hart&lt;/color&gt; pozwala zniweczyć próby fizycznego przeważenia nad postacią oraz ataki, które sprawiają, że postać odnosi obrażenia ustrojowe (np. od trucizny). Fizyczne ataki obszarowe, takie jak kule ognia czy uderzenia błyskawic, odpierane są przez refleks. Niemal wszystkim atakom mentalnym przeciwstawiana jest wola.
 
 Poziomy hartu, refleksu i woli oparte są na parach cech. Moc i kondycja określają hart, zręczność i percepcja odpowiadają za refleks, zaś intelekt i stanowczość – za wolę. &lt;sprite="Inline" name="cs_raw" tint=1&gt; Bazowe odbicie jest wypadkową klasy i stanowczości postaci. Wszyscy bohaterowie otrzymują na każdym poziomie premie do swojej obrony. Ponadto wartość wskaźników defensywnych może zostać zmieniona przez czary, zdolności, przypadłości i przedmioty.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>158</ID>
+      <DefaultText>Podstawowym środkiem pozwalającym na ograniczenie obrażeń, jakie zadaje celny cios, jest skuteczność pancerza.
+
+Wartość skuteczności pancerza wynika zazwyczaj z ubioru, jaki nosi postać, wiele istot posiada jednak pancerz naturalny. Może ona również wzrosnąć dzięki magii, zdolnościom, talentom lub innemu niż ubiór rodzajowi sprzętu.
+
+&lt;sprite="Inline" name="cs_ar" tint=1&gt; Skuteczność pancerza porównywana jest z penetracją ataków, przez co określany jest ich ogólny skutek.
+
+Pełna penetracja (130% obrażeń) ma miejsce, gdy jest ona co najmniej dwukrotnie większa od skuteczności pancerza celu.
+Częściowa penetracja (100% obrażeń) występuje, gdy jest ona równa lub wyższa od skuteczności pancerza.
+Niepełna penetracja (-25% za każdy punkt poniżej pancerza celu, maks. -75%) występuje, gdy jest ona niższa od skuteczności pancerza celu.
+
+Pamiętaj, że wiele zbroi i istot ma inne wartości skuteczności pancerza w zależności od typu obrażeń. Niższa skuteczność gorzej chroni przed danym typem obrażeń, przez co cel jest na nie bardziej wrażliwy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -22,11 +68,11 @@ Niektóre rodzaje broni lub ataków mogą powodować różne rodzaje obrażeń n
       <ID>453</ID>
       <DefaultText>Gdy zadający obrażenia atak sięgnie celu, jego &lt;b&gt;penetracja&lt;/b&gt; porównywana jest ze &lt;b&gt;skutecznością pancerza&lt;/b&gt; atakowanego, by określić, jak wiele obrażeń zostanie ostatecznie zadanych.
 
-Penetracja zależy od używanej broni lub czaru, może jednak zostać podniesiona poprzez użycie magii, zdolności, talentów lub rzuconych na broń zaklęć. Zestawiana jest ona ze skutecznością pancerza stosowną do rodzaju obrażeń zadawanych przez atak, np. w przypadku ognistej kuli porównana zostanie ze skutecznością pancerza przeciw ogniowi. Obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe pomijają wszelki pancerz i test penetracji jest w ich wypadku zbędny.
+&lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetracja zależy od używanej broni lub czaru, może jednak zostać podniesiona poprzez użycie magii, zdolności, talentów lub rzuconych na broń zaklęć. Zestawiana jest ona ze skutecznością pancerza stosowną do rodzaju obrażeń zadawanych przez atak, np. w przypadku ognistej kuli porównana zostanie ze skutecznością pancerza przeciw ogniowi. Obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe pomijają wszelki pancerz i test penetracji jest w ich wypadku zbędny.
 
 &lt;b&gt;Pełna penetracja&lt;/b&gt; (+30% do obrażeń) – występuje, gdy penetracja jest co najmniej dwukrotnie większa od skuteczności pancerza celu.
 
-&lt;b&gt;Penetracja&lt;/b&gt; (obrażenia wg wykazu) – penetracja jest równa lub większa od skuteczności pancerza celu.
+&lt;b&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetracja&lt;/b&gt; (obrażenia wg wykazu) – penetracja jest równa lub większa od skuteczności pancerza celu.
 
 &lt;b&gt;Niepełna penetracja&lt;/b&gt; (-25% do obrażeń za każdy punkt poniżej pancerza celu, maks. -75%) – penetracja jest mniejsza od skuteczności pancerza celu.</DefaultText>
       <FemaleText />
