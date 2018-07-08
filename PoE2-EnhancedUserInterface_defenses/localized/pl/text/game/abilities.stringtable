@@ -3,5 +3,588 @@
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
   <EntryCount>3299</EntryCount>
-  <Entries/>
+  <Entries>
+    <Entry>
+      <ID>246</ID>
+      <DefaultText>Tworzy powoli poruszające się ucieleśnienie kapłańskiej wiary, które przywraca zdrowie towarzyszy i &lt;sprite="Inline" name="cs_freeze" tint=1&gt;  przeciwników.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>255</ID>
+      <DefaultText>Tworzy magiczną pieczęć, która w kontakcie z wrogiem eksploduje &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektrycznością, rażąc nią wrogów i powodując przerwanie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>259</ID>
+      <DefaultText>Przywołuje nieziemskie ostrza, które powodują natychmiastowe obrażenia &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte lub kłute i okulawiają przeciwników w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>260</ID>
+      <DefaultText>Piorun z palców rzucającego czar trafia w najbliższego wroga, a następnie przeskakuje na kolejnego – powodując coraz słabsze obrażenia od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>286</ID>
+      <DefaultText>Na moment rozrywa powłokę duszy celu, powodując wybuch energii &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektrycznej. Przeciwnicy w pobliżu celu otrzymują obrażenia od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>356</ID>
+      <DefaultText>Wiedza na temat sił natury umożliwia druidowi zadawanie dodatkowych obrażeń od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna podczas atakowania w przemienionej formie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>358</ID>
+      <DefaultText>Wiedza na temat sił natury umożliwia druidowi zadawanie dodatkowych obrażeń od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności podczas atakowania w przemienionej formie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>395</ID>
+      <DefaultText>Tworzy oślepiająco białą, lodowatą mgłę, powodującą ślepotę, a wraz z upływem czasu także obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna u postaci w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>400</ID>
+      <DefaultText>Dłonie maga stają się tak zimne, że &lt;sprite="Inline" name="cs_freeze" tint=1&gt; ją wszystko, czego dotkną. Zadają obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna i zmniejszają celność ofiary.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>409</ID>
+      <DefaultText>Tworzy mistyczną osłonę wokół postaci rzucającej czar, przyznając premię do skuteczności pancerza przeciw ogniowi, zimnu, kwasowi i &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>430</ID>
+      <DefaultText>Tworzy w rękach maga kulę energii, która ciśnięta w przeciwnika powoduje obrażenia od ognia, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna, kwasu lub &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności u wszystkich w obszarze działania. Zguba stale zmienia się i odnawia, dopóki czar nie wygaśnie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>435</ID>
+      <DefaultText>Tworzy falę lodu i mroźnego powietrza, powodując obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna u wszystkich w stożku działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>439</ID>
+      <DefaultText>Tworzy toksyczną chmurę, która co kilka sekund zadaje obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe postaciom pozostającym w jej zasięgu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>506</ID>
+      <DefaultText>Wyzwala w sprzymierzeńcach potężny zapał, który wytwarza aurę zadającą pobliskim wrogom obrażenia od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>513</ID>
+      <DefaultText>Tworzy chmurę drobnych piorunów, które rażą znajdujących się w obszarze działania wrogów &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektrycznością.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>515</ID>
+      <DefaultText>Tworzy pod celem olbrzymi ostry pazur zadający obrażenia &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte wszystkim w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>519</ID>
+      <DefaultText>Przywołuje lodowaty wiatr o niespotykanej sile powodujący obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna i odpychający wszystkich w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>528</ID>
+      <DefaultText>Skóra wrogów w obszarze działania pokrywa się chmarą wgryzających się w ciało czerwi powodujących periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe. Im ciężej ranna jest ofiara, tym większe obrażenia. Cele o maksymalnym zdrowiu nie otrzymują obrażeń.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>539</ID>
+      <DefaultText>Gwałtowna burza ze śniegiem i odłamkami lodu &lt;sprite="Inline" name="cs_blunt" tint=1&gt; miażdży przeciwników w obszarze działania i zadaje obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>552</ID>
+      <DefaultText>Druid przyzywa potęgę burzy, otaczając się aurą &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności, która razi i przestrasza pobliskich przeciwników.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>554</ID>
+      <DefaultText>Przyzywa potężny rój jadowitych owadów, który zadaje periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe i wywołuje mdłości u wszystkich w obszarze działania. Postacie pod jego wpływem nie są w stanie gromadzić koncentracji.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>589</ID>
+      <DefaultText>Po wyznaczonym obszarze niesie się psioniczny ryk, który ogłusza cel, zadaje obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe wszystkim pobliskim wrogom i powoduje u nich przerwanie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>595</ID>
+      <DefaultText>Rozdziera duszę celu, powodując obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe. Przeciwnicy na skraju śmierci wybuchają, zadając obrażenia miażdżone wszystkim w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>603</ID>
+      <DefaultText>Niszczy eteryczne łącze między umysłem, ciałem i duszą przeciwnika, powodując gwałtowne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe. Jeśli zdrowie celu spadnie do zera, ulega on dezintegracji.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>643</ID>
+      <DefaultText>Zmniejsza zadawane przez wrogów obrażenia &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte i kłute.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>646</ID>
+      <DefaultText>Niszczy siłę witalną wszystkich przeciwników w obszarze działania, zadając im obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe. Jeśli zrani co najmniej jednego wroga, pieśniarz odzyska również nieco zdrowia.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>791</ID>
+      <DefaultText>Zwiększa skuteczność pancerza przeciw obrażeniom ciętym i od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności u wszystkich sojuszników w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>808</ID>
+      <DefaultText>Przyzywa ogniste szpony powodujące obrażenia od ognia lub rany &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte u przeciwników w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>821</ID>
+      <DefaultText>Wywołuje gwałtowną burzę lodowo-śnieżną, zadając obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna każdemu w obszarze działania i obniżając szybkość działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>826</ID>
+      <DefaultText>Broń do walki wręcz rzucającego staje się doskonałym narzędziem do polowania przywracającym zdrowie i dodającym do pojedynczego ulepszonego ataku ciągłe obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>827</ID>
+      <DefaultText>Ochrania sprzymierzeńców w obszarze działania grubą warstwą kory, przyznając premię do skuteczności pancerza przeciw obrażeniom kłutym, od ognia i od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>830</ID>
+      <DefaultText>Zsyła gwałtowną burzę, co jakiś czas uderzając losowego przeciwnika w obszarze działania piorunami powodującymi ogłuszenie i obrażenia &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczne.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>835</ID>
+      <DefaultText>Zsyła śmiercionośną burzę, wielokrotnie uderzając przeciwników w obszarze działania piorunami powodującymi ogłuszenie i obrażenia &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczne.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>839</ID>
+      <DefaultText>Wywołuje wzrost pięknych, lecz przerażających i toksycznych kwiatów, które powodują przestraszenie i osłabienie oraz periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe u wszystkich w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>861</ID>
+      <DefaultText>Tworzy ogromny, lodowy szpikulec zadający wszystkim w zasięgu obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna oraz rozchodzący się mroźny krąg, który może spowodować okulawienie u trafionych celów w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>863</ID>
+      <DefaultText>(Berserk) – zapewnia inspiracje zawziętości i dzielności zamiast sprawności i siły. Zwiększa znacząco liczbę trafień krytycznych przy ciosach zadanych wręcz i podczas masakry, gdy postać wpada w szał. Barbarzyńca jednak doświadcza zamętu, nie zna poziomu swojego zdrowia i stale otrzymuje podczas szału obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>905</ID>
+      <DefaultText>Łowca celuje tak, by ofiara zaczęła zostawiać za sobą ślad, wywołując przy tym periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>925</ID>
+      <DefaultText>(Dziurawiący cios) – rani przeciwników, powodując aż do zakończenia walki periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>927</ID>
+      <DefaultText>Dzięki umiejętności zadawania bólu, jaką dysponuje łotrzyk, wszystkie obrażenia &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte, kłute i miażdżone spowodowane przez jego broń zadają też periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>954</ID>
+      <DefaultText>(Uderzenie pioruna) – sprawia, że ataki mnicha zadają również obrażenia od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1082</ID>
+      <DefaultText>Mnich zadaje sobie obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe, zdobywając w ten sposób rany.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1281</ID>
+      <DefaultText>Długotrwały pobyt w niegościnnym środowisku dał bladym elfom wrodzoną odporność na obrażenia od ognia i &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1324</ID>
+      <DefaultText>Wysyła z grymuaru magiczny pocisk, który zadaje przeciwnikom w obszarze działania obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe i powoduje oszołomienie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1326</ID>
+      <DefaultText>Przeciwnik zostaje unieruchomiony i staje się celem lodowatego promienia energii maga, który powoduje obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna u istot na swojej drodze.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1391</ID>
+      <DefaultText>Potrójne skalne szpony wyrastają z ziemi, zamieniając ciało w kamień, paraliżując i zadając obrażenia &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte wszystkim w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1465</ID>
+      <DefaultText>Druid tworzy wokół sojuszników potężną tarczę przeciw siłom natury, zapewniając zwiększoną skuteczność pancerza przeciwko obrażeniom od ognia, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna, kwasu i &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1468</ID>
+      <DefaultText>Paladyn skupia swoją wiarę i zaczyna płonąć błękitnym ogniem. Z każdym rozbłyskiem płomieni traci część zdrowia poprzez obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe (które mogą go zabić), zaś przeciwnicy w zasięgu otrzymują obrażenia od ognia. </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1478</ID>
+      <DefaultText>Ten czar zadaje przeciwnikowi poważne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe. Pokonanie tym atakiem namacalnego celu powoduje przywołanie upiora pod kontrolą rzucającego zaklęcie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1570</ID>
+      <DefaultText>Potężniejsza wersja zwykłego ognistego promienia, która zadaje obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe, atakując hart i ma wpływ jedynie na wrogów.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1571</ID>
+      <DefaultText>Ciekawa wersja zawsze popularnej ognistej kuli. Cienisty płomień Ninagautha powoduje obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna i paraliżuje postaci w zasięgu działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1572</ID>
+      <DefaultText>Udoskonalona przez Concelhauta odmiana pomniejszych pocisków Minoletty, która zadaje obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe, atakując hart i przekazując wyssane zdrowie postaci rzucającej czar.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1577</ID>
+      <DefaultText>Druzgocze przeciwników potężnym podmuchem lodowatego powietrza, które powoduje obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna i miażdżone (o wysokiej penetracji) oraz spowalnia cel.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1595</ID>
+      <DefaultText>Postać nosząca tę pelerynę otrzymuje premię do redukcji obrażeń od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna. Każdy, kto zaatakuje tę postać w zwarciu, otrzyma obrażenia od ognia.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1733</ID>
+      <DefaultText>Enigmatyk używa duszy sprzymierzeńca do stworzenia wyłaniających się z obu dłoni ostrzy czystej energii, które zadają obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe i przywracają postaci skupienie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1743</ID>
+      <DefaultText>Uderzenia mnicha rezonują między nim a celem, zaś każdy kolejny cios zwiększa siłę rezonansu. W wybranym przez postać momencie rezonans ten może zadać potężne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe celom będącym pod jego wpływem.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1745</ID>
+      <DefaultText>Dzięki sile woli paladyn może zniszczyć dowolnego ducha lub przywołaną istotę mającą poziom niższy niż on sam. Duchy i przywołane stworzenia na poziomie wyższym lub takim samym otrzymają obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1754</ID>
+      <DefaultText>Rysuje na ziemi symbol Waela powodujący u przeciwników periodyczne obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna i zapewniający sprzymierzeńcom koncentrację.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1765</ID>
+      <DefaultText>Upiorna, kościana dłoń grabi okolicę, zadając obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna przeciwnikom w zasięgu oraz powodując u nich osłabienie i okulawienie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1766</ID>
+      <DefaultText>Mag uaktywnia tarcze przeciwko żywiołom, które chronią przed obrażeniami od ognia, kwasu, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna i &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności aż do czasu ich przełamania lub kresu działania czaru.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1769</ID>
+      <DefaultText>Gorący wiatr duje przez pole bitwy, zadając każdemu w obszarze działania obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe i powodując osłabienie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1938</ID>
+      <DefaultText>Enigmatyk zadaje przeciwnikowi potężny mentalny cios, zadając obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe i tworząc za swoim celem stożek wstrząsowej siły.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1951</ID>
+      <DefaultText>(Brutalna reakcja) – czyni odwet enigmatyka wyjątkowo traumatycznym, powodując dodatkowe obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1964</ID>
+      <DefaultText>(Dziki cios – mocniejszy &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; kwas) – większa wiedza na temat sił natury umożliwia zadawanie w przemienionej formie jeszcze większych obrażeń od kwasu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1967</ID>
+      <DefaultText>(Dziki cios – silniejsze &lt;sprite="Inline" name="cs_freeze" tint=1&gt; ) – większa wiedza na temat sił natury umożliwia zadawanie w przemienionej formie jeszcze większych obrażeń od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1968</ID>
+      <DefaultText>(Dziki cios – silniejsze porażenie) – większa wiedza na temat sił natury umożliwia zadawanie w przemienionej formie jeszcze większych obrażeń od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2038</ID>
+      <DefaultText>Łotrzyk uderza cel bardzo mocno w głowę, przerywając jego atak. Dodatkowe efekty ciosu różnią się w zależności od rodzaju użytej broni:
+
+Dystansowa: dodatkowa penetracja.
+Dwuręczna: wytrącenie z równowagi.
+Jednoręczna: periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2039</ID>
+      <DefaultText>(Cios w arterię) – przeciwnicy krwawią podczas ruchu, otrzymując z każdym krokiem obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2061</ID>
+      <DefaultText>(Szał krwi) – gdy jest aktywny, trafienia krytyczne zadają periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2192</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
+Szał zapewnia inspiracje zawziętości i dzielności zamiast mocy i sprawności.
+
+Gdy postać wpada w szał, zadaje znacznie więcej obrażeń krytycznych wręcz i ataków masakry.
+
+&lt;b&gt;Kara&lt;/b&gt;
+Szał powoduje u postaci zamęt.
+
+W stanie szału poziom zdrowia jest niewidoczny.
+
+Postać w stanie szału otrzymuje nieustannie obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2247</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
+Zapewnia zdolność duchowego zniszczenia: ulepszony duszą atak w zwarciu, który zużywa całą pozostałą moc enigmatyka i zmienia ją w zadawane celowi obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.
+
+Czary szczątkowe enigmatyka mają mniejszy koszt w skupieniu.
+
+Pokonanie przeciwnika bronią do walki wręcz zapewnia tymczasowo koncentrację i zwiększa maksymalne skupienie.
+
+&lt;b&gt;Kara&lt;/b&gt;
+Maksymalne skupienie ulega zmniejszeniu (dotyczy to również jego początkowej ilości w walce).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2401</ID>
+      <DefaultText>(Tornado ducha) – upiorne duchy wykonują spiralę wokół postaci, powodując obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna i przerażenie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2411</ID>
+      <DefaultText>(Skok pantery) – postać rzuca się na wszystkich wrogów w miejscu lądowania, zadając obrażenia &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte i periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2613</ID>
+      <DefaultText>Otacza sprzymierzeńca polem duchowej energii, która zadaje &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe obrażenia wrogom w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2661</ID>
+      <DefaultText>Enigmatyk bierze na cel ducha lub jego nośnik i rozdziera zebraną w środku energię duchową, sprawiając, że cel i wszelkie pobliskie duchy oraz nośniki wydają z siebie ogłuszający wrzask, który rozprasza i zadaje obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe wszystkim w pobliżu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2674</ID>
+      <DefaultText>Postać uderza przeciwnika potężnym ciosem wręcz, zadając mu wysokie obrażenia i powodując ogłuszenie. Wrogowie za celem zostają wytrąceni z równowagi i otrzymują obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2687</ID>
+      <DefaultText>(Cierniste korzenie) – dodaje kolce, które zadają obrażenia kłute i &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2699</ID>
+      <DefaultText>Postać uwalnia efekt zadający przeciwnikom w okolicy obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe. Znajdujący na skraju śmierci mogą wybuchnąć, zadając sąsiadującym wrogom obrażenia od kwasu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2732</ID>
+      <DefaultText>(Wspólny ból) – przeciwnicy na drodze zostają ubiczowani i otrzymują obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe o wysokości zależnej od liczby posiadanych przez mnicha ran.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2752</ID>
+      <DefaultText>Dzięki sile woli kapłan może zniszczyć dowolnego ducha lub przywołaną istotę na poziomie niższym niż on sam. Duchy i nośniki dusz na poziomie wyższym lub tym samym co kapłan otrzymują obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2781</ID>
+      <DefaultText>Rani duszę celu, zadając jej periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe. Czary szczątkowe wymierzone w cel spowodują kolejną ranę duszy, zadając natychmiast obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe i wydłużając czas trwania efektu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2849</ID>
+      <DefaultText>Przyzywa wokół maga wirującą pelerynę mrocznej energii. Na krótki czas odsyła ona w mrok przeciwników atakujących go wręcz. Nie mogą oni wówczas wykonywać żadnych działań i otrzymują duże periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2854</ID>
+      <DefaultText>Łowca wykonuje potężną, wirującą serię śmiercionośnych ciosów, wyprowadzając w każdego przeciwnika w zasięgu pełny atak i powodując periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe (wymaga broni do walki w zwarciu).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2870</ID>
+      <DefaultText>Ulepszony duszą atak w zwarciu, który zużywa całą pozostałą pulę siły enigmatyka i zmienia ją w zadawane celowi obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2873</ID>
+      <DefaultText>Przywołuje z nieba potężną błyskawicę, która uderza w cel, zadając obrażenia od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności i powodując oszołomienie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2898</ID>
+      <DefaultText>(Dziki szał – &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; kwas) – każde zabójstwo w przemienionej formie wydłuża czas jej trwania, obniża skuteczność pancerza pobliskich przeciwników i powoduje poparzenie ich kwasem.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2900</ID>
+      <DefaultText>(Dziki szał – &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimno) – każde zabójstwo w przemienionej formie wydłuża czas jej trwania, obniża szybkość działania pobliskich przeciwników i &lt;sprite="Inline" name="cs_freeze" tint=1&gt;  ich.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2902</ID>
+      <DefaultText>(Dziki szał – &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczność) – każde zabójstwo w przemienionej formie wydłuża czas jej trwania, przerywa ataki pobliskich przeciwników i razi ich prądem.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2980</ID>
+      <DefaultText>Wiązki błyskawicy przeskakują z celu na cel, zadając obrażenia od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności i unieruchamiając wszystkich na swojej drodze.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2982</ID>
+      <DefaultText>Natychmiast &lt;sprite="Inline" name="cs_freeze" tint=1&gt;  obszar wokół, raniąc, spowalniając i unieruchamiając wszystkich w zasięgu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3307</ID>
+      <DefaultText>Pozwala sięgnąć i przyciągnąć do użytkownika odległy cel, zadając obrażenia &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte/kłute i oszałamiając go.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3313</ID>
+      <DefaultText>Pozwala sięgnąć i przyciągnąć do użytkownika odległy cel, zadając obrażenia &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte/kłute i oszałamiając go. Na krótki czas zwiększa szybkość ataku użytkownika.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3319</ID>
+      <DefaultText>Atak obrotowy o szerokim zamachu zadający obrażenia kłute/&lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte, odpychający i okulawiający wszystkie cele w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3345</ID>
+      <DefaultText>Przyzywa oddech lodowego trolla, Garlanda. Atakuje przeciwników w obszarze stożka, zadając obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna, zakuwając ich w lód i zmieniając ich w kamień.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3395</ID>
+      <DefaultText>Atak wymierzony we wszystkich pobliskich przeciwników. Zadaje obrażenia kłute/&lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte i wywołuje przestraszenie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3547</ID>
+      <DefaultText>Pocisk, lecąc w powietrzu, naładowuje się elektrycznie. Zadaje obrażenia od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności każdemu w pobliżu celu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3549</ID>
+      <DefaultText>Strzela w obszar działania naładowanymi pociskami, wysyłając impulsami obrażenia od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności w każdego, kto się na nim znajdzie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3697</ID>
+      <DefaultText>Zdolność pasywna. Pierwszy atak w zwarciu ze skradania się zadaje przy trafieniu długotrwałe periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3960</ID>
+      <DefaultText>Gdy jest z tobą warchlak, twoje ataki bronią do walki w zwarciu mają szansę na przerwanie, zaś twoja drużyna zadaje dodatkowe obrażenia &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3965</ID>
+      <DefaultText>Atak ugryzieniem zadaje periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe od trucizny.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4134</ID>
+      <DefaultText>Zapewnia szansę na uwolnienie wokół rzucającego, który otrzymał trafienie krytyczne, małej fali chłodu zadającej pobliskim przeciwnikom obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna, jeśli tylko w okolicy nie ma żadnych sprzymierzeńców. W dużej odległości od nich zapewnia też co kilka sekund koncentrację.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4155</ID>
+      <DefaultText>Aura zadająca pobliskim przeciwnikom periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe w oparciu o ich pozostałe zdrowie (ci, którzy są najbliżsi śmierci, otrzymują największe obrażenia).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4324</ID>
+      <DefaultText>Ataki ze skradania się sprawiają, że cel krwawi, otrzymując obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe aż do końca walki.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4338</ID>
+      <DefaultText>Wypuszcza strzałę w stronę sprzymierzeńca. Użytkownik otrzymuje obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe, zaś cel zostaje uleczony. Poziom leczenia rośnie wraz z umiejętnością religii użytkownika.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4353</ID>
+      <DefaultText>Kula po trafieniu ulega rozpadowi i zasypuje obszar przewodzącymi prąd odłamkami, przez krótki czas rażąc wszystkie cele w okolicy impulsami obrażeń od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4361</ID>
+      <DefaultText>Aura zadająca pobliskim przeciwnikom periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe i obniżająca ich skuteczność pancerza (ci, którzy są najbliżsi śmierci, otrzymują największe obrażenia).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4362</ID>
+      <DefaultText>W żyłach noszącego krąży &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczność, która orzeźwia ciało. Przywraca zdrowie, jeśli otrzyma on obrażenia od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4382</ID>
+      <DefaultText>Bardzo szerokie cięcie ostrzem zadające wszystkim pobliskim celom obrażenia &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte/kłute, odpychające ich i okulawiające.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4384</ID>
+      <DefaultText>Nadziewa cel na broń, obalając go i powodując krwawienie zadające obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4387</ID>
+      <DefaultText>Przywołuje z nieba potężną błyskawicę, która uderza w cel, zadając obrażenia od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności i powodując ogłuszenie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4416</ID>
+      <DefaultText>Zapewnia dodatkową penetrację ataków &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektrycznością.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4659</ID>
+      <DefaultText>Postać uderza nierówną głowicą miecza, zadając obrażenia od broni i nakładając na cel periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4673</ID>
+      <DefaultText>Uderzenie głowicą broni zadaje dodatkowe obrażenia miażdżone i od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności, a także ogłusza cel.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
 </StringTableFile>

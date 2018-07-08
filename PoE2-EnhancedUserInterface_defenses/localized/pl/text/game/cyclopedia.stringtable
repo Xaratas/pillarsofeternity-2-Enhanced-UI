@@ -3,5 +3,33 @@
   <Name>game\cyclopedia</Name>
   <NextEntryID>1</NextEntryID>
   <EntryCount>884</EntryCount>
-  <Entries/>
+  <Entries>
+    <Entry>
+      <ID>146</ID>
+      <DefaultText>W Pillars of Eternity istnieją cztery rodzaje obrony: odbicie, hart, refleks i wola. Każdy z nich służy do niwelowania w ramach rzutu na atak innego rodzaju ciosów. Odbicie pozwala zmniejszać efekty większości ataków bezpośrednich bronią lub ciosów podobnych do takich ataków. Hart pozwala zniweczyć próby fizycznego przeważenia nad postacią oraz ataki, które sprawiają, że postać odnosi obrażenia ustrojowe (np. od trucizny). Fizyczne ataki obszarowe, takie jak kule ognia czy uderzenia błyskawic, odpierane są przez refleks. Niemal wszystkim atakom mentalnym przeciwstawiana jest wola.
+
+Poziomy hartu, refleksu i woli oparte są na parach cech. Moc i kondycja określają hart, zręczność i percepcja odpowiadają za refleks, zaś intelekt i stanowczość – za wolę. &lt;sprite="Inline" name="cs_raw" tint=1&gt; Bazowe odbicie jest wypadkową klasy i stanowczości postaci. Wszyscy bohaterowie otrzymują na każdym poziomie premie do swojej obrony. Ponadto wartość wskaźników defensywnych może zostać zmieniona przez czary, zdolności, przypadłości i przedmioty.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>194</ID>
+      <DefaultText>W grze istnieje osiem rodzajów obrażeń: &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte, kłute, miażdżone, od ognia, od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności, od kwasu, od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna oraz &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe. Wykorzystywane są one do określenia odporności celu na atak danego typu w oparciu o skuteczność jego pancerza. Istota nosząca zbroję może być bardzo odporna na jeden z rodzajów obrażeń, ale też bardzo podatna na inny.
+
+Niektóre rodzaje broni lub ataków mogą powodować różne rodzaje obrażeń naraz lub jeden wybrany z kilku. W tym ostatnim przypadku udany atak zawsze będzie skutkował obrażeniami, na które cel jest najbardziej podatny. Obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe to jedyny rodzaj obrażeń, który ignoruje wszelką skuteczność pancerza i zwykle związany jest z działaniem trucizny lub podobnymi efektami.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>453</ID>
+      <DefaultText>Gdy zadający obrażenia atak sięgnie celu, jego &lt;b&gt;penetracja&lt;/b&gt; porównywana jest ze &lt;b&gt;skutecznością pancerza&lt;/b&gt; atakowanego, by określić, jak wiele obrażeń zostanie ostatecznie zadanych.
+
+Penetracja zależy od używanej broni lub czaru, może jednak zostać podniesiona poprzez użycie magii, zdolności, talentów lub rzuconych na broń zaklęć. Zestawiana jest ona ze skutecznością pancerza stosowną do rodzaju obrażeń zadawanych przez atak, np. w przypadku ognistej kuli porównana zostanie ze skutecznością pancerza przeciw ogniowi. Obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe pomijają wszelki pancerz i test penetracji jest w ich wypadku zbędny.
+
+&lt;b&gt;Pełna penetracja&lt;/b&gt; (+30% do obrażeń) – występuje, gdy penetracja jest co najmniej dwukrotnie większa od skuteczności pancerza celu.
+
+&lt;b&gt;Penetracja&lt;/b&gt; (obrażenia wg wykazu) – penetracja jest równa lub większa od skuteczności pancerza celu.
+
+&lt;b&gt;Niepełna penetracja&lt;/b&gt; (-25% do obrażeń za każdy punkt poniżej pancerza celu, maks. -75%) – penetracja jest mniejsza od skuteczności pancerza celu.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
 </StringTableFile>

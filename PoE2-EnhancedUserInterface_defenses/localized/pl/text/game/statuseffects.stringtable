@@ -3,5 +3,196 @@
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
   <EntryCount>524</EntryCount>
-  <Entries/>
+  <Entries>
+    <Entry>
+      <ID>4</ID>
+      <DefaultText>{0:value:percent} szans na stożkowy atak zadający obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna przy trafieniu krytycznym</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>11</ID>
+      <DefaultText>Zadaje obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe i pozwala atakować szybciej niż standardowa broń</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>34</ID>
+      <DefaultText>{0:value:percentbonus} obrażeń od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna na {0:extravalue:duration} po trafieniu (kumuluje się do {0:triggercount} razy)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>35</ID>
+      <DefaultText>Ataki podstawowe zadają na niewielkim obszarze największe możliwe obrażenia kłute lub &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>42</ID>
+      <DefaultText>Ataki ze skradania się sprawiają, że cel krwawi, otrzymując obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe aż do końca walki</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>65</ID>
+      <DefaultText>Ataki podstawowe zadają niewielkie obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>73</ID>
+      <DefaultText>Użytkownik otrzymuje {0:value:percent} zadanych przez siebie obrażeń jako obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>77</ID>
+      <DefaultText>Szansa na okulawienie, powalenie, periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe przez 12 sekund lub obniżenie szybkości działania celu o 25% przy trafieniu krytycznym</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>90</ID>
+      <DefaultText>{0:value:percent} szans na zadający obrażenia od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności atak przeciw celowi, gdy ten zostanie trafiony krytycznie bronią do walki w zwarciu</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>92</ID>
+      <DefaultText>Otrzymywanie obrażeń od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności pozwala noszącemu na zadawanie przez krótki czas przy atakach dodatkowych obrażeń tego samego typu</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>106</ID>
+      <DefaultText>Obszarowe obrażenia od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności przy utracie przytomności</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>109</ID>
+      <DefaultText>Ataki bronią w zwarciu ze skradania się zadają celowi periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>111</ID>
+      <DefaultText>Zadający obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe atak odwetowy, gdy postać zostanie krytycznie trafiona w zwarciu</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>117</ID>
+      <DefaultText>{0:value:percent} obrażeń ({0:damagetype}) jako periodyczne &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>120</ID>
+      <DefaultText>Zapewnia skuteczność pancerza przeciw obrażeniom od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna wzrastającą w miarę utraty zdrowia przez noszącego (maksymalna premia: {0:value})</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>136</ID>
+      <DefaultText>Użytkownik otrzymuje {0:value:percent} zadanych obrażeń jako obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>154</ID>
+      <DefaultText>Zadaje {0:value} pkt obrażeń od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności przy trafieniu krytycznym</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>164</ID>
+      <DefaultText>{0:value:percent} szans na zadający obrażenia miażdżone/&lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte kontratak, gdy wróg chybi podczas walki w zwarciu</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>178</ID>
+      <DefaultText>Przy {0:value:straight} trafieniach celu z rzędu aktywuje obszarowe obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>194</ID>
+      <DefaultText>Obszarowe obrażenia &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte / od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna we wskazanym miejscu po trafieniu krytycznym</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>196</ID>
+      <DefaultText>+3% obrażeń od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna przy trafieniu; efekt kumuluje się do 20 razy</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>220</ID>
+      <DefaultText>Umiarkowane periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe dla oflankowanego celu przy trafieniu</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>230</ID>
+      <DefaultText>{0:extravalue:percent} obrażeń jako &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczność za każdą posiadaną strofę pieśniarza</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>253</ID>
+      <DefaultText>Trafienia tą bronią zadają {0:value:percent} obrażeń jako periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>259</ID>
+      <DefaultText>Maksymalne zdrowie celu zostaje zmniejszone o {0:extravalue:percent} zadawanych bronią obrażeń od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>272</ID>
+      <DefaultText>Periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe od krwawienia przez 12 sekund po krytycznym trafieniu celu</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>290</ID>
+      <DefaultText>Periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe przez 18 sekund po trafieniu celu mającego poniżej 25% zdrowia</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>294</ID>
+      <DefaultText>Przez {0:value:duration} po wyprowadzeniu ataku postać odbija na atakującego {0:extravalue:percent} otrzymywanych obrażeń w zwarciu jako obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>301</ID>
+      <DefaultText>{0:value:percent} szans na atak zadający obrażenia &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte wrogowi, który trafi postać w zwarciu tego rodzaju obrażeniami</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>305</ID>
+      <DefaultText>Obszarowe obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe zadawane tylko przeciwnikom, gdy postać traci przytomność</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>332</ID>
+      <DefaultText>Postać otrzymuje {0:value:percent} zadawanych obrażeń jako &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>338</ID>
+      <DefaultText>Zdrowie dla użytkownika i obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe dla celu przy otrzymaniu trafienia</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>384</ID>
+      <DefaultText>{0:value:percent} otrzymanych obrażeń jest nakładanych ponownie jako &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>391</ID>
+      <DefaultText>Zadaje obrażenia kłute/&lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>455</ID>
+      <DefaultText>Przy trafieniu nakłada na wroga kumulujący się efekt; przy trafieniu krytycznym wrogowie na obszarze tracą wszystkie kumulacje i otrzymują {0:extravalue} pkt obrażeń od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności za każdą kumulację</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>459</ID>
+      <DefaultText>+{0:value:percent} zadawanych obrażeń jako poparzenia powyżej {0:extravalue:percent} zdrowia i +{0:value:percent} jako obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna poniżej {0:extravalue:percent} zdrowia</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>485</ID>
+      <DefaultText>{0:extravalue:percent} szans na oparcie się atakom zadającym obrażenia &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>520</ID>
+      <DefaultText>Zapewnia skuteczność pancerza przeciw obrażeniom od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności wzrastającą w miarę utraty zdrowia przez noszącego (maksymalna wartość: {0:value})</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
 </StringTableFile>

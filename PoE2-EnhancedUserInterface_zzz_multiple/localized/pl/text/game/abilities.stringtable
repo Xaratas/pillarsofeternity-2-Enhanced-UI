@@ -3,5 +3,129 @@
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
   <EntryCount>3299</EntryCount>
-  <Entries/>
+  <Entries>
+    <Entry>
+      <ID>821</ID>
+      <DefaultText>Wywołuje gwałtowną burzę lodowo-śnieżną, zadając obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna każdemu w obszarze działania i obniżając &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkość &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>830</ID>
+      <DefaultText>Zsyła gwałtowną burzę, co jakiś czas uderzając losowego przeciwnika w obszarze działania piorunami powodującymi &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;ogłuszenie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; i obrażenia &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczne.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>835</ID>
+      <DefaultText>Zsyła śmiercionośną burzę, wielokrotnie uderzając przeciwników w obszarze działania piorunami powodującymi &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;ogłuszenie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; i obrażenia &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczne.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>839</ID>
+      <DefaultText>Wywołuje wzrost pięknych, lecz przerażających i toksycznych kwiatów, które powodują &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;przestraszenie &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;osłabienie &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; oraz periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe u wszystkich w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>861</ID>
+      <DefaultText>Tworzy ogromny, lodowy szpikulec zadający wszystkim w zasięgu obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna oraz rozchodzący się mroźny krąg, który może spowodować &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;okulawienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; u trafionych celów w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>863</ID>
+      <DefaultText>(Berserk) – zapewnia inspiracje &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;zawziętości &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;dzielności &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; zamiast &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;sprawności &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; i siły. Zwiększa znacząco liczbę trafień krytycznych przy ciosach zadanych wręcz i podczas masakry, gdy postać wpada w szał. Barbarzyńca jednak doświadcza &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;zamętu &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, nie zna poziomu swojego zdrowia i stale otrzymuje podczas szału obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1324</ID>
+      <DefaultText>Wysyła z grymuaru magiczny pocisk, który zadaje przeciwnikom w obszarze działania obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe i powoduje &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;oszołomienie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1326</ID>
+      <DefaultText>Przeciwnik zostaje &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;unieruchomiony &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; i staje się celem lodowatego promienia energii maga, który powoduje obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna u istot na swojej drodze.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1765</ID>
+      <DefaultText>Upiorna, kościana dłoń grabi okolicę, zadając obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna przeciwnikom w zasięgu oraz powodując u nich &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;osłabienie &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;okulawienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1769</ID>
+      <DefaultText>Gorący wiatr duje przez pole bitwy, zadając każdemu w obszarze działania obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe i powodując &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;osłabienie &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2192</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
+Szał zapewnia inspiracje &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;zawziętości &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;dzielności &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; zamiast mocy i &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;sprawności &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.
+
+Gdy postać wpada w szał, zadaje znacznie więcej obrażeń krytycznych wręcz i ataków masakry.
+
+&lt;b&gt;Kara&lt;/b&gt;
+Szał powoduje u postaci zamęt.
+
+W stanie szału poziom zdrowia jest niewidoczny.
+
+Postać w stanie szału otrzymuje nieustannie obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2247</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
+Zapewnia zdolność duchowego zniszczenia: ulepszony duszą atak w zwarciu, który zużywa całą pozostałą&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;moc &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; enigmatyka i zmienia ją w zadawane celowi obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.
+
+Czary szczątkowe enigmatyka mają mniejszy koszt w skupieniu.
+
+Pokonanie przeciwnika bronią do walki wręcz zapewnia tymczasowo koncentrację i zwiększa maksymalne skupienie.
+
+&lt;b&gt;Kara&lt;/b&gt;
+Maksymalne skupienie ulega zmniejszeniu (dotyczy to również jego początkowej ilości w walce).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2401</ID>
+      <DefaultText>(Tornado ducha) – upiorne duchy wykonują spiralę wokół postaci, powodując obrażenia od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna i &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;przerażenie &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2674</ID>
+      <DefaultText>Postać uderza przeciwnika potężnym ciosem wręcz, zadając mu wysokie obrażenia i powodując &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;ogłuszenie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;. Wrogowie za celem zostają &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;wytrąceni z równowagi &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; i otrzymują obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2873</ID>
+      <DefaultText>Przywołuje z nieba potężną błyskawicę, która uderza w cel, zadając obrażenia od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności i powodując &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;oszołomienie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2900</ID>
+      <DefaultText>(Dziki szał – &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimno) – każde zabójstwo w przemienionej formie wydłuża czas jej trwania, obniża &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkość &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; działania pobliskich przeciwników i &lt;sprite="Inline" name="cs_freeze" tint=1&gt;  ich.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2980</ID>
+      <DefaultText>Wiązki błyskawicy przeskakują z celu na cel, zadając obrażenia od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności i &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;unieruchamiając &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; wszystkich na swojej drodze.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2982</ID>
+      <DefaultText>Natychmiast &lt;sprite="Inline" name="cs_freeze" tint=1&gt;  obszar wokół, raniąc, spowalniając i &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;unieruchamiając &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; wszystkich w zasięgu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3313</ID>
+      <DefaultText>Pozwala sięgnąć i przyciągnąć do użytkownika odległy cel, zadając obrażenia &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte/kłute i oszałamiając go. Na krótki czas zwiększa &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkość &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; ataku użytkownika.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3395</ID>
+      <DefaultText>Atak wymierzony we wszystkich pobliskich przeciwników. Zadaje obrażenia kłute/&lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte i wywołuje &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;przestraszenie &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4387</ID>
+      <DefaultText>Przywołuje z nieba potężną błyskawicę, która uderza w cel, zadając obrażenia od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności i powodując &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;ogłuszenie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
 </StringTableFile>
