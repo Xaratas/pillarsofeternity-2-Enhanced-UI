@@ -36,7 +36,7 @@
     </Entry>
     <Entry>
       <ID>283</ID>
-      <DefaultText>Twarz rzucającego czar przybiera kształt przegniłej, przeżartej robactwem masy lub inny, równie przerażający. Wywołuje u pobliskich postaci &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;przerażenie &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; i mdłości.</DefaultText>
+      <DefaultText>Twarz rzucającego czar przybiera kształt przegniłej, przeżartej robactwem masy lub inny, równie przerażający. Wywołuje u pobliskich postaci &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;przerażenie &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -71,7 +71,7 @@
     </Entry>
     <Entry>
       <ID>415</ID>
-      <DefaultText>Cel zostaje &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;sparaliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;owany i pokrywają go krosty wypełnione cuchnącą, wyciekającą na zewnątrz ropą. Powoduje to mdłości u postaci w pobliżu.</DefaultText>
+      <DefaultText>Cel zostaje &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;sparaliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;owany i pokrywają go krosty wypełnione cuchnącą, wyciekającą na zewnątrz ropą. Powoduje to &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; u postaci w pobliżu.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -86,7 +86,7 @@
     </Entry>
     <Entry>
       <ID>450</ID>
-      <DefaultText>Rzuca złośliwy i kapryśny urok na wrogów w obszarze działania, wywołując u nich &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;oszołomienie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, mdłości lub paraliż.</DefaultText>
+      <DefaultText>Rzuca złośliwy i kapryśny urok na wrogów w obszarze działania, wywołując u nich &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;oszołomienie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; lub &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;paraliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -110,13 +110,28 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>517</ID>
+      <DefaultText>Strzela w pobliskich wrogów pokrytymi ostrymi kolcami owocami, zadając obrażenia kłute każdemu w obszarze działania. Może też spowodować &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>525</ID>
+      <DefaultText>Wrzask, który &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;paraliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;uje zwierzęta – z wyjątkiem tych najgroźniejszych.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>554</ID>
+      <DefaultText>Przyzywa potężny rój jadowitych owadów, który zadaje periodyczne obrażenia bazowe i wywołuje &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; u wszystkich w obszarze działania. Postacie pod jego wpływem nie są w stanie gromadzić koncentracji.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>566</ID>
       <DefaultText>Osłabia kontakt ofiary z rzeczywistością, powodując &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;roztrzęsienie &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; i zamęt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>573</ID>
-      <DefaultText>Neutralizuje kontrolę umysłu ofiary nad jej ciałem, powodując paraliż i sprawiając, że jej dusza uwalnia falę uderzeniową, która &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;unieruchamia &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; pobliskich przeciwników.</DefaultText>
+      <DefaultText>Neutralizuje kontrolę umysłu ofiary nad jej ciałem, powodując &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;paraliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; i sprawiając, że jej dusza uwalnia falę uderzeniową, która &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;unieruchamia &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; pobliskich przeciwników.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -320,18 +335,28 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1391</ID>
+      <DefaultText>Potrójne skalne szpony wyrastają z ziemi, zamieniając ciało w kamień, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;paraliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;ując i zadając obrażenia cięte wszystkim w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1477</ID>
       <DefaultText>Czar przywołuje potężny kostur, który zwiększa odbicie i odpycha przeciwników, powodując ich &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;okulawienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; przy każdym skutecznym trafieniu. Sam akt przywołania broni również skutkuje odepchnięciem wszystkich w pobliżu (także sprzymierzeńców).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1480</ID>
-      <DefaultText>Czar nazwany na cześć ekscentrycznego, aedyrskiego maga – Tayna. Chaotyczna kula przeskakuje pomiędzy przeciwnikami, zadając obrażenia i powodując różne przypadłości – w tym skamienienie, paraliż, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;osłabienie &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, mdłości, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;ogłuszenie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;oślepienie &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Czar nazwany na cześć ekscentrycznego, aedyrskiego maga – Tayna. Chaotyczna kula przeskakuje pomiędzy przeciwnikami, zadając obrażenia i powodując różne przypadłości – w tym skamienienie, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;paraliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;osłabienie &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;ogłuszenie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;oślepienie &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1569</ID>
       <DefaultText>Łotrzyk wykonuje atak podstawowy, który powoduje u celu zamęt i &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;okulawienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1571</ID>
+      <DefaultText>Ciekawa wersja zawsze popularnej ognistej kuli. Cienisty płomień Ninagautha powoduje obrażenia od zimna i &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;paraliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;uje postaci w zasięgu działania.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -361,7 +386,7 @@
     </Entry>
     <Entry>
       <ID>1757</ID>
-      <DefaultText>Przyznaje pojedynczemu sprzymierzeńcowi tymczasową niewrażliwość na &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;oślepienie &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, zamęt, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;oszołomienie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;rozkojarzenie &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;przestraszenie &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;okulawienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, powalenie, mdłości i &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;unieruchomienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Przyznaje pojedynczemu sprzymierzeńcowi tymczasową niewrażliwość na &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;oślepienie &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, zamęt, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;oszołomienie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;rozkojarzenie &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;przestraszenie &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;okulawienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, powalenie, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;unieruchomienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -475,7 +500,7 @@ Wytrzymałość – zapewnia skuteczność pancerza.</DefaultText>
     </Entry>
     <Entry>
       <ID>2129</ID>
-      <DefaultText>Wojownik zyskuje odporność na przypadłości związane ze zręcznością (&lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;okulawienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;unieruchomienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; i paraliż).</DefaultText>
+      <DefaultText>Wojownik zyskuje odporność na przypadłości związane ze zręcznością (&lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;okulawienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;unieruchomienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;paraliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -485,7 +510,12 @@ Wytrzymałość – zapewnia skuteczność pancerza.</DefaultText>
     </Entry>
     <Entry>
       <ID>2139</ID>
-      <DefaultText>Paladyn zyskuje odporność na przypadłości związane z kondycją (mdłości, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;osłabienie &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1"&gt;&lt;#f7b733&gt;wycieńczenie &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>Paladyn zyskuje odporność na przypadłości związane z kondycją (&lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;osłabienie &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1"&gt;&lt;#f7b733&gt;wycieńczenie &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2155</ID>
+      <DefaultText>(...a strach podążał za nimi aż do podnóży wzgórz) – gdy &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;paraliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; dobiegnie końca, wrogowie zostają przestraszeni.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -547,6 +577,14 @@ Gorszy refleks.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2273</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
+Postać zdobywa płomienie poświęcenia.
+
+Zadają one dodatkowe obrażenia od kwasu (czarne płomienie) i wywołują u celów &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2401</ID>
       <DefaultText>(Tornado ducha) – upiorne duchy wykonują spiralę wokół postaci, powodując obrażenia od zimna i &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;przerażenie &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
@@ -554,6 +592,11 @@ Gorszy refleks.</DefaultText>
     <Entry>
       <ID>2459</ID>
       <DefaultText>Barbarzyńca wchodzi w stan szału, otrzymując inspiracje mocy i &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;sprawności &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, a także premię do &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkości &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; działania, ale również karę do odbicia.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2467</ID>
+      <DefaultText>(Posępni Piechurzy) – płomienie ciemnieją i powodują &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -632,6 +675,16 @@ Gorszy refleks.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2693</ID>
+      <DefaultText>(Granat dymny) – łotrzyk może teraz rzucić we wskazane miejsce powodującą również &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; bombę.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2702</ID>
+      <DefaultText>(Ohydztwo wydało z siebie ostatni jęk) – jeśli zarodnik zostanie zabity, uwalnia trujący gaz powodujący &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; u wszystkich w pobliżu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2707</ID>
       <DefaultText>Odporność na przypadłości:&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;moc &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;</DefaultText>
       <FemaleText />
@@ -697,16 +750,6 @@ Gorszy refleks.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3294</ID>
-      <DefaultText>Znacząco zwiększa na jakiś czas &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkość &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; ataku, lecz nieuważne przeładowywanie i marnowanie runicznego prochu sprawia, że użytkownik otrzymuje periodyczne obrażenia od ognia.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3313</ID>
-      <DefaultText>Pozwala sięgnąć i przyciągnąć do użytkownika odległy cel, zadając obrażenia cięte/kłute i oszałamiając go. Na krótki czas zwiększa &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkość &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; ataku użytkownika.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3395</ID>
       <DefaultText>Atak wymierzony we wszystkich pobliskich przeciwników. Zadaje obrażenia kłute/cięte i wywołuje &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;przestraszenie &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
@@ -737,8 +780,18 @@ Gorszy refleks.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3702</ID>
+      <DefaultText>Duszący atak nakładający na cel &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;paraliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3764</ID>
       <DefaultText>Atak stożkowy odrzucający cele do tyłu, co może powodować ich &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;ogłuszenie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3812</ID>
+      <DefaultText>(Ich zgniły fetor dociera na drugą stronę) – przeciwnicy w pobliżu doznają teraz &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

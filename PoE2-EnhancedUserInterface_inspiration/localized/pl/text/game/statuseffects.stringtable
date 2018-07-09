@@ -35,6 +35,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>13</ID>
+      <DefaultText>{0:value:percent} szans na wywołanie &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; u celu przy trafieniu</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>26</ID>
       <DefaultText>Postać zostaje rozwścieczona, zyskując dzięki temu lotność i &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;zawziętość &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;</DefaultText>
       <FemaleText />
@@ -100,6 +105,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>171</ID>
+      <DefaultText>{0:value:percent} szans na wywołanie u celu na {0:extravalue:duration} &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; przy trafieniu</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>172</ID>
       <DefaultText>Inspiracja &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;dzielności &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; nakładana na postać na {0:value:duration}, gdy sprzymierzeniec straci przytomność</DefaultText>
       <FemaleText />
@@ -107,6 +117,16 @@
     <Entry>
       <ID>181</ID>
       <DefaultText>{0:value:percent} szans na powodujący u celu &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;oszołomienie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; atak, gdy przeciwnik chybi podczas walki w zwarciu</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>195</ID>
+      <DefaultText>Skumulowane {0:value:straight} razy oszronione ostrze &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;paraliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;uje cel na {0:extravalue:duration} przy trafieniu krytycznym</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>202</ID>
+      <DefaultText>Skumulowane {0:triggercount} razy zbrukane ostrze wywołuje u celu &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; przy trafieniu krytycznym</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -150,6 +170,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>284</ID>
+      <DefaultText>Wywołanie na 12 sekund &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; u trafionego krytycznie celu (obrona przed efektem: hart)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>325</ID>
       <DefaultText>Walka bronią dwuręczną zapewnia &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;oszołomienie &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; na {0:extravalue:duration}</DefaultText>
       <FemaleText />
@@ -176,7 +201,7 @@
     </Entry>
     <Entry>
       <ID>399</ID>
-      <DefaultText>Trafienia krytyczne mogą powodować &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;okulawienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; lub mdłości na {0:extravalue:duration}</DefaultText>
+      <DefaultText>Trafienia krytyczne mogą powodować &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;okulawienie &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; lub &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; na {0:extravalue:duration}</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

@@ -5,8 +5,28 @@
   <EntryCount>2831</EntryCount>
   <Entries>
     <Entry>
+      <ID>1798</ID>
+      <DefaultText>Wrogowie w obszarze działania świecą bladozielonym blaskiem, przez co stają się łatwiejszym celem i tracą punkty odbicia i &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; refleksu&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2361</ID>
       <DefaultText>Ostrza z energii duszy, które powodują obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe i zapewniają skupienie używającemu ich enigmatykowi.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2852</ID>
+      <DefaultText>Gdy jest z tobą młode niedźwiedzia, otrzymujesz premię do &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; hartu&lt;/color&gt;, a twoja drużyna zadaje większe obrażenia w zwarciu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2866</ID>
+      <DefaultText>{0} pkt obrażeń od &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3114</ID>
+      <DefaultText>Delikatna kula zawierająca żrące mikstury i duszące gazy. Po wybuchu unosi się z niej chmura kwaśnej mgły zadającej obrażenia od &lt;sprite="Inline" name="cs_raw" tint=1&gt; kwasu i obniżającej skuteczność pancerza wszystkim znajdującym się w niej postaciom.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -15,18 +35,58 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3122</ID>
+      <DefaultText>Bomba alchemiczna o niszczycielskiej sile, ze środka której słychać zagubione szepty śpiewające o druzgocącej ciemności. Po wybuchu tworzy szczelinę, przyciągając wszystko w zasięgu ku czarnemu horyzontowi i zadając obrażenia &lt;sprite="Inline" name="cs_blunt" tint=1&gt; miażdżone.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3138</ID>
-      <DefaultText>Ten obrzydliwy eliksir zmienia strukturę skóry oraz tkanek wewnętrznych, zapewniając lepszą wytrzymałość na obrażenia od ognia, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna, kwasu i &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności.</DefaultText>
+      <DefaultText>Ten obrzydliwy eliksir zmienia strukturę skóry oraz tkanek wewnętrznych, zapewniając lepszą wytrzymałość na obrażenia od &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna, &lt;sprite="Inline" name="cs_raw" tint=1&gt; kwasu i &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3180</ID>
-      <DefaultText>Eliksir ten przenika tkanki, sprawiając, że ciało staje się odporne na obrażenia od ognia, kwasu, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna oraz &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności. Efekt trwa przez ograniczony czas lub do chwili otrzymania określonej ilości obrażeń.</DefaultText>
+      <DefaultText>Eliksir ten przenika tkanki, sprawiając, że ciało staje się odporne na obrażenia od &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia, &lt;sprite="Inline" name="cs_raw" tint=1&gt; kwasu, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna oraz &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności. Efekt trwa przez ograniczony czas lub do chwili otrzymania określonej ilości obrażeń.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3401</ID>
+      <DefaultText>Formuje w ręku odczytującego miecz z płomiennym ostrzem zadający obrażenia od &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia. Zmiana broni kończy działanie czaru.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3402</ID>
+      <DefaultText>Przyciąga rój agresywnych owadów zadających periodyczne obrażenia &lt;sprite="Inline" name="cs_pierce" tint=1&gt; kłute i zmniejszających koncentrację wszystkich w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3404</ID>
+      <DefaultText>Uderza w cel palącym promieniem, który zadaje ciągłe obrażenia od &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia wszystkim trafionym.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3407</ID>
-      <DefaultText>Tworzy w rękach odczytującego kulę energii, która po ciśnięciu w przeciwnika powoduje obrażenia od ognia, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna, kwasu lub &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności u wszystkich w obszarze działania. Zguba odnawia się, dopóki czar nie wygaśnie.</DefaultText>
+      <DefaultText>Tworzy w rękach odczytującego kulę energii, która po ciśnięciu w przeciwnika powoduje obrażenia od &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna, &lt;sprite="Inline" name="cs_raw" tint=1&gt; kwasu lub &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności u wszystkich w obszarze działania. Zguba odnawia się, dopóki czar nie wygaśnie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3410</ID>
+      <DefaultText>Atakuje przeciwnika wyczarowanym olbrzymim jelenim porożem, które powoduje rany &lt;sprite="Inline" name="cs_pierce" tint=1&gt; kłute i zmniejsza wartości odbicia i &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; refleksu&lt;/color&gt; celu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3411</ID>
+      <DefaultText>Odczytujący rzuca dwa śmiercionośne głazy, które miażdżą wszystkich na swojej drodze i wybuchają w zetknięciu z twardą powierzchnią. Powstałe odłamki powodują natomiast rany &lt;sprite="Inline" name="cs_pierce" tint=1&gt; kłute.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3415</ID>
+      <DefaultText>Pięć pocisków czystej mocy wywołuje falę uderzeniową, która zadaje obrażenia &lt;sprite="Inline" name="cs_blunt" tint=1&gt; miażdżone przeciwnikom w zasięgu trafienia.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3418</ID>
+      <DefaultText>Tworzy jaśniejące źródło światła, które utrudnia przeciwnikom w zasięgu wszelką obronę i powoduje periodyczne obrażenia od &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -37,6 +97,26 @@
     <Entry>
       <ID>3422</ID>
       <DefaultText>Przyzywa potężny rój jadowitych owadów, który zadaje periodyczne obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe, zmniejsza koncentrację i wywołuje chorobę u wszystkich w obszarze działania.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3424</ID>
+      <DefaultText>Otacza odczytującego przerażającym wirem &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia, który powoduje poparzenia u wszystkich w zasięgu rażenia.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3428</ID>
+      <DefaultText>Przywołuje płonącą kolumnę, zadając przeciwnikom w obszarze działania obrażenia od &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3429</ID>
+      <DefaultText>Odczytujący ciska kulą świętego &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia, która neutralizuje obronę i pomaga szybciej pokonać wroga, przez 5 sekund powodując ciągłe obrażenia od &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia, a także przyspieszając zarówno wszystkie działające na niego korzystne efekty (z wyjątkiem leczniczych), jak i te wywołujące ciągłe obrażenia. Kula odbija się dodatkowo w kierunku dwóch znajdujących się w pobliżu przeciwników.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3432</ID>
+      <DefaultText>Potworny deszcz płomieni spada na obszar działania, powodując długotrwałe obrażenia od &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia u wszystkich w jego zasięgu.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -55,8 +135,68 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3439</ID>
+      <DefaultText>Z niebios spadają ogniste meteory, zadając przy uderzeniach na wybranym obszarze obrażenia od &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia, a także dodatkowe periodyczne obrażenia od &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3639</ID>
+      <DefaultText>Gdy jest z tobą Rudy Demon, otrzymujesz premię do percepcji, a twoja drużyna – do &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; refleksu&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3640</ID>
+      <DefaultText>Gdy jest z tobą Kathrynn Vonn Kiliann, otrzymujesz premię do intelektu, a twoja drużyna – premię do &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; woli&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3650</ID>
+      <DefaultText>Gdy jest z tobą Chilli, otrzymujesz premię do stanowczości, a twoja drużyna – do &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; woli&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3653</ID>
+      <DefaultText>Gdy jest z tobą Gizmo, poruszasz się szybciej w walce, a twoja drużyna otrzymuje premię do &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; refleksu&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3655</ID>
+      <DefaultText>Gdy jest z tobą Hemp, otrzymujesz premię do kondycji, a twoja drużyna – do &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; hartu&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3659</ID>
+      <DefaultText>Gdy jest z tobą Naleśnik, otrzymujesz premię do mocy, a twoja drużyna ma zwiększoną odporność na obrażenia od &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3695</ID>
+      <DefaultText>Gdy jest z tobą Xopn'aua, otrzymujesz premię do wnikliwości i metafizyki. Cała twoja drużyna otrzymuje ponadto premię do &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; woli&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4390</ID>
+      <DefaultText>Gdy jest z tobą szczenię grobowego ogara, zadajesz dodatkowe obrażenia nośnikom dusz, a każdy członek drużyny otrzymuje mniejsze obrażenia od &lt;sprite="Inline" name="cs_raw" tint=1&gt; kwasu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4410</ID>
+      <DefaultText>Gdy jest z tobą Rare Dan, wrogie ataki wymierzone w ciebie częściej stają się draśnięciami, a twoja drużyna otrzymuje premię do &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; hartu&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4456</ID>
       <DefaultText>Gdy jest z tobą warchlak, twoje ataki bronią do walki w zwarciu mają szansę na przerwanie, zaś twoja drużyna zadaje dodatkowe obrażenia &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4645</ID>
+      <DefaultText>Gdy jest z tobą Pozzi, twoje zdolności związane z ogniem są silniejsze, a drużyna zyskuje premię do &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; refleksu&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5145</ID>
+      <DefaultText>Zadaj {0} pkt obrażeń od &lt;sprite="Inline" name="cs_raw" tint=1&gt; kwasu</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

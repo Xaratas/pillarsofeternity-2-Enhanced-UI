@@ -25,11 +25,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1582</ID>
-      <DefaultText>{0}% &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkości &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; ataku i {1} refleksu</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2314</ID>
       <DefaultText>minimum obrażeń przeciwko postaciom pod wpływem &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;zamętu &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;zauroczeni &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;a, &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;zdominowania &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;</DefaultText>
       <FemaleText />
@@ -75,6 +70,14 @@ Postać zyskuje mistrzostwo tarczy, które zapewnia premię do skuteczności pan
 Mniejsza &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;szybkość &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; ruchu podczas walki.
 
 Gorszy refleks.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2837</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
+Postać zdobywa płomienie poświęcenia.
+
+Zadają one dodatkowe obrażenia od kwasu (czarne płomienie) i wywołują u celów &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

@@ -5,8 +5,10 @@
   <EntryCount>884</EntryCount>
   <Entries>
     <Entry>
-      <ID>86</ID>
-      <DefaultText>&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Odbicie&lt;/color&gt; jest rodzajem obrony chroniącej przed atakami bezpośrednimi oraz dystansowymi, które nie są atakami obszarowymi. Skuteczność &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Odbicia&lt;/color&gt; zależy od klasy postaci, jej poziomu oraz Stanowczości. Jednak mogą mieć na nią wpływ tarcze, niektóre odmiany broni, Talenty i efekty będące wynikiem użycia zaklęć lub przedmiotów.</DefaultText>
+      <ID>84</ID>
+      <DefaultText>Celność stanowi składową część niemal każdego ataku i ma wpływ na prawdopodobieństwo trafienia. O celności decydują przede wszystkim klasa i poziom doświadczenia postaci, ale mają na nią wpływ również percepcja, talenty oraz różne stany wynikłe z użycia czarów lub przedmiotów.
+
+Podczas ataku celność postaci porównywana jest z odpowiednim rodzajem obrony przeciwnika (&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; odbiciem&lt;/color&gt;, &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; hartem&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; refleksem&lt;/color&gt; lub &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; wolą&lt;/color&gt;), aby ustalić jej wpływ na rzut na atak. Jeśli celność atakującego jest wyższa niż obrona przeciwnika, wzrasta prawdopodobieństwo trafienia lub trafienia krytycznego, a maleje szansa na draśnięcie lub chybienie.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -26,20 +28,26 @@ Zależy od klasy postaci, poziomu, mocy i kondycji, ale mają na niego wpływ ta
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>104</ID>
-      <DefaultText>&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Odbicie&lt;/color&gt; zostaje obniżone o 10.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>130</ID>
-      <DefaultText>Zwichnięty nadgarstek ma negatywny wpływ na &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Odbicie&lt;/color&gt;.</DefaultText>
+      <ID>102</ID>
+      <DefaultText>Przypadłość związana z intelektem. Zdominowany cel podlega &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; woli&lt;/color&gt; wroga i wykorzysta wszystko, co ma do dyspozycji, by pokonać dawnych sojuszników. -5 do intelektu.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>146</ID>
-      <DefaultText>W Pillars of Eternity istnieją cztery rodzaje obrony: odbicie, hart, refleks i wola. Każdy z nich służy do niwelowania w ramach rzutu na atak innego rodzaju ciosów. &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Odbicie&lt;/color&gt; pozwala zmniejszać efekty większości ataków bezpośrednich bronią lub ciosów podobnych do takich ataków. &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Hart&lt;/color&gt; pozwala zniweczyć próby fizycznego przeważenia nad postacią oraz ataki, które sprawiają, że postać odnosi obrażenia ustrojowe (np. od trucizny). Fizyczne ataki obszarowe, takie jak kule ognia czy uderzenia błyskawic, odpierane są przez refleks. Niemal wszystkim atakom mentalnym przeciwstawiana jest wola.
+      <DefaultText>W Pillars of Eternity istnieją cztery rodzaje obrony: odbicie, hart, refleks i &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; wola&lt;/color&gt;. Każdy z nich służy do niwelowania w ramach rzutu na atak innego rodzaju ciosów. Odbicie pozwala zmniejszać efekty większości ataków bezpośrednich bronią lub ciosów podobnych do takich ataków. &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Hart&lt;/color&gt; pozwala zniweczyć próby fizycznego przeważenia nad postacią oraz ataki, które sprawiają, że postać odnosi obrażenia ustrojowe (np. od trucizny). Fizyczne ataki obszarowe, takie jak kule &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia czy uderzenia błyskawic, odpierane są przez refleks. Niemal wszystkim atakom mentalnym przeciwstawiana jest &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; wola&lt;/color&gt;.
 
-Poziomy hartu, refleksu i woli oparte są na parach cech. Moc i kondycja określają hart, zręczność i percepcja odpowiadają za refleks, zaś intelekt i stanowczość – za wolę. &lt;sprite="Inline" name="cs_raw" tint=1&gt; Bazowe odbicie jest wypadkową klasy i stanowczości postaci. Wszyscy bohaterowie otrzymują na każdym poziomie premie do swojej obrony. Ponadto wartość wskaźników defensywnych może zostać zmieniona przez czary, zdolności, przypadłości i przedmioty.</DefaultText>
+Poziomy &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; hartu&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; refleksu&lt;/color&gt; i &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; woli&lt;/color&gt; oparte są na parach cech. Moc i kondycja określają hart, zręczność i percepcja odpowiadają za refleks, zaś intelekt i stanowczość – za wolę. &lt;sprite="Inline" name="cs_raw" tint=1&gt; Bazowe odbicie jest wypadkową klasy i stanowczości postaci. Wszyscy bohaterowie otrzymują na każdym poziomie premie do swojej obrony. Ponadto wartość wskaźników defensywnych może zostać zmieniona przez czary, zdolności, przypadłości i przedmioty.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>154</ID>
+      <DefaultText>Wszystkie ataki w Pillars of Eternity skutkują porównaniem celności atakującego z jednym z czterech rodzajów obrony celu: &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; odbiciem&lt;/color&gt; (walka w zwarciu lub dystansowa), &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; hartem&lt;/color&gt; (atak na narządy wewnętrzne – np. trucizna lub choroba), &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; refleksem&lt;/color&gt; (ataki obszarowe) i &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; wolą&lt;/color&gt; (ataki psioniczne).
+
+Następnie wygenerowana zostaje losowo liczba z zakresu między 1 a 100, którą dodaje się do różnicy pomiędzy celnością i obroną, aby określić wynik ataku. Do 30 włącznie = chybienie; 31-50 = draśnięcie, 51-100 = trafienie, 100 lub więcej = trafienie krytyczne.
+
+W przypadku równoważnych wartości ataku i obrony większość ciosów kończy się trafieniami lub chybieniami. Kiedy celność jest wyższa od obrony, wzrasta szansa na trafienie krytyczne, natomiast jeśli obrona przewyższa celność, wzrasta prawdopodobieństwo chybienia.
+
+Domyślnie tylko niektóre ataki są w stanie drasnąć przeciwnika, chyba że zapewniłaby to jakaś zdolność lub efekt. Jeśli wartość ataku znajdzie się w zakresie draśnięcia, nie jest jednak on w stanie drasnąć, stanie się chybieniem.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -59,7 +67,7 @@ Pamiętaj, że wiele zbroi i istot ma inne wartości skuteczności pancerza w za
     </Entry>
     <Entry>
       <ID>194</ID>
-      <DefaultText>W grze istnieje osiem rodzajów obrażeń: &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte, kłute, miażdżone, od ognia, od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności, od kwasu, od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna oraz &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe. Wykorzystywane są one do określenia odporności celu na atak danego typu w oparciu o skuteczność jego pancerza. Istota nosząca zbroję może być bardzo odporna na jeden z rodzajów obrażeń, ale też bardzo podatna na inny.
+      <DefaultText>W grze istnieje osiem rodzajów obrażeń: &lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; kłute, &lt;sprite="Inline" name="cs_blunt" tint=1&gt; miażdżone, od &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia, od &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności, od &lt;sprite="Inline" name="cs_raw" tint=1&gt; kwasu, od &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna oraz &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe. Wykorzystywane są one do określenia odporności celu na atak danego typu w oparciu o skuteczność jego pancerza. Istota nosząca zbroję może być bardzo odporna na jeden z rodzajów obrażeń, ale też bardzo podatna na inny.
 
 Niektóre rodzaje broni lub ataków mogą powodować różne rodzaje obrażeń naraz lub jeden wybrany z kilku. W tym ostatnim przypadku udany atak zawsze będzie skutkował obrażeniami, na które cel jest najbardziej podatny. Obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe to jedyny rodzaj obrażeń, który ignoruje wszelką skuteczność pancerza i zwykle związany jest z działaniem trucizny lub podobnymi efektami.</DefaultText>
       <FemaleText />
@@ -75,6 +83,13 @@ Niektóre rodzaje broni lub ataków mogą powodować różne rodzaje obrażeń n
 &lt;b&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetracja&lt;/b&gt; (obrażenia wg wykazu) – penetracja jest równa lub większa od skuteczności pancerza celu.
 
 &lt;b&gt;Niepełna penetracja&lt;/b&gt; (-25% do obrażeń za każdy punkt poniżej pancerza celu, maks. -75%) – penetracja jest mniejsza od skuteczności pancerza celu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>475</ID>
+      <DefaultText>Stanowiące postrach dżungli pantery to mistrzynie cichego zabijania. Choć najbardziej cenią sobie bagna i lasy deszczowe, spotykano je również w buszu oraz na pustyni. Co za tym idzie, nie brakuje ich też na Archipelagu Martwego Ognia.
+
+Te wybitnie niezależne stworzenia doskonale czują się w podszyciu lasu, gdzie ciemne futro zapewnia im doskonały kamuflaż, i unikają interakcji z istotami rozumnymi, jeśli tylko nie uznają ich za zagrożenie dla swego terytorium. Ich imponująca muskulatura i struktura kości umożliwia im śmiercionośne skoki, zaś ich szczęki są tak silne, że mogą &lt;sprite="Inline" name="cs_blunt" tint=1&gt; miażdżyć skorupy opancerzonych gadów. Nawet zadany przez nie od niechcenia cios łapą wystarczy, by wytrącić z równowagi nieprzygotowanego przeciwnika.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

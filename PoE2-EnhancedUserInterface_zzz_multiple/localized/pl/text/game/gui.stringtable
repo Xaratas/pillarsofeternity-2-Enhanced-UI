@@ -32,5 +32,13 @@ Pokonanie przeciwnika bronią do walki wręcz zapewnia tymczasowo koncentrację 
 Maksymalne skupienie ulega zmniejszeniu (dotyczy to również jego początkowej ilości w walce).</DefaultText>
       <FemaleText />
     </Entry>
+    <Entry>
+      <ID>2837</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
+Postać zdobywa płomienie poświęcenia.
+
+Zadają one dodatkowe obrażenia od &lt;sprite="Inline" name="cs_raw" tint=1&gt; kwasu (czarne płomienie) i wywołują u celów &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
   </Entries>
 </StringTableFile>
