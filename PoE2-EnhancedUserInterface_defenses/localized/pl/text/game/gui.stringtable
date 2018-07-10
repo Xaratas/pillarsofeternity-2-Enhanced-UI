@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\gui</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>4389</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>367</ID>
+      <DefaultText>{0}% do obrażeń i leczenia, {1} do &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; hartu&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>368</ID>
+      <DefaultText>{0}% do zdrowia, {1} do &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; hartu&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>370</ID>
+      <DefaultText>{0} do celności i {1} do &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; refleksu&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>371</ID>
+      <DefaultText>{0}% do obszaru działania, {1}% do czasu trwania zdolności i {2} do &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; woli&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>372</ID>
+      <DefaultText>{0} do czasu trwania wrogich efektów, {1} do odbicia i {2} do &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; woli&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>469</ID>
+      <DefaultText>Stanowczość wpływa na zmniejszenie czasu trwania wrogich efektów oraz poprawę działania &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; woli&lt;/color&gt; i odbicia. Odzwierciedla ona wewnętrzny zapał postaci, jej determinację, oraz odwagę.
+
+5 – nieśmiałość
+10 – wartość przeciętna
+15 – silny charakter
+20 – nieustraszoność</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1176</ID>
+      <DefaultText>Zamiana {0} wyprowadzanych przez wrogów trafień na draśnięcia (hart lub &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; wola&lt;/color&gt;)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1466</ID>
+      <DefaultText>Druid wybiera jeden rodzaj obrażeń (&lt;sprite="Inline" name="cs_slash" tint=1&gt; cięte, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; kłute, &lt;sprite="Inline" name="cs_blunt" tint=1&gt; miażdżone, od &lt;sprite="Inline" name="cs_burn" tint=1&gt; ognia, &lt;sprite="Inline" name="cs_raw" tint=1&gt; kwasu, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; zimna lub &lt;sprite="Inline" name="cs_shock" tint=1&gt; elektryczności) i wzmacnia nimi swój atak.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1582</ID>
+      <DefaultText>{0}% szybkości ataku i {1} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; refleksu&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1629</ID>
+      <DefaultText>Premia do odbicia zapewniana przez tarczę dotyczy także &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; refleksu&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2815</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
+Szał zapewnia inspiracje zawziętości i dzielności zamiast mocy i sprawności.
+
+Gdy postać wpada w szał, zadaje znacznie więcej obrażeń krytycznych wręcz i ataków masakry.
+
+&lt;b&gt;Kara&lt;/b&gt;
+Szał powoduje u postaci zamęt.
+
+W stanie szału poziom zdrowia jest niewidoczny.
+
+Postać w stanie szału otrzymuje nieustannie obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2823</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
+Zapewnia zdolność duchowego zniszczenia: ulepszony duszą atak w zwarciu, który zużywa całą pozostałą moc enigmatyka i zmienia ją w zadawane celowi obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.
+
+Czary szczątkowe enigmatyka mają mniejszy koszt w skupieniu.
+
+Pokonanie przeciwnika bronią do walki wręcz zapewnia tymczasowo koncentrację i zwiększa maksymalne skupienie.
+
+&lt;b&gt;Kara&lt;/b&gt;
+Maksymalne skupienie ulega zmniejszeniu (dotyczy to również jego początkowej ilości w walce).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2837</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
+Postać zdobywa płomienie poświęcenia.
+
+Zadają one dodatkowe obrażenia od &lt;sprite="Inline" name="cs_raw" tint=1&gt; kwasu (czarne płomienie) i wywołują u celów mdłości.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

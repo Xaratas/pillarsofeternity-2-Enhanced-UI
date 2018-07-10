@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\cyclopedia</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>884</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>92</ID>
+      <DefaultText>&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wola&lt;/color&gt; odpowiada za obronę przed atakami opartymi na sile umysłu (np. zaklęciami, które mentalnie &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;paraliż &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;ują cel). Zależy od klasy postaci, jej poziomu, Intelektu i Stanowczości, ale mogą wpływać na nią także inne czynniki.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>102</ID>
+      <DefaultText>Przypadłość związana z intelektem. Z&lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;dominowany &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; cel podlega &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; woli&lt;/color&gt; wroga i wykorzysta wszystko, co ma do dyspozycji, by pokonać dawnych sojuszników. -5 do intelektu.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

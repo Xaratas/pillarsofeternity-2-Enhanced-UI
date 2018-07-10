@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\gui</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>4377</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>367</ID>
+      <DefaultText>{0}% Dano e Cura, {1} &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>368</ID>
+      <DefaultText>{0}% Pontos de Vida, {1} &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>370</ID>
+      <DefaultText>{0} Precisão, e {1} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>470</ID>
+      <DefaultText>Força contribui para Dano, Cura e defesa de &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;. Ela representa a força física e espiritual de um personagem, a força bruta e a capacidade de canalizar magias poderosas.
+
+5 - Fraco
+10 - Mediano
+15 - &lt;xg&gt;Forte&lt;/xg&gt;
+20 - Incrivelmente Poderoso</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>471</ID>
+      <DefaultText>Destreza afeta a Velocidade de Ação de um personagem com todos os ataques, magias e habilidades, e contribui com as defesas de &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o. Ela representa a combinação da coordenação motora, rapidez e sutileza.
+
+5 - Desastrado
+10 - Mediano
+15 - Ágil
+20 - Incrivelmente Sutil</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>473</ID>
+      <DefaultText>Constituição afeta os Pontos de Vida e defesa de &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;. Ela representa a combinação da vida total e estamina de um personagem.
+
+5 - Frágil
+10 - Mediano
+15 - Saudável&lt;/xg&gt;
+20 - Indestrutível</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>474</ID>
+      <DefaultText>Percepção contribui para Precisão e para a defesa &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o. Percepção representa os sentidos de um personagem, como também a habilidade instintiva de perceber detalhes.
+
+5 - Desatento
+10 - Mediano
+15 - Observador
+20 - Olhos de Águia</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1169</ID>
+      <DefaultText>{0} Precisão, Desvio, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o contra inimigos distantes</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1175</ID>
+      <DefaultText>{0} de Acertos convertidos em Raspões (apenas para Desvio ou &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1176</ID>
+      <DefaultText>{0} de Acertos convertidos em Raspões (apenas para &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt; ou Vontade)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1214</ID>
+      <DefaultText>{0} de Raspões convertidos em Erros (apenas &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1582</ID>
+      <DefaultText>{0}% de Velocidade de Ação e {1} de &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1629</ID>
+      <DefaultText>Bônus de Desvio de Escudo também se aplica para &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2832</ID>
+      <DefaultText>&lt;b&gt;Bônus&lt;/b&gt;
++1 Engajamento.
+
+Penetração aumentada nos ataques de Desengajamento.
+
+Ganha "Maestria de Escudo", concedendo um bônus de Valor de Armadura bônus enquanto um escudo estiver equipado.
+
+&lt;b&gt;Penalidade&lt;/b&gt;
+Reduz Caminhar durante o combate.
+
+Diminui o &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;o.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

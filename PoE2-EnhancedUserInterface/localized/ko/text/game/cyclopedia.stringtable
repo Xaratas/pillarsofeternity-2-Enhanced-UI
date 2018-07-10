@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\cyclopedia</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>884</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>86</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;는 범위 공격에 해당하지 않는 직접적인 근접 및 원거리 공격에 저항하는데 사용되는 방어입니다. &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;는 캐릭터의 직업, 레벨, 결의 등에 따라 정해지지만 방패나 특정 무기, 재능, 주문이나 아이템의 효과에 의해 영향을 받기도 합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;는 캐릭터의 신체에 가해진 공격(독이나 질병 등)에 저항하는 데 사용됩니다. 
+&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;는 캐릭터의 직업, 레벨, 힘과 체질 등에 의해 정해지지만, 다른 효과에 의해 영향을 받을 수도 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>90</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;은 캐릭터가 물리적으로 유해한 범위 공격(폭발이나 번개 화살 등)에서 벗어날 수 있게 해줍니다. &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;은 캐릭터의 직업, 레벨, 통찰 등에 의해 정해지지만, 다른 효과에 의해 영향을 받을 수도 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>92</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;는 정신에 기반한 공격(정신적으로 대상을 마비시키는 주문 등)을 저항하는 데 사용됩니다. 캐릭터의 직업, 레벨, 지능과 결의 등에 영향을 받지만, 다른 효과에 의해 영향을 받을 수도 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>94</ID>
+      <DefaultText>통찰 저하. &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;실명 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;인 캐릭터는 통찰이 -5 감소하고, 피격 시 측면 피해 상태로 간주되며, 회복 시간이 +50% 증가하고 명중률이 -10% 감소합니다. 모든 원거리 무기의 사거리가 절반으로 줄어듭니다. 응시 공격을 사용하거나 영향을 받을 수 없습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>98</ID>
+      <DefaultText>지능 저하. &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;혼란 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;인 캐릭터는 지능이 -5 감소하며, 모든 능력 및 공격이 적과 아군을 가리지 않게 됩니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>100</ID>
+      <DefaultText>힘 저하. &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;혼미 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;의 희생자는 힘이 -5 감소하며 적과 교전할 수 없습니다. &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 -4 감소합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>102</ID>
+      <DefaultText>지능 저하. 지배된 대상은 적의 &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;에 굴복하여, 전력을 다해 자신의 동료에게 덤벼들 것입니다. 지능이 -5 감소합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>104</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 방어가 10 감소합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>106</ID>
+      <DefaultText>결의 저하. &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;경악 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;인 캐릭터는 결의가 -5, 권능 레벨이 -3 감소하며 적대적인 주문이나 능력을 사용할 수 없습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>108</ID>
+      <DefaultText>민첩 저하. &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;저는 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;인 캐릭터는 민첩이 -5 감소하고 보폭이 줄어듭니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>110</ID>
+      <DefaultText>민첩 저하. &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;마비 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;인 대상은 아무런 행동도 취할 수 없습니다. 민첩이 -5 감소하고, 받게 되는 모든 명중의 25%가 치명타로 전환됩니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>116</ID>
+      <DefaultText>체질 저하. &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;구역질 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;인 캐릭터는 체질이 -5 감소하며, 모든 치유 효과의 효력이 25% 감소합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>118</ID>
+      <DefaultText>민첩 저하. &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;이동 불가 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;인 캐릭터는 이동할 수 없으며, 민첩이 -5 감소합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>120</ID>
+      <DefaultText>힘 저하. &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;기절 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;인 캐릭터는 어떤 행동도 취할 수 없고, 적과 교전할 수 없으며 모든 방어 수치에 페널티를 받습니다. &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 -4, 힘이 -5 감소합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>122</ID>
+      <DefaultText>결의 저하. &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;공포 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;인 캐릭터는 결의가 -5, 권능 레벨 -3 감소하며 도주 외에는 아무런 행동도 취할 수 없습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>124</ID>
+      <DefaultText>체질 저하. &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;약화 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;인 캐릭터는 체질이 -5 감소하며, 모든 치유 효과의 효력이 반감됩니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>130</ID>
+      <DefaultText>손목 부상은 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;와 명중률에 페널티를 받습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>134</ID>
+      <DefaultText>발목 부상은 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;과 민첩을 감소시킵니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>140</ID>
+      <DefaultText>명중 굴림이 100 이 넘으면 치명타가 됩니다. 치명타의 대미지는 50% 증가하는 효과가 있습니다. 일정 시간 동안 효과(구역질이나 &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;마비 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;)를 주는 치명타는 지속 시간이 50% 증가하게 됩니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>146</ID>
+      <DefaultText>필라스 오브 이터니티에는 네 가지 종류의 방어가 있습니다: 이는 각각 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;로 구성되어 있습니다. 각각의 방어는 명중 굴림을 통한 각기 다른 종류의 공격을 저항하는데 사용됩니다. &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;는 대부분의 직접적인 무기를 통한 공격이나 무기를 통해 공격하는 유사한 모든 공격에 대해 저항하는 힘입니다. &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;는 캐릭터에게 가해지는 외적인 공격 시도나 (독을 이용한) 신체 내부에 대한 공격 등에 저항하는 힘입니다. 그리고 화염구나 번개 화살 등의 물리적인 효과 범위 공격은 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;을 통하여 그 공격에 저항하게 됩니다. 대부분의 정신적 공격은 &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;로 해당 공격에 저항합니다
+
+&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;는 모두 두 가지 능력치에 기반하고 있습니다. 힘과 체질은 &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;를 결정하며, 민첩과 통찰은 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;을, 그리고 지능과 결의는 &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;를 결정하게 됩니다. 기본적인 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;는 캐릭터의 직업과 결의에 의해 결정됩니다. 모든 캐릭터는 레벨마다 방어력에 균일한 보너스를 받습니다. 덧붙여, 주문, 능력, 고통, 아이템은 모두 캐릭터의 방어력에 영향을 주는 요소입니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>148</ID>
+      <DefaultText>고통은 캐릭터에 적용될 수 있는 부정적 효과들입니다. 대부분의 고통은 능력치에 따라 분류됩니다. 예를 들어 &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;저는 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;와 &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;이동 불가 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;는 모두 민첩 저하 계열 고통입니다.
+
+능력치 저하는 상응하는 능력치 강화로 쉽게 상쇄할 수 있으며, 또한 해당 계열의 고통에 면역을 부여합니다. 예를 들어 모든 민첩 저하 계열 고통은 &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;기민함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;날렵함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;신속함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화로 제거할 수 있습니다.
+
+일부 캐릭터는 하나 이상의 고통에 완전히 면역입니다. 어느 캐릭터가 한 계열의 고통에 저항력을 가지고 있을 경우, 해당 유형의 고통은 위력이 약화됩니다. 저항은 해당 능력치의 가장 약한 고통에 완전히 면역이 되도록 해줍니다.
+
+예를 들면 갈색 엘프는 민첩 저하 계열 고통에 저항력을 갖고 있습니다. 이동 불가 효과에 맞은 갈색 엘프는 해당 효과를 받는 대신 &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;저는 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됩니다. 갈색 엘프가 &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;저는 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 효과에 맞을 경우, 해당 효과는 전혀 적용되지 않습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>150</ID>
+      <DefaultText>자동형 재능이나 능력은 캐릭터에게 자동적으로 보너스를 줍니다. 예를 들어, 뱀의 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;을 가진 캐릭터는 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 내성 굴림에 자동적으로 보너스를 받습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>154</ID>
+      <DefaultText>필라스 오브 이터니티의 모든 공격은 공격자의 명중률 값을 4개의 방어력 중 하나와 비교합니다: &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;(직접적인 근접 및 원거리 공격), &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;(독과 질병 같은 신체 조직 공격), &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;(효과 범위 대미지 공격), &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;(정신 공격).
+
+공격 결과를 결정하기 위해 1에서 100 사이의 숫자가 생성되어 명중률과 방어력의 차이에 더해집니다. 15 이하 = 빗나감, 16-50 = 스침, 51-100 = 명중, 100 초과 = 치명타.
+
+공격과 방어가 비등하다면, 대부분의 공격이 명중하거나 스치게 됩니다. 명중률이 방어력보다 우월하다면, 치명타가 더 많이 발생할 것입니다. 방어력이 명중률보다 우월하다면, 빗나가는 경우가 더 많아지는 것이죠.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>158</ID>
+      <DefaultText>공격이 명중했을 때 대미지를 완화하는 주된 수단은 바로 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;(AR)입니다.
+
+&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; 수치는 보통 갑옷으로 얻어지지만, 많은 크리처들은 선천적인 AR을 가지고 있거나, 마법, 능력, 재능 또는 다른 장비 등을 이용하여 AR을 올릴 수 있습니다.
+
+공격의 전체 효율을 결정하려면 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;을 들어오는 모든 공격의 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;과 비교합니다.
+
+&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 대상의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;보다 2배 이상일 경우 최대 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;(130% 대미지)이 됩니다.
+&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 대상의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;을 충족하거나 능가할 경우 부분 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;(100% 대미지)이 됩니다.
+&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 대상의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;에 미치지 못할 경우 일부 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;(대상의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;보다 1점 낮을 때마다 대미지 -25%, 최대 -75%)이 됩니다.
+
+다수의 방어구와 여러 크리처들이 다양한 대미지 유형에 대해 각기 다른 대미지 감소 값을 갖고 있다는 점에 유의하십시오. 낮은 AR은 해당 유형의 대미지를 적게 방어해 주며, 목표물을 해당 유형의 공격에 취약하게 만듭니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>162</ID>
+      <DefaultText>체력은 캐릭터의 단기 생존 가능성을 보여줍니다. 
+
+캐릭터의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;에 의해 흡수되지 않은 대미지는 곧장 체력 감소로 이어집니다. 물약이나 치유 마법(성전사나 사제, 드루이드가 사용)으로 전투 도중 체력을 회복시킬 수 있습니다. 캐릭터의 체력이 0이 되면 녹아웃됩니다. 녹아웃된 캐릭터는 전투 도중 부활 능력을 이용해 전투에 다시 참여시킬 수 있습니다. 그렇지 않다면, (싸움에서 이긴 경우) 캐릭터는 전투가 끝난 후 모든 체력을 회복할 것입니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>180</ID>
+      <DefaultText>전환형 능력은 켜고 끄거나 혹은 다양한 &lt;i&gt;모드&lt;/i&gt;를 설정하여 다채로운 효과를 낼 수 있는 능력을 말합니다. 예를 들어, 모든 무기 숙련은 해당 숙련에 대응하는 무기나 방패를 착용했을 때 일련의 전환형 능력을 제공합니다. 비슷하게 성전사의 열정적 아우라는 각기 다른 세 개의 효과 중 하나를 골라 사용할 수 있습니다.
+
+전환형 능력은 전투 중 전략적 필요에 따라 변경해가며 사용해야 합니다. 가령 한 캐릭터가 사브르의 풍차 &lt;link="glossary://GlossaryEntry_Slashing&gt;&lt;b&gt;베기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; 효과로 얻는 추가 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 필요 없어지면 풍차 베기를 꺼서 캐릭터의 회복 속도를 높여야 합니다. 성전사의 경우도 전투를 시작할 땐 열정적 돌격을 사용하는 게 좋겠지만, 그 이후에는 열정적 집중으로 전환하여 명중률을 높이는 게 이상적일 것입니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>192</ID>
+      <DefaultText>2차 방어력은 단검에 바른 독 같은 두 번째 단계의 공격에만 활용됩니다. 이 예시에서 첫 번째 공격(단검 휘두르기)은 하나의 방어(&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;)를 목표로 하고, 독 공격은 첫 번째 공격이 명중했을 때만 적용이 됩니다. 만약 공격이 명중한다면, 다음 효과를 결정하기 위해 2차 방어력(이 경우에는 독에 대한 &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 방어)를 확인할 것입니다. 첫 공격이 빗나갈 경우 2차 방어력은 확인하지 않습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>194</ID>
+      <DefaultText>필라스 오브 이터니티에는 8가지 대미지 유형이 있습니다: &lt;link="glossary://GlossaryEntry_Slashing&gt;&lt;b&gt;베기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Piercing&gt;&lt;b&gt;관통&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Crushing&gt;&lt;b&gt;부수기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Shock&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing&gt;&lt;b&gt;동결&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;, 그리고 고정입니다. 대미지 유형은 목표물의 대미지 감소에 기반해 목표물이 얼마나 쉽게 해당 유형의 대미지를 저항하는지 결정하는 데 사용됩니다. 어느 크리처나 갑옷이 한 유형의 대미지에 좋은 저항값을 가진다면, 다른 대미지 유형에는 취약할 수도 있는 것이죠.
+
+어떤 무기나 공격은 여러 가지 유형의 대미지를 동시에 입힙니다. 그리고 대미지 유형 사이에 "혹은, 또는, 및" 등으로 동등 나열 기재가 되어 있는 경우도 있습니다. 이렇게 대미지 유형이 동등 나열로 기재되어 있을 경우, 해당 공격은 목표물에게 더 약한 유형의 대미지를 입힐 수 있습니다. &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지는 모든 대미지 감소를 무시하는 유일한 대미지 유형이며, 대체로 독이나 그와 유사한 효과를 말합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>207</ID>
+      <DefaultText>누적 규칙은 보너스와 페널티가 어떻게 합쳐지는지 제어하는 요소입니다. 간단히 말해, 해당 게임은 보너스의 범주를 2개의 유형으로 구분하고 있습니다. &lt;b&gt;자동형&lt;/b&gt; 및 &lt;b&gt;활성형&lt;/b&gt; 입니다.
+
+대부분의 자동형 보너스는 아이템(무기와 장패) 착용 또는 자동형 능력에서 발생됩니다. 만약 어느 효과에 지속 시간이 없고 활성화하거나 비활성화할 필요가 없다면, 그것은 보통 자동형 보너스로 간주되는 것입니다. &lt;b&gt;모든 자동형 보너스는 상호 간에 누적됩니다.&lt;/b&gt;
+
+활성형 보너스는 활성화되어야 하는 주문이나 아이템, 능력 등에서 옵니다. 여기에는 무기의 전환형 능력이나 성전사의 아우라, 전사의 태세처럼 행동 창에서 토글되는 전환형 능력이 포함됩니다. &lt;i&gt;모든 활성형 보너스는 능력치에 대한 가장 높은 보너스를 사용하며 그와 같거나 낮은 보너스는 억제됩니다.&lt;/i&gt;
+
+예를 들어, 만약 어느 마법사 주문이 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;에 +3 보너스를 주고, 성전사의 아우라가 +5 보너스를 준다면, 가장 높은 활성형 보너스는 +5가 되고 +3은 억제됩니다. 만약 같은 마법사 주문이 민첩에도 보너스를 준다면, 그것 &lt;i&gt;또한&lt;/i&gt; (또 다른 활성형/전환형 원인에서 비롯되는 더 우월한 민첩 보너스에 의해 무효화되지 않는 한) 적용될 것입니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>324</ID>
+      <DefaultText>의식 불명된 캐릭터는 행동을 취할 수 없습니다. 민첩은 0으로 감소합니다. &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;과 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;는 40 감소합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>453</ID>
+      <DefaultText>대상을 공격할 때, 공격의 &lt;b&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/b&gt;과 대상의 &lt;b&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/b&gt;을 비교하여 얼마나 많은 대미지를 입힐지 결정합니다.
+
+&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;은 무기나 사용하는 주문에 따라 다르지만, 마법, 능력, 재능, 혹은 무기에 걸린 마법 등을 통해 상승시킬 수 있습니다. &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;은 공격 시 해당 대미지 유형의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;과 비교합니다. 예를 들어, 화염구는 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;에 대한 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;을 체크할 것입니다. &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지는 모든 갑옷을 통과하므로 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;을 필요로 하지 않습니다.
+
+&lt;b&gt;최대 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/b&gt; (대미지 +30%) - &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 대상의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;의 2배 이상일 경우.
+
+&lt;b&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/b&gt; (기재된 대미지) - &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 대상의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;을 충족하거나 능가할 경우.
+
+&lt;b&gt;일부 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/b&gt; (대상의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;보다 1점 낮을 때마다 대미지 -25%, 최대 -75%) - &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 대상의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;에 미치지 못할 경우.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>533</ID>
+      <DefaultText>결의 저하. &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;동요 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;인 캐릭터는 결의가 -5, 권능 레벨 -3 감소합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>590</ID>
+      <DefaultText>명사수는 대체로 원거리 전투에 모든 관심을 집중하며, 방어는 동물 동료에 맡기는 자들을 말합니다. 그들의 원거리 무기는 우월한 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;과 명중률을 자랑하지만, 공격 빈도가 낮으며 기동성이 떨어집니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>679</ID>
+      <DefaultText>체질 저하. &lt;link="gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1"&gt;&lt;#f7b733&gt;쇠약 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;인 캐릭터는 체질이 -5 감소하며, 모든 적대적 상태 효과의 지속 시간이 50% 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>681</ID>
+      <DefaultText>통찰 저하. 방향 감각 &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;혼란 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;인 캐릭터는 통찰이 -5 감소하고, 피격 시 측면 공격을 당하는 것으로 간주되며, 행동의 회복 시간이 +50% 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>683</ID>
+      <DefaultText>힘 저하. &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;비틀거림 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;인 캐릭터는 힘이 -5 감소하며 적과 교전할 수 없습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>687</ID>
+      <DefaultText>&lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;저는 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;이동 불가 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, 마비 저하는 민첩 능력치에 영향을 줍니다. 이들 저하는 민첩 강화(&lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;기민함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;날렵함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;신속함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;)로 대응할 수 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>689</ID>
+      <DefaultText>강화는 저하처럼 캐릭터에 적용되는 상태 효과의 묶음입니다. 그러나 저하와 다르게 대상 캐릭터에게 긍정적인 효과를 제공합니다.
+
+각 강화는 힘이나 민첩 같은 능력치에 의해 분류됩니다. 강화는 같은 능력치 계열에 속하는 저하 효과를 상쇄하고 면역을 부여합니다 (예: &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;영리함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화는 혼란, 지배, 현혹됨 상태를 취소하고 제거합니다.)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>695</ID>
+      <DefaultText>비틀거림, 혼미, 기절 저하는 힘 능력치에 영향을 줍니다. 이러한 저하들은 힘 강화(&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;강력함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;집요함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://c56f70b5-b611-4dee-b80f-335033b98e2f"&gt;&lt;#ff4800&gt;활력&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;)로 대응할 수 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>696</ID>
+      <DefaultText>쇠약, 구역질, 약화 저하는 체질 능력치에 영향을 줍니다. 이러한 저하들은 체질 강화(&lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;건강함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;강인함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;강건함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;)로 대응할 수 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>697</ID>
+      <DefaultText>혼란, 현혹, 지배됨 저하는 지능 능력치에 영향을 줍니다. 이러한 저하들은 지능 강화(&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;영리함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://c4ada862-ee17-4c10-8967-734e08daa4aa"&gt;&lt;#00a4ff&gt;예리함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;명석함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;)로 대응할 수 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>698</ID>
+      <DefaultText>&lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;방향 감각 혼란&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, 산만함, 실명 저하는 통찰 능력치에 영향을 줍니다. 이러한 저하들은 통찰 강화(&lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;통찰력&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;인식력&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://c2fb23c5-9907-4654-b62e-77adbc37c9bc"&gt;&lt;#ca58ff&gt;직관력&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;)로 대응할 수 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>699</ID>
+      <DefaultText>동요, 경악, 공포 저하는 결의 능력치에 영향을 줍니다. 이들 고통은 결의 강화(&lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;강건함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;단호함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://dc62af47-239f-4ee4-8d91-a5e8b3b97564"&gt;&lt;#30d3d5&gt;용감함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;)로 대응할 수 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>701</ID>
+      <DefaultText>&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;강력함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;집요함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://c56f70b5-b611-4dee-b80f-335033b98e2f"&gt;&lt;#ff4800&gt;활력&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화는 힘 능력치에 영향을 줍니다. 이러한 강화들은 힘 저하(비틀거림, 혼미, 기절)로 대응할 수 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>703</ID>
+      <DefaultText>&lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;건강함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;강인함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;강건함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화는 체질 능력치에 영향을 미칩니다. 이러한 강화는 체질 저하(쇠약, 구역질, 약화)로 대응할 수 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>705</ID>
+      <DefaultText>&lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;기민함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;날렵함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;신속함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화는 민첩 능력치에 영향을 줍니다. 이들 강화는 민첩 저하(&lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;저는 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, 이동 불가, 마비)로 대응할 수 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>707</ID>
+      <DefaultText>&lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;영리함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://c4ada862-ee17-4c10-8967-734e08daa4aa"&gt;&lt;#00a4ff&gt;예리함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;명석함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화는 지능 능력치에 영향을 줍니다. 이들 강화는 지능 저하(혼란, 현혹, 지배)로 대응할 수 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>709</ID>
+      <DefaultText>&lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;통찰력&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;인식력&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://c2fb23c5-9907-4654-b62e-77adbc37c9bc"&gt;&lt;#ca58ff&gt;직관력&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화는 통찰 능력치에 영향을 줍니다. 이들 강화는 통찰 저하(&lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;방향 감각 혼란&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, 산만함, 실명)로 대응할 수 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>711</ID>
+      <DefaultText>&lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;강건함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;단호함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://dc62af47-239f-4ee4-8d91-a5e8b3b97564"&gt;&lt;#30d3d5&gt;용감함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화는 결의 능력치에 영향을 줍니다. 이들 강화는 결의 저하(동요, 경악, 공포)로 대응할 수 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>713</ID>
+      <DefaultText>힘 강화. &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;강력함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 힘이 +5 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>715</ID>
+      <DefaultText>힘 강화. &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;집요함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 힘이 +5, &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 +2 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>717</ID>
+      <DefaultText>힘 강화. &lt;link="gamedata://c56f70b5-b611-4dee-b80f-335033b98e2f"&gt;&lt;#ff4800&gt;활력&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 힘이 +5, &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 +2 증가하며 치명타로 적의 공격을 방해할 수 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>719</ID>
+      <DefaultText>체질 강화. &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;건강함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 체질이 +5 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>721</ID>
+      <DefaultText>체질 강화. &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;강인함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 체질이 +5, &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;이 +2 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>723</ID>
+      <DefaultText>체질 강화. &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;강건함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 체질이 +5, &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;이 +2 증가하며 체력을 주기적으로 회복합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>725</ID>
+      <DefaultText>민첩 강화. &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;기민함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태는 캐릭터의 민첩을 5 늘려줍니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>727</ID>
+      <DefaultText>민첩 강화. &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;날렵함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 민첩이 +5, 보폭 수치가 +100% 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>729</ID>
+      <DefaultText>민첩 강화. &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;신속함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 민첩이 +5, 보폭 수치가 100% 증가하며 적의 교전 수치에 영향을 받지 않습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>731</ID>
+      <DefaultText>통찰 강화. &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;통찰력&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 통찰이 +5 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>733</ID>
+      <DefaultText>통찰 강화. &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;인식력&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 통찰이 +5 증가하며, 공격에 맞을 때 50% 확률로 스치게 됩니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>735</ID>
+      <DefaultText>통찰 강화. &lt;link="gamedata://c2fb23c5-9907-4654-b62e-77adbc37c9bc"&gt;&lt;#ca58ff&gt;직관력&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 통찰이 +5 증가하며, 50% 확률로 스침이 명중이 되고, 25% 확률로 명중이 치명타가 됩니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>737</ID>
+      <DefaultText>지능 강화. &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;영리함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 지능이 +5 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>739</ID>
+      <DefaultText>지능 강화. &lt;link="gamedata://c4ada862-ee17-4c10-8967-734e08daa4aa"&gt;&lt;#00a4ff&gt;예리함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 지능이 +5 증가하며, +1 등급 높은 권능 레벨의 능력 및 주문을 사용할 수 있습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>741</ID>
+      <DefaultText>지능 강화. &lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;명석함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 지능이 +5 증가하고, +1 등급 높은 권능 레벨의 능력 및 주문을 사용할 수 있으며, 직업 관련 자원이 주기적으로 회복됩니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>743</ID>
+      <DefaultText>결의 강화. &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;확고함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 결의가 +5 증가합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>745</ID>
+      <DefaultText>결의 강화. &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;단호함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 결의가 +5 증가하며 집중력이 주기적으로 회복됩니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>747</ID>
+      <DefaultText>결의 강화. &lt;link="gamedata://dc62af47-239f-4ee4-8d91-a5e8b3b97564"&gt;&lt;#30d3d5&gt;용감함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태인 캐릭터는 결의가 +5 증가하며 공격 간섭에 면역이 됩니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>753</ID>
+      <DefaultText>특정 유형의 고통(저하)에 저항력을 지닌 캐릭터는 자신에게 영향을 미치는 고통의 등급을 한 단계 낮출 수 있습니다. 예를 들어, 힘 저하에 저항력을 지닌 캐릭터는 기절 대신 한 단계 낮은 &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;혼미 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됩니다. &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;혼미 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;에 걸릴 경우 대신 &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;비틀거림 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;에 걸리게 되며, 비틀거림에 걸리면 아예 적용이 되지 않습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>755</ID>
+      <DefaultText>특정 유형의 저하에 약점을 둔 캐릭터는 자신에게 영향을 미치는 저하가 한 등급 높아집니다. 예를 들어, 힘 저하에 약점을 지닌 캐릭터는 비틀거림 대신 혼미를, 혼미 대신 &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;기절 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;를 부여받습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

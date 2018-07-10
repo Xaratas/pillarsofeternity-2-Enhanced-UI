@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\abilities</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>3288</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>2255</ID>
+      <DefaultText>&lt;b&gt;Бонус&lt;/b&gt;
+Фурии превращаются не в животных, а в штормовых блайтов.
+Стихийные заклинания получают бонус +1 к &lt;link="glossary://GlossaryEntry_&lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration"&gt;Пробиванию&lt;/link&gt;, а дистанция их атаки увеличена на 20%.
+Если фурия убивает врага, будучи в трансформированном состоянии, время трансформации продлевается.
+
+Автоматически изучают следующие заклинания на соответствующем &lt;link="glossary://GlossaryEntry_Power_Level"&gt;Уровне Мощи&lt;/link&gt;:
+
+1. &lt;link="gamedata://cc76703b-e0eb-4dde-8d16-b920320560a6"&gt;Танцующие молнии&lt;/link&gt;
+2. &lt;link="gamedata://96128ded-837a-4047-a18a-3b7f88d45dfb"&gt;Взрыв летнего пламени&lt;/link&gt;
+3. &lt;link="gamedata://af6b5085-5c01-4287-add3-75e6ec94b93b"&gt;Возвращение шторма&lt;/link&gt;
+4. &lt;link="gamedata://6c9946cf-adc9-49fa-b414-d9e773c7db4a"&gt;Град&lt;/link&gt;
+5. &lt;link="gamedata://6bffc4f5-e8f8-4471-a098-5e83b0b664e4"&gt;Безжалостный шторм&lt;/link&gt;
+6. &lt;link="gamedata://ac37ae92-8056-4ecf-8dda-6f1dd5a8925b"&gt;Солнечное копье&lt;/link&gt;
+7. &lt;link="gamedata://b0e4451d-cde5-4434-9ae1-88de5ca9f152"&gt;Ярость шторма&lt;/link&gt;
+8. &lt;link="gamedata://d06f03f8-edca-46c2-917b-3b941a04312b"&gt;Карающая буря&lt;/link&gt;
+9. &lt;link="gamedata://1d8a3400-7e30-43f4-86b8-23d1f5808d46"&gt;Великий вихрь&lt;/link&gt;
+
+&lt;b&gt;Штраф&lt;/b&gt;
+Невозможно использовать заклинания Омоложения.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2299</ID>
+      <DefaultText>&lt;b&gt;Бонус&lt;/b&gt;
+Ловец и его спутник получают +5 &lt;link="glossary://GlossaryEntry_&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;"&gt;Отклонения&lt;/link&gt; и +1 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Класс Защиты&lt;/link&gt;, если находятся ближе 4 метров друг к другу.
+
+&lt;b&gt;Штраф&lt;/b&gt;
+Ловец и его спутник страдают от «&lt;link="gamedata://becfb088-b7e0-4d58-a6fb-baaedc84e20c"&gt;Общего горя&lt;/link&gt;», если находятся дальше 7 метров друг от друга.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2305</ID>
+      <DefaultText>&lt;b&gt;Бонус&lt;/b&gt;
+Ассасин получает пассивную способность «&lt;link="gamedata://4badd93c-4070-4441-9247-36d772fc950d"&gt;Убийство&lt;/link&gt;», повышающую &lt;link="glossary://GlossaryEntry_&lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration"&gt;Пробивание&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Точность&lt;/link&gt; и урон от &lt;link="glossary://GlossaryEntry_Crit"&gt;критических попаданий&lt;/link&gt; скрытных атак.
+
+&lt;b&gt;Штраф&lt;/b&gt;
+Весь входящий урон увеличен на 15%</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2459</ID>
+      <DefaultText>Персонаж впадает в ярость, получая Вдохновения &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;Силы &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/link&gt; и &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;Подготовки &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/link&gt;, бонус к &lt;link="stringtooltip://cyclopedia/2041"&gt;Скорость действий&lt;/link&gt;, но также и штраф к &lt;link="glossary://GlossaryEntry_&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;"&gt;Отклонению&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2588</ID>
+      <DefaultText>Атаки наносят врагу меньший урон, но ухудшают его &lt;link="glossary://GlossaryEntry_&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;"&gt;Реакцию&lt;/link&gt;.
+
+-25 Реакция цели при обычном или критическом попадании
+-25% Урон боевым цепом
+</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2590</ID>
+      <DefaultText>Вы оказываетесь уязвимы, но наносите мощные удары своим эстоком. Пробивание дается ценой меньшего &lt;link="glossary://GlossaryEntry_&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;"&gt;Отклонения&lt;/link&gt;.
+
++2 Пробивание
+-15 Отклонение
+</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3451</ID>
+      <DefaultText>В начале боя дает Неуязвимость к атакам на &lt;link="glossary://GlossaryEntry_&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;"&gt;Реакцию&lt;/link&gt;, пока не будет получено два &lt;link="glossary://GlossaryEntry_Hit"&gt;попадания&lt;/link&gt; атаками, нацеленными на другие типы защиты.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4452</ID>
+      <DefaultText>Если вы сражаетесь без оружия, ваши удары будут усиливаться пропорционально повышению уровня. Они не станут такими же сильными, как у монахов, но приобретут повышенную &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Точность&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Damage"&gt;Урон&lt;/link&gt; и &lt;link="glossary://GlossaryEntry_&lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration"&gt;Пробивание&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>
