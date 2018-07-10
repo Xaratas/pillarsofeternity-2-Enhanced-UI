@@ -4,7 +4,7 @@ Notepad++ Macro:
     <InternalCommands />
     <Macros>
         <Macro name="RegEx-Inspirations" Ctrl="no" Alt="no" Shift="no" Key="0"> 
-        <!-- START COPYING  THE TEXT BELOW: -->
+        <!-- START COPYING  THE TEXT BELOW: --><!-- START COPYING  THE TEXT BELOW: --><!-- START COPYING  THE TEXT BELOW: -->
             <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
             <Action type="3" message="1601" wParam="0" lParam="0" sParam="Fit" />
             <Action type="3" message="1625" wParam="0" lParam="0" sParam="" />
@@ -668,7 +668,7 @@ Notepad++ Macro:
             <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
         </Macro>
     </Macros>
-    <!-- STOP COPYING HERE -->
+    <!-- STOP COPYING HERE --><!-- STOP COPYING HERE --><!-- STOP COPYING HERE --><!-- STOP COPYING HERE --><!-- STOP COPYING HERE -->
     <UserDefinedCommands>
         <Command name="Launch in Firefox" Ctrl="yes" Alt="yes" Shift="yes" Key="88">firefox &quot;$(FULL_CURRENT_PATH)&quot;</Command>
         <Command name="Launch in IE" Ctrl="yes" Alt="yes" Shift="yes" Key="73">iexplore &quot;$(FULL_CURRENT_PATH)&quot;</Command>
