@@ -556,7 +556,7 @@
     </Entry>
     <Entry>
       <ID>927</ID>
-      <DefaultText>Die Erfahrung in der Kunst des Schmerzes führt dazu, dass alle &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hieb-, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stich- und Wuchtschäden durch die Waffen des Schurken auch &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit verursachen.</DefaultText>
+      <DefaultText>Die Erfahrung in der Kunst des Schmerzes führt dazu, dass alle &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hieb-, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stich- und &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschäden durch die Waffen des Schurken auch &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit verursachen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -682,6 +682,11 @@
     <Entry>
       <ID>1477</ID>
       <DefaultText>Dieser Zauber beschwört einen mächtigen Kampfstab, der &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; hinzufügt und Feinde bei jedem erfolgreichen Angriff mit einem Humpelnd-Effekt wegstößt. Die Beschwörung selbst stößt ebenfalls jeden (auch Verbündete) aus der Nähe des Zauberwirkers fort.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1478</ID>
+      <DefaultText>Dieser Zauber fügt dem Ziel eine große Menge an &lt;sprite="Inline" name="cs_raw" tint=1&gt; direktem Schaden zu. Jeder Nicht-Geist, der durch den Angriff fällt, beschwört einen Geist, der unter der Kontrolle des Zauberwirkers steht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -890,11 +895,6 @@ Einhändig: Direkter Schaden über Zeit</DefaultText>
     <Entry>
       <ID>2044</ID>
       <DefaultText>(Verwirrende Blendung) – Solange das Ziel Geblendet ist, verursachen alle Angriffe darauf einen stapelbaren Abzug auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2057</ID>
-      <DefaultText>(Auslöschender &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hieb) – Gegner in der Nähe des Ziels werden durch den Angriff Erschüttert.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1389,6 +1389,11 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     <Entry>
       <ID>3451</ID>
       <DefaultText>Zu Beginn des Kampfes ist der Träger immun gegen alle Angriffe, die sich auf die &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; richten. Dies endet erst, wenn der Träger zweimal von anderen Angriffen getroffen wurde.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3506</ID>
+      <DefaultText>Feuere einen speerartigen Blitz durch mehrere Ziele. Dabei erzielst du &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschäden, wirfst sie zurück und machst sie an ihrem Standort Bewegungsunfähig.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
