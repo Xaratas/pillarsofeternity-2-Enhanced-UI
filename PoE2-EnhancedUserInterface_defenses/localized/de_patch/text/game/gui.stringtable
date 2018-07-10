@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\gui</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>4397</EntryCount>
+  <EntryCount>4398</EntryCount>
   <Entries>
     <Entry>
       <ID>367</ID>
@@ -51,7 +51,7 @@
     </Entry>
     <Entry>
       <ID>473</ID>
-      <DefaultText>Verfassung beeinflusst Gesundheit und die &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;sverteidigung. Sie repräsentiert eine Kombination der gesamten Gesundheit und des Staminas eines Charakters.
+      <DefaultText>Verfassung beeinflusst Gesundheit und die &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;sverteidigung. Sie repräsentiert eine Kombination der gesamten Gesundheit und der Ausdauer eines Charakters.
 
  5 – Zerbrechlich
 10 – Durchschnitt
@@ -71,12 +71,12 @@
     </Entry>
     <Entry>
       <ID>1175</ID>
-      <DefaultText>{0} der erhaltenen Treffer werden in Leichter Treffer umgewandelt (nur &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; oder &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;)</DefaultText>
+      <DefaultText>{0} der eingehenden Treffer werden in Leichter Treffer umgewandelt (nur &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; oder &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1176</ID>
-      <DefaultText>{0} der erhaltenen Treffer werden in Leichter Treffer umgewandelt (nur &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt; oder &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;)</DefaultText>
+      <DefaultText>{0} der eingehenden Treffer werden in Leichter Treffer umgewandelt (nur &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt; oder &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -91,7 +91,7 @@
     </Entry>
     <Entry>
       <ID>1466</ID>
-      <DefaultText>Druiden wählen eine Schadensart (&lt;sprite="Inline" name="cs_slash" tint=1&gt; Hieb-, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stich-, &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wucht-, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, Zersetzungs-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost- oder Elektroschockschaden), die jedem eingesetzten Angriff hinzugefügt wird, der einem Ziel eine dieser Schadensarten zufügt.</DefaultText>
+      <DefaultText>Druiden wählen eine Schadensart (&lt;sprite="Inline" name="cs_slash" tint=1&gt; Hieb-, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stich-, &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wucht-, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, Zersetzungs-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost- oder &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden), die jedem eingesetzten Angriff hinzugefügt wird, der einem Ziel eine dieser Schadensarten zufügt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -163,7 +163,7 @@ Lerne die folgenden Druidenzauber auf neuen Kraftstufen:
 9. Großer Maelstrom
 
 &lt;b&gt;Abzug&lt;/b&gt;
-Verjüngungszauber können nicht verhängt werden.</DefaultText>
+Verjüngungszauber können nicht gewirkt werden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

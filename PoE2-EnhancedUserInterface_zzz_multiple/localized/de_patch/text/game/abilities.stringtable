@@ -194,11 +194,6 @@ Einhändig: Direkter Schaden über Zeit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2057</ID>
-      <DefaultText>(Auslöschender &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hieb) – Gegner in der Nähe des Ziels werden durch den Angriff &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Erschüttert &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2192</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 Raserei gewährt die Inspirationen &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Hartnäckig &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; anstelle von &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.
@@ -299,6 +294,11 @@ Die Flammen der Hingabe verursachen zusätzlichen &lt;sprite="Inline" name="cs_c
     <Entry>
       <ID>3395</ID>
       <DefaultText>Greift alle Feinde in der Nähe an, versetzt ihnen &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hieb-/&lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden und &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; sie.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3506</ID>
+      <DefaultText>Feuere einen speerartigen Blitz durch mehrere Ziele. Dabei erzielst du &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschäden, wirfst sie zurück und machst sie an ihrem Standort &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Bewegungsunfähig &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

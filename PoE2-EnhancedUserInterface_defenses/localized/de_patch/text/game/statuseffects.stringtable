@@ -406,7 +406,7 @@
     </Entry>
     <Entry>
       <ID>340</ID>
-      <DefaultText>+10 % Schaden bei einem kritischen Treffer als &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden bis zum Ende des Kampfes hinzugefügt. Der Effekt ist 10-mal stapelbar.</DefaultText>
+      <DefaultText>+10 % Schaden bei einem kritischen Treffer als &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden bis zum Ende des Kampfes hinzugefügt. Kann 10-mal gestapelt werden</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -511,7 +511,7 @@
     </Entry>
     <Entry>
       <ID>478</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; (verbessert sich mit der Fertigkeit Athletik)</DefaultText>
+      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; (Verbessert sich mit der Fertigkeit Athletik)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -541,12 +541,12 @@
     </Entry>
     <Entry>
       <ID>520</ID>
-      <DefaultText>{0:extravalue} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gegen Schockangriffe, der sich erhöht, wenn der Träger Gesundheit verliert (Max 5 &lt;sprite="Inline" name="cs_ar" tint=1&gt; RW)</DefaultText>
+      <DefaultText>Verleiht &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gegen Schockangriffe, der sich erhöht, wenn der Träger Gesundheit verliert (Max. {0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; RW)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>521</ID>
-      <DefaultText>{0:extravalue} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gegen Wasserangriffe, der sich erhöht, wenn der Träger Gesundheit verliert (Max 7 &lt;sprite="Inline" name="cs_ar" tint=1&gt; RW)</DefaultText>
+      <DefaultText>Verleiht &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gegen Wasserangriffe, der sich erhöht, wenn der Träger Gesundheit verliert (Max. {0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; RW)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
