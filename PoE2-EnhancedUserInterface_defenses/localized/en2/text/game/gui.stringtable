@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\gui</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>4377</EntryCount>
+  <EntryCount>4389</EntryCount>
   <Entries>
     <Entry>
       <ID>367</ID>
@@ -35,7 +35,7 @@
 
 5 - Timid
 10 - Average
-15 - &lt;xg&gt;Strong&lt;/xg&gt;-&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;ed
+15 - Strong-&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;ed
 20 - Fearless</DefaultText>
       <FemaleText />
     </Entry>
@@ -45,7 +45,7 @@
 
 5 - Weak
 10 - Average
-15 - &lt;xg&gt;Strong&lt;/xg&gt;
+15 - Strong
 20 - Fantastically Powerful</DefaultText>
       <FemaleText />
     </Entry>
@@ -65,8 +65,8 @@
 
 5 - Dim
 10 - Average
-15 - &lt;xg&gt;Quick&lt;/xg&gt;-Witted
-20 - &lt;xg&gt;Brilliant&lt;/xg&gt;</DefaultText>
+15 - Quick-Witted
+20 - Brilliant</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -151,12 +151,12 @@
     </Entry>
     <Entry>
       <ID>2815</ID>
-      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+      <DefaultText>Bonus
 Frenzy grants the Tenacious and Hardy Inspirations, instead of Strong and Fit.
 
 Gain significant Hit to Crit conversion on melee and carnage attacks while frenzied.
 
-&lt;b&gt;Penalty&lt;/b&gt;
+Penalty
 Confused while frenzied.
 
 Cannot see Health while frenzied.
@@ -166,20 +166,20 @@ Takes &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage continuously whil
     </Entry>
     <Entry>
       <ID>2823</ID>
-      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+      <DefaultText>Bonus
 Gains "Soul Annihilation" ability: A soul enhanced melee strike that consumes the cipher's remaining power pool and converts it into &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage on the target.
 
 Shred cipher spells cost less Focus.
 
 Downing an enemy with a Melee Weapon temporarily grants Concentration and raises Max Focus.
 
-&lt;b&gt;Penalty&lt;/b&gt;
+Penalty
 Max Focus is reduced. (Combat starting amount as well)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2827</ID>
-      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+      <DefaultText>Bonus
 Instead of an animal form, Furies spiritshift into a storm blight.
 
 Elemental druid spells gain increased range and &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration.
@@ -197,20 +197,20 @@ Automatically learn the following druid spells at new power levels:
 8. Avenging Storm
 9. Great Maelstrom
 
-&lt;b&gt;Penalty&lt;/b&gt;
+Penalty
 Cannot cast Rejuvenation spells.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2830</ID>
-      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+      <DefaultText>Bonus
 May select a single weapon proficiency as their chosen weapon.
 
 Increased &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration with their chosen weapon.
 
 Increased Critical Hit damage with their chosen weapon.
 
-&lt;b&gt;Penalty&lt;/b&gt;
+Penalty
 Accuracy is penalized whenever using a weapon that is not their chosen weapon.
 
 Only gain a single proficiency and no new proficiencies during level up.</DefaultText>
@@ -218,14 +218,14 @@ Only gain a single proficiency and no new proficiencies during level up.</Defaul
     </Entry>
     <Entry>
       <ID>2832</ID>
-      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+      <DefaultText>Bonus
 +1 Engagement.
 
 Increased &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration on Disengagement Attacks.
 
 Gains "Shield Mastery" providing bonus &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating while wearing a shield.
 
-&lt;b&gt;Penalty&lt;/b&gt;
+Penalty
 Lower Stride in combat.
 
 Lower &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;es.</DefaultText>
@@ -233,7 +233,7 @@ Lower &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;
     </Entry>
     <Entry>
       <ID>2837</ID>
-      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+      <DefaultText>Bonus
 Gain Flames of Devotion.
 
 Flames of Devotion deals additional &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode damage (Black Flames) and applies the Sickened Affliction to targets.</DefaultText>
@@ -241,7 +241,7 @@ Flames of Devotion deals additional &lt;sprite="Inline" name="cs_corrosive" tint
     </Entry>
     <Entry>
       <ID>2839</ID>
-      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+      <DefaultText>Bonus
 Gain Sworn Enemy.
 
 Sworn Enemy gains the upgrade "Gilded Enmity" which causes the paladin to be imbued with a blessing of gold when they declare a Sworn Enemy. The paladin receives bonus &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating until struck enough times for the gold to break.</DefaultText>
@@ -249,12 +249,12 @@ Sworn Enemy gains the upgrade "Gilded Enmity" which causes the paladin to be imb
     </Entry>
     <Entry>
       <ID>2849</ID>
-      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+      <DefaultText>Bonus
 Bonus Hit to Crit conversion when attacking targets greater than 4m away.
 
 Bonus &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration when attacking targets 4m or closer.
 
-&lt;b&gt;Penalty&lt;/b&gt;
+Penalty
 Slower Recovery Time.
 
 Lower &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;.</DefaultText>
@@ -262,19 +262,19 @@ Lower &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflec
     </Entry>
     <Entry>
       <ID>2850</ID>
-      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+      <DefaultText>Bonus
 The stalker and their companion gain bonus &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; and &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating when within 4m of each other.
 
-&lt;b&gt;Penalty&lt;/b&gt;
+Penalty
 The stalker and their companion suffer Bonded Grief when they are more than 7m from each other.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2853</ID>
-      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+      <DefaultText>Bonus
 Gain the "Assassinate" passive which grants stealth attacks bonus &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration, Accuracy, and Critical Hit damage.
 
-&lt;b&gt;Penalty&lt;/b&gt;
+Penalty
 All damage received is increased.</DefaultText>
       <FemaleText />
     </Entry>
@@ -291,6 +291,46 @@ All damage received is increased.</DefaultText>
     <Entry>
       <ID>3938</ID>
       <DefaultText>{0:Value} {0:DamageType} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88001</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock damage is a type of elemental damage based on electricity. Often the abilities and spells that use them create lightning bolts that can propagate in an AE, bounce on walls and stun the targets.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88002</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage bypasses all &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating, having no need to &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrate.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88003</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage is a type of elemental damage based on Fire. Often the abilities and spells that use it create flare-ups in an AE that can spread and / or cause damage over time. In addition, the flammable surfaces are affected as well as gunpowder, allowing pyrotechnic explosions to chain.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88004</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze damage is a type of elemental damage based on Ice. Often the abilities and spells that use it create ice spikes or storms that can slow down or paralyze targets or cause damage over time.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88005</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode damage is a type of elemental damage based on Acid. Often the abilities and spells that use it cause damage over time or can cause ConstitutionAfflictions.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88006</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crush damage is a type of Physical Damage. Often the abilities and spells that use it allow to Interrupt, knockdown or Stun3 and deal &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock Damage to targets.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88007</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_pierce" tint=1&gt; Pierce damage is a type of physical damage. Often the abilities and spells that use it allow to cross the &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88008</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash damage is a type of physical damage. Often the skills and spells that use it cause damage over time.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

@@ -146,7 +146,7 @@
     </Entry>
     <Entry>
       <ID>241</ID>
-      <DefaultText>50 % Chance, den Angreifer für 10,0 Sekunden zu &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;blenden, &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; wenn mit einem Blick-Angriff verfehlt </DefaultText>
+      <DefaultText>50 % Chance, den Angreifer für 10,0 Sekunden zu &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;blenden &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, wenn mit einem Blick-Angriff verfehlt </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -222,6 +222,11 @@
     <Entry>
       <ID>400</ID>
       <DefaultText>Bei Bewusstlosigkeit wird ein Flächenzauber gewirkt, der Verbündeten für {0:extravalue:duration} &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Standhaft &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; verleiht und einen vollen Angriff gegen Gegner durchführt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>401</ID>
+      <DefaultText>Immun gegen &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Entschlossenheitswirkungen  &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;wenn unter {0:extravalue:percent} Gesundheit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

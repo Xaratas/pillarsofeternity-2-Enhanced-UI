@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3285</EntryCount>
+  <EntryCount>3299</EntryCount>
   <Entries>
     <Entry>
       <ID>238</ID>
@@ -12,6 +12,11 @@
     <Entry>
       <ID>239</ID>
       <DefaultText>Strikes fear into the hearts of the unworthy, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightening &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; all enemies in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>240</ID>
+      <DefaultText>Commands a single enemy to halt, &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilizing &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; them, temporarily ceasing all their movement.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -51,7 +56,7 @@
     </Entry>
     <Entry>
       <ID>279</ID>
-      <DefaultText>Caster draws upon their life force to gain the &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Swift &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; Inspiration at the cost their own Health draining over time.</DefaultText>
+      <DefaultText>Caster draws upon their life force to gain the &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Swift &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; Inspiration and Action Speed at the cost their own Health draining over time.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -105,6 +110,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>395</ID>
+      <DefaultText>Calls a blindingly white icy fog into existence, inflicting &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blindness &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; and Freeze damage over time to any in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>397</ID>
       <DefaultText>Grants the caster otherworldly sight, resulting in preternatural awareness. The wizard temporarily receives the &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Aware &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; Inspiration from the effect.</DefaultText>
       <FemaleText />
@@ -112,6 +122,11 @@
     <Entry>
       <ID>407</ID>
       <DefaultText>Creates a bizarre and perplexing visual distraction, &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confusing &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; enemies in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>413</ID>
+      <DefaultText>Shrouds the targets' vision in total darkness, &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinding &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; them.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -147,6 +162,11 @@
     <Entry>
       <ID>458</ID>
       <DefaultText>The priest clears their mind, spreading that clarity to nearby allies, thereby granting the &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;Resolute &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; Inspiration.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>481</ID>
+      <DefaultText>Places a magical seal on the floor that bursts into flame when an enemy comes into contact with it, &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinding &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; them and inflicting Burn damage.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -195,6 +215,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>564</ID>
+      <DefaultText>Shocks a target's visual receptors, &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinding &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; them and nearby enemies.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>566</ID>
       <DefaultText>Assails the target's grasp on reality, causing &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Shaken &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuse &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
@@ -236,7 +261,7 @@
     </Entry>
     <Entry>
       <ID>601</ID>
-      <DefaultText>Destroys an enemy's memory with calculated accuracy, &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confusing &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazing &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; them before rapidly jumping to additional enemies. </DefaultText>
+      <DefaultText>Destroys an enemy's memory with calculated accuracy, &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confusing &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazing &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; them before rapidly jumping to additional enemies.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -251,33 +276,52 @@
     </Entry>
     <Entry>
       <ID>793</ID>
-      <DefaultText>Creates a thunderous explosion that &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stuns &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; and shoves enemies in the area of effect. </DefaultText>
+      <DefaultText>Creates a thunderous explosion that &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stuns &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; and shoves enemies in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>800</ID>
+      <DefaultText>Grants resistance against &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; for allies in the area of effect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>801</ID>
-      <DefaultText>Stirs something deep inside enemies in the area of effect, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charming &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; them. </DefaultText>
+      <DefaultText>Stirs something deep inside enemies in the area of effect, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charming &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; them.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>803</ID>
-      <DefaultText>Causes enemies in the area of effect to be &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightened &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;. </DefaultText>
+      <DefaultText>Causes enemies in the area of effect to be &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightened &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>804</ID>
+      <DefaultText>Removes &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Affliction &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; effects for allies in the area of effect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>806</ID>
-      <DefaultText>&lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzes &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; enemies in the area of effect. </DefaultText>
+      <DefaultText>&lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzes &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; enemies in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>807</ID>
+      <DefaultText>Allies in the area of effect gain Resistance against &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might Afflictions &lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>812</ID>
-      <DefaultText>Empowers allies in the area of effect with the &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Steadfast &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspirations. </DefaultText>
+      <DefaultText>Empowers allies in the area of effect with the &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Steadfast &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspirations.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>813</ID>
-      <DefaultText>Empowers allies in the area of effect with the &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Quick &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Insightful &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspirations.
-</DefaultText>
+      <DefaultText>Empowers allies in the area of effect with the &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Quick &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Insightful &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspirations.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>818</ID>
+      <DefaultText>Calls down a shaft of intense sunlight, burning and potentially &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinding &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; those caught in the area of effect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -347,7 +391,7 @@
     </Entry>
     <Entry>
       <ID>866</ID>
-      <DefaultText>The barbarian channels their own irrepressible determination, granting the &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robust &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; Inspiration for a short time. </DefaultText>
+      <DefaultText>The barbarian channels their own irrepressible determination, granting the &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robust &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; Inspiration for a short time.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -397,22 +441,37 @@
     </Entry>
     <Entry>
       <ID>1015</ID>
-      <DefaultText>Lets out a terrifying roar, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightening &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; enemies in the area of effect. </DefaultText>
+      <DefaultText>Lets out a terrifying roar, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightening &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; enemies in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1026</ID>
+      <DefaultText>Wood elves have a natural Resistance towards &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1048</ID>
-      <DefaultText>The paladin becomes resistant to Intellect Afflictions, (&lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charmed &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominated &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The paladin becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect Afflictions &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , (&lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charmed &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominated &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1050</ID>
-      <DefaultText>The fighter becomes resistant to Might Afflictions, (&lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Staggered &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazed &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stunned &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The fighter becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might Afflictions &lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , (&lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Staggered &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazed &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stunned &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1058</ID>
+      <DefaultText>The ranger's animal companion gains resistance against &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect Afflictions &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1212</ID>
       <DefaultText>With a touch of their hands, the paladin imbues themselves or an ally within range with light, restoring a substantial amount of Health and granting the &lt;link="gamedata://dc62af47-239f-4ee4-8d91-a5e8b3b97564"&gt;&lt;#30d3d5&gt;Courageous &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; Inspiration.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1306</ID>
+      <DefaultText>Wild orlans are naturally sound of mind and gain Resistance towards &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -436,8 +495,33 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1334</ID>
+      <DefaultText>Avian godlike are acute and precise, granting a Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect Afflictions &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1338</ID>
+      <DefaultText>Mountain dwarves are the most well-traveled race in Eora. Their incredible journeys have exposed them to all manner of lethal hazards, giving them resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1341</ID>
+      <DefaultText>Coastal aumaua are renowned for their natural "sea legs" and sturdy builds. Whether it's due to their long history of seafaring or something innate, all coastal aumaua have resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might Afflictions &lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1342</ID>
+      <DefaultText>The souls of nature godlike respond powerfully to Inspiration. While a nature godlike is under the effects of any Might, Constitution, or &lt;link="glossary://GlossaryEntry_Inspirations_Dexterity"&gt;&lt;#72da26&gt;Dexterity Inspiration &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; they benefit from an increased Power Level.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1391</ID>
       <DefaultText>A trio of stone claws erupt from the ground, turning flesh to stone, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzing &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; and inflicting Slash damage on everyone caught in the area.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1470</ID>
+      <DefaultText>The priest gains a supernatural glow as he or she is infused with power. As a minor avatar of their deity, the priest gains the &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Quick &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Smart &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Insightful &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Steadfast &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspirations as well as a bonus to Health, and weapon damage.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -452,7 +536,7 @@
     </Entry>
     <Entry>
       <ID>1480</ID>
-      <DefaultText>Named for the eccentric Aedyran wizard Tayn, the chaotic orb bounces between a number of enemies, dealing damage and inflicting a variety of negative Afflictions including Petrified, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzed &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Weakened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stunned &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, and Blinded.</DefaultText>
+      <DefaultText>Named for the eccentric Aedyran wizard Tayn, the chaotic orb bounces between a number of enemies, dealing damage and inflicting a variety of negative Afflictions including Petrified, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzed &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Weakened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stunned &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinded &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -481,6 +565,16 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1730</ID>
+      <DefaultText>The chanter creates two bouncing beams of pure light that restore Health and grant immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; on all allies they touch.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1739</ID>
+      <DefaultText>Allies gain a protective layer of wooden "skin" and are imbued with the characteristics of a delemgan, becoming faster, less vulnerable to Disengagement attacks, and immune to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1740</ID>
       <DefaultText>The fighter dashes across the battlefield in a flash, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stunning &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; anyone caught in their path.</DefaultText>
       <FemaleText />
@@ -491,13 +585,18 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1751</ID>
+      <DefaultText>Emblazons the ground with the symbol of Magran, periodically causing Burn damage to enemies in the area and leaving them &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinded &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1753</ID>
       <DefaultText>Emblazons the ground with the symbol of Skaen, periodically causing Pierce damage to enemies in the area and leaving them &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbled &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1757</ID>
-      <DefaultText>Grants a single ally temporary immunity to the Blinded, &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazed &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distracted &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightened &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbled &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, Prone, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, and Stuck afflictions.</DefaultText>
+      <DefaultText>Grants a single ally temporary immunity to the &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinded &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazed &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distracted &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightened &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbled &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, Prone, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, and Stuck afflictions.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -551,6 +650,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1994</ID>
+      <DefaultText>Bathe yourself in holy light, &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinding &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; enemies in the immediate area.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2004</ID>
       <DefaultText>The paladin's melee attacks remove &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charmed &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominated &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; Afflictions from party members.</DefaultText>
       <FemaleText />
@@ -582,6 +686,16 @@ One-Handed: Raw Damage over time</DefaultText>
     <Entry>
       <ID>2041</ID>
       <DefaultText>(Debilitating Strike) - Successful hits now also &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distract &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; the target.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2044</ID>
+      <DefaultText>(Confounding Blind) - While &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinded &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, all attacks on the target add a stacking penalty to Deflection.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2045</ID>
+      <DefaultText>A dirty attack that makes the opponent unable to see, &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinding &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; the target.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -631,22 +745,32 @@ One-Handed: Raw Damage over time</DefaultText>
     </Entry>
     <Entry>
       <ID>2124</ID>
-      <DefaultText>The fighter becomes resistant to Resolve Afflictions, (&lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Shaken &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightened &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrified &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The fighter becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , (&lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Shaken &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightened &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrified &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2129</ID>
-      <DefaultText>The fighter becomes resistant to Dexterity Afflictions, (&lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbled &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilized &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzed &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The fighter becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , (&lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbled &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilized &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzed &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2134</ID>
+      <DefaultText>The fighter gains bonus defense against &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect Afflictions &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , and &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2137</ID>
-      <DefaultText>The paladin becomes resistant to Perception Afflictions, (&lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distracted &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Disoriented &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and Blinded).</DefaultText>
+      <DefaultText>The paladin becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception Afflictions &lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , (&lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distracted &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Disoriented &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinded &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2139</ID>
-      <DefaultText>The paladin becomes resistant to Constitution Afflictions, (&lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Weakened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1"&gt;&lt;#f7b733&gt;Enfeebled &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>The paladin becomes resistant to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , (&lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Weakened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1"&gt;&lt;#f7b733&gt;Enfeebled &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2141</ID>
+      <DefaultText>The paladin gains defense against &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might Afflictions &lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , and &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -676,12 +800,12 @@ One-Handed: Raw Damage over time</DefaultText>
     </Entry>
     <Entry>
       <ID>2192</ID>
-      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+      <DefaultText>Bonus
 Frenzy grants the &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenacious &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Hardy &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; Inspirations, instead of &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.
 
 Gain significant Hit to Crit conversion on melee and carnage attacks while frenzied.
 
-&lt;b&gt;Penalty&lt;/b&gt;
+Penalty
 &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; while frenzied.
 
 Cannot see Health while frenzied.
@@ -696,10 +820,48 @@ Takes Raw damage continuously while frenzied.</DefaultText>
     </Entry>
     <Entry>
       <ID>2273</ID>
-      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+      <DefaultText>Bonus
 Gain Flames of Devotion.
 
 Flames of Devotion deals additional Corrode damage (Black Flames) and applies the &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; Affliction to targets.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2317</ID>
+      <DefaultText>Bonus
+Gain increased Power Level with Enchanting Spells.
+
+Gain "Free Action" passive: Once per encounter, when the wizard is affected by a &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Affliction &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , they will clear that effect and become temporarily immune to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .
+
+Penalty
+Lose access to spells from Illusion and Transmutation schools.
+
+Increased Recovery Time for Wizard Spells not of the Enchanting School.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2335</ID>
+      <DefaultText>Resistance: &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2337</ID>
+      <DefaultText>Immunity: &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2385</ID>
+      <DefaultText>Immunity: &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2386</ID>
+      <DefaultText>Resistance: &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2387</ID>
+      <DefaultText>Weakness: &lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception Afflictions &lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -715,6 +877,11 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
     <Entry>
       <ID>2459</ID>
       <DefaultText>Sends the barbarian into a frenzied state, granting &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspirations as well as an Action Speed bonus. While frenzied, the barbarian receives a Deflection penalty.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2465</ID>
+      <DefaultText>Immunity: &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might Afflictions &lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -768,6 +935,36 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2540</ID>
+      <DefaultText>Draws upon the druid's natural connection to the shark, temporarily allowing them to assume that form. The shark spiritshift has immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2542</ID>
+      <DefaultText>Immunity: &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect Afflictions &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2543</ID>
+      <DefaultText>Resistance: &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect Afflictions &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2546</ID>
+      <DefaultText>Immunity: &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2549</ID>
+      <DefaultText>Resistance: &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2564</ID>
+      <DefaultText>Once per encounter, when the wizard is affected by a &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Affliction &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , they will clear that effect and become immune to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; for a short time.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2571</ID>
       <DefaultText>(Disciplined Strikes) - &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Aware &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; Inspiration is now improved to the &lt;link="gamedata://c2fb23c5-9907-4654-b62e-77adbc37c9bc"&gt;&lt;#ca58ff&gt;Intuitive &lt;sprite="Inline" name="attribute_perception" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; Inspiration.</DefaultText>
       <FemaleText />
@@ -783,6 +980,11 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2635</ID>
+      <DefaultText>Grants allies resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception Afflictions &lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect Afflictions &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2648</ID>
       <DefaultText>(Perishing Strike) - When the &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Weakened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; effect ends, the target receives the &lt;link="gamedata://fe0997e7-422f-4d1d-b9f6-241946fbd1f1"&gt;&lt;#f7b733&gt;Enfeebled &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; Affliction.</DefaultText>
       <FemaleText />
@@ -795,6 +997,11 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
     <Entry>
       <ID>2661</ID>
       <DefaultText>The cipher targets a spirit or vessel and tears at the coalesced soul energy inside of them, causing them and any immediate spirit or vessels to emit a deafening scream that &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distracts &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; and deals Raw Damage to those nearby.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2663</ID>
+      <DefaultText>Unlocks the hidden repositories of an allies' mind and soul, granting them the &lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;Brilliant &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; Inspiration for a short time.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -814,7 +1021,7 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
     </Entry>
     <Entry>
       <ID>2682</ID>
-      <DefaultText>(Set to Their Purpose, They All Knew Their Part) - Allies now also gain the &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Smart &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspiration. </DefaultText>
+      <DefaultText>(Set to Their Purpose, They All Knew Their Part) - Allies now also gain the &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Smart &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspiration.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -830,6 +1037,21 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
     <Entry>
       <ID>2702</ID>
       <DefaultText>(The Foul Thing Gave One Final Gasp) - If the spore is killed, it releases a noxious gas &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickening &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; all nearby, until combat ends.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2707</ID>
+      <DefaultText>Resistance: &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might Afflictions &lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2708</ID>
+      <DefaultText>Resistance: &lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception Afflictions &lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2709</ID>
+      <DefaultText>Weakness: &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -859,7 +1081,12 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
     </Entry>
     <Entry>
       <ID>2813</ID>
-      <DefaultText>Creates a sphere of divine darkness that causes the &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blind  &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;affliction to anyone who is inside, or moves into the area.</DefaultText>
+      <DefaultText>Creates a sphere of divine darkness that causes the &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blind &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; affliction to anyone who is inside, or moves into the area.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2817</ID>
+      <DefaultText>The priest gains a divine aura of Wael. Allies nearby gain a bonus to all defenses. Additionally, any enemy who strikes one under the deity's protection may become &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinded &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -868,8 +1095,23 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2860</ID>
+      <DefaultText>Weakness: &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2873</ID>
       <DefaultText>Conjure a powerful bolt of lightning from the sky to strike the target, dealing Shock damage and &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazing &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; them.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2879</ID>
+      <DefaultText>Weakness: &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2889</ID>
+      <DefaultText>Weakness: &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect Afflictions &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -883,8 +1125,18 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2982</ID>
+      <DefaultText>Flash-freezes the surrounding area, damaging, slowing, and &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilizing &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; everyone in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3098</ID>
       <DefaultText>Creates a beam of crushing force, &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Staggering &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; the target and anyone caught in the beam.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3192</ID>
+      <DefaultText>Immunity: &lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Perception Afflictions &lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -905,6 +1157,11 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
     <Entry>
       <ID>3319</ID>
       <DefaultText>Twirl in a wide spinning arc that deals Pierce/Slash Damage to all targets in the area, pushing them back and &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbling &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; them.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3349</ID>
+      <DefaultText>Frees the wielder and any nearby allies from any &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; or &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Might Afflictions &lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -935,6 +1192,11 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
     <Entry>
       <ID>3523</ID>
       <DefaultText>Calls upon the power of the grave, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charming &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; Vessels and &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightening &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; any Kith in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3608</ID>
+      <DefaultText>Grants the user Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; at the beginning of combat, for a short time.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -983,13 +1245,88 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3864</ID>
+      <DefaultText>While Eviee is following you around, you gain a bonus to Resolve and &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Affliction &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; Resistance. Also, the duration of &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to your party is reduced.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3899</ID>
+      <DefaultText>While Algol is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and party members regain some Health when they kill an enemy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3953</ID>
+      <DefaultText>Grants Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while Healthy or Unharmed.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3971</ID>
+      <DefaultText>While Bark String is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and your party moves more quickly in combat.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4113</ID>
       <DefaultText>Grants the &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Steadfast &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspirations for a short time at the beginning of combat.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4140</ID>
+      <DefaultText>Gain Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while Unharmed or Healthy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4145</ID>
+      <DefaultText>Aura that clouds the minds of nearby allies, making them more susceptible to &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect Afflictions &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4160</ID>
+      <DefaultText>Wearer is Immune to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while they carry one or more Injuries.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4276</ID>
+      <DefaultText>Gain Immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while Unharmed or Healthy,</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4292</ID>
       <DefaultText>Use your watcher powers to gaze through your target's eyes deep into their soul, temporarily &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightening &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; them.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4294</ID>
+      <DefaultText>(Mien of Death's Herald) - Grants the Watcher a &lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Perception Inspiration &lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4296</ID>
+      <DefaultText>(Ire of Death's Herald) - Grants the Watcher a &lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Might Inspiration &lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4298</ID>
+      <DefaultText>(Wit of Death's Herald) - Grants the Watcher an &lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Intellect Inspiration &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4300</ID>
+      <DefaultText>(Awe of Death's Herald) - Grants the Watcher a &lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Might Inspirations &lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and Perception Inspration when used.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4302</ID>
+      <DefaultText>(Raiment of Death's Herald) - Grants the Watcher an &lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Intellect Inspiration &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and Perception Inspration when used.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4304</ID>
+      <DefaultText>(Cruelty of Death's Herald) - Grants the Watcher a &lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Might Inspirations &lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Intellect Inspiration &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when used.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4306</ID>
+      <DefaultText>(Majesty of Death's Herald) - Grants the Watcher an &lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Intellect Inspiration &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , &lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Might Inspirations &lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , and Perception Inspration when used.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1023,6 +1360,11 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4335</ID>
+      <DefaultText>Calmo's lingering resentment inflicts major Defense penalties to nearby allies against &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect Afflictions &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4336</ID>
       <DefaultText>Breaks Engagement and expertly avoids the next attack, diving out of range to a specific location. &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinds &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuses &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; nearby targets. Use once per Rest.</DefaultText>
       <FemaleText />
@@ -1050,6 +1392,11 @@ Flames of Devotion deals additional Corrode damage (Black Flames) and applies th
     <Entry>
       <ID>4512</ID>
       <DefaultText>The ranger takes the time to study their surroundings, temporarily gaining the &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Insightful &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspiration and additional ranged attack distance.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4558</ID>
+      <DefaultText>Effort purges fear of imminent death from the wielder. Grants immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when Near Death.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
