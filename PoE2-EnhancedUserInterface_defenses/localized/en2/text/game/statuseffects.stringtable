@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>522</EntryCount>
+  <EntryCount>524</EntryCount>
   <Entries>
     <Entry>
       <ID>4</ID>
@@ -331,7 +331,7 @@
     </Entry>
     <Entry>
       <ID>271</ID>
-      <DefaultText>If target has Resolve Affliction, {0:triggercount} &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage per {0:extravalue:duration} for {0:value:duration} on scoring Crit</DefaultText>
+      <DefaultText>If target has Resolve Affliction , {0:triggercount} &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage per {0:extravalue:duration} for {0:value:duration} on scoring Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

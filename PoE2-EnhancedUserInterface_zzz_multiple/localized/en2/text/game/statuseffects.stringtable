@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>522</EntryCount>
+  <EntryCount>524</EntryCount>
   <Entries>
     <Entry>
       <ID>77</ID>
@@ -12,6 +12,11 @@
     <Entry>
       <ID>226</ID>
       <DefaultText>{0:triggercount} &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode Damage per {0:value:duration} for {0:triggervalue:duration} on Hit ({0:extravalue:percent} chance to &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyze &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; target on tick)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>271</ID>
+      <DefaultText>If target has &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Affliction &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , {0:triggercount} &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage per {0:extravalue:duration} for {0:value:duration} on scoring Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

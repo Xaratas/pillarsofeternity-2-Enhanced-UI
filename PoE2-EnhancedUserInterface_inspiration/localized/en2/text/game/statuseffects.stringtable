@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>522</EntryCount>
+  <EntryCount>524</EntryCount>
   <Entries>
     <Entry>
       <ID>0</ID>
@@ -150,13 +150,18 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>216</ID>
+      <DefaultText>&lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Disorienting &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; cone attack towards target on Crit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>226</ID>
       <DefaultText>{0:triggercount} Corrode Damage per {0:value:duration} for {0:triggervalue:duration} on Hit ({0:extravalue:percent} chance to &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyze &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; target on tick)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>241</ID>
-      <DefaultText>50% chance to &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blind  &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;attacker for 10.0 sec when missed with Gaze attack</DefaultText>
+      <DefaultText>50% chance to &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blind &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; attacker for 10.0 sec when missed with Gaze attack</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -190,8 +195,23 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>270</ID>
+      <DefaultText>If target has &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Affliction &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , {0:value:percent} chance to Interrupt target on scoring Hit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>271</ID>
+      <DefaultText>If target has &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Affliction &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , {0:triggercount} Raw Damage per {0:extravalue:duration} for {0:value:duration} on scoring Crit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>274</ID>
       <DefaultText>&lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyze &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; target for {0:value:duration} on scoring Crit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>280</ID>
+      <DefaultText>{0:value} All Defenses against &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Affliction &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; attacks while above 75% Health</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -237,6 +257,11 @@
     <Entry>
       <ID>400</ID>
       <DefaultText>On unconscious, launches an AoE that gives Allies &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Steadfast &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; for {0:extravalue:duration} and does a Full Attack to Enemies</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>401</ID>
+      <DefaultText>Immune to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while under {0:extravalue:percent} Health</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -302,6 +327,11 @@
     <Entry>
       <ID>512</ID>
       <DefaultText>{0:value:percent} chance &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; for {0:extravalue:duration} on self on scoring Hit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>535</ID>
+      <DefaultText>{0:value:percentbonus} hostile &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Affliction &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; duration</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
