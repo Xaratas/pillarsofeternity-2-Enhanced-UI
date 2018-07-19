@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\gui</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>4398</EntryCount>
+  <EntryCount>4412</EntryCount>
   <Entries>
     <Entry>
       <ID>367</ID>
@@ -34,7 +34,7 @@
       <DefaultText>Entschlossenheit trägt zur Dauer der feindlichen Wirkung bei wie auch zu den Verteidigungen &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt; und &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;. Sie spiegelt den inneren Antrieb eines Charakters, seine Entschiedenheit und Furchtlosigkeit wieder.
 
  5 – Schüchtern
-10 – Durchschnitt
+10 – Durchschnittlich
 15 – &lt;xg&gt;Starker&lt;/xg&gt; &lt;xg&gt;Wille&lt;/xg&gt;
 20 – Furchtlos</DefaultText>
       <FemaleText />
@@ -44,7 +44,7 @@
       <DefaultText>Macht trägt zum Waffenschaden, Heilungswirkung und der &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;s-Verteidigung bei. Sie stellt die brachiale, körperliche Stärke eines Charakters dar ebenso wie seine Fähigkeit, starke Magie zu wirken.
 
  5 – Schwach
-10 – Durchschnitt
+10 – Durchschnittlich
 15 – &lt;xg&gt;Stark&lt;/xg&gt;
 20 – Unglaublich mächtig</DefaultText>
       <FemaleText />
@@ -54,7 +54,7 @@
       <DefaultText>Verfassung beeinflusst Gesundheit und die &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;sverteidigung. Sie repräsentiert eine Kombination der gesamten Gesundheit und der Ausdauer eines Charakters.
 
  5 – Zerbrechlich
-10 – Durchschnitt
+10 – Durchschnittlich
 15 – Ausdauernd
 20 – Athletisch</DefaultText>
       <FemaleText />
@@ -119,14 +119,14 @@
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 Raserei gewährt die Inspirationen Hartnäckig und Zäh anstelle von Stark und Fit.
 
-Verschaffe dir während des Zustands der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen.
+Gewährt während der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen.
 
 &lt;b&gt;Abzug&lt;/b&gt;
-Während Raserei bist du Verwirrt.
+Während Raserei ist man Verwirrt.
 
-Während Raserei kannst du die Gesundheit nicht sehen.
+Während der Raserei kann die Gesundheit nicht gesehen werden.
 
-Während der Raserei erleidest du fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden.</DefaultText>
+Während der Raserei wird fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Schaden erlitten.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -134,7 +134,7 @@ Während der Raserei erleidest du fortwährend &lt;sprite="Inline" name="cs_raw"
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 Erhalte die Fähigkeit „Seelenvernichtung“: Ein seelenangereicherter Nahkampfschlag, der die verbleibende Kraftreserve des Mediums aufbraucht und diese als &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden auf das Ziel wirkt.
 
-Abgelegte Zauber des Mediums kosten weniger Fokus.
+Zauber des Mediums mit dem Schlüsselwort Fetzen kosten weniger Fokus.
 
 Das Besiegen eines Gegners mit einer Nahkampfwaffe gewährt vorübergehend Konzentration und erhöht den Maximalen Fokus.
 
@@ -156,7 +156,7 @@ Lerne die folgenden Druidenzauber auf neuen Kraftstufen:
 2. Explosion der Sommerflamme
 3. Sturm der Wiederkehr
 4. Hagelsturm
-5. Unaufhörlicher Sturm 
+5. Unaufhörlicher Sturm
 6. Sonnenlanze
 7. Sturmtrotzer
 8. Rächender Sturm
@@ -188,7 +188,7 @@ Erhält nur einen einzigen Schwerpunkt und keine neuen beim Stufenaufstieg.</Def
 
 Erhöhte &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft bei Absetzangriffen.
 
-Verschafft „Schild-Meisterschaft“, die einen Bonus auf den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert bereitstellt, solange der Schild getragen wird.
+Verschafft „Schild-Meisterschaft“, die einen Bonus auf den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert bereitstellt, solange ein Schild getragen wird.
 
 &lt;b&gt;Abzug&lt;/b&gt;
 Vermindertes Vorwärtskommen im Kampf.
@@ -197,11 +197,19 @@ Verminderte &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Refl
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2837</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Gewährt Flammen der Hingabe.
+
+Die Flammen der Hingabe verursachen zusätzlichen &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden (Schwarze Flammen) und verursachen bei den Zielen die Wirkung Erkrankt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2839</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-Verschaffe dir einen Erzfeind.
+Gewährt Erzfeind.
 
-Der Erzfeind erhält das Upgrade zu „Vergoldete Feindschaft“. Die vergoldete Feinschaft führt dazu, dass der Paladin mit einer Segnung aus Gold erfüllt wird, wenn er jemanden zum Erzfeind erklärt. Der Paladin erhält einen Bonus für seinen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert, bis er so oft getroffen wurde, dass das Gold zerbrochen ist.</DefaultText>
+Erzfeind erhält das Upgrade zu „Vergoldete Feindschaft“. Die vergoldete Feinschaft führt dazu, dass der Paladin mit einer Segnung aus Gold erfüllt wird, wenn er jemanden zum Erzfeind erklärt. Der Paladin erhält einen Bonus für seinen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert, bis er so oft getroffen wurde, dass das Gold zerbrochen ist.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

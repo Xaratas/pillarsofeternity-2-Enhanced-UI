@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3288</EntryCount>
+  <EntryCount>3313</EntryCount>
   <Entries>
     <Entry>
       <ID>256</ID>
@@ -65,6 +65,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>818</ID>
+      <DefaultText>Beschwört einen intensiven Sonnenstrahl herab, der alle im Wirkungsbereich &lt;sprite="Inline" name="cs_burn" tint=1&gt; verbrennt und möglicherweise &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;blendet &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>830</ID>
       <DefaultText>Erzeugt einen mächtigen Sturm, der einen einzelnen Feind im Wirkungsbereich regelmäßig mit Blitzen trifft, wodurch er &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; wird und &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden erleidet.</DefaultText>
       <FemaleText />
@@ -111,7 +116,7 @@
     </Entry>
     <Entry>
       <ID>892</ID>
-      <DefaultText>Diese Fähigkeit nutzt das von allen Lebewesen geteilte, universelle Leiden. Das Erstziel wird mit einem mächtigen Schlag getroffen, der zusätzlichen &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zufügt. Feinde in einem kegelförmigen Wirkungsbereich hinter dem Ziel erleiden &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden und erleiden die Wirkung &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Taumelnd &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Diese Fähigkeit nutzt das von allen Lebewesen geteilte, universelle Leiden. Das Ziel wird mit einem mächtigen Schlag getroffen. Feinde in einem kegelförmigen Wirkungsbereich hinter dem Ziel erleiden &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden und geraten ins &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Taumeln &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -121,7 +126,7 @@
     </Entry>
     <Entry>
       <ID>1326</ID>
-      <DefaultText>Das Ziel wird mit der Wirkung &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Bewegungsunfähig &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; belegt und wird zum Anker eines eiskalten Energiestrahls des Zauberers, der allen Feinden in seinem Pfad &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden zufügt.</DefaultText>
+      <DefaultText>Das Ziel wird mit der Wirkung &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Bewegungsunfähig &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; belegt und wird zum Anker eines eiskalten Energiestrahls des Zauberers, der allen Wesen in seinem Weg &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden zufügt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -183,7 +188,7 @@
       <ID>2038</ID>
       <DefaultText>Der Schurke schlägt sein Ziel heftig gegen den Kopf und unterbricht es. Der Bonuseffekt dieses Angriffs hängt von der verwendeten Waffe ab.
 
-Fern: &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraftbonus 
+Fern: &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraftbonus
 Zweihändig: Wirkt &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Taumelnd &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;
 Einhändig: Direkter Schaden über Zeit</DefaultText>
       <FemaleText />
@@ -198,20 +203,20 @@ Einhändig: Direkter Schaden über Zeit</DefaultText>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 Raserei gewährt die Inspirationen &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Hartnäckig &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; anstelle von &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.
 
-Verschaffe dir während des Zustands der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen.
+Gewährt während der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen.
 
 &lt;b&gt;Abzug&lt;/b&gt;
-Während Raserei bist du &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.
+Während Raserei ist man &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.
 
-Während Raserei kannst du die Gesundheit nicht sehen.
+Während der Raserei kann die Gesundheit nicht gesehen werden.
 
-Während der Raserei erleidest du fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden.</DefaultText>
+Während der Raserei wird fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Schaden erlitten.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2273</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-Beschaffe dir die Flammen der Hingabe.
+Gewährt Flammen der Hingabe.
 
 Die Flammen der Hingabe verursachen zusätzlichen &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden (Schwarze Flammen) und verursachen bei den Zielen die Wirkung &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Erkrankt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
@@ -228,7 +233,7 @@ Die Flammen der Hingabe verursachen zusätzlichen &lt;sprite="Inline" name="cs_c
     </Entry>
     <Entry>
       <ID>2459</ID>
-      <DefaultText>Treibt den Barbaren in einen rasenden Zustand, der ihm die Inspirationen &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; sowie &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; verleiht, sowie einen Bonus auf Aktionsgeschwindigkeit. Während der Raserei erleidet der Barbar einen Abzug auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
+      <DefaultText>Treibt den Barbaren in einen rasenden Zustand, der ihm die Inspirationen &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, sowie einen Bonus auf Aktionsgeschwindigkeit verleiht. Während der Raserei erleidet der Barbar einen Abzug auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -264,6 +269,11 @@ Die Flammen der Hingabe verursachen zusätzlichen &lt;sprite="Inline" name="cs_c
     <Entry>
       <ID>2873</ID>
       <DefaultText>Beschwört einen mächtigen Blitz vom Himmel auf das Ziel herab, der &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden austeilet und es &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Benommen &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; macht.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2968</ID>
+      <DefaultText>Erzeugt eine Wolke giftigen Rauchs und Zunders, die alle in ihrer Reichweite &lt;sprite="Inline" name="cs_burn" tint=1&gt; verbrennt und &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;blendet &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

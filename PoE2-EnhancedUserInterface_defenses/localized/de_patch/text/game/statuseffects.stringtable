@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>524</EntryCount>
+  <EntryCount>527</EntryCount>
   <Entries>
     <Entry>
       <ID>4</ID>
@@ -46,17 +46,17 @@
     </Entry>
     <Entry>
       <ID>34</ID>
-      <DefaultText>{0:value:percentbonus} &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden für {0:extravalue:duration} bei einem Treffer ({0:triggercount}-mal stapelbar)</DefaultText>
+      <DefaultText>{0:value:percentbonus} &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden für {0:extravalue:duration} bei einem Treffer (Kann {0:triggercount}-mal gestapelt werden)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>35</ID>
-      <DefaultText>Verursacht in einem kleinen Bereich Flächenschaden, als &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stich- oder &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hiebschaden; je nachdem, was besser ist</DefaultText>
+      <DefaultText>Basisangriffe verursachen in einem kleinen Bereich Flächenschaden, als &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stich- oder &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hiebschaden; je nachdem, was besser ist</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>36</ID>
-      <DefaultText>{0:value:percentbonus} &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden für {0:extravalue:duration} bei einem Treffer ({0:triggercount}-fach stapelbar)</DefaultText>
+      <DefaultText>{0:value:percentbonus} &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden für {0:extravalue:duration} bei einem Treffer (Kann {0:triggercount}-mal gestapelt werden)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -111,7 +111,7 @@
     </Entry>
     <Entry>
       <ID>77</ID>
-      <DefaultText>Chance, bei einem kritischen Treffer beim Ziel über einen Zeitraum von 12,0 Sekunden Humpelnd, Niedergestreckt oder &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden zu verursachen – oder eine Verringerung der Aktionsgeschwindigkeit um 25 %</DefaultText>
+      <DefaultText>Chance, bei einem kritischen Treffer beim Ziel Humpelnd, Niedergestreckt, &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit für 12,0 Sekunden zu verursachen – oder eine Verringerung der Aktionsgeschwindigkeit um 25 %</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -136,7 +136,7 @@
     </Entry>
     <Entry>
       <ID>109</ID>
-      <DefaultText>Nahkampf-Angriff mit Heimlichkeit verursacht beim Ziel &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit</DefaultText>
+      <DefaultText>Angriffe mit Nahkampfwaffen aus der Heimlichkeit heraus verursachen beim Ziel &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -186,7 +186,7 @@
     </Entry>
     <Entry>
       <ID>152</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; für {0:extravalue:duration} bei einem Treffer ({0:triggercount}-mal stapelbar)</DefaultText>
+      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; für {0:extravalue:duration} bei einem Treffer (Kann {0:triggercount}-mal gestapelt werden)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -201,7 +201,7 @@
     </Entry>
     <Entry>
       <ID>159</ID>
-      <DefaultText>{0:value:percent} Chance bei einem Treffer eine Wasserwelle, die &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zufügt, auf das Ziel zu richten</DefaultText>
+      <DefaultText>{0:value:percent} Chance bei einem Treffer eine Wasserwelle, die &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zufügt, auf das Ziel zu wirken</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -286,7 +286,7 @@
     </Entry>
     <Entry>
       <ID>230</ID>
-      <DefaultText>{0:extravalue:percent} Schaden als &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schock für jeden gehaltenen Sängersatz</DefaultText>
+      <DefaultText>{0:extravalue:percent} Schaden als &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schock für jede gehaltene Sänger-Phrase</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -411,7 +411,7 @@
     </Entry>
     <Entry>
       <ID>347</ID>
-      <DefaultText>Weitere {0:value} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Willen&lt;/color&gt; bis zum Ende des Kampfes bei kritischem Treffer. ({0:extravalue:straight}-mal stapelbar)</DefaultText>
+      <DefaultText>Weitere {0:value} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Willen&lt;/color&gt; bis zum Ende des Kampfes beim Erleiden von kritischen Treffern (Kann {0:extravalue:straight}-mal gestapelt werden)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
