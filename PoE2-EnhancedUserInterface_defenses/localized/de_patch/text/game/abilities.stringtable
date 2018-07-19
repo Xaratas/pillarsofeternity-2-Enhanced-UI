@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3288</EntryCount>
+  <EntryCount>3313</EntryCount>
   <Entries>
     <Entry>
       <ID>237</ID>
@@ -121,7 +121,7 @@
     </Entry>
     <Entry>
       <ID>315</ID>
-      <DefaultText>Bewirkt ein Schutzschild aus Magie, das die &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; des Zauberers erheblich steigert und ihm Konzentration gewährt. Arkaner Schleier hat keine Auswirkung auf Angriffe durchgeführt mit Schusswaffen oder den Schleier durchstechende Effekte.</DefaultText>
+      <DefaultText>Bewirkt einen Schutzschild aus Magie, der die &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; des Zauberers erheblich steigert und ihm Konzentration gewährt. Der Arkane Schleier zeigt keine Wirkung bei schleierdurchdringenden Angriffen oder welchen die mit Schusswaffen ausgeführt werden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -180,6 +180,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>421</ID>
+      <DefaultText>Erzeugt eine Lanze aus reiner nekrotischer Energie, die &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden über Zeit sowie sofort zufügt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>423</ID>
       <DefaultText>Erzeugt einen abprallenden Feuerball, der jedem, der im Weg steht, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügt und niederstreckt.</DefaultText>
       <FemaleText />
@@ -217,6 +222,11 @@
     <Entry>
       <ID>481</ID>
       <DefaultText>Setzt ein magisches Siegel auf den Boden, das in Flammen aufgeht, sobald es von einem Feind berührt wird, wodurch dieser Geblendet wird und &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden erleidet.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>487</ID>
+      <DefaultText>Beschwört eine flammende Säule des rechtschaffenen Zorns, die alle im Wirkungsbereich &lt;sprite="Inline" name="cs_burn" tint=1&gt; verbrennt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -340,6 +350,16 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>639</ID>
+      <DefaultText>Verstärkt den &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandeffekt bei allen Waffen von Verbündeten.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>641</ID>
+      <DefaultText>Steigert die Bewegungsrate und die &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; aller Verbündeten im Wirkungsbereich.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>643</ID>
       <DefaultText>Verringert den &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hieb- und &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden durch Feinde im Wirkungsbereich.</DefaultText>
       <FemaleText />
@@ -357,6 +377,11 @@
     <Entry>
       <ID>791</ID>
       <DefaultText>Steigert den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert aller Verbündeten im Wirkungsbereich gegen &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hieb- und &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>792</ID>
+      <DefaultText>Führt dazu, dass ein in der Nähe bezwungener Feind explodiert, wobei drei weiße Larven ausgestoßen werden, die umstehenden Feinden &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zufügen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -382,6 +407,11 @@
     <Entry>
       <ID>817</ID>
       <DefaultText>Führt dazu, dass Feinde im Wirkungsbereich in einem schwachen grünen Licht leuchten, was sie zu einfacheren Zielen macht. Betroffene Feinde leiden unter einer schwächeren &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und verringerten &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;n.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>818</ID>
+      <DefaultText>Beschwört einen intensiven Sonnenstrahl herab, der alle im Wirkungsbereich &lt;sprite="Inline" name="cs_burn" tint=1&gt; verbrennt und möglicherweise blendet.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -521,7 +551,7 @@
     </Entry>
     <Entry>
       <ID>892</ID>
-      <DefaultText>Diese Fähigkeit nutzt das von allen Lebewesen geteilte, universelle Leiden. Das Erstziel wird mit einem mächtigen Schlag getroffen, der zusätzlichen &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zufügt. Feinde in einem kegelförmigen Wirkungsbereich hinter dem Ziel erleiden &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden und erleiden die Wirkung Taumelnd.</DefaultText>
+      <DefaultText>Diese Fähigkeit nutzt das von allen Lebewesen geteilte, universelle Leiden. Das Ziel wird mit einem mächtigen Schlag getroffen. Feinde in einem kegelförmigen Wirkungsbereich hinter dem Ziel erleiden &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden und geraten ins Taumeln.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -531,7 +561,7 @@
     </Entry>
     <Entry>
       <ID>902</ID>
-      <DefaultText>Der Mönch schießt blitzschnell auf ein weit entferntes Ziel zu. Alles, was in seinem Weg steht, wird mit gewaltigem &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden belegt.</DefaultText>
+      <DefaultText>Der Mönch schießt blitzschnell auf ein entferntes Ziel zu und trifft es mit einem vollen Angriff. Gegner, die in seinem Weg steht, erleiden gewaltigem &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -636,7 +666,7 @@
     </Entry>
     <Entry>
       <ID>1326</ID>
-      <DefaultText>Das Ziel wird mit der Wirkung Bewegungsunfähig belegt und wird zum Anker eines eiskalten Energiestrahls des Zauberers, der allen Feinden in seinem Pfad &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden zufügt.</DefaultText>
+      <DefaultText>Das Ziel wird mit der Wirkung Bewegungsunfähig belegt und wird zum Anker eines eiskalten Energiestrahls des Zauberers, der allen Wesen in seinem Weg &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden zufügt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -745,6 +775,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1748</ID>
+      <DefaultText>Der Priester beschwört einen Lichtstrahl, der Verbündete heilt und Gegner &lt;sprite="Inline" name="cs_burn" tint=1&gt; verbrennt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1749</ID>
       <DefaultText>Zeichnet das Symbol von Berath auf den Boden, das Gegnern in regelmäßigen Abständen &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden zufügt und sie Geschwächt zurücklässt.</DefaultText>
       <FemaleText />
@@ -781,7 +816,7 @@
     </Entry>
     <Entry>
       <ID>1766</ID>
-      <DefaultText>Der Zauberer wird durch Elementarschilde beschützt, die ihn vor &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, Zersetzungs-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost- und Elektroschockschaden bewahren, bis er überwältigt wird oder die Wirkungsdauer abgelaufen ist.</DefaultText>
+      <DefaultText>Der Zauberer wird durch Elementarschilde beschützt, die ihn vor &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, Zersetzungs-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost- und &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden bewahren, bis er überwältigt wird oder die Wirkungsdauer abgelaufen ist.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -882,7 +917,7 @@ Ausdauer – Gewährt &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert
       <ID>2038</ID>
       <DefaultText>Der Schurke schlägt sein Ziel heftig gegen den Kopf und unterbricht es. Der Bonuseffekt dieses Angriffs hängt von der verwendeten Waffe ab.
 
-Fern: &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraftbonus 
+Fern: &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraftbonus
 Zweihändig: Wirkt Taumelnd
 Einhändig: Direkter Schaden über Zeit</DefaultText>
       <FemaleText />
@@ -917,14 +952,14 @@ Einhändig: Direkter Schaden über Zeit</DefaultText>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 Raserei gewährt die Inspirationen Hartnäckig und Zäh anstelle von Stark und Fit.
 
-Verschaffe dir während des Zustands der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen.
+Gewährt während der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen.
 
 &lt;b&gt;Abzug&lt;/b&gt;
-Während Raserei bist du Verwirrt.
+Während Raserei ist man Verwirrt.
 
-Während Raserei kannst du die Gesundheit nicht sehen.
+Während der Raserei kann die Gesundheit nicht gesehen werden.
 
-Während der Raserei erleidest du fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden.</DefaultText>
+Während der Raserei wird fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Schaden erlitten.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -932,7 +967,7 @@ Während der Raserei erleidest du fortwährend &lt;sprite="Inline" name="cs_raw"
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 Erhalte die Fähigkeit „Seelenvernichtung“: Ein seelenangereicherter Nahkampfschlag, der die verbleibende Kraftreserve des Mediums aufbraucht und diese als &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden auf das Ziel wirkt.
 
-Abgelegte Zauber des Mediums kosten weniger Fokus.
+Zauber des Mediums mit dem Schlüsselwort Fetzen kosten weniger Fokus.
 
 Das Besiegen eines Gegners mit einer Nahkampfwaffe gewährt vorübergehend Konzentration und erhöht den Maximalen Fokus.
 
@@ -961,7 +996,7 @@ Lerne die folgenden Druidenzauber auf neuen Kraftstufen:
 9. Großer Maelstrom
 
 &lt;b&gt;Abzug&lt;/b&gt;
-Verjüngungszauber können nicht verhängt werden.</DefaultText>
+Verjüngungszauber können nicht gewirkt werden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -971,7 +1006,7 @@ Verjüngungszauber können nicht verhängt werden.</DefaultText>
 
 Erhöhte &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft bei Absetzangriffen.
 
-Verschafft „Schild-Meisterschaft“, die einen Bonus auf den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert bereitstellt, solange der Schild getragen wird.
+Verschafft „Schild-Meisterschaft“, die einen Bonus auf den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert bereitstellt, solange ein Schild getragen wird.
 
 &lt;b&gt;Abzug&lt;/b&gt;
 Vermindertes Vorwärtskommen im Kampf.
@@ -997,7 +1032,7 @@ Erhält nur einen einzigen Schwerpunkt und keine neuen beim Stufenaufstieg.</Def
     <Entry>
       <ID>2273</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-Beschaffe dir die Flammen der Hingabe.
+Gewährt Flammen der Hingabe.
 
 Die Flammen der Hingabe verursachen zusätzlichen &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden (Schwarze Flammen) und verursachen bei den Zielen die Wirkung Erkrankt.</DefaultText>
       <FemaleText />
@@ -1005,9 +1040,9 @@ Die Flammen der Hingabe verursachen zusätzlichen &lt;sprite="Inline" name="cs_c
     <Entry>
       <ID>2277</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-Verschaffe dir einen Erzfeind.
+Gewährt Erzfeind.
 
-Der Erzfeind erhält das Upgrade zu „Vergoldete Feindschaft“. Die vergoldete Feinschaft führt dazu, dass der Paladin mit einer Segnung aus Gold erfüllt wird, wenn er jemanden zum Erzfeind erklärt. Der Paladin erhält einen Bonus für seinen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert, bis er so oft getroffen wurde, dass das Gold zerbrochen ist.</DefaultText>
+Erzfeind erhält das Upgrade zu „Vergoldete Feindschaft“. Die vergoldete Feinschaft führt dazu, dass der Paladin mit einer Segnung aus Gold erfüllt wird, wenn er jemanden zum Erzfeind erklärt. Der Paladin erhält einen Bonus für seinen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert, bis er so oft getroffen wurde, dass das Gold zerbrochen ist.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1078,7 +1113,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>2459</ID>
-      <DefaultText>Treibt den Barbaren in einen rasenden Zustand, der ihm die Inspirationen Stark sowie Fit verleiht, sowie einen Bonus auf Aktionsgeschwindigkeit. Während der Raserei erleidet der Barbar einen Abzug auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
+      <DefaultText>Treibt den Barbaren in einen rasenden Zustand, der ihm die Inspirationen Stark und Fit, sowie einen Bonus auf Aktionsgeschwindigkeit verleiht. Während der Raserei erleidet der Barbar einen Abzug auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1089,6 +1124,11 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     <Entry>
       <ID>2482</ID>
       <DefaultText>Der Paladin baut einen Bonus-&lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert auf, während er stillsteht. Eine Bewegung beendet diesen Effekt für kurze Zeit.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2507</ID>
+      <DefaultText>Von oben fällt eine Explosion göttlichen Lichtes um den Paladin herum herab. Das Licht heilt alle Verbündeten in der Nähe und &lt;sprite="Inline" name="cs_burn" tint=1&gt; verbrennt die Gefäße und Geister des Feindes, mit enormem Schaden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1299,6 +1339,11 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     <Entry>
       <ID>2902</ID>
       <DefaultText>(Wildschlag–Raserei: &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schock) – Jeder tödliche Schlag während einer Geistwandlung erhöht die Dauer des geistwandlerischen Effekts und unterbricht Gegner in der Nähe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2968</ID>
+      <DefaultText>Erzeugt eine Wolke giftigen Rauchs und Zunders, die alle in ihrer Reichweite &lt;sprite="Inline" name="cs_burn" tint=1&gt; verbrennt und blendet.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

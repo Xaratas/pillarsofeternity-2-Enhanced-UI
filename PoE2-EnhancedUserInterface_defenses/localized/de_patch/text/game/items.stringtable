@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\items</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>2831</EntryCount>
+  <EntryCount>2833</EntryCount>
   <Entries>
     <Entry>
       <ID>1798</ID>
@@ -35,6 +35,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3122</ID>
+      <DefaultText>Eine alchemistische Apparatur mit verheerender Macht. Verlorenes Flüstern dringt tief aus ihrem Inneren und singt von erdrückender Dunkelheit. Wenn die Ladung detoniert, formt sich ein Spalt, der alles darin in den schwarzen Horizont zieht und &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden verursacht.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3138</ID>
       <DefaultText>Dieser eklige Trank verändert die Haut und innere Körperstruktur, um &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost-, Zersetzungs- und &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden besser widerstehen zu können.</DefaultText>
       <FemaleText />
@@ -46,12 +51,17 @@
     </Entry>
     <Entry>
       <ID>3180</ID>
-      <DefaultText>Dieses Elixier durchdringt Körpergewebe. Dadurch wird der Körper über die Wirkungsdauer gegen die Effekte von &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, Zersetzungs-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost- und &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden immun. Wenn der aufgegossene Trank nachlässt oder von Schaden überwältigt wird, schlägt der Schutz fehl.</DefaultText>
+      <DefaultText>Dieses Elixier durchdringt Körpergewebe. Dadurch wird der Körper über die Wirkungsdauer gegen die Effekte von &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, Zersetzungs-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost- und &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden immun. Wenn der aufgegossene Trank nachlässt oder von Schaden überwältigt wird, wird der Schutz aufgehoben.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3395</ID>
       <DefaultText>Erzeugt einen Feuerkegel vor dem Leser, der jedem im Wirkungsbereich &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden erteilt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3398</ID>
+      <DefaultText>Beschwört einen intensiven Sonnenstrahl herab, der alle im Wirkungsbereich &lt;sprite="Inline" name="cs_burn" tint=1&gt; verbrennt und blenden kann.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -81,7 +91,7 @@
     </Entry>
     <Entry>
       <ID>3411</ID>
-      <DefaultText>Schleudert zwei tödliche Felsen von der Position des Lesers aus, die jedem in ihrer Flugbahn Schmetterschaden zufügen und beim Einschlag auf festem Untergrund zerspringen, wobei die Bruchstücke allen Umstehenden &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden zufügen.</DefaultText>
+      <DefaultText>Schleudert zwei tödliche Felsen von der Position des Lesers aus, die jedem in ihrer Flugbahn &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zufügen und beim Einschlag auf festem Untergrund zerspringen, wobei die Bruchstücke allen Umstehenden &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden zufügen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -90,13 +100,28 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3415</ID>
+      <DefaultText>Feuert mehrere Geschosse aus reiner Energie auf das Ziel und fügt jedem Feind in der Nähe des Einschlags &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3419</ID>
       <DefaultText>Ein Trio von Steinklauen bricht aus dem Boden hervor, die Fleisch zu Stein wandeln. Jeder, der im Wirkungsbereich gefangen ist, wird Gelähmt und mit &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hiebschaden belegt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3422</ID>
+      <DefaultText>Beschwört eine riesige Plage giftiger Insekten herauf, die &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit zufügen, die Konzentration verringern und jeden im Wirkungsbereich erkranken lässt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3424</ID>
       <DefaultText>Entfesselt ein schreckliches Flammeninferno um den Leser herum, das jedem in der Umgebung &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3428</ID>
+      <DefaultText>Beschwört eine flammende Feuersäule, die alle im Wirkungsbereich &lt;sprite="Inline" name="cs_burn" tint=1&gt; verbrennt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -172,6 +197,11 @@
     <Entry>
       <ID>3695</ID>
       <DefaultText>Während Xopn’aua dir folgt, erhältst du einen Bonus auf Einsicht und Metaphysik. Darüber hinaus erhält deine Gruppe einen Bonus auf &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4390</ID>
+      <DefaultText>Während der Grabhund-Welpe dir folgt, erteilst du zusätzlichen Schaden gegen Gefäße und alle Gruppenmitglieder erleiden verringerten &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

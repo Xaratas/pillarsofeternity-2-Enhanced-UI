@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>524</EntryCount>
+  <EntryCount>527</EntryCount>
   <Entries>
     <Entry>
       <ID>0</ID>
@@ -71,7 +71,7 @@
     </Entry>
     <Entry>
       <ID>77</ID>
-      <DefaultText>Chance, bei einem kritischen Treffer beim Ziel über einen Zeitraum von 12,0 Sekunden &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpelnd &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, Niedergestreckt oder direkten Schaden zu verursachen – oder eine Verringerung der Aktionsgeschwindigkeit um 25 %</DefaultText>
+      <DefaultText>Chance, bei einem kritischen Treffer beim Ziel &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpelnd &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, Niedergestreckt, direkten Schaden über Zeit für 12,0 Sekunden zu verursachen – oder eine Verringerung der Aktionsgeschwindigkeit um 25 %</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -180,6 +180,21 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>270</ID>
+      <DefaultText>Wenn das Ziel mit einer &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Entschlossenheitswirkung &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; belegt ist, besteht eine Chance von {0:value:percent}, beim Erzielen eines Treffers das Ziel zu unterbrechen</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>271</ID>
+      <DefaultText>Wenn das Ziel mit einer &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Entschlossenheitswirkung &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; belegt ist, füge bei einem erzielten kritischen Treffer alle {0:extravalue:duration} für die Dauer von {0:value:duration} direkten Schaden zu</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>280</ID>
+      <DefaultText>{0:value} alle Verteidigungen gegen &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheitswirkung &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;s-Angriffe, solange die Gesundheit über 75 % liegt</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>284</ID>
       <DefaultText>Chance, dass das Ziel bei einem kritischen Treffer für 12,0 Sekunden &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;erkrankt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;. Tapferkeit wirkt dem entgegen.</DefaultText>
       <FemaleText />
@@ -226,7 +241,7 @@
     </Entry>
     <Entry>
       <ID>401</ID>
-      <DefaultText>Immun gegen &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Entschlossenheitswirkungen  &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;wenn unter {0:extravalue:percent} Gesundheit</DefaultText>
+      <DefaultText>Immun gegen &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Entschlossenheitswirkungen &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; wenn unter {0:extravalue:percent} Gesundheit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -282,6 +297,11 @@
     <Entry>
       <ID>512</ID>
       <DefaultText>{0:value:percent} Chance, bei einem Treffer für {0:extravalue:duration} &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; auf sich selbst zu wirken</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>535</ID>
+      <DefaultText>{0:value:percentbonus} Dauer feindliche &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheits- &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;Wirkung</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

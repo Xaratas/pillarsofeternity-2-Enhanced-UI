@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\items</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>2831</EntryCount>
+  <EntryCount>2833</EntryCount>
   <Entries>
     <Entry>
       <ID>3145</ID>
@@ -41,7 +41,7 @@
     </Entry>
     <Entry>
       <ID>3422</ID>
-      <DefaultText>Beschwört eine riesige Plage giftiger Insekten herauf, die Wundzeitschaden zufügen, die Konzentration verringern und jeden im Wirkungsbereich &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;erkranken &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; lässt.</DefaultText>
+      <DefaultText>Beschwört eine riesige Plage giftiger Insekten herauf, die direkten Schaden über Zeit zufügen, die Konzentration verringern und jeden im Wirkungsbereich &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;erkranken &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; lässt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -51,7 +51,12 @@
     </Entry>
     <Entry>
       <ID>3648</ID>
-      <DefaultText>Während Algol dir folgt, klingen jegliche &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Verfassungswirkungen  &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;auf dir schneller ab und deine Gruppenmitglieder erhalten etwas Gesundheit, wenn sie einen Gegner töten.</DefaultText>
+      <DefaultText>Während Algol dir folgt, klingen jegliche &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Verfassungswirkungen &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; auf dir schneller ab und deine Gruppenmitglieder erhalten etwas Gesundheit, wenn sie einen Gegner töten.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3693</ID>
+      <DefaultText>Während Eviee dir folgt, erhältst du einen Bonus auf Entschlossenheit und Resistenz gegen &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Entschlossenheitswirkungen &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Darüber hinaus wird die Dauer von &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Entschlossenheitswirkungen &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, von denen deine Gruppe betroffen ist, verringert.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -60,13 +65,18 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4282</ID>
+      <DefaultText>Während das Irrlicht dir folgt, haben &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellektwirkungen &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; auf dich eine kürzere Dauer und alle Gruppenmitglieder haben erhöhte Genauigkeit bei ihren Angriffen gegen Geister.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4485</ID>
-      <DefaultText>Während Rindenschnur dir folgt, klingen &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheitswirkungen  &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;auf dir schneller ab und deine Gruppenmitglieder bewegen sich im Kampf schneller.</DefaultText>
+      <DefaultText>Während Rindenschnur dir folgt, klingen &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheitswirkungen &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; auf dir schneller ab und deine Gruppenmitglieder bewegen sich im Kampf schneller.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>5137</ID>
-      <DefaultText>Füge {0} &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheitswirkungen  &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;zu</DefaultText>
+      <DefaultText>Füge {0} &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheitswirkungen &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; zu</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
