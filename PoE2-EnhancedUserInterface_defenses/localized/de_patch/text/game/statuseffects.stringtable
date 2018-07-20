@@ -35,6 +35,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>23</ID>
+      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft beim Angriff des gleichen Ziels wie ein Verbündeter.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>32</ID>
       <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;, wenn zusammen mit einem Schild geführt</DefaultText>
       <FemaleText />
@@ -62,6 +67,11 @@
     <Entry>
       <ID>42</ID>
       <DefaultText>Heimliche Angriffe sorgen dafür, dass das Ziel bis zum Ende des Kampfes wegen dem eingetretenen &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden blutet.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>43</ID>
+      <DefaultText>Bei kritischem Treffer alle 3 Sekunden 5 &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Blutungsschaden für die Dauer von 9 Sekunden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -320,6 +330,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>272</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_raw" tint=1&gt; Direkter Blutungsschaden über Zeit für 12,0 Sekunden beim Ziel, wenn ein kritischer Treffer erzielt wurde</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>284</ID>
       <DefaultText>Chance, dass das Ziel bei einem kritischen Treffer für 12,0 Sekunden erkrankt. &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt; wirkt dem entgegen.</DefaultText>
       <FemaleText />
@@ -332,6 +347,11 @@
     <Entry>
       <ID>287</ID>
       <DefaultText>+10 % Nahkampfschaden und +5 % &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; wenn angegriffen. Effekt ist dreimal stapelbar</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>290</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_raw" tint=1&gt; Direkter Schaden über längere Zeit hinweg für 18,0 Sekunden bei einem Treffer, wenn das Ziel über weniger als 25 % Gesundheit verfügt</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -582,6 +602,11 @@
     <Entry>
       <ID>571</ID>
       <DefaultText>{0:extravalue} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; pro Wunde</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>576</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandflächenschaden alle {0:interval}.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

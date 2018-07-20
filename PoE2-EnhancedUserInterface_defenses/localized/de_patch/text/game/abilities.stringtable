@@ -110,6 +110,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>292</ID>
+      <DefaultText>Zwingt die Seele eines Feindes dazu, Energie zu „verlieren“, wodurch die den Feind umgebende Luft entzündet wird und er &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandzeitschaden erleidet.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>300</ID>
       <DefaultText>Der Kämpfer stürzt sich in die Schlacht und zieht einen Feind in unmittelbare Nahkampfentfernung. Er fügt ihm &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zu und lässt ihn Benommen zurück.</DefaultText>
       <FemaleText />
@@ -117,6 +122,11 @@
     <Entry>
       <ID>303</ID>
       <DefaultText>Erzeugt um den Priester herum ein Feld heiliger Energie, das jedem Gefäß in der Nähe &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügt und Erschüttert, während es eine bescheidene Menge der Gesundheit von Verbündeten regeneriert. Die Stärke des Heiligen Glanzes eines Priesters wird modifiziert, abhängig davon, wie gut sein Ruf mit dem bevorzugten Verhalten seines Glaubens im Einklang steht.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>314</ID>
+      <DefaultText>Beschwört einen Vergeltungsschlag herauf, der einen Feind Betäubt, wenn er auf die &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Willensverteidigung&lt;/color&gt; des Mediums abzielt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -217,6 +227,11 @@
     <Entry>
       <ID>455</ID>
       <DefaultText>Führt zu einer Explosion mit tödlicher Kraft um den Zauberwirker herum, durch die jeder Feind in unmittelbarer Umgebung &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden erleidet – wobei sein &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert ignoriert wird.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>476</ID>
+      <DefaultText>Erzeugt ein intensives Leuchtfeuer, durch das Feinde im Wirkungsbereich einen Malus auf alle Verteidigungen erhalten und &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandzeitschaden erleiden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -346,7 +361,7 @@
     </Entry>
     <Entry>
       <ID>603</ID>
-      <DefaultText>Verbrennt alle ätherische Kräfte, die Verstand, Körper und Seele des feindlichen Ziels zusammenhalten, wodurch es schnell &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden erleidet. Zielen, deren Gesundheit auf 0 fällt, wird jegliche Existenz entzogen.</DefaultText>
+      <DefaultText>&lt;xg&gt;Verbrennt&lt;/xg&gt; alle ätherische Kräfte, die Verstand, Körper und Seele des feindlichen Ziels zusammenhalten, wodurch es schnell &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden erleidet. Zielen, deren Gesundheit auf 0 fällt, wird jegliche Existenz entzogen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -924,7 +939,7 @@ Ausdauer – Gewährt &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert
 
 Fern: &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraftbonus
 Zweihändig: Wirkt Taumelnd
-Einhändig: Direkter Schaden über Zeit</DefaultText>
+Einhändig: &lt;sprite="Inline" name="cs_raw" tint=1&gt; Direkter Schaden über Zeit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1144,6 +1159,11 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     <Entry>
       <ID>2574</ID>
       <DefaultText>Der Kämpfer verfolgt eine ausgewogene Strategie, die für den Kampf Mann gegen Mann mit einem einzelnen Gegner geeignet ist. In dieser Haltung erhält der Kämpfer verbesserte Genauigkeit und &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2582</ID>
+      <DefaultText>Zielt darauf ab, durch Schläge gegen den Kopf die &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Willensverteidigung&lt;/color&gt; des Ziels zu verringern und es zu betäuben. Diese Angriffe verursachen weniger Schaden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1497,6 +1517,11 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3814</ID>
+      <DefaultText>(… und das Böse wandte sich von der Sonne ab) – &lt;sprite="Inline" name="cs_burn" tint=1&gt; Verbrennt Gegner und erteilt Geistern und Gefäßen größeren Schaden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3833</ID>
       <DefaultText>Während der Grabhund-Welpe dir folgt, erteilst du zusätzlichen Schaden gegen Gefäße und alle Gruppenmitglieder erleiden verringerten &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden.</DefaultText>
       <FemaleText />
@@ -1569,6 +1594,11 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     <Entry>
       <ID>3962</ID>
       <DefaultText>Während der Flugdrachenlindwurm dir folgt, verursachst du mehr Schaden mit Fernkampfwaffenangriffen und deine Gruppenmitglieder erhalten erhöhte Genauigkeit, &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; gegen entfernte Ziele.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3965</ID>
+      <DefaultText>Bissangriffe verursachten &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Giftschaden über Zeit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1804,6 +1834,21 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     <Entry>
       <ID>4687</ID>
       <DefaultText>Erhöht für eine kurze Zeit die &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4775</ID>
+      <DefaultText>Zu beginn des Kampfes wird der Träger in Feuer gehüllt und &lt;sprite="Inline" name="cs_burn" tint=1&gt; verbrennt jeden der ihm Nahkampfschaden zufügt. Das Feuer erhöht außerdem den &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4779</ID>
+      <DefaultText>Zu beginn des Kampfes wird der Träger in Feuer gehüllt und &lt;sprite="Inline" name="cs_burn" tint=1&gt; verbrennt jeden der ihm Nahkampfschaden zufügt. Das Feuer erhöht außerdem den &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4781</ID>
+      <DefaultText>(Großes Flammenschild) - Der &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert erhöht sich weiter. Ebenso vergrößert sich der &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden des Gegenschlags.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

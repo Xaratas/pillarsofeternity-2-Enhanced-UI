@@ -190,6 +190,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>274</ID>
+      <DefaultText>&lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Lähmt &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; das Ziel für {0:value:duration} bei einem kritischen Treffer</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>280</ID>
       <DefaultText>{0:value} alle Verteidigungen gegen &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheitswirkung &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;s-Angriffe, solange die Gesundheit über 75 % liegt</DefaultText>
       <FemaleText />
@@ -295,6 +300,16 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>507</ID>
+      <DefaultText>{0:value:percent} Chance, das Ziel bei einem Treffer für {0:extravalue:duration} zu &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäuben &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>508</ID>
+      <DefaultText>{0:value:percent} Chance, das Ziel bei einem Treffer für {0:extravalue:duration} zu &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäuben &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, wenn derjenige, der die Waffe führt, ein Zwerg ist</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>512</ID>
       <DefaultText>{0:value:percent} Chance, bei einem Treffer für {0:extravalue:duration} &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; auf sich selbst zu wirken</DefaultText>
       <FemaleText />
@@ -302,6 +317,11 @@
     <Entry>
       <ID>535</ID>
       <DefaultText>{0:value:percentbonus} Dauer feindliche &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheits- &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;Wirkung</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>588</ID>
+      <DefaultText>Gewährt die Inspiration &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Aufmerksam &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; für {0:value:duration}, wenn ein naher Verbündeter einen Feind tötet.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
