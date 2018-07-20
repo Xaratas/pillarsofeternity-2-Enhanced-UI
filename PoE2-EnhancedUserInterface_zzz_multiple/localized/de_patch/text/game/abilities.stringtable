@@ -30,6 +30,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>314</ID>
+      <DefaultText>Beschwört einen Vergeltungsschlag herauf, der einen Feind &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, wenn er auf die &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Willensverteidigung&lt;/color&gt; des Mediums abzielt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>325</ID>
       <DefaultText>Befiehlt einem Verbündeten, seine Bemühungen zu verdoppeln, wodurch seine &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; verstärkt und ihm die Inspiration &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; gewährt wird.</DefaultText>
       <FemaleText />
@@ -140,6 +145,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1571</ID>
+      <DefaultText>Ninagauths Schattenflamme ist eine ungewöhnliche Variante des beliebten Feuerballs. Sie verursacht &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden und &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Lähmt &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; jeden, der sich im Wirkungsbereich aufhält.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1723</ID>
       <DefaultText>Der Zauberer beschwört das Siegel der legendären vailianischen Zauberin Minoletta. Wenn er im Nahkampf getroffen wird, rächt sich das Siegel mit &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden, wirft das Ziel zurück und hinterlässt es &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
@@ -190,7 +200,7 @@
 
 Fern: &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraftbonus
 Zweihändig: Wirkt &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Taumelnd &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;
-Einhändig: Direkter Schaden über Zeit</DefaultText>
+Einhändig: &lt;sprite="Inline" name="cs_raw" tint=1&gt; Direkter Schaden über Zeit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

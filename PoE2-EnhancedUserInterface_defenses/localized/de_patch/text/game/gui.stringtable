@@ -41,7 +41,7 @@
     </Entry>
     <Entry>
       <ID>470</ID>
-      <DefaultText>Macht trägt zum Waffenschaden, Heilungswirkung und der &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;s-Verteidigung bei. Sie stellt die brachiale, körperliche Stärke eines Charakters dar ebenso wie seine Fähigkeit, starke Magie zu wirken.
+      <DefaultText>Macht trägt zum Waffenschaden, Heilungswirkung und der &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeitsverteidigung&lt;/color&gt; bei. Sie stellt die brachiale, körperliche Stärke eines Charakters dar ebenso wie seine Fähigkeit, starke Magie zu wirken.
 
  5 – Schwach
 10 – Durchschnittlich
@@ -50,13 +50,43 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>471</ID>
+      <DefaultText>Gewandtheit beeinflusst die Aktionsgeschwindigkeit eines Charakters mit allen Angriffen, Zaubern und Fähigkeiten und trägt zur &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexverteidigung&lt;/color&gt; bei. Sie repräsentiert eine Kombination aus Hand-Augen-Koordination, Schwung und gesamter Anmut.
+
+ 5 – Tollpatschig
+10 – Durchschnittlich
+15 – Wendig
+20 – Unglaublich elegant</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>472</ID>
+      <DefaultText>Intellekt trägt zur &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Willensverteidigung&lt;/color&gt; bei und beeinflusst Dauer und Bereiche der Auswirkung für alle Fähigkeiten. Sie repräsentiert die logischen, argumentativen und schlussfolgernden Fähigkeiten eines Charakters.
+
+ 5 – Begriffsstutzig
+10 – Durchschnittlich
+15 – Schlagfertig
+20 – &lt;xg&gt;Brillant&lt;/xg&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>473</ID>
-      <DefaultText>Verfassung beeinflusst Gesundheit und die &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;sverteidigung. Sie repräsentiert eine Kombination der gesamten Gesundheit und der Ausdauer eines Charakters.
+      <DefaultText>Verfassung beeinflusst Gesundheit und die &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeitsverteidigung&lt;/color&gt;. Sie repräsentiert eine Kombination der gesamten Gesundheit und der Ausdauer eines Charakters.
 
  5 – Zerbrechlich
 10 – Durchschnittlich
 15 – Ausdauernd
 20 – Athletisch</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>474</ID>
+      <DefaultText>Die Wahrnehmung trägt zur Genauigkeit und der &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexverteidigung&lt;/color&gt; bei. &lt;g&gt;Wahrnehmung&lt;/g&gt; repräsentiert die Sinne eines Charakters wie auch seine instinktive Fähigkeit, Details zu erkennen, wie zum Beispiel das Aufspüren von Fallen oder versteckten Objekten.
+
+ 5 – Nichts wahrnehmend
+10 – Durchschnittlich
+15 – Wachsam
+20 – Adlerauge</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

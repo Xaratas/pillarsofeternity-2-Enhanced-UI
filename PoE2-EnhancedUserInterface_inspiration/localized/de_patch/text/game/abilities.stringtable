@@ -545,6 +545,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1571</ID>
+      <DefaultText>Ninagauths Schattenflamme ist eine ungewöhnliche Variante des beliebten Feuerballs. Sie verursacht Frostschaden und &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Lähmt &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; jeden, der sich im Wirkungsbereich aufhält.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1578</ID>
       <DefaultText>Der Sänger füllt sich mit wilder Energie, wodurch er die Inspiration &lt;link="gamedata://c56f70b5-b611-4dee-b80f-335033b98e2f"&gt;&lt;#ff4800&gt;Munter &lt;sprite="Inline" name="attribute_might" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; erhält.</DefaultText>
       <FemaleText />
@@ -990,6 +995,11 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2663</ID>
+      <DefaultText>Ein Verbündeter schöpft aus seinem versteckten geistigem und selischem Potenzial, wodurch er für eine kurze Zeit die Inspiration &lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;Brillant &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; erhält.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2667</ID>
       <DefaultText>Wenn das Medium einen Gegner tötet, kann ein Gegner in der Nähe &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; werden.</DefaultText>
       <FemaleText />
@@ -1090,8 +1100,23 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2860</ID>
+      <DefaultText>Schwäche: &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Verfassungswirkung &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2873</ID>
       <DefaultText>Beschwört einen mächtigen Blitz vom Himmel auf das Ziel herab, der Schockschaden austeilet und es &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Benommen &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; macht.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2879</ID>
+      <DefaultText>Schwäche: &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheitswirkungen &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2889</ID>
+      <DefaultText>Schwäche: &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellektwirkungen &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1182,6 +1207,11 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
     <Entry>
       <ID>3523</ID>
       <DefaultText>Bedient sich der Macht des Grabes, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Bezaubert &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; alle Gefäße und &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; alle Gestandenen im betroffenen Bereich.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3608</ID>
+      <DefaultText>Gewährt dem Nutzer zu Beginn des Kampfes für kurze Zeit Widerstand gegen &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheitswirkungen &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1437,6 +1467,11 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
     <Entry>
       <ID>4673</ID>
       <DefaultText>Schlägt mit dem Knauf zu und fügt dem Ziel Bonus-Wucht- und Schockschaden sowie &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; zu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4774</ID>
+      <DefaultText>Erhält die Inspiration &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Aufmerksam &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;, sobald ein naher Verbündeter einen Feind tötet.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
