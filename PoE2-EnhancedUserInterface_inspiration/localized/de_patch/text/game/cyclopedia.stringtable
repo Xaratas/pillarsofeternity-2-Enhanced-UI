@@ -316,5 +316,15 @@ Jede Inspiration wird durch ihre Zugehörigkeit zu einem Attribut (wie Macht ode
       <DefaultText>Charaktere, die gegen einen Typ von Wirkung schwach sind, stufen die Effektivität der entsprechenden Wirkungen um 1 auf. Ein Charakter mit Schwäche gegen &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Machtwirkungen &lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; beispielsweise würde &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Taumelnd &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; zu &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Benommen &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, und &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Benommen &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; zu &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; aufstufen.</DefaultText>
       <FemaleText />
     </Entry>
+    <Entry>
+      <ID>758</ID>
+      <DefaultText>Wirkungen, die Intellekt, Wahrnehmung und Entschlossenheit beeinflussen, gelten als &lt;link="glossary://GlossaryEntry_Mind_Affliction"&gt;Geisteswirkungen&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>760</ID>
+      <DefaultText>Wirkungen, die Macht, Verfassung und Gewandtheit beeinflussen, gelten als &lt;link="glossary://GlossaryEntry_Body_Affliction"&gt;Körperwirkungen&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
   </Entries>
 </StringTableFile>

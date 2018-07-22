@@ -996,7 +996,7 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
     </Entry>
     <Entry>
       <ID>2663</ID>
-      <DefaultText>Ein Verbündeter schöpft aus seinem versteckten geistigem und selischem Potenzial, wodurch er für eine kurze Zeit die Inspiration &lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;Brillant &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; erhält.</DefaultText>
+      <DefaultText>Legt das verborgene Potenzial in Geist und Seele eines Verbündeten frei und verleiht diesem für kurze Zeit die Inspiration &lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;Brillant &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1011,7 +1011,7 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
     </Entry>
     <Entry>
       <ID>2674</ID>
-      <DefaultText>Greift Gegner mit einem starken Nahkampfangriff an, fügt hohen Schaden zu und &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; ihn. Feinde hinter dem Gegner werden &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Taumelnd &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; und erhalten direkten Schaden.</DefaultText>
+      <DefaultText>Greift einen Gegner mit einem starken Nahkampfangriff an, fügt hohen Schaden zu und &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; ihn. Feinde hinter dem Gegner werden &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Taumelnd &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; und erhalten direkten Schaden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1202,6 +1202,11 @@ Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zu
     <Entry>
       <ID>3506</ID>
       <DefaultText>Feuere einen speerartigen Blitz durch mehrere Ziele. Dabei erzielst du Stichschäden, wirfst sie zurück und machst sie an ihrem Standort &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Bewegungsunfähig &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3512</ID>
+      <DefaultText>Die Aura gewährt allen Verbündeten in der Nähe einen Willensbonus gegen &lt;link="glossary://GlossaryEntry_Mind_Affliction"&gt;Geisteswirkungen&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
