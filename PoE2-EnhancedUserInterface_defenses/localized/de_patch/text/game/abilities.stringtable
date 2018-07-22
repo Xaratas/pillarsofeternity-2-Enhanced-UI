@@ -1228,7 +1228,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>2674</ID>
-      <DefaultText>Greift Gegner mit einem starken Nahkampfangriff an, fügt hohen Schaden zu und Betäubt ihn. Feinde hinter dem Gegner werden Taumelnd und erhalten &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden.</DefaultText>
+      <DefaultText>Greift einen Gegner mit einem starken Nahkampfangriff an, fügt hohen Schaden zu und Betäubt ihn. Feinde hinter dem Gegner werden Taumelnd und erhalten &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1298,7 +1298,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>2821</ID>
-      <DefaultText>Der Priester ruft Magran an, das Ziel durch Flammen zu reinigen. Daraufhin wird das Ziel bombardiert mit Flammensäulen, bis seine Sünden getilgt sind. Jede Flammensäule verursacht &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand- / &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden und verringert die Dauer der feindlichen und vorteilhaften Wirkungen auf das Ziel.</DefaultText>
+      <DefaultText>Der Priester ruft Magran an, das Ziel durch Flammen zu reinigen. Daraufhin wird das Ziel bombardiert mit Flammensäulen, bis seine Sünden getilgt sind. Jede Flammensäule verursacht &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand- / &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden und verringert die Dauer der schädlichen und vorteilhaften Wirkungen auf das Ziel.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1333,7 +1333,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>2854</ID>
-      <DefaultText>Der Waldläufer startet einen gewalttätigen Wirbel tödlicher Angriffe, die auf jeden Feind innerhalb seiner Reichweite einen vollen Angriff darstellen und ihm &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über längere Zeit zufügen. (Erfordert eine Nahkampfwaffe)</DefaultText>
+      <DefaultText>Der Waldläufer startet einen gewalttätigen Wirbel tödlicher Angriffe, die auf jeden Feind innerhalb seiner Reichweite einen vollen Angriff darstellen und ihm &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit zufügen. (Erfordert eine Nahkampfwaffe)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1388,7 +1388,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>2984</ID>
-      <DefaultText>Zieht alles im Umkreis zu dem Gerät hin und verursacht &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden, bevor es nach explodiert und die Opfer durch die Luft schleudert. Dieser Prozess wiederholt sich, bis die alchemistische Reaktion verbraucht ist.</DefaultText>
+      <DefaultText>Zieht alles im Umkreis zu dem Gerät hin und verursacht &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden, bevor es nach außen hin explodiert und die Opfer durch die Luft schleudert. Dieser Prozess wiederholt sich, bis die alchemistische Reaktion verbraucht ist.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1608,7 +1608,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>3993</ID>
-      <DefaultText>Aura, die gegnerische &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; und &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt; um einen gewissen Wert senkt. Dieser Wert wird durch die Überlebenskompetenz des Trägers erhöht.</DefaultText>
+      <DefaultText>Aura, die gegnerische &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; und &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt; um einen gewissen Wert senkt. Dieser Wert wird durch die Fertigkeit Überleben des Trägers erhöht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

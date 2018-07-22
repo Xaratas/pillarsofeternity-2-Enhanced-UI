@@ -85,6 +85,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>101</ID>
+      <DefaultText>Verringert den Schaden auf {0:value:percent} wenn Flankiert oder von &lt;link="glossary://GlossaryEntry_Body_Affliction"&gt;Körperwirkungen&lt;/link&gt; betroffen</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>149</ID>
       <DefaultText>Chance, das Ziel bei einem kritischen Treffer zu &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;erschüttern &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;</DefaultText>
       <FemaleText />
@@ -227,6 +232,11 @@
     <Entry>
       <ID>380</ID>
       <DefaultText>{0:value:percent} Chance, das Ziel bei einem Treffer für {0:extravalue:duration} zu &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäuben &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, wenn derjenige, der die Waffe führt, ein Zwerg ist</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>381</ID>
+      <DefaultText>{0:value:percent} Chance auf zufällige &lt;link="glossary://GlossaryEntry_Mind_Affliction"&gt;Geisteswirkung&lt;/link&gt; beim Ziel für {0:extravalue:duration} beim Erzielen eines kritischen Treffers</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
