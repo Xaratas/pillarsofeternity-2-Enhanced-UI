@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 0.9-beta.1 -->
-<!-- Game Build 1.2.0.0017 -->
+<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 0.9-beta.3 -->
+<!-- Game Build 1.2.2.0033 -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3299</EntryCount>
+  <EntryCount>3320</EntryCount>
   <Entries>
     <Entry>
       <ID>237</ID>
@@ -154,6 +154,11 @@
     <Entry>
       <ID>286</ID>
       <DefaultText>&lt;line-height=100%&gt;Briefly transforms the outer shell of an allied target's soul into energy, releasing an electrical burst around them. Enemies standing in the area around the target take &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; damage.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>287</ID>
+      <DefaultText>&lt;line-height=100%&gt;Co-opts the target's essence, generating a &lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;b&gt;Slashing&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; blade of force that attacks them before leaping to additional targets.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -659,6 +664,11 @@
     <Entry>
       <ID>810</ID>
       <DefaultText>&lt;line-height=100%&gt;Emboldens allies in the area of effect, giving bonuses to &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;Fortitude&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;Will&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>811</ID>
+      <DefaultText>&lt;line-height=100%&gt;Attacks enemies in seven directions around the chanter with bolts of &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freezing&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; ice.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2123,7 +2133,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.&lt;/line
     </Entry>
     <Entry>
       <ID>2785</ID>
-      <DefaultText>&lt;line-height=100%&gt;Echo an ally's attacks with each of their soul's memories. Granting them a significant &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; bonus.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Echo an ally's attacks with each of their soul's memories, granting them a significant &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; bonus.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
