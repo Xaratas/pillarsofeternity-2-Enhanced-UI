@@ -1,9 +1,10 @@
 ## CHANGELOG
 ### Version 0.9-beta.5
-#### New Feature: Accuracy Icons
-- Added support for Accuracy icons. All entries with the keyword `Accuracy` should now have a corresponding icon next to it's name.
+#### New Feature: 
+## Accuracy Icons
+Added support for Accuracy icons. All entries with the keyword `Accuracy` should now have a corresponding icon next to it's name.
 
-##### Modified Entries:
+### Modified Entries:
   **Abilities:**\
   **ID:** `400`, `601`, `859`, `884`, `887`, `1342`, `1990`, `2263`, `2305`, `2574`, `2639`, `3207`, `3749`, `3962` and `4452`.
 
@@ -19,7 +20,7 @@
   **Status Effects:**\
   **ID:** `15` and `116`.
 
-##### New Entries:
+### New Entries:
   **Abilities:**\
   **ID:** `251`, `318`, `400`, `474`, `593`, `601`, `796`, `859`, `883`, `884`, `887`, `908`, `941`, `1076`, `1337`, `1852`, `1971`, `1990`, `2263`, `2305`, `2356`, `2393`, `2501`, `2521`, `2530`, `2574`, `2639`, `2685`, `2705`, `2738`, `2755`, `2811`, `3207`, `3399`, `3613`, `3749`, `3794`, `3803`, `3854`, `3901`, `3913`, `3921`, `3962`, `4138`, `4273`, `4274`, `4356`, `4357`, `4405`, `4442`, `4452` and `4755`.
 
