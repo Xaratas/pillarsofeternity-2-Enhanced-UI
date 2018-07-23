@@ -1,6 +1,5 @@
 ## CHANGELOG
 ### Version 0.9-beta.5
-#### New Feature: 
 ## Accuracy Icons
 Added support for Accuracy icons. All entries with the keyword `Accuracy` should now have a corresponding icon next to it's name.
 
