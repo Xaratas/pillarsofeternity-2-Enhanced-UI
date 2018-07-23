@@ -1,4 +1,52 @@
 ## CHANGELOG
+### Version 0.9-beta.5
+#### New Feature: Accuracy Icons
+- Added support for Accuracy icons. All entries with the keyword `Accuracy` should now have a corresponding icon next to it's name.
+
+##### Modified Entries:
+  **Abilities:**\
+  **ID:** `400`, `601`, `859`, `884`, `887`, `1342`, `1990`, `2263`, `2305`, `2574`, `2639`, `3207`, `3749`, `3962` and `4452`.
+
+  **Cyclopedia:**\
+  **ID:** `84`, `94`, `154`, `180` and `590`.
+
+  **GUI:**\
+  **ID:** `370`, `474`, `1169`, `2830` and `2853`.
+
+  **Items:**\
+  No modified ID's.
+
+  **Status Effects:**\
+  **ID:** `15` and `116`.
+
+##### New Entries:
+  **Abilities:**\
+  **ID:** `251`, `318`, `400`, `474`, `593`, `601`, `796`, `859`, `883`, `884`, `887`, `908`, `941`, `1076`, `1337`, `1852`, `1971`, `1990`, `2263`, `2305`, `2356`, `2393`, `2501`, `2521`, `2530`, `2574`, `2639`, `2685`, `2705`, `2738`, `2755`, `2811`, `3207`, `3399`, `3613`, `3749`, `3794`, `3803`, `3854`, `3901`, `3913`, `3921`, `3962`, `4138`, `4273`, `4274`, `4356`, `4357`, `4405`, `4442`, `4452` and `4755`.
+
+  **Cyclopedia:**\
+  ID: `84`, `94`, `154`, `180`, `516`, `590`, `769` and `806`.
+
+  **GUI:**\
+  **ID:** `140`, `205`, `370`, `474`, `1106`, `1107`, `1124`, `1169`, `1172`, `1196`, `1230`, `1234`, `1243`, `1404`, `1477`, `1658`, `1685`, `1694`, `1890`, `1949`, `2200`, `2206`, `2304`, `2830`, `2853`, `2854`, `2915`, `3016` and `3034`.
+
+  **Items:**\
+  **ID:** `254`, `284`, `286`, `289`, `290`, `571`, `1337`, `1478`, `2838`, `3197`, `3649`, `3654`, `3658` and `4935`.
+
+  **Status Effects:**\
+  **ID:** `1`, `8`, `25`, `28`, `45`, `87`, `119`, `121`, `163`, `186`, `187`, `188`, `205`, `232`, `233`, `234`, `275`, `317`, `346`, `361`, `431`, `497` and `538`.
+
+### Version 0.9-beta.4
+- Fixed a few incorrectly described injuries, namely: Buised Ribs, Concussion and Swollen Eye.\
+ The following ID's in `cyclopedia.stringtalbe` were edited: `126`, `128` and `132`.
+
+ <sup>Thanks to **Kilay** for finding this bug!</sup>
+
+### Version 0.9-beta.3
+- Updated for game build 1.2.2.0033.
+
+### Version 0.9-beta.2
+- Made some preparations for the 2.0 game build.
+
 ### Version 0.9-beta.1
 - Added support for the following items:
    - Aloth's Leather Armor (Deadfire)
@@ -32,12 +80,20 @@
    - The Bloody Links
    - Vestments of Gaun
 
+***
+
 ### Version 0.8.1
 - Updated the mod for the new in-game mod manager (added `thumb.png` and `manifest.json` to all folders).
 
 ### Version 0.8
-- Added Korean files from Xinkle.
-- Updated de_patch.
+- Added Korean files from Xinkle
+- Updated de_patch
+
+***
+
+### Version 0.7.2
+- Updated for game build 1.2.0.0017.
+- Scroll of Insect Swarm now deals Raw damage (new in the latest game build) instead of Pierce damage.
 
 ### Version 0.7.1
 - Updated to the correct it version.
@@ -48,6 +104,8 @@
 - Included ru.
 - Updated it.
 - Fixed a few en entries.
+
+***
 
 ### 0.6.1-beta.2
 - Changed the color of reputation gains and losses to a slightly darker hue.
@@ -74,6 +132,8 @@
 - Added missing `line-height` tags (statuseffects.stringtable).
 - Fixed a few incorrectly applied font stylizations (statuseffects.stringtable).
 
+***
+
 ### 0.5.2
 - Updated the mod for game build `1.2.0.0008`.
 ### 0.5.1
@@ -84,7 +144,7 @@
 ### 0.5
 - Changed the font of rank 1 afflictions and inspirations to something more distinctive (I picked `EspinosaNova-Regular SDF` instead of `EBGaramond-Regular SDF`) - not final, probably.
 - The keywords `Might` and `Tenacious` now have the correct color code (from `#f7b733` to `#ff4800`).
-- Fixed a wrongly (?) applied icon in entry #1270 (`abilities.stringtable`):
+- Fixed a wrongly (?) applied icon in entry `1270` (`abilities.stringtable`):
 > Summons three missiles that each ~~`&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;b&gt;`~~ pierce ~~`&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt;`~~ through the target and then leap to additional targets.
 
 - Updated `statuseffects.stringtable` to match the font stylizations in the other `.stringtable-files`.
@@ -120,7 +180,6 @@
 ### 0.3.2
 - Huge changes to how Affliction and Inspiration icons are displayed. No need for sub/sup tags or similar anymore.
 - Line heights should no longer be affected by icon size or text palcement (the <voffset> tag for example).
-
 
 ### 0.3.1
 - Added subscript for all negative afflictions.
