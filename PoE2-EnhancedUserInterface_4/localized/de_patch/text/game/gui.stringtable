@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\gui</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>4415</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>140</ID>
+      <DefaultText>Wenn du mit dem Mauszeiger über Feinde schwebst, erscheint ein Pop-up, das ihre bekannten Verteidigungswerte mit der &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit des Angreifers vergleicht.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>205</ID>
+      <DefaultText>Automatische Pause, wenn ein Gruppenmitglied einen Feind angreift, dessen Verteidigung die &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit des Gruppenmitglieds um 50 oder mehr Punkte übersteigt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>367</ID>
+      <DefaultText>{0}% Schaden und Heilung, {1} &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>368</ID>
+      <DefaultText>{0}% &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit, {1} &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>370</ID>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und {1} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>371</ID>
+      <DefaultText>{0}% Wirkungsbereich, {1}% Fähigkeitsdauer und {2} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>372</ID>
+      <DefaultText>{0} Dauer der feindlichen Wirkung, {1} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und {2} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>469</ID>
+      <DefaultText>Entschlossenheit trägt zur Dauer der feindlichen Wirkung bei wie auch zu den Verteidigungen &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt; und &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;. Sie spiegelt den inneren Antrieb eines Charakters, seine Entschiedenheit und Furchtlosigkeit wieder.
+
+ 5 – Schüchtern
+10 – Durchschnittlich
+15 – &lt;xg&gt;Starker&lt;/xg&gt; &lt;xg&gt;Wille&lt;/xg&gt;
+20 – Furchtlos</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>470</ID>
+      <DefaultText>Macht trägt zum Waffenschaden, Heilungswirkung und der &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeitsverteidigung&lt;/color&gt; bei. Sie stellt die brachiale, körperliche Stärke eines Charakters dar ebenso wie seine Fähigkeit, starke Magie zu wirken.
+
+ 5 – Schwach
+10 – Durchschnittlich
+15 – &lt;xg&gt;Stark&lt;/xg&gt;
+20 – Unglaublich mächtig</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>471</ID>
+      <DefaultText>Gewandtheit beeinflusst die Aktionsgeschwindigkeit eines Charakters mit allen Angriffen, Zaubern und Fähigkeiten und trägt zur &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexverteidigung&lt;/color&gt; bei. Sie repräsentiert eine Kombination aus Hand-Augen-Koordination, Schwung und gesamter Anmut.
+
+ 5 – Tollpatschig
+10 – Durchschnittlich
+15 – Wendig
+20 – Unglaublich elegant</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>472</ID>
+      <DefaultText>Intellekt trägt zur &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Willensverteidigung&lt;/color&gt; bei und beeinflusst Dauer und Bereiche der Auswirkung für alle Fähigkeiten. Sie repräsentiert die logischen, argumentativen und schlussfolgernden Fähigkeiten eines Charakters.
+
+ 5 – Begriffsstutzig
+10 – Durchschnittlich
+15 – Schlagfertig
+20 – &lt;xg&gt;Brillant&lt;/xg&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>473</ID>
+      <DefaultText>Verfassung beeinflusst &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit und die &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeitsverteidigung&lt;/color&gt;. Sie repräsentiert eine Kombination der gesamten &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit und der Ausdauer eines Charakters.
+
+ 5 – Zerbrechlich
+10 – Durchschnittlich
+15 – Ausdauernd
+20 – Athletisch</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>474</ID>
+      <DefaultText>Die Wahrnehmung trägt zur &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und der &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexverteidigung&lt;/color&gt; bei. &lt;g&gt;Wahrnehmung&lt;/g&gt; repräsentiert die Sinne eines Charakters wie auch seine instinktive Fähigkeit, Details zu erkennen, wie zum Beispiel das Aufspüren von Fallen oder versteckten Objekten.
+
+ 5 – Nichts wahrnehmend
+10 – Durchschnittlich
+15 – Wachsam
+20 – Adlerauge</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1124</ID>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit gegen abziehende Feinde</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1147</ID>
+      <DefaultText>Entzieht {0} Entschlossenheit für {1} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1169</ID>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit, &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; gegen entfernte Feinde</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1172</ID>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit gewährt für einen Verbündeten, der das gleiche Ziel angreift</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1175</ID>
+      <DefaultText>{0} der eingehenden Treffer werden in Leichter Treffer umgewandelt (nur &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; oder &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1176</ID>
+      <DefaultText>{0} der eingehenden Treffer werden in Leichter Treffer umgewandelt (nur &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt; oder &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1196</ID>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit, wenn das gleiche Ziel eines Verbündeten angegriffen wird</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1214</ID>
+      <DefaultText>{0} Leichter Treffer umgewandelt in Fehlschlag gegen Feinde, die &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; angreifen</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1230</ID>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit, wenn der gleiche Feind wie von {1} angegriffen wird</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1234</ID>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit, wenn unter {1} &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1243</ID>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit gegen {1}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1261</ID>
+      <DefaultText>{0} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; von Fernkampfangriffen</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1404</ID>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1466</ID>
+      <DefaultText>Druiden wählen eine Schadensart (&lt;sprite="Inline" name="cs_slash" tint=1&gt; Hieb-, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stich-, &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wucht-, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, Zersetzungs-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost- oder &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden), die jedem eingesetzten Angriff hinzugefügt wird, der einem Ziel eine dieser Schadensarten zufügt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1477</ID>
+      <DefaultText>Alle Waldläufer bauen eine starke spirituelle Verbindung zu einem einzigen Lebewesen auf, ihrem tierischen Gefährten. Diese Verbindung ermöglicht es Waldläufern und ihren Gefährten, Angriffe zu koordinieren und Beute effizient zu erlegen. In den meisten Situationen hält der Gefährte dem Waldläufer den Rücken frei, während dieser aus der Ferne angreift.
+
+Trotz dieser Vorteile ist die Beziehung aber auch mit Risiken behaftet. Waldläufer teilen buchstäblich eine Lebensbeziehung mit ihren tierischen Gefährten. Wird der eine verwundet, spürt der andere dies und erleidet starke emotionale Schmerzen. Wenn ein Waldläufer oder sein tierischer Gefährte das Bewusstsein verliert, erleidet sein Partner Verbundene Trauer, was sich auf seine &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und andere Werte auswirkt, bis der Verbündete wiederbelebt wird. Wird ein Waldläufer getötet, stirbt sein tierischer Gefährte aus Trauer sofort.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1582</ID>
+      <DefaultText>{0}% Aktionsgeschwindigkeit und {1} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1629</ID>
+      <DefaultText>Schildabwehr-Bonus gilt auch für &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1676</ID>
+      <DefaultText>{0} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; beim Einsatz einer Zweihandwaffe</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1694</ID>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit gegen Feinde in der Distanz</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1739</ID>
+      <DefaultText>{0} Alle Verteidigungen außer &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1890</ID>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit, wenn die gleichen Ziele wie die des tierischen Gefährten angegriffen werden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1949</ID>
+      <DefaultText>{0} Waffenlose &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2200</ID>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit bei Einsatz von {1}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2304</ID>
+      <DefaultText>{1}e Angreifer erhalten {0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2815</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Raserei gewährt die Inspirationen Hartnäckig und Zäh anstelle von Stark und Fit.
+
+Gewährt während der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen.
+
+&lt;b&gt;Abzug&lt;/b&gt;
+Während Raserei ist man Verwirrt.
+
+Während der Raserei kann die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit nicht gesehen werden.
+
+Während der Raserei wird fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Schaden erlitten.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2823</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Erhalte die Fähigkeit „Seelenvernichtung“: Ein seelenangereicherter Nahkampfschlag, der die verbleibende Kraftreserve des Mediums aufbraucht und diese als &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden auf das Ziel wirkt.
+
+Zauber des Mediums mit dem Schlüsselwort Fetzen kosten weniger Fokus.
+
+Das Besiegen eines Gegners mit einer Nahkampfwaffe gewährt vorübergehend Konzentration und erhöht den Maximalen Fokus.
+
+&lt;b&gt;Abzug&lt;/b&gt;
+Maximaler Fokus ist reduziert. (Wie auch der Wert bei Kampfbeginn.)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2827</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Anstelle sich in eine tierische Form zu verwandeln, werden die Furien beim Geisterwandeln zu einem Peststurm.
+
+Elementarzauber von Druiden erhalten erhöhte Reichweite und &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft.
+
+Das Töten eines Feindes während des Geisterwandelns verlängert die Wirkungsdauer der Wandlung.
+
+Lerne die folgenden Druidenzauber auf neuen Kraftstufen:
+1. Tanzende Blitze
+2. Explosion der Sommerflamme
+3. Sturm der Wiederkehr
+4. Hagelsturm
+5. Unaufhörlicher Sturm
+6. Sonnenlanze
+7. Sturmtrotzer
+8. Rächender Sturm
+9. Großer Maelstrom
+
+&lt;b&gt;Abzug&lt;/b&gt;
+Verjüngungszauber können nicht gewirkt werden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2830</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Kann einen Waffenschwerpunkt als seine auserwählte Waffe bestimmen.
+
+Erhöhte &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft mit der auserwählten Waffe.
+
+Erhöhter Schaden bei Kritischen Treffern mit der auserwählten Waffe.
+
+&lt;b&gt;Abzug&lt;/b&gt;
+Verminderte &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit bei der Verwendung anderer als der auserwählten Waffe.
+
+Erhält nur einen einzigen Schwerpunkt und keine neuen beim Stufenaufstieg.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2832</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
++1 Angriffsbindung.
+
+Erhöhte &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft bei Absetzangriffen.
+
+Verschafft „Schild-Meisterschaft“, die einen Bonus auf den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert bereitstellt, solange ein Schild getragen wird.
+
+&lt;b&gt;Abzug&lt;/b&gt;
+Vermindertes Vorwärtskommen im Kampf.
+
+Verminderte &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2837</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Gewährt Flammen der Hingabe.
+
+Die Flammen der Hingabe verursachen zusätzlichen &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden (Schwarze Flammen) und verursachen bei den Zielen die Wirkung Erkrankt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2839</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Gewährt Erzfeind.
+
+Erzfeind erhält das Upgrade zu „Vergoldete Feindschaft“. Die vergoldete Feinschaft führt dazu, dass der Paladin mit einer Segnung aus Gold erfüllt wird, wenn er jemanden zum Erzfeind erklärt. Der Paladin erhält einen Bonus für seinen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert, bis er so oft getroffen wurde, dass das Gold zerbrochen ist.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2849</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Bonus auf Umwandlung von Treffern zu Kritischen Treffern bei Angriffen auf Ziele, die mehr als 4 m entfernt sind.
+
+Bonus auf &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft bei Angriffen auf Ziele, die weniger als 4 m entfernt sind.
+
+&lt;b&gt;Abzug&lt;/b&gt;
+Verlangsamte Erholungszeit.
+
+Verringerte &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2850</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Der Verfolger und sein Gefährte erhalten einen Bonus auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert, wenn sie nicht mehr als 4 m voneinander entfernt sind.
+
+&lt;b&gt;Abzug&lt;/b&gt;
+Der Verfolger und sein Gefährte erleiden Verbundene Trauer, wenn sie mehr als 7 m voneinander entfernt sind.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2853</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Sichere dir den Status des passiven „Meuchelmordes“. Dieser gewährt für Angriffe aus der Heimlichkeit heraus einen Bonus auf &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft, &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und Schaden bei einem kritischen Treffer.
+
+&lt;b&gt;Abzug&lt;/b&gt;
+Jeder erhaltene Schaden wird erhöht.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2854</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Zwischen die Augen – Fernkampfangriff mit großem &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeitsbonus, bei Verwendung unter Heimlichkeit ist ein Kritischer Treffer garantiert.
+
+&lt;b&gt;Abzug&lt;/b&gt;
+-1 Arglist</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2915</ID>
+      <DefaultText>Die Fertigkeit Sprengstoffe beeinflusst die &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit, den Schaden und die Wirkung von Bomben, Krachmachern und ähnlichen Geräten.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3012</ID>
+      <DefaultText>{0:Value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3016</ID>
+      <DefaultText>{0:Value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit hinter einem ahnungslosen Ziel</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3028</ID>
+      <DefaultText>{0:Value} &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3034</ID>
+      <DefaultText>{0:Value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit mit Waffen aus dem Waffenschwerpunkt</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3938</ID>
+      <DefaultText>{0:Value} {0:DamageType} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88001</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden wird von Zaubern und Fähigkeiten verursacht, die die Naturkraft der Blitze zu Hilfe rufen. Damit einher geht auch meistens die Bewegungsunfähigkeit des Ziels.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88002</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_raw" tint=1&gt; Direktschaden ignoriert alle &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswerte und wirkt unmittelbar. Die meisten Schadensquellen für &lt;sprite="Inline" name="cs_raw" tint=1&gt; Direktschaden sind Gifte.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88003</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden wird durch Feuer verursacht. Magier können es in Feuerbälle, Lavakugeln oder „Wände“ formen. Viele Feuerfähgkeiten verursachen Zeitschaden und betreffen einen ganzen Bereich. Wer in der Nähe von Pulverfässern mit offenem Feuer hantiert sollte sich nicht wundern, wenn diese in einer fürchterlichen Explosion allen umstehenden schweren &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügen.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88004</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden entsteht durch Unterkühlung. Fähigkeiten die Eis oder große Kälte heraufbeschwören können meist auch das Ziel verlangsamen oder sogar komplett einfrieren.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88005</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden basiert auf Säure, die über die Zeit Schaden verursacht. Damit einher gehen Wirkungen auf die Konstitution.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88006</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden wird mit stumpfen Waffen wie Kriegshämmern und Morgensternen verursacht. Durch die &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wucht des Auftreffens ist die Chance das Opfer zu unterbrechen oder Niederzustrecken sehr hoch.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88007</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden wird von leichten, scharfen Waffen wie Stiletten und Degen zugefügt. Ebenso können Magier ihre Schläge in Speerform bringen und damit &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden verursachen. Fähigkeiten die &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden verursachen können meist einen Teil des &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswertes umgehen.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88008</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_slash" tint=1&gt; Hiebschaden wird von stumpfen Klingenwaffen wie Schwertern und Zweihändern verursacht. Fähigkeiten mit &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hiebschaden haben meistens einen Zeitschadenseffekt.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>
