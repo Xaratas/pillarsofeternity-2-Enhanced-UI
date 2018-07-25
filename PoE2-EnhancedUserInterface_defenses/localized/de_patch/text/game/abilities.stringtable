@@ -16,7 +16,7 @@
     </Entry>
     <Entry>
       <ID>246</ID>
-      <DefaultText>Erzeugt eine langsame, energiegeladene Projektion des Glaubens des Priesters, durch die alle Verbündeten Gesundheit zurückgewinnen und Feinde &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden erleiden.</DefaultText>
+      <DefaultText>Erzeugt eine langsame, energiegeladene Projektion des Glaubens des Priesters, durch die alle Verbündeten &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit zurückgewinnen und Feinde &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden erleiden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -71,7 +71,7 @@
     </Entry>
     <Entry>
       <ID>272</ID>
-      <DefaultText>Frisst die Seele des Ziels auf, verursacht &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden und wandelt diese Essenz in Gesundheit für den Zauberwirker um.</DefaultText>
+      <DefaultText>Frisst die Seele des Ziels auf, verursacht &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden und wandelt diese Essenz in &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit für den Zauberwirker um.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -87,6 +87,11 @@
     <Entry>
       <ID>277</ID>
       <DefaultText>Führt dazu, dass der Zauberwirker versetzt erscheint. Seine &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und seine &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; werden für die Dauer erhöht. Außerdem werden viele &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;- und &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;-Angriffe, die Treffer landen, zu Leichten Treffern umgewandelt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>279</ID>
+      <DefaultText>Der Zauberwirker nutzt seine Lebenskraft, um die Inspiration Schwungvoll und Aktionsgeschwindigkeit zu erwerben auf Kosten seiner eigenen &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit, die stetig abnimmt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -121,7 +126,12 @@
     </Entry>
     <Entry>
       <ID>303</ID>
-      <DefaultText>Erzeugt um den Priester herum ein Feld heiliger Energie, das jedem Gefäß in der Nähe &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügt und Erschüttert, während es eine bescheidene Menge der Gesundheit von Verbündeten regeneriert. Die Stärke des Heiligen Glanzes eines Priesters wird modifiziert, abhängig davon, wie gut sein Ruf mit dem bevorzugten Verhalten seines Glaubens im Einklang steht.</DefaultText>
+      <DefaultText>Erzeugt um den Priester herum ein Feld heiliger Energie, das jedem Gefäß in der Nähe &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügt und Erschüttert, während es eine bescheidene Menge der &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit von Verbündeten regeneriert. Die Stärke des Heiligen Glanzes eines Priesters wird modifiziert, abhängig davon, wie gut sein Ruf mit dem bevorzugten Verhalten seines Glaubens im Einklang steht.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>305</ID>
+      <DefaultText>Paladine können einem besinnungslosen Verbündeten befehlen wieder aufzustehen und verleihen ihm dabei die Inspiration Stark. Allerdings verliert der Verbündete nach kurzer Zeit die Hälfte der wiedergewonnenen &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -171,7 +181,7 @@
     </Entry>
     <Entry>
       <ID>400</ID>
-      <DefaultText>Die Hände des Zauberwirkers werden so kalt, dass alles gefriert, was sie berühren. Fügt einem Ziel &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden zu und verringert dessen Genauigkeit.</DefaultText>
+      <DefaultText>Die Hände des Zauberwirkers werden so kalt, dass alles gefriert, was sie berühren. Fügt einem Ziel &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden zu und verringert dessen &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -201,7 +211,7 @@
     </Entry>
     <Entry>
       <ID>427</ID>
-      <DefaultText>Die Hand des Zauberwirkers wird zu einem giftigen Parasiten, der dem Ziel &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden zufügt, es entkräftet, und seine Lebenskraft in Gesundheit für den Zauberwirker umwandelt.</DefaultText>
+      <DefaultText>Die Hand des Zauberwirkers wird zu einem giftigen Parasiten, der dem Ziel &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden zufügt, es entkräftet, und seine Lebenskraft in &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit für den Zauberwirker umwandelt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -237,6 +247,11 @@
     <Entry>
       <ID>481</ID>
       <DefaultText>Setzt ein magisches Siegel auf den Boden, das in Flammen aufgeht, sobald es von einem Feind berührt wird, wodurch dieser Geblendet wird und &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden erleidet.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>483</ID>
+      <DefaultText>Gewährt Verbündeten die Inbrunst des Rechtschaffenden im Kampf, wodurch sie die Inspiration Stark erhalten. Wenn ein Verbündeter im Wirkungsbereich einen tödlichen Schlag ausführt, erhält er dafür &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -281,7 +296,7 @@
     </Entry>
     <Entry>
       <ID>528</ID>
-      <DefaultText>Die Haut von Feinden im Wirkungsbereich wird von Unmengen grabender Maden befallen, die &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit zufügen. Je mehr Wunden das Ziel erleidet, desto größer der Schaden. Ein Ziel mit maximaler Gesundheit erleidet keinen Schaden durch den Zauber.</DefaultText>
+      <DefaultText>Die Haut von Feinden im Wirkungsbereich wird von Unmengen grabender Maden befallen, die &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit zufügen. Je mehr Wunden das Ziel erleidet, desto größer der Schaden. Ein Ziel mit maximaler &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit erleidet keinen Schaden durch den Zauber.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -360,8 +375,13 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>601</ID>
+      <DefaultText>Zerstört die Erinnerung eines Feindes mit berechneter &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit, wodurch er Verwirrt und Benommen wird, bevor es schnell auf andere Feinde überspringt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>603</ID>
-      <DefaultText>&lt;xg&gt;Verbrennt&lt;/xg&gt; alle ätherische Kräfte, die Verstand, Körper und Seele des feindlichen Ziels zusammenhalten, wodurch es schnell &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden erleidet. Zielen, deren Gesundheit auf 0 fällt, wird jegliche Existenz entzogen.</DefaultText>
+      <DefaultText>&lt;xg&gt;Verbrennt&lt;/xg&gt; alle ätherische Kräfte, die Verstand, Körper und Seele des feindlichen Ziels zusammenhalten, wodurch es schnell &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden erleidet. Zielen, deren &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit auf 0 fällt, wird jegliche Existenz entzogen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -381,7 +401,7 @@
     </Entry>
     <Entry>
       <ID>646</ID>
-      <DefaultText>Zerreißt die Lebenskraft aller Feinde im Wirkungsbereich und fügt &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden zu. Wenn wenigstens ein Feind betroffen ist, kann der Sänger auch ein wenig Gesundheit wiederherstellen.</DefaultText>
+      <DefaultText>Zerreißt die Lebenskraft aller Feinde im Wirkungsbereich und fügt &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden zu. Wenn wenigstens ein Feind betroffen ist, kann der Sänger auch ein wenig &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit wiederherstellen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -451,7 +471,7 @@
     </Entry>
     <Entry>
       <ID>826</ID>
-      <DefaultText>Die Nahkampfwaffe des Zauberwirkers wird zu einem idealen Jagdinstrument, durch das seine Angriffe kontinuierlichen &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden verursachen und die Gesundheit des Zauberwirkers mit jedem Schlag wiederhergestellt wird.</DefaultText>
+      <DefaultText>Die Nahkampfwaffe des Zauberwirkers wird zu einem idealen Jagdinstrument, durch das seine Angriffe kontinuierlichen &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden verursachen und die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit des Zauberwirkers mit jedem Schlag wiederhergestellt wird.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -531,7 +551,7 @@
     </Entry>
     <Entry>
       <ID>859</ID>
-      <DefaultText>Der Zauberwirker opfert vorübergehend arkane Kraft für Kampfkraft. Der Zauberer erhält einen Bonus auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und Genauigkeit, sowie die Inspirationen Stark, Fit und Schnell, kann jedoch für die Dauer des Zaubers keine Sprüche wirken.</DefaultText>
+      <DefaultText>Der Zauberwirker opfert vorübergehend arkane Kraft für Kampfkraft. Der Zauberer erhält einen Bonus auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit, sowie die Inspirationen Stark, Fit und Schnell, kann jedoch für die Dauer des Zaubers keine Sprüche wirken.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -546,7 +566,7 @@
     </Entry>
     <Entry>
       <ID>863</ID>
-      <DefaultText>(Berserker) – Gewährt die Inspirationen Hartnäckig und Zäh anstatt Fit und Stark. Verschaffe ihm während des Zustands der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen. Jedoch ist der Barabar während der Raserei Verwirrt und kann seine eigene Gesundheit nicht sehen und erleidet fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden.</DefaultText>
+      <DefaultText>(Berserker) – Gewährt die Inspirationen Hartnäckig und Zäh anstatt Fit und Stark. Verschaffe ihm während des Zustands der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen. Jedoch ist der Barabar während der Raserei Verwirrt und kann seine eigene &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit nicht sehen und erleidet fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -556,12 +576,12 @@
     </Entry>
     <Entry>
       <ID>884</ID>
-      <DefaultText>(Haltung: Eroberer) – Wenn der Kämpfer nicht mehr als verletzt ist, erhöht sich sein Genauigkeitsbonus. Ist er Schwer verletzt oder noch schlimmer, dann erhöht sich sein &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;bonus.</DefaultText>
+      <DefaultText>(Haltung: Eroberer) – Wenn der Kämpfer nicht mehr als verletzt ist, erhöht sich sein &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeitsbonus. Ist er Schwer verletzt oder noch schlimmer, dann erhöht sich sein &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;bonus.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>887</ID>
-      <DefaultText>Mönche erreichen durch das Erdulden der Härten des Lebens ein größeres Verständnis für die Fähigkeiten ihres Körpers. Die Fäuste und Füße eines Mönches verfügen über Schadenskraft, Genauigkeit und &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft, die weit höher sind als die anderer Charaktere und sich mit steigender Kraftstufe ständig weiter erhöhen.</DefaultText>
+      <DefaultText>Mönche erreichen durch das Erdulden der Härten des Lebens ein größeres Verständnis für die Fähigkeiten ihres Körpers. Die Fäuste und Füße eines Mönches verfügen über Schadenskraft, &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft, die weit höher sind als die anderer Charaktere und sich mit steigender Kraftstufe ständig weiter erhöhen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -665,6 +685,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1212</ID>
+      <DefaultText>Mit einer Berührung der Hände erfüllt der Paladin sich selbst oder einen Verbündeten mit Licht. Dadurch wird in hohem Umfang die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit wiederhergestellt und die Inspiration Mutig gewährt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1259</ID>
       <DefaultText>Erhöht die &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;-Verteidigung des Charakters.</DefaultText>
       <FemaleText />
@@ -716,7 +741,12 @@
     </Entry>
     <Entry>
       <ID>1468</ID>
-      <DefaultText>Der Paladin konzentriert seinen Glauben und geht in blauen Flammen auf. Jedes Mal, wenn die Fähigkeit pulsiert, erleidet der Gegner in der unmittelbaren Umgebung &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden, während dem Paladin ein Teil seiner gesamten Gesundheit als &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Schaden zugefügt wird. (Dieser Schaden kann den Paladin töten)</DefaultText>
+      <DefaultText>Der Paladin konzentriert seinen Glauben und geht in blauen Flammen auf. Jedes Mal, wenn die Fähigkeit pulsiert, erleidet der Gegner in der unmittelbaren Umgebung &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden, während dem Paladin ein Teil seiner gesamten &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit als &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Schaden zugefügt wird. (Dieser Schaden kann den Paladin töten)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1470</ID>
+      <DefaultText>Der Priester wird von einer göttlichen &lt;xg&gt;Macht&lt;/xg&gt; erfüllt und beginnt, auf übernatürliche Weise zu strahlen. Als niederer Avatar seiner Gottheit erhält er alle Inspirationen der Stufe 1: Stark, Schnell, Fit, Einsichtig, Standhaft, Klug sowie einen Bonus auf die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit und den Waffenschaden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -751,7 +781,7 @@
     </Entry>
     <Entry>
       <ID>1572</ID>
-      <DefaultText>Concelhauts Variante von Minolettas kleinen Fluggeschossen verursacht &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden, greift die &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt; des Ziels an und verleiht dem Wirker vom Ziel entzogene Gesundheit.</DefaultText>
+      <DefaultText>Concelhauts Variante von Minolettas kleinen Fluggeschossen verursacht &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden, greift die &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt; des Ziels an und verleiht dem Wirker vom Ziel entzogene &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -772,6 +802,11 @@
     <Entry>
       <ID>1723</ID>
       <DefaultText>Der Zauberer beschwört das Siegel der legendären vailianischen Zauberin Minoletta. Wenn er im Nahkampf getroffen wird, rächt sich das Siegel mit &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden, wirft das Ziel zurück und hinterlässt es Betäubt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1730</ID>
+      <DefaultText>Der Sänger erschafft zwei reflektierende Strahlen aus purem Licht. Verbündete, die von ihnen berührt werden, regenerieren &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit und erhalten Immunität gegen Entschlossenheitswirkungen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -908,7 +943,7 @@
       <ID>1990</ID>
       <DefaultText>Gewährt drei sich gegenseitig ausschließende Auren:
 
-&lt;xg&gt;Fokus&lt;/xg&gt; – Gewährt Genauigkeit
+&lt;xg&gt;Fokus&lt;/xg&gt; – Gewährt &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit
 Ansturm – Gewährt Vorwärtskommen
 Ausdauer – Gewährt &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert</DefaultText>
       <FemaleText />
@@ -977,9 +1012,14 @@ Gewährt während der Raserei eine wesentliche Verwandlung von Treffern in kriti
 &lt;b&gt;Abzug&lt;/b&gt;
 Während Raserei ist man Verwirrt.
 
-Während der Raserei kann die Gesundheit nicht gesehen werden.
+Während der Raserei kann die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit nicht gesehen werden.
 
 Während der Raserei wird fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Schaden erlitten.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2225</ID>
+      <DefaultText>Mit einer Berührung der Hände stellt der Paladin in hohem Umfang die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit wieder her und wendet die Inspiration Robust bei sich selbst oder einem Verbündeten in Reichweite an.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1044,7 +1084,7 @@ Erhöhte &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft
 Erhöhter Schaden bei Kritischen Treffern mit der auserwählten Waffe.
 
 &lt;b&gt;Abzug&lt;/b&gt;
-Verminderte Genauigkeit bei der Verwendung anderer als der auserwählten Waffe.
+Verminderte &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit bei der Verwendung anderer als der auserwählten Waffe.
 
 Erhält nur einen einzigen Schwerpunkt und keine neuen beim Stufenaufstieg.</DefaultText>
       <FemaleText />
@@ -1090,7 +1130,7 @@ Der Verfolger und sein Gefährte erleiden Verbundene Trauer, wenn sie mehr als 7
     <Entry>
       <ID>2305</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-Sichere dir den Status des passiven „Meuchelmordes“. Dieser gewährt für Angriffe aus der Heimlichkeit heraus einen Bonus auf &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft, Genauigkeit und Schaden bei einem kritischen Treffer.
+Sichere dir den Status des passiven „Meuchelmordes“. Dieser gewährt für Angriffe aus der Heimlichkeit heraus einen Bonus auf &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft, &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und Schaden bei einem kritischen Treffer.
 
 &lt;b&gt;Abzug&lt;/b&gt;
 Jeder erhaltene Schaden wird erhöht.</DefaultText>
@@ -1158,7 +1198,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>2574</ID>
-      <DefaultText>Der Kämpfer verfolgt eine ausgewogene Strategie, die für den Kampf Mann gegen Mann mit einem einzelnen Gegner geeignet ist. In dieser Haltung erhält der Kämpfer verbesserte Genauigkeit und &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
+      <DefaultText>Der Kämpfer verfolgt eine ausgewogene Strategie, die für den Kampf Mann gegen Mann mit einem einzelnen Gegner geeignet ist. In dieser Haltung erhält der Kämpfer verbesserte &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1208,7 +1248,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>2639</ID>
-      <DefaultText>Effekte von Zaubersprüchen des Mediums, die gegen den &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Willen&lt;/color&gt; der Gegner gerichtet sind, erhalten einen Genauigkeitsbonus.</DefaultText>
+      <DefaultText>Effekte von Zaubersprüchen des Mediums, die gegen den &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Willen&lt;/color&gt; der Gegner gerichtet sind, erhalten einen &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeitsbonus.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1397,6 +1437,11 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3207</ID>
+      <DefaultText>Solange der Flammennāga-Schlüpfling dir folgt, verschafft dir das einen Bonus für Brandrüstung und jeder in deiner Gruppe erhält einen Bonus für die &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit bei Feuerangriffen.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3252</ID>
       <DefaultText>Verschaffe den magischen Geschossen des arkanen Zerstörers eine Superladung. Dadurch verursacht jeder Schuss zusätzlichen &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wucht-/&lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden. Dies geht auf Kosten der Geschwindigkeit beim Nachladen. Zusätzliche Zauber können zusätzliche Wirkungen hervorrufen.</DefaultText>
       <FemaleText />
@@ -1498,7 +1543,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>3749</ID>
-      <DefaultText>Scharfschützen konzentrieren sich einzig und allein auf den Fernkampf und verlassen sich für die Verteidigung auf ihre Tierischen Gefährten. Ihre &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft und Genauigkeit mit Fernkampfwaffen sind überlegen, aber sie brauchen mehr Zeit, sich nach einem Angriff zu erholen und haben schlechte &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
+      <DefaultText>Scharfschützen konzentrieren sich einzig und allein auf den Fernkampf und verlassen sich für die Verteidigung auf ihre Tierischen Gefährten. Ihre &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft und &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit mit Fernkampfwaffen sind überlegen, aber sie brauchen mehr Zeit, sich nach einem Angriff zu erholen und haben schlechte &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1562,6 +1607,11 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3899</ID>
+      <DefaultText>Während Algol dir folgt, klingen jegliche Verfassungswirkungen auf dir schneller ab und deine Gruppenmitglieder erhalten etwas &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit, wenn sie einen Gegner töten.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3903</ID>
       <DefaultText>Während Chili dir folgt, erhältst du einen Bonus auf Entschlossenheit und deine Gruppenmitglieder erhalten einen Bonus auf &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;.</DefaultText>
       <FemaleText />
@@ -1593,7 +1643,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>3962</ID>
-      <DefaultText>Während der Flugdrachenlindwurm dir folgt, verursachst du mehr Schaden mit Fernkampfwaffenangriffen und deine Gruppenmitglieder erhalten erhöhte Genauigkeit, &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; gegen entfernte Ziele.</DefaultText>
+      <DefaultText>Während der Flugdrachenlindwurm dir folgt, verursachst du mehr Schaden mit Fernkampfwaffenangriffen und deine Gruppenmitglieder erhalten erhöhte &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit, &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; gegen entfernte Ziele.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1618,7 +1668,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>4102</ID>
-      <DefaultText>Während Socrates dir folgt, erhältst du etwas Gesundheit, wenn du den Todesstoß gegen einen Gegner erzielst und deine Gruppenmitglieder erhalten einen Bonus auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; gegen Nahkampfangriffe.</DefaultText>
+      <DefaultText>Während Socrates dir folgt, erhältst du etwas &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit, wenn du den Todesstoß gegen einen Gegner erzielst und deine Gruppenmitglieder erhalten einen Bonus auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; gegen Nahkampfangriffe.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1648,7 +1698,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>4155</ID>
-      <DefaultText>Eine Aura, die &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit an nahen Gegnern in Abhängigkeit von ihrer verbleibenden Gesundheit verursacht und ihren &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert senkt. (Vollständiger Schadenswert für die Ziele, die dem Tod am nächsten sind)</DefaultText>
+      <DefaultText>Eine Aura, die &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit an nahen Gegnern in Abhängigkeit von ihrer verbleibenden &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit verursacht und ihren &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert senkt. (Vollständiger Schadenswert für die Ziele, die dem Tod am nächsten sind)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1668,7 +1718,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>4338</ID>
-      <DefaultText>Feuert einen Pfeil auf einen Verbündeten ab. Der Träger erleidet &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden, während das Ziel Gesundheit erhält. Die erhaltene Gesundheit wird durch die Fertigkeit Religion des Trägers erhöht.</DefaultText>
+      <DefaultText>Feuert einen Pfeil auf einen Verbündeten ab. Der Träger erleidet &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden, während das Ziel &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit erhält. Die erhaltene &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit wird durch die Fertigkeit Religion des Trägers erhöht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1733,7 +1783,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>4412</ID>
-      <DefaultText>Erzeugt ein Feld aus heiliger Energie um den Wirker, das an Gefäßen in der Nähe &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden verursacht und sie Verängstigt. Darüber hinaus stellt es bei Verbündeten eine große Menge Gesundheit wieder her.</DefaultText>
+      <DefaultText>Erzeugt ein Feld aus heiliger Energie um den Wirker, das an Gefäßen in der Nähe &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden verursacht und sie Verängstigt. Darüber hinaus stellt es bei Verbündeten eine große Menge &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit wieder her.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1763,7 +1813,7 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>4452</ID>
-      <DefaultText>Gewährt skalierende Effizienz mit unbewaffneten Angriffen. Obwohl die unbewaffneten Angriffe nicht so effektiv sein werden die eines Mönchs, profitieren sie von erhöhter Genauigkeit und &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft sowie von erhöhtem Schaden, wenn du eine neue Stufe erreichst.</DefaultText>
+      <DefaultText>Gewährt skalierende Effizienz mit unbewaffneten Angriffen. Obwohl die unbewaffneten Angriffe nicht so effektiv sein werden die eines Mönchs, profitieren sie von erhöhter &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft sowie von erhöhtem Schaden, wenn du eine neue Stufe erreichst.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1783,17 +1833,22 @@ Jeder erhaltene Schaden wird erhöht.</DefaultText>
     </Entry>
     <Entry>
       <ID>4559</ID>
-      <DefaultText>Gewährt sich erhöhende &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;, wohingegen Gesundheit verloren wird. Träger können sich nicht bewegen, wenn sie Dem Tode nahe sind.</DefaultText>
+      <DefaultText>Gewährt sich erhöhende &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;, wohingegen &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit verloren wird. Träger können sich nicht bewegen, wenn sie Dem Tode nahe sind.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4561</ID>
-      <DefaultText>Gewährt einen Bonus auf den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert und die Gesundheitsregeneration wenn Dem Tode nah.</DefaultText>
+      <DefaultText>Gewährt einen Bonus auf den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert und die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheitsregeneration wenn Dem Tode nah.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4578</ID>
       <DefaultText>Wenn von jemandem in einen Kampf verwickelt, erhält man jeweils einen Bonus für Schaden und &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4588</ID>
+      <DefaultText>Erschafft eine Quelle mit lebensspendendem Wasser, stellt &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit wieder her und gewährt Verbündeten in dem Gebiet die Inspiration Stark.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
