@@ -11,12 +11,12 @@
     </Entry>
     <Entry>
       <ID>368</ID>
-      <DefaultText>{0}% Gesundheit, {1} &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;</DefaultText>
+      <DefaultText>{0}% &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit, {1} &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>370</ID>
-      <DefaultText>{0} Genauigkeit und {1} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;</DefaultText>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und {1} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -71,7 +71,7 @@
     </Entry>
     <Entry>
       <ID>473</ID>
-      <DefaultText>Verfassung beeinflusst Gesundheit und die &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeitsverteidigung&lt;/color&gt;. Sie repräsentiert eine Kombination der gesamten Gesundheit und der Ausdauer eines Charakters.
+      <DefaultText>Verfassung beeinflusst &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit und die &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeitsverteidigung&lt;/color&gt;. Sie repräsentiert eine Kombination der gesamten &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit und der Ausdauer eines Charakters.
 
  5 – Zerbrechlich
 10 – Durchschnittlich
@@ -81,7 +81,7 @@
     </Entry>
     <Entry>
       <ID>474</ID>
-      <DefaultText>Die Wahrnehmung trägt zur Genauigkeit und der &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexverteidigung&lt;/color&gt; bei. &lt;g&gt;Wahrnehmung&lt;/g&gt; repräsentiert die Sinne eines Charakters wie auch seine instinktive Fähigkeit, Details zu erkennen, wie zum Beispiel das Aufspüren von Fallen oder versteckten Objekten.
+      <DefaultText>Die Wahrnehmung trägt zur &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und der &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexverteidigung&lt;/color&gt; bei. &lt;g&gt;Wahrnehmung&lt;/g&gt; repräsentiert die Sinne eines Charakters wie auch seine instinktive Fähigkeit, Details zu erkennen, wie zum Beispiel das Aufspüren von Fallen oder versteckten Objekten.
 
  5 – Nichts wahrnehmend
 10 – Durchschnittlich
@@ -96,7 +96,7 @@
     </Entry>
     <Entry>
       <ID>1169</ID>
-      <DefaultText>{0} Genauigkeit, &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; gegen entfernte Feinde</DefaultText>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit, &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; gegen entfernte Feinde</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -154,7 +154,7 @@ Gewährt während der Raserei eine wesentliche Verwandlung von Treffern in kriti
 &lt;b&gt;Abzug&lt;/b&gt;
 Während Raserei ist man Verwirrt.
 
-Während der Raserei kann die Gesundheit nicht gesehen werden.
+Während der Raserei kann die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit nicht gesehen werden.
 
 Während der Raserei wird fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Schaden erlitten.</DefaultText>
       <FemaleText />
@@ -206,7 +206,7 @@ Erhöhte &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft
 Erhöhter Schaden bei Kritischen Treffern mit der auserwählten Waffe.
 
 &lt;b&gt;Abzug&lt;/b&gt;
-Verminderte Genauigkeit bei der Verwendung anderer als der auserwählten Waffe.
+Verminderte &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit bei der Verwendung anderer als der auserwählten Waffe.
 
 Erhält nur einen einzigen Schwerpunkt und keine neuen beim Stufenaufstieg.</DefaultText>
       <FemaleText />
@@ -267,7 +267,7 @@ Der Verfolger und sein Gefährte erleiden Verbundene Trauer, wenn sie mehr als 7
     <Entry>
       <ID>2853</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-Sichere dir den Status des passiven „Meuchelmordes“. Dieser gewährt für Angriffe aus der Heimlichkeit heraus einen Bonus auf &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft, Genauigkeit und Schaden bei einem kritischen Treffer.
+Sichere dir den Status des passiven „Meuchelmordes“. Dieser gewährt für Angriffe aus der Heimlichkeit heraus einen Bonus auf &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft, &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und Schaden bei einem kritischen Treffer.
 
 &lt;b&gt;Abzug&lt;/b&gt;
 Jeder erhaltene Schaden wird erhöht.</DefaultText>

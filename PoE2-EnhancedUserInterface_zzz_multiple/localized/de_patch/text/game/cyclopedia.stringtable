@@ -10,6 +10,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>94</ID>
+      <DefaultText>Wahrnehmungswirkung: &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Geblendete &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; Charaktere leiden unter -5 Wahrnehmung, gelten als Flankiert, erhalten +50 % Erholung, -10 &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und die Reichweite aller Fernkampfattacken wird halbiert. &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Geblendete &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; Charaktere können keine Blick-Angriffe nutzen oder von ihnen beeinflusst werden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>100</ID>
       <DefaultText>Machtwirkung: &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Benommene &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; Charaktere erhalten -5 Macht, -4 &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft und können nicht angreifen</DefaultText>
       <FemaleText />
@@ -52,7 +57,7 @@ Wenn beispielsweise ein Zauber +3 auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="c
     </Entry>
     <Entry>
       <ID>723</ID>
-      <DefaultText>Verfassungsinspiration: &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robuste &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; Charaktere verfügen über +5 Verfassung, erhalten +2 &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert und stellen regelmäßig Gesundheit wieder her.</DefaultText>
+      <DefaultText>Verfassungsinspiration: &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robuste &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; Charaktere verfügen über +5 Verfassung, erhalten +2 &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert und stellen regelmäßig &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit wieder her.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

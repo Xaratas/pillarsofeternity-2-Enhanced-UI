@@ -15,6 +15,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>279</ID>
+      <DefaultText>Der Zauberwirker nutzt seine Lebenskraft, um die Inspiration &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Schwungvoll &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; und Aktionsgeschwindigkeit zu erwerben auf Kosten seiner eigenen &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit, die stetig abnimmt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>282</ID>
       <DefaultText>Speit eine giftige Wolke aus ranziger Fäule hervor, die &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden verursacht und ihre Opfer &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;erkranken &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; läßt.</DefaultText>
       <FemaleText />
@@ -26,7 +31,12 @@
     </Entry>
     <Entry>
       <ID>303</ID>
-      <DefaultText>Erzeugt um den Priester herum ein Feld heiliger Energie, das jedem Gefäß in der Nähe &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügt und &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Erschüttert &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, während es eine bescheidene Menge der Gesundheit von Verbündeten regeneriert. Die Stärke des Heiligen Glanzes eines Priesters wird modifiziert, abhängig davon, wie gut sein Ruf mit dem bevorzugten Verhalten seines Glaubens im Einklang steht.</DefaultText>
+      <DefaultText>Erzeugt um den Priester herum ein Feld heiliger Energie, das jedem Gefäß in der Nähe &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügt und &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Erschüttert &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, während es eine bescheidene Menge der &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit von Verbündeten regeneriert. Die Stärke des Heiligen Glanzes eines Priesters wird modifiziert, abhängig davon, wie gut sein Ruf mit dem bevorzugten Verhalten seines Glaubens im Einklang steht.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>305</ID>
+      <DefaultText>Paladine können einem besinnungslosen Verbündeten befehlen wieder aufzustehen und verleihen ihm dabei die Inspiration &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;. Allerdings verliert der Verbündete nach kurzer Zeit die Hälfte der wiedergewonnenen &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -42,6 +52,11 @@
     <Entry>
       <ID>481</ID>
       <DefaultText>Setzt ein magisches Siegel auf den Boden, das in Flammen aufgeht, sobald es von einem Feind berührt wird, wodurch dieser &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Geblendet &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; wird und &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden erleidet.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>483</ID>
+      <DefaultText>Gewährt Verbündeten die Inbrunst des Rechtschaffenden im Kampf, wodurch sie die Inspiration &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; erhalten. Wenn ein Verbündeter im Wirkungsbereich einen tödlichen Schlag ausführt, erhält er dafür &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -67,6 +82,11 @@
     <Entry>
       <ID>589</ID>
       <DefaultText>Erzeugt ein psychisches Heulen im Zielbereich, durch das das Ziel &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; wird und alle Feinde im Zielbereich &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden erleiden sowie unterbrochen werden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>601</ID>
+      <DefaultText>Zerstört die Erinnerung eines Feindes mit berechneter &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit, wodurch er &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Benommen &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; wird, bevor es schnell auf andere Feinde überspringt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -106,7 +126,7 @@
     </Entry>
     <Entry>
       <ID>859</ID>
-      <DefaultText>Der Zauberwirker opfert vorübergehend arkane Kraft für Kampfkraft. Der Zauberer erhält einen Bonus auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und Genauigkeit, sowie die Inspirationen &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Schnell &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, kann jedoch für die Dauer des Zaubers keine Sprüche wirken.</DefaultText>
+      <DefaultText>Der Zauberwirker opfert vorübergehend arkane Kraft für Kampfkraft. Der Zauberer erhält einen Bonus auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit, sowie die Inspirationen &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Schnell &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, kann jedoch für die Dauer des Zaubers keine Sprüche wirken.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -116,12 +136,17 @@
     </Entry>
     <Entry>
       <ID>863</ID>
-      <DefaultText>(Berserker) – Gewährt die Inspirationen &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Hartnäckig &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; anstatt &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;. Verschaffe ihm während des Zustands der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen. Jedoch ist der Barabar während der Raserei &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; und kann seine eigene Gesundheit nicht sehen und erleidet fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden.</DefaultText>
+      <DefaultText>(Berserker) – Gewährt die Inspirationen &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Hartnäckig &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; anstatt &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;. Verschaffe ihm während des Zustands der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen. Jedoch ist der Barabar während der Raserei &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; und kann seine eigene &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit nicht sehen und erleidet fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>892</ID>
       <DefaultText>Diese Fähigkeit nutzt das von allen Lebewesen geteilte, universelle Leiden. Das Ziel wird mit einem mächtigen Schlag getroffen. Feinde in einem kegelförmigen Wirkungsbereich hinter dem Ziel erleiden &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden und geraten ins &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Taumeln &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1212</ID>
+      <DefaultText>Mit einer Berührung der Hände erfüllt der Paladin sich selbst oder einen Verbündeten mit Licht. Dadurch wird in hohem Umfang die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit wiederhergestellt und die Inspiration &lt;link="gamedata://dc62af47-239f-4ee4-8d91-a5e8b3b97564"&gt;&lt;#30d3d5&gt;Mutig &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; gewährt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -140,6 +165,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1470</ID>
+      <DefaultText>Der Priester wird von einer göttlichen &lt;xg&gt;Macht&lt;/xg&gt; erfüllt und beginnt, auf übernatürliche Weise zu strahlen. Als niederer Avatar seiner Gottheit erhält er alle Inspirationen der Stufe 1: &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Schnell &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Einsichtig &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Standhaft &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Klug &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; sowie einen Bonus auf die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit und den Waffenschaden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1477</ID>
       <DefaultText>Dieser Zauber beschwört einen mächtigen Kampfstab, der &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; hinzufügt und Feinde bei jedem erfolgreichen Angriff mit einem &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpelnd &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;-Effekt wegstößt. Die Beschwörung selbst stößt ebenfalls jeden (auch Verbündete) aus der Nähe des Zauberwirkers fort.</DefaultText>
       <FemaleText />
@@ -152,6 +182,11 @@
     <Entry>
       <ID>1723</ID>
       <DefaultText>Der Zauberer beschwört das Siegel der legendären vailianischen Zauberin Minoletta. Wenn er im Nahkampf getroffen wird, rächt sich das Siegel mit &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden, wirft das Ziel zurück und hinterlässt es &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1730</ID>
+      <DefaultText>Der Sänger erschafft zwei reflektierende Strahlen aus purem Licht. Verbündete, die von ihnen berührt werden, regenerieren &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit und erhalten Immunität gegen &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Entschlossenheitswirkungen &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -218,9 +253,14 @@ Gewährt während der Raserei eine wesentliche Verwandlung von Treffern in kriti
 &lt;b&gt;Abzug&lt;/b&gt;
 Während Raserei ist man &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.
 
-Während der Raserei kann die Gesundheit nicht gesehen werden.
+Während der Raserei kann die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit nicht gesehen werden.
 
 Während der Raserei wird fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Schaden erlitten.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2225</ID>
+      <DefaultText>Mit einer Berührung der Hände stellt der Paladin in hohem Umfang die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit wieder her und wendet die Inspiration &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robust &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; bei sich selbst oder einem Verbündeten in Reichweite an.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -322,6 +362,11 @@ Die Flammen der Hingabe verursachen zusätzlichen &lt;sprite="Inline" name="cs_c
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3899</ID>
+      <DefaultText>Während Algol dir folgt, klingen jegliche &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Verfassungswirkungen &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; auf dir schneller ab und deine Gruppenmitglieder erhalten etwas &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit, wenn sie einen Gegner töten.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4382</ID>
       <DefaultText>Schwingt die Klinge in einem weiten Bogen, wodurch alle nahen Ziele &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hieb-/&lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden erleiden, zurückgeworfen und zum &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpeln &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; gebracht werden.</DefaultText>
       <FemaleText />
@@ -333,7 +378,12 @@ Die Flammen der Hingabe verursachen zusätzlichen &lt;sprite="Inline" name="cs_c
     </Entry>
     <Entry>
       <ID>4412</ID>
-      <DefaultText>Erzeugt ein Feld aus heiliger Energie um den Wirker, das an Gefäßen in der Nähe &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden verursacht und sie &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;. Darüber hinaus stellt es bei Verbündeten eine große Menge Gesundheit wieder her.</DefaultText>
+      <DefaultText>Erzeugt ein Feld aus heiliger Energie um den Wirker, das an Gefäßen in der Nähe &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden verursacht und sie &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Verängstigt &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;. Darüber hinaus stellt es bei Verbündeten eine große Menge &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit wieder her.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4588</ID>
+      <DefaultText>Erschafft eine Quelle mit lebensspendendem Wasser, stellt &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit wieder her und gewährt Verbündeten in dem Gebiet die Inspiration &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

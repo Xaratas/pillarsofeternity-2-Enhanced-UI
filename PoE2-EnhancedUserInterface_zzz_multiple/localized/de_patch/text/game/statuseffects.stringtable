@@ -20,8 +20,18 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>280</ID>
+      <DefaultText>{0:value} alle Verteidigungen gegen &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheitswirkung &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;s-Angriffe, solange die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit über 75 % liegt</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>284</ID>
       <DefaultText>Chance, dass das Ziel bei einem kritischen Treffer für 12,0 Sekunden &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;erkrankt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;. &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt; wirkt dem entgegen.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>401</ID>
+      <DefaultText>Immun gegen &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Entschlossenheitswirkungen &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; wenn unter {0:extravalue:percent} &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

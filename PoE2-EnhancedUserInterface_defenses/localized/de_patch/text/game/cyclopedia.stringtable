@@ -5,6 +5,12 @@
   <EntryCount>886</EntryCount>
   <Entries>
     <Entry>
+      <ID>84</ID>
+      <DefaultText>Die &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit spielt bei fast jedem Angriff eine Rolle. Sie beeinflusst, wie wahrscheinlich es ist, dass der Angriff eine Wirkung auf das Ziel hat. &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit wird hauptsächlich durch die Klasse und die Stufe eines Charakters festgelegt, wird aber auch durch die Wahrnehmung, durch Talente und durch andere aktive Effekte wie Zauber oder Gegenstände beeinflusst. Wird ein Angriff unternommen, wird die &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit mit der jeweiligen Verteidigung des Ziels verglichen, um festzustellen, wie der Angriffswurf modifiziert wird. Liegt die &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit über der Verteidigung des Ziels, erhöht sich die Wahrscheinlichkeit eines Treffers oder kritischen Treffers und die Wahrscheinlichkeit eines leichten Treffers oder Fehlschlags sinkt.
+Fähigkeiten oder Talente, die keine Waffen als Teil des Angriffs einsetzen, werden mit einem kleinen &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeitsbonus verstärkt, der auf der Stufe des Charakters basiert.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>86</ID>
       <DefaultText>&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; ist die Verteidigung, die genutzt wird, um direkten Nahkampf- und Fernkampfangriffen gegen den Charakter zu widerstehen, die keine Wirkungsbereichangriffe sind. Die &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; wird durch die Klasse, die Stufe und die Entschlossenheit des Charakters festgelegt, kann aber auch durch Schilde, bestimmte Waffen, Talente und andere Effekte von Zaubern oder Gegenständen beeinflusst werden.</DefaultText>
       <FemaleText />
@@ -23,6 +29,11 @@
     <Entry>
       <ID>92</ID>
       <DefaultText>Die &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;-Verteidigung widersetzt sich mentalen Angriffen (z.B. einem Zauber, der das Ziel mental lähmt). Sie wird durch die Klasse des Charakters, seine Stufe, seinen Intellekt und seine Entschlossenheit definiert, kann aber auch durch andere Effekte beeinflusst werden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>94</ID>
+      <DefaultText>Wahrnehmungswirkung: Geblendete Charaktere leiden unter -5 Wahrnehmung, gelten als Flankiert, erhalten +50 % Erholung, -10 &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und die Reichweite aller Fernkampfattacken wird halbiert. Geblendete Charaktere können keine Blick-Angriffe nutzen oder von ihnen beeinflusst werden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -69,11 +80,11 @@
     </Entry>
     <Entry>
       <ID>154</ID>
-      <DefaultText>Alle Angriffe in Pillars of Eternity vergleichen den Genauigkeitswert des Angreifers mit einer von vier Verteidigungen des Ziels: &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; (direkte Nah– und Fernkampfangriffe), &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt; (Angriffe gegen das Immunsystem wie Gift oder Krankheit), &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; (Wirkungsbereichangriffe) und &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt; (mentale Angriffe). 
+      <DefaultText>Alle Angriffe in Pillars of Eternity vergleichen den &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeitswert des Angreifers mit einer von vier Verteidigungen des Ziels: &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; (direkte Nah– und Fernkampfangriffe), &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt; (Angriffe gegen das Immunsystem wie Gift oder Krankheit), &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; (Wirkungsbereichangriffe) und &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt; (mentale Angriffe). 
 
-Es wird eine Zahl zwischen 1 und 100 generiert und zu der Differenz zwischen Genauigkeit und Verteidigung addiert, um das Ergebnis des Angriffs zu berechnen. Bis 15 = Fehlschlag, 16 – 50 = leichter Treffer, 51-100 = Treffer, ab 100 = Kritischer Treffer. 
+Es wird eine Zahl zwischen 1 und 100 generiert und zu der Differenz zwischen &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und Verteidigung addiert, um das Ergebnis des Angriffs zu berechnen. Bis 15 = Fehlschlag, 16 – 50 = leichter Treffer, 51-100 = Treffer, ab 100 = Kritischer Treffer. 
 
-In einem ausgeglichenen Angriff-/Verteidigung-Szenario werden die meisten Angriffe Treffer oder leichte Treffer sein. Wenn die Genauigkeit über der Verteidigung liegt, ist die Wahrscheinlichkeit von Kritischen Treffern höher. Wenn die Verteidigung über der Genauigkeit liegt, ist die Wahrscheinlichkeit von Fehlschlägen höher.</DefaultText>
+In einem ausgeglichenen Angriff-/Verteidigung-Szenario werden die meisten Angriffe Treffer oder leichte Treffer sein. Wenn die &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit über der Verteidigung liegt, ist die Wahrscheinlichkeit von Kritischen Treffern höher. Wenn die Verteidigung über der &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit liegt, ist die Wahrscheinlichkeit von Fehlschlägen höher.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -93,16 +104,16 @@ Hinweis: Viele Rüstungen und viele Kreaturen besitzen unterschiedliche Schadens
     </Entry>
     <Entry>
       <ID>162</ID>
-      <DefaultText>Die Gesundheit steht für die kurzfristige Überlebensfähigkeit eines Charakters.
+      <DefaultText>Die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit steht für die kurzfristige Überlebensfähigkeit eines Charakters.
 
-Schaden, der nicht durch den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert eines Charakters absorbiert wird, trifft direkt seine Gesundheit. Tränke und Heilmagie (zum Beispiel von einem Paladin, Priester oder Druiden) können die Gesundheit im Kampf regenerieren. Wenn die Gesundheit eines Charakters auf 0 sinkt, wird er bewusstlos. Ein bewusstloser Charakter kann durch eine Wiederbeleben-Fähigkeit wieder zurück in den Kampf geholt werden. Andernfalls erhält der Charakter am Ende des Kampfes seine gesamte Gesundheit zurück (wenn er zur siegreichen Partei gehört).</DefaultText>
+Schaden, der nicht durch den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert eines Charakters absorbiert wird, trifft direkt seine &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit. Tränke und Heilmagie (zum Beispiel von einem Paladin, Priester oder Druiden) können die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit im Kampf regenerieren. Wenn die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit eines Charakters auf 0 sinkt, wird er bewusstlos. Ein bewusstloser Charakter kann durch eine Wiederbeleben-Fähigkeit wieder zurück in den Kampf geholt werden. Andernfalls erhält der Charakter am Ende des Kampfes seine gesamte &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit zurück (wenn er zur siegreichen Partei gehört).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>180</ID>
       <DefaultText>Eine modale Fähigkeit löst einen Effekt aus, der ein- und ausgeschaltet werden oder in unterschiedliche &lt;i&gt;Modi&lt;/i&gt; umgeschaltet werden kann, um unterschiedliche Wirkungen zu erzeugen. Beispielsweise gewähren alle Waffengeschicke modale Fähigkeiten, die verfügbar sind, wenn die fähige Waffe oder das fähige Schild ausgerüstet sind. Ähnlich können die Eifrigen Auren eines Paladins als eine von drei verschiedenen Status eingestellt werden.
 
-Die modalen Fähigkeiten können an den taktischen Bedarf eines Kampfs angepasst werden. Wenn einem Charakter zum Beispiel die zusätzliche &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft aus einem Windmühlenhieb eines Säbels nicht hilft, sollte diese Fähigkeit ausgeschaltet werden, um die Erholungszeit eines Charakters zu verbessern. Ein Paladin möchte den Eifrigen Angriff vielleicht zu Schlachtbeginn verwenden, dann aber auf Eifrigen Fokus umschalten, um im Kampf bessere Genauigkeit zu erzielen.</DefaultText>
+Die modalen Fähigkeiten können an den taktischen Bedarf eines Kampfs angepasst werden. Wenn einem Charakter zum Beispiel die zusätzliche &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft aus einem Windmühlenhieb eines Säbels nicht hilft, sollte diese Fähigkeit ausgeschaltet werden, um die Erholungszeit eines Charakters zu verbessern. Ein Paladin möchte den Eifrigen Angriff vielleicht zu Schlachtbeginn verwenden, dann aber auf Eifrigen Fokus umschalten, um im Kampf bessere &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit zu erzielen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -148,7 +159,7 @@ Die &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft eine
     </Entry>
     <Entry>
       <ID>590</ID>
-      <DefaultText>Scharfschützen konzentrieren sich einzig und allein auf den Fernkampf und verlassen sich für die Verteidigung auf ihre Tierischen Gefährten. Ihre &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft und Genauigkeit mit Fernkampfwaffen sind überlegen, aber sie brauchen mehr Zeit, sich nach einem Angriff zu erholen und haben schlechte &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
+      <DefaultText>Scharfschützen konzentrieren sich einzig und allein auf den Fernkampf und verlassen sich für die Verteidigung auf ihre Tierischen Gefährten. Ihre &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft und &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit mit Fernkampfwaffen sind überlegen, aber sie brauchen mehr Zeit, sich nach einem Angriff zu erholen und haben schlechte &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -168,7 +179,7 @@ Die &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft eine
     </Entry>
     <Entry>
       <ID>723</ID>
-      <DefaultText>Verfassungsinspiration: Robuste Charaktere verfügen über +5 Verfassung, erhalten +2 &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert und stellen regelmäßig Gesundheit wieder her.</DefaultText>
+      <DefaultText>Verfassungsinspiration: Robuste Charaktere verfügen über +5 Verfassung, erhalten +2 &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert und stellen regelmäßig &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit wieder her.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
