@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\cyclopedia</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>3299</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>84</ID>
+      <DefaultText>La &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione incide su praticamente tutti gli attacchi e determina la probabilità che l'attacco colpisca il bersaglio. Dipende principalmente da classe e livello del personaggio, ma può essere influenzata da Percezione, Talenti e da altri effetti attivi, come oggetti o incantesimi. Quando viene sferrato un attacco, la &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione viene confrontata con la relativa difesa del bersaglio (&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; , &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tempra&lt;/color&gt; , &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Riflessi&lt;/color&gt; , o &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Volontà&lt;/color&gt; ) per determinare le modifiche al tiro d'attacco. Se la &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione è superiore alla difesa del bersaglio, sarà più facile ottenere un colpo a segno o Critico e meno probabile ottenere un colpo di striscio o a vuoto.
+	 Un'abilità o un talento che non utilizzano un'arma all'interno di un attacco ottengono un piccolo bonus &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione in funzione del livello del personaggio.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>86</ID>
+      <DefaultText>La &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; è la difesa usata per evitare gli attacchi in mischia e a distanza contro il personaggio che non effetuano attacchi ad Area d'Effetto (AE). Dipende da classe, livello e Risolutezza del personaggio, ma può essere influenzata dagli Scudi, da certe armi, dai Talenti e da altri effetti di oggetti o incantesimi.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88</ID>
+      <DefaultText>La &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tempra&lt;/color&gt; è la difesa contro gli attacchi all'organismo del personaggio (come Veleno, Malattia, ecc.). Dipende da classe del personaggio, livello, Vigore e Costituzione, ma è anche influenzata da altri effetti.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>90</ID>
+      <DefaultText>I &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Riflessi&lt;/color&gt; sono la difesa usata per evitare gli attacchi fisici ad Area d'Effetto (come esplosioni, saette, ecc). Dipendono da classe del personaggio, livello, Destrezza e Percezione, ma sono anche influenzati da altri effetti.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>92</ID>
+      <DefaultText>La &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Volontà&lt;/color&gt; è la difesa contro attacchi di tipo psichico (come gli incantesimi che paralizzano mentalmente il bersaglio). Dipende da classe del personaggio, livello, Acume e Risolutezza, ma è anche influenzata da altri effetti.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>94</ID>
+      <DefaultText>Alterazione della Percezione . I personaggi Accecati hanno -5 Percezione, vengono considerati Accerchiati, +50% Recupero, -10 &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione e la portata di tutti gli attacchi a distanza è dimezzata. I personaggi Accecati non possono usare o subire attacchi da Sguardo.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>100</ID>
+      <DefaultText>Alterazione del Vigore . Una vittima Disorientata ha -5 Vigore, non può ingaggiare alcun nemico e ha -4 &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>104</ID>
+      <DefaultText>&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; ridotta di 10.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>120</ID>
+      <DefaultText>Alterazione del Vigore . I personaggi Storditi non possono intraprendere alcuna azione, non possono ingaggiare, hanno una penalità a tutte le Difese, -4 &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione e -5 Vigore.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>130</ID>
+      <DefaultText>Il Polso slogato infligge una penalità alla &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>134</ID>
+      <DefaultText>Una Caviglia slogata riduce i &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Riflessi&lt;/color&gt; del personaggio.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>140</ID>
+      <DefaultText>Un tiro d'attacco da 100 in su infligge un colpo Critico. Un Critico che infligge danni aumenta il Danno totale del 25% e la &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione dell'attacco del %50%. Un Critico con effetti a durata (tipicamente Alterazioni come Nauseato o Paralizzato) aumenterà la durata del 25%.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>146</ID>
+      <DefaultText>Ci sono quattro difese in Pillars of Eternity: &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; , &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tempra&lt;/color&gt; , &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Riflessi&lt;/color&gt; e &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Volontà&lt;/color&gt; . Ciascuna difesa si oppone a una diversa categoria di attacchi nel tiro d'attacco. La &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; si oppone a gran parte degli attacchi diretti con armi o simili. La &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tempra&lt;/color&gt; si oppone ai tentativi fisici di avere la meglio sul bersaglio o agli attacchi all'organismo (per es. il veleno). I &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Riflessi&lt;/color&gt; si oppongono agli attacchi fisici ad Area d'Effetto come sfere di Fuoco e fulmini.
+
+La &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Volontà&lt;/color&gt; si oppone a praticamente tutti gli attacchi mentali. &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tempra&lt;/color&gt; , &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Riflessi&lt;/color&gt; e &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Volontà&lt;/color&gt; sono basati su coppie di attributi. Vigore e Costituzione determinano la &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tempra&lt;/color&gt; , Destrezza e Percezione determinano i &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Riflessi&lt;/color&gt; , Acume e Risolutezza determinano la &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Volontà&lt;/color&gt; . La &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; base è determinata dalla classe e dalla Risolutezza del personaggio. Tutti i personaggi ricevono bonus fissi alle difese a ciascun livello. Infine, le Difese del personaggio possono essere influenzate da incantesimi, abilità, alterazioni e oggetti.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>150</ID>
+      <DefaultText>Quando un personaggio ha un'abilità o talento passivo, il relativo bonus si applica automaticamente. Per esempio, un personaggio con &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Riflessi&lt;/color&gt; del serpente riceve automaticamente il bonus alla difesa &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Riflessi&lt;/color&gt; .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>154</ID>
+      <DefaultText>Tutti gli attacchi in Pillars of Eternity confrontano il valore di &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione dell'attaccante con una delle quattro difese: &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; (attacchi diretti in mischia o a distanza), &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tempra&lt;/color&gt; (attacchi all'organismo, come veleni e malattie), &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Riflessi&lt;/color&gt; (attacchi con Danno ad Area d'Effetto) e &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Volontà&lt;/color&gt; (attacchi mentali).
+
+Per decidere il risultato dell'attacco, viene generato un numero da 1 a 100 a cui si somma la differenza tra &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione e Difesa: minore o uguale a 15 = colpo a vuoto; 16-50 = colpo di striscio; 51-100 = colpo a segno; maggiore o uguale a 100 = colpo Critico.
+
+In una situazione in cui attacco e difesa sono equilibrati, gran parte degli attacchi porteranno a colpi a segno o colpi di striscio. Quando la &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione è superiore alla difesa si avranno più colpi critici. Quando la difesa è superiore alla &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione si avranno più colpi a vuoto.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>158</ID>
+      <DefaultText>Quando un attacco colpisce, il modo principale per mitigare il Danno: &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno .
+
+Il valore di &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno è dovuto per lo più all'armatura, ma molte creature hanno una SD naturale oppure possono aumentarla con la magia, le abilità, i talenti o altro equipaggiamento.
+
+Il valore di &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno viene confrontato con la &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione degli attacchi subiti per determinare l'efficacia complessiva dell'attacco. La Piena &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione (Danno 130%) si verifica quando la &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione è pari o superiore al doppio del valore nominale della &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno del bersaglio.
+
+La &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione Parziale (100% Danno) si verifica quando la &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione corrisponde o supera il valore nominale della &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno del bersaglio. La &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione Bassa (-25% di danni per punto sotto la &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno del bersaglio, Max -75%) si verifica quando la &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione è inferiore al valore nominale della &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno del bersaglio. Si noti che molti completi di armatura e molte creature offriranno diversi valori di &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno contro i diversi tipi di Danno. Le SD più basse proteggono meno da questo tipo di Danno, rendendo il bersaglio più vulnerabile agli attacchi di questo tipo.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>180</ID>
+      <DefaultText>Un'abilità modale è quella che può essere attivata o disattivata o impostata su diverse modalità per produrre effetti diversi. Per esempio, tutte le abilità di arma garantiscono abilità modali che sono disponibili quando l'arma o lo Scudo abile è equipaggiato. Similmente, le Auree solerti di un Paladino possono essere impostate su uno dei tre diversi stati. Le abilità modali devono essere cambiate in base alle necessità tattiche di un combattimento. Ad esempio, se un personaggio non beneficia della &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione aggiuntiva di &lt;sprite="Inline" name="cs_slash" tint=1&gt; Lacerazione del mulino a vento di una sciabola, dovrebbe essere disattivata per migliorare il Tempo di Recupero del personaggio. Un Paladino può desiderare di utilizzare Carica solerte all'inizio di una battaglia, ma passare a Sinergia solerte per ottenere maggiore &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione una volta che il combattimento è in corso.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>192</ID>
+      <DefaultText>Le difese secondarie vengono usate per gli attacchi in seconda fase, per esempio il veleno su un Pugnale. In questo esempio, il primo attacco (la coltellata) agisce contro una difesa (la &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; ) e l'attacco del Veleno viene verificato solo se il primo attacco va a segno. In quel caso, si controlla la difesa secondaria (nell'esempio, la &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tempra&lt;/color&gt; contro il Veleno) per determinare gli effetti. Se l'attacco iniziale va a vuoto, la difesa secondaria non viene controllata.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>194</ID>
+      <DefaultText>Ci sono otto tipi di Danno in Pillars of Eternity: &lt;sprite="Inline" name="cs_slash" tint=1&gt; Lacerazione , &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Perforazione , &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Impatto , &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione , &lt;sprite="Inline" name="cs_shock" tint=1&gt; Folgorazione , &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrosione , &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Congelamento e Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro . I tipi di Danno vengono usati per determinare con che facilità un bersaglio resiste a un dato tipo di Danno, grazie alla &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno . Una creatura o un'armatura può essere molto resistente a un tipo di Danno ma vulnerabile a un altro.
+
+Alcuni attacchi o armi possono infliggere più tipi di Danno o avere un elenco di alternative indicate con "o". In questo caso, l'attacco infliggerà sempre il tipo di Danno a cui il bersaglio è più vulnerabile. Il Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro è l'unico tipo di Danno che ignora tutte le riduzioni del Danno; tipicamente, è associato a veleni ed effetti simili.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>207</ID>
+      <DefaultText>Le regole di accumulo governano la somma di bonus e penalità. Per semplicità, il gioco distingue due categorie di fonti di bonus: passiva e attiva.
+
+La maggior parte dei bonus passivi viene da oggetti equipaggiati (armi e scudi compresi) e da abilità passive. Se un effetto non ha durata e non deve essere attivato o disattivato, generalmente viene considerato un bonus passivo. Tutti i bonus passivi si accumulano tra loro.
+
+I bonus attivi vengono da incantesimi, oggetti e abilità che necessitano di attivazione. Sono comprese le abilità modali che si attivano dalla barra delle azioni, come gli attacchi con armi modali, l'aura del Paladino e le posizioni del Guerriero. I bonus attivi usano il bonus più alto secondo la statistica ed eliminano tutti i bonus di valore uguale o inferiore.
+
+Per esempio, se l'incantesimo di un Mago conferisce +3 &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; e un'aura del Paladino conferisce +5, il bonus attivo più alto è +5, di conseguenza il bonus +3 viene eliminato. Se lo stesso incantesimo del Mago conferisse anche un bonus Destrezza, verrebbe applicato, a meno che non fosse superato anche da un bonus Destrezza superiore proveniente da un'altra fonte attiva/modale.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>324</ID>
+      <DefaultText>I personaggi K.O. non possono intraprendere alcuna azione. La loro Destrezza si riduce a 0.
+	 I loro 
+&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Riflessi&lt;/color&gt; e la loro &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; vengono ridotti di 40.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>453</ID>
+      <DefaultText>Quando un attacco che infligge danni colpisce un bersaglio, la &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione dell'attacco è messa a confronto con la &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno per determinare quanto Danno subisce.
+
+La &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione dipende dall'arma o dall'incantesimo che si sta usando, ma può essere aumentata attraverso l'uso di magia, abilità, talenti o incantamenti dell'arma. La &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione è messa a confronto con la &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno del tipo di Danno dell'attacco. Es. Una Palla di Fuoco confronta sempre la &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione con la &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione . Il &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro supera ogni &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno e non ha bisogno di penetrare.
+
+Piena penetrazione (+30% di Danno): la &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione è il doppio o più del &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno .
+
+&lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione (Danno base): la &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione è pari o superiore alla &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno del bersaglio.
+
+&lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione Bassa (-25% di danni per punto sotto la SD del bersaglio, Max -75%): la &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione è minore rispetto alla &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno del bersaglio.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>590</ID>
+      <DefaultText>I Tiratori Scelti si concentrano esclusivamente sul combattimento a distanza e affidano ai compagni animali il compito di coprire loro le spalle. La loro &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione e &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione con armi a lunga distanza è sopraffina, ma tra un attacco e l'altro hanno tempi di Recupero più lunghi e una scarsa &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>715</ID>
+      <DefaultText>Ispirazione del Vigore . I personaggi Tenaci hanno +5 Vigore e ottengono +2 &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>717</ID>
+      <DefaultText>Ispirazione del Vigore . I personaggi Energici hanno +5 Vigore, ottengono +2 &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione e arrestano i nemici con colpi critici.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>721</ID>
+      <DefaultText>Ispirazione della Costituzione . I personaggi Poderosi hanno +5 Costituzione e guadagnano +2 &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>723</ID>
+      <DefaultText>Ispirazione della Costituzione . I personaggi Robusti hanno +5 Costituzione, guadagnano +2 &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno e rigenerano periodicamente Salute.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

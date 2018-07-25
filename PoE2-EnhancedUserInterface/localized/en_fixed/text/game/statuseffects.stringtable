@@ -2,11 +2,16 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>524</EntryCount>
+  <EntryCount>532</EntryCount>
   <Entries>
     <Entry>
       <ID>0</ID>
       <DefaultText>{0:value:percent} chance Shaken attack on target on scoring Hit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1</ID>
+      <DefaultText>{0:value} Ranged Accuracy (Increases with Arcana skill)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -32,6 +37,11 @@
     <Entry>
       <ID>7</ID>
       <DefaultText>Spell Hits have a {0:value:percent} chance to Charm targets</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>8</ID>
+      <DefaultText>Hits with this weapon have a {0:value:percent} chance to cast Form of the Helpless Beast on their target</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -75,8 +85,18 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>25</ID>
+      <DefaultText>Scoring a Critical Hit grants {0:triggervalue} Accuracy and {0:extravalue:percent} Action Speed (Stacks {0:value:straight} times)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>26</ID>
       <DefaultText>Enrage, gaining Nimble and Tenacious</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>28</ID>
+      <DefaultText>Casts Ghost Blades on Kill</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -122,6 +142,11 @@
     <Entry>
       <ID>43</ID>
       <DefaultText>5 Raw bleed Damage per 3.0 sec for 9.0 sec on scoring Crit </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>45</ID>
+      <DefaultText>(Current Bonus: {0:value}) {0:extravalue} Accuracy</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -205,6 +230,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>87</ID>
+      <DefaultText>{0:value} Accuracy to Weapon attacks made from stealth</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>90</ID>
       <DefaultText>{0:value:percent} Chance to launch a Shock Damage attack at target on scoring a melee weapon Crit</DefaultText>
       <FemaleText />
@@ -245,18 +275,23 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>116</ID>
-      <DefaultText>{0:value:percent} chance to cast Boiling Spray at enemy when wearer is Critically Hit in melee</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>117</ID>
       <DefaultText>{0:value:percent} of {0:damagetype} Damage as Raw Damage over time</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>119</ID>
+      <DefaultText>Accuracy and Action Speed bonus on receiving a Critical Hit.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>120</ID>
       <DefaultText>Grants Armor Rating against Freeze attacks that increases as wearer loses Health (Max {0:value} AR)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>121</ID>
+      <DefaultText>{0:value} Accuracy and {0:extravalue:percentbonus} Damage to Flanked targets</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -335,6 +370,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>163</ID>
+      <DefaultText>{0:triggervalue} Accuracy and {0:extravalue:percentbonus} weapon Damage when below 50% Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>164</ID>
       <DefaultText>{0:value:percent} chance to launch Crush/Slash counterattack when missed in melee</DefaultText>
       <FemaleText />
@@ -375,6 +415,21 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>186</ID>
+      <DefaultText>Soul Hunger: -2 Constitution. 30% Crits converted to Hits. -10 Accuracy</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>187</ID>
+      <DefaultText>Ravenous Soul Hunger: -4 Constitution. 50% Crits converted to Hits. -15 Accuracy</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>188</ID>
+      <DefaultText>Subdued Soul Hunger: -1 Constitution. 20% Crits converted to Hits. -5 Accuracy</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>194</ID>
       <DefaultText>Freeze/Slash Damage AoE at target location on scoring Crit</DefaultText>
       <FemaleText />
@@ -397,6 +452,11 @@
     <Entry>
       <ID>202</ID>
       <DefaultText>When Tainted Blade has {0:triggercount} stacks, Sicken target on Crit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>205</ID>
+      <DefaultText>{0:extravalue} Melee Accuracy for each Engaged target</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -457,6 +517,21 @@
     <Entry>
       <ID>230</ID>
       <DefaultText>{0:extravalue:percent} Damage as Shock for each held Chanter Phrase</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>232</ID>
+      <DefaultText>{0:value} Accuracy with Ranged weapons for {0:extravalue:duration} on scoring Hit (stacks {0:triggercount} times)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>233</ID>
+      <DefaultText>{0:value} Accuracy with all weapons for {0:extravalue:duration} on scoring Hit (stacks {0:triggercount} times)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>234</ID>
+      <DefaultText>{0:value} stacking Ranged Weapon Accuracy</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -540,6 +615,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>275</ID>
+      <DefaultText>{0:value} Accuracy if target has Shield, Medium Armor, or Heavy Armor equipped</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>280</ID>
       <DefaultText>{0:value} All Defenses against Dexterity Affliction attacks while above 75% Health</DefaultText>
       <FemaleText />
@@ -610,6 +690,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>317</ID>
+      <DefaultText>+3 Accuracy. Increases as wearer loses Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>318</ID>
       <DefaultText>Armor Rating increases as wearer loses Health (Max {0:extravalue} Armor Rating)</DefaultText>
       <FemaleText />
@@ -655,6 +740,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>346</ID>
+      <DefaultText>{0:value} Melee Accuracy per {0:interval} until combat ends (Stacks {0:extravalue:straight} times)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>347</ID>
       <DefaultText>Receiving Critical Hits causes an additional {0:value} Will until combat ends (Stacks {0:extravalue:straight} times)</DefaultText>
       <FemaleText />
@@ -667,6 +757,11 @@
     <Entry>
       <ID>352</ID>
       <DefaultText>Counterattack enemy when Missed in Melee (inflicts Dazed on target)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>361</ID>
+      <DefaultText>{0:value} Accuracy against Marked target</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -770,6 +865,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>431</ID>
+      <DefaultText>(Current Bonus: {0:value}) {0:extravalue} Accuracy per Wound</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>446</ID>
       <DefaultText>Receiving Critical Hits from Melee Attacks has a {0:value:percent} chance to cause Confused on attackers (Upgrades to Charmed on Crit)</DefaultText>
       <FemaleText />
@@ -865,6 +965,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>497</ID>
+      <DefaultText>{0:value} Accuracy to first attack made in combat</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>498</ID>
       <DefaultText>Lower level Kith enemies may become Terrified at the beginning of combat</DefaultText>
       <FemaleText />
@@ -912,6 +1017,11 @@
     <Entry>
       <ID>536</ID>
       <DefaultText>{0:value} Fortitude while standing still</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>538</ID>
+      <DefaultText>{0:value} Accuracy with weapons after being missed by a melee weapon attack</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

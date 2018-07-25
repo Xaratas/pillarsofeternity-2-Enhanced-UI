@@ -2,8 +2,50 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\items</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>2831</EntryCount>
+  <EntryCount>2825</EntryCount>
   <Entries>
+    <Entry>
+      <ID>254</ID>
+      <DefaultText>Matchlock firearms of high power and fair Accuracy, arquebuses are prized for their ability to harm enemies protected by the Veil, including spirits and wizards' Arcane Veils.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>284</ID>
+      <DefaultText>Large shields are used when a warrior needs the best protection possible, even if that means sacrificing some Accuracy in exchange. Though they typically taper like an inverted "teardrop," large shields come in a variety of shapes, often emblazoned with heraldry.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>286</ID>
+      <DefaultText>Medium shields offer a moderate improvement in protection with a small reduction to Accuracy. They are the most commonly-used shields in the Dyrwood and come in a variety of shapes.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>289</ID>
+      <DefaultText>Though they don't offer much protection, small shields do not interfere with a warrior's Accuracy at all. Unlike larger shields, which are worn on the forearm, small shields are held in the hand.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>290</ID>
+      <DefaultText>Spears are not as long as their two-handed kin, pikes, but they are easier to maneuver and can be used with a shield. Even with a one-handed grip, spears can strike fierce blows with high Accuracy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>571</ID>
+      <DefaultText>Gauntlets of Accuracy</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1337</ID>
+      <DefaultText>Spears are not as long as their two-handed kin, pikes, but they are easier to maneuver and can be used with a shield. Even with a one-handed grip, spears can strike fierce blows with high Accuracy.
+
+This crude spear is decorated with feathers and beads.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1478</ID>
+      <DefaultText>These baubles provide +5 Accuracy for all fire-based attacks.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>1798</ID>
       <DefaultText>Causes enemies in the area of effect to glow with pale green light, making them easier targets. Affected enemies suffer decreased Deflection and Reflex.</DefaultText>
@@ -12,6 +54,11 @@
     <Entry>
       <ID>2361</ID>
       <DefaultText>These knives of soul energy do Raw damage and harvest Focus for the cipher who created them.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2838</ID>
+      <DefaultText>This golden ring bears Huana runic engravings. The delicacy of the inscriptions and clean Accuracy of the shaping are markers of a master craftsman. Grooves along the underside would suggest this piece connects to a larger mechanism.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -67,6 +114,11 @@
     <Entry>
       <ID>3180</ID>
       <DefaultText>This elixir permeates body tissues, rendering the flesh immune to the effects of Burn, Corrode, Freeze, and Shock damage for duration. When the infused potion is exhausted or overwhelmed by damage, the protection fails.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3197</ID>
+      <DefaultText>Grants unerring Accuracy, providing a substantial chance to convert Misses to Grazes, Grazes to Hits, and Hits to Crits.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -220,6 +272,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3649</ID>
+      <DefaultText>While Atlas is following you around, you gain a bonus to Perception and your party receives a bonus to ranged Weapon Accuracy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3650</ID>
       <DefaultText>While Chilli is following you around you receive a bonus to Resolve and your party gains a bonus to Will.</DefaultText>
       <FemaleText />
@@ -230,8 +287,18 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3654</ID>
+      <DefaultText>While Harley is following you around you receive a bonus to ranged damage and your party receives a bonus to ranged Weapon Accuracy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3655</ID>
       <DefaultText>While Hemp is following you around you receive a bonus to Constitution and your party receives a bonus to Fortitude.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3658</ID>
+      <DefaultText>While Nikki is following you around enemy attacks against you are more likely to Graze, and your party receives a bonus to melee Weapon Accuracy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -302,6 +369,11 @@
     <Entry>
       <ID>4922</ID>
       <DefaultText>While Comet is following you around, you receive a bonus to Might and your party gains bonus Deflection against enemy weapon attacks.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4935</ID>
+      <DefaultText>While the Obsidian Wurm is following you, you gain a bonus to the Stealth and Sleight of Hand skills and your party gains bonus Accuracy against flanked enemies.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

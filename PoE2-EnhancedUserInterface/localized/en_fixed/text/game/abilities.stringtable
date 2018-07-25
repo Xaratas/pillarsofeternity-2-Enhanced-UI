@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3299</EntryCount>
+  <EntryCount>3320</EntryCount>
   <Entries>
     <Entry>
       <ID>237</ID>
@@ -37,6 +37,11 @@
     <Entry>
       <ID>246</ID>
       <DefaultText>Creates a slow-moving energetic projection of the priest's faith, returning Health to allies and inflicting Freeze damage to enemies.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>251</ID>
+      <DefaultText>Nagging doubt in the face of unbreakable faith consumes enemies in the area of effect, lowering their Melee Accuracy and downgrading their Critical Hits to Hits.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -155,6 +160,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>287</ID>
+      <DefaultText>Co-opts the target's essence, generating a Slashing blade of force that attacks them before leaping to additional targets.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>288</ID>
       <DefaultText>The cipher uses the target's strength of mind against it, stealing a portion of its Resolve in order to gain the Steadfast Inspiration.</DefaultText>
       <FemaleText />
@@ -202,6 +212,11 @@
     <Entry>
       <ID>315</ID>
       <DefaultText>Conjures a protective shield of magic, dramatically boosting the wizard's Deflection and granting Concentration. Arcane Veil has no effect on attacks made from firearms or veil piercing effects.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>318</ID>
+      <DefaultText>The paladin's intense and pure conviction instills clarity of purpose in them and their allies, increasing their Accuracy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -347,6 +362,11 @@
     <Entry>
       <ID>458</ID>
       <DefaultText>The priest clears their mind, spreading that clarity to nearby allies, thereby granting the Resolute Inspiration.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>474</ID>
+      <DefaultText>Invokes the benediction of the priest's god, imbuing allies in the area of effect with Accuracy and Might bonuses while enemies receive penalties to the same.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -535,6 +555,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>593</ID>
+      <DefaultText>Ransacks an enemy's Intellect and Perception for energy, causing damage to those enemy Attributes while boosting the cipher's Defenses and Accuracy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>595</ID>
       <DefaultText>Splinters the target's soul with sheer force, inflicting Raw damage to them - Near Death targets explode, causing Crush damage to all in the area of effect.</DefaultText>
       <FemaleText />
@@ -551,7 +576,7 @@
     </Entry>
     <Entry>
       <ID>601</ID>
-      <DefaultText>Destroys an enemy's memory with calculated accuracy, Confusing and Dazing them before rapidly jumping to additional enemies.</DefaultText>
+      <DefaultText>Destroys an enemy's memory with calculated Accuracy, Confusing and Dazing them before rapidly jumping to additional enemies.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -615,6 +640,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>796</ID>
+      <DefaultText>Reduces Accuracy of Disengagement Attacks for enemies in the area of effect. </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>800</ID>
       <DefaultText>Grants resistance against Resolve Afflictions and Constitution Afflictions for allies in the area of effect.</DefaultText>
       <FemaleText />
@@ -657,6 +687,11 @@
     <Entry>
       <ID>810</ID>
       <DefaultText>Emboldens allies in the area of effect, giving bonuses to Fortitude and Will.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>811</ID>
+      <DefaultText>Attacks enemies in seven directions around the chanter with bolts of Freezing ice.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -835,6 +870,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>883</ID>
+      <DefaultText>The fighter's Disengagement attacks have greatly increased Accuracy and Damage.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>884</ID>
       <DefaultText>(Conquerer Stance) - When Hurt or above, the fighter's Accuracy bonus increases. When Bloodied or below, the fighter's Deflection bonus increases.</DefaultText>
       <FemaleText />
@@ -880,6 +920,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>908</ID>
+      <DefaultText>Designates a single target as prey, giving the ranger and animal companion an Accuracy bonus against that target.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>913</ID>
       <DefaultText>Conjures roots from the ground underneath a target, causing them to become Immobilized.</DefaultText>
       <FemaleText />
@@ -917,6 +962,11 @@
     <Entry>
       <ID>928</ID>
       <DefaultText>The rogue aims for a vital area, Weakening the target.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>941</ID>
+      <DefaultText>The barbarian learns to line up their most savage blows, improving the Accuracy of secondary attacks from Carnage.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1000,6 +1050,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1076</ID>
+      <DefaultText>Increases the character's Accuracy with ranged weapons used on distant targets.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1082</ID>
       <DefaultText>The monk immediately inflicts Raw damage on himself or herself and gains Wounds.</DefaultText>
       <FemaleText />
@@ -1062,6 +1117,11 @@
     <Entry>
       <ID>1334</ID>
       <DefaultText>Avian godlike are acute and precise, granting a Resistance to Intellect Afflictions and Resolve Afflictions .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1337</ID>
+      <DefaultText>All folk have an indomitable spirit that rises to the challenge when things look grim. Whenever a folk is below Bloodied or Near Death, they gain a bonus to Accuracy and damage.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1300,6 +1360,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1852</ID>
+      <DefaultText>The barbarian has trained diligently to strike true with their favorite weapons. All proficient weapons gain bonus Accuracy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1883</ID>
       <DefaultText>(Spirit Frenzy) - While active, attacks can Stagger foes.</DefaultText>
       <FemaleText />
@@ -1357,6 +1422,11 @@
     <Entry>
       <ID>1968</ID>
       <DefaultText>(Greater Wildstrike Shock) - With greater knowledge of the forces of nature, inflict even more additional Shock damage when spiritshifted.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1971</ID>
+      <DefaultText>Weave a pattern of pain with your movements, gaining a gradually increasing bonus to Accuracy and Wounds. Suffering any damage ends this effect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1725,6 +1795,15 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2356</ID>
+      <DefaultText>The ability to fly grants birds a natural ability to avoid engagement entirely.
+
+All rangers form a strong spiritual connection with a single creature, their animal companion. This connection allows rangers and their companions to coordinate attacks and efficiently take down prey. In most situations, the companion runs interference while the ranger attacks at range.
+
+Despite these advantages, there are risks to the relationship. Rangers share a literal life bond with their animal companions. When one is wounded, the can sense it and feel intense emotional pain. If a ranger or animal companion are knocked unconscious, the partner suffers from Bonded Grief, affecting Accuracy and other stats, until the downed ally is revived. If a ranger is ever killed, the animal companion immediately dies from grief.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2384</ID>
       <DefaultText>Toughens the barbarian's naturally thick skin, raising their Armor Rating and allowing a more dominant combat presence.</DefaultText>
       <FemaleText />
@@ -1747,6 +1826,11 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     <Entry>
       <ID>2389</ID>
       <DefaultText>The barbarian hits so hard that ordinary means of defense can be easily overpowered. On attacks that normally target Deflection, the barbarian will instead attack fortitude if it is the lower defense.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2393</ID>
+      <DefaultText>(Lion's Sprint) - The next attack made during the sprint gains a large amount of Accuracy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1835,6 +1919,11 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2501</ID>
+      <DefaultText>The character swings their Greatsword with massive force, increasing damage at the cost of Accuracy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2503</ID>
       <DefaultText>Hook and slash wildly with your attacks, interfering with your enemies' ability to focus their aim, at the cost of damage.</DefaultText>
       <FemaleText />
@@ -1852,6 +1941,16 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     <Entry>
       <ID>2511</ID>
       <DefaultText>(Rebirthing Exhortation) - Strong Inspiration upgraded to Tenacious.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2521</ID>
+      <DefaultText>The Hunting Bow allows for rapid draw and fire of arrows at the cost of Accuracy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2530</ID>
+      <DefaultText>Use your small shield to better intercept melee weapon attacks and counter at the cost of Recovery Time. When missed by melee weapons gain an increased Accuracy on your next weapon attack.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2020,6 +2119,11 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2685</ID>
+      <DefaultText>While Hurt or better, the ranger and their animal companion both gain an Accuracy bonus against any enemies that are Bloodied or worse.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2687</ID>
       <DefaultText>(Thorny Roots) - Adds nasty thorns that deal Pierce/Slash damage.</DefaultText>
       <FemaleText />
@@ -2060,6 +2164,11 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2705</ID>
+      <DefaultText>Increases ally Accuracy and Damage against enemies of the Beast type.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2707</ID>
       <DefaultText>Resistance: Might Afflictions </DefaultText>
       <FemaleText />
@@ -2090,8 +2199,18 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2738</ID>
+      <DefaultText>The monk's Accuracy increases slightly with each Wound they possess.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2752</ID>
       <DefaultText>Through force of will, the priest can destroy any spirit or vessel creature below the priest's level. Spirit and vessel creatures equal to or greater than the priest's level take Raw damage.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2755</ID>
+      <DefaultText>The character fires and reloads the pistol quickly, at the cost of Accuracy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2121,7 +2240,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>2785</ID>
-      <DefaultText>Echo an ally's attacks with each of their soul's memories. Granting them a significant Penetration bonus.</DefaultText>
+      <DefaultText>Echo an ally's attacks with each of their soul's memories, granting them a significant Penetration bonus.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2132,6 +2251,11 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     <Entry>
       <ID>2798</ID>
       <DefaultText>(Inspired Strike) - After the strike, receive the Acute and Swift Inspirations temporarily.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2811</ID>
+      <DefaultText>The monk's Empowered attacks ignore all Armor Ratings and gain a massive Accuracy bonus.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2281,7 +2405,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>3207</ID>
-      <DefaultText>While the Flame Nāga Hatchling is following you around you gain bonus Burn armor and everyone in your party gains bonus accuracy with Fire attacks.</DefaultText>
+      <DefaultText>While the Flame Nāga Hatchling is following you around you gain bonus Burn armor and everyone in your party gains bonus Accuracy with Fire attacks.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2347,6 +2471,11 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     <Entry>
       <ID>3395</ID>
       <DefaultText>Strike out at all nearby enemies, dealing Pierce/Slash Damage and Frightening them.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3399</ID>
+      <DefaultText>Grants bonus melee Damage and Accuracy for the first successful strike with the weapon in combat.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2425,6 +2554,11 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3613</ID>
+      <DefaultText>(...Its Crash Could Not Be Denied) - Gains an Accuracy bonus.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3689</ID>
       <DefaultText>Launches a cone attack that can knock back and Stun targets in the area of effect.</DefaultText>
       <FemaleText />
@@ -2465,6 +2599,16 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3794</ID>
+      <DefaultText>(Stalker's Link) - The ranger now also gains an Accuracy bonus when fighting any enemy threatened by the animal companion.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3803</ID>
+      <DefaultText>Carefully strike with your rapier, aiming for vital points to ensure success. Fighting this way increases Accuracy at the cost of Recovery.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3810</ID>
       <DefaultText>(...Nor Flame, Nor Thrusted Blade) - Also grants Burn and Pierce Armor.</DefaultText>
       <FemaleText />
@@ -2497,6 +2641,13 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     <Entry>
       <ID>3835</ID>
       <DefaultText>Prepare a target for your blade. Lowers target's Melee Deflection and Armor Rating against Slash Damage.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3854</ID>
+      <DefaultText>All rangers form a strong spiritual connection with a single creature, their animal companion. This connection allows rangers and their companions to coordinate attacks and efficiently take down prey. In most situations, the companion runs interference while the ranger attacks at range.
+
+Despite these advantages, there are risks to the relationship. Rangers share a literal life bond with their animal companions. When one is wounded, the other can sense it and feel intense emotional pain. If a ranger or animal companion are knocked unconscious, the partner suffers from Bonded Grief, affecting Accuracy and other stats, until the downed ally is revived. If a ranger is ever killed, the animal companion immediately dies from grief.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2545,6 +2696,11 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3901</ID>
+      <DefaultText>While Atlas is following you around, you gain a bonus to Perception and your party receives a bonus to ranged Weapon Accuracy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3903</ID>
       <DefaultText>While Chilli is following you around you receive a bonus to Resolve and your party gains a bonus to Will.</DefaultText>
       <FemaleText />
@@ -2555,8 +2711,18 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3913</ID>
+      <DefaultText>While Harley is following you around you receive a bonus to ranged damage and your party receives a bonus to ranged weapon Accuracy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3915</ID>
       <DefaultText>While Hemp is following you around you receive a bonus to Constitution and your party receives a bonus to Fortitude.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3921</ID>
+      <DefaultText>While Nikki is following you around enemy attacks against you are more likely to Graze, and your party receives a bonus to melee weapon Accuracy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2650,6 +2816,11 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4138</ID>
+      <DefaultText>Grants bonus Accuracy when 3 or more allies are within 2m.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4140</ID>
       <DefaultText>Gain Resistance to Constitution Afflictions while Unharmed or Healthy.</DefaultText>
       <FemaleText />
@@ -2677,6 +2848,16 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     <Entry>
       <ID>4166</ID>
       <DefaultText>Grants a Will bonus.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4273</ID>
+      <DefaultText>Grants bonus Accuracy when 3 or more allies are within 2m. While active, attacks against enemies with no nearby allies can Interrupt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4274</ID>
+      <DefaultText>Grants bonus Accuracy when 3 or more allies are within 2m.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2780,6 +2961,16 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4356</ID>
+      <DefaultText>The pistol creates a zone charged with electrical energy. Any enemy or ally equipped with a shield, medium armor, or heavy armor will find their Accuracy and Action Speed diminished if they step too close to the wielder.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4357</ID>
+      <DefaultText>The bullets home in on metallic targets. Increases Accuracy against targets equipped with shields or heavy armor, or enemies created sufficiently of metal.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4361</ID>
       <DefaultText>Aura that inflicts Raw Damage over time to nearby enemies and lowers their Armor Rating. (Full Damage is dealt to those nearest to death)</DefaultText>
       <FemaleText />
@@ -2835,6 +3026,11 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4405</ID>
+      <DefaultText>While the Obsidian Wurm is following you, you gain a bonus to the Stealth and Sleight of Hand skills and your party gains bonus Accuracy against flanked enemies.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4412</ID>
       <DefaultText>Creates a field of holy energy around the caster, dealing Burn damage and applying Frightened to any vessels in the vicinity while regenerating a major amount of Health for allies.</DefaultText>
       <FemaleText />
@@ -2857,6 +3053,11 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     <Entry>
       <ID>4422</ID>
       <DefaultText>Gain increased Penetration with Acid and Decay attacks.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4442</ID>
+      <DefaultText>Empowered attacks gain increased Accuracy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2997,6 +3198,11 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     <Entry>
       <ID>4687</ID>
       <DefaultText>Increases Penetration for a brief time.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4755</ID>
+      <DefaultText>Grants bonus Accuracy and Damage for the first weapon attack at the start of combat.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
