@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 0.9-beta.5 -->
+<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 0.9-beta.7 -->
 <!-- Game Build 1.2.2.0033 -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
@@ -119,6 +119,11 @@
     <Entry>
       <ID>272</ID>
       <DefaultText>&lt;line-height=100%&gt;Eats away at the target's spirit, inflicting &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrosive&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; damage and converting that essence into Health for the caster.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>274</ID>
+      <DefaultText>Caster becomes a living generator for a powerful bolt of electricity that streaks out in a straight line and bounces off of walls, causing &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; damage to anything caught in its path.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1013,7 +1018,7 @@
     </Entry>
     <Entry>
       <ID>1041</ID>
-      <DefaultText>&lt;line-height=100%&gt;Fight in a close quarters style, using your blade to penetrate armor more effectively at the cost of a lower &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Fight in a close quarters style, using your blade to &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetrate&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; armor more effectively at the cost of a lower &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2193,6 +2198,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>2723</ID>
       <DefaultText>&lt;line-height=100%&gt;Revive a fallen ally and grant them the &lt;link="glossary://GlossaryEntry_Robust"&gt;&lt;#f7b733&gt;Robust&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration for an extended time.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2730</ID>
+      <DefaultText>Taking careful position behind the large shield significantly reduces incoming ranged weapon damage as well as damage from attacks that target &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. While active you are unable to move.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

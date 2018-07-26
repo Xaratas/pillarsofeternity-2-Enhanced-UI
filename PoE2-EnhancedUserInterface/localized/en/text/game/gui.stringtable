@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 0.9-beta.5 -->
+<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 0.9-beta.7 -->
 <!-- Game Build 1.2.2.0033 -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\gui</Name>
@@ -8,37 +8,37 @@
   <Entries>
     <Entry>
       <ID>140</ID>
-      <DefaultText>&lt;line-height=100%&gt;Hovering over enemies will provide a pop-up comparing their known defense scores to the attacker's &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Hovering over enemies will provide a pop-up comparing their known defense scores to the attacker's &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>205</ID>
-      <DefaultText>&lt;line-height=100%&gt;Autopause if a party member attacks an enemy whose defense exceeds their &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; by 50 points or more.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Autopause if a party member attacks an enemy whose defense exceeds their &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; by 50 points or more.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>367</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0}% Damage and Healing, {1} &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;Fortitude&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0}% Damage and Healing, {1} &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Fortitude&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>368</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0}% Health, {1} &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;Fortitude&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0}% Health, {1} &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Fortitude&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>370</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, and {1} &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, and {1} &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Reflex&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>371</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0}% Area of Effect, {1}% Ability Duration, and {2} &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;Will&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0}% Area of Effect, {1}% Ability Duration, and {2} &lt;link="glossary://GlossaryEntry_Will"&gt;Will&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>372</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} Hostile Effect Duration, {1} &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, and {2} &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;Will&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} Hostile Effect Duration, {1} &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflection&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, and {2} &lt;link="glossary://GlossaryEntry_Will"&gt;Will&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -113,87 +113,107 @@
     </Entry>
     <Entry>
       <ID>1106</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} Melee &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} Melee &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1107</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} Ranged &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} Ranged &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1108</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflection&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1109</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Fortitude&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1110</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Reflex&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1111</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Will"&gt;Will&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1124</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; against Disengaging enemies&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; against Disengaging enemies&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1147</ID>
-      <DefaultText>&lt;line-height=100%&gt;Drains {0} Resolve for {1} &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Drains {0} Resolve for {1} &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflection&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1169</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; against distant enemies&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflection&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Reflex&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; against distant enemies&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1172</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; granted to an ally attacking the same target&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; granted to an ally attacking the same target&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1175</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} of incoming Hits converted to Grazes (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; or &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; only)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} of incoming Hits converted to Grazes (&lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflection&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; or &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Reflex&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; only)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1176</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} of incoming Hits converted to Grazes (&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;Fortitude&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt; or &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;Will&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; only)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} of incoming Hits converted to Grazes (&lt;link="glossary://GlossaryEntry_Fortitude"&gt;Fortitude&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt; or &lt;link="glossary://GlossaryEntry_Will"&gt;Will&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; only)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1194</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} Defense while &lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stunned&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} Defense while &lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stunned&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;3&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1196</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; when attacking same target as an ally&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; when attacking same target as an ally&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1214</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} of incoming Grazes converted to Misses (&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; only)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} of incoming Grazes converted to Misses (&lt;link="glossary://GlossaryEntry_Reflexes"&gt;Reflex&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; only)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1230</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; when attacking the same enemy as {1}&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; when attacking the same enemy as {1}&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1234</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; when below {1} Health&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; when below {1} Health&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1236</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} Damage against Prone, &lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stunned&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, Flanked enemies&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} Damage against Prone, &lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stunned&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;3&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, Flanked enemies&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1243</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; against {1}&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; against {1}&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1261</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; against ranged attacks&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflection&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; against ranged attacks&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1404</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -205,72 +225,62 @@
       <ID>1477</ID>
       <DefaultText>&lt;line-height=100%&gt;All rangers form a strong spiritual connection with a single creature, their animal companion. This connection allows rangers and their companions to coordinate attacks and efficiently take down prey. In most situations, the companion runs interference while the ranger attacks at range.
 
-Despite these advantages, there are risks to the relationship. Rangers share a literal life bond with their animal companions. When one is wounded, the can sense it and feel intense emotional pain. If a ranger or animal companion are knocked unconscious, the partner suffers from Bonded Grief, affecting &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; and other stats, until the downed ally is revived. If a ranger is ever killed, the animal companion immediately dies from grief.&lt;/line-height&gt;</DefaultText>
+Despite these advantages, there are risks to the relationship. Rangers share a literal life bond with their animal companions. When one is wounded, the can sense it and feel intense emotional pain. If a ranger or animal companion are knocked unconscious, the partner suffers from Bonded Grief, affecting &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; and other stats, until the downed ally is revived. If a ranger is ever killed, the animal companion immediately dies from grief.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1582</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0}% Action Speed and {1} &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0}% Action Speed and {1} &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Reflex&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1628</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} Shield &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} Shield &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflection&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1629</ID>
-      <DefaultText>&lt;line-height=100%&gt;Shield &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; bonus also applies to &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1658</ID>
-      <DefaultText>&lt;line-height=100%&gt;Disarm Difficulty {0} Traps, Pick Difficulty {1} Locks, {2} Trap &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Shield Deflection bonus also applies to &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Reflex&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1676</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while wielding a two-handed weapon&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1685</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} Trap &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflection&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while wielding a two-handed weapon&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1694</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; against distant enemies&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; against distant enemies&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1739</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} All Defenses except &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} All Defenses except &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflection&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1890</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; when attacking the same target as animal companion&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; when attacking the same target as animal companion&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1949</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} Unarmed &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} Unarmed &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2200</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; when using {1}&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; when using {1}&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2206</ID>
-      <DefaultText>&lt;line-height=100%&gt;Additional attack with {0} &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; and {1} Damage per strike&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Additional attack with {0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; and {1} Damage per strike&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2304</ID>
-      <DefaultText>&lt;line-height=100%&gt;{1} attackers get {0} &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{1} attackers get {0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -410,7 +420,7 @@ All damage received is increased.&lt;/line-height&gt;</DefaultText>
     <Entry>
       <ID>2854</ID>
       <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
-Between the Eyes - Ranged attack with a large &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; bonus, and if used while stealthed is a guaranteed Critical Hit.
+Between the Eyes - Ranged attack with a large &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; bonus, and if used while stealthed is a guaranteed Critical Hit.
 
 &lt;b&gt;Penalty&lt;/b&gt;
 -1 Guile.&lt;/line-height&gt;</DefaultText>
@@ -431,32 +441,32 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.&lt;/line
     </Entry>
     <Entry>
       <ID>2915</ID>
-      <DefaultText>&lt;line-height=100%&gt;The Explosives improves the &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, damage and effectiveness of bombs, noisemakers, and similar devices.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The Explosives improves the &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, damage and effectiveness of bombs, noisemakers, and similar devices.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3012</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:Value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:Value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3016</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:Value} &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; when behind an unaware target&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:Value} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; when behind an unaware target&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3028</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:Value} &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:Value} &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3034</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:Value} &lt;link="glossary://GlossaryEntry_&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; with proficient weapons&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:Value} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; with proficient weapons&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3938</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:Value} {0:DamageType} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;Armor Rating&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:Value} {0:DamageType} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

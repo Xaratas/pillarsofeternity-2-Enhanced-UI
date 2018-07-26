@@ -1,39 +1,15 @@
 ## CHANGELOG
-### Version 0.9-beta.5
-## Accuracy Icons
-Added support for Accuracy icons. All entries with the keyword `Accuracy` should now have a corresponding icon next to it's name.
+### Version 0.9-beta.7
+- Removed two incorrectly applied Accuracy icons (abilities.stringtable).
+- Removed one incorrectly applied Accuracy icon (items.stringtable)
+- Added a missing Reflext icon ID `2730` (abilities.stringtable).
+- Removed multiple instances of duplicated lines of code (gui.stringtable).
+- Removed bold stylization of (hopefully) most keywords that show up on the character screen.
 
-### Modified Entries:
-  **Abilities:**\
-  **ID:** `400`, `601`, `859`, `884`, `887`, `1342`, `1990`, `2263`, `2305`, `2574`, `2639`, `3207`, `3749`, `3962` and `4452`.
-
-  **Cyclopedia:**\
-  **ID:** `84`, `94`, `154`, `180` and `590`.
-
-  **GUI:**\
-  **ID:** `370`, `474`, `1169`, `2830` and `2853`.
-
-  **Items:**\
-  No modified ID's.
-
-  **Status Effects:**\
-  **ID:** `15` and `116`.
-
-### New Entries:
-  **Abilities:**\
-  **ID:** `251`, `318`, `400`, `474`, `593`, `601`, `796`, `859`, `883`, `884`, `887`, `908`, `941`, `1076`, `1337`, `1852`, `1971`, `1990`, `2263`, `2305`, `2356`, `2393`, `2501`, `2521`, `2530`, `2574`, `2639`, `2685`, `2705`, `2738`, `2755`, `2811`, `3207`, `3399`, `3613`, `3749`, `3794`, `3803`, `3854`, `3901`, `3913`, `3921`, `3962`, `4138`, `4273`, `4274`, `4356`, `4357`, `4405`, `4442`, `4452` and `4755`.
-
-  **Cyclopedia:**\
-  ID: `84`, `94`, `154`, `180`, `516`, `590`, `769` and `806`.
-
-  **GUI:**\
-  **ID:** `140`, `205`, `370`, `474`, `1106`, `1107`, `1124`, `1169`, `1172`, `1196`, `1230`, `1234`, `1243`, `1404`, `1477`, `1658`, `1685`, `1694`, `1890`, `1949`, `2200`, `2206`, `2304`, `2830`, `2853`, `2854`, `2915`, `3016` and `3034`.
-
-  **Items:**\
-  **ID:** `254`, `284`, `286`, `289`, `290`, `571`, `1337`, `1478`, `2838`, `3197`, `3649`, `3654`, `3658` and `4935`.
-
-  **Status Effects:**\
-  **ID:** `1`, `8`, `25`, `28`, `45`, `87`, `119`, `121`, `163`, `186`, `187`, `188`, `205`, `232`, `233`, `234`, `275`, `317`, `346`, `361`, `431`, `497` and `538`.
+### Version 0.9-beta.6
+- Added support for Accuracy icons. All entries with the keyword `Accuracy` should now have a corresponding icon next to it's name.
+- Added line-height to all entries in `recipes.stringtable`.
+- Changed the icons for all `recipes.stringtable` entries to something less ambiguous.
 
 ### Version 0.9-beta.4
 - Fixed a few incorrectly described injuries, namely: Buised Ribs, Concussion and Swollen Eye.\

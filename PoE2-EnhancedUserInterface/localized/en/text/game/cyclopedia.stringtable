@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 0.9-beta.5 -->
+<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 0.9-beta.7 -->
 <!-- Game Build 1.2.2.0033 -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\cyclopedia</Name>
@@ -124,7 +124,7 @@ A character who is &lt;link="glossary://GlossaryEntry_Terrified"&gt;&lt;#30d3d5&
     </Entry>
     <Entry>
       <ID>126</ID>
-      <DefaultText>&lt;line-height=100%&gt;Characters with Bruised Ribs suffer a -20 penalty to their &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;Fortitude&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Characters with Bruised Ribs suffer a penalty to their &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;Fortitude&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt; defense.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
