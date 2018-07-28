@@ -1,6 +1,6 @@
 ## CHANGELOG
 ### Version 0.9-beta.8
-- Added missing entry ID `1543`, `2761`, `3762`, `4144` and `4152` in `abilities.stringtable`.
+- Added missing entry ID `1543`,`2074`, `2761`, `3762`, `4144` and `4152` in `abilities.stringtable`.
 
 ### Version 0.9-beta.7
 - Removed two incorrectly applied Accuracy icons (abilities.stringtable).
