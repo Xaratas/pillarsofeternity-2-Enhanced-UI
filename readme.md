@@ -33,11 +33,6 @@ Armor and weapon enchants will now have a icon next to their text in order to ma
 
 ![Example of what the icons will look like in-game](https://i.imgur.com/KSzXXnI.jpg)
 
-**To-Do:**
-
-- [x] Armor
-- [ ] Weapons
-
 ***
 
 ### A big mod update (and a new game patch)!
