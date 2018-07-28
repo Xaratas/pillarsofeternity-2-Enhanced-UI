@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
-  <NextEntryID>1</NextEntryID>
-  <EntryCount>3299</EntryCount>
+ 
+ 
   <Entries>
     <Entry>
       <ID>0</ID>
@@ -1043,6 +1043,11 @@
 	<Entry>
       <ID>576</ID>
       <DefaultText> AE da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; ogni {0:interval}</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>588</ID>
+      <DefaultText>Acquisisce l'Ispirazione &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Consapevole &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; per {0:value:duration} ogni volta che un un alleato esegue un Colpo di Grazia.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

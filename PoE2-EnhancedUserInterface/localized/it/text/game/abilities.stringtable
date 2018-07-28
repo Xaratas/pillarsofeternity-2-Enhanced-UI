@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
-  <NextEntryID>1</NextEntryID>
-  <EntryCount>3299</EntryCount>
+  
+  
   <Entries>
   <Entry>
   <ID>237</ID>
@@ -21,8 +21,13 @@
       <FemaleText />
     </Entry>
 	<Entry>
+      <ID>240</ID>
+      <DefaultText>Ordina a un singolo nemico di fermarsi, &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilizzandolo &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; temporaneamente.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
       <ID>242</ID>
-      <DefaultText>Isola un bersaglio singolo in una sfera protettiva, proteggendolo dai pericoli mentre la sua Salute si rigenera(il bersaglio viene reso Invisibile, ma rimane anche &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordito &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>Isola un bersaglio singolo in una sfera protettiva, proteggendolo dai pericoli mentre la sua Salute si rigenera(il bersaglio viene reso Invisibile, ma resta anche &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordito &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -153,7 +158,7 @@
     </Entry>
     <Entry>
       <ID>279</ID>
-      <DefaultText>Il lanciatore attinge alla sua forza vitale per acquisire l'Ispirazione &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Rapido &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;, prosciugando gradualmente la sua stessa Salute.</DefaultText>
+      <DefaultText>Il lanciatore attinge alla sua forza vitale per acquisire l'Ispirazione &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Rapido &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; e Velocità di Combattimento, prosciugando gradualmente la sua stessa Salute.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
@@ -174,6 +179,12 @@
 	<Entry>
       <ID>286</ID>
       <DefaultText>Trasforma lo strato più esterno dell'anima di un Alleato, liberando una breve scarica elettrica attorno al suo corpo. I personaggi che si trovano attorno al bersaglio subiscono Danno da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>287</ID>
+      <DefaultText>Coopta l'essenza del bersaglio, generando una lama &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerante &#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt;
+ di energia che lo colpisce prima di aggredire fino a un massimo di cinque bersagli aggiuntivi.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -728,7 +739,7 @@
     </Entry>
     <Entry>
       <ID>807</ID>
-      <DefaultText>Gli Alleati nell'Area d'Effetto ottengono Resistenza contro le &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Alterazioni &#160;della Destrezza &#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Alterazioni&#160; della Destrezza&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Gli Alleati nell'Area d'Effetto ottengono Resistenza contro le &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Alterazioni &#160;della Destrezza &#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Alterazioni&#160; del Vigore&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1017,6 +1028,11 @@
       <FemaleText />
     </Entry>
 	<Entry>
+      <ID>925</ID>
+      <DefaultText>(Colpo Lacerante) - Un attacco sleale che lascia l'avversario incapace di vedere. Infligge Danno extra e &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Acceca &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; il bersaglio.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
       <ID>926</ID>
       <DefaultText>Il Ladro diventa estremamente abile a schivare gli attacchi. Molti dei colpi di striscio contro &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; diventano colpi a vuoto.</DefaultText>
       <FemaleText />
@@ -1063,7 +1079,7 @@
     </Entry>
     <Entry>
       <ID>1026</ID>
-      <DefaultText>Gli elfi dei boschi hanno una resistenza naturale contro le Alterazioni della Destrezza.</DefaultText>
+      <DefaultText>Gli elfi dei boschi hanno una resistenza naturale contro le &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Alterazioni&#160;della Destrezza &#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -1098,7 +1114,8 @@
     </Entry>
     <Entry>
       <ID>1052</ID>
-      <DefaultText>Se Lesionato o in miglior condizione il Barbaro guadagna resistenza contro le Alterazioni del Corpo</DefaultText>
+      <DefaultText>Se Lesionato o in miglior condizione il Barbaro guadagna resistenza contro le &lt;link="glossary://GlossaryEntry__Body_Afflictions"&gt;Alterazioni del Corpo&lt;/link&gt;&gt;
+</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -1108,7 +1125,7 @@
     </Entry>
     <Entry>
       <ID>1058</ID>
-      <DefaultText>Aumenta le difese del compagno animale del Ranger contro le Alterazioni dell'&lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Alterazioni&#160;dell'Acume &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; e le &lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Alterazioni&#160;della Percezione &#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Aumenta le difese del compagno animale del Ranger contro le &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Alterazioni&#160;dell'Acume &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; e le &lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Alterazioni&#160;della Percezione &#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1124,6 +1141,11 @@
 	<Entry>
       <ID>1082</ID>
       <DefaultText>Il Monaco infligge immediatamente a se stesso Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; e guadagna Ferite.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>1143</ID>
+      <DefaultText>Sacrifica Velocità di attacco a distanza per aumentare la &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1198,7 +1220,8 @@
     </Entry>
     <Entry>
       <ID>1338</ID>
-      <DefaultText>I nani di montagna sono i più grandi viaggiatori di Eora. I loro incredibili viaggi li hanno esposti a ogni tipo di pericolo mortale, conferendogli resistenza alle Alterazioni della Costituzione.</DefaultText>
+      <DefaultText>I nani di montagna sono i più grandi viaggiatori di Eora. I loro incredibili viaggi li hanno esposti a ogni tipo di pericolo mortale, conferendogli Resistenza alle 
+&lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1208,7 +1231,7 @@
     </Entry>
     <Entry>
       <ID>1341</ID>
-      <DefaultText>Gli Aumaua costieri sono noti per il loro "gambe acquatiche" e la loro costituzione robusta. Che sia dovuto alla loro natura di popolo marinaro o a una caratteristica innata, tutti gli Aumaua costieri resistono alle Alterazioni Vigore.</DefaultText>
+      <DefaultText>Gli Aumaua costieri sono noti per il loro "gambe acquatiche" e la loro costituzione robusta. Che sia dovuto alla loro natura di popolo marinaro o a una caratteristica innata, tutti gli Aumaua costieri resistono alle &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Alterazioni&#160;del Vigore &#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1224,6 +1247,11 @@
     <Entry>
       <ID>1391</ID>
       <DefaultText>Tre artigli di pietra emergono dal terreno, infliggendo &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralisi &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; e Danno da &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; a chiunque si trovi nella zona.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>1421</ID>
+      <DefaultText>(Ruota di Ferro) - Attingendo al dolore dalle Ferite, il Monaco accumula &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; contro gli attacchi in arrivo.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1248,7 +1276,7 @@
     </Entry>
 	<Entry>
       <ID>1470</ID>
-      <DefaultText>Il Sacerdote trabocca di potenza e si circonda di un alone soprannaturale. Come incarnazione minore della sua divinità, il Sacerdote ottiene bonus in tutti gli Attributi, Salute e Danno dell'arma.</DefaultText>
+      <DefaultText>Il Sacerdote trabocca di potenza e si circonda di un alone soprannaturale. Come incarnazione minore della sua divinità, il Sacerdote ottiene le Ispirazioni &lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Veloce&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Forte&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;In Forma&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Smart"&gt;&lt;#00a4ff&gt;Acuto&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Insightful"&gt;&lt;#ca58ff&gt;Profondo&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Steadfast"&gt;&lt;#30d3d5&gt;Nerbo&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; cosi come un bonus a Salute e al Danno delle Armi.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1358,7 +1386,7 @@
     </Entry>
     <Entry>
       <ID>1739</ID>
-      <DefaultText>Ricopre gli Alleati con una "pelle" di legno protettiva, pervasa da poteri delemgan, che li rende più veloci, meno vulnerabili agli attacchi in Disingaggio e immuni alle alterazioni della Destrezza.</DefaultText>
+      <DefaultText>Ricopre gli Alleati con una "pelle" di legno protettiva, pervasa da poteri delemgan, che li rende più veloci, meno vulnerabili agli attacchi in Disingaggio e Immuni alle &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Alterazioni&#160;della Destrezza &#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1433,7 +1461,7 @@
     </Entry>
 	<Entry>
       <ID>1768</ID>
-      <DefaultText>Evoca uno scintillante muro multicolore che infligge diversi danni e alterazioni a tutti coloro che lo attraversano.</DefaultText>
+      <DefaultText>Evoca uno scintillante muro multicolore che infligge diversi Danni e Alterazioni a tutti coloro che lo attraversano.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1492,6 +1520,11 @@
       <FemaleText />
     </Entry>
 	 <Entry>
+      <ID>1947</ID>
+      <DefaultText>Il Cipher è in grado di usare gli Echi del Tempo per colpire con la sua arma, aumentandone la &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
       <ID>1951</ID>
       <DefaultText>(Contraccolpo Brutale) - Il contraccolpo del Cipher diventa particolarmente traumatico e infligge Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; extra.</DefaultText>
       <FemaleText />
@@ -1528,7 +1561,7 @@
     </Entry>
     <Entry>
       <ID>1981</ID>
-      <DefaultText>Raccogli tutta la tua forza nei tuoi colpi. Ottieni l'ispirazione &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenace &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; per tutta la durata dell'effetto.</DefaultText>
+      <DefaultText>Raccogli tutta la tua forza nei tuoi colpi. Ottieni l'Ispirazione &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenace &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; per tutta la durata dell'effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1618,6 +1651,11 @@ A due mani: Applica &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&g
 A una mano: Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>2039</ID>
+      <DefaultText>(Colpo Sanguifero) - Adesso i nemici colpiti sanguineranno quando si muovono e subiranno Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; a ogni passo.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>2041</ID>
       <DefaultText>(Colpo Debilitante) - I colpi che vanno a segno &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distraggono &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; il bersaglio.</DefaultText>
@@ -1656,6 +1694,11 @@ A una mano: Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprit
     <Entry>
       <ID>2063</ID>
       <DefaultText>Attingendo a riserve di intenso potere spirituale, i barbari sono in grado di spiccare grandi balzi in aria e ricadere sui nemici, lasciandoli &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientati &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>2069</ID>
+      <DefaultText>Aumenta la &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; degli incantesimi del Cipher.</DefaultText>
       <FemaleText />
     </Entry>
    <Entry>
@@ -1777,6 +1820,33 @@ La Sinergia massima diminuisce. (E anche la quantità di Sinergia con cui inizi 
       <FemaleText />
     </Entry>
 	 <Entry>
+      <ID>2255</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Invece di una forma animale, le Furie si trasformano in una Tempesta devastante.
+
+Gli incantesimi elementali del Druido hanno una Portata e una &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; maggiori.
+
+Uccidere un nemico durante la metamorfosi ne aumenta la durata.
+
+Impara automaticamente i seguenti incantesimi di Druido a nuovi Livelli di Potere:
+1. Saette Danzanti 
+2. Scoppio di Fiamma Estiva 
+3. Ritorno della Tempesta 
+4. Grandinata 
+5. Tempesta Incessante 
+6. Lancia del Sole 
+7. Oltre la Tempesta 
+8. Tempesta Vendicativa 
+9. Grande Maelstrom 
+
+&lt;b&gt;Penalità&lt;/b&gt; 
+Impossibile lanciare incantesimi di Ringiovanimento.
+
+Dopo la Metamorfosi e fino al termine del combattimento, il Druido riceve una significante penalità al Livello di Potere dei propri incantesimi di Rinvigorimento. 
+</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
       <ID>2261</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 Ingaggio +1.
@@ -1867,7 +1937,7 @@ Tempo di Recupero maggiore.
 L'Infiltrato e il suo compagno ottengono &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; bonus quando distano l'un l'altro non più di 4 m.
 
 &lt;b&gt;Penalità&lt;/b&gt;
-L'infiltrato e il suo compagno subiscono Vincoli della Pena quando distano l'un l'altro più di 7 m.</DefaultText>
+L'Infiltrato e il suo compagno subiscono Vincoli della Pena quando distano l'un l'altro più di 7 m.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -2051,6 +2121,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <DefaultText>Usa il tuo Scudo piccolo per intercettare meglio gli attacchi e i contrattacchi in mischia con armi, a spese del Tempo di Recupero. Quando manchi il colpo con le armi da mischia, ottieni maggiore &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; nell'attacco con l'arma successiva.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>2534</ID>
+      <DefaultText>Roteando la Sciabola con grandi colpi arcuati, ottieni &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; a spese del Tempo di Recupero.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>2540</ID>
       <DefaultText>Sfrutta la connessione naturale del Druido con lo squalo, consentendogli di assumere temporaneamente tale forma. La Metamorfosi squalo è immune alle &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Alterazioni&#160;della Destrezza &#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
@@ -2117,6 +2192,16 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
 	 <Entry>
+      <ID>2592</ID>
+      <DefaultText>Mira attentamente ai punti deboli dell'armatura del nemico, sacrificando Tempo di Recupero in cambio di una maggiore &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2594</ID>
+      <DefaultText>Colpisci con pesanti attacchi perforanti ottenendo &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; aggiuntiva a spese del Tempo di Recupero.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
       <ID>2596</ID>
       <DefaultText>Dirigi i tuoi attacchi verso il corpo, infliggendo meno Danno, ma diminuendo la &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt; del bersaglio.</DefaultText>
       <FemaleText />
@@ -2169,6 +2254,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     <Entry>
       <ID>2661</ID>
       <DefaultText>Il Cipher sceglie uno Spirito o un Posseduto e cerca di strappargli l'energia dell'anima al suo interno. Tutti gli spiriti o i posseduti, anche quelli accanto al bersaglio, emettono un urlo assordante che &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distrae &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e infligge Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; a chi li circonda.</DefaultText>
+      <FemaleText />
+    </Entry>
+	  <Entry>
+      <ID>2663</ID>
+      <DefaultText>Sblocca i ricordi nascosti nel subconscio della mente e dell’anima di un alleato, garantendogli l'Ispirazione &lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;Brillante &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; per un breve periodo di tempo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2271,6 +2361,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <DefaultText>Rianima un Alleato morto e gli conferisce l'Ispirazione &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robusto &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; per lungo tempo.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>2732</ID>
+      <DefaultText>(Dolore Condiviso) - I nemici nella sua traiettoria sono flagellati e subiscono Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; da sanguinamento a seconda del numero di Ferite del monaco.</DefaultText>
+      <FemaleText />
+    </Entry>
 	<Entry>
       <ID>2738</ID>
       <DefaultText>La &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; del Monaco aumenta leggermente per ogni Ferita che possiede.</DefaultText>
@@ -2301,6 +2396,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <DefaultText>(Snervamento Sconcertante) - Anche i nemici colpiti dal bersaglio &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, diventano &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confusi &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>2775</ID>
+      <DefaultText>Conferisce &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; bonus agli Alleati vicini.</DefaultText>
+      <FemaleText />
+    </Entry>
 	 <Entry>
       <ID>2781</ID>
       <DefaultText>Spezza l'anima del bersaglio causandogli Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo. Gli incantesimi con la parola chiave Brandello usati sul bersaglio causano un'altra frattura, infliggendo immediatamente Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; ed estendendo la durata dell'effetto.</DefaultText>
@@ -2309,6 +2409,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     <Entry>
       <ID>2783</ID>
       <DefaultText>Ossessiona la mente del bersaglio con ricordi oscuri di coloro che ha perso e ucciso, &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrorizzandolo &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppandolo &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>2785</ID>
+      <DefaultText>Ripete gli attacchi di un Alleato con ciascuno dei ricordi della sua anima. Garantisce un significativo bonus alla &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -2453,7 +2558,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>2982</ID>
-      <DefaultText>Congela all'istante tutta l'area circostante, provocando danni, rallentando e immobilizzando chiunque si trovi all'interno.</DefaultText>
+      <DefaultText>Congela all'istante tutta l'area circostante, provocando danni, rallentando e &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilizzando &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; chiunque si trovi all'interno.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -2790,9 +2895,14 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <DefaultText>Genera una raffica di forte vento che infligge Danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;, respinge i nemici e ne riduce l'andatura.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>3862</ID>
+      <DefaultText>Se il Gatto dell'Animanzia ti segue, guadagni un bonus alle capacità Arcana e Metafisica, e tutte le creature evocate dal tuo gruppo guadagnano un bonus a Vigore e &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
    <Entry>
       <ID>3864</ID>
-      <DefaultText>Se Eviee ti segue, guadagni un bonus Risolutezza e una maggior Resistenza alle Alterazioni della Risolutezza. Inoltre, la durata di queste ultime applicate al tuo gruppo si riduce.</DefaultText>
+      <DefaultText>Se Eviee ti segue, guadagni un bonus Risolutezza e una maggior Resistenza alle &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Alterazioni&#160;della Risolutezza &#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;. Inoltre, la durata di queste ultime applicate al tuo gruppo si riduce.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2822,7 +2932,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>3899</ID>
-      <DefaultText>Se Algol ti segue, ogni Alterazione della Costituzione svanisce più rapidamente e i membri del gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
+      <DefaultText>Se Algol ti segue, ogni &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; svanisce più rapidamente e i membri del gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2902,7 +3012,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>4092</ID>
-      <DefaultText>Se il portatore è Sanguinante viene conferita un'Ispirazione della Mente casuale dalla lunga durata.</DefaultText>
+      <DefaultText>Se il portatore è Sanguinante viene conferita un'&lt;link="glossary://GlossaryEntry_Mind_Inspiration"&gt;Ispirazione della Mente&lt;/link&gt; casuale dalla lunga durata.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -3085,6 +3195,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <DefaultText>(Comando dei Perduti) - Ora le anime &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilizzano &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; i nemici nell'area.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>4324</ID>
+      <DefaultText>Gli Attacchi Furtivi causano il sanguinamento del bersaglio provocando Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; fino al termine del combattimento.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>4333</ID>
       <DefaultText>Avevi previsto il tradimento. Quando un qualsiasi membro del gruppo è influenzato da &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charme &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; o &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominazione &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, il portatore riceve le Ispirazioni &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Rapido &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://c2fb23c5-9907-4654-b62e-77adbc37c9bc"&gt;&lt;#ca58ff&gt;Intuitivo &lt;sprite="Inline" name="attribute_perception" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
@@ -3150,6 +3265,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <DefaultText>Un'antica tecnica usata per bilanciare difesa e attacco. Potenzia Danno da mischia e &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; se si impugna uno Scudo.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>4379</ID>
+      <DefaultText>Colpisce con pesanti attacchi estenuanti ottenendo &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; aggiuntiva a spese del Tempo di Recupero.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>4382</ID>
       <DefaultText>Fa roteare la lama con un arco ampio e colpisce tutti i bersagli nelle vicinanze con Danno da &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt;/&lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; mandandoli al tappeto e &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppandoli &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
@@ -3197,7 +3317,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
 	<Entry>
       <ID>4422</ID>
-      <DefaultText>Ottieni &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; aumentata con gli attacchi Corrosivi e di Decadimento.</DefaultText>
+      <DefaultText>Ottieni &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; aumentata con gli attacchi &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosivi&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; e Decadimento.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -3218,6 +3338,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
 	<Entry>
       <ID>4493</ID>
       <DefaultText>Le piastre d'ottone contengono ancora un po' di vita. Aumenta la &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; nei confronti delle armi se il portatore è Sanguinante.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>4505</ID>
+      <DefaultText>Il combattente colpisce il bersaglio con forza devastante, acquisendo una notevole &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; aggiuntiva durante l'attacco.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -3340,9 +3465,15 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <DefaultText>Conferisce &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; bonus se vicino ad Alleati.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>4687</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; aumentata per un breve periodo.</DefaultText>
+      <FemaleText />
+    </Entry>
+	
 	 <Entry>
       <ID>4755</ID>
-      <DefaultText>All'inizio del e solo per il primo attacco con arma combattimento conferisce bonus a &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e al Danno.</DefaultText>
+      <DefaultText>All'inizio del combattimento e solo per il primo attacco con arma conferisce bonus a &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e al Danno.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
