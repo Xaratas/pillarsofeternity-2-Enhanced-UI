@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 0.9-beta.7 -->
-<!-- Game Build 1.2.2.0033 -->
+<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 0.9-beta.8 -->
+<!-- Game Build 2.0.0.0017 -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3320</EntryCount>
+  <EntryCount>3321</EntryCount>
   <Entries>
     <Entry>
       <ID>237</ID>
@@ -1212,6 +1212,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1543</ID>
+      <DefaultText>&lt;line-height=100%&gt;The caster calls forth a tremendous bolt of electricity that arcs directly to a single target and then jumps between several nearby enemies, dealing &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; damage. Others in the area of effect are not harmed by the arcane lightning.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1569</ID>
       <DefaultText>&lt;line-height=100%&gt;The rogue performs a Primary Attack that leaves the target &lt;link="glossary://GlossaryEntry_Confused"&gt;&lt;#00a4ff&gt;Confused&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Hobbled"&gt;&lt;#72da26&gt;Hobbled&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
@@ -2236,6 +2241,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2761</ID>
+      <DefaultText>&lt;line-height=100%&gt;(Perplexing Sap) - Enemies that the target strikes in confusion can now also become &lt;link="glossary://GlossaryEntry_Confused"&gt;&lt;#00a4ff&gt;Confused&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2775</ID>
       <DefaultText>&lt;line-height=100%&gt;Grants nearby allies bonus &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
@@ -2601,6 +2611,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3762</ID>
+      <DefaultText>&lt;line-height=100%&gt;While the wisp is following you around, &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you have a reduced duration and all party members are more accurate in their attacks against Spirits.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3764</ID>
       <DefaultText>&lt;line-height=100%&gt;Cone attack that sends targets flying backward with a chance to &lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stun&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
@@ -2838,8 +2853,23 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4144</ID>
+      <DefaultText>&lt;line-height=100%&gt;Allows the wielder to break Engagement and teleport a short distance, &lt;link="glossary://GlossaryEntry_Blinded"&gt;&lt;#ca58ff&gt;Blinding&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; anyone in a small area.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4145</ID>
       <DefaultText>&lt;line-height=100%&gt;Aura that clouds the minds of nearby allies, making them more susceptible to &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4151</ID>
+      <DefaultText>&lt;line-height=100%&gt;During the day, wielder receives increased Power Level for &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Fire&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; attacks.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4152</ID>
+      <DefaultText>&lt;line-height=100%&gt;During the night, wielder receives increased Power Levels for &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Frost&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; attacks.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
