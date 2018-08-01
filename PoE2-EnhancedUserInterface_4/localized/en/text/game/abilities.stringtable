@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3320</EntryCount>
+  <EntryCount>3321</EntryCount>
   <Entries>
     <Entry>
       <ID>237</ID>
@@ -77,6 +77,11 @@
     <Entry>
       <ID>272</ID>
       <DefaultText>Eats away at the target's spirit, inflicting &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrosive damage and converting that essence into &lt;sprite="Inline" name="cs_health" tint=1&gt; Health for the caster.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>274</ID>
+      <DefaultText>Caster becomes a living generator for a powerful bolt of electricity that streaks out in a straight line and bounces off of walls, causing &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock damage to anything caught in its path.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -721,7 +726,7 @@
     </Entry>
     <Entry>
       <ID>1041</ID>
-      <DefaultText>Fight in a close quarters style, using your blade to penetrate armor more effectively at the cost of a lower &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;.</DefaultText>
+      <DefaultText>Fight in a close quarters style, using your blade to &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrate armor more effectively at the cost of a lower &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -847,6 +852,11 @@
     <Entry>
       <ID>1478</ID>
       <DefaultText>This spell inflicts a heavy amount of &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage to the target. Any non-Spirit felled by the attack will summon a Spectre under the caster's control.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1543</ID>
+      <DefaultText>The caster calls forth a tremendous bolt of electricity that arcs directly to a single target and then jumps between several nearby enemies, dealing &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock damage. Others in the area of effect are not harmed by the arcane lightning.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1433,6 +1443,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>2721</ID>
       <DefaultText>The cipher's spells that target &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt; convert some of their Hits to Crits.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2730</ID>
+      <DefaultText>Taking careful position behind the large shield significantly reduces incoming ranged weapon damage as well as damage from attacks that target &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;. While active you are unable to move.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

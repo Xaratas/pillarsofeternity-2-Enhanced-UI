@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3320</EntryCount>
+  <EntryCount>3321</EntryCount>
   <Entries>
     <Entry>
       <ID>237</ID>
@@ -117,6 +117,11 @@
     <Entry>
       <ID>272</ID>
       <DefaultText>Eats away at the target's spirit, inflicting &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrosive damage and converting that essence into &lt;sprite="Inline" name="cs_health" tint=1&gt; Health for the caster.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>274</ID>
+      <DefaultText>Caster becomes a living generator for a powerful bolt of electricity that streaks out in a straight line and bounces off of walls, causing &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock damage to anything caught in its path.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1011,7 +1016,7 @@
     </Entry>
     <Entry>
       <ID>1041</ID>
-      <DefaultText>Fight in a close quarters style, using your blade to penetrate armor more effectively at the cost of a lower &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;.</DefaultText>
+      <DefaultText>Fight in a close quarters style, using your blade to &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrate armor more effectively at the cost of a lower &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1202,6 +1207,11 @@
     <Entry>
       <ID>1480</ID>
       <DefaultText>Named for the eccentric Aedyran wizard Tayn, the chaotic orb bounces between a number of enemies, dealing damage and inflicting a variety of negative Afflictions including Petrified, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzed &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Weakened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stunned &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, and &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinded &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1543</ID>
+      <DefaultText>The caster calls forth a tremendous bolt of electricity that arcs directly to a single target and then jumps between several nearby enemies, dealing &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock damage. Others in the area of effect are not harmed by the arcane lightning.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2194,6 +2204,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2730</ID>
+      <DefaultText>Taking careful position behind the large shield significantly reduces incoming ranged weapon damage as well as damage from attacks that target &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;. While active you are unable to move.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2732</ID>
       <DefaultText>(Shared Pain) - Enemies in the path are flagellated, suffering a &lt;sprite="Inline" name="cs_raw" tint=1&gt; raw damage bleed effect based on the number of Wounds the monk has.</DefaultText>
       <FemaleText />
@@ -2221,6 +2236,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>2760</ID>
       <DefaultText>(Enduring Shadows) - The invisibility lasts much longer and grants the &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Swift &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; Inspiration.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2761</ID>
+      <DefaultText>(Perplexing Sap) - Enemies that the target strikes in confusion can now also become &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2589,6 +2609,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3762</ID>
+      <DefaultText>While the wisp is following you around, &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect Afflictions &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you have a reduced duration and all party members are more accurate in their attacks against Spirits.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3764</ID>
       <DefaultText>Cone attack that sends targets flying backward with a chance to &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stun &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
@@ -2823,6 +2848,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>4140</ID>
       <DefaultText>Gain Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while Unharmed or &lt;sprite="Inline" name="cs_health" tint=1&gt; Healthy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4144</ID>
+      <DefaultText>Allows the wielder to break Engagement and teleport a short distance, &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinding &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; anyone in a small area.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

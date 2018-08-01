@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3320</EntryCount>
+  <EntryCount>3321</EntryCount>
   <Entries>
     <Entry>
       <ID>237</ID>
@@ -2164,6 +2164,11 @@ Trotz dieser Vorteile bringt diese Beziehung auch gewisse Risiken mit sich. Wald
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2730</ID>
+      <DefaultText>Das Einnehmen einer vorsichtigen Position hinter dem großen Schild reduziert den erhaltenen Schaden von Fernkampfwaffen wie auch von Angriffen, die auf &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; zielen. Wenn dies aktiv ist, kannst du dich nicht bewegen.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2732</ID>
       <DefaultText>(Geteilter Schmerz) – Gegner, die im Weg stehen, werden gegeißelt und erleiden blutenden &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden basierend auf der Anzahl an Wunden, die der Mönch hat.</DefaultText>
       <FemaleText />
@@ -2191,6 +2196,11 @@ Trotz dieser Vorteile bringt diese Beziehung auch gewisse Risiken mit sich. Wald
     <Entry>
       <ID>2760</ID>
       <DefaultText>(Beständige Schatten) – Die Unsichtbarkeit hält wesentlich länger an und gewährt die Inspiration &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Schwungvoll &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2761</ID>
+      <DefaultText>(Ansteckende Verwirrung) – Gegner, die das Ziel trifft, während es &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; ist, können nun auch &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; werden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2559,6 +2569,11 @@ Trotz dieser Vorteile bringt diese Beziehung auch gewisse Risiken mit sich. Wald
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3762</ID>
+      <DefaultText>Während das Irrlicht dir folgt, haben &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellektwirkungen &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; auf dich eine kürzere Dauer und alle Gruppenmitglieder haben erhöhte &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit bei ihren Angriffen gegen Geister.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3764</ID>
       <DefaultText>Kegelförmiger Angriff, der seine Ziele wegschleudert und sie möglicherweise &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubt &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
@@ -2783,6 +2798,11 @@ Trotz dieser Vorteile hat diese Beziehung auch Risiken. Waldläufer sind buchst�
     <Entry>
       <ID>4140</ID>
       <DefaultText>Gewährt Resistenz gegen &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Verfassungswirkungen &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; im Unverletzten und Gesunden Zustand.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4144</ID>
+      <DefaultText>Erlaubt es dem Träger, die Angriffsbindung zu brechen und sich über eine kurze Distanz zu teleportieren. Dabei wird jeder im Zielbereich g&lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;eblendet &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3182,7 +3202,7 @@ Trotz dieser Vorteile hat diese Beziehung auch Risiken. Waldläufer sind buchst�
     </Entry>
     <Entry>
       <ID>4781</ID>
-      <DefaultText>(Großes Flammenschild) - Der &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert erhöht sich weiter. Ebenso vergrößert sich der &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden des Gegenschlags.</DefaultText>
+      <DefaultText>(Großes Flammenschild) – Der &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert erhöht sich weiter. Ebenso vergrößert sich der &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden des Gegenschlags.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

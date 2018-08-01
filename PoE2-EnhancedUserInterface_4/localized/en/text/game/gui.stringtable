@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\gui</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>4406</EntryCount>
+  <EntryCount>4419</EntryCount>
   <Entries>
     <Entry>
       <ID>140</ID>
@@ -110,6 +110,26 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1108</ID>
+      <DefaultText>{0} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1109</ID>
+      <DefaultText>{0} &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1110</ID>
+      <DefaultText>{0} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1111</ID>
+      <DefaultText>{0} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1124</ID>
       <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy against Disengaging enemies</DefaultText>
       <FemaleText />
@@ -202,18 +222,8 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1658</ID>
-      <DefaultText>Disarm Difficulty {0} Traps, Pick Difficulty {1} Locks, {2} Trap &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1676</ID>
       <DefaultText>{0} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; while wielding a two-handed weapon</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1685</ID>
-      <DefaultText>{0} Trap &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
