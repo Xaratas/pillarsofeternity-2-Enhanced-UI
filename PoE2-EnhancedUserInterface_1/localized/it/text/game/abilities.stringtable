@@ -117,6 +117,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>274</ID>
+      <DefaultText>Il lanciatore diventa un generatore vivente e scaglia un potente dardo elettrico che procede in linea retta e poi rimbalza sulle pareti, applicando Danno da &lt;sprite="Inline" name="cs_shock" tint=1&gt; Folgorazione a chiunque incontri sul proprio percorso.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>275</ID>
       <DefaultText>Svela a tutti le vulnerabilità dei nemici causando Arresto e riducendone &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno e &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; .</DefaultText>
       <FemaleText />
@@ -1162,6 +1167,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1543</ID>
+      <DefaultText>Il lanciatore evoca una spaventosa saetta di Elettricità che piomba direttamente su un bersaglio singolo e poi salta sui nemici circostanti, fino a un massimo di sei, provocando Danno da &lt;sprite="Inline" name="cs_shock" tint=1&gt; Folgorazione . Gli altri personaggi presenti nell'Area d'Effetto non vengono danneggiati da questo fulmine arcano.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1569</ID>
       <DefaultText>Il Ladro sferra un attacco Primario che lascia il bersaglio &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppato &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; .</DefaultText>
       <FemaleText />
@@ -1481,6 +1491,11 @@ A una mano: Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro nel tempo</
     <Entry>
       <ID>2063</ID>
       <DefaultText>Attingendo a riserve di intenso potere spirituale, i barbari sono in grado di spiccare grandi balzi in aria e ricadere sui nemici, lasciandoli &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientati &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2074</ID>
+      <DefaultText>(Ira dei Cinque Soli) - Il Paladino lancia cinque proiettili ardenti dalla mano verso l'obiettivo della sua furia legittima causando Danno da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2078,6 +2093,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2761</ID>
+      <DefaultText>(Snervamento Sconcertante) - Anche i nemici colpiti dal bersaglio &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; , diventano &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confusi &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2781</ID>
       <DefaultText>Spezza l'anima del bersaglio causandogli Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro nel tempo. Gli incantesimi con la parola chiave Brandello usati sul bersaglio causano un'altra frattura, infliggendo immediatamente Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro ed estendendo la durata dell'effetto.</DefaultText>
       <FemaleText />
@@ -2428,6 +2448,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3762</ID>
+      <DefaultText>Quando il Fuoco Fatuo ti segue, l'effetto delle &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Alterazioni dell'Acume &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;  si esaurisce prima e tutti i membri del gruppo lanciano attacchi più precisi contro gli spiriti.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3764</ID>
       <DefaultText>Attacco a cono che fa volare all'indietro i bersagli con una possibilità di &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordimento &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
@@ -2655,8 +2680,18 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4144</ID>
+      <DefaultText>Consente al portatore di interrompere l'Ingaggio e di teletrasportarsi a breve distanza, &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Accecando &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; chiunque si trovi nelle immediate vicinanze.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4145</ID>
       <DefaultText>Aura che annebbia le menti degli Alleati nelle vicinanze, rendendoli più sensibili alle &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Alterazioni dell'Acume &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4152</ID>
+      <DefaultText>Durante la notte, il portatore riceve un Livello di Potere superiore per gli attacchi da &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Congelamento .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

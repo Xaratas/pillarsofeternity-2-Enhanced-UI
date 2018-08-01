@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3320</EntryCount>
+  <EntryCount>3321</EntryCount>
   <Entries>
     <Entry>
       <ID>237</ID>
@@ -1396,6 +1396,11 @@ Trotz dieser Vorteile bringt diese Beziehung auch gewisse Risiken mit sich. Wald
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2730</ID>
+      <DefaultText>Das Einnehmen einer vorsichtigen Position hinter dem großen Schild reduziert den erhaltenen Schaden von Fernkampfwaffen wie auch von Angriffen, die auf &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; zielen. Wenn dies aktiv ist, kannst du dich nicht bewegen.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2732</ID>
       <DefaultText>(Geteilter Schmerz) – Gegner, die im Weg stehen, werden gegeißelt und erleiden blutenden &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden basierend auf der Anzahl an Wunden, die der Mönch hat.</DefaultText>
       <FemaleText />
@@ -1668,6 +1673,11 @@ Trotz dieser Vorteile bringt diese Beziehung auch gewisse Risiken mit sich. Wald
     <Entry>
       <ID>3758</ID>
       <DefaultText>Während Concelhauts Schädel dir folgt, erhält deine Gruppe einen Bonus auf den ausgeteilten &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3762</ID>
+      <DefaultText>Während das Irrlicht dir folgt, haben Intellektwirkungen auf dich eine kürzere Dauer und alle Gruppenmitglieder haben erhöhte &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit bei ihren Angriffen gegen Geister.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2084,7 +2094,7 @@ Trotz dieser Vorteile hat diese Beziehung auch Risiken. Waldläufer sind buchst�
     </Entry>
     <Entry>
       <ID>4781</ID>
-      <DefaultText>(Großes Flammenschild) - Der &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert erhöht sich weiter. Ebenso vergrößert sich der &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden des Gegenschlags.</DefaultText>
+      <DefaultText>(Großes Flammenschild) – Der &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert erhöht sich weiter. Ebenso vergrößert sich der &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden des Gegenschlags.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
