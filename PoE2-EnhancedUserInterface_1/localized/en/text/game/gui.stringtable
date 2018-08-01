@@ -40,6 +40,16 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>391</ID>
+      <DefaultText>&lt;line-height=100&gt;&lt;#157245&gt;{0} reputation gained&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>392</ID>
+      <DefaultText>&lt;line-height=100&gt;&lt;#bf2a2a&gt;{0} reputation lost&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>469</ID>
       <DefaultText>Resolve contributes towards reducing Hostile Effect Durations, as well as improving &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt; and &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; defenses. It reflects a character's internal drive, determination, and fearlessness.
 
@@ -455,6 +465,16 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     <Entry>
       <ID>3938</ID>
       <DefaultText>{0:Value} {0:DamageType} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4756</ID>
+      <DefaultText>&lt;line-height=100&gt;&lt;#157245&gt;{0} {1} reputation gained with {2}.&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4757</ID>
+      <DefaultText>&lt;line-height=100&gt;&lt;#bf2a2a&gt;{0} {1} reputation lost with {2}.&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
