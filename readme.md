@@ -1,18 +1,103 @@
 #### Pillars of Eternity 2
 # Enhanced User Interface
+*The Enhanced User Interface mod aims to improve the standard user interface by highlighting gameplay mechanics such as afflictions and inspirations, damage and defense keywords and much more. In total 1057 ability, item or UI entries have been modified to enhance the user experience and to make some fairly opaque game mechanics a bit more transparent.*
 
-**Credits:**\
-English: *Spherikal*\
-German: *Xaratatas*\
-Italian: *Kilay*\
-Korean: *Xinkle*\
-Russian: *phenomenum*
+### Credits
+&nbsp;&nbsp;**Spherikal**\
+&nbsp;&nbsp;<sup>Editor and Concept Designer</sup>\
+&nbsp;&nbsp;**Xaratatas**\
+&nbsp;&nbsp;<sup>Programmer and German Translator</sup>\
+&nbsp;&nbsp;**Kilay**\
+&nbsp;&nbsp;<sup>Killer of Bugs and Italian Translator</sup>\
+&nbsp;&nbsp;**Xinkle**\
+&nbsp;&nbsp;<sup>Korean Translator</sup>\
+&nbsp;&nbsp;**phenomenum**\
+&nbsp;&nbsp;<sup>Russian Translator</sup>
 
-## What does this mod do?
+***
 
-This mod aims to improve the standard user interface by highlighting gameplay mechanics such as afflictions and inspirations, damage and defense keywords and much more. In total 1057 ability, item or UI entries have been modified to enhance the user experience and to make some fairly opaque game mechanics a bit more transparent.
+## Table of Contents
+- [Mod Versions](#github-contents)
+- [Installation](#installation)
+- [Contents of this Git](#contents-of-this-git)
+- [Modding Resources](wiki)
+- [Changelog](changelog.md)
 
-## Contents of this git
+***
+
+## Mod Versions
+##### MAIN FILES
+- **Enhanced User Interface** (Recommended)\
+&nbsp;&nbsp;This version includes _**all**_ currently implemented features.\
+&nbsp;&nbsp;For a full list of implemented features please [click here](#implemented-features).\
+&nbsp;&nbsp;<sup>**Language support:** English, German and Italian.</sup>
+
+##### OPTIONAL FILES
+
+- **Afflictions and Inspirations** (Stand-alone package)\
+&nbsp;&nbsp;Use this version if you _**only**_ want icons, colorization and rank indicators for afflictions and inspirations.\
+&nbsp;&nbsp;<sup>**Language support:** English, German and Italian.</sup>
+
+- **Damage and Defense Icons** (Stand-alone package)\
+&nbsp;&nbsp;Use this version if you _**only**_ want the Accuracy, Health, Damage and Defense icons.\
+&nbsp;&nbsp;<sup>**Language support:** English, German and Italian.</sup>
+
+- **Afflictions and Inspirations + Damage and Defense Icons** (Combined package)\
+&nbsp;&nbsp;This version contains _**both**_ the *Damage and Defense* package as well as the *Afflictions & Inspirations* package.\
+&nbsp;&nbsp;Use this version if you *only* want those features and aren't interested in any additional features.\
+&nbsp;&nbsp;<sup>**Language support:** English, German and Italian.</sup>
+
+***
+
+## Installation
+
+1. Manually download the mod.
+2. Go to your `Pillars of Eternity II\PillarsOfEternityII_Data\` directory.
+3. Look for (or create) an `override` folder in your `PillarsOfEternityII_Data` directory.
+The correct file path should look like this: `Pillars of Eternity II\PillarsOfEternityII_Data\override`
+4. Extract the `PoE2-EnhancedUserInterface` folder into your `override` folder (folder name may vary depending on what mod version you picked).
+5. Make sure that you don't need to download any additional files (only relevant if you're playing in *German*, *Korean* or *Russian*, see [dependencies](#dependencies) down below).
+6. All done, you can now safely launch the game.
+
+Once extracted the folder structure should look like this:
+```
+Pillars of Eternity II
+└─ PillarsOfEternityII_Data
+   └─ override
+      └─ PoE2-EnhancedUserInterface
+         ├─ localized
+         │  └─ en
+         │     └─ text
+         │        └─ game
+         │           ├─ abilities.stringtable
+         │           ├─ cyclopedia.stringtable
+         │           ├─ gui.stringtable
+         │           ├─ items.stringtable
+         │           ├─ recipes.stringtable
+         │           └─ statuseffects.stringtable
+         ├─ EnhancedUI-NewKeywords.gamedatabundle
+         ├─ manifest.json
+         └─ thumb.png
+```
+
+Please note that this example only includes the English language pack (`en`). Once installed your `localized` folder will include all languange packs, namely: `de_patch` (German language pack), `it` (Italian language pack), `kr` (Korean language pack) and `ru` (Russian language pack).
+
+### Dependencies
+Some languages requires additional downloads in order for this mod to work, if you are playing in the following languages please download the following external files:
+
+&nbsp;&nbsp;**German**\
+&nbsp;&nbsp;German players are *required* to download the [Corrected German Translation](https://www.nexusmods.com/pillarsofeternity2/mods/5) mod in order for this mod to work.
+
+&nbsp;&nbsp;**Korean**\
+&nbsp;&nbsp;For Korean you need the full set of Korean language files.*\
+&nbsp;&nbsp;<sup>*Not included in purchases made on Steam, GoG or the AppStore.</sup>
+
+&nbsp;&nbsp;**Russian**\
+&nbsp;&nbsp;For Russian translation use the full language pack.
+
+***
+
+### Contents of this Git
 - `PoE2-EnhancedUserInterface` -> all user modified baselines (`en`, `it`, `ru` and `kr`) except `de_patch`, this has it's own repo [here](https://github.com/AurelioSilver/pillarsofeternity-2-german-patch).
 - `PoE2-EnhancedUserInterface_defenses` -> Autogenerated by tool, Defense and Damagetype Icons only
 - `PoE2-EnhancedUserInterface_inspiration` -> Autogenerated by tool, Inspirations and Afflictions only
@@ -21,100 +106,3 @@ This mod aims to improve the standard user interface by highlighting gameplay me
 Subfolders with a 2 in their name are from the tool if there is a community driven baseline.
 
 Tool is [here](https://github.com/AurelioSilver/pillarsofeternity-2-german-patch/tree/master/translation_helper/PoE2%20-%20eclipse%20project%20text%20normalisierer)
-
-
-## Latest news:
-### Upcoming feature: new enchanting icons for weapons and armor
-**7th of July 2018**\
-Armor and weapon enchants will now have a icon next to their text in order to make it easier for the user to determine which upgrades are exclusive to each other.
-
-**In-game example:**
-
-![Example of what the icons will look like in-game](https://i.imgur.com/KSzXXnI.jpg)
-
-***
-
-### A big mod update (and a new game patch)!
-**28th of June 2018**\
-Obsidian Entertainment just released a beta version of the [1.2.0.0008](https://forums.obsidian.net/topic/103043-patch-120-updates-thread/) game build! There are a lot of cool new features that you should be really excited about, like the [modding documentation](https://eternity.obsidian.net/game-data-formats/concepts) or the fact that we now got a built-in mod manager!
-
-Anyway, I squished a few bugs and added a few missing features to the mod which can be read below:
-#### Mod version 0.6.0
-- Removed a duplicated `line-height` tag in ID 564 (abilities.stringtable).
-- Added the "Penetrate" keyword to 32 new entries (abilities.stringtable).
-- Added the keyword "Armor Rating" to 14 new entries (abilities.stringtable).
-- Removed ID incorrectly applied text stylization to ID 607, 631, 643, 811, 1573, 1962, 1964, 1967, 1968, 2271, 2896, 2898, 2900 and 2902 (abilities.stringtable).
-- Added missing keywords to ID's 614, 831, 925, 2039, 2663, 2732, 3923, 4092, 4166 and 4774 (abilities.stringtable).
-- Might inspiration Energized should now have the correct color code (abilities.stringtable).
-- Fixed broken links to glossary entry `Terrified` (abilities.stringtable).
-- Added missing `line-height` tag in ID `679 (cyclopedia.stringtable).
-- Added support for the keywords `Armor Rating` and `Penetrate (cyclopedia.stringtable).
-- Added a lot of missing entries (gui.stringtable).
-- Added a few missing font tags to multiple entries (items.stringtable).
-- Added missing `line-height` tags (statuseffects.stringtable).
-- Fixed a few incorrectly applied font stylizations (statuseffects.stringtable).
-
-The latest patch notes can always be found [here](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/beta/changelog.md#changelog).
-
-### Mod version 0.4 is released (and the mod changes name)
-**19th of June 2018**\
-To the great dismay of my fellow co-modders/translators, I am sure, I've just put the finishing touches to the latest version of this mod. The beta version will only be available in English for now but hopefully we'll see German and Italian language support coming shortly!
-
-**New features in mod version 0.4:**\
-* Better rank indicators for afflictions and inspirations (all afflictions should now have something similar to subscript numbers next to their icons).
-* New cyclopedia entries and tooltips for all damage types (courtesy of the brilliant modder [kilay](https://forums.nexusmods.com/index.php?/user/26711484-kilay/).
-* Added color to reputation gains in the chat window (colors are not final yet).
-* Defensive stats (Will, Fortitude, Deflection and Reflex) now have a colorized icon:
-
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![alt text](https://i.imgur.com/JFoMw5O.png "Defense icons")
-
-* Affliction and inspiration tooltips now have a more aesthetically pleasing
-appearance mirroring some elements of the standard UI.
-* Lots and lots of bug fixes.
-
-**Regarding the name change:**\
-Due to the fact that this mod has grown quite far beyond the initial scope of only colorizing afflictions and inspirations it felt quite natural to drop the **Affliction and Inspiration** name in favor of the already half-established **Enhanced User Interface** which I feel is a more accurate representation of what this mod aims to accomplish. I've found some [interesting information](http://digitalnativestudios.com/textmeshpro/docs/rich-text/) regarding styling of `.stringtable` files so expect some cool new features in the future!
-
-/Spherikal
-
-***
-
-### German is in!  de_patch translation pack added!
-**11th of June 2018**\
-After much tweaking and rewriting of the German translation the icons are in. Starting with version 0.3.0 you can get the visible hint together with the German translation fix: [Corrected German translation](https://www.nexusmods.com/pillarsofeternity2/mods/5)
-
-The dependency is necessary!
-
-**Deutsch:**\
-Nach langem anpassen der deutschen Übersetzung sind die Icons ab Version 0.3.0 auch in der korrigierten, deutschen Version enthalten.
-Der Mod [Corrected german translation](https://www.nexusmods.com/pillarsofeternity2/mods/5) wird zwingend benötigt!
-
-/Xaratas
-
-***
-
-### Over 200 new entries added to mod version 0.2.3
-**11th of June 2018**\
-This mod version is trying something a little bit different. I have added icons for defensive stats (Fortification, Toughness, Reflexes and Will), offensive weapon types (Slash, Pierce, Crush and Raw) and spell damage (Frost, Burning, Shock and Corrosive).
-
-![alt text](https://i.imgur.com/p4XGP1G.png "Damage icons")
-
-It is **strongly** advised that you use the latest game version (1.1.0.00035) when using this mod.
-
-***
-
-### Italian translation pack added!
-**10th of June 2018**\
-Thanks to [kilay](https://forums.nexusmods.com/index.php?/user/26711484-kilay/) we now have support for the Italian version of the game! Not only did he translate the mod, he also improved upon some parts of the game where the translation didn't really make any sense.
-
-***
-
-### Patch 1.1.0.0035 is here!
-**10th of June 2018**\
-The patch we've all been waiting for has arrived (albeit only on the beta branch so far) and with it comes loads of changes to different abilities and classes. Don't worry though, we got you covered with a new version of the mod (v. 0.2.2-beta) which includes all the balancing changes in the patch. You can read more about the patch [here](https://forums.obsidian.net/topic/101944-patch-notes-for-1100035/). It's well worth a read, there are some massive changes in this patch!
-
-***
-
-### Xaratas joins the team!
-**3rd of June 2018**\
-I would like to welcome **Xaratas** to the mod development team (check out his outstanding mod [Corrected German Translation](https://www.nexusmods.com/pillarsofeternity2/mods/5))! I think Xaratas will be a great addition to to the mod and that we'll see some really cool stuff down the line (especially for people interested in translating the mod to other languages).
