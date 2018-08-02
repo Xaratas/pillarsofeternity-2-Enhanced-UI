@@ -2,11 +2,11 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>524</EntryCount>
+  <EntryCount>527</EntryCount>
   <Entries>
     <Entry>
       <ID>77</ID>
-      <DefaultText>Chance, bei einem kritischen Treffer beim Ziel über einen Zeitraum von 12,0 Sekunden &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpelnd &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, Niedergestreckt oder &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden zu verursachen – oder eine Verringerung der Aktionsgeschwindigkeit um 25 %</DefaultText>
+      <DefaultText>Chance, bei einem kritischen Treffer beim Ziel &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpelnd &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, Niedergestreckt, &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit für 12,0 Sekunden zu verursachen – oder eine Verringerung der Aktionsgeschwindigkeit um 25 %</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -15,8 +15,23 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>271</ID>
+      <DefaultText>Wenn das Ziel mit einer &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Entschlossenheitswirkung &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; belegt ist, füge bei einem erzielten kritischen Treffer alle {0:extravalue:duration} für die Dauer von {0:value:duration} &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden zu</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>280</ID>
+      <DefaultText>{0:value} alle Verteidigungen gegen &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheitswirkung &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;s-Angriffe, solange die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit über 75 % liegt</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>284</ID>
       <DefaultText>Chance, dass das Ziel bei einem kritischen Treffer für 12,0 Sekunden &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;erkrankt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;. &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt; wirkt dem entgegen.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>401</ID>
+      <DefaultText>Immun gegen &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Entschlossenheitswirkungen &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; wenn unter {0:extravalue:percent} &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

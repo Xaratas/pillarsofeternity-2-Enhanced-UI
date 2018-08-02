@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>524</EntryCount>
+  <EntryCount>527</EntryCount>
   <Entries>
     <Entry>
       <ID>0</ID>
@@ -71,7 +71,7 @@
     </Entry>
     <Entry>
       <ID>77</ID>
-      <DefaultText>Chance, bei einem kritischen Treffer beim Ziel über einen Zeitraum von 12,0 Sekunden &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpelnd &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, Niedergestreckt oder direkten Schaden zu verursachen – oder eine Verringerung der Aktionsgeschwindigkeit um 25 %</DefaultText>
+      <DefaultText>Chance, bei einem kritischen Treffer beim Ziel &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Humpelnd &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, Niedergestreckt, direkten Schaden über Zeit für 12,0 Sekunden zu verursachen – oder eine Verringerung der Aktionsgeschwindigkeit um 25 %</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -82,6 +82,11 @@
     <Entry>
       <ID>86</ID>
       <DefaultText>Angriffe unter Einsatz von Heimlichkeit &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäuben &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; das Ziel.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>101</ID>
+      <DefaultText>Verringert den Schaden auf {0:value:percent} wenn Flankiert oder von &lt;link="glossary://GlossaryEntry_Body_Affliction"&gt;Körperwirkungen&lt;/link&gt; betroffen</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -146,7 +151,7 @@
     </Entry>
     <Entry>
       <ID>241</ID>
-      <DefaultText>50 % Chance, den Angreifer für 10,0 Sekunden zu &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;blenden, &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; wenn mit einem Blick-Angriff verfehlt </DefaultText>
+      <DefaultText>50 % Chance, den Angreifer für 10,0 Sekunden zu &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;blenden &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, wenn mit einem Blick-Angriff verfehlt </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -180,6 +185,26 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>270</ID>
+      <DefaultText>Wenn das Ziel mit einer &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Entschlossenheitswirkung &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; belegt ist, besteht eine Chance von {0:value:percent}, beim Erzielen eines Treffers das Ziel zu unterbrechen</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>271</ID>
+      <DefaultText>Wenn das Ziel mit einer &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Entschlossenheitswirkung &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; belegt ist, füge bei einem erzielten kritischen Treffer alle {0:extravalue:duration} für die Dauer von {0:value:duration} direkten Schaden zu</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>274</ID>
+      <DefaultText>&lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Lähmt &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; das Ziel für {0:value:duration} bei einem kritischen Treffer</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>280</ID>
+      <DefaultText>{0:value} alle Verteidigungen gegen &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheitswirkung &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;s-Angriffe, solange die Gesundheit über 75 % liegt</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>284</ID>
       <DefaultText>Chance, dass das Ziel bei einem kritischen Treffer für 12,0 Sekunden &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;erkrankt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;. Tapferkeit wirkt dem entgegen.</DefaultText>
       <FemaleText />
@@ -210,6 +235,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>381</ID>
+      <DefaultText>{0:value:percent} Chance auf zufällige &lt;link="glossary://GlossaryEntry_Mind_Affliction"&gt;Geisteswirkung&lt;/link&gt; beim Ziel für {0:extravalue:duration} beim Erzielen eines kritischen Treffers</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>392</ID>
       <DefaultText>Strahlenkranz der Seele verleiht für kurze Zeit die Inspirationen &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Klug &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;</DefaultText>
       <FemaleText />
@@ -225,6 +255,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>401</ID>
+      <DefaultText>Immun gegen &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Entschlossenheitswirkungen &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; wenn unter {0:extravalue:percent} Gesundheit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>413</ID>
       <DefaultText>Gewährt die Inspiration &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Klug &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; für sich selbst und die Wirkung &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; auf einen Gegner für {0:value:duration}, wenn man im Kampf zum ersten Mal angegriffen wird.</DefaultText>
       <FemaleText />
@@ -236,7 +271,7 @@
     </Entry>
     <Entry>
       <ID>446</ID>
-      <DefaultText>Erlittene kritische Treffer von Nahkampfwaffen lässt Angreifer &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; werden (verbessert sich bei kritischem Treffer zu &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Bezaubert &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;)</DefaultText>
+      <DefaultText>Erlittene kritische Treffer durch Nahkampfangriffe haben eine {0:value:percent} Chance, dass sie beim Angreifer den Effekt &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; auslösen (Verbessert sich bei kritischem Erfolg zu &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Bezaubert &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -275,8 +310,28 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>507</ID>
+      <DefaultText>{0:value:percent} Chance, das Ziel bei einem Treffer für {0:extravalue:duration} zu &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäuben &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>508</ID>
+      <DefaultText>{0:value:percent} Chance, das Ziel bei einem Treffer für {0:extravalue:duration} zu &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäuben &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, wenn derjenige, der die Waffe führt, ein Zwerg ist</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>512</ID>
       <DefaultText>{0:value:percent} Chance, bei einem Treffer für {0:extravalue:duration} &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; auf sich selbst zu wirken</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>535</ID>
+      <DefaultText>{0:value:percentbonus} Dauer feindliche &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheits- &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;Wirkung</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>588</ID>
+      <DefaultText>Gewährt die Inspiration &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Aufmerksam &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; für {0:value:duration}, wenn ein naher Verbündeter einen Feind tötet.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

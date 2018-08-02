@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\gui</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>4432</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>1236</ID>
+      <DefaultText>{0} Schaden gegen Niedergestreckte, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;&lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Betäubte &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, Flankierte Feinde</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2314</ID>
+      <DefaultText>Mindestschaden gegen &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;&lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrte &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;&lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Bezauberte &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;&lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Beherrschte &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; Charaktere</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2815</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Raserei gewährt die Inspirationen &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;&lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Hartnäckig &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;&lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Zäh &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; anstelle von &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Stark &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; und &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;&lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.
+
+Gewährt während der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen.
+
+&lt;b&gt;Abzug&lt;/b&gt;
+Während Raserei ist man &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;&lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Verwirrt &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.
+
+Während der Raserei kann die Gesundheit nicht gesehen werden.
+
+Während der Raserei wird fortwährend direkter Schaden erlitten.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2837</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Gewährt Flammen der Hingabe.
+
+Die Flammen der Hingabe verursachen zusätzlichen Zersetzungsschaden (Schwarze Flammen) und verursachen bei den Zielen die Wirkung &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;&lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Erkrankt &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2858</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Erhält erhöhte Kraftstufe bei Verzauberungszaubern.
+
+Erhält die passive Fähigkeit „Freie Handlung“: Wenn der Zauberer von einer &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheits- &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;Wirkung betroffen ist, macht er sich ein Mal pro Begegnung von diesem Effekt frei und wird vorübergehend immun gegen &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheits- &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;Wirkungen.
+
+&lt;b&gt;Abzug&lt;/b&gt;
+Verliert Zugang zu Zaubern der Illusions- und Transmutationsschulen.
+
+Erhöhte Erholungszeit für Zaubersprüche, die nicht der Verzauberungsschule zugeordnet sind.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

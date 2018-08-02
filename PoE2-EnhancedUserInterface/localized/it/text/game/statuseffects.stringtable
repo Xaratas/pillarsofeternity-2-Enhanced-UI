@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>4397</EntryCount>
+  <EntryCount>3299</EntryCount>
   <Entries>
     <Entry>
       <ID>0</ID>
@@ -371,7 +371,7 @@
     </Entry>
 	<Entry>
       <ID>171</ID>
-      <DefaultText>{0:value:percent} probabilità di provocare lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nausea &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; al bersaglio per {0:extravalue:duration} durante un colpo a segno</DefaultText>
+      <DefaultText>{0:value:percent} probabilità di provocare &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nausea &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; al bersaglio per {0:extravalue:duration} durante un colpo a segno</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -787,7 +787,7 @@
     </Entry>
     <Entry>
       <ID>400</ID>
-      <DefaultText>Se Se messo K.O., lancia un attacco ad area che conferisce agli Alleati &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Nerbo &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; per {0:extravalue:duration} e infligge un Attacco doppio ai nemici.</DefaultText>
+      <DefaultText>Se Se messo K.O., lancia un Attacco ad Area che conferisce agli Alleati L'Ispirazione &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Nerbo &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; per {0:extravalue:duration} e infligge un Attacco doppio ai nemici.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -797,7 +797,7 @@
     </Entry>
 		<Entry>
       <ID>405</ID>
-      <DefaultText>Uccidendo un nemico con un colpo Critico, viene lanciato AE da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;</DefaultText>
+      <DefaultText>Uccidendo un nemico con un colpo Critico, viene lanciato un AE da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -962,12 +962,12 @@
     </Entry>
 	  <Entry>
       <ID>505</ID>
-      <DefaultText>Conferisce Resistenza alle &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; quando la Salute è superiore al {0:extravalue:percent}</DefaultText>
+      <DefaultText>Conferisce Resistenza alle &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; quando la Salute è superiore al 75%</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>506</ID>
-      <DefaultText>Conferisce Immunità alle &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; quando la Salute è superiore al {0:extravalue:percent}</DefaultText>
+      <DefaultText>Conferisce Immunità alle &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; quando la Salute è superiore al 75%</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

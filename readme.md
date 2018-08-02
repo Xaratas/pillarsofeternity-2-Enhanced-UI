@@ -1,8 +1,6 @@
 #### Pillars of Eternity 2
 # Enhanced User Interface
 
-[Changelog - v. 0.8.1](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/changelog.md#changelog)
-
 **Credits:**\
 English: *Spherikal*\
 German: *Xaratatas*\
@@ -33,11 +31,6 @@ Armor and weapon enchants will now have a icon next to their text in order to ma
 **In-game example:**
 
 ![Example of what the icons will look like in-game](https://i.imgur.com/KSzXXnI.jpg)
-
-**To-Do:**
-
-- [x] Armor
-- [ ] Weapons
 
 ***
 

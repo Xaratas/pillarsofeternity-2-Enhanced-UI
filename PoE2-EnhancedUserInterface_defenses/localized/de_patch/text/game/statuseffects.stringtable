@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>524</EntryCount>
+  <EntryCount>527</EntryCount>
   <Entries>
     <Entry>
       <ID>4</ID>
@@ -35,6 +35,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>23</ID>
+      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft beim Angriff des gleichen Ziels wie ein Verbündeter.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>32</ID>
       <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;, wenn zusammen mit einem Schild geführt</DefaultText>
       <FemaleText />
@@ -46,22 +51,27 @@
     </Entry>
     <Entry>
       <ID>34</ID>
-      <DefaultText>{0:value:percentbonus} &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden für {0:extravalue:duration} bei einem Treffer ({0:triggercount}-mal stapelbar)</DefaultText>
+      <DefaultText>{0:value:percentbonus} &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden für {0:extravalue:duration} bei einem Treffer (Kann {0:triggercount}-mal gestapelt werden)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>35</ID>
-      <DefaultText>Verursacht in einem kleinen Bereich Flächenschaden, als &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stich- oder &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hiebschaden; je nachdem, was besser ist</DefaultText>
+      <DefaultText>Basisangriffe verursachen in einem kleinen Bereich Flächenschaden, als &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stich- oder &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hiebschaden; je nachdem, was besser ist</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>36</ID>
-      <DefaultText>{0:value:percentbonus} &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden für {0:extravalue:duration} bei einem Treffer ({0:triggercount}-fach stapelbar)</DefaultText>
+      <DefaultText>{0:value:percentbonus} &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden für {0:extravalue:duration} bei einem Treffer (Kann {0:triggercount}-mal gestapelt werden)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>42</ID>
       <DefaultText>Heimliche Angriffe sorgen dafür, dass das Ziel bis zum Ende des Kampfes wegen dem eingetretenen &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden blutet.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>43</ID>
+      <DefaultText>Bei kritischem Treffer alle 3 Sekunden 5 &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Blutungsschaden für die Dauer von 9 Sekunden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -111,7 +121,7 @@
     </Entry>
     <Entry>
       <ID>77</ID>
-      <DefaultText>Chance, bei einem kritischen Treffer beim Ziel über einen Zeitraum von 12,0 Sekunden Humpelnd, Niedergestreckt oder &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden zu verursachen – oder eine Verringerung der Aktionsgeschwindigkeit um 25 %</DefaultText>
+      <DefaultText>Chance, bei einem kritischen Treffer beim Ziel Humpelnd, Niedergestreckt, &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit für 12,0 Sekunden zu verursachen – oder eine Verringerung der Aktionsgeschwindigkeit um 25 %</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -136,7 +146,7 @@
     </Entry>
     <Entry>
       <ID>109</ID>
-      <DefaultText>Nahkampf-Angriff mit Heimlichkeit verursacht beim Ziel &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit</DefaultText>
+      <DefaultText>Angriffe mit Nahkampfwaffen aus der Heimlichkeit heraus verursachen beim Ziel &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -151,7 +161,7 @@
     </Entry>
     <Entry>
       <ID>112</ID>
-      <DefaultText>Verwandelt {0:value:percent} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden in Gesundheit.</DefaultText>
+      <DefaultText>Verwandelt {0:value:percent} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden in &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -161,7 +171,7 @@
     </Entry>
     <Entry>
       <ID>120</ID>
-      <DefaultText>{0:extravalue} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gegen Frostangriffe, die sich erhöht wenn Träger Gesundheit verliert (Max 5 &lt;sprite="Inline" name="cs_ar" tint=1&gt; RW)</DefaultText>
+      <DefaultText>{0:extravalue} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gegen Frostangriffe, die sich erhöht wenn Träger &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit verliert (Max 5 &lt;sprite="Inline" name="cs_ar" tint=1&gt; RW)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -181,12 +191,12 @@
     </Entry>
     <Entry>
       <ID>138</ID>
-      <DefaultText>{0:extravalue} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-&lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert, der sich erhöht, wenn der Träger an Gesundheit verliert (max {0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; RW)</DefaultText>
+      <DefaultText>{0:extravalue} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-&lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert, der sich erhöht, wenn der Träger an &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit verliert (max {0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; RW)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>152</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; für {0:extravalue:duration} bei einem Treffer ({0:triggercount}-mal stapelbar)</DefaultText>
+      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; für {0:extravalue:duration} bei einem Treffer (Kann {0:triggercount}-mal gestapelt werden)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -201,7 +211,7 @@
     </Entry>
     <Entry>
       <ID>159</ID>
-      <DefaultText>{0:value:percent} Chance bei einem Treffer eine Wasserwelle, die &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zufügt, auf das Ziel zu richten</DefaultText>
+      <DefaultText>{0:value:percent} Chance bei einem Treffer eine Wasserwelle, die &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zufügt, auf das Ziel zu wirken</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -286,7 +296,7 @@
     </Entry>
     <Entry>
       <ID>230</ID>
-      <DefaultText>{0:extravalue:percent} Schaden als &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schock für jeden gehaltenen Sängersatz</DefaultText>
+      <DefaultText>{0:extravalue:percent} Schaden als &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schock für jede gehaltene Sänger-Phrase</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -301,12 +311,12 @@
     </Entry>
     <Entry>
       <ID>258</ID>
-      <DefaultText>{0:value:percent} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden von der Waffe bringt Gesundheit zurück</DefaultText>
+      <DefaultText>{0:value:percent} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden von der Waffe bringt &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit zurück</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>259</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden von der Waffe reduziert die maximalen Gesundheit des Ziels um {0:value:percent} des ausgeteilten Schadens</DefaultText>
+      <DefaultText>&lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden von der Waffe reduziert die maximalen &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit des Ziels um {0:value:percent} des ausgeteilten Schadens</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -317,6 +327,16 @@
     <Entry>
       <ID>271</ID>
       <DefaultText>Wenn das Ziel mit einer Entschlossenheitswirkung belegt ist, füge bei einem erzielten kritischen Treffer alle {0:extravalue:duration} für die Dauer von {0:value:duration} &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden zu</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>272</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_raw" tint=1&gt; Direkter Blutungsschaden über Zeit für 12,0 Sekunden beim Ziel, wenn ein kritischer Treffer erzielt wurde</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>280</ID>
+      <DefaultText>{0:value} alle Verteidigungen gegen Gewandtheitswirkungs-Angriffe, solange die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit über 75 % liegt</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -335,6 +355,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>290</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_raw" tint=1&gt; Direkter Schaden über längere Zeit hinweg für 18,0 Sekunden bei einem Treffer, wenn das Ziel über weniger als 25 % &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit verfügt</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>294</ID>
       <DefaultText>Gibt für {0:value:duration} nach dem Beginn des Angriffs {0:extravalue:percent} des empfangenen Nahkampfschadens an die Angreifer als &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden zurück.</DefaultText>
       <FemaleText />
@@ -346,7 +371,7 @@
     </Entry>
     <Entry>
       <ID>302</ID>
-      <DefaultText>{0:value:percent} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;, der sich erhöht, wenn Gesundheit verloren geht (max {0:value} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;)</DefaultText>
+      <DefaultText>{0:value:percent} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;, der sich erhöht, wenn &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit verloren geht (max {0:value} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -381,7 +406,7 @@
     </Entry>
     <Entry>
       <ID>318</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert erhöht sich, wenn der Träger an Gesundheit verliert. Maximal {0:extravalue} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert</DefaultText>
+      <DefaultText>&lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert erhöht sich, wenn der Träger an &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit verliert. Maximal {0:extravalue} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -401,17 +426,17 @@
     </Entry>
     <Entry>
       <ID>338</ID>
-      <DefaultText>Gesundheit für denjenigen, der die Waffe führt, und &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Schaden beim Ziel beim Empfang eines Treffers</DefaultText>
+      <DefaultText>&lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit für denjenigen, der die Waffe führt, und &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Schaden beim Ziel beim Empfang eines Treffers</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>340</ID>
-      <DefaultText>+10 % Schaden bei einem kritischen Treffer als &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden bis zum Ende des Kampfes hinzugefügt. Der Effekt ist 10-mal stapelbar.</DefaultText>
+      <DefaultText>+10 % Schaden bei einem kritischen Treffer als &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden bis zum Ende des Kampfes hinzugefügt. Kann 10-mal gestapelt werden</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>347</ID>
-      <DefaultText>Weitere {0:value} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Willen&lt;/color&gt; bis zum Ende des Kampfes bei kritischem Treffer. ({0:extravalue:straight}-mal stapelbar)</DefaultText>
+      <DefaultText>Weitere {0:value} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Willen&lt;/color&gt; bis zum Ende des Kampfes beim Erleiden von kritischen Treffern (Kann {0:extravalue:straight}-mal gestapelt werden)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -435,6 +460,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>401</ID>
+      <DefaultText>Immun gegen Entschlossenheitswirkungen wenn unter {0:extravalue:percent} &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>405</ID>
       <DefaultText>Einen Gegner mit einem kritischen Treffer zu töten wirkt einen Flächenzauber mit &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden</DefaultText>
       <FemaleText />
@@ -446,7 +476,7 @@
     </Entry>
     <Entry>
       <ID>411</ID>
-      <DefaultText>Gewährt mit fallender Gesundheit &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;, bis zu einem Maximum von {0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; bei 0 % Gesundheit</DefaultText>
+      <DefaultText>Gewährt mit fallender &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;, bis zu einem Maximum von {0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; bei 0 % &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -481,7 +511,7 @@
     </Entry>
     <Entry>
       <ID>459</ID>
-      <DefaultText>+{0:value:percent} Schaden wird als &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden gewirkt, wenn über {0:extravalue:percent} Gesundheit. +{0:value:percent} Schaden wird als &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden gewirkt, wenn unter {0:extravalue:percent} Gesundheit</DefaultText>
+      <DefaultText>+{0:value:percent} Schaden wird als &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden gewirkt, wenn über {0:extravalue:percent} &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit. +{0:value:percent} Schaden wird als &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden gewirkt, wenn unter {0:extravalue:percent} &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -511,7 +541,7 @@
     </Entry>
     <Entry>
       <ID>478</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; (verbessert sich mit der Fertigkeit Athletik)</DefaultText>
+      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; (Verbessert sich mit der Fertigkeit Athletik)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -541,12 +571,12 @@
     </Entry>
     <Entry>
       <ID>520</ID>
-      <DefaultText>{0:extravalue} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gegen Schockangriffe, der sich erhöht, wenn der Träger Gesundheit verliert (Max 5 &lt;sprite="Inline" name="cs_ar" tint=1&gt; RW)</DefaultText>
+      <DefaultText>Verleiht &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gegen Schockangriffe, der sich erhöht, wenn der Träger &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit verliert (Max. {0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; RW)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>521</ID>
-      <DefaultText>{0:extravalue} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gegen Wasserangriffe, der sich erhöht, wenn der Träger Gesundheit verliert (Max 7 &lt;sprite="Inline" name="cs_ar" tint=1&gt; RW)</DefaultText>
+      <DefaultText>Verleiht &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gegen Wasserangriffe, der sich erhöht, wenn der Träger &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit verliert (Max. {0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; RW)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -582,6 +612,11 @@
     <Entry>
       <ID>571</ID>
       <DefaultText>{0:extravalue} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; pro Wunde</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>576</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandflächenschaden alle {0:interval}.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

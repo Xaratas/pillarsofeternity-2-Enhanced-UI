@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\gui</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>4397</EntryCount>
+  <EntryCount>4412</EntryCount>
   <Entries>
     <Entry>
       <ID>367</ID>
@@ -11,12 +11,12 @@
     </Entry>
     <Entry>
       <ID>368</ID>
-      <DefaultText>{0}% Gesundheit, {1} &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;</DefaultText>
+      <DefaultText>{0}% &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit, {1} &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>370</ID>
-      <DefaultText>{0} Genauigkeit und {1} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;</DefaultText>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und {1} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -34,29 +34,59 @@
       <DefaultText>Entschlossenheit trägt zur Dauer der feindlichen Wirkung bei wie auch zu den Verteidigungen &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt; und &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;. Sie spiegelt den inneren Antrieb eines Charakters, seine Entschiedenheit und Furchtlosigkeit wieder.
 
  5 – Schüchtern
-10 – Durchschnitt
+10 – Durchschnittlich
 15 – &lt;xg&gt;Starker&lt;/xg&gt; &lt;xg&gt;Wille&lt;/xg&gt;
 20 – Furchtlos</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>470</ID>
-      <DefaultText>Macht trägt zum Waffenschaden, Heilungswirkung und der &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;s-Verteidigung bei. Sie stellt die brachiale, körperliche Stärke eines Charakters dar ebenso wie seine Fähigkeit, starke Magie zu wirken.
+      <DefaultText>Macht trägt zum Waffenschaden, Heilungswirkung und der &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeitsverteidigung&lt;/color&gt; bei. Sie stellt die brachiale, körperliche Stärke eines Charakters dar ebenso wie seine Fähigkeit, starke Magie zu wirken.
 
  5 – Schwach
-10 – Durchschnitt
+10 – Durchschnittlich
 15 – &lt;xg&gt;Stark&lt;/xg&gt;
 20 – Unglaublich mächtig</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>471</ID>
+      <DefaultText>Gewandtheit beeinflusst die Aktionsgeschwindigkeit eines Charakters mit allen Angriffen, Zaubern und Fähigkeiten und trägt zur &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexverteidigung&lt;/color&gt; bei. Sie repräsentiert eine Kombination aus Hand-Augen-Koordination, Schwung und gesamter Anmut.
+
+ 5 – Tollpatschig
+10 – Durchschnittlich
+15 – Wendig
+20 – Unglaublich elegant</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>472</ID>
+      <DefaultText>Intellekt trägt zur &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Willensverteidigung&lt;/color&gt; bei und beeinflusst Dauer und Bereiche der Auswirkung für alle Fähigkeiten. Sie repräsentiert die logischen, argumentativen und schlussfolgernden Fähigkeiten eines Charakters.
+
+ 5 – Begriffsstutzig
+10 – Durchschnittlich
+15 – Schlagfertig
+20 – &lt;xg&gt;Brillant&lt;/xg&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>473</ID>
-      <DefaultText>Verfassung beeinflusst Gesundheit und die &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;sverteidigung. Sie repräsentiert eine Kombination der gesamten Gesundheit und des Staminas eines Charakters.
+      <DefaultText>Verfassung beeinflusst &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit und die &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeitsverteidigung&lt;/color&gt;. Sie repräsentiert eine Kombination der gesamten &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit und der Ausdauer eines Charakters.
 
  5 – Zerbrechlich
-10 – Durchschnitt
+10 – Durchschnittlich
 15 – Ausdauernd
 20 – Athletisch</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>474</ID>
+      <DefaultText>Die Wahrnehmung trägt zur &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und der &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexverteidigung&lt;/color&gt; bei. &lt;g&gt;Wahrnehmung&lt;/g&gt; repräsentiert die Sinne eines Charakters wie auch seine instinktive Fähigkeit, Details zu erkennen, wie zum Beispiel das Aufspüren von Fallen oder versteckten Objekten.
+
+ 5 – Nichts wahrnehmend
+10 – Durchschnittlich
+15 – Wachsam
+20 – Adlerauge</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -66,17 +96,17 @@
     </Entry>
     <Entry>
       <ID>1169</ID>
-      <DefaultText>{0} Genauigkeit, &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; gegen entfernte Feinde</DefaultText>
+      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit, &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; gegen entfernte Feinde</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1175</ID>
-      <DefaultText>{0} der erhaltenen Treffer werden in Leichter Treffer umgewandelt (nur &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; oder &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;)</DefaultText>
+      <DefaultText>{0} der eingehenden Treffer werden in Leichter Treffer umgewandelt (nur &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; oder &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1176</ID>
-      <DefaultText>{0} der erhaltenen Treffer werden in Leichter Treffer umgewandelt (nur &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt; oder &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;)</DefaultText>
+      <DefaultText>{0} der eingehenden Treffer werden in Leichter Treffer umgewandelt (nur &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt; oder &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -91,7 +121,7 @@
     </Entry>
     <Entry>
       <ID>1466</ID>
-      <DefaultText>Druiden wählen eine Schadensart (&lt;sprite="Inline" name="cs_slash" tint=1&gt; Hieb-, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stich-, &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wucht-, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, Zersetzungs-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost- oder Elektroschockschaden), die jedem eingesetzten Angriff hinzugefügt wird, der einem Ziel eine dieser Schadensarten zufügt.</DefaultText>
+      <DefaultText>Druiden wählen eine Schadensart (&lt;sprite="Inline" name="cs_slash" tint=1&gt; Hieb-, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stich-, &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wucht-, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, Zersetzungs-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost- oder &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden), die jedem eingesetzten Angriff hinzugefügt wird, der einem Ziel eine dieser Schadensarten zufügt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -119,14 +149,14 @@
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 Raserei gewährt die Inspirationen Hartnäckig und Zäh anstelle von Stark und Fit.
 
-Verschaffe dir während des Zustands der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen.
+Gewährt während der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen.
 
 &lt;b&gt;Abzug&lt;/b&gt;
-Während Raserei bist du Verwirrt.
+Während Raserei ist man Verwirrt.
 
-Während Raserei kannst du die Gesundheit nicht sehen.
+Während der Raserei kann die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit nicht gesehen werden.
 
-Während der Raserei erleidest du fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden.</DefaultText>
+Während der Raserei wird fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Schaden erlitten.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -134,7 +164,7 @@ Während der Raserei erleidest du fortwährend &lt;sprite="Inline" name="cs_raw"
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 Erhalte die Fähigkeit „Seelenvernichtung“: Ein seelenangereicherter Nahkampfschlag, der die verbleibende Kraftreserve des Mediums aufbraucht und diese als &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden auf das Ziel wirkt.
 
-Abgelegte Zauber des Mediums kosten weniger Fokus.
+Zauber des Mediums mit dem Schlüsselwort Fetzen kosten weniger Fokus.
 
 Das Besiegen eines Gegners mit einer Nahkampfwaffe gewährt vorübergehend Konzentration und erhöht den Maximalen Fokus.
 
@@ -156,14 +186,14 @@ Lerne die folgenden Druidenzauber auf neuen Kraftstufen:
 2. Explosion der Sommerflamme
 3. Sturm der Wiederkehr
 4. Hagelsturm
-5. Unaufhörlicher Sturm 
+5. Unaufhörlicher Sturm
 6. Sonnenlanze
 7. Sturmtrotzer
 8. Rächender Sturm
 9. Großer Maelstrom
 
 &lt;b&gt;Abzug&lt;/b&gt;
-Verjüngungszauber können nicht verhängt werden.</DefaultText>
+Verjüngungszauber können nicht gewirkt werden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -176,7 +206,7 @@ Erhöhte &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft
 Erhöhter Schaden bei Kritischen Treffern mit der auserwählten Waffe.
 
 &lt;b&gt;Abzug&lt;/b&gt;
-Verminderte Genauigkeit bei der Verwendung anderer als der auserwählten Waffe.
+Verminderte &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit bei der Verwendung anderer als der auserwählten Waffe.
 
 Erhält nur einen einzigen Schwerpunkt und keine neuen beim Stufenaufstieg.</DefaultText>
       <FemaleText />
@@ -188,7 +218,7 @@ Erhält nur einen einzigen Schwerpunkt und keine neuen beim Stufenaufstieg.</Def
 
 Erhöhte &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft bei Absetzangriffen.
 
-Verschafft „Schild-Meisterschaft“, die einen Bonus auf den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert bereitstellt, solange der Schild getragen wird.
+Verschafft „Schild-Meisterschaft“, die einen Bonus auf den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert bereitstellt, solange ein Schild getragen wird.
 
 &lt;b&gt;Abzug&lt;/b&gt;
 Vermindertes Vorwärtskommen im Kampf.
@@ -197,11 +227,19 @@ Verminderte &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Refl
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2837</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Gewährt Flammen der Hingabe.
+
+Die Flammen der Hingabe verursachen zusätzlichen &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden (Schwarze Flammen) und verursachen bei den Zielen die Wirkung Erkrankt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2839</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-Verschaffe dir einen Erzfeind.
+Gewährt Erzfeind.
 
-Der Erzfeind erhält das Upgrade zu „Vergoldete Feindschaft“. Die vergoldete Feinschaft führt dazu, dass der Paladin mit einer Segnung aus Gold erfüllt wird, wenn er jemanden zum Erzfeind erklärt. Der Paladin erhält einen Bonus für seinen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert, bis er so oft getroffen wurde, dass das Gold zerbrochen ist.</DefaultText>
+Erzfeind erhält das Upgrade zu „Vergoldete Feindschaft“. Die vergoldete Feinschaft führt dazu, dass der Paladin mit einer Segnung aus Gold erfüllt wird, wenn er jemanden zum Erzfeind erklärt. Der Paladin erhält einen Bonus für seinen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert, bis er so oft getroffen wurde, dass das Gold zerbrochen ist.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -229,7 +267,7 @@ Der Verfolger und sein Gefährte erleiden Verbundene Trauer, wenn sie mehr als 7
     <Entry>
       <ID>2853</ID>
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
-Sichere dir den Status des passiven „Meuchelmordes“. Dieser gewährt für Angriffe aus der Heimlichkeit heraus einen Bonus auf &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft, Genauigkeit und Schaden bei einem kritischen Treffer.
+Sichere dir den Status des passiven „Meuchelmordes“. Dieser gewährt für Angriffe aus der Heimlichkeit heraus einen Bonus auf &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft, &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und Schaden bei einem kritischen Treffer.
 
 &lt;b&gt;Abzug&lt;/b&gt;
 Jeder erhaltene Schaden wird erhöht.</DefaultText>

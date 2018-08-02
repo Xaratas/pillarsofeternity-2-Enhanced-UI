@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\items</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>2831</EntryCount>
+  <EntryCount>2833</EntryCount>
   <Entries>
     <Entry>
       <ID>1798</ID>
@@ -35,6 +35,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3122</ID>
+      <DefaultText>Eine alchemistische Apparatur mit verheerender Macht. Verlorenes Flüstern dringt tief aus ihrem Inneren und singt von erdrückender Dunkelheit. Wenn die Ladung detoniert, formt sich ein Spalt, der alles darin in den schwarzen Horizont zieht und &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden verursacht.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3138</ID>
       <DefaultText>Dieser eklige Trank verändert die Haut und innere Körperstruktur, um &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost-, Zersetzungs- und &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden besser widerstehen zu können.</DefaultText>
       <FemaleText />
@@ -46,7 +51,7 @@
     </Entry>
     <Entry>
       <ID>3180</ID>
-      <DefaultText>Dieses Elixier durchdringt Körpergewebe. Dadurch wird der Körper über die Wirkungsdauer gegen die Effekte von &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, Zersetzungs-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost- und &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden immun. Wenn der aufgegossene Trank nachlässt oder von Schaden überwältigt wird, schlägt der Schutz fehl.</DefaultText>
+      <DefaultText>Dieses Elixier durchdringt Körpergewebe. Dadurch wird der Körper über die Wirkungsdauer gegen die Effekte von &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, Zersetzungs-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost- und &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden immun. Wenn der aufgegossene Trank nachlässt oder von Schaden überwältigt wird, wird der Schutz aufgehoben.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -55,8 +60,13 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3398</ID>
+      <DefaultText>Beschwört einen intensiven Sonnenstrahl herab, der alle im Wirkungsbereich &lt;sprite="Inline" name="cs_burn" tint=1&gt; verbrennt und blenden kann.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3401</ID>
-      <DefaultText>Formt ein mächtiges Schwert mit einer Klinge aus reinem Feuer in den Händen des Lesers, der &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden erteilt. Durch den Wechsel zu einer anderen Waffe endet der Zauber.</DefaultText>
+      <DefaultText>Formt ein mächtiges Schwert mit einer Klinge aus reinem Feuer in den Händen des Lesers, welches &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden verursacht. Durch den Wechsel zu einer anderen Waffe endet der Zauber.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -81,7 +91,7 @@
     </Entry>
     <Entry>
       <ID>3411</ID>
-      <DefaultText>Schleudert zwei tödliche Felsen von der Position des Lesers aus, die jedem in ihrer Flugbahn Schmetterschaden zufügen und beim Einschlag auf festem Untergrund zerspringen, wobei die Bruchstücke allen Umstehenden &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden zufügen.</DefaultText>
+      <DefaultText>Schleudert zwei tödliche Felsen von der Position des Lesers aus, die jedem in ihrer Flugbahn &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zufügen und beim Einschlag auf festem Untergrund zerspringen, wobei die Bruchstücke allen Umstehenden &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden zufügen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -90,8 +100,23 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3415</ID>
+      <DefaultText>Feuert mehrere Geschosse aus reiner Energie auf das Ziel und fügt jedem Feind in der Nähe des Einschlags &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3418</ID>
+      <DefaultText>Erzeugt ein intensives Leuchtfeuer, durch das Gegner im Wirkungsbereich einen Abzug auf alle Verteidigungen erhalten und &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandzeitschaden erleiden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3419</ID>
       <DefaultText>Ein Trio von Steinklauen bricht aus dem Boden hervor, die Fleisch zu Stein wandeln. Jeder, der im Wirkungsbereich gefangen ist, wird Gelähmt und mit &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hiebschaden belegt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3422</ID>
+      <DefaultText>Beschwört eine riesige Plage giftiger Insekten herauf, die &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit zufügen, die Konzentration verringern und jeden im Wirkungsbereich erkranken lässt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -100,8 +125,13 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3428</ID>
+      <DefaultText>Beschwört eine flammende Feuersäule, die alle im Wirkungsbereich &lt;sprite="Inline" name="cs_burn" tint=1&gt; verbrennt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3429</ID>
-      <DefaultText>Der Leser schleudert ein heiliges Feuer auf den Gegner, das seinen Schutz aufhebt und sein Schicksal beschleunigt. Fügt fünf Sekunden lang kontinuierlich &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zu und beschleunigt den Zähler für alle zuträglichen Effekte auf dem Ziel (mit Ausnahme von Heilen) sowie aller kontinuierlichen Schadenseffekte. Springt auf bis zu zwei weitere Gegner in der Nähe über.</DefaultText>
+      <DefaultText>Der Leser schleudert eine Kugel aus heiligem Feuer auf den Gegner, die seinen Schutz aufhebt und sein Verderben beschleunigt. Fügt fünf Sekunden lang kontinuierlich &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zu und beschleunigt den Zähler für alle vorteilhaften Wirkungen auf dem Ziel (mit Ausnahme von Heilungen) sowie aller kontinuierlichen Schadenseffekte. Springt auf bis zu zwei weitere Gegner in der Nähe über.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -145,6 +175,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3648</ID>
+      <DefaultText>Während Algol dir folgt, klingen jegliche Verfassungswirkungen auf dir schneller ab und deine Gruppenmitglieder erhalten etwas &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit, wenn sie einen Gegner töten.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3650</ID>
       <DefaultText>Während Chili dir folgt, erhältst du einen Bonus auf Entschlossenheit und deine Gruppenmitglieder erhalten einen Bonus auf &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;.</DefaultText>
       <FemaleText />
@@ -175,6 +210,16 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4282</ID>
+      <DefaultText>Während das Irrlicht dir folgt, haben Intellektwirkungen auf dich eine kürzere Dauer und alle Gruppenmitglieder haben erhöhte &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit bei ihren Angriffen gegen Geister.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4390</ID>
+      <DefaultText>Während der Grabhund-Welpe dir folgt, erteilst du zusätzlichen Schaden gegen Gefäße und alle Gruppenmitglieder erleiden verringerten &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4410</ID>
       <DefaultText>Während Dan der Rare dir folgt, erhöht sich die Wahrscheinlichkeit, dass Angriffe gegen dich zu Leichten Treffern werden und deine Gruppe erhält einen Bonus auf &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;.</DefaultText>
       <FemaleText />
@@ -196,7 +241,7 @@
     </Entry>
     <Entry>
       <ID>4647</ID>
-      <DefaultText>Während Socrates dir folgt, erhältst du etwas Gesundheit, wenn du den Todesstoß gegen einen Gegner erzielst und deine Gruppenmitglieder erhalten einen Bonus auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; gegen Nahkampfangriffe.</DefaultText>
+      <DefaultText>Während Socrates dir folgt, erhältst du etwas &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit, wenn du den Todesstoß gegen einen Gegner erzielst und deine Gruppenmitglieder erhalten einen Bonus auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; gegen Nahkampfangriffe.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

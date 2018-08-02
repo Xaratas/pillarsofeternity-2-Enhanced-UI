@@ -2,6 +2,43 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\gui</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>4377</EntryCount>
-  <Entries/>
+  <EntryCount>4389</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>2815</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
+Szał zapewnia inspiracje &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;zawziętości &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; i &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;dzielności &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; zamiast mocy i &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;sprawności &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.
+
+Gdy postać wpada w szał, zadaje znacznie więcej obrażeń krytycznych wręcz i ataków masakry.
+
+&lt;b&gt;Kara&lt;/b&gt;
+Szał powoduje u postaci zamęt.
+
+W stanie szału poziom zdrowia jest niewidoczny.
+
+Postać w stanie szału otrzymuje nieustannie obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2823</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
+Zapewnia zdolność duchowego zniszczenia: ulepszony duszą atak w zwarciu, który zużywa całą pozostałą&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;moc &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; enigmatyka i zmienia ją w zadawane celowi obrażenia &lt;sprite="Inline" name="cs_raw" tint=1&gt; bazowe.
+
+Czary szczątkowe enigmatyka mają mniejszy koszt w skupieniu.
+
+Pokonanie przeciwnika bronią do walki wręcz zapewnia tymczasowo koncentrację i zwiększa maksymalne skupienie.
+
+&lt;b&gt;Kara&lt;/b&gt;
+Maksymalne skupienie ulega zmniejszeniu (dotyczy to również jego początkowej ilości w walce).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2837</ID>
+      <DefaultText>&lt;b&gt;Premia&lt;/b&gt;
+Postać zdobywa płomienie poświęcenia.
+
+Zadają one dodatkowe obrażenia od &lt;sprite="Inline" name="cs_raw" tint=1&gt; kwasu (czarne płomienie) i wywołują u celów &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;mdłości &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
 </StringTableFile>

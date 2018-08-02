@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>4397</EntryCount>
+  <EntryCount>3299</EntryCount>
   <Entries>
   <Entry>
   <ID>237</ID>
@@ -646,9 +646,14 @@
       <DefaultText>Il Cipher si collega mentalmente a un Alleato, acquisendo per sé e per il proprio Alleato Ispirazione &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Consapevole &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e un Limite Ingaggio aumentato.</DefaultText>
       <FemaleText />
     </Entry>
-    <Entry>
+	<Entry>
       <ID>614</ID>
       <DefaultText>Condanna gli avversari del Sacerdote, &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientando &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; tutti i nemici nell'Area d'Effetto.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>639</ID>
+      <DefaultText>Conferisce l'effetto &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; a tutte le armi degli alleati.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -757,11 +762,6 @@
       <FemaleText />
     </Entry>
 	<Entry>
-      <ID>814</ID>
-      <DefaultText>Rianima gli Alleati nell'Area d'Effetto con una piccola quantità di Salute.</DefaultText>
-      <FemaleText />
-    </Entry>
-	<Entry>
       <ID>817</ID>
       <DefaultText>Fa risplendere di una tenue luce verde i nemici nell'Area d'Effetto, rendendoli bersagli più facili. I nemici colpiti hanno &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; ridotti.</DefaultText>
       <FemaleText />
@@ -857,11 +857,6 @@
       <FemaleText />
     </Entry>
 	<Entry>
-      <ID>843</ID>
-      <DefaultText>Dona al Mago un lucente bastone ferrato di energia pura, offrendo un'occasione bonus per colpire e ripristinando Salute a ogni colpo andato a segno.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>844</ID>
       <DefaultText>Scambia la posizione del lanciatore e di un Alleato, creando tra di loro un'onda d'urto che &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordisce &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; chiunque si trovi lungo la linea di tiro.</DefaultText>
       <FemaleText />
@@ -931,24 +926,9 @@
       <DefaultText>Il Barbaro incanala la propria determinazione, garantendo l'Ispirazione &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robusto &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; per un breve periodo di tempo.</DefaultText>
       <FemaleText />
     </Entry>
-	<Entry>
-      <ID>867</ID>
-      <DefaultText>Il Barbaro mena colpi alla cieca quando avverte dolore, ottenendo un bonus al Danno finché la Salute resta al di sotto del 50%.</DefaultText>
-      <FemaleText />
-    </Entry>
 	 <Entry>
-      <ID>870</ID>
-      <DefaultText>Il Barbaro acquista una posa impavida fronteggiando tutti gli assalitori. Garantisce un bonus al Danno da mischia quando il Barbaro è vicino a due o più nemici. Inoltre per essere Accerchiato richiede di essere minacciato da un ulteriore avversario.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>871</ID>
       <DefaultText>Lancia un grido terrificante, rendendo &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Scossi &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; i nemici nell'Area d'Effetto.</DefaultText>
-      <FemaleText />
-    </Entry>
-	<Entry>
-      <ID>877</ID>
-      <DefaultText>Evoca un'energia primitiva che rigenera continuamente la Salute degli Alleati presenti nel raggio d'Azione durante l'incantazione del Cantore.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -956,12 +936,12 @@
       <DefaultText>Grazie al suo legame naturale con l'orso, il Druido è in grado di assumerne temporaneamente le sembianze. La Metamorfosi dell'Orso ha una &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; elevata e può evocare uno spaventoso ruggito.</DefaultText>
       <FemaleText />
     </Entry>
-	<Entry>
-      <ID>879</ID>
-      <DefaultText>Grazie al suo legame naturale con il cinghiale, il Druido è in grado di assumerne temporaneamente le sembianze. La metamorfosi del cinghiale rigenera la Salute perduta e infligge Danno nel tempo con i suoi attacchi in mischia.</DefaultText>
+	 <Entry>
+      <ID>883</ID>
+      <DefaultText>Gli attacchi in Disingaggio del Guerriero subiscono un incremento notevole di &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e Danno.</DefaultText>
       <FemaleText />
     </Entry>
-		<Entry>
+	<Entry>
       <ID>884</ID>
       <DefaultText>(Posa del conquistatore) - Il Guerriero sopra il 50% di Salute aumenta la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, mentre quando è sotto il 50% di Salute aumenta la &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; .</DefaultText>
       <FemaleText />
@@ -1268,7 +1248,7 @@
     </Entry>
 	<Entry>
       <ID>1470</ID>
-      <DefaultText>Il Sacerdote trabocca di potenza e si circonda di un alone soprannaturale. Come incarnazione minore della sua divinità, il Sacerdote ottiene bonus in tutti gli Attributi, Salute e Danno dell'arma.</DefaultText>
+      <DefaultText>Il Sacerdote trabocca di potenza e si circonda di un alone soprannaturale. Come incarnazione minore della sua divinità, il Sacerdote ottiene le Ispirazioni &lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Veloce&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Forte&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;In Forma&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Smart"&gt;&lt;#00a4ff&gt;Acuto&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Insightful"&gt;&lt;#ca58ff&gt;Profondo&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Steadfast"&gt;&lt;#30d3d5&gt;Nerbo&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; cosi come un bonus a Salute e al Danno delle Armi.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1640,12 +1620,12 @@ A una mano: Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprit
     </Entry>
     <Entry>
       <ID>2041</ID>
-      <DefaultText>(Colpo debilitante) - I colpi che vanno a segno &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distraggono &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; il bersaglio.</DefaultText>
+      <DefaultText>(Colpo Debilitante) - I colpi che vanno a segno &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distraggono &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; il bersaglio.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2044</ID>
-      <DefaultText>(Cecità frustrante) - mentre viene &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Accecato &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, gli attacchi aggiungono una penalità Cumulabile alla &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Cecità Frustrante) - mentre viene &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Accecato &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, gli attacchi aggiungono una penalità Cumulabile alla &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1660,12 +1640,12 @@ A una mano: Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprit
     </Entry>
     <Entry>
       <ID>2055</ID>
-      <DefaultText>(Rompi la campana) - L'effetto &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Sorpreso &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; provocato da attacchi a due mani viene migliorato in &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientato &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Rompi la Campana) - L'effetto &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Sorpreso &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; provocato da attacchi a due mani viene migliorato in &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientato &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2057</ID>
-      <DefaultText>(Colpo eliminatorio) - I nemici accanto al bersaglio vengono &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Scossi &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; dall'attacco.</DefaultText>
+      <DefaultText>(Colpo Eliminatorio) - I nemici accanto al bersaglio vengono &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Scossi &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; dall'attacco.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -1745,7 +1725,7 @@ A una mano: Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprit
     </Entry>
     <Entry>
       <ID>2156</ID>
-      <DefaultText>(I prigionieri si sono avventati contro gli aguzzini) - I personaggi che si sono liberati degli effetti Destrezza, adesso ottengono l'Ispirazione &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(I Prigionieri Si Sono Avventati Contro gli Aguzzini) - I personaggi che si sono liberati degli effetti Destrezza, adesso ottengono l'Ispirazione &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1760,7 +1740,7 @@ A una mano: Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprit
     </Entry>
     <Entry>
       <ID>2160</ID>
-      <DefaultText>(Insieme hanno attraversato un fiume di sangue) - Quando i nemici sono &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Incantati &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; causano più Danno.</DefaultText>
+      <DefaultText>(Insieme Hanno Attraversato un Fiume di Sangue) - Quando i nemici sono &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Incantati &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; causano più Danno.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1768,7 +1748,7 @@ A una mano: Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprit
       <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
 Il Parossismo conferisce le Ispirazioni &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenace &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Poderoso &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;, invece di &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;In Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.
 
-Ottieni una significativa conversione dei colpi a segno in colpi critici negli attacchi in Mischia e nei Massacri durante il Parossismo.
+Ottieni una significativa conversione dei colpi a segno in colpi Critici negli attacchi in Mischia e nei Massacri durante il Parossismo.
 
 &lt;b&gt;Penalità&lt;/b&gt;
 &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; durante il Parossismo.
@@ -1963,7 +1943,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
    <Entry>
       <ID>2401</ID>
-      <DefaultText>(Tornado dello spirito) - Gli spiriti girano verso l'esterno provocando Danno da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; e &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrorizzando &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Tornado dello Spirito) - Gli spiriti girano verso l'esterno provocando Danno da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; e &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrorizzando &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -2008,7 +1988,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>2476</ID>
-      <DefaultText>(Incitamento cautelare) - Ispirazione &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Nerbo &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; potenziata a &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;Risoluto &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Incitamento Cautelare) - Ispirazione &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Nerbo &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; potenziata a &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;Risoluto &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2033,12 +2013,12 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>2486</ID>
-      <DefaultText>(Incitamento d'acciaio) - Ispirazione &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;In Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; potenziata a &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Poderoso &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Incitamento d'Acciaio) - Ispirazione &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;In Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; potenziata a &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Poderoso &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2494</ID>
-      <DefaultText>(Comando velocizzante) - Oltre all'Ispirazione &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Veloce &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; conferisce anche quella &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Comando Velocizzante) - Oltre all'Ispirazione &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Veloce &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; conferisce anche quella &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
@@ -2213,7 +2193,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>2682</ID>
-      <DefaultText>(Pronti al loro scopo, ciascuno conosceva la propria parte) - Adesso gli Alleati ottengono anche l'Ispirazione &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Arguto &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Pronti al Loro Scopo, Ciascuno Conosceva la Propria Parte) - Adesso gli Alleati ottengono anche l'Ispirazione &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Arguto &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2343,7 +2323,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
 	<Entry>
       <ID>2811</ID>
-      <DefaultText>Gli attacchi potenziati del Monaco ignorano tutti le Soglie di Danno e ottengono un enorme bonus &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Gli attacchi Potenziati del Monaco ignorano tutti le Soglie di Danno e ottengono un enorme bonus &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
@@ -2735,12 +2715,12 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
 	<Entry>
       <ID>3772</ID>
-      <DefaultText>Menomazione maggiore</DefaultText>
+      <DefaultText>Menomazione Maggiore</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3773</ID>
-      <DefaultText>Menomazione critica</DefaultText>
+      <DefaultText>Menomazione Critica</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -2765,12 +2745,12 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
     <Entry>
       <ID>3812</ID>
-      <DefaultText>(Il loro fetore putrido si spande) - i nemici nell'area ora sono &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseati &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Il Loro Fetore Putrido si Spande) - i nemici nell'area ora sono &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nauseati &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>3814</ID>
-      <DefaultText>(...E il male ha dato le spalle al sole) - infligge &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; ai nemici e un Danno maggiore a Spiriti e Posseduti.</DefaultText>
+      <DefaultText>(...E Il Male ha Dato le Spalle al Sole) - infligge &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; ai nemici e un Danno maggiore a Spiriti e Posseduti.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2802,7 +2782,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
      <Entry>
       <ID>3856</ID>
-      <DefaultText>(Tiro azzoppante) - il tiro del Ranger &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppa &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; l'obiettivo.</DefaultText>
+      <DefaultText>(Tiro Azzoppante) - il tiro del Ranger &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Azzoppa &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; l'obiettivo.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2882,17 +2862,17 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
    <Entry>
       <ID>3953</ID>
-      <DefaultText>Conferisce resistenza alle Alterazioni della Costituzione quando si è in Salute o Incolumi.</DefaultText>
+      <DefaultText>Conferisce Resistenza alle &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; quando si è in Salute o Illesi.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>3960</ID>
-      <DefaultText>Se il cucciolo di cinghiale ti segue, gli attacchi effettuati con le armi da mischia possono provocare Arresto e il tuo gruppo infligge danni da &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; bonus.</DefaultText>
+      <DefaultText>Se il Cucciolo di Cinghiale ti segue, gli attacchi effettuati con le armi da mischia possono provocare Arresto e il tuo gruppo infligge danni da &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; bonus.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>3962</ID>
-      <DefaultText>Se la Viverna del Dragone dei cieli ti segue provochi una maggiore quantità di danni con le armi a distanza e il tuo gruppo guadagna &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; nei confronti dei bersagli lontani.</DefaultText>
+      <DefaultText>Se il Dragone dei Cieli ti segue provochi una maggiore quantità di danni con le armi a distanza e il tuo gruppo guadagna &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; nei confronti dei bersagli lontani.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2977,7 +2957,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>4140</ID>
-      <DefaultText>Conferisce resistenza alle Alterazioni della Costituzione quando si è In Salute o Incolumi.</DefaultText>
+      <DefaultText>Conferisce Resistenza alle &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; quando si è In Salute o Illesi.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -3037,7 +3017,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>4276</ID>
-      <DefaultText>Conferisce immunità alle Alterazioni della Costituzione se si è in Salute o Incolumi.</DefaultText>
+      <DefaultText>Conferisce Immunità alle &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; se si è in Salute o Illesi.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3047,37 +3027,37 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
      <Entry>
       <ID>4294</ID>
-      <DefaultText>(Sembianze dell'Araldo della morte) - Se è in uso, conferisce all'Osservatore un'&lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Ispirazione&#160;della Percezione&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Sembianze dell'Araldo della Morte) - Se è in uso, conferisce all'Osservatore un'&lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Ispirazione&#160;della Percezione&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4296</ID>
-      <DefaultText>(Ira dell'Araldo della morte) - Se è in uso, conferisce all'Osservatore un'&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Ispirazione&#160;del Vigore &#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Ira dell'Araldo della Morte) - Se è in uso, conferisce all'Osservatore un'&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Ispirazione&#160;del Vigore &#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4298</ID>
-      <DefaultText>(Saggezza dell'Araldo della morte) - Se è in uso, conferisce all'Osservatore un'&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Ispirazione&#160;dell'Acume &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Saggezza dell'Araldo della Morte) - Se è in uso, conferisce all'Osservatore un'&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Ispirazione&#160;dell'Acume &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4300</ID>
-      <DefaultText>(Timore dell'Araldo della morte) - Se è in uso, conferisce all'Osservatore un'&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Ispirazione&#160;del Vigore &#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; e della Percezione.</DefaultText>
+      <DefaultText>(Timore dell'Araldo della Morte) - Se è in uso, conferisce all'Osservatore un'&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Ispirazione&#160;del Vigore &#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; e della Percezione.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4302</ID>
-      <DefaultText>(Abito dell'Araldo della morte) - Se è in uso, conferisce all'Osservatore un'&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Ispirazione&#160;dell'Acume &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; e un'&lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Ispirazione&#160;della Percezione&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Abito dell'Araldo della Morte) - Se è in uso, conferisce all'Osservatore un'&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Ispirazione&#160;dell'Acume &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; e un'&lt;link="glossary://GlossaryEntry_Inspirations_Perception"&gt;&lt;#ca58ff&gt;Ispirazione&#160;della Percezione&#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4304</ID>
-      <DefaultText>(Crudeltà dell'Araldo della morte) - Se è in uso, garantisce all'Osservatore un'&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Ispirazione&#160;del Vigore &#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; e un'&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Ispirazione&#160;dell'Acume &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Crudeltà dell'Araldo della Morte) - Se è in uso, garantisce all'Osservatore un'&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Ispirazione&#160;del Vigore &#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; e un'&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Ispirazione&#160;dell'Acume &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
       <ID>4306</ID>
-      <DefaultText>(Maestosità dell'Araldo della morte) - Se è in uso, conferisce all'Osservatore un'&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Ispirazione&#160;dell'Acume &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, un'&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Ispirazione&#160;del Vigore &#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; e un'&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Ispirazione&#160;dell'Acume &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>(Maestosità dell'Araldo della Morte) - Se è in uso, conferisce all'Osservatore un'&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Ispirazione&#160;dell'Acume &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, un'&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Ispirazione&#160;del Vigore &#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; e un'&lt;link="glossary://GlossaryEntry_Inspirations_Intellect"&gt;&lt;#00a4ff&gt;Ispirazione&#160;dell'Acume &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3201,8 +3181,28 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
 	 <Entry>
+      <ID>4416</ID>
+      <DefaultText>Ottieni una &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; maggiore con attacchi da Folgorazione.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>4419</ID>
+      <DefaultText>Ottieni &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; aumentata con gli attacchi basati sull'elemento Fuoco.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>4420</ID>
+      <DefaultText>Ottieni &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; aumentata con gli attacchi basati su elemento Acqua o Gelo.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>4422</ID>
+      <DefaultText>Ottieni &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; aumentata con gli attacchi Corrosivi e di Decadimento.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
       <ID>4442</ID>
-      <DefaultText>Gli attacchi potenziati ottengono &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; maggiore.</DefaultText>
+      <DefaultText>Gli attacchi Potenziati ottengono &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; maggiore.</DefaultText>
       <FemaleText />
     </Entry>
 	  <Entry>

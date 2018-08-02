@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\cyclopedia</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>889</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>84</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy is part of almost every attack. It influences how likely the attack is to affect the target. &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy is defined primarily by a character's class and level but it is also influenced by Perception, Talents, and other active effects, such as spells or items.
+
+When an attack is made, the &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy is compared to a corresponding defense (&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;, &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;, or &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;) on a target to determine how the attack roll will be modified. If &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy is above the target's defense, it will be more likely to result in a Hit or Crit, less likely to result in a Graze or Miss.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>86</ID>
+      <DefaultText>&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; is the defense used to resist direct melee and ranged attacks against the character that are not area of effect (AoE). It is defined by the character's class, level, and Resolve but may also be influenced by shields, certain weapons, Talents, and other effects from spells or items.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>88</ID>
+      <DefaultText>&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt; resists attacks on the internal physical systems of the character (e.g. poison, disease, etc.).
+ It is defined by the character's class, level, Might, and Constitution, but can also be influenced by other effects.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>90</ID>
+      <DefaultText>The &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt; defense allows characters to dodge out of the way of physically harmful AoE attacks (e.g. explosions, bolts of lightning). It is defined by a character's class, level, Dexterity, and Perception, but may also be influenced by other effects.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>92</ID>
+      <DefaultText>The &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt; defense opposes attacks that are mentally-based (e.g. a spell that mentally paralyzes the target). It is defined by a character's class, level, Intellect, and Resolve, but may also be influenced by other effects.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>94</ID>
+      <DefaultText>Perception Affliction
+Blinded characters suffer -5 Perception, are considered Flanked, +50% Recovery, -10 &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy, and the distance of all ranged attacks is halved. Blinded characters cannot use or be affected by Gaze attacks.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>100</ID>
+      <DefaultText>Might Affliction
+A victim of Dazed has -5 Might, cannot Engage, and suffers -4 &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>104</ID>
+      <DefaultText>&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; is reduced by 10.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>120</ID>
+      <DefaultText>Might Affliction
+Stunned characters can't take any action, cannot Engage, have a penalty to all defenses, -4 &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration, and -5 Might.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>126</ID>
+      <DefaultText>Characters with Bruised Ribs suffer a penalty to their &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt; defense.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>128</ID>
+      <DefaultText>The Concussion injury reduces a character's &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt; defense.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>130</ID>
+      <DefaultText>The Sprained Wrist injury reduces a character's &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; defense.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>132</ID>
+      <DefaultText>The Swollen Eye injury reduces a character's &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>134</ID>
+      <DefaultText>A Twisted Ankle injury reduces a character's &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt; defense.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>140</ID>
+      <DefaultText>A Crit is any attack roll that is above 100. A Crit that does damage increases the total damage done by 25% and the &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration of the attack by 50%. A Crit on effects with a duration (typically afflictions like Sickened or Paralyzed) will increase the duration by 25%.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>146</ID>
+      <DefaultText>There are four defenses in Pillars of Eternity: &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;, &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;, and &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;. Each defense is used to resist a different category of attacks through the Attack Roll. &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; is used to resist most direct weapon attacks or attacks that are similar to weapons. &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt; opposes physical attempts to overpower a character or attack their body internally (e.g. via a poison). Physical area effect attacks like fireballs and lightning bolts are resisted by &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;. Almost all mental attacks are opposed by &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;.
+
+&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;, and &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt; are all based on pairs of attributes. Might and Constitution define &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;, Dexterity and Perception define &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;, and Intellect and Resolve define &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;. Base &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; is defined by the character's class and Resolve. All characters gain flat bonuses to their defenses every level. Additionally, spells, abilities, afflictions, and items can all modify a character's defenses.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>150</ID>
+      <DefaultText>A Passive talent or ability is one that can be added to a character where the bonus is gained automatically. For example, a character with Snake's &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;es gains their bonus to &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt; saves automatically.
+</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>154</ID>
+      <DefaultText>All attacks in Pillars of Eternity compare the attacker's &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy value to one of four defenses: &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; (direct melee and ranged attacks), &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt; (body system attacks like poison and disease), &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt; (area of effect damage attacks), and &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt; (mental attacks).
+
+A number between 1 and 100 is generated and added to the difference between &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy and defense to determine the attack results. Less than or equal to 30 = Miss, 31-50 = Graze, 51-100 = Hit, greater than 100 = Crit.
+
+In a balanced Attack and defense scenario, the majority of attacks wind up being Hits or Misses. When &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy is superior to defense, more Crits are likely. When defense is superior to &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy, more Misses are likely.
+
+By default, only some attacks are capable of Grazing, unless an ability or effect would otherwise grant it. If an attack lands in the Graze range, but cannot Graze, it will become a Miss.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>158</ID>
+      <DefaultText>When an attack hits, there is one primary means of mitigating damage: &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating.
+
+&lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating value is usually derived from armor, but many creatures have natural &lt;sprite="Inline" name="cs_ar" tint=1&gt; AR or can raise it through the use of magic, Abilities, Talents, or other equipment.
+
+&lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating is compared against the &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration of oncoming attacks to determine the attack's overall effectiveness.
+
+Full &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration: (130% Damage) occurs when &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration is twice the target's Armor Ratin or more.
+
+Partial &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration: (100% Damage) occurs when &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration meets or exceeds the target's &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating.
+
+Under &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration: (-25% Damage per point under the target's Armor, Max -75%) occurs when &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration is less than the target's &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating.
+
+Note that many suits of armor and many creatures will grant different &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating values against the different Damage Types. Lower &lt;sprite="Inline" name="cs_ar" tint=1&gt; ARs protect less against that type of damage, making the target more vulnerable to attacks of that type.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>162</ID>
+      <DefaultText>&lt;sprite="Inline" name="cs_health" tint=1&gt; Health represents a character's short-term survivability.
+
+Damage that is not reduced by a character's &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating goes straight to their &lt;sprite="Inline" name="cs_health" tint=1&gt; Health. Potions and healing magic (such as from a paladin, priest, or druid) can restore &lt;sprite="Inline" name="cs_health" tint=1&gt; Health in combat. When a character's &lt;sprite="Inline" name="cs_health" tint=1&gt; Health reaches 0, he or she will be Knocked Out. A Knocked Out character can be brought back in combat through the use of a Revive ability. Otherwise, characters will regain all of their &lt;sprite="Inline" name="cs_health" tint=1&gt; Health at the end of combat (assuming they're on the winning side).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>180</ID>
+      <DefaultText>A modal ability is one that can be turned on or off or set to different modes to produce different effects. For example, all weapon proficiencies grant modal abilities that are available when the proficient weapon or shield is equipped. Similarly, a paladin's Zealous Auras can be set to one of three different states.
+
+Modal abilities should be changed based on the tactical needs of a combat. For example, if a character would not benefit from the additional &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration of a sabre's Windmill &lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash, it should be turned off to improve the character's Recovery time. A paladin may wish to use Zealous Charge at the opening of a battle but switch it to Zealous Focus to gain more &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy once the fight is underway.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>192</ID>
+      <DefaultText>Secondary Defenses are used for second stage attacks, e.g. the poison on a dagger. In this example, the first attack (the dagger swing) targets one defense (&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;) and the poison's attack will only be checked if the first attack hits. If the attack hits, then the Secondary Defense (in this case, &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt; against Poison) is checked to determine the effects. If the initial attack misses, then the Secondary Defense will not be checked.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>194</ID>
+      <DefaultText>There are eight damage types in Pillars of Eternity: &lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Pierce, &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crush, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn, &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock, &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze, and &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw. Damage types are used to determine how easily a target resists damage of that type based on their &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Ratings. A creature or suit of armor may be very resistant to one type of damage but quite vulnerable to another.
+
+Some weapons or attacks may do multiple damage types or list an "or" between their damage types. When an "or" is listed, the attack will always do the damage type that the target is most vulnerable to. &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage is the only damage type that ignores all &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Ratings and is generally associated with poisons and similar effects. </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>207</ID>
+      <DefaultText>Stacking rules control how bonuses and penalties are added together. For simplicity, the game distinguishes two source categories of bonuses: passive and active.
+
+Most passive bonuses come from equipped items (including weapons and shields) and passive abilities. If an effect has no duration and does not need to be turned on or off, it generally is considered a passive bonus. All passive bonuses stack with each other.
+
+Active bonuses come from spells, items, and abilities that must be activated. This includes modal abilities that are toggled on the action bar, such as weapon modals, paladin auras, and a fighter stances. Active bonuses use the highest bonus to a statistic and suppress all equal or lower bonuses.
+
+E.g., if a wizard spell grants +3 to &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; and a paladin's aura grants +5, the highest active bonus is +5, with the +3 being suppressed. If the same wizard spell also granted a bonus to Dexterity, it would apply unless it was also trumped by a superior Dexterity bonus from another active/modal source.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>324</ID>
+      <DefaultText>Unconscious characters can't take action. Dexterity is reduced to 0. &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt; and &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; are reduced by 40.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>453</ID>
+      <DefaultText>When a damaging attack hits a target, the attack's &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration is compared to the target's &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating to determine how much damage gets through.
+
+&lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration comes from the weapon or spell that is being used, but can be raised through the use of magic, Abilities, Talents, or weapon enchantments. &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration is compared to the &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating of the attack's damage type. E.g. A Fireball will always check &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration against &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating.
+
+Full &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration (+30% Damage) - &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration is twice the target's &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating or more.
+
+&lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration (Listed Damage) - &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration meets or exceeds the target's &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating.
+
+Under &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration (-25% Damage per point under the target's Armor, Max -75%) - &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration is less than the target's &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating.
+
+&lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage bypasses all armor and does not need to penetrate.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>475</ID>
+      <DefaultText>The scourge of the jungle, panthers are master of the silent kill. Though they prefer swamp and rain forests, they have been known to roam across scrublands and desert. Consequently, they are widespread in the Deadfire Archipelago.
+
+Fiercely independent, they thrive in the underbrush where their dark coats provide them ample camouflage, and eschew interacting with kith unless they perceive a territorial threat. Their impressive musculature and bone structure make these cats lethal pouncers, and the strength of their bite is such that they can &lt;sprite="Inline" name="cs_pierce" tint=1&gt; pierce the shells of armored reptiles. Even a halfhearted strike from their paw is enough to stagger an unprepared opponent.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>516</ID>
+      <DefaultText>Cannon &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy influences the chance to hit the enemy ship. Cannoneers or specific cannon upgrades can be used to improve Cannon &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>590</ID>
+      <DefaultText>Sharpshooters focus their attention entirely on ranged combat, relying on their animal companions to provide defense for them. Their &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration and &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy with ranged weapons is superior, but they take more time to recover between attacks and have poor &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>715</ID>
+      <DefaultText>Might Inspiration
+Tenacious characters have +5 Might and gain +2 &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>717</ID>
+      <DefaultText>Might Inspiration
+Energized characters have +5 Might, gain +2 &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration and will Interrupt enemies with crits.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>721</ID>
+      <DefaultText>Constitution Inspiration
+Hardy characters have +5 Constitution and gain +2 &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>723</ID>
+      <DefaultText>Constitution Inspiration
+Robust characters have +5 Constitution, gain +2 &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating, and will regenerate &lt;sprite="Inline" name="cs_health" tint=1&gt; Health periodically.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>769</ID>
+      <DefaultText>Rangers share a literal life bond with their animal companions. When one is wounded, the can sense it and feel intense emotional pain. If a ranger or animal companion are knocked unconscious, the partner suffers from Bonded Grief, affecting &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy and other stats, until the downed ally is revived. If a ranger is ever killed, the animal companion immediately dies from grief.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>806</ID>
+      <DefaultText>The ship maintains its current position and receives an &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy bonus for the following turn.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>
