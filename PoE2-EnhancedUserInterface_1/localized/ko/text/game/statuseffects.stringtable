@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\statuseffects</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>524</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>0</ID>
+      <DefaultText>명중 시 {0:value:percent} 확률로 대상을 &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;동요 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;로 만드는 공격을 할 수 있음</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2</ID>
+      <DefaultText>명중 시 {0:value:percent} 확률로 {0:extravalue:duration} 동안 대상을 &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;혼미 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;를 부여함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3</ID>
+      <DefaultText>사용자가 드워프일 경우, 명중 시 {0:value:percent} 확률로 {0:extravalue:duration} 동안 대상에게 &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;혼미 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;를 부여함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4</ID>
+      <DefaultText>치명타 시 {0:value:percent} 확률로 &lt;link="glossary://GlossaryEntry_Freezing&gt;&lt;b&gt;동결&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; 대미지 원뿔 공격</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>9</ID>
+      <DefaultText>근접전에서 적의 공격이 빗나갈 경우 {0:value:percent} 확률로 &lt;link="glossary://GlossaryEntry_Crushing&gt;&lt;b&gt;부수기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; 반격을 가함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>10</ID>
+      <DefaultText>치명타 시 사람 또는 와일더에게 &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;동요 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;를 일으키는 공격을 가함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>11</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입히고 일반적인 칼보다 빨리 공격함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>13</ID>
+      <DefaultText>명중 시 {0:value:percent} 확률로 대상이 &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;구역질 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>14</ID>
+      <DefaultText>명중 시 대상에게 {0:value:straight}의 누적 가능한 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; 부여</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>15</ID>
+      <DefaultText>사용자의 레벨과 더불어 무기 명중률, 대미지, &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 증가</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>22</ID>
+      <DefaultText>공격 시 {0:value:percent} 확률로 사용자가 {0:extravalue:straight} &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입음</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>23</ID>
+      <DefaultText>동료와 같은 대상 공격 시 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt; {0:value}.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>26</ID>
+      <DefaultText>격노하여, &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;날렵함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;과 &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;집요함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;을 획득함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>32</ID>
+      <DefaultText>방패를 휘두를 경우 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>33</ID>
+      <DefaultText>비 장막 관통 공격에 대해 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>34</ID>
+      <DefaultText>명중 시 {0:extravalue:duration} 동안 {0:value:percentbonus} &lt;link="glossary://GlossaryEntry_Freezing&gt;&lt;b&gt;동결&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; 대미지. ({0:triggercount}회 누적 가능)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>35</ID>
+      <DefaultText>기본 공격은 작은 효과 범위 내에서 관통과 &lt;link="glossary://GlossaryEntry_Slashing&gt;&lt;b&gt;베기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; 대미지 중 높은 쪽으로 공격함.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>36</ID>
+      <DefaultText>명중 시 {0:extravalue:duration} 동안 {0:value:percentbonus} &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; 대미지. ({0:triggercount}회 누적 가능)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>39</ID>
+      <DefaultText>인간형 적을 상대로 치명타 시 대상이 &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;경악 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>42</ID>
+      <DefaultText>은신 공격은 대상을 출혈 상태로 만들어 전투가 끝날 때까지 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입힘.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>43</ID>
+      <DefaultText>3.0초에서 9.0초 동안 대상에게 5 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 출혈 대미지</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>46</ID>
+      <DefaultText>명중 시 {0:value:duration} 에서 {0:extravalue:duration} 동안 측면 피해 상태인 대상에게 {0:triggercount} 회 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>48</ID>
+      <DefaultText>명중 시 {0:extravalue:duration} 동안 {0:value:duration}마다 {0:triggercount} &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>53</ID>
+      <DefaultText>치명타 시 일정 확률로 적을 &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;혼미 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;로 만들고 쓰러트림.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>58</ID>
+      <DefaultText>명중 시 일정 확률로 대상이 &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;산만한 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>60</ID>
+      <DefaultText>치명타 시 {0:triggervalue:duration} 동안, 대상의 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value}. ({0:extravalue:straight} 회 누적 가능)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>63</ID>
+      <DefaultText>명중 시 {0:value:percent} 확률로 {0:extravalue:duration} 동안 대상을 &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;산만한 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;에 빠트림</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>64</ID>
+      <DefaultText>두 번 명중하지만 대미지는 감소함 (태양은 {0:value:percent} &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입힘) (달은 {0:value:percent} &lt;link="glossary://GlossaryEntry_Freezing&gt;&lt;b&gt;동결&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; 대미지를 입힘)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>65</ID>
+      <DefaultText>기본 공격은 소량의 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입힘.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>70</ID>
+      <DefaultText>명중 시 {0:extravalue:duration} 동안 대상의 &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value} ({0:triggercount}회 누적됨)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>73</ID>
+      <DefaultText>사용자는 적에게 입힌 대미지의 {0:value:percent}를 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지로 돌려받음</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>74</ID>
+      <DefaultText>사용자는 적에게 입힌 대미지의 {0:value:percent}를 &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; 대미지로 돌려받음</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>76</ID>
+      <DefaultText>공격 시 {0:value:percent} 확률로 자신이나 근처의 동료 하나에게 &lt;link="glossary://GlossaryEntry_Piercing&gt;&lt;b&gt;관통&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>77</ID>
+      <DefaultText>치명타 시 일정 확률로 대상이 &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;저는 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, 넉다운 상태가 되거나, 12.0초 동안 지속적인 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입거나, 행동 속도 -25%가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>81</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value}. 협박 스킬로 증가</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>86</ID>
+      <DefaultText>은신 상태에서 가한 공격은 대상을 &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;기절 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;로 만듦</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>90</ID>
+      <DefaultText>근접 무기로 치명타 시 {0:value:percent} 확률로 대상에게 &lt;link="glossary://GlossaryEntry_Shock&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; 대미지 공격을 가함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>92</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Shock&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; 대미지를 받을 경우, 착용자는 잠시 동안 공격에 &lt;link="glossary://GlossaryEntry_Shock&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; 대미지를 추가함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>106</ID>
+      <DefaultText>녹아웃될 경우 효과 범위에 &lt;link="glossary://GlossaryEntry_Shock&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>109</ID>
+      <DefaultText>은신 상태에서의 근접 공격은 대상에게 지속적인 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>110</ID>
+      <DefaultText>근접전에서 치명타를 입을 경우, {0:value:percent} 확률로 효과 범위에 방해하는 &lt;link="glossary://GlossaryEntry_Crushing&gt;&lt;b&gt;부수기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>111</ID>
+      <DefaultText>근접전에서 치명타를 입을 경우, &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입히는 보복 공격을 가함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>112</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지의 {0:value:percent}를 체력으로 전환함.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>117</ID>
+      <DefaultText>{0:damagetype} 대미지의 {0:value:percent}를 지속적인 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지로 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>120</ID>
+      <DefaultText>착용자가 체력을 잃을수록 &lt;link="glossary://GlossaryEntry_Freezing&gt;&lt;b&gt;동결&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; 공격에 대한 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;이 증가함 (최대 {0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>125</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;를 제외한 모든 방어 {0:value}. (역사학 스킬로 증가)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>134</ID>
+      <DefaultText>중대한 부상 또는 사망 직전 상태일 경우, 착용자는 &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; 대미지에 면역</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>136</ID>
+      <DefaultText>착용자는 자신이 가한 대미지의 {0:value:percent}를 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지로 받음</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>138</ID>
+      <DefaultText>착용자가 체력을 잃을수록 증가하는 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; {0:extravalue} (최대 {0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>149</ID>
+      <DefaultText>치명타 시, 일정 확률로 대상이 &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;동요 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>150</ID>
+      <DefaultText>치명타 시, 일정 확률로 대상과 근처의 적들이 &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;동요 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>152</ID>
+      <DefaultText>명중 시 {0:extravalue:duration} 동안 대상의 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;는 {0:value} (이)가 됨. ({0:triggercount}회 누적 가능)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>154</ID>
+      <DefaultText>치명타 시 대상에게 {0:value} &lt;link="glossary://GlossaryEntry_Shock&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>157</ID>
+      <DefaultText>치명타 시 {0:value:percent} 확률로 대상과 근처의 적들이 &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;혼미 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>158</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Crushing&gt;&lt;b&gt;부수기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; 혹은 &lt;link="glossary://GlossaryEntry_Slashing&gt;&lt;b&gt;베기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; 대미지 중 높은 쪽을 적용함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>159</ID>
+      <DefaultText>명중 시, {0:value:percent} 확률로 대상에게 &lt;link="glossary://GlossaryEntry_Crushing&gt;&lt;b&gt;부수기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; 대미지를 입히는 파도를 시전함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>161</ID>
+      <DefaultText>명중 시 {0:value:percent} 확률로 대상이 &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;혼미 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>162</ID>
+      <DefaultText>명중 시 {0:value:percent} 확률로 대상이 &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;혼미 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>164</ID>
+      <DefaultText>근접전에서 적의 공격이 빗나갈 경우 일정 확률로 &lt;link="glossary://GlossaryEntry_Crushing&gt;&lt;b&gt;부수기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;/&lt;link="glossary://GlossaryEntry_Slashing&gt;&lt;b&gt;베기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; 반격을 가함.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>171</ID>
+      <DefaultText>명중 시 {0:value:percent} 확률로 {0:extravalue:duration} 동안 대상이 &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;구역질 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>172</ID>
+      <DefaultText>동료가 의식 불명 상태가 될 경우 자신은 {0:value:duration} 동안 &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;강인함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화를 받음</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>174</ID>
+      <DefaultText>명중 시 대상에게 -0.25의 누적되는 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;을 적용. 최대 -3 감소</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>175</ID>
+      <DefaultText>명중 시 대상에게 -0.5의 누적되는 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;을 적용. 최대 -4 감소</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>178</ID>
+      <DefaultText>대상에게 연속 {0:value:straight} 회 명중 시, 효과 범위에 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>194</ID>
+      <DefaultText>명중 시 효과 범위에 &lt;link="glossary://GlossaryEntry_Freezing&gt;&lt;b&gt;동결&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;/&lt;link="glossary://GlossaryEntry_Slashing&gt;&lt;b&gt;베기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>196</ID>
+      <DefaultText>명중 시 &lt;link="glossary://GlossaryEntry_Freezing&gt;&lt;b&gt;동결&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; 대미지 +3% 획득. 효과는 20회 누적됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>201</ID>
+      <DefaultText>명중 시 &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; 대미지 +3% 획득. 효과는 20회 누적됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>202</ID>
+      <DefaultText>더럽혀진 칼이 {0:triggercount} 회 누적되었을 경우, 치명타 시 대상이 &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;구역질 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>209</ID>
+      <DefaultText>열쇠 파괴자로 살해 시 {0:extravalue:duration} 동안 근처에 있는 동료들의 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;를 제외한 모든 방어 {0:value}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>211</ID>
+      <DefaultText>&lt;xg&gt;마그란의&lt;/xg&gt; 호의로 살해 시 근처의 적들에게 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>212</ID>
+      <DefaultText>치명타 시 대상에게 {0:value:duration} 동안 {0:extravalue:duration} 당 {0:triggercount} &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>213</ID>
+      <DefaultText>&lt;xg&gt;마그란의&lt;/xg&gt; 호의로 입힌 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지의 {0:value:percent}만큼 사용자를 치유함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>214</ID>
+      <DefaultText>&lt;xg&gt;마그란의&lt;/xg&gt; 호의로 살해 시, {0:value:percent}의 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입히고 행동 속도 {0:extravalue:percent}. (효과는 {0:triggervalue:straight}회 누적됨)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>215</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt; {0:value}. 생존 스킬로 증가.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>220</ID>
+      <DefaultText>명중 시 측면 피해 상태의 대상에게 적당량의 지속적인 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>224</ID>
+      <DefaultText>치명타 시 대상에게 {0:extravalue:duration} 동안 {0:value:duration}마다 {0:triggercount} &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 출혈 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>225</ID>
+      <DefaultText>명중 시 {0:triggervalue:duration} 동안 {0:value:duration}마다 {0:triggercount} &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; 대미지를 입힘. (대상이 사망 직전 상태일 경우 {0:extravalue:percent} 확률로 즉시 살해)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>226</ID>
+      <DefaultText>명중 시 {0:triggervalue:duration} 동안 {0:value:duration}마다 {0:triggercount} &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; 대미지를 입힘. ({0:extravalue:percent} 확률로 대상을 순간적으로 마비시킴)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>230</ID>
+      <DefaultText>유지 중인 챈터 악절마다 {0:extravalue:percent} 확률로 &lt;link="glossary://GlossaryEntry_Shock&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; 대미지가 추가됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>240</ID>
+      <DefaultText>화염 공격의 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지 20%를 공격자에게 반사함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>241</ID>
+      <DefaultText>적의 스침 공격이 빗나갈 경우 50% 확률로 10.0초 동안 공격자가 &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;실명 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>242</ID>
+      <DefaultText>명중 시 {0:extravalue:percent} 확률로 {0:value:duration} 동안 대상을 &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;혼미 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;로 만들고 쓰러트림</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>245</ID>
+      <DefaultText>명중 시 {0:value:percent} 확률로 대상이 밀려나고 &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;혼미 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>246</ID>
+      <DefaultText>명중 시 {0:value:percent} 확률로 대상이 &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;이동 불가 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>252</ID>
+      <DefaultText>명중 시 {0:value:percent} 확률로 대상이 &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;저는 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>253</ID>
+      <DefaultText>해당 무기로 명중 시 {0:value:percent} 확률로 지속적인 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>256</ID>
+      <DefaultText>명중 시 {0:value:percent} 확률로 {0:extravalue:duration} 동안 대상이 &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;혼란 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>257</ID>
+      <DefaultText>대상이 &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;산만한 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;일 경우, 치명타 시 쓰러짐</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>258</ID>
+      <DefaultText>무기의 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지 중 {0:value:percent}를 체력으로 돌려줌</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>259</ID>
+      <DefaultText>무기로 입힌 &lt;link="glossary://GlossaryEntry_Freezing&gt;&lt;b&gt;동결&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; 대미지의 {0:value:percent} 만큼 대상의 최대 체력을 감소시킴</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>261</ID>
+      <DefaultText>명중 시 {0:value:percent} 확률로 마법 탄환을 수정해 지속적인 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>271</ID>
+      <DefaultText>대상이 결의 저하 상태일 경우, 치명타 시 대상에게 {0:value:duration} 동안 {0:extravalue:duration}마다 {0:triggercount} &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>272</ID>
+      <DefaultText>치명타 시 대상에게 12.0초 동안 지속적인 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 출혈 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>284</ID>
+      <DefaultText>치명타 시 12.0초 동안 대상이 &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;구역질 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됨. &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;로 저항 가능.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>285</ID>
+      <DefaultText>명중 시 {0:value:percent} 확률로 대상 주위의 효과 범위에 &lt;link="glossary://GlossaryEntry_Crushing&gt;&lt;b&gt;부수기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; 대미지를 입히는 물을 퍼부음</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>287</ID>
+      <DefaultText>교전 시 근접 대미지 +10% 및 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; +5 획득. 3회 누적됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>290</ID>
+      <DefaultText>명중 시 체력이 25% 이하인 대상에게 18.0초 동안 지속적인 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>294</ID>
+      <DefaultText>공격 후, {0:value:duration} 동안 받은 근접 대미지의 {0:extravalue:percent}를 공격자에게 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지로 돌려줌</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>301</ID>
+      <DefaultText>근접 공격에 명중당해 &lt;link="glossary://GlossaryEntry_Slashing&gt;&lt;b&gt;베기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; 대미지를 입을 경우, {0:value:percent} 확률로 적에게 &lt;link="glossary://GlossaryEntry_Slashing&gt;&lt;b&gt;베기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; 공격을 가함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>302</ID>
+      <DefaultText>체력을 읽을수록 &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;가 {0:extravalue}만큼 증가함 (최대 &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value})</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>305</ID>
+      <DefaultText>의식 불명 시 효과 범위 내의 적에게 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>306</ID>
+      <DefaultText>명중당할 경우 전투가 끝날 때까지 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value} 및 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:extravalue} ({0:triggervalue:straight}회 누적됨)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>307</ID>
+      <DefaultText>긍정적일 경우 알로스의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; +1</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>308</ID>
+      <DefaultText>매우 긍정적일 경우 알로스의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; +3</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>312</ID>
+      <DefaultText>원거리 무기에 대해 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value}. (은신 스킬로 증가)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>314</ID>
+      <DefaultText>측면 피해 상태인 동안 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>318</ID>
+      <DefaultText>착용자가 체력을 잃을수록 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;이 증가함 (최대 {0:extravalue} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>323</ID>
+      <DefaultText>양손 무기는 {0:extravalue:duration} 동안 &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;비틀거림 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;를 유발함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>324</ID>
+      <DefaultText>원거리 무기의 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt; {0:value}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>325</ID>
+      <DefaultText>양손 무기는 {0:extravalue:duration} 동안 &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;혼미 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;를 유발함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>326</ID>
+      <DefaultText>원거리 무기의 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt; {0:value} 및 보너스 대미지 {0:extravalue:percentbonus}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>332</ID>
+      <DefaultText>적에게 입힌 대미지의 {0:value:percent}가 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지로 자신에게 적용됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>337</ID>
+      <DefaultText>착용자의 레벨이 증가함에 따라 무기 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 증가함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>338</ID>
+      <DefaultText>명중당할 경우 착용자에게 체력을 부여하고 대상에게 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>340</ID>
+      <DefaultText>치명타 시 전투가 끝날 때까지 +10%의 &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; 대미지가 추가됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>347</ID>
+      <DefaultText>치명타를 입을 경우 전투기 끝날 때까지 &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, {0:value} (으)로 됨. ({0:extravalue:straight} 회 누적 가능)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>351</ID>
+      <DefaultText>근접 무기에 대해 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>352</ID>
+      <DefaultText>근접전에서 적의 공격이 빗나갈 경우 반격함 (대상을 &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;혼미 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;에 빠트림)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>384</ID>
+      <DefaultText>받은 대미지의 {0:value:percent}는 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지로 재적용됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>391</ID>
+      <DefaultText>관통/&lt;link="glossary://GlossaryEntry_Slashing&gt;&lt;b&gt;베기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; 대미지 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>392</ID>
+      <DefaultText>영혼의 광환이 {0:value:duration} 동안 &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;강력함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 및 &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;영리함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화를 부여함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>393</ID>
+      <DefaultText>마룩스 아만스로 명중 시 {0:value:percent} 확률로 효과 범위 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>399</ID>
+      <DefaultText>치명타는 {0:extravalue:duration} 동안 &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;저는 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;나 &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;약화 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;를 입힙니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>400</ID>
+      <DefaultText>의식 불명 시, {0:extravalue:duration} 동안 동료들에게 &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;확고함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화를 부여하고 적들에게 전력 공격을 가하는 범위 효과를 발생시킴</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>405</ID>
+      <DefaultText>치명타로 적 살해 시 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입히는 범위 효과 발생</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>406</ID>
+      <DefaultText>명중이나 치명타 시 {0:value:percent} 확률로 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입히는 작은 범위 효과 발생</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>411</ID>
+      <DefaultText>체력이 감소하면 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 부여. 체력이 0%일 경우 최대 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>413</ID>
+      <DefaultText>전투에서 최초 교전 시 {0:value:duration} 동안 자신에게 &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;영리함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화를 부여하고 적 하나를 &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;혼란 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;에 빠트림</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>416</ID>
+      <DefaultText>전투에서 최초 교전 시 {0:value:duration} 동안 &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;영리함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화 부여</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>417</ID>
+      <DefaultText>관계가 부정적일 경우 알로스의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; {0:value}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>418</ID>
+      <DefaultText>관계가 매우 부정적일 경우 알로스의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; {0:value}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>419</ID>
+      <DefaultText>관계가 부정적일 경우 에데어의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; {0:value}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>420</ID>
+      <DefaultText>관계가 부정적일 경우 에데어의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; {0:value}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>424</ID>
+      <DefaultText>불 공격에 치명타를 입을 경우 {0:extravalue:duration} 동안 방해 상태를 일으키고 &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value} 페널티를 부여함</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>446</ID>
+      <DefaultText>근접 공격에 치명타를 입을 경우, {0:value:percent} 확률로 공격자들을 &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;혼란 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;에 빠트림 (치명타 시 현혹 상태로 업그레이드됨)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>451</ID>
+      <DefaultText>공격 시 {0:value:percent} 확률로 &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; 대미지를 입히고 대상을 &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;저는 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;로 만드는 원뿔 모양의 범위 효과를 일으킴</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>453</ID>
+      <DefaultText>무기로 적 하나를 살해할 경우 {0:value:duration} 동안 근처의 적들이 &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;산만한 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됩니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>455</ID>
+      <DefaultText>명중 시, 적 하나에게 누적되는 효과를 적용합니다. 치명타 시, 효과 범위 내의 모든 적은 누적된 효과를 잃는 동시에 누적된 효과 하나 당 {0:extravalue}의 &lt;link="glossary://GlossaryEntry_Shock&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; 대미지를 입습니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>459</ID>
+      <DefaultText>체력이 {0:extravalue:percent} 이상일 경우 입힌 대미지의 +{0:value:percent}를 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지로 입히며, 체력이 {0:extravalue:percent} 이하일 경우 입힌 대미지의 +{0:value:percent}를 &lt;link="glossary://GlossaryEntry_Freezing&gt;&lt;b&gt;동결&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; 대미지로 입힘</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>460</ID>
+      <DefaultText>관계가 부정적일 경우 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; {0:value}, 관계가 매우 부정적일 경우 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; {0:extravalue}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>462</ID>
+      <DefaultText>관계가 긍정적일 경우 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; {0:value}, 관계가 매우 긍정적일 경우 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; {0:extravalue}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>463</ID>
+      <DefaultText>관계가 긍정적일 경우 (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;를 제외한) 모든 방어 {0:value}, 관계가 매우 긍정적일 경우 (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;를 제외한) 모든 방어 {0:extravalue}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>469</ID>
+      <DefaultText>적과 교전 시, 짧은 시간 동안 무작위로 갑옷 {0:value}, &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt; 보너스 {0:value}, 혹은 회복 시간 {0:extravalue:percentbonus} 보너스를 부여합니다.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>470</ID>
+      <DefaultText>명중 시, 45.0초 동안 대상에 대한 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value}. 5회 누적됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>478</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value} (운동 스킬로 증가)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>483</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; {0:value}. 명중당하면 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;을 잃지만 재생됨</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>485</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Slashing&gt;&lt;b&gt;베기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; 대미지 공격에 저항할 확률 {0:extravalue:percent}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>486</ID>
+      <DefaultText>&lt;link="glossary://GlossaryEntry_Crushing&gt;&lt;b&gt;부수기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; 대미지 공격에 저항할 확률 {0:extravalue:percent}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>488</ID>
+      <DefaultText>명중 시 {0:value:percent} 확률로 {0:extravalue:duration} 동안 &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;경악 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;를 적용함 (스침 제외)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>489</ID>
+      <DefaultText>명중 시 {0:value:percent} 확률로 {0:extravalue:duration} 동안 &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;공포 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;를 적용함 (스침 제외)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>498</ID>
+      <DefaultText>전투 시작 시 낮은 레벨의 인간형 적들은 &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;공포 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 될 수 있음</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>504</ID>
+      <DefaultText>측면 공격에 대해 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>512</ID>
+      <DefaultText>명중 시, {0:value:percent} 확률로 {0:extravalue:duration} 동안 본인에게 &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;건강함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>520</ID>
+      <DefaultText>착용자가 체력을 잃을수록 &lt;link="glossary://GlossaryEntry_Shock&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; 공격에 대한 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;이 증가함 (최대 {0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>521</ID>
+      <DefaultText>착용자가 체력을 잃을수록 물 공격에 대한 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;이 증가함 (최대 {0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>524</ID>
+      <DefaultText>소환수의 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt; {0:value}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>536</ID>
+      <DefaultText>제자리에 있는 동안 &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>544</ID>
+      <DefaultText>근처에 있는 동료들의 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:value}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>551</ID>
+      <DefaultText>공격이 적중할 시 20%의 확률로 추가 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지 부여</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>552</ID>
+      <DefaultText>범위 공격이 적중할 시 20%의 확률로 추가 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지 부여</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>570</ID>
+      <DefaultText>상처 당 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:extravalue}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>571</ID>
+      <DefaultText>상처 당 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:extravalue}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>576</ID>
+      <DefaultText>{0:interval}마다 &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; 대미지를 입히는 범위 효과 발생</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

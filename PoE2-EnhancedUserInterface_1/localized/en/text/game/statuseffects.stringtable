@@ -4,7 +4,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>532</EntryCount>
+  <EntryCount>538</EntryCount>
   <Entries>
     <Entry>
       <ID>0</ID>
@@ -1059,6 +1059,16 @@
     <Entry>
       <ID>588</ID>
       <DefaultText>&lt;line-height=100%&gt;Gain the &lt;link="glossary://GlossaryEntry_Aware"&gt;&lt;#ca58ff&gt;Aware&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration for {0:value:duration} whenever a nearby Ally scores a killing blow&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+     <Entry>
+      <ID>626</ID>
+      <DefaultText>&lt;line-height=100%&gt;Chance to &lt;link="glossary://GlossaryEntry_Terrified"&gt;&lt;#30d3d5&gt;Terrify&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; when attacked with Melee Weapons&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>632</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0:value:percent} Chance on scoring a kill with this weapon to &lt;link="gamedata://dc8da24a-58d7-46c9-afae-90abea279b4f"&gt;Frenzy&lt;/link&gt; the wielder (Without a &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; penalty)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
