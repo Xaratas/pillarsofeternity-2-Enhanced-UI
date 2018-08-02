@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 0.9-beta.8 -->
+<!-- Game Build 2.0.0.0017 -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\items</Name>
   <NextEntryID>1</NextEntryID>
@@ -6,384 +8,384 @@
   <Entries>
     <Entry>
       <ID>254</ID>
-      <DefaultText>Matchlock firearms of high power and fair &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy, arquebuses are prized for their ability to harm enemies protected by the Veil, including spirits and wizards' Arcane Veils.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Matchlock firearms of high power and fair &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, arquebuses are prized for their ability to harm enemies protected by the Veil, including spirits and wizards' Arcane Veils.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>284</ID>
-      <DefaultText>Large shields are used when a warrior needs the best protection possible, even if that means sacrificing some &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy in exchange. Though they typically taper like an inverted "teardrop," large shields come in a variety of shapes, often emblazoned with heraldry.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Large shields are used when a warrior needs the best protection possible, even if that means sacrificing some &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; in exchange. Though they typically taper like an inverted "teardrop," large shields come in a variety of shapes, often emblazoned with heraldry.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>286</ID>
-      <DefaultText>Medium shields offer a moderate improvement in protection with a small reduction to &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy. They are the most commonly-used shields in the Dyrwood and come in a variety of shapes.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Medium shields offer a moderate improvement in protection with a small reduction to &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;. They are the most commonly-used shields in the Dyrwood and come in a variety of shapes.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>289</ID>
-      <DefaultText>Though they don't offer much protection, small shields do not interfere with a warrior's &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy at all. Unlike larger shields, which are worn on the forearm, small shields are held in the hand.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Though they don't offer much protection, small shields do not interfere with a warrior's &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; at all. Unlike larger shields, which are worn on the forearm, small shields are held in the hand.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>290</ID>
-      <DefaultText>Spears are not as long as their two-handed kin, pikes, but they are easier to maneuver and can be used with a shield. Even with a one-handed grip, spears can strike fierce blows with high &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Spears are not as long as their two-handed kin, pikes, but they are easier to maneuver and can be used with a shield. Even with a one-handed grip, spears can strike fierce blows with high &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1337</ID>
-      <DefaultText>Spears are not as long as their two-handed kin, pikes, but they are easier to maneuver and can be used with a shield. Even with a one-handed grip, spears can strike fierce blows with high &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy.
+      <DefaultText>&lt;line-height=100%&gt;Spears are not as long as their two-handed kin, pikes, but they are easier to maneuver and can be used with a shield. Even with a one-handed grip, spears can strike fierce blows with high &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.
 
-This crude spear is decorated with feathers and beads.</DefaultText>
+This crude spear is decorated with feathers and beads.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1478</ID>
-      <DefaultText>These baubles provide +5 &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy for all fire-based attacks.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;These baubles provide +5 &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; for all fire-based attacks.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1798</ID>
-      <DefaultText>Causes enemies in the area of effect to glow with pale green light, making them easier targets. Affected enemies suffer decreased &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; and &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Causes enemies in the area of effect to glow with pale green light, making them easier targets. Affected enemies suffer decreased &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2361</ID>
-      <DefaultText>These knives of soul energy do &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage and harvest Focus for the cipher who created them.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;These knives of soul energy do &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; damage and harvest Focus for the cipher who created them.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2838</ID>
-      <DefaultText>This golden ring bears Huana runic engravings. The delicacy of the inscriptions and clean &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy of the shaping are markers of a master craftsman. Grooves along the underside would suggest this piece connects to a larger mechanism.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;This golden ring bears Huana runic engravings. The delicacy of the inscriptions and clean &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; of the shaping are markers of a master craftsman. Grooves along the underside would suggest this piece connects to a larger mechanism.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2852</ID>
-      <DefaultText>While the bear cub is following you around you gain a bonus to &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt; and your party receives a bonus to Melee damage.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While the bear cub is following you around you gain a bonus to &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;Fortitude&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and your party receives a bonus to Melee damage.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2866</ID>
-      <DefaultText>Deal {0} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn Damage</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Deal {0} &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; Damage&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3114</ID>
-      <DefaultText>A fragile orb containing caustic compounds and choking gasses. When it bursts, a cloud of acidic mist erupts from the device, dealing &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode damage and reducing the effective Armor of all within.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A fragile orb containing caustic compounds and choking gasses. When it bursts, a cloud of acidic mist erupts from the device, dealing &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; damage and reducing the effective Armor of all within.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3116</ID>
-      <DefaultText>A confounding array of wires and elemental implements. The copper fuse sparks ominously when in close proximity to flesh and armor. When activated, a web of electric bolts explodes from the device, dealing &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock damage and possibly paralyzing any creatures caught in the blast.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A confounding array of wires and elemental implements. The copper fuse sparks ominously when in close proximity to flesh and armor. When activated, a web of electric bolts explodes from the device, dealing &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; damage and possibly paralyzing any creatures caught in the blast.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3122</ID>
-      <DefaultText>An alchemical device of devastating power. Lost whispers emanate from deep within, singing of &lt;sprite="Inline" name="cs_blunt" tint=1&gt; crushing darkness. When the charge detonates, a rift forms, pulling all within towards the black horizon, dealing &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crush damage.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;An alchemical device of devastating power. Lost whispers emanate from deep within, singing of crushing darkness. When the charge detonates, a rift forms, pulling all within towards the black horizon, dealing &lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;Crush&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; damage.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3138</ID>
-      <DefaultText>This foul-tasting elixir alters the skin and internal body structures to better withstand &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze, &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode, and &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock Damage.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;This foul-tasting elixir alters the skin and internal body structures to better withstand &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; Damage.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3143</ID>
-      <DefaultText>The bubbling liquid &lt;sprite="Inline" name="cs_burn" tint=1&gt; burns like fire when swallowed. Fury &lt;sprite="Inline" name="cs_burn" tint=1&gt; burns behind the eyes, increasing Action Speed and melee Damage, at the expense of &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The bubbling liquid burns like fire when swallowed. Fury burns behind the eyes, increasing Action Speed and melee Damage, at the expense of &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3145</ID>
-      <DefaultText>The liquid within this flask froths and ripples of its own accord. When swallowed, the elixir twists and morphs the face, transforming it into a nightmarish mask of rotting, insect-infested flesh, and all things horrible, provoking nearby foes to become &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrified &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The liquid within this flask froths and ripples of its own accord. When swallowed, the elixir twists and morphs the face, transforming it into a nightmarish mask of rotting, insect-infested flesh, and all things horrible, provoking nearby foes to become &lt;link="glossary://GlossaryEntry_Terrified"&gt;&lt;#30d3d5&gt;Terrified&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Sickened"&gt;&lt;#f7b733&gt;Sickened&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3154</ID>
-      <DefaultText>Invigorates the body, warding off the effects of &lt;link="glossary://GlossaryEntry_Body_Affliction"&gt;Body Afflictions&lt;/link&gt;, reducing their potency.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Invigorates the body, warding off the effects of &lt;link="glossary://GlossaryEntry_Body_Affliction"&gt;Body Afflictions&lt;/link&gt;, reducing their potency.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3156</ID>
-      <DefaultText>This potion clears distraction and fear from the mind, reducing the effectiveness of &lt;link="glossary://GlossaryEntry_Mind_Affliction"&gt;Mind Afflictions&lt;/link&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;This potion clears distraction and fear from the mind, reducing the effectiveness of &lt;link="glossary://GlossaryEntry_Mind_Affliction"&gt;Mind Afflictions&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3180</ID>
-      <DefaultText>This elixir permeates body tissues, rendering the flesh immune to the effects of &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn, &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze, and &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock damage for duration. When the infused potion is exhausted or overwhelmed by damage, the protection fails.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;This elixir permeates body tissues, rendering the flesh immune to the effects of &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; damage for duration. When the infused potion is exhausted or overwhelmed by damage, the protection fails.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3197</ID>
-      <DefaultText>Grants unerring &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy, providing a substantial chance to convert Misses to Grazes, Grazes to Hits, and Hits to Crits.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Grants unerring &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, providing a substantial chance to convert Misses to Grazes, Grazes to Hits, and Hits to Crits.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3394</ID>
-      <DefaultText>A call for divine favor that grants the &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Insightful &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspiration to allies in the area of effect.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A call for divine favor that grants the &lt;link="glossary://GlossaryEntry_Insightful"&gt;&lt;#ca58ff&gt;Insightful&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration to allies in the area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3395</ID>
-      <DefaultText>Creates a cone of fire in front of the reader, causing &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage to anyone in the area of effect.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a cone of fire in front of the reader, causing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage to anyone in the area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3398</ID>
-      <DefaultText>Calls down a shaft of intense sunlight, &lt;sprite="Inline" name="cs_burn" tint=1&gt; burning and potentially &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blinding &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; those caught in the area of effect.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Calls down a shaft of intense sunlight, &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;burning&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; and potentially &lt;link="glossary://GlossaryEntry_Blinded"&gt;&lt;#ca58ff&gt;Blinding&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; those caught in the area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3399</ID>
-      <DefaultText>A quick strike of &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crushing force, dealing little damage but having a high chance to disrupt enemy spellcasters.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A quick strike of &lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;Crushing&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; force, dealing little damage but having a high chance to disrupt enemy spellcasters.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3401</ID>
-      <DefaultText>Forms a powerful sword with a blade of pure fire in the reader's hands that inflicts &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage. Switching to another weapon ends the spell.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Forms a powerful sword with a blade of pure fire in the reader's hands that inflicts &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage. Switching to another weapon ends the spell.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3402</ID>
-      <DefaultText>Attracts a swarm of aggressive insects, causing &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage over time and reducing the concentration of anyone in the area of effect.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Attracts a swarm of aggressive insects, causing &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; Damage over time and reducing the concentration of anyone in the area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3403</ID>
-      <DefaultText>A prayer missal that grants a target ally the &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspiration for an extended duration.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A prayer missal that grants a target ally the &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration for an extended duration.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3404</ID>
-      <DefaultText>Creates a scorching ray of flame between the reader and the target, inflicting continual &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage to the target and anyone caught in the ray.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a scorching ray of flame between the reader and the target, inflicting continual &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage to the target and anyone caught in the ray.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3407</ID>
-      <DefaultText>Creates a ball of energy in the reader's hand that can be thrown at an enemy, causing &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze, &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode, or &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock damage to anyone caught in the area of effect. Blights are continually replenished until the spell ends.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a ball of energy in the reader's hand that can be thrown at an enemy, causing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, or &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; damage to anyone caught in the area of effect. Blights are continually replenished until the spell ends.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3409</ID>
-      <DefaultText>A prayer missal that grants the target ally the &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Smart &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspiration for an extended duration.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A prayer missal that grants the target ally the &lt;link="glossary://GlossaryEntry_Smart"&gt;&lt;#00a4ff&gt;Smart&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration for an extended duration.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3410</ID>
-      <DefaultText>Conjures an enormous stag horn to attack the first target it hits, causing &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Piercing damage and inflicting a penalty to &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; and &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Conjures an enormous stag horn to attack the first target it hits, causing &lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;b&gt;Piercing&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; damage and inflicting a penalty to &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3411</ID>
-      <DefaultText>Sends two deadly boulders flying out from the reader's position, dealing &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crush damage to anyone in their path and exploding on contact with a solid surface, causing the fragments to &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Pierce anyone nearby.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Sends two deadly boulders flying out from the reader's position, dealing &lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;Crush&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; damage to anyone in their path and exploding on contact with a solid surface, causing the fragments to &lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;b&gt;Pierce&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; anyone nearby.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3412</ID>
-      <DefaultText>Everyone in the cone area of effect takes &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage and is pushed back.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Everyone in the cone area of effect takes &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage and is pushed back.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3414</ID>
-      <DefaultText>Creates a beam of &lt;sprite="Inline" name="cs_blunt" tint=1&gt; crushing force, &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Staggering &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; the target and anyone caught in the beam.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a beam of crushing force, &lt;link="glossary://GlossaryEntry_Staggered"&gt;&lt;#ff4800&gt;Staggering&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; the target and anyone caught in the beam.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3415</ID>
-      <DefaultText>Fires five missiles of pure force at the target, causing a shockwave of &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crushing damage to foes close to the impact.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Fires five missiles of pure force at the target, causing a shockwave of &lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;Crushing&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; damage to foes close to the impact.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3418</ID>
-      <DefaultText>Conjures an intensely luminous beacon of light, causing enemies in the area of effect to take a penalty to all defenses and accrue &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage over time.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Conjures an intensely luminous beacon of light, causing enemies in the area of effect to take a penalty to all defenses and accrue &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage over time.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3419</ID>
-      <DefaultText>A trio of stone claws erupt from the ground, turning flesh to stone, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyzing &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; and inflicting &lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash damage on everyone caught in the area.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A trio of stone claws erupt from the ground, turning flesh to stone, &lt;link="glossary://GlossaryEntry_Paralyzed"&gt;&lt;#72da26&gt;Paralyzing&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and inflicting &lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;b&gt;Slash&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; damage on everyone caught in the area.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3422</ID>
-      <DefaultText>Summons an enormous infestation of venomous insects, dealing &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage over time, reducing Concentration and &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickening &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; anyone in the area of effect.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Summons an enormous infestation of venomous insects, dealing &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; damage over time, reducing Concentration and &lt;link="glossary://GlossaryEntry_Sickened"&gt;&lt;#f7b733&gt;Sickening&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; anyone in the area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3424</ID>
-      <DefaultText>Instantiates a terrifying inferno of flame around the reader, inflicting &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage on everyone nearby.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Instantiates a terrifying inferno of flame around the reader, inflicting &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage on everyone nearby.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3428</ID>
-      <DefaultText>Summons a flaming pillar of fire, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burning everyone in the area of effect.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Summons a flaming pillar of fire, &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burning&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; everyone in the area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3429</ID>
-      <DefaultText>The reader hurls a ball of holy fire at the enemy that purges its protections and speeds its doom. Does continuous &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage for five seconds and accelerates the timer for all beneficial effects on the target (except heals), as well as those of any continuous damage effects. Leaps to up to two additional nearby enemies.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The reader hurls a ball of holy fire at the enemy that purges its protections and speeds its doom. Does continuous &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage for five seconds and accelerates the timer for all beneficial effects on the target (except heals), as well as those of any continuous damage effects. Leaps to up to two additional nearby enemies.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3432</ID>
-      <DefaultText>A terrible rain of fire falls in the area of effect, repeatedly inflicting &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage on all in the area of effect.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A terrible rain of fire falls in the area of effect, repeatedly inflicting &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage on all in the area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3435</ID>
-      <DefaultText>A parching wind blows across the battlefield, inflicting &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage on anyone in the area and leaving them &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Weakened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A parching wind blows across the battlefield, inflicting &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; damage on anyone in the area and leaving them &lt;link="glossary://GlossaryEntry_Weakened"&gt;&lt;#f7b733&gt;Weakened&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3436</ID>
-      <DefaultText>Causes an icy wind of incredible power to arise, pushing back all in the area of effect and inflicting &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze damage.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Causes an icy wind of incredible power to arise, pushing back all in the area of effect and inflicting &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; damage.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3437</ID>
-      <DefaultText>The reader can destroy any spirit, vessel, or summoned creature below the reader's level in the area of effect. Targets equal to or greater than the reader's level take &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The reader can destroy any spirit, vessel, or summoned creature below the reader's level in the area of effect. Targets equal to or greater than the reader's level take &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; damage.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3439</ID>
-      <DefaultText>A series of fiery meteors fall from the sky, pummeling the area with &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage on impact and additional &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage over time.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A series of fiery meteors fall from the sky, pummeling the area with &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage on impact and additional &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage over time.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3639</ID>
-      <DefaultText>While Ginger Demon is following you around, you receive a bonus to Perception and your party gains bonus &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Ginger Demon is following you around, you receive a bonus to Perception and your party gains bonus &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3640</ID>
-      <DefaultText>While Kathrynn Vonn Kiliann the Kat is following you around, you gain a bonus to Intellect and your party receives a bonus to &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Kathrynn Vonn Kiliann the Kat is following you around, you gain a bonus to Intellect and your party receives a bonus to &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;Will&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3641</ID>
-      <DefaultText>While Lil' Babs is following you around, you receive a bonus to Dexterity and your party gains bonus &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; against enemy weapon attacks.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Lil' Babs is following you around, you receive a bonus to Dexterity and your party gains bonus &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; against enemy weapon attacks.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3648</ID>
-      <DefaultText>While Algol is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and party members regain some &lt;sprite="Inline" name="cs_health" tint=1&gt; Health when they kill an enemy.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Algol is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and party members regain some Health when they kill an enemy.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3649</ID>
-      <DefaultText>While Atlas is following you around, you gain a bonus to Perception and your party receives a bonus to ranged Weapon &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Atlas is following you around, you gain a bonus to Perception and your party receives a bonus to ranged &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Weapon Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3650</ID>
-      <DefaultText>While Chilli is following you around you receive a bonus to Resolve and your party gains a bonus to &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Chilli is following you around you receive a bonus to Resolve and your party gains a bonus to &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;Will&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3653</ID>
-      <DefaultText>While Gizmo is following you around you move faster in combat and your party receives a bonus to &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Gizmo is following you around you move faster in combat and your party receives a bonus to &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3654</ID>
-      <DefaultText>While Harley is following you around you receive a bonus to ranged damage and your party receives a bonus to ranged Weapon &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Harley is following you around you receive a bonus to ranged damage and your party receives a bonus to ranged &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Weapon Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3655</ID>
-      <DefaultText>While Hemp is following you around you receive a bonus to Constitution and your party receives a bonus to &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Hemp is following you around you receive a bonus to Constitution and your party receives a bonus to &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;Fortitude&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3658</ID>
-      <DefaultText>While Nikki is following you around enemy attacks against you are more likely to Graze, and your party receives a bonus to melee Weapon &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Nikki is following you around enemy attacks against you are more likely to Graze, and your party receives a bonus to melee &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Weapon Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3659</ID>
-      <DefaultText>While Pancake is following you around you receive a bonus to Might and your party has enhanced resistance to &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Pancake is following you around you receive a bonus to Might and your party has enhanced resistance to &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3691</ID>
-      <DefaultText>While Animancy Cat is following you around, you gain bonuses to Arcana and Metaphysics, and all creatures your party summons gain bonus Might and &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Animancy Cat is following you around, you gain bonuses to Arcana and Metaphysics, and all creatures your party summons gain bonus Might and &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;Penetration&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3693</ID>
-      <DefaultText>While Eviee is following you around, you gain a bonus to Resolve and &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Affliction &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; Resistance. Also, the duration of &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to your party is reduced.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Eviee is following you around, you gain a bonus to Resolve and &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; Resistance. Also, the duration of &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to your party is reduced.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3695</ID>
-      <DefaultText>While Xopn'aua is following you around, you gain a bonus to Insight and Metaphysics. Your entire party also gains a bonus to &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Xopn'aua is following you around, you gain a bonus to Insight and Metaphysics. Your entire party also gains a bonus to &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;Will&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3830</ID>
-      <DefaultText>A handful of sharpened brambles coated with a debilitating venom. When thrown at a target, they stick to fabric, skin, and leather, delivering their painful dose over a brief time. &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbles &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; opponents.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A handful of sharpened brambles coated with a debilitating venom. When thrown at a target, they stick to fabric, skin, and leather, delivering their painful dose over a brief time. &lt;link="glossary://GlossaryEntry_Hobbled"&gt;&lt;#72da26&gt;Hobbles&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; opponents.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4282</ID>
-      <DefaultText>While the wisp is following you around, &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect Afflictions &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you have a reduced duration and all party members are more accurate in their attacks against Spirits.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While the wisp is following you around, &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellect&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you have a reduced duration and all party members are more accurate in their attacks against Spirits.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4390</ID>
-      <DefaultText>While the Grave Hound pup is following you around you deal bonus damage against Vessels and everyone in the party takes reduced &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode damage.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While the Grave Hound pup is following you around you deal bonus damage against Vessels and everyone in the party takes reduced &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; damage.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4410</ID>
-      <DefaultText>While Rare Dan is following you around, enemy attacks against you will Graze more frequently and your party receives a bonus to &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Rare Dan is following you around, enemy attacks against you will Graze more frequently and your party receives a bonus to &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;Fortitude&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4429</ID>
-      <DefaultText>Creates a cone of fire in front of the reader, causing &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage to anyone in the area of effect.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a cone of fire in front of the reader, causing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage to anyone in the area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4456</ID>
-      <DefaultText>While the Baby Boar is following you around your melee weapon attacks have a chance to interrupt and your party deals bonus &lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash damage.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While the Baby Boar is following you around your melee weapon attacks have a chance to interrupt and your party deals bonus &lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;b&gt;Slash&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; damage.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4485</ID>
-      <DefaultText>While Bark String is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and your party moves more quickly in combat.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Bark String is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and your party moves more quickly in combat.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4645</ID>
-      <DefaultText>While Pozzi is following you around your Fire abilities are stronger and your party gains a &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt; bonus.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Pozzi is following you around your Fire abilities are stronger and your party gains a &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; bonus.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4647</ID>
-      <DefaultText>While Socrates is following you around you regain some &lt;sprite="Inline" name="cs_health" tint=1&gt; Health when you deal the killing blow against an enemy and your party has increased &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; against melee attacks.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Socrates is following you around you regain some Health when you deal the killing blow against an enemy and your party has increased &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; against melee attacks.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4922</ID>
-      <DefaultText>While Comet is following you around, you receive a bonus to Might and your party gains bonus &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; against enemy weapon attacks.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Comet is following you around, you receive a bonus to Might and your party gains bonus &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; against enemy weapon attacks.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4935</ID>
-      <DefaultText>While the Obsidian Wurm is following you, you gain a bonus to the Stealth and Sleight of Hand skills and your party gains bonus &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy against flanked enemies.</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While the Obsidian Wurm is following you, you gain a bonus to the Stealth and Sleight of Hand skills and your party gains bonus &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; against flanked enemies.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>5137</ID>
-      <DefaultText>Apply {0} &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; </DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Apply {0} &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>5145</ID>
-      <DefaultText>Deal {0} &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode Damage</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Deal {0} &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; Damage&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>5149</ID>
-      <DefaultText>Deal {0} &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock Damage</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Deal {0} &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; Damage&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
