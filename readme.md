@@ -1,8 +1,6 @@
 #### Pillars of Eternity 2
 # Enhanced User Interface
 
-[Changelog - v. 0.9-beta.1](https://github.com/Xaratas/pillarsofeternity-2-Enhanced-UI/blob/master/changelog.md#changelog)
-
 **Credits:**\
 English: *Spherikal*\
 German: *Xaratatas*\
@@ -23,6 +21,7 @@ This mod aims to improve the standard user interface by highlighting gameplay me
 Subfolders with a 2 in their name are from the tool if there is a community driven baseline.
 
 Tool is [here](https://github.com/AurelioSilver/pillarsofeternity-2-german-patch/tree/master/translation_helper/PoE2%20-%20eclipse%20project%20text%20normalisierer)
+
 
 ## Latest news:
 ### Upcoming feature: new enchanting icons for weapons and armor
