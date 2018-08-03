@@ -1,11 +1,26 @@
 ## CHANGELOG
+### Version 1.1.0
+- New icon for the "Health" keyword! All instances of the keyword "Health" should now have a icon next to it's name.
+- Fixed a issue that was causing the game to give a "Version Warning" message when no such warning was warranted.
+- Fixed multiple keyword stylization that were incorrectly applied to entries in abilities.stringtable.
+
+### Version 1.0.1
+- Centralized the logo on the thumb.png file.
+- Fixed a few missing entries that were added with the Beast of Winter DLC patch.
+- Added missing italian translation of mod description in the manifest.json file. -Thank you Kilay!
+
+### Version 1.0
+- Updated for game version 2.0 among other things.
+
+***
+
 ### Version 0.9-beta.8
 - Added missing entry ID `1543`,`2074`, `2761`, `3762`, `4144` and `4152` in `abilities.stringtable`.
 
 ### Version 0.9-beta.7
 - Removed two incorrectly applied Accuracy icons (abilities.stringtable).
 - Removed one incorrectly applied Accuracy icon (items.stringtable)
-- Added a missing Reflext icon ID `2730` (abilities.stringtable).
+- Added a missing Reflex icon ID `2730` (abilities.stringtable).
 - Removed multiple instances of duplicated lines of code (gui.stringtable).
 - Removed bold stylization of (hopefully) most keywords that show up on the character screen.
 
