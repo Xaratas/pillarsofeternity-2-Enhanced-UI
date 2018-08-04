@@ -27,12 +27,12 @@
     </Entry>
 	<Entry>
       <ID>242</ID>
-      <DefaultText>Isola un bersaglio singolo in una sfera protettiva, proteggendolo dai pericoli mentre la sua Salute si rigenera(il bersaglio viene reso Invisibile, ma resta anche &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordito &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
+      <DefaultText>Isola un bersaglio singolo in una sfera protettiva, proteggendolo dai pericoli mentre la sua &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; si rigenera(il bersaglio viene reso Invisibile, ma resta anche &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordito &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;).</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>243</ID>
-      <DefaultText>Crea un cerchio curativo di lunga durata che rigenera la Salute degli Alleati.</DefaultText>
+      <DefaultText>Crea un cerchio curativo di lunga durata che rigenera la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; degli Alleati.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -48,7 +48,7 @@
     </Entry>
 	<Entry>
       <ID>246</ID>
-      <DefaultText>Crea una proiezione energetica della fede del Sacerdote che, spostandosi lentamente, restituisce Salute agli Alleati e infligge Danno da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; ai nemici.</DefaultText>
+      <DefaultText>Crea una proiezione energetica della fede del Sacerdote che, spostandosi lentamente, restituisce &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; agli Alleati e infligge Danno da &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; ai nemici.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -133,7 +133,7 @@
     </Entry>
 	<Entry>
       <ID>272</ID>
-      <DefaultText>Divora lo spirito del bersaglio, infliggendo Danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; e convertendo la sua essenza in Salute per il lanciatore.</DefaultText>
+      <DefaultText>Divora lo spirito del bersaglio, infliggendo Danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; e convertendo la sua essenza in &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; per il lanciatore.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -158,7 +158,7 @@
     </Entry>
     <Entry>
       <ID>279</ID>
-      <DefaultText>Il lanciatore attinge alla sua forza vitale per acquisire l'Ispirazione &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Rapido &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; e Velocità di Combattimento, prosciugando gradualmente la sua stessa Salute.</DefaultText>
+      <DefaultText>Il lanciatore attinge alla sua forza vitale per acquisire l'Ispirazione &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Rapido &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; e Velocità di Combattimento, prosciugando gradualmente la sua stessa &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
@@ -204,7 +204,7 @@
     </Entry>
 	<Entry>
       <ID>296</ID>
-      <DefaultText>Il Guerriero, esaltato dall'impeto della battaglia, recupera continuamente modeste quantità di Salute.</DefaultText>
+      <DefaultText>Il Guerriero, esaltato dall'impeto della battaglia, recupera continuamente modeste quantità di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -219,12 +219,12 @@
     </Entry>
     <Entry>
       <ID>303</ID>
-      <DefaultText>Crea un campo di energia sacra attorno al Sacerdote, che rende &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Scossi &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e causa Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; ad ogni posseduto in prossimità, rigenerando una modesta quantità di Salute negli Alleati. Il potere dello Splendore sacro di un Sacerdote varia a seconda di come le sue Reputazioni sono in linea con il comportamento imposto dalla sua fede.</DefaultText>
+      <DefaultText>Crea un campo di energia sacra attorno al Sacerdote, che rende &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Scossi &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e causa Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; ad ogni posseduto in prossimità, rigenerando una modesta quantità di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; negli Alleati. Il potere dello Splendore sacro di un Sacerdote varia a seconda di come le sue Reputazioni sono in linea con il comportamento imposto dalla sua fede.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>305</ID>
-      <DefaultText>Ordina a un Alleato K.O. di rialzarsi, garantendo l'Ispirazione &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e donandogli un notevole, ma temporaneo, aumento di Salute, che si dimezzerà dopo breve tempo.</DefaultText>
+      <DefaultText>Ordina a un Alleato K.O. di rialzarsi, garantendo l'Ispirazione &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e donandogli un notevole, ma temporaneo, aumento di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, che si dimezzerà dopo breve tempo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -254,7 +254,7 @@
     </Entry>
 	<Entry>
       <ID>322</ID>
-      <DefaultText>Grazie alla forza della fede, il Paladino può guarire con il tocco della mano, ripristinando una notevole quantità della propria Salute o di quella di un Alleato nel raggio d'Azione.</DefaultText>
+      <DefaultText>Grazie alla forza della fede, il Paladino può guarire con il tocco della mano, ripristinando una notevole quantità della propria &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; o di quella di un Alleato nel raggio d'Azione.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -289,7 +289,7 @@
     </Entry>
 	<Entry>
       <ID>378</ID>
-      <DefaultText>Attingendo al proprio spirito indomabile, il Guerriero è in grado di rigenerare fino al 50% della Salute perduta a causa di un attacco recente.</DefaultText>
+      <DefaultText>Attingendo al proprio spirito indomabile, il Guerriero è in grado di rigenerare fino al 50% della &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; perduta a causa di un attacco recente.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -359,7 +359,7 @@
     </Entry>
     <Entry>
       <ID>427</ID>
-      <DefaultText>La mano del lanciatore diventa un parassita tossico che infligge Danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; al bersaglio, lasciandolo &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indebolito &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; e trasferendo la sua forza vitale al lanciatore sotto forma di Salute.</DefaultText>
+      <DefaultText>La mano del lanciatore diventa un parassita tossico che infligge Danno da &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; al bersaglio, lasciandolo &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indebolito &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; e trasferendo la sua forza vitale al lanciatore sotto forma di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -409,7 +409,7 @@
     </Entry>
 	<Entry>
       <ID>462</ID>
-      <DefaultText>Condivide una parte generosa della forza divina del lanciatore, ripristinando significativamente la Salute degli Alleati nell'Area d'Effetto.</DefaultText>
+      <DefaultText>Condivide una parte generosa della forza divina del lanciatore, ripristinando significativamente la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; degli Alleati nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -429,7 +429,7 @@
     </Entry>
     <Entry>
       <ID>483</ID>
-      <DefaultText>Infonde il fervore della virtù in battaglia agli Alleati garantendo l'Ispirazione &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;. Quando uno degli Alleati nell'Area d'Effetto infligge il colpo di grazia, recupera Salute.</DefaultText>
+      <DefaultText>Infonde il fervore della virtù in battaglia agli Alleati garantendo l'Ispirazione &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;. Quando uno degli Alleati nell'Area d'Effetto infligge il colpo di grazia, recupera &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -444,7 +444,7 @@
     </Entry>
 	<Entry>
       <ID>492</ID>
-      <DefaultText>Dona una seconda occasione ai compagni caduti, rianimando gli Alleati nell'Area d'Effetto e ripristinando una piccola quantità della loro Salute.</DefaultText>
+      <DefaultText>Dona una seconda occasione ai compagni caduti, rianimando gli Alleati nell'Area d'Effetto e ripristinando una piccola quantità della loro &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -464,7 +464,7 @@
     </Entry>
 	<Entry>
       <ID>502</ID>
-      <DefaultText>Implora l'aiuto della divinità del Sacerdote, ripristinando la Salute degli Alleati nell'Area d'Effetto e riducendo la durata degli effetti negativi.</DefaultText>
+      <DefaultText>Implora l'aiuto della divinità del Sacerdote, ripristinando la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; degli Alleati nell'Area d'Effetto e riducendo la durata degli effetti negativi.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -504,7 +504,7 @@
     </Entry>
 	<Entry>
       <ID>528</ID>
-      <DefaultText>Orde di vermi scavatori infestano la pelle dei nemici nell'Area d'Effetto, infliggendo Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo. Più il bersaglio è ferito, maggiore è il Danno. I bersagli con Salute massima non subiscono danni da questo incantesimo.</DefaultText>
+      <DefaultText>Orde di vermi scavatori infestano la pelle dei nemici nell'Area d'Effetto, infliggendo Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo. Più il bersaglio è ferito, maggiore è il Danno. I bersagli con &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; massima non subiscono danni da questo incantesimo.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -534,7 +534,7 @@
     </Entry>
 	<Entry>
       <ID>547</ID>
-      <DefaultText>Crea una vorticosa nube purificante, che respinge i nemici e cura la Salute degli Alleati.</DefaultText>
+      <DefaultText>Crea una vorticosa nube purificante, che respinge i nemici e cura la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; degli Alleati.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -619,7 +619,7 @@
     </Entry>
 	<Entry>
       <ID>595</ID>
-      <DefaultText>Frantuma l'anima del bersaglio con la forza bruta infliggendo Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;; i bersagli con Salute bassa esplodono, causando Danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; a tutti i presenti i presenti nell'Area d'Effetto.</DefaultText>
+      <DefaultText>Frantuma l'anima del bersaglio con la forza bruta infliggendo Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;; i bersagli con &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; bassa esplodono, causando Danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; a tutti i presenti i presenti nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -639,7 +639,7 @@
     </Entry>
 	<Entry>
       <ID>603</ID>
-      <DefaultText>Sgretola la forza eterea che tiene insieme mente, corpo e anima del nemico bersaglio, infliggendogli rapidamente &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;. I bersagli che hanno la Salute ridotta a zero si disintegrano nel nulla.</DefaultText>
+      <DefaultText>Sgretola la forza eterea che tiene insieme mente, corpo e anima del nemico bersaglio, infliggendogli rapidamente &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;. I bersagli che hanno la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; ridotta a zero si disintegrano nel nulla.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -669,7 +669,7 @@
     </Entry>
 	<Entry>
       <ID>646</ID>
-      <DefaultText>Attacca la forza vitale di tutti i nemici nell'Area d'Effetto, causando Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;. Se viene colpito almeno un nemico, anche il Cantore recupererà parte della Salute.</DefaultText>
+      <DefaultText>Attacca la forza vitale di tutti i nemici nell'Area d'Effetto, causando Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;. Se viene colpito almeno un nemico, anche il Cantore recupererà parte della &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -763,6 +763,11 @@
       <FemaleText />
     </Entry>
 	<Entry>
+      <ID>814</ID>
+      <DefaultText>Rianima gli Alleati nell'Area d'Effetto con una piccola quantità di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
       <ID>817</ID>
       <DefaultText>Fa risplendere di una tenue luce verde i nemici nell'Area d'Effetto, rendendoli bersagli più facili. I nemici colpiti hanno &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; ridotti.</DefaultText>
       <FemaleText />
@@ -799,7 +804,7 @@
     </Entry>
 	<Entry>
       <ID>826</ID>
-      <DefaultText>L'arma da mischia del lanciatore diventa uno strumento ideale per la caccia, aggiungendo Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; continuo agli attacchi e ripristinando la Salute del lanciatore a ogni colpo.</DefaultText>
+      <DefaultText>L'arma da mischia del lanciatore diventa uno strumento ideale per la caccia, aggiungendo Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; continuo agli attacchi e ripristinando la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; del lanciatore a ogni colpo.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -829,7 +834,7 @@
     </Entry>
 	 <Entry>
       <ID>834</ID>
-      <DefaultText>Incanala energia lunare in una fonte di potere circoscritta, rigenerando la Salute degli Alleati nell'Area d'Effetto e conferendo un bonus minore a tutte le Difese.</DefaultText>
+      <DefaultText>Incanala energia lunare in una fonte di potere circoscritta, rigenerando la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; degli Alleati nell'Area d'Effetto e conferendo un bonus minore a tutte le Difese.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -855,6 +860,11 @@
     <Entry>
       <ID>839</ID>
       <DefaultText>Crea un campo di fiori velenosi, bellissimi e ammalianti, che infliggono &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spavento &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a6368675-47ed-460d-be4f-2593f24ad126"&gt;&lt;#f7b733&gt;Indebolimento &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; e Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo a chi si trova nell'Area d'Effetto.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>843</ID>
+      <DefaultText>Dona al Mago un lucente Bastone Ferrato di energia negativa,  ripristinando &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; a ogni colpo andato a segno.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -889,7 +899,7 @@
     </Entry>
 	<Entry>
       <ID>856</ID>
-      <DefaultText>Quando la Salute del lanciatore è al del 50%, si attiva un'insidiosa contingenza magica che gli permette di infliggere Prono ai nemici circostanti e di ottenere bonus a &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; e Difese per un breve periodo.</DefaultText>
+      <DefaultText>Quando la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; del lanciatore è al del 50%, si attiva un'insidiosa contingenza magica che gli permette di infliggere Prono ai nemici circostanti e di ottenere bonus a &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; e Difese per un breve periodo.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -914,7 +924,7 @@
     </Entry>
     <Entry>
       <ID>863</ID>
-      <DefaultText>Pervade il Barbaro di una frenesia assassina che dona le Ispirazioni &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenace &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Poderoso &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; invece di &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;In Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;. Quando il Parossismo del Barbaro è attivo,la possibilità di effettuare un colpo Critico viene considerevolmente aumentata durante gli attacchi in Mischia e Massacro  , inoltre il Barbaro è &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; ,non può vedere la sua Salute e subisce Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
+      <DefaultText>Pervade il Barbaro di una frenesia assassina che dona le Ispirazioni &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenace &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Poderoso &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; invece di &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;In Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;. Quando il Parossismo del Barbaro è attivo,la possibilità di effettuare un colpo Critico viene considerevolmente aumentata durante gli attacchi in Mischia e Massacro  , inoltre il Barbaro è &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; ,non può vedere la sua &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; e subisce Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -933,8 +943,18 @@
       <FemaleText />
     </Entry>
 	<Entry>
+      <ID>877</ID>
+      <DefaultText>Evoca un'energia primitiva che rigenera continuamente la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; degli Alleati presenti nel raggio d'Azione durante il Canto del Cantore.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
       <ID>878</ID>
       <DefaultText>Grazie al suo legame naturale con l'orso, il Druido è in grado di assumerne temporaneamente le sembianze. La Metamorfosi dell'Orso ha una &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; elevata e può evocare uno spaventoso ruggito.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>879</ID>
+      <DefaultText>Grazie al suo legame naturale con il Cinghiale, il Druido è in grado di assumerne temporaneamente le sembianze. La Metamorfosi del Cinghiale rigenera la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; perduta, infliggendo Danno nel tempo con i suoi attacchi in mischia.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -944,7 +964,7 @@
     </Entry>
 	<Entry>
       <ID>884</ID>
-      <DefaultText>(Posa del conquistatore) - Il Guerriero sopra il 50% di Salute aumenta la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, mentre quando è sotto il 50% di Salute aumenta la &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; .</DefaultText>
+      <DefaultText>(Posa del conquistatore) - Il Guerriero sopra il 50% di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; aumenta la &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, mentre quando è sotto il 50% di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; aumenta la &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1004,7 +1024,7 @@
     </Entry>
 	<Entry>
       <ID>918</ID>
-      <DefaultText>Il Ladro cerca di finire un avversario menomato con un colpo preciso e letale, tanto più potente quanto più è bassa la Salute del bersaglio.</DefaultText>
+      <DefaultText>Il Ladro cerca di finire un avversario menomato con un colpo preciso e letale, tanto più potente quanto più è bassa la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; del bersaglio.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1062,9 +1082,14 @@
       <DefaultText>I Compagni Orso hanno una &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; insolitamente alta, perciò sono particolarmente protetti da ogni forma di Danno.</DefaultText>
       <FemaleText />
     </Entry>
+	  <Entry>
+      <ID>1018</ID>
+      <DefaultText>I compagni cinghiale rigenerano la propria &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; a poco a poco, anche durante il combattimento.</DefaultText>
+      <FemaleText />
+    </Entry>
 	<Entry>
       <ID>1020</ID>
-      <DefaultText>Tutti i compagni animali cinghiale ricevono un bonus Danno finché la Salute resta al di sotto del 50%.</DefaultText>
+      <DefaultText>Tutti i compagni animali cinghiale ricevono un bonus Danno finché la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; resta al di sotto del 50%.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1150,7 +1175,7 @@
     </Entry>
      <Entry>
       <ID>1212</ID>
-      <DefaultText>Con un tocco delle mani, il Paladino infonde di luce se stesso o un Alleato nel raggio d'Azione, ripristinando una quantità sostanziale di Salute e garantendo l'ispirazione &lt;link="gamedata://dc62af47-239f-4ee4-8d91-a5e8b3b97564"&gt;&lt;#30d3d5&gt;Coraggioso &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Con un tocco delle mani, il Paladino infonde di luce se stesso o un Alleato nel raggio d'Azione, ripristinando una quantità sostanziale di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; e garantendo l'ispirazione &lt;link="gamedata://dc62af47-239f-4ee4-8d91-a5e8b3b97564"&gt;&lt;#30d3d5&gt;Coraggioso &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -1195,17 +1220,17 @@
     </Entry>
     <Entry>
       <ID>1334</ID>
-      <DefaultText>I deiformi aviari sono naturalmente difficili da colpire con armi a distanza e pertanto ottengono un bonus &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; contro tutti gli attacchi di quel tipo. Sotto il 50% di Salute, i deiformi aviari acuiscono i sensi e i movimenti, ottenendo pertanto un bonus di Percezione e difesa contro gli attacchi in disingaggio.</DefaultText>
+      <DefaultText>I deiformi aviari sono naturalmente difficili da colpire con armi a distanza e pertanto ottengono un bonus &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; contro tutti gli attacchi di quel tipo. Sotto il 50% di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, i deiformi aviari acuiscono i sensi e i movimenti, ottenendo pertanto un bonus di Percezione e difesa contro gli attacchi in disingaggio.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
       <ID>1336</ID>
-      <DefaultText>I deiformi della morte sembrano avere un'innata capacità di avvertire la vulnerabilità dei nemici quando la morte si avvicina. Contro tutti i bersagli con Salute bassa, i deiformi della morte guadagnano un bonus di Danno.</DefaultText>
+      <DefaultText>I deiformi della morte sembrano avere un'innata capacità di avvertire la vulnerabilità dei nemici quando la morte si avvicina. Contro tutti i bersagli con &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; bassa, i deiformi della morte guadagnano un bonus di Danno.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1337</ID>
-      <DefaultText>Tutti gli umani hanno uno spirito indomabile che si risveglia quando la situazione si fa cupa. Ogni volta che un umano scende sotto il 50% di Salute, guadagna un bonus di &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e Danno.</DefaultText>
+      <DefaultText>Tutti gli umani hanno uno spirito indomabile che si risveglia quando la situazione si fa cupa. Ogni volta che un umano scende sotto il 50% di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, guadagna un bonus di &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; e Danno.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1216,7 +1241,7 @@
     </Entry>
 	<Entry>
       <ID>1340</ID>
-      <DefaultText>Le anime di tutti i deiformi della luna sono legate a riserve di energia curativa. In combattimento, la prima volta che un deiforme della luna scende sotto il 75%, 50% e 25% di Salute, esso genera automaticamente un'ondata curativa intorno a sé.</DefaultText>
+      <DefaultText>Le anime di tutti i deiformi della luna sono legate a riserve di energia curativa. In combattimento, la prima volta che un deiforme della luna scende sotto il 75%, 50% e 25% di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, esso genera automaticamente un'ondata curativa intorno a sé.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1231,7 +1256,7 @@
     </Entry>
 	<Entry>
       <ID>1385</ID>
-      <DefaultText>Impedisce alla Salute di un personaggio gravemente ferito di raggiungere lo zero, qualora ciò ne comportasse la morte. </DefaultText>
+      <DefaultText>Impedisce alla &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; di un personaggio gravemente ferito di raggiungere lo zero, qualora ciò ne comportasse la morte. </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1261,12 +1286,12 @@
     </Entry>
 	<Entry>
       <ID>1468</ID>
-      <DefaultText>Il Paladino concentra la propria fede e si immola in una fiamma blu. Ogni volta che sfrutta questa abilità, il Paladino subisce una lieve quantità di Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;, ma i nemici nell'area subiscono Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;. Gli Alleati ricevono una piccola quantità di Salute.</DefaultText>
+      <DefaultText>Il Paladino concentra la propria fede e si immola in una fiamma blu. Ogni volta che sfrutta questa abilità, il Paladino subisce una lieve quantità di Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;, ma i nemici nell'area subiscono Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;. Gli Alleati ricevono una piccola quantità di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>1470</ID>
-      <DefaultText>Il Sacerdote trabocca di potenza e si circonda di un alone soprannaturale. Come incarnazione minore della sua divinità, il Sacerdote ottiene le Ispirazioni &lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Veloce&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Forte&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;In Forma&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Smart"&gt;&lt;#00a4ff&gt;Acuto&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Insightful"&gt;&lt;#ca58ff&gt;Profondo&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Steadfast"&gt;&lt;#30d3d5&gt;Nerbo&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; cosi come un bonus a Salute e al Danno delle Armi.</DefaultText>
+      <DefaultText>Il Sacerdote trabocca di potenza e si circonda di un alone soprannaturale. Come incarnazione minore della sua divinità, il Sacerdote ottiene le Ispirazioni &lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Veloce&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Forte&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;In Forma&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Smart"&gt;&lt;#00a4ff&gt;Acuto&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Insightful"&gt;&lt;#ca58ff&gt;Profondo&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Steadfast"&gt;&lt;#30d3d5&gt;Nerbo&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; cosi come un bonus a &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; e al Danno delle Armi.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1276,7 +1301,7 @@
     </Entry>
 	<Entry>
       <ID>1474</ID>
-      <DefaultText>Il compagno animale del Ranger cade a terra e si finge morto per un tempo limitato, durante il quale recupera Salute e non può essere attaccato.</DefaultText>
+      <DefaultText>Il compagno animale del Ranger cade a terra e si finge morto per un tempo limitato, durante il quale recupera &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; e non può essere attaccato.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1326,7 +1351,7 @@
     </Entry>
 	<Entry>
       <ID>1572</ID>
-      <DefaultText>La variante di Dardi minori di Minolea ideata da Concelhaut infligge Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;, attacca la &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt; del bersaglio e trasferisce la Salute sottratta al lanciatore.</DefaultText>
+      <DefaultText>La variante di Dardi minori di Minolea ideata da Concelhaut infligge Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;, attacca la &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt; del bersaglio e trasferisce la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; sottratta al lanciatore.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1361,7 +1386,7 @@
     </Entry>
     <Entry>
       <ID>1730</ID>
-      <DefaultText>Il Cantore crea due raggi rimbalzanti di luce pura che ripristinano la Salute e garantisco l'immunità dalle &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Alterazioni&#160;della Risolutezza&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; quando entrano in contatto con gli Alleati.</DefaultText>
+      <DefaultText>Il Cantore crea due raggi rimbalzanti di luce pura che ripristinano la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; e garantisco l'immunità dalle &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Alterazioni&#160;della Risolutezza&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; quando entrano in contatto con gli Alleati.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -1432,6 +1457,11 @@
     <Entry>
       <ID>1760</ID>
       <DefaultText>Quando un Ranger o il suo compagno animale vengono messi K.O. , il partner soffre i normali effetti di Vincoli della pena, ma viene pervaso da da un'ira che gli dona le ispirazioni &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Lesto &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; e &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenace &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; per un breve periodo.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>1761</ID>
+      <DefaultText>Il ranger può rianimare il suo compagno animale e ripristinare una piccola quantità di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1786,14 +1816,14 @@ Ottieni una significativa conversione dei colpi a segno in colpi Critici negli a
 &lt;b&gt;Penalità&lt;/b&gt;
 &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; durante il Parossismo.
 
-È impossibile vedere il livello di Salute durante il Parossismo.
+È impossibile vedere il livello di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; durante il Parossismo.
 
 Subisce Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; continuamente durante il Parossismo.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
       <ID>2225</ID>
-      <DefaultText>Con un tocco delle mani, il Paladino ripristina una quantità sostanziale di Salute e applica a se stesso o a un Alleato nel raggio d'Azione l'Ispirazione &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robusto &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>Con un tocco delle mani, il Paladino ripristina una quantità sostanziale di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; e applica a se stesso o a un Alleato nel raggio d'Azione l'Ispirazione &lt;link="gamedata://86f9c246-c37c-46a6-8838-7dc36c18e08d"&gt;&lt;#f7b733&gt;Robusto &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -1834,6 +1864,30 @@ Impossibile lanciare incantesimi di Ringiovanimento.
 
 Dopo la Metamorfosi e fino al termine del combattimento, il Druido riceve una significante penalità al Livello di Potere dei propri incantesimi di Rinvigorimento. 
 </DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>2257</ID>
+      <DefaultText>&lt;b&gt;Bonus&lt;/b&gt;
+Il Druido può trasformarsi una volta per combattiemnto in qualsiasi animale della Metamorfosi.
+
+La Metamorfosi ha una durata maggiore.
+
+Al termine della Metamorfosi, al Druido viene ripristinata una parte della &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.
+
+Impara automaticamente i seguenti incantesimi di Druido a nuovi Livelli di Potere:
+1. Marchio della Natura 
+2. Sciame d'Insetti 
+3. Invasione di Vermi 
+4. Forma di Delemgan 
+5. Terrore della Natura 
+6. Giardino della Vita 
+7. Armatura Arrugginita 
+8. Entropia 
+9. Distesa di Polline 
+
+&lt;b&gt;Penalità&lt;/b&gt; 
+Impossibile lanciare incantesimi mentre si è in Forma Animale.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -2007,6 +2061,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
 	 <Entry>
+      <ID>2407</ID>
+      <DefaultText>Quando il Barbaro è equipaggiato con armi da mischia, e la sua &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; arriva a 0, sferra immediatamente Attacchi doppi a chiunque sia entro la sua Portata. (Questi attacchi scatenano il Massacro).</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
       <ID>2409</ID>
       <DefaultText>(Balzo del Dragone) - Aggiunge un'area di Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; al momento dell'&lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
@@ -2104,6 +2163,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
      <Entry>
       <ID>2511</ID>
       <DefaultText>(Incitamento della Rinascita) - Ispirazione &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; potenziata a &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenace &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	  <Entry>
+      <ID>2515</ID>
+      <DefaultText>(Sacrificio Sacro) - Se il Paladino viene sconfitto durante il rogo, viene rianimato con il massimo della &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; poco dopo.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -2216,6 +2280,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <DefaultText>Conferisce agli Alleati la resistenza alle Alterazioni di &lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Alterazioni&#160;della Percezione &#160;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Alterazioni&#160;dell'Acume &#160;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
+	  <Entry>
+      <ID>2636</ID>
+      <DefaultText>Una percentuale del Danno inflitto dagli Alleati viene convertita in &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; ricevuta.</DefaultText>
+      <FemaleText />
+    </Entry>
 	 <Entry>
       <ID>2639</ID>
       <DefaultText>Gli effetti degli incantesimi del Cipher indirizzati alla &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt; dei nemici ottengono &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; bonus.</DefaultText>
@@ -2239,6 +2308,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     <Entry>
       <ID>2658</ID>
       <DefaultText>Con un incredibile spettacolo di luci e colori, vieni trasportato nel luogo scelto e diventi invisibile per breve tempo. Chi si trova nei paraggi è momentaneamente &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; dallo spettacolo.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>2659</ID>
+      <DefaultText>Gli effetti guaritori ripristinano una quantità maggiore di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; degli Alleati.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2266,6 +2340,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <DefaultText>(Scudo Inflessibile) - Ora il Guerriero e i suoi Alleati ottengono anche l'Ispirazione &lt;link="gamedata://51e1cbfc-506b-4e7c-880e-b89312a4b4c3"&gt;&lt;#30d3d5&gt;Risoluto &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
+	  <Entry>
+      <ID>2673</ID>
+      <DefaultText>(Fusto Inflessibile) - Ora il Guerriero recupera più &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; da ogni attacco ricevuto.</DefaultText>
+      <FemaleText />
+    </Entry>
    <Entry>
       <ID>2674</ID>
       <DefaultText>Colpisci un nemico con un potente attacco da mischia, infliggendogli danni elevati e &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordimento &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;. Gli avversari vicino al nemico vegono &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Sorpresi &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; e ricevono Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;.</DefaultText>
@@ -2278,7 +2357,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
 	<Entry>
       <ID>2685</ID>
-      <DefaultText>Quando il Ranger è al di sotto del 75% di Salute, sia lui che il suo compagno animale ottengono un bonus &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; contro nemici in stato Sanguinante o inferiore.</DefaultText>
+      <DefaultText>Quando il Ranger è al di sotto del 75% di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, sia lui che il suo compagno animale ottengono un bonus &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; contro nemici in stato Sanguinante o inferiore.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2424,6 +2503,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
      <Entry>
       <ID>2813</ID>
       <DefaultText>Crea una sfera di oscurità divina che provoca l'Alterazione &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Accecato &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; a chiunque si trovi o si sposti al suo interno.</DefaultText>
+      <FemaleText />
+    </Entry>
+	  <Entry>
+      <ID>2815</ID>
+      <DefaultText>Una intercessione maggiore della divinità Eothas. La sua luce ripristina la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; di tutti gli alleati all'interno dell'area e fa diminuire notevolmente la durata di diversi effetti negativi.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2653,6 +2737,11 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <DefaultText>Un'ingente carica di polvere crea un'esplosione che colpisce tutti i bersagli in un'area conica, causando Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;/&lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;, respingendoli e &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientandoli &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>3386</ID>
+      <DefaultText>Incanala il sacrificio misericordioso di San Omaku. L'aura aumenta la Velocità d'Azione degli Alleati vicini. Il bonus aumenta mentre il portatore perde &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>3395</ID>
       <DefaultText>Colpisce tutti i nemici circostanti, causando Danno da &lt;link="glossary://GlossaryEntry_Piercing"&gt;Perforazione&#160;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt;/&lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; e &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spaventandoli &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;.</DefaultText>
@@ -2713,6 +2802,11 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <DefaultText>Invoca il potere della tomba, esercitando &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charme &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; sui posseduti e &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spaventando &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; i kith presenti nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>3533</ID>
+      <DefaultText>Quando chi l'indossa passa da Illeso a In &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, i nemici circostanti ricevono il 75% in meno di Guarigione.</DefaultText>
+      <FemaleText />
+    </Entry>
 	<Entry>
       <ID>3547</ID>
       <DefaultText>Il proiettile attira Elettricità dall'aria mentre si dirige verso il bersaglio. Provoca Danno da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; a chiunque si trovi vicino all'obiettivo.</DefaultText>
@@ -2721,6 +2815,11 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
 	 <Entry>
       <ID>3549</ID>
       <DefaultText>Spara un'esplosione di colpi elettrici nella zona, colpendo con Danno da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; chiunque si trovi nell'area dell'&lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>3555</ID>
+      <DefaultText>Conferisce &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; nel tempo e riduce il Danno subito quando chi l'indossa è Agonizzante.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -2748,6 +2847,16 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <DefaultText>Durante la notte, quest'Aura garantisce a tutti gli Alleati nelle vicinanze (escluso il portatore) un bonus capacità Furtività e Risolutezza.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>3636</ID>
+      <DefaultText>(Recupero Rapido) - Aumenta la quantità di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; rigenerata.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>3664</ID>
+      <DefaultText>Il portatore si trasforma in un pilastro d'acciaio immobile, riducendo i danni e ripristinando la propria &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>3689</ID>
       <DefaultText>Lancia un attacco a cono in grado di respingere e &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stordire &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; i bersagli nell'Area d'Effetto.</DefaultText>
@@ -2761,6 +2870,11 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
 	<Entry>
       <ID>3697</ID>
       <DefaultText>Abilità passiva. Il primo attacco a segno in mischia effettuato in modalità Furtiva causa Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo per una lunga durata.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>3699</ID>
+      <DefaultText>Chi indossa i guanti che concentrano energia divina può guarire un Alleato o se stesso con un tocco delle mani, ripristinando una piccola quantità di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2892,7 +3006,12 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
 	<Entry>
       <ID>3867</ID>
-      <DefaultText>Se si trova in condizioni fisiche estreme, l'utilizzatore può raddoppiare gli sforzi e chiedere un aumento della Salute per restare più a lungo in battaglia. Questa abilità recupera Salute in base all'Atletismo dell'utilizzatore.</DefaultText>
+      <DefaultText>Se si trova in condizioni fisiche estreme, l'utilizzatore può raddoppiare gli sforzi e chiedere un aumento della &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; per restare più a lungo in battaglia. Questa abilità recupera &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; in base all'Atletismo dell'utilizzatore.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>3875</ID>
+      <DefaultText>Se Frau Nils ti segue, i tuoi attacchi in mischia sono più precisi e il tuo gruppo riceve un bonus alla &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -2910,9 +3029,24 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <DefaultText>Se Lil' Babs ti segue, ricevi un bonus Destrezza e il tuo gruppo ottiene un bonus &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; nei confronti degli attacchi delle armi nemiche.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>3893</ID>
+      <DefaultText>Se Prissy ti segue, le tue pozioni e incantesimi di guarigione sono più efficaci e i membri del tuo gruppo recuperano parte della loro &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; se uccidono un nemico.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>3895</ID>
+      <DefaultText>Se Twix ti segue, ottieni un bonus alla tua &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; massima e i membri del tuo gruppo recuperano parte della loro &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; se uccidono un nemico.</DefaultText>
+      <FemaleText />
+    </Entry>
+	  <Entry>
+      <ID>3897</ID>
+      <DefaultText>Se Abraham ti segue, la tua penalità al recupero dovuta all'armatura è ridotta e i membri del tuo gruppo recuperano parte della loro &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; se uccidono un nemico.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>3899</ID>
-      <DefaultText>Se Algol ti segue, ogni &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; svanisce più rapidamente e i membri del gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
+      <DefaultText>Se Algol ti segue, ogni &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; svanisce più rapidamente e i membri del gruppo recuperano parte della loro &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; se uccidono un nemico.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2923,6 +3057,16 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
 	 <Entry>
       <ID>3903</ID>
       <DefaultText>Se Chili ti segue, ricevi un bonus Risolutezza e il tuo gruppo ottiene un bonus &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>3905</ID>
+      <DefaultText>Se Deus ti segue, ottieni un bonus Costituzione e i membri del tuo gruppo recuperano parte della loro &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; se uccidono un nemico.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>3909</ID>
+      <DefaultText>Se Freya ti segue, ottieni un bonus Acume e i membri del tuo gruppo recuperano parte della loro &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; se uccidono un nemico.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2940,9 +3084,19 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <DefaultText>Se Hemp ti segue, ricevi un bonus Costituzione, mentre il tuo gruppo ne riceve uno alla &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
+	  <Entry>
+      <ID>3917</ID>
+      <DefaultText>Se Mercedes ti segue, ricevi un bonus alla tua &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; Massima, mentre il tuo gruppo ne riceve uno ai danni delle armi da mischia.</DefaultText>
+      <FemaleText />
+    </Entry>
 	 <Entry>
       <ID>3921</ID>
       <DefaultText>Se Nikki ti segue, è più probabile che gli attacchi nemici ti colpiscano di striscio e il tuo gruppo riceve un bonus alla &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Precisione&#160;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; delle armi da mischia.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>3929</ID>
+      <DefaultText>Se Toby ti segue, ricevi un bonus Percezione e il tuo gruppo guadagna un bonus alla &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; Massima.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2952,7 +3106,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
    <Entry>
       <ID>3953</ID>
-      <DefaultText>Conferisce Resistenza alle &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; quando si è in Salute o Illesi.</DefaultText>
+      <DefaultText>Conferisce Resistenza alle &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; quando si è in &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; o Illesi.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -2985,9 +3139,14 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <DefaultText>Aura che diminuisce la &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;, i &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt; e la &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt; del nemico. La penalità aumenta all'aumentare della capacità Sopravvivenza del portatore.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>4063</ID>
+      <DefaultText>Il Sacerdote cerca di finire un avversario ferito con un colpo preciso e letale, tanto più potente a seconda di quanta &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; ha perso il bersaglio.</DefaultText>
+      <FemaleText />
+    </Entry>
 	<Entry>
       <ID>4088</ID>
-      <DefaultText>Crea un'aura che ripristina lentamente la Salute degli Alleati nelle vicinanze, sulla base della loro Salute rimasta. (È fornita una cura completa ai personaggi Agonizzanti)</DefaultText>
+      <DefaultText>Crea un'aura che ripristina lentamente la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; degli Alleati nelle vicinanze, sulla base della loro &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; rimasta. (È fornita una cura completa ai personaggi Agonizzanti)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3002,7 +3161,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
 	 <Entry>
       <ID>4102</ID>
-      <DefaultText>Se Socrate ti segue recuperi Salute quando infliggi un Colpo di grazia a un nemico, mentre il tuo gruppo ottiene un aumento della &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; nei confronti degli attacchi da mischia.</DefaultText>
+      <DefaultText>Se Socrate ti segue recuperi &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; quando infliggi un Colpo di grazia a un nemico, mentre il tuo gruppo ottiene un aumento della &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; nei confronti degli attacchi da mischia.</DefaultText>
       <FemaleText />
     </Entry>
      <Entry>
@@ -3047,7 +3206,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>4140</ID>
-      <DefaultText>Conferisce Resistenza alle &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; quando si è In Salute o Illesi.</DefaultText>
+      <DefaultText>Conferisce Resistenza alle &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; quando si è In &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; o Illesi.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -3072,7 +3231,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
 	<Entry>
       <ID>4155</ID>
-      <DefaultText>Aura che infligge Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo ai nemici nelle vicinanze, sulla base della loro Salute rimasta. (È inflitto un Danno completo agli avversari Agonizzanti)</DefaultText>
+      <DefaultText>Aura che infligge Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo ai nemici nelle vicinanze, sulla base della loro &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; rimasta. (È inflitto un Danno completo agli avversari Agonizzanti)</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -3082,7 +3241,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
 	<Entry>
       <ID>4159</ID>
-      <DefaultText>Il portatore trasforma i danni da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; in Salute, nel caso in cui abbia una o più Menomazioni.</DefaultText>
+      <DefaultText>Il portatore trasforma i danni da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; in &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, nel caso in cui abbia una o più Menomazioni.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3093,6 +3252,16 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
 	 <Entry>
       <ID>4245</ID>
       <DefaultText>Ricuce la carne e aggiusta le ossa, rimuovendo le Menomazioni dal bersaglio. La procedura è molto cruenta, comunque, e il paziente ha le difese abbassate fino a quando non si sarà concesso il riposo necessario.</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>4268</ID>
+      <DefaultText>La gemma del pomolo di Distraho, condivide una parte dell'essenza che conserva. Consentono al portatore di recuperare una piccola parte di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	  <Entry>
+      <ID>4270</ID>
+      <DefaultText>La gemma del pomolo di Distraho pulsa di essenze vivificanti. Consente di recuperare una piccola parte di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; al portatore e ai suoi alleati nelle vicinanze.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -3107,7 +3276,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>4276</ID>
-      <DefaultText>Conferisce Immunità alle &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; se si è in Salute o Illesi.</DefaultText>
+      <DefaultText>Conferisce Immunità alle &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazioni&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; se si è in &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; o Illesi.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3180,6 +3349,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <DefaultText>Gli Attacchi Furtivi causano il sanguinamento del bersaglio provocando Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; fino al termine del combattimento.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>4329</ID>
+      <DefaultText>Applica una &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; inferiore nel tempo se il portatore cade Agonizzante.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>4333</ID>
       <DefaultText>Avevi previsto il tradimento. Quando un qualsiasi membro del gruppo è influenzato da &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charme &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; o &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominazione &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, il portatore riceve le Ispirazioni &lt;link="gamedata://1418c0ae-790d-4aef-9ca6-00238012c84e"&gt;&lt;#72da26&gt;Rapido &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;³&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://c2fb23c5-9907-4654-b62e-77adbc37c9bc"&gt;&lt;#ca58ff&gt;Intuitivo &lt;sprite="Inline" name="attribute_perception" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;.</DefaultText>
@@ -3197,7 +3371,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
 	<Entry>
       <ID>4338</ID>
-      <DefaultText>Scaglia una freccia contro un Alleato. Il portatore riceve Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;, mentre il bersaglio riceve Salute. La Salute fornita aumenta all'aumentare della capacità Religione del portatore.</DefaultText>
+      <DefaultText>Scaglia una freccia contro un Alleato. Il portatore riceve Danno &lt;link="glossary://GlossaryEntry_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt;, mentre il bersaglio riceve &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;. La &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; fornita aumenta all'aumentare della capacità Religione del portatore.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -3222,7 +3396,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
 	 <Entry>
       <ID>4362</ID>
-      <DefaultText>L'Elettricità scorre nelle vene del portatore, rinvigorendone la carne. Restituisce Salute al portatore nel caso in cui abbia ricevuto danni da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <DefaultText>L'Elettricità scorre nelle vene del portatore, rinvigorendone la carne. Restituisce &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; al portatore nel caso in cui abbia ricevuto danni da &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -3277,7 +3451,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>4412</ID>
-      <DefaultText>Crea un campo di energia sacra introno al lanciatore, infligge Danni da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; e &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spaventa &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; tutti i posseduti nelle vicinanze, mentre rigenera gran parte della Salute degli Alleati.</DefaultText>
+      <DefaultText>Crea un campo di energia sacra introno al lanciatore, infligge Danni da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; e &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Spaventa &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; tutti i posseduti nelle vicinanze, mentre rigenera gran parte della &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; degli Alleati.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -3298,6 +3472,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
 	<Entry>
       <ID>4422</ID>
       <DefaultText>Ottieni &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrazione&#160;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; aumentata con gli attacchi &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosivi&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; e Decadimento.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>4434</ID>
+      <DefaultText>Aumenta la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; Massima di base che guadagni a ogni livello.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -3342,7 +3521,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
 	<Entry>
       <ID>4516</ID>
-      <DefaultText>Usando delle tecniche di meditazione è possibile alleviare il dolore di un Alleato Menomato, ripristinarne la Salute gradualmente e sospendere ogni effetto ostile. (Può essere utilizzato solo su personaggi con Menomazioni).</DefaultText>
+      <DefaultText>Usando delle tecniche di meditazione è possibile alleviare il dolore di un Alleato Menomato, ripristinarne la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; gradualmente e sospendere ogni effetto ostile. (Può essere utilizzato solo su personaggi con Menomazioni).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3352,7 +3531,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
      <Entry>
       <ID>4559</ID>
-      <DefaultText>Conferisce un aumento della &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; quando si verifica una perdita di Salute. Il portatore non può muoversi quando in stato Agonizzante.</DefaultText>
+      <DefaultText>Conferisce un aumento della &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; quando si verifica una perdita di &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;. Il portatore non può muoversi quando in stato Agonizzante.</DefaultText>
       <FemaleText />
     </Entry> 	
     <Entry>
@@ -3362,12 +3541,17 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
 	<Entry>
       <ID>4561</ID>
-      <DefaultText>Conferisce un bonus &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; e Rigenerazione Salute quando in stato Agonizzante.</DefaultText>
+      <DefaultText>Conferisce un bonus &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; e Rigenerazione &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; quando in stato Agonizzante.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
       <ID>4562</ID>
       <DefaultText>Ingaggiare un nemico per la prima volta in combattimento infligge l'Alterazione &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confuso &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; al bersaglio.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>4571</ID>
+      <DefaultText>Fa sì che gli Alleati nei paraggi recuperino la &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; gradualmente.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -3377,7 +3561,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>4588</ID>
-      <DefaultText>Crea una fonte di acqua rinvigorente, ripristinando Salute e garantendo l'Ispirazione &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; agli Alleati nell'area.</DefaultText>
+      <DefaultText>Crea una fonte di acqua rinvigorente, ripristinando &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Salute&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; e garantendo l'Ispirazione &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; agli Alleati nell'area.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -3395,6 +3579,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <DefaultText>Riunisci i tuoi pensieri e incanala la tua forza in uno stato di pura disciplina sinergica, conferendo tutte le Ispirazioni di primo livello per un breve periodo. (&lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Forte &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;In Forma &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Veloce &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://412f8f5e-d257-4c52-ac66-0e49fd603ef2"&gt;&lt;#ca58ff&gt;Profondo &lt;sprite="Inline" name="attribute_perception" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Arguto &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;, e &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Nerbo &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;)</DefaultText>
       <FemaleText />
     </Entry>
+	
      <Entry>
       <ID>4638</ID>
       <DefaultText>Possibilità di &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Disorientare &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; un bersaglio durante un colpo a segno.</DefaultText>
