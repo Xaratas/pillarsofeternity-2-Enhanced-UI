@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\items</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>2825</EntryCount>
+  <EntryCount>2831</EntryCount>
   <Entries>
     <Entry>
       <ID>1478</ID>
@@ -100,11 +100,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3402</ID>
-      <DefaultText>Lockt einen Schwarm aggressiver Insekten an, die mit der Zeit &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden verursachen und die Konzentration von jedem im Wirkungsbereich verringern.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3403</ID>
       <DefaultText>Ein Gebetsmessbuch, der dem anvisierten Verbündeten über längere Zeit die Inspiration &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; gewährt.</DefaultText>
       <FemaleText />
@@ -146,7 +141,7 @@
     </Entry>
     <Entry>
       <ID>3415</ID>
-      <DefaultText>Feuert mehrere Geschosse aus reiner Energie auf das Ziel und fügt jedem Feind in der Nähe des Einschlags &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zu.</DefaultText>
+      <DefaultText>Feuert mehrere Geschosse aus reiner Energie auf das Ziel und fügt Feinden in der Nähe des Einschlags mit einer Schockwelle &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zu.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

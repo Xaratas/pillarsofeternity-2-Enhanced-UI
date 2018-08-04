@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\items</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>2825</EntryCount>
+  <EntryCount>2831</EntryCount>
   <Entries>
     <Entry>
       <ID>1478</ID>
@@ -80,11 +80,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3402</ID>
-      <DefaultText>Lockt einen Schwarm aggressiver Insekten an, die mit der Zeit &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden verursachen und die Konzentration von jedem im Wirkungsbereich verringern.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3404</ID>
       <DefaultText>Erzeugt einen brennenden Flammenstrahl zwischen dem Leser und dem Ziel, der dem Ziel und jedem, der in dem Strahl gefangen ist, anhaltenden &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügt.</DefaultText>
       <FemaleText />
@@ -111,7 +106,7 @@
     </Entry>
     <Entry>
       <ID>3415</ID>
-      <DefaultText>Feuert mehrere Geschosse aus reiner Energie auf das Ziel und fügt jedem Feind in der Nähe des Einschlags &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zu.</DefaultText>
+      <DefaultText>Feuert mehrere Geschosse aus reiner Energie auf das Ziel und fügt Feinden in der Nähe des Einschlags mit einer Schockwelle &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zu.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

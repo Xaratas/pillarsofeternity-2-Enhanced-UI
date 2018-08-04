@@ -2,11 +2,11 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3321</EntryCount>
+  <EntryCount>3325</EntryCount>
   <Entries>
     <Entry>
       <ID>237</ID>
-      <DefaultText>Bestraft ein Ziel für seine Sünden, fügt ihm &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden zu und seine Attribute &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;, &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; und &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt; werden gesenkt.</DefaultText>
+      <DefaultText>Bestraft ein Ziel für seine Sünden, wodurch &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden angerichtet und seine &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;, seine &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;, seine &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; und sein &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt; gesenkt werden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -16,17 +16,17 @@
     </Entry>
     <Entry>
       <ID>246</ID>
-      <DefaultText>Erzeugt eine langsame, energiegeladene Projektion des Glaubens des Priesters, durch die alle Verbündeten &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit zurückgewinnen und Feinde &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden erleiden.</DefaultText>
+      <DefaultText>Erzeugt eine langsame, energetische Projektion des Glaubens des Priesters, durch die alle Verbündeten &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit regenerieren und alle Feinde &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden erleiden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>253</ID>
-      <DefaultText>Beschwört eine Säule göttlichen Urteils, die Feinden im Wirkungsbereich &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zufügt und sie niederstreckt.</DefaultText>
+      <DefaultText>Beschwört eine Säule göttlichen Urteils, die dem Ziel &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zufügt und es sowie Feinde im Wirkungsbereich niederstreckt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>255</ID>
-      <DefaultText>Generiert ein magisches Siegel, das in einem Schwall elektrischer Energie explodiert, wenn ein Feind es berührt, und ihm &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden zufügt und ihn unterbricht.</DefaultText>
+      <DefaultText>Generiert ein magisches Siegel, das in einem Schwall elektrischer Energie explodiert, wenn ein Feind es berührt, und ihm &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden zufügt sowie ihn unterbricht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -51,12 +51,12 @@
     </Entry>
     <Entry>
       <ID>263</ID>
-      <DefaultText>Beschwört mehrere Zaubergeschosse, die im Ziel einschlagen und &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wucht- oder &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden verursachen.</DefaultText>
+      <DefaultText>Beschwört mehrere unfehlbare Zaubergeschosse, die im Ziel einschlagen und &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wucht- oder &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden verursachen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>264</ID>
-      <DefaultText>Umgibt den Zauberwirker mit einem Schild aus Geistesenergie, der den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert erhöht und einen Konzentrationsbonus bewirkt.</DefaultText>
+      <DefaultText>Umgibt den Zauberwirker mit einem Schild aus Geistesenergie, der den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert und die Konzentration erhöht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -76,7 +76,7 @@
     </Entry>
     <Entry>
       <ID>275</ID>
-      <DefaultText>Deckt für alle sichtbar die Schwachstellen des Feindes im Kampf auf, unterbricht diese und verringert sowohl deren &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert als auch deren &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
+      <DefaultText>Deckt für alle sichtbar die Schwachstellen des Feindes im Kampf auf, unterbricht diesen und verringert dessen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert und &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -126,12 +126,12 @@
     </Entry>
     <Entry>
       <ID>303</ID>
-      <DefaultText>Erzeugt um den Priester herum ein Feld heiliger Energie, das jedem Gefäß in der Nähe &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügt und Erschüttert, während es eine bescheidene Menge der &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit von Verbündeten regeneriert. Die Stärke des Heiligen Glanzes eines Priesters wird modifiziert, abhängig davon, wie gut sein Ruf mit dem bevorzugten Verhalten seines Glaubens im Einklang steht.</DefaultText>
+      <DefaultText>Erzeugt um den Priester herum ein Feld heiliger Energie, das jedem Gefäß in der Nähe &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügt und eine geringe Menge &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit bei Verbündeten regeneriert. Die Stärke des Heiligen Glanzes eines Priesters wird dadurch modifiziert, wie gut sein Ruf mit dem bevorzugten Verhalten seines Glaubens im Einklang steht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>305</ID>
-      <DefaultText>Paladine können einem besinnungslosen Verbündeten befehlen wieder aufzustehen und verleihen ihm dabei die Inspiration Stark. Allerdings verliert der Verbündete nach kurzer Zeit die Hälfte der wiedergewonnenen &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit.</DefaultText>
+      <DefaultText>Der Paladin befiehlt einem bewusstlosen Verbündeten, wieder zu erwachen, und gewährt ihm einen großen, jedoch vorübergehenden Bonus auf &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit sowie die Inspiration Stark. Nach kurzer Zeit aber verliert der Verbündete die Hälfte der hinzugewonnenen &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -151,7 +151,7 @@
     </Entry>
     <Entry>
       <ID>320</ID>
-      <DefaultText>Beschwört das innere Feuer des Paladins herauf. Seine ausgerüsteten Waffen gehen in Flammen auf und fügen seinen nächsten Angriffen &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden hinzu.</DefaultText>
+      <DefaultText>Beschwört das innere Feuer des Paladins herauf. Seine ausgerüsteten Waffen gehen in Flammen auf und fügen seinem nächsten Angriff &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden hinzu.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -161,7 +161,7 @@
     </Entry>
     <Entry>
       <ID>327</ID>
-      <DefaultText>Erfüllt den Paladin und seine Verbündeten mit unerschütterlichem Selbstvertrauen, wodurch ihr &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gesteigert wird.</DefaultText>
+      <DefaultText>Erfüllt den Paladin und seine Verbündeten mit unerschütterlichem Selbstvertrauen, wodurch ihr &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert erhöht wird.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -191,7 +191,7 @@
     </Entry>
     <Entry>
       <ID>405</ID>
-      <DefaultText>Schafft ein Duplikat des Zauberwirkers, um Feinde abzulenken. Der Zauberwirker erhält einen hohen Bonus auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;, bis er einen Treffer erleidet.</DefaultText>
+      <DefaultText>Erschafft ein Duplikat des Zauberwirkers, um Feinde abzulenken. Der Zauberwirker erhält einen hohen Bonus auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;, bis er einen Treffer erleidet.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -201,7 +201,7 @@
     </Entry>
     <Entry>
       <ID>411</ID>
-      <DefaultText>Führt dazu, dass sich die Wunden eines Feindes im Wirkungsbereich entzünden und bei jeder Verwundung zusätzlichen &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügen.</DefaultText>
+      <DefaultText>Führt dazu, dass sich die Wunden eines Feindes im Wirkungsbereich entzünden und bei jedem erlittenen Treffer zusätzlichen &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -276,7 +276,7 @@
     </Entry>
     <Entry>
       <ID>498</ID>
-      <DefaultText>Der Priester schleudert ein heiliges Feuer auf den Feind, das seinen Schutz aufhebt und sein Schicksal beschleunigt. Fügt kontinuierlich &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zu und beschleunigt den Zähler für alle zuträglichen Effekte auf dem Ziel sowie aller kontinuierlichen Schadenseffekte, bevor es auf weitere Ziele überspringt.</DefaultText>
+      <DefaultText>Der Priester schleudert eine Kugel aus heiligem Feuer auf den Feind, die seinen Schutz aufhebt und seinen Untergang beschleunigt. Fügt kontinuierlich &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zu und beschleunigt die Zähler aller zuträglichen Effekte sowie aller kontinuierlichen Schadenseffekte auf dem Ziel und springt dann weitere Ziele in der Nähe über.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -286,12 +286,12 @@
     </Entry>
     <Entry>
       <ID>515</ID>
-      <DefaultText>Beschwört ein riesiges Paar rasiermesserscharfer Krallen, die allen im Wirkungsbereich &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hiebschaden zufügen.</DefaultText>
+      <DefaultText>Beschwört eine rasiermesserscharfe Kralle unter dem Ziel, die allen im Wirkungsbereich &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hiebschaden zufügt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>517</ID>
-      <DefaultText>Schießt mit scharfen Dornen bestückte Ranken aus dem Boden, die allen im Wirkungsbereich &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden zufügen. Das Pflanzengift kann jeden im Wirkungsbereich erkranken lassen.</DefaultText>
+      <DefaultText>Schießt mit scharfen Dornen bestückte Ranken aus dem Boden, die allen Zielen im Wirkungsbereich &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden zufügen. Das Pflanzengift kann jeden im Wirkungsbereich erkranken lassen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -306,7 +306,7 @@
     </Entry>
     <Entry>
       <ID>528</ID>
-      <DefaultText>Die Haut von Feinden im Wirkungsbereich wird von Unmengen grabender Maden befallen, die &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit zufügen. Je mehr Wunden das Ziel erleidet, desto größer der Schaden. Ein Ziel mit maximaler &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit erleidet keinen Schaden durch den Zauber.</DefaultText>
+      <DefaultText>Die Haut von Feinden im Wirkungsbereich wird von Unmengen grabender Maden befallen, die &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit zufügen. Je verwundeter das Ziel ist, desto größer der Schaden. Ein Ziel mit maximaler &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit erleidet keinen Schaden durch den Zauber.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -336,17 +336,12 @@
     </Entry>
     <Entry>
       <ID>550</ID>
-      <DefaultText>Ein fürchterlicher Feuerball springt von Feind zu Feind und verursacht &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden.</DefaultText>
+      <DefaultText>Ein fürchterlicher Feuerball springt von Feind zu Feind über und verursacht &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>552</ID>
-      <DefaultText>Beschwört die fürchterliche Stärke des Sturms herauf, was eine elektrische Aura erzeugt, die allen Umstehenden &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden zufügt und jeden Verängstigt.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>554</ID>
-      <DefaultText>Beschwört eine riesige Plage giftiger Insekten herauf, die &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit zufügen und jeden im Wirkungsbereich erkranken lassen. Die Ziele haben währenddessen keine Konzentration.</DefaultText>
+      <DefaultText>Beschwört die fürchterliche Stärke des Sturms herauf, was eine elektrische Aura erzeugt, die allen umstehenden Zielen &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden zufügt und sie Verängstigt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -361,12 +356,12 @@
     </Entry>
     <Entry>
       <ID>583</ID>
-      <DefaultText>Das Medium erforscht den Verstand und die Seele des feindlichen Ziels, findet die Stärken seiner Verteidigungen und raubt sie, um sie selbst zu nutzen. Entzieht dem Ziel einen Teil seinem &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert und gewährt dem Medium den gleichen Wert als Bonus.</DefaultText>
+      <DefaultText>Das Medium erforscht Verstand und Seele des feindlichen Ziels, findet die Stärken seiner Verteidigungen und raubt sie, um sie selbst zu nutzen. Entzieht dem Ziel einen Teil von seinem &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert und gewährt dem Medium diesen als Bonus.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>585</ID>
-      <DefaultText>Pfählt das Ziel auf einer Lanze aus reiner Kraft auf, wodurch alle im Angriffsbereich erheblichen &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden erleiden und unterbrochen werden.</DefaultText>
+      <DefaultText>Durchbohrt das Ziel mit einer Lanze aus reiner Kraft, wobei alle im Angriffsbereich erheblichen &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden erleiden und gegnerische Aktionen unterbrochen werden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -391,12 +386,12 @@
     </Entry>
     <Entry>
       <ID>601</ID>
-      <DefaultText>Zerstört die Erinnerung eines Feindes mit berechneter &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit, wodurch er Verwirrt und Benommen wird, bevor es schnell auf andere Feinde überspringt.</DefaultText>
+      <DefaultText>Zerstört zielgenau die Erinnerung eines Feindes mit berechneter &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit, wodurch er Verwirrt und Benommen wird, bevor es schnell auf andere Feinde überspringt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>603</ID>
-      <DefaultText>&lt;xg&gt;Verbrennt&lt;/xg&gt; alle ätherische Kräfte, die Verstand, Körper und Seele des feindlichen Ziels zusammenhalten, wodurch es schnell &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden erleidet. Zielen, deren &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit auf 0 fällt, wird jegliche Existenz entzogen.</DefaultText>
+      <DefaultText>&lt;xg&gt;Verbrennt&lt;/xg&gt; alle ätherische Kräfte, die Verstand, Körper und Seele des feindlichen Ziels zusammenhalten, wodurch es schnell &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden erleidet. Zielen, deren &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit auf 0 fällt, lösen sich spurlos auf.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -431,7 +426,7 @@
     </Entry>
     <Entry>
       <ID>792</ID>
-      <DefaultText>Führt dazu, dass ein in der Nähe bezwungener Feind explodiert, wobei drei weiße Larven ausgestoßen werden, die umstehenden Feinden &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zufügen.</DefaultText>
+      <DefaultText>Bewirkt, dass ein besiegter Feind in der Nähe explodiert, wobei kleine weiße Larven ausgestoßen werden, die bei Feinden in der Nähe &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden verursachen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -451,7 +446,7 @@
     </Entry>
     <Entry>
       <ID>809</ID>
-      <DefaultText>Erhöht die &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und das Angriffsbindungslimit aller Verbündeten im Wirkungsbereich.</DefaultText>
+      <DefaultText>Steigert &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und Angriffsbindungslimit von Verbündeten im Wirkungsbereich.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -476,7 +471,7 @@
     </Entry>
     <Entry>
       <ID>821</ID>
-      <DefaultText>Erzeugt einen heftigen Eis- und Schneesturm, der jedem im Wirkungsbereich langsam &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden zufügt und seine Angriffsrate verringert.</DefaultText>
+      <DefaultText>Erzeugt einen heftigen Eis- und Schneesturm, der allen im Wirkungsbereich &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden zufügt und ihre Aktionsgeschwindigkeit verringert.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -506,12 +501,12 @@
     </Entry>
     <Entry>
       <ID>831</ID>
-      <DefaultText>Beschwört ein riesiges Hirschgeweih herauf, das das Ziel angreift, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden zufügt und einen Malus auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; verursacht.</DefaultText>
+      <DefaultText>Beschwört ein riesiges Hirschgeweih herauf, das das erste Ziel in seinem Weg angreift, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden zufügt und einen Malus auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; bewirkt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>832</ID>
-      <DefaultText>Lässt dicke, dornige Reben aus dem Boden sprießen, die allen im Wirkungsbereich &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden zufügen und alle Humpeln lassen.</DefaultText>
+      <DefaultText>Lässt dicke, dornige Reben aus dem Boden sprießen, die allen, die im Wirkungsbereich verbleiben, dauerhaften &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden zufügen und sie Humpeln lassen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -526,7 +521,7 @@
     </Entry>
     <Entry>
       <ID>838</ID>
-      <DefaultText>Erzeugt faulende, von Krankheit gebeutelte Schädel in der Hand des Zauberwirkers, die als Fernkampfwaffe dienen, &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zufügen und einen krankheitsbasierten Zersetzungswirkungsbereich erzeugen, der Zeitschaden verursacht.</DefaultText>
+      <DefaultText>Erzeugt faulende, von Krankheit gebeutelte Schädel in der Hand des Zauberwirkers, die als Fernkampfwaffe dienen, &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zufügen und durch ihre Krankheit einen Wirkungsbereich mit Zersetzungszeitschaden erzeugen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -536,12 +531,12 @@
     </Entry>
     <Entry>
       <ID>847</ID>
-      <DefaultText>Hüllt den Zauberwirker in Feuer, erhöht seinen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gegen &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden und fügt jedem &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zu, der ihn im Nahkampf verletzt.</DefaultText>
+      <DefaultText>Hüllt den Zauberwirker in Feuer, erhöht seinen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gegen &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden und fügt jedem, der ihn im Nahkampf verletzt, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zu.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>848</ID>
-      <DefaultText>Verwandelt die Haut des Zauberwirkers in Eisen und erhöht somit erheblich seinen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert. Dieser Effekt hält bis zu zehn Angriffe an.</DefaultText>
+      <DefaultText>Verwandelt die Haut des Zauberwirkers in Eisen und erhöht seinen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert beträchtlich. Dieser Effekt hält bis zu zehn Angriffe lang an.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -556,12 +551,12 @@
     </Entry>
     <Entry>
       <ID>855</ID>
-      <DefaultText>Erzeugt eine Pike aus reiner magischer Energie, die &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden zufügt und wie ein Zauberstab eine Explosion verursacht, die nur Feinde verletzt.</DefaultText>
+      <DefaultText>Erzeugt eine Pike aus reiner magischer Energie, die &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden zufügt und beim Aufprall eine Explosion verursacht, die nur Feinde verletzt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>856</ID>
-      <DefaultText>Es wird eine heimtückische magische Kontingenz ausgelöst, wenn der Zauberwirker Schwer verletzt oder Dem Tode nahe ist. Alle umstehenden Feinde werden zurückgestossen und Niedergestreckt, während er kurzzeitig einen Bonus auf &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert und Verteidigung genießt.</DefaultText>
+      <DefaultText>Es wird eine heimtückische magische Eventualität ausgelöst, wenn der Zauberwirker Schwer verletzt oder Dem Tode nahe ist. Alle umstehenden Feinde werden zurückgestossen und Niedergestreckt, während er kurzzeitig einen Bonus auf &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert und Verteidigung genießt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -581,17 +576,17 @@
     </Entry>
     <Entry>
       <ID>861</ID>
-      <DefaultText>Beschwört einen riesigen Eiszapfen herab, der Feinden im Wirkungsbereich &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden zufügt – und einen intensiven Frostkreis erzeugt, der Feinde, die ihn berühren, den Effekt Humpelnd zufügt.</DefaultText>
+      <DefaultText>Beschwört einen riesigen Eiszapfen herab, der Feinden im Wirkungsbereich &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden zufügt – und einen intensiven Frostkreis erzeugt, der allen, die ihn berühren, den Effekt Humpelnd zufügt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>863</ID>
-      <DefaultText>(Berserker) – Gewährt die Inspirationen Hartnäckig und Zäh anstatt Fit und Stark. Verschaffe ihm während des Zustands der Raserei eine wesentliche Verwandlung von Treffern in kritische Treffer bei Nahkampf- und Blutbadangriffen. Jedoch ist der Barabar während der Raserei Verwirrt und kann seine eigene &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit nicht sehen und erleidet fortwährend &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden.</DefaultText>
+      <DefaultText>(Berserker) – Verleiht die Inspirationen Hartnäckig und Zäh anstelle von Fit und Stark. Die Chance auf kritischen Treffer und Blutbad bei Nahkampfangriffen ist während der Raserei deutlich erhöht. Jedoch ist der Barbar während seiner Raserei verwirrt, kann seine &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit nicht sehen und erleidet kontinuierlichen &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>878</ID>
-      <DefaultText>Beruht auf der natürlichen Verbindung des Druiden zum Bären, wodurch er vorübergehend diese Form annehmen kann. Die Bär-Geisterwandlerform kann eine Angriffsbindung eingehen, verfügt über einen hohen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert und kann ein furchterregendens Brüllen ausstossen.</DefaultText>
+      <DefaultText>Nutzt die natürliche Verbindung des Druiden zum Bären, wodurch er vorübergehend dessen Form annehmen kann. Der Bär-Geisterwandler kann Ziele angreifen, hat einen hohen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert und kann furchterregend brüllen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -601,12 +596,12 @@
     </Entry>
     <Entry>
       <ID>884</ID>
-      <DefaultText>(Haltung: Eroberer) – Wenn der Kämpfer nicht mehr als verletzt ist, erhöht sich sein &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeitsbonus. Ist er Schwer verletzt oder noch schlimmer, dann erhöht sich sein &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;bonus.</DefaultText>
+      <DefaultText>(Haltung: Eroberer) – &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeitsbonus des Kämpfers erhöht sich, wenn sein Zustand Verletzt oder besser ist. Wenn der Kämpfer schwer verletzt oder Dem Tode nahe ist, erhöht sich sein &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt;bonus.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>887</ID>
-      <DefaultText>Mönche erreichen durch das Erdulden der Härten des Lebens ein größeres Verständnis für die Fähigkeiten ihres Körpers. Die Fäuste und Füße eines Mönches verfügen über Schadenskraft, &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft, die weit höher sind als die anderer Charaktere und sich mit steigender Kraftstufe ständig weiter erhöhen.</DefaultText>
+      <DefaultText>Mönche erreichen durch das Erdulden der Härten der Existenz ein größeres Verständnis für die Fähigkeiten ihres Körpers. Schaden, &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft der Fäuste und Füße eines Mönches sind weit höher als bei anderen Charakteren und erhöhen sich mit steigender Kraftstufe nur noch weiter.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -616,7 +611,7 @@
     </Entry>
     <Entry>
       <ID>895</ID>
-      <DefaultText>Der Mönch erhält vorübergehend Einblick durch Geduld, wodurch er einen vorübergehenden Bonus auf &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; und &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt; erhält, sobald die Wirkung eines feindlichen Effekts nachlässt.</DefaultText>
+      <DefaultText>Der Mönch erhält vorübergehend Einblick durch Erdulden, wodurch er einen vorübergehenden Bonus auf &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; und &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt; erhält, sobald die Wirkung eines feindlichen Effekts nachlässt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -626,27 +621,22 @@
     </Entry>
     <Entry>
       <ID>905</ID>
-      <DefaultText>Der Waldläufer zielt auf einen Punkt, der eine zuverfolgende Spur hinterlassen wird, und dem Ziel &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit zufügt.</DefaultText>
+      <DefaultText>Der Waldläufer fügt dem Ziel eine Verletzung zu, die dafür sorgt, dass eine Spur hinterlassen wird und die ihm &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Zeitschaden zufügt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>908</ID>
-      <DefaultText>Bestimmt ein einzelnes Ziel als Beute, wodurch der Waldläufer und sein tierischer Gefährte einen Bonus für &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit Schaden gegen das Ziel erhalten.</DefaultText>
+      <DefaultText>Bestimmt ein einzelnes Ziel als Beute, wodurch der Waldläufer und sein tierischer Gefährte einen &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeitsbonus gegen das Ziel erhalten.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>924</ID>
-      <DefaultText>Der Schurke sucht nach Möglichkeiten zu einem Gegenangriff im Kampf. Bei eingehenden Nahkampfangriffen, die auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und Fehlschlag gerichtet sind, besteht eine Wahrscheinlichkeit, dass ein sofortiger Gegenschlag möglich ist. Nur aktiv, wenn Nahkampfwaffen ausgerüstet sind.</DefaultText>
+      <DefaultText>Der Schurke sucht im Kampf nach Gelegenheiten zum Konter. Bei eingehenden Nahkampfangriffen, die auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; zielen und verfehlen, besteht eine Chance auf einen sofortigen vollen Gegenschlag. (Erfordert eine Nahkampfwaffe)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>925</ID>
       <DefaultText>(Aushöhlender Schlag) – Fügt Feinden &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit zu bis der Kampf endet.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>926</ID>
-      <DefaultText>Der Schurke zeigt sich besonders geschickt darin, Angriffen auszuweichen, und verwandelt fast alle Leichte Treffer, die &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; angreifen, in Fehlschläge.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -701,7 +691,7 @@
     </Entry>
     <Entry>
       <ID>1060</ID>
-      <DefaultText>Der tierische Gefährte des Waldläufers erhält verbesserten &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gegen alle Schadensarten.</DefaultText>
+      <DefaultText>Der tierische Gefährte des Waldläufers erhält einen verbesserten &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert gegen alle Schadensarten.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -711,7 +701,7 @@
     </Entry>
     <Entry>
       <ID>1076</ID>
-      <DefaultText>Erhöht die &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit des Charakters mit Fernwaffen, die gegen Ziele in der Entfernung eingesetzt werden.</DefaultText>
+      <DefaultText>Erhöht die &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit des Charakters mit Fernkampfwaffen, die gegen Ziele in der Entfernung eingesetzt werden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -726,7 +716,7 @@
     </Entry>
     <Entry>
       <ID>1212</ID>
-      <DefaultText>Mit einer Berührung der Hände erfüllt der Paladin sich selbst oder einen Verbündeten mit Licht. Dadurch wird in hohem Umfang die &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit wiederhergestellt und die Inspiration Mutig gewährt.</DefaultText>
+      <DefaultText>Mit einer Berührung der Hände erfüllt der Paladin sich selbst oder einen Verbündeten in Reichweite mit Licht. Dadurch wird ein großes Maß an &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit wiederhergestellt und die Inspiration Mutig verliehen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -741,12 +731,12 @@
     </Entry>
     <Entry>
       <ID>1307</ID>
-      <DefaultText>Wenn ein Feuer-Gottähnlichen Schwer verletzt oder Dem Tode nahe ist, härtet sich sein Körper, was ihm zusätzlichen &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert verleiht. Seine Seele wehrt sich außerdem gegen Angreifer und fügt jedem, der ihn im Nahkampf trifft, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zu.</DefaultText>
+      <DefaultText>Wenn Feuer-Gottähnliche Schwer verletzt oder Dem Tode nahe sind, härten sich ihre Körper und ihr &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert erhöht sich. Ihre Seelen wehren sich außerdem gegen die Angreifer und fügen allen, die sie im Nahkampf treffen, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zu.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1324</ID>
-      <DefaultText>Schießt einen magischen Magieblitz aus dem Zauberbuch, das Zielen im Wirkungsbereich &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden zufügt und sie Benommen macht.</DefaultText>
+      <DefaultText>Schießt einen Magieblitz aus dem Zauberbuch, das Zielen im Wirkungsbereich &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden zufügt und sie Benommen macht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -781,12 +771,12 @@
     </Entry>
     <Entry>
       <ID>1467</ID>
-      <DefaultText>Der Kämpfer führt einen Primärangriff aus, der einen Bonus auf Durchdringung erhält und den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert des Ziels verringert.</DefaultText>
+      <DefaultText>Der Kämpfer führt einen Primärangriff aus, der einen Bonus auf &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft erhält und den &lt;sprite="Inline" name="cs_ar" tint=1&gt; Rüstungswert des Ziels verringert.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1468</ID>
-      <DefaultText>Der Paladin konzentriert seinen Glauben und geht in blauen Flammen auf. Jedes Mal, wenn die Fähigkeit pulsiert, erleidet der Gegner in der unmittelbaren Umgebung &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden, während dem Paladin ein Teil seiner gesamten &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit als &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkter Schaden zugefügt wird. (Dieser Schaden kann den Paladin töten)</DefaultText>
+      <DefaultText>Der Paladin konzentriert seinen Glauben und geht in blauen Flammen auf. Jedes Mal, wenn der Zauber pulsiert, erleiden Feinde in der unmittelbaren Umgebung &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden und der Paladin erleidet einen Teil ihrer gesamten &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit als &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden. (Dieser Schaden kann den Paladin töten.)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -801,12 +791,12 @@
     </Entry>
     <Entry>
       <ID>1476</ID>
-      <DefaultText>Der Zauberer schleudert einen winzigen Feuerball los, der für einen festgelegten Zeitraum liegen bleibt, bevor er explodiert und dabei schweren &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden verursacht.</DefaultText>
+      <DefaultText>Der Zauberer schleudert einen winzigen Feuerball los, der für einen festgelegten Zeitraum ruht, bevor er explodiert und dabei schweren &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden verursacht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1477</ID>
-      <DefaultText>Dieser Zauber beschwört einen mächtigen Kampfstab, der &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; hinzufügt und Feinde bei jedem erfolgreichen Angriff mit einem Humpelnd-Effekt wegstößt. Die Beschwörung selbst stößt ebenfalls jeden (auch Verbündete) aus der Nähe des Zauberwirkers fort.</DefaultText>
+      <DefaultText>Dieser Zauber beschwört einen mächtigen Kampfstab, der &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; hinzufügt und Feinde bei jedem erfolgreichen Angriff wegstößt und humpeln lässt. Die Beschwörung des Stabes selbst stößt jeden aus der Nähe des Zauberwirkers fort (auch Verbündete).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -836,7 +826,7 @@
     </Entry>
     <Entry>
       <ID>1577</ID>
-      <DefaultText>Vernichtet Feinde mit einem mächtigen Wind kalter Luft, der die Bewegung verlangsamt sowie &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost- und &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden anrichtet (mit hoher Durchdringung).</DefaultText>
+      <DefaultText>Vernichtet Feinde mit einem mächtigen Stoß kalter Luft, der die Bewegung verlangsamt und &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost- und &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden mit hoher &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft anrichtet.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -861,7 +851,7 @@
     </Entry>
     <Entry>
       <ID>1737</ID>
-      <DefaultText>Der Druide verbindet winzige Naturgeister zur Gestalt eines großen Hirsches aus Feuer. Der Hirsch hat einen dauerhaften Flammenschild. Der Druide kann die in dem Hirsch enthaltenen Geister heftig auseinanderfliegen lassen, was den Hirsch zerstört, aber Feuer- oder &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden bei jedem, der von der Explosion betroffen ist, verursacht.</DefaultText>
+      <DefaultText>Der Druide verbindet winzige Naturgeister zur Gestalt eines großen Hirsches aus Feuer. Der Hirsch hat einen dauerhaften Flammenschild. Der Druide kann die im Hirsch enthaltenen Geister heftig auseinanderfliegen lassen, was den Hirsch zerstört, aber Feuer- oder &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden bei allen verursacht, die von der Explosion getroffen werden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -911,7 +901,7 @@
     </Entry>
     <Entry>
       <ID>1765</ID>
-      <DefaultText>Eine geisterhafte Skeletthand fegt durch das Gebiet und fügt allen Gegnern darin &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden zu und lässt sie Geschwächt oder Humpelnd zurück.</DefaultText>
+      <DefaultText>Eine geisterhafte Skeletthand fegt durch das Gebiet, fügt allen Gegnern darin &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden zu und lässt sie geschwächt und humpelnd zurück.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1437,7 +1427,7 @@ Trotz dieser Vorteile bringt diese Beziehung auch gewisse Risiken mit sich. Wald
     </Entry>
     <Entry>
       <ID>2785</ID>
-      <DefaultText>Lasse den Angriff eines Verbündeten mit den Erinnerungen seiner Seele widerhallen. Dies gewährt den Verbündeten einen wesentlichen &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft-Bonus.</DefaultText>
+      <DefaultText>Lasse den Angriff eines Verbündeten mit den Erinnerungen ihrer Seele widerhallen. Dies gewährt den Verbündeten einen wesentlichen &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft-Bonus.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
