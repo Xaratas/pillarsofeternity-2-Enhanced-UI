@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>532</EntryCount>
+  <EntryCount>538</EntryCount>
   <Entries>
     <Entry>
       <ID>0</ID>
@@ -145,6 +145,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>44</ID>
+      <DefaultText>Incoming weapon Damage is reduced as Health is lost. (Max {0:value:percentbonus} Damage reduction)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>45</ID>
       <DefaultText>(Current Bonus: {0:value}) {0:extravalue} Accuracy</DefaultText>
       <FemaleText />
@@ -220,8 +225,18 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>82</ID>
+      <DefaultText>{0:extravalue:percentbonus} Damage taken (improves as wearer loses Health)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>83</ID>
       <DefaultText>{0:value:percent} chance to Stun attacker for {0:extravalue:duration} when Hit with a melee weapon.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>85</ID>
+      <DefaultText>While above {0:triggervalue:percent} Health, {0:extravalue:percent} chance incoming Ranged weapon attacks inflict {0:value:percent} Damage</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -245,8 +260,28 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>98</ID>
+      <DefaultText>All Damage from Acid or Poison attacks has a {0:extravalue:percent} chance to be converted into {0:value:percent} Health for the wearer</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>99</ID>
+      <DefaultText>{0:value:percent} chance to instantly destroy a Kith or Beast with less than 100 Health on Hit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>100</ID>
+      <DefaultText>{0:extravalue:percent} Chance to convert {0:value:percent} Damage from Fire keyword attacks to Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>101</ID>
       <DefaultText>Only take {0:value:percent} Damage when Flanked or suffering from Body Afflictions</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>102</ID>
+      <DefaultText>{0:extravalue:percent} Chance to convert {0:value:percent} Damage from Water keyword attacks to Health</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -305,6 +340,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>131</ID>
+      <DefaultText>Ability triggers when wearer falls to {0:value:percent} Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>134</ID>
       <DefaultText>When Bloodied or Near Death, wearer is immune to Corrode Damage</DefaultText>
       <FemaleText />
@@ -320,8 +360,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>141</ID>
-      <DefaultText>Summons a random potion into an empty Quick Slot at the start of combat. The potion disappears when combat ends.</DefaultText>
+      <ID>139</ID>
+      <DefaultText>{0:value:percentbonus} Damage from weapons. Bonus increases as wielder loses Health.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -337,6 +377,11 @@
     <Entry>
       <ID>152</ID>
       <DefaultText>{0:value} target Deflection for {0:extravalue:duration} on Hit (stacks {0:triggercount} times)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>153</ID>
+      <DefaultText>Wielder gains {0:value} Health on Critical Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -395,6 +440,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>173</ID>
+      <DefaultText>{0:value} Health per {0:interval} when below {0:extravalue:percent} Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>174</ID>
       <DefaultText>Hit applies -0.25 stacking Armor Rating on target. Max -3 reduction</DefaultText>
       <FemaleText />
@@ -405,6 +455,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>176</ID>
+      <DefaultText>Stacking -5% Action Speed to target above 50% Health on Hit. Max 5 stacks</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>178</ID>
       <DefaultText>Launches Raw Damage AoE on scoring {0:value:straight} consecutive Hits on target</DefaultText>
       <FemaleText />
@@ -412,6 +467,26 @@
     <Entry>
       <ID>181</ID>
       <DefaultText>{0:value:percent} chance to launch Dazed attack at target when Missed in melee</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>182</ID>
+      <DefaultText>Casts Ghost Blades on Kill and returns Health based on damage dealt</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>183</ID>
+      <DefaultText>On Kill: +2 Might. Convert 25% Hits to Crits against targets below 25% Health. +15% Action Speed for 45.0 sec. Effects Stack. Suppresses Soul Hunger</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>184</ID>
+      <DefaultText>On Kill: +6 Might. Convert 35% Hits to Crits against targets below 50% Health. +30% Action Speed for 45.0 sec. Effects Stack. Suppresses Soul Hunger</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>185</ID>
+      <DefaultText>On Kill: +3 Might. Convert 25% Hits to Crits against targets below 50% Health. +20% Action Speed for 45.0 sec. Effects Stack. Suppresses Soul Hunger</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -550,6 +625,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>244</ID>
+      <DefaultText>{0:value} Max Health until combat end on scoring Kill with weapon</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>245</ID>
       <DefaultText>{0:value:percent} chance to Knockback and Daze target on scoring Hit</DefaultText>
       <FemaleText />
@@ -557,6 +637,11 @@
     <Entry>
       <ID>246</ID>
       <DefaultText>{0:value:percent} chance to Immobilize target on scoring Hit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>251</ID>
+      <DefaultText>Restore {0:value} Health to nearby allies on scoring Kill (Increases with Religion skill)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -625,6 +710,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>283</ID>
+      <DefaultText>Restore {0:value} Health on scoring Kill with weapon</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>284</ID>
       <DefaultText>Sicken for 12.0 sec on scoring Crit. Opposed by Fortitude</DefaultText>
       <FemaleText />
@@ -690,6 +780,16 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>315</ID>
+      <DefaultText>{0:extravalue} All Defenses (decreases as wearer loses Health)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>316</ID>
+      <DefaultText>{0:value} Health per {0:triggervalue:duration} for {0:extravalue:duration} when Critically Hit (Healing increases as wearer loses Health)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>317</ID>
       <DefaultText>+3 Accuracy. Increases as wearer loses Health</DefaultText>
       <FemaleText />
@@ -697,6 +797,11 @@
     <Entry>
       <ID>318</ID>
       <DefaultText>Armor Rating increases as wearer loses Health (Max {0:extravalue} Armor Rating)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>319</ID>
+      <DefaultText>Melee Weapon Damage increases as wearer loses Health (Max {0:extravalue:percent} Damage)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -717,6 +822,11 @@
     <Entry>
       <ID>326</ID>
       <DefaultText>Ranged gains {0:value} Penetration and {0:extravalue:percentbonus} Bonus Damage</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>327</ID>
+      <DefaultText>{0:value} Health per {0:interval} while below {0:extravalue:percent} Health </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -762,6 +872,16 @@
     <Entry>
       <ID>361</ID>
       <DefaultText>{0:value} Accuracy against Marked target</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>377</ID>
+      <DefaultText>{0:value} All Defenses against Plant attacks while above {0:extravalue:percent} Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>378</ID>
+      <DefaultText>{0:value} All Defenses against Plant attacks while above {0:extravalue:percent} Health</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -830,8 +950,18 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>412</ID>
+      <DefaultText>Unable to move when under 25% Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>413</ID>
       <DefaultText>Grants Smart Inspiration to Self and Confused Affliction to an enemy for {0:value:duration} when engaged for the first time in combat.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>414</ID>
+      <DefaultText>Grants {0:extravalue} Armor and {0:value} Health every {0:interval} when under 25% Health.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -872,6 +1002,11 @@
     <Entry>
       <ID>446</ID>
       <DefaultText>Receiving Critical Hits from Melee Attacks has a {0:value:percent} chance to cause Confused on attackers (Upgrades to Charmed on Crit)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>450</ID>
+      <DefaultText>{0:value:percentbonus} Action Speed (Increases as Health is lost)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -930,6 +1065,21 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>473</ID>
+      <DefaultText>Casts a random Storm spell once per combat when under {0:value:percent} Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>475</ID>
+      <DefaultText>{0:value:percent} chance 20 Health Restored to enemy on Critical Hit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>476</ID>
+      <DefaultText>{0:value:percent} chance 30 Health Restored to self on scoring Critical Hit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>478</ID>
       <DefaultText>{0:value} Deflection (Improves with Athletics skill)</DefaultText>
       <FemaleText />
@@ -975,8 +1125,23 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>501</ID>
+      <DefaultText>per {0:interval:duration} while below {0:extravalue:percent} Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>504</ID>
       <DefaultText>{0:value} Deflection against Flanking attacks</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>505</ID>
+      <DefaultText>Resistance to Constitution Afflictions while above {0:extravalue:percent} Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>506</ID>
+      <DefaultText>Immunity to Constitution Afflictions while above {0:value:percent} Health</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -987,6 +1152,11 @@
     <Entry>
       <ID>508</ID>
       <DefaultText>{0:value:percent} chance to Stun target for {0:extravalue:duration} on scoring Hit if wielder is a dwarf</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>509</ID>
+      <DefaultText>{0:value} Health (increases with Diplomacy skill)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1025,6 +1195,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>543</ID>
+      <DefaultText>{0:extravalue:percentbonus} Damage done with weapons (increases as wearer loses Health)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>544</ID>
       <DefaultText>{0:value} Deflection while near allies</DefaultText>
       <FemaleText />
@@ -1055,8 +1230,28 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>580</ID>
+      <DefaultText>{0:value:percent} of Damage dealt with this weapon restores Health to the wielder</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>588</ID>
       <DefaultText>Gain the Aware Inspiration for {0:value:duration} whenever a nearby Ally scores a killing blow</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>626</ID>
+      <DefaultText>Chance to Terrify when attacked with Melee Weapons</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>632</ID>
+      <DefaultText>{0:value:percent} Chance on scoring a kill with this weapon to Frenzy the wielder (Without a Deflection penalty)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>635</ID>
+      <DefaultText>If the wielder's Might is {0:value:straight} or above, Critical Hits with this weapon cause {0:extravalue:percent} of base weapon damage in an area around the wielder (Enemies under {0:triggervalue:straight} Health are killed instantly)</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
