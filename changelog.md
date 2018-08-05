@@ -1,4 +1,8 @@
 ## CHANGELOG
+### Version 1.1.5
+- Updated German localization for game version 2.0.
+- Updated Italian localization for game version 2.0.
+
 ### Version 1.1.0
 - New icon for the "Health" keyword! All instances of the keyword "Health" should now have a icon next to it's name.
 - Fixed a issue that was causing the game to give a "Version Warning" message when no such warning was warranted.
