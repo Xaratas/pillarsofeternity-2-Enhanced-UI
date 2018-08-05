@@ -6,272 +6,347 @@
   <Entries>
     <Entry>
       <ID>1478</ID>
-      <DefaultText>Diese Kugeln bieten +5 &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit bei allen feuer-basierten Angriffen.</DefaultText>
+      <DefaultText>Diese Kugeln bieten +5 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; bei allen feuer-basierten Angriffen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1798</ID>
-      <DefaultText>Führt dazu, dass Feinde im Wirkungsbereich in einem schwachen grünen Licht leuchten, was sie zu einfacheren Zielen macht. Betroffene Feinde leiden unter einer schwächeren &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und verringerten &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;n.</DefaultText>
+      <DefaultText>Führt dazu, dass Feinde im Wirkungsbereich in einem schwachen grünen Licht leuchten, was sie zu einfacheren Zielen macht. Betroffene Feinde leiden unter einer schwächeren &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; und verringerten &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflexe&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;n.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2361</ID>
-      <DefaultText>Diese Klingen aus Seelenenergie verursachen &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden und ernten Fokus für das Medium, das sie geschaffen hat.</DefaultText>
+      <DefaultText>Diese Klingen aus Seelenenergie verursachen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;space=0.7em&gt;direkten Schaden&lt;/link&gt;&lt;/nobr&gt; und ernten Fokus für das Medium, das sie geschaffen hat.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2852</ID>
-      <DefaultText>Solange das Bärenjunge dir folgt, verschafft dir das einen Bonus für &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt; und deiner Gruppe einen Bonus für den Nahkampfschaden.</DefaultText>
+      <DefaultText>Solange das Bärenjunge dir folgt, verschafft dir das einen Bonus für &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Tapferkeit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; und deiner Gruppe einen Bonus für den Nahkampfschaden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2866</ID>
-      <DefaultText>Fügt {0} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zu</DefaultText>
+      <DefaultText>Fügt {0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; zu</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3114</ID>
-      <DefaultText>Eine zerbrechliche Kugel, die ätzende Stoffe und erstickende Gase enthält. Wenn das Gerät explodiert, erhebt sich daraus eine Wolke säurehaltigen Nebels, der &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden verursacht und die effektive Rüstung aller im Bereich senkt.</DefaultText>
+      <DefaultText>Eine zerbrechliche Kugel, die ätzende Stoffe und erstickende Gase enthält. Wenn das Gerät explodiert, erhebt sich daraus eine Wolke säurehaltigen Nebels, der &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;space=0.7em&gt;Zersetzungsschaden&lt;/link&gt;&lt;/nobr&gt; verursacht und die effektive Rüstung aller im Bereich senkt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3116</ID>
-      <DefaultText>Eine verwirrende Anordnung von Drähten und Elementargeräten. Der Kupferdraht funkt unheilvoll, wenn er in die Nähe von Fleisch oder Rüstung kommt. Nach der Aktivierung schießt ein Netz von elektrischen Blitzen aus dem Gerät und verursacht &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden, das jede Kreatur in Reichweite lähmen kann.</DefaultText>
+      <DefaultText>Eine verwirrende Anordnung von Drähten und Elementargeräten. Der Kupferdraht funkt unheilvoll, wenn er in die Nähe von Fleisch oder Rüstung kommt. Nach der Aktivierung schießt ein Netz von elektrischen Blitzen aus dem Gerät und verursacht &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;space=0.7em&gt;Schockschaden&lt;/link&gt;&lt;/nobr&gt;, das jede Kreatur in Reichweite lähmen kann.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3122</ID>
-      <DefaultText>Eine alchemistische Apparatur mit verheerender Macht. Verlorenes Flüstern dringt tief aus ihrem Inneren und singt von erdrückender Dunkelheit. Wenn die Ladung detoniert, formt sich ein Spalt, der alles darin in den schwarzen Horizont zieht und &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden verursacht.</DefaultText>
+      <DefaultText>Eine alchemistische Apparatur mit verheerender Macht. Verlorenes Flüstern dringt tief aus ihrem Inneren und singt von erdrückender Dunkelheit. Wenn die Ladung detoniert, formt sich ein Spalt, der alles darin in den schwarzen Horizont zieht und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/link&gt;&lt;/nobr&gt; verursacht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3138</ID>
-      <DefaultText>Dieser eklige Trank verändert die Haut und innere Körperstruktur, um &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost-, Zersetzungs- und &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden besser widerstehen zu können.</DefaultText>
+      <DefaultText>Dieser eklige Trank verändert die Haut und innere Körperstruktur, um &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brand&lt;/link&gt;&lt;/nobr&gt;-, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frost&lt;/link&gt;&lt;/nobr&gt;-, Zersetzungs- und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;space=0.7em&gt;Schockschaden&lt;/link&gt;&lt;/nobr&gt; besser widerstehen zu können.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3143</ID>
-      <DefaultText>Die blubbernde Flüssigkeit brennt beim Herunterschlucken wie Feuer. Rage brennt hinter den Augen, was Aktionsgeschwindigkeit und Nahkampfschaden auf Kosten der &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; erhöht.</DefaultText>
+      <DefaultText>Die blubbernde Flüssigkeit brennt beim Herunterschlucken wie Feuer. Rage brennt hinter den Augen, was Aktionsgeschwindigkeit und Nahkampfschaden auf Kosten der &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; erhöht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3180</ID>
-      <DefaultText>Dieses Elixier durchdringt Körpergewebe. Dadurch wird der Körper über die Wirkungsdauer gegen die Effekte von &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, Zersetzungs-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost- und &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden immun. Wenn der aufgegossene Trank nachlässt oder von Schaden überwältigt wird, wird der Schutz aufgehoben.</DefaultText>
+      <DefaultText>Dieses Elixier durchdringt Körpergewebe. Dadurch wird der Körper über die Wirkungsdauer gegen die Effekte von &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brand&lt;/link&gt;&lt;/nobr&gt;-, Zersetzungs-, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frost&lt;/link&gt;&lt;/nobr&gt;- und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;space=0.7em&gt;Schockschaden&lt;/link&gt;&lt;/nobr&gt; immun. Wenn der aufgegossene Trank nachlässt oder von Schaden überwältigt wird, wird der Schutz aufgehoben.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3197</ID>
-      <DefaultText>Gewährt treffsichere &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit und verschafft eine wesentliche Chance, Fehlschläge zu Leichten Treffern, Leichte Treffer zu Treffern, und Treffer zu kritischen Treffern zu ändern.</DefaultText>
+      <DefaultText>Gewährt treffsichere &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; und verschafft eine wesentliche Chance, Fehlschläge zu Leichten Treffern, Leichte Treffer zu Treffern, und Treffer zu kritischen Treffern zu ändern.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3395</ID>
-      <DefaultText>Erzeugt einen Feuerkegel vor dem Leser, der jedem im Wirkungsbereich &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden erteilt.</DefaultText>
+      <DefaultText>Erzeugt einen Feuerkegel vor dem Leser, der jedem im Wirkungsbereich &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; erteilt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3396</ID>
+      <DefaultText>Stellt allen Verbündeten im Wirkungsbereich eine kleine Menge &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; wieder her.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3398</ID>
-      <DefaultText>Beschwört einen intensiven Sonnenstrahl herab, der alle im Wirkungsbereich &lt;sprite="Inline" name="cs_burn" tint=1&gt; verbrennt und blenden kann.</DefaultText>
+      <DefaultText>Beschwört einen intensiven Sonnenstrahl herab, der alle im Wirkungsbereich &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;verbrennt&lt;/link&gt;&lt;/nobr&gt; und blenden kann.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3401</ID>
-      <DefaultText>Formt ein mächtiges Schwert mit einer Klinge aus reinem Feuer in den Händen des Lesers, welches &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden verursacht. Durch den Wechsel zu einer anderen Waffe endet der Zauber.</DefaultText>
+      <DefaultText>Formt ein mächtiges Schwert mit einer Klinge aus reinem Feuer in den Händen des Lesers, welches &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; verursacht. Durch den Wechsel zu einer anderen Waffe endet der Zauber.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3404</ID>
-      <DefaultText>Erzeugt einen brennenden Flammenstrahl zwischen dem Leser und dem Ziel, der dem Ziel und jedem, der in dem Strahl gefangen ist, anhaltenden &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügt.</DefaultText>
+      <DefaultText>Erzeugt einen brennenden Flammenstrahl zwischen dem Leser und dem Ziel, der dem Ziel und jedem, der in dem Strahl gefangen ist, anhaltenden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; zufügt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3405</ID>
+      <DefaultText>Isoliert ein einzelnes Ziel innerhalb einer Schutzsphäre und schützt es so vor Gefahren, während seine &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; regeneriert.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3407</ID>
-      <DefaultText>Erzeugt einen Energieball in der Hand des Lesers, der auf einen Gegner geschleudert werden kann und somit jedem im Wirkungsbereich &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brand-, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frost-, Zersetzungs- oder &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden zufügt. Fäule werden kontinuierlich aufgefüllt, bis der Zauber endet. </DefaultText>
+      <DefaultText>Erzeugt einen Energieball in der Hand des Lesers, der auf einen Gegner geschleudert werden kann und somit jedem im Wirkungsbereich &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brand&lt;/link&gt;&lt;/nobr&gt;-, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frost&lt;/link&gt;&lt;/nobr&gt;-, Zersetzungs- oder &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;space=0.7em&gt;Schockschaden&lt;/link&gt;&lt;/nobr&gt; zufügt. Fäule werden kontinuierlich aufgefüllt, bis der Zauber endet. </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3408</ID>
+      <DefaultText>Stellt allen Verbündeten im Wirkungsbereich eine mäßige Menge &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; wieder her.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3410</ID>
-      <DefaultText>Beschwört ein riesiges Hirschgeweih herauf, das das Ziel angreift, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden zufügt und einen Abzug auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; und &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt; verursacht.</DefaultText>
+      <DefaultText>Beschwört ein riesiges Hirschgeweih herauf, das das Ziel angreift, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/link&gt;&lt;/nobr&gt; zufügt und einen Abzug auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflexe&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verursacht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3411</ID>
-      <DefaultText>Schleudert zwei tödliche Felsen von der Position des Lesers aus, die jedem in ihrer Flugbahn &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zufügen und beim Einschlag auf festem Untergrund zerspringen, wobei die Bruchstücke allen Umstehenden &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Stichschaden zufügen.</DefaultText>
+      <DefaultText>Schleudert zwei tödliche Felsen von der Position des Lesers aus, die jedem in ihrer Flugbahn &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/link&gt;&lt;/nobr&gt; zufügen und beim Einschlag auf festem Untergrund zerspringen, wobei die Bruchstücke allen Umstehenden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/link&gt;&lt;/nobr&gt; zufügen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3412</ID>
-      <DefaultText>Alle im kegelförmigen Wirkungsbereich erleiden &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden und werden zurückgedrängt.</DefaultText>
+      <DefaultText>Alle im kegelförmigen Wirkungsbereich erleiden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; und werden zurückgedrängt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3415</ID>
-      <DefaultText>Feuert mehrere Geschosse aus reiner Energie auf das Ziel und fügt Feinden in der Nähe des Einschlags mit einer Schockwelle &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Wuchtschaden zu.</DefaultText>
+      <DefaultText>Feuert mehrere Geschosse aus reiner Energie auf das Ziel und fügt Feinden in der Nähe des Einschlags mit einer Schockwelle &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/link&gt;&lt;/nobr&gt; zu.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3416</ID>
+      <DefaultText>Kanalisiert Mondenergie in eine vorgegebene Kraftquelle, wodurch die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; von Verbündeten im Wirkungsbereich regeneriert wird und sie einen geringen Bonus auf alle Verteidigungen erhalten.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3418</ID>
-      <DefaultText>Erzeugt ein intensives Leuchtfeuer, durch das Gegner im Wirkungsbereich einen Abzug auf alle Verteidigungen erhalten und &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandzeitschaden erleiden.</DefaultText>
+      <DefaultText>Erzeugt ein intensives Leuchtfeuer, durch das Gegner im Wirkungsbereich einen Abzug auf alle Verteidigungen erhalten und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandzeitschaden&lt;/link&gt;&lt;/nobr&gt; erleiden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3419</ID>
-      <DefaultText>Ein Trio von Steinklauen bricht aus dem Boden hervor, die Fleisch zu Stein wandeln. Jeder, der im Wirkungsbereich gefangen ist, wird Gelähmt und mit &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hiebschaden belegt.</DefaultText>
+      <DefaultText>Ein Trio von Steinklauen bricht aus dem Boden hervor, die Fleisch zu Stein wandeln. Jeder, der im Wirkungsbereich gefangen ist, wird Gelähmt und mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/link&gt;&lt;/nobr&gt; belegt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3421</ID>
+      <DefaultText>Stellt allen Verbündeten im Wirkungsbereich eine deutliche Menge &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; wieder her.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3422</ID>
-      <DefaultText>Beschwört eine riesige Plage giftiger Insekten herauf, die &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden über Zeit zufügen, die Konzentration verringern und jeden im Wirkungsbereich erkranken lässt.</DefaultText>
+      <DefaultText>Beschwört eine riesige Plage giftiger Insekten herauf, die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;space=0.7em&gt;direkten Schaden&lt;/link&gt;&lt;/nobr&gt; über Zeit zufügen, die Konzentration verringern und jeden im Wirkungsbereich erkranken lässt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3423</ID>
+      <DefaultText>Bewusstlose Verbündete erhalten eine zweite Chance und bekommen einen kleinen Teil ihrer &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; zurück.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3424</ID>
-      <DefaultText>Entfesselt ein schreckliches Flammeninferno um den Leser herum, das jedem in der Umgebung &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zufügt.</DefaultText>
+      <DefaultText>Entfesselt ein schreckliches Flammeninferno um den Leser herum, das jedem in der Umgebung &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; zufügt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3428</ID>
-      <DefaultText>Beschwört eine flammende Feuersäule, die alle im Wirkungsbereich &lt;sprite="Inline" name="cs_burn" tint=1&gt; verbrennt.</DefaultText>
+      <DefaultText>Beschwört eine flammende Feuersäule, die alle im Wirkungsbereich &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;verbrennt&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3429</ID>
-      <DefaultText>Der Leser schleudert eine Kugel aus heiligem Feuer auf den Gegner, die seinen Schutz aufhebt und sein Verderben beschleunigt. Fügt fünf Sekunden lang kontinuierlich &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zu und beschleunigt den Zähler für alle vorteilhaften Wirkungen auf dem Ziel (mit Ausnahme von Heilungen) sowie aller kontinuierlichen Schadenseffekte. Springt auf bis zu zwei weitere Gegner in der Nähe über.</DefaultText>
+      <DefaultText>Der Leser schleudert eine Kugel aus heiligem Feuer auf den Gegner, die seinen Schutz aufhebt und sein Verderben beschleunigt. Fügt fünf Sekunden lang kontinuierlich &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; zu und beschleunigt den Zähler für alle vorteilhaften Wirkungen auf dem Ziel (mit Ausnahme von Heilungen) sowie aller kontinuierlichen Schadenseffekte. Springt auf bis zu zwei weitere Gegner in der Nähe über.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3430</ID>
+      <DefaultText>Stellt allen Verbündeten im Wirkungsbereich eine reichliche Menge &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; wieder her.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3432</ID>
-      <DefaultText>Ein schrecklicher Feuerregen prasselt auf den Wirkungsbereich nieder und fügt jedem, der sich darin befindet, wiederholt &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden zu.</DefaultText>
+      <DefaultText>Ein schrecklicher Feuerregen prasselt auf den Wirkungsbereich nieder und fügt jedem, der sich darin befindet, wiederholt &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; zu.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3435</ID>
-      <DefaultText>Ein trockener Wind bläst über das Schlachtfeld und fügt jedem im Zielgebiet &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden zu und lässt ihn Geschwächt zurück.</DefaultText>
+      <DefaultText>Ein trockener Wind bläst über das Schlachtfeld und fügt jedem im Zielgebiet &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;space=0.7em&gt;direkten Schaden&lt;/link&gt;&lt;/nobr&gt; zu und lässt ihn Geschwächt zurück.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3436</ID>
-      <DefaultText>Erzeugt einen eiskalten Wind von unglaublicher Stärke, der alle im Wirkungsbereich zurückdrängt und &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Frostschaden zufügt.</DefaultText>
+      <DefaultText>Erzeugt einen eiskalten Wind von unglaublicher Stärke, der alle im Wirkungsbereich zurückdrängt und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frostschaden&lt;/link&gt;&lt;/nobr&gt; zufügt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3437</ID>
-      <DefaultText>Der Leser kann jeden Geist, jedes Gefäß oder jede beschworene Kreatur unter der Stufe des Lesers zerstören. Ziele mit der gleichen oder einer höheren Stufe als die des Lesers erleiden &lt;sprite="Inline" name="cs_raw" tint=1&gt; direkten Schaden.</DefaultText>
+      <DefaultText>Der Leser kann jeden Geist, jedes Gefäß oder jede beschworene Kreatur unter der Stufe des Lesers zerstören. Ziele mit der gleichen oder einer höheren Stufe als die des Lesers erleiden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;space=0.7em&gt;direkten Schaden&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3439</ID>
-      <DefaultText>Eine Reihe Meteore fallen vom Himmel und verwüsten das Gebiet beim Aufprall mit &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden und zusätzlichen &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden über Zeit.</DefaultText>
+      <DefaultText>Eine Reihe Meteore fallen vom Himmel und verwüsten das Gebiet beim Aufprall mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; und zusätzlichen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; über Zeit.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3638</ID>
+      <DefaultText>Während Frau Nils dir folgt, werden deine Nahkampfangriffe präziser und deine Gruppe erhält einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3639</ID>
-      <DefaultText>Während der Rotblonde Dämon dir folgt, erhältst du einen Bonus auf Wahrnehmung und deine Gruppe erhält einen Bonus auf &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;.</DefaultText>
+      <DefaultText>Während der Rotblonde Dämon dir folgt, erhältst du einen Bonus auf Wahrnehmung und deine Gruppe erhält einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflexe&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3640</ID>
-      <DefaultText>Während Kathrynn Vonn Kiliann the Kat dir folgt, erhältst du einen Bonus auf Intellekt und deine Gruppe erhält einen Bonus auf &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;.</DefaultText>
+      <DefaultText>Während Kathrynn Vonn Kiliann the Kat dir folgt, erhältst du einen Bonus auf Intellekt und deine Gruppe erhält einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Wille&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3641</ID>
-      <DefaultText>Während Babsilein dir folgt, erhältst du deinen Bonus auf Gewandtheit und deine Gruppe erhält einen Bonus auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; gegen gegnerische Waffenangriffe.</DefaultText>
+      <DefaultText>Während Babsilein dir folgt, erhältst du deinen Bonus auf Gewandtheit und deine Gruppe erhält einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; gegen gegnerische Waffenangriffe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3645</ID>
+      <DefaultText>Während Prissy dir folgt, heilst du effizienter mit Heilzaubern und Tränken und deine Gruppenmitglieder erhalten etwas &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt;, wenn sie einen Gegner töten.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3646</ID>
+      <DefaultText>Während Twix dir folgt, erhältst du einen Bonus auf deine Maximale &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; und deine Gruppenmitglieder erhalten etwas &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt;, wenn sie einen Gegner töten.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3647</ID>
+      <DefaultText>Während Abraham dir folgt, wird dein Erholungsabzug für Rüstung verringert und deine Gruppenmitglieder erhalten etwas &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt;, wenn sie einen Gegner töten.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3648</ID>
-      <DefaultText>Während Algol dir folgt, klingen jegliche Verfassungswirkungen auf dir schneller ab und deine Gruppenmitglieder erhalten etwas &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit, wenn sie einen Gegner töten.</DefaultText>
+      <DefaultText>Während Algol dir folgt, klingen jegliche Verfassungswirkungen auf dir schneller ab und deine Gruppenmitglieder erhalten etwas &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt;, wenn sie einen Gegner töten.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3649</ID>
-      <DefaultText>Während Atlas dir folgt, erhältst du einen Bonus auf Wahrnehmung und deine Gruppenmitglieder erhalten einen Bonus auf Fernkampfwaffen-&lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit.</DefaultText>
+      <DefaultText>Während Atlas dir folgt, erhältst du einen Bonus auf Wahrnehmung und deine Gruppenmitglieder erhalten einen Bonus auf Fernkampfwaffen-&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3650</ID>
-      <DefaultText>Während Chili dir folgt, erhältst du einen Bonus auf Entschlossenheit und deine Gruppenmitglieder erhalten einen Bonus auf &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;.</DefaultText>
+      <DefaultText>Während Chili dir folgt, erhältst du einen Bonus auf Entschlossenheit und deine Gruppenmitglieder erhalten einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Wille&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3652</ID>
+      <DefaultText>Während Freya dir folgt, erhältst du einen Bonus auf Intellekt und deine Gruppenmitglieder erhalten etwas &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt;, wenn sie einen Gegner töten.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3653</ID>
-      <DefaultText>Während Gizmo dir folgt, bewegst du dich im Kampf schneller und deine Gruppenmitglieder erhalten einen Bonus auf &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;.</DefaultText>
+      <DefaultText>Während Gizmo dir folgt, bewegst du dich im Kampf schneller und deine Gruppenmitglieder erhalten einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflexe&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3655</ID>
-      <DefaultText>Während Hemp dir folgt, erhältst du einen Bonus auf Verfassung und deine Gruppenmitglieder erhalten einen Bonus auf &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;.</DefaultText>
+      <DefaultText>Während Hemp dir folgt, erhältst du einen Bonus auf Verfassung und deine Gruppenmitglieder erhalten einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Tapferkeit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3656</ID>
+      <DefaultText>Während Mercedes dir folgt, erhältst du einen Bonus auf Max &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; und deine Gruppenmitglieder erhalten einen Bonus auf Nahkampfwaffenschaden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3659</ID>
-      <DefaultText>Während Pfannkuchen dir folgt, erhältst du einen Bonus auf Macht und deine Gruppenmitglieder verfügen über eine erhöhte Resistenz gegen &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden.</DefaultText>
+      <DefaultText>Während Pfannkuchen dir folgt, erhältst du einen Bonus auf Macht und deine Gruppenmitglieder verfügen über eine erhöhte Resistenz gegen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3661</ID>
+      <DefaultText>Während Toby dir folgt, erhältst du einen Bonus auf Wahrnehmung und deine Gruppenmitglieder erhaltenen einen Bonus auf Max &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3691</ID>
-      <DefaultText>Während die Beseelungskatze dir folgt, erhältst du einen Bonus auf Arkana und Metaphysik, und alle Kreaturen, die von deiner Gruppe beschworen werden, erhalten einen Bonus auf Macht und &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Durchschlagskraft.</DefaultText>
+      <DefaultText>Während die Beseelungskatze dir folgt, erhältst du einen Bonus auf Arkana und Metaphysik, und alle Kreaturen, die von deiner Gruppe beschworen werden, erhalten einen Bonus auf Macht und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Durchschlag&lt;/link&gt;&lt;/nobr&gt;skraft.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3695</ID>
-      <DefaultText>Während Xopn’aua dir folgt, erhältst du einen Bonus auf Einsicht und Metaphysik. Darüber hinaus erhält deine Gruppe einen Bonus auf &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Wille&lt;/color&gt;.</DefaultText>
+      <DefaultText>Während Xopn’aua dir folgt, erhältst du einen Bonus auf Einsicht und Metaphysik. Darüber hinaus erhält deine Gruppe einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Wille&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4282</ID>
-      <DefaultText>Während das Irrlicht dir folgt, haben Intellektwirkungen auf dich eine kürzere Dauer und alle Gruppenmitglieder haben erhöhte &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit bei ihren Angriffen gegen Geister.</DefaultText>
+      <DefaultText>Während das Irrlicht dir folgt, haben Intellektwirkungen auf dich eine kürzere Dauer und alle Gruppenmitglieder haben erhöhte &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; bei ihren Angriffen gegen Geister.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4390</ID>
-      <DefaultText>Während der Grabhund-Welpe dir folgt, erteilst du zusätzlichen Schaden gegen Gefäße und alle Gruppenmitglieder erleiden verringerten &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden.</DefaultText>
+      <DefaultText>Während der Grabhund-Welpe dir folgt, erteilst du zusätzlichen Schaden gegen Gefäße und alle Gruppenmitglieder erleiden verringerten &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;space=0.7em&gt;Zersetzungsschaden&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4406</ID>
+      <DefaultText>Während Deus dir folgt, erhältst du einen Bonus auf Verfassung und deine Gruppenmitglieder erhalten etwas &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt;, wenn sie einen Gegner töten.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4410</ID>
-      <DefaultText>Während Dan der Rare dir folgt, erhöht sich die Wahrscheinlichkeit, dass Angriffe gegen dich zu Leichten Treffern werden und deine Gruppe erhält einen Bonus auf &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tapferkeit&lt;/color&gt;.</DefaultText>
+      <DefaultText>Während Dan der Rare dir folgt, erhöht sich die Wahrscheinlichkeit, dass Angriffe gegen dich zu Leichten Treffern werden und deine Gruppe erhält einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Tapferkeit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4429</ID>
-      <DefaultText>Erzeugt einen Feuerkegel vor dem Leser, der jedem im Wirkungsbereich &lt;sprite="Inline" name="cs_burn" tint=1&gt; Brandschaden erteilt.</DefaultText>
+      <DefaultText>Erzeugt einen Feuerkegel vor dem Leser, der jedem im Wirkungsbereich &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; erteilt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4456</ID>
-      <DefaultText>Während das Babywildschein dir folgt, besteht bei deinen Nahkampfangriffen die Chance, den Gegner zu unterbrechen, und deine Gruppenmitglieder verursachen zusätzlichen &lt;sprite="Inline" name="cs_slash" tint=1&gt; Hiebschaden.</DefaultText>
+      <DefaultText>Während das Babywildschein dir folgt, besteht bei deinen Nahkampfangriffen die Chance, den Gegner zu unterbrechen, und deine Gruppenmitglieder verursachen zusätzlichen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4645</ID>
-      <DefaultText>Während Pozzi dir folgt, werden deine Feuerfähigkeiten gestärkt und deine Gruppenmitglieder erhalten einen Bonus auf &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflexe&lt;/color&gt;.</DefaultText>
+      <DefaultText>Während Pozzi dir folgt, werden deine Feuerfähigkeiten gestärkt und deine Gruppenmitglieder erhalten einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflexe&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4647</ID>
-      <DefaultText>Während Socrates dir folgt, erhältst du etwas &lt;sprite="Inline" name="cs_health" tint=1&gt; Gesundheit, wenn du den Todesstoß gegen einen Gegner erzielst und deine Gruppenmitglieder erhalten einen Bonus auf &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; gegen Nahkampfangriffe.</DefaultText>
+      <DefaultText>Während Socrates dir folgt, erhältst du etwas &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt;, wenn du den Todesstoß gegen einen Gegner erzielst und deine Gruppenmitglieder erhalten einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; gegen Nahkampfangriffe.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4922</ID>
-      <DefaultText>Während Komet dir folgt, erhältst du einen Bonus auf Macht und deine Gruppenmitglieder zusätzliche &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Abwehr&lt;/color&gt; gegen gegnerische Waffenangriffe.</DefaultText>
+      <DefaultText>Während Komet dir folgt, erhältst du einen Bonus auf Macht und deine Gruppenmitglieder zusätzliche &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; gegen gegnerische Waffenangriffe.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4935</ID>
-      <DefaultText>Während der Obsidian-Lindwurm dir folgt, erhältst du einen Bonus auf Heimlichkeit und Fingerfertigkeit, und deine Gruppenmitglieder erhalten einen Bonus auf &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Genauigkeit gegen flankierte Gegner.</DefaultText>
+      <DefaultText>Während der Obsidian-Lindwurm dir folgt, erhältst du einen Bonus auf Heimlichkeit und Fingerfertigkeit, und deine Gruppenmitglieder erhalten einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; gegen flankierte Gegner.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>5145</ID>
-      <DefaultText>Füge {0} &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Zersetzungsschaden zu</DefaultText>
+      <DefaultText>Füge {0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;space=0.7em&gt;Zersetzungsschaden&lt;/link&gt;&lt;/nobr&gt; zu</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>5149</ID>
-      <DefaultText>Füge {0} &lt;sprite="Inline" name="cs_shock" tint=1&gt; Schockschaden zu</DefaultText>
+      <DefaultText>Füge {0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;space=0.7em&gt;Schockschaden&lt;/link&gt;&lt;/nobr&gt; zu</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
