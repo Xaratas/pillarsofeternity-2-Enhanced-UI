@@ -2,11 +2,46 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\gui</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>4419</EntryCount>
+  <EntryCount>4425</EntryCount>
   <Entries>
+    <Entry>
+      <ID>126</ID>
+      <DefaultText>{0} is healed for {1} Health.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>127</ID>
+      <DefaultText>{2} heals {0} for {1} Health.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>128</ID>
+      <DefaultText>{0} regains {1} Health.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>129</ID>
+      <DefaultText>{2} heals {0} for {1} Health.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>135</ID>
+      <DefaultText>Characters will be maimed instead of dying permanently the first time their Health reaches zero.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>140</ID>
       <DefaultText>Hovering over enemies will provide a pop-up comparing their known defense scores to the attacker's Accuracy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>198</ID>
+      <DefaultText>Autopause when a party member's Health drops below 25%.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>199</ID>
+      <DefaultText>Autopause when a party member's Health drops below 25%.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -91,7 +126,7 @@
     </Entry>
     <Entry>
       <ID>473</ID>
-      <DefaultText>Constitution affects Health and the Fortitude defense. It represents a combination of the character's overall health and stamina.
+      <DefaultText>Constitution affects Health and the Fortitude defense. It represents a combination of the character's overall Health and stamina.
 
 5 - Frail
 10 - Average
@@ -107,6 +142,16 @@
 10 - Average
 15 - Observant
 20 - Eagle-Eyed</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1102</ID>
+      <DefaultText>{0} Max Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1104</ID>
+      <DefaultText>{0} Health Restored</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -140,8 +185,23 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1112</ID>
+      <DefaultText>{0:Value} Health regeneration</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1124</ID>
       <DefaultText>{0} Accuracy against Disengaging enemies</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1137</ID>
+      <DefaultText>Sneak Attacks on enemies under {0} Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1143</ID>
+      <DefaultText>{0} Health loss</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -150,8 +210,28 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1154</ID>
+      <DefaultText>{0} Damage by percentage of target's Health lost</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1160</ID>
+      <DefaultText>{0} Health Drained</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1161</ID>
+      <DefaultText>{0:Value:PercentBonus} Health regeneration</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1169</ID>
       <DefaultText>{0} Accuracy, Deflection, Reflex against distant enemies</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1170</ID>
+      <DefaultText>{0} Damage against enemies with low Health</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -190,8 +270,18 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1232</ID>
+      <DefaultText>{0} of Damage restored as Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1234</ID>
       <DefaultText>{0} Accuracy when below {1} Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1235</ID>
+      <DefaultText>{0} Damage when below {1} Health</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -210,6 +300,38 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1266</ID>
+      <DefaultText>{0} of {1} Damage converted to Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1275</ID>
+      <DefaultText>Revive with {0:Value:Straight} Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1366</ID>
+      <DefaultText>Requires Health below {0}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1370</ID>
+      <DefaultText>Requires at least {0} Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1371</ID>
+      <DefaultText>Requires Health below {0}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1397</ID>
+      <DefaultText>Adventuring is tiring work. In addition to the hazards of mortal combat, adventurers have walls to climb, rivers to cross, and pits to leap over.
+Once per encounter, characters with Athletics can use the Second Wind ability to recover lost Health. A higher Athletics score increases the effect of Second Wind.
+In conversations and scripted interactions, Athletics is used for physical feats like climbing, swimming, and jumping.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1404</ID>
       <DefaultText>{0} Accuracy</DefaultText>
       <FemaleText />
@@ -224,6 +346,26 @@
       <DefaultText>All rangers form a strong spiritual connection with a single creature, their animal companion. This connection allows rangers and their companions to coordinate attacks and efficiently take down prey. In most situations, the companion runs interference while the ranger attacks at range.
 
 Despite these advantages, there are risks to the relationship. Rangers share a literal life bond with their animal companions. When one is wounded, the can sense it and feel intense emotional pain. If a ranger or animal companion are knocked unconscious, the partner suffers from Bonded Grief, affecting Accuracy and other stats, until the downed ally is revived. If a ranger is ever killed, the animal companion immediately dies from grief.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1532</ID>
+      <DefaultText>Drains {0} {1} Damage as Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1546</ID>
+      <DefaultText>{0} when Health below {1}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1552</ID>
+      <DefaultText>{0} while Health above {1}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1553</ID>
+      <DefaultText>{0} while Health below {1}</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -247,6 +389,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1693</ID>
+      <DefaultText>{0:Value:Percent} of Hits converted to Crits against targets with less than {0:ExtraValue:Percent} Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1694</ID>
       <DefaultText>{0} Accuracy against distant enemies</DefaultText>
       <FemaleText />
@@ -267,6 +414,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1952</ID>
+      <DefaultText>{0:Value:PercentBonus} Crit Damage against targets with less than {0:ExtraValue::Percent} Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2200</ID>
       <DefaultText>{0} Accuracy when using {1}</DefaultText>
       <FemaleText />
@@ -277,6 +429,31 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2207</ID>
+      <DefaultText>Requires Health above {0}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2259</ID>
+      <DefaultText>Grants Second Wind ({0} Health)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2261</ID>
+      <DefaultText>{0} when Health drops below {1}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2291</ID>
+      <DefaultText>Party members will not receive knockout injuries when they are reduced to 0 Health in combat.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2302</ID>
+      <DefaultText>Camping allows your party members to restore lost Health and receive a Camping Bonus. Camping will consume a Camping Supply.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2304</ID>
       <DefaultText>{1} attackers get {0} Accuracy</DefaultText>
       <FemaleText />
@@ -284,6 +461,21 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>2314</ID>
       <DefaultText>minimum damage against Confused, Charmed, Dominated characters</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2326</ID>
+      <DefaultText>{0} Health transferred from caster </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2432</ID>
+      <DefaultText>{0} with at least {1} Health</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2433</ID>
+      <DefaultText>{0} with less than {1} Health</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -299,6 +491,17 @@ Confused while frenzied.
 Cannot see Health while frenzied.
 
 Takes Raw damage continuously while frenzied.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2818</ID>
+      <DefaultText>Bonus
+Invocations summon twice the number of creatures.
+
+Penalty
+The chanter's summons are smaller and have reduced Health and duration.
+
+Summon Invocations cost +1 Phrases.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -336,6 +539,30 @@ Automatically learn the following druid spells at new power levels:
 
 Penalty
 Cannot cast Rejuvenation spells.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2828</ID>
+      <DefaultText>Bonus
+Druid can switch to any of the spiritshifting animals, once each, per combat.
+
+Spiritshift has a longer duration.
+
+After a spiritshift ends, the druid is healed a portion of their Health.
+
+Automatically learn the following druid spells at new power levels:
+1. Nature's Mark
+2. Insect Swarm
+3. Infestation of Maggots
+4. Form of the Delemgan
+5. Nature's Terror
+6. Garden of Life
+7. Rusted Armor
+8. Entropy
+9. Pollen Patch
+
+Penalty
+Cannot cast spells while in animal form.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -463,8 +690,18 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3362</ID>
+      <DefaultText>{0} converts the damage to {1} Health.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3938</ID>
       <DefaultText>{0:Value} {0:DamageType} Armor Rating</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4019</ID>
+      <DefaultText>{0} {1} Health</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

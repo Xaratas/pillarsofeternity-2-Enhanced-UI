@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 0.9-beta.8 -->
-<!-- Game Build 2.0.0.0017 -->
+<!-- Mod name: PoE2-EnhancedUserInterface // en // version: 1.1.0 -->
+<!-- Game Build 2.0.0.0030 -->
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\items</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>2825</EntryCount>
+  <EntryCount>2831</EntryCount>
   <Entries>
     <Entry>
       <ID>254</ID>
@@ -129,6 +129,11 @@ This crude spear is decorated with feathers and beads.&lt;/line-height&gt;</Defa
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3396</ID>
+      <DefaultText>&lt;line-height=100%&gt;Restores a minor amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; to all allies in the area of effect.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3398</ID>
       <DefaultText>&lt;line-height=100%&gt;Calls down a shaft of intense sunlight, &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;burning&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; and potentially &lt;link="glossary://GlossaryEntry_Blinded"&gt;&lt;#ca58ff&gt;Blinding&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; those caught in the area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
@@ -159,8 +164,18 @@ This crude spear is decorated with feathers and beads.&lt;/line-height&gt;</Defa
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3405</ID>
+      <DefaultText>&lt;line-height=100%&gt;Isolates a single target within a protective sphere, shielding them from harm while their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; regenerates.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3407</ID>
       <DefaultText>&lt;line-height=100%&gt;Creates a ball of energy in the reader's hand that can be thrown at an enemy, causing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;Freeze&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;Corrode&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, or &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;Shock&lt;/b&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt; damage to anyone caught in the area of effect. Blights are continually replenished until the spell ends.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3408</ID>
+      <DefaultText>&lt;line-height=100%&gt;Restores a moderate amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; to all allies in the area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -194,6 +209,11 @@ This crude spear is decorated with feathers and beads.&lt;/line-height&gt;</Defa
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3416</ID>
+      <DefaultText>&lt;line-height=100%&gt;Channels lunar energy into a localized source of power, regenerating the &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; of allies in the area of effect and granting a minor bonus to all Defenses.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3418</ID>
       <DefaultText>&lt;line-height=100%&gt;Conjures an intensely luminous beacon of light, causing enemies in the area of effect to take a penalty to all defenses and accrue &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage over time.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
@@ -204,8 +224,18 @@ This crude spear is decorated with feathers and beads.&lt;/line-height&gt;</Defa
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3421</ID>
+      <DefaultText>&lt;line-height=100%&gt;Restores a significant amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; to all allies in the area of effect.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3422</ID>
       <DefaultText>&lt;line-height=100%&gt;Summons an enormous infestation of venomous insects, dealing &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;Raw&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; damage over time, reducing Concentration and &lt;link="glossary://GlossaryEntry_Sickened"&gt;&lt;#f7b733&gt;Sickening&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; anyone in the area of effect.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3423</ID>
+      <DefaultText>&lt;line-height=100%&gt;Grants fallen friends a second chance, reviving unconscious allies in the area of effect and restoring a small amount of their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -221,6 +251,11 @@ This crude spear is decorated with feathers and beads.&lt;/line-height&gt;</Defa
     <Entry>
       <ID>3429</ID>
       <DefaultText>&lt;line-height=100%&gt;The reader hurls a ball of holy fire at the enemy that purges its protections and speeds its doom. Does continuous &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage for five seconds and accelerates the timer for all beneficial effects on the target (except heals), as well as those of any continuous damage effects. Leaps to up to two additional nearby enemies.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3430</ID>
+      <DefaultText>&lt;line-height=100%&gt;Restores an abundant amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; to all allies in the area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -249,6 +284,11 @@ This crude spear is decorated with feathers and beads.&lt;/line-height&gt;</Defa
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3638</ID>
+      <DefaultText>&lt;line-height=100%&gt;While Frau Nils is following you around, you are more &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Accurate&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; with melee attacks and your party receives bonus &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3639</ID>
       <DefaultText>&lt;line-height=100%&gt;While Ginger Demon is following you around, you receive a bonus to Perception and your party gains bonus &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;Reflex&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
@@ -264,8 +304,23 @@ This crude spear is decorated with feathers and beads.&lt;/line-height&gt;</Defa
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3645</ID>
+      <DefaultText>&lt;line-height=100%&gt;While Prissy is following you around, you are more effective with healing spells and potions and your party members regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3646</ID>
+      <DefaultText>&lt;line-height=100%&gt;While Twix is following you around, you gain a bonus to your Max &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; and your party members will regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3647</ID>
+      <DefaultText>&lt;line-height=100%&gt;While Abraham is following you around, your recovery penalty from armor is reduced and your party members will regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3648</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Algol is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and party members regain some Health when they kill an enemy.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Algol is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and party members regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -276,6 +331,11 @@ This crude spear is decorated with feathers and beads.&lt;/line-height&gt;</Defa
     <Entry>
       <ID>3650</ID>
       <DefaultText>&lt;line-height=100%&gt;While Chilli is following you around you receive a bonus to Resolve and your party gains a bonus to &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;Will&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3652</ID>
+      <DefaultText>&lt;line-height=100%&gt;While Freya is following you around you receive a bonus to Intellect and your party members regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -294,6 +354,11 @@ This crude spear is decorated with feathers and beads.&lt;/line-height&gt;</Defa
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3656</ID>
+      <DefaultText>&lt;line-height=100%&gt;While Mercedes is following you around you receive a bonus to Max &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; and your party receives a bonus to melee weapon damage.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3658</ID>
       <DefaultText>&lt;line-height=100%&gt;While Nikki is following you around enemy attacks against you are more likely to Graze, and your party receives a bonus to melee &lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;b&gt;Weapon Accuracy&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
@@ -301,6 +366,11 @@ This crude spear is decorated with feathers and beads.&lt;/line-height&gt;</Defa
     <Entry>
       <ID>3659</ID>
       <DefaultText>&lt;line-height=100%&gt;While Pancake is following you around you receive a bonus to Might and your party has enhanced resistance to &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;Burn&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; damage.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3661</ID>
+      <DefaultText>&lt;line-height=100%&gt;While Toby is following you around you receive a bonus to Perception and your party gains a bonus to Max &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -334,6 +404,11 @@ This crude spear is decorated with feathers and beads.&lt;/line-height&gt;</Defa
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4406</ID>
+      <DefaultText>&lt;line-height=100%&gt;While Deus is following you around you receive a bonus to Constitution and your party members regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4410</ID>
       <DefaultText>&lt;line-height=100%&gt;While Rare Dan is following you around, enemy attacks against you will Graze more frequently and your party receives a bonus to &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;Fortitude&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
@@ -360,7 +435,7 @@ This crude spear is decorated with feathers and beads.&lt;/line-height&gt;</Defa
     </Entry>
     <Entry>
       <ID>4647</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Socrates is following you around you regain some Health when you deal the killing blow against an enemy and your party has increased &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; against melee attacks.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Socrates is following you around you regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;b&gt;Health&lt;/b&gt;&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when you deal the killing blow against an enemy and your party has increased &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; against melee attacks.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

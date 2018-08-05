@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\cyclopedia</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>889</EntryCount>
+  <EntryCount>890</EntryCount>
   <Entries>
     <Entry>
       <ID>84</ID>
@@ -34,31 +34,31 @@ When an attack is made, the Accuracy is compared to a corresponding defense (Def
     </Entry>
     <Entry>
       <ID>94</ID>
-      <DefaultText>Perception Affliction
+      <DefaultText>
 Blinded characters suffer -5 Perception, are considered Flanked, +50% Recovery, -10 Accuracy, and the distance of all ranged attacks is halved. Blinded characters cannot use or be affected by Gaze attacks.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>96</ID>
-      <DefaultText>Intellect Affliction
+      <DefaultText>
 A Charmed character fights for their former enemies, but will only use basic attacks, no abilities. -5 Intellect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>98</ID>
-      <DefaultText>Intellect Affliction
+      <DefaultText>
 Confused characters are -5 Intellect and all of their abilities and attacks are friend or foe.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>100</ID>
-      <DefaultText>Might Affliction
+      <DefaultText>
 A victim of Dazed has -5 Might, cannot Engage, and suffers -4 Penetration.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>102</ID>
-      <DefaultText>Intellect Affliction
+      <DefaultText>
 A Dominated target is subservient to the will of the enemy and will use everything at its disposal to fight its former teammates. -5 Intellect.</DefaultText>
       <FemaleText />
     </Entry>
@@ -69,19 +69,19 @@ A Dominated target is subservient to the will of the enemy and will use everythi
     </Entry>
     <Entry>
       <ID>106</ID>
-      <DefaultText>Resolve Affliction
+      <DefaultText>
 A Frightened character has -5 Resolve, -3 Power Level, and cannot use hostile spells or abilities.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>108</ID>
-      <DefaultText>Dexterity Affliction
+      <DefaultText>
 Hobbled characters have -5 Dexterity and reduced Stride.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>110</ID>
-      <DefaultText>Dexterity Affliction
+      <DefaultText>
 A Paralyzed target can't take any action. They have -5 Dexterity and 25% of all Hits against them convert to Crits.</DefaultText>
       <FemaleText />
     </Entry>
@@ -92,31 +92,31 @@ A Paralyzed target can't take any action. They have -5 Dexterity and 25% of all 
     </Entry>
     <Entry>
       <ID>116</ID>
-      <DefaultText>Constitution Affliction
+      <DefaultText>
 A Sickened character has -5 to Constitution and all incoming healing is reduced by 25%.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>118</ID>
-      <DefaultText>Dexterity Affliction
+      <DefaultText>
 Immobilized characters can't move and have -5 Dexterity.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>120</ID>
-      <DefaultText>Might Affliction
+      <DefaultText>
 Stunned characters can't take any action, cannot Engage, have a penalty to all defenses, -4 Penetration, and -5 Might.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>122</ID>
-      <DefaultText>Resolve Affliction
+      <DefaultText>
 A character who is Terrified is at -5 Resolve, -3 Power Level, and can take no action other than to flee.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>124</ID>
-      <DefaultText>Constitution Affliction
+      <DefaultText>
 Weakened characters are at -5 Con and all incoming healing is reduced by half.</DefaultText>
       <FemaleText />
     </Entry>
@@ -206,7 +206,9 @@ Note that many suits of armor and many creatures will grant different Armor Rati
       <ID>162</ID>
       <DefaultText>Health represents a character's short-term survivability.
 
-Damage that is not reduced by a character's Armor Rating goes straight to their Health. Potions and healing magic (such as from a paladin, priest, or druid) can restore Health in combat. When a character's Health reaches 0, he or she will be Knocked Out. A Knocked Out character can be brought back in combat through the use of a Revive ability. Otherwise, characters will regain all of their Health at the end of combat (assuming they're on the winning side).</DefaultText>
+Damage that is not reduced by a character's Armor Rating goes straight to their Health. Potions and healing magic (such as from a paladin, priest, or druid) can restore Health in combat. 
+
+When a character's Health reaches 0, he or she will be Knocked Out. A Knocked Out character can be brought back in combat through the use of a Revive ability. Otherwise, characters will regain all of their Health at the end of combat (assuming they're on the winning side).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -253,7 +255,7 @@ E.g., if a wizard spell grants +3 to Deflection and a paladin's aura grants +5, 
     </Entry>
     <Entry>
       <ID>322</ID>
-      <DefaultText>Perception Affliction
+      <DefaultText>
 A Distracted character has -5 Perception and is considered Flanked.</DefaultText>
       <FemaleText />
     </Entry>
@@ -291,7 +293,7 @@ Fiercely independent, they thrive in the underbrush where their dark coats provi
     </Entry>
     <Entry>
       <ID>533</ID>
-      <DefaultText>Resolve Affliction
+      <DefaultText>
 A Shaken character suffers -5 Resolve and -3 Power Level.</DefaultText>
       <FemaleText />
     </Entry>
@@ -301,20 +303,25 @@ A Shaken character suffers -5 Resolve and -3 Power Level.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>609</ID>
+      <DefaultText>A conscious character that is at or below 25% Health is considered "Near Death".</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>679</ID>
-      <DefaultText>Constitution Affliction
+      <DefaultText>
 Enfeebled characters are at -5 Con, cannot be healed, and all hostile effects applied to them last 50% longer.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>681</ID>
-      <DefaultText>Perception Affliction
+      <DefaultText>
 Disoriented characters have -5 Perception, are considered Flanked, and have +50% Recovery after their actions.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>683</ID>
-      <DefaultText>Might Affliction
+      <DefaultText>
 Staggered characters have -5 Might and cannot engage enemies.</DefaultText>
       <FemaleText />
     </Entry>
@@ -521,6 +528,26 @@ Courageous characters have +5 Resolve and are immune to Interrupt.</DefaultText>
     <Entry>
       <ID>806</ID>
       <DefaultText>The ship maintains its current position and receives an Accuracy bonus for the following turn.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>883</ID>
+      <DefaultText>A character that is between 50% Health and 25% Health is considered "Bloodied".</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>885</ID>
+      <DefaultText>A character that is between 75% Health and 50% Health is considered "Hurt".</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>887</ID>
+      <DefaultText>A character that is below 100% Health and above 75% Health is considered "Healthy".</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>889</ID>
+      <DefaultText>A character that is at 100% Health is considered "Unharmed".</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

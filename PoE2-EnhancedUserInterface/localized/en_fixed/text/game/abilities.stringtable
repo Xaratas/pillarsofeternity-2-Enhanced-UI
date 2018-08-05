@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3321</EntryCount>
+  <EntryCount>3325</EntryCount>
   <Entries>
     <Entry>
       <ID>237</ID>
@@ -22,6 +22,16 @@
     <Entry>
       <ID>240</ID>
       <DefaultText>Commands a single enemy to halt, Immobilizing them, temporarily ceasing all their movement.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>242</ID>
+      <DefaultText>Isolates a single target within a protective sphere, shielding them from harm while their Health regenerates.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>243</ID>
+      <DefaultText>Creates a long-lasting circle of healing, regenerating ally Health.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -185,6 +195,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>296</ID>
+      <DefaultText>Charged by the rush of battle, the fighter will continually regenerate Health at a modest rate.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>300</ID>
       <DefaultText>The fighter lunges through the battle, pulling an enemy into immediate melee range, causing Crush damage, and leaving them Dazed.</DefaultText>
       <FemaleText />
@@ -230,6 +245,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>322</ID>
+      <DefaultText>Fueled solely by belief, the paladin is able to heal with the touch of their hands, recovering a substantial amount of Health for the paladin or an ally within range.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>325</ID>
       <DefaultText>Commands an ally to redouble their efforts, improving their Deflection and granting them the Fit Inspiration.</DefaultText>
       <FemaleText />
@@ -257,6 +277,16 @@
     <Entry>
       <ID>358</ID>
       <DefaultText>The druid's knowledge of the forces of nature allows them to automatically inflict additional Shock damage when spiritshifted.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>378</ID>
+      <DefaultText>The fighter draws strength from their own indomitable spirit, causing them to regenerate a portion of the Health lost from each attack.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>381</ID>
+      <DefaultText>The fighter refuses to be vanquished. After being knocked out, the fighter stands back up with a portion of their Health restored and temporary bonuses to all Defenses and Armor Ratings.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -370,6 +400,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>462</ID>
+      <DefaultText>Shares a generous portion of the caster's divine strength, restoring a significant amount of Health to all allies in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>474</ID>
       <DefaultText>Invokes the benediction of the priest's god, imbuing allies in the area of effect with Accuracy and Might bonuses while enemies receive penalties to the same.</DefaultText>
       <FemaleText />
@@ -400,6 +435,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>492</ID>
+      <DefaultText>Grants fallen friends a second chance, reviving unconscious allies in the area of effect and restoring a small amount of their Health.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>496</ID>
       <DefaultText>Conjures a powerful holy shield, granting a Deflection bonus to all allies in the area of effect.</DefaultText>
       <FemaleText />
@@ -412,6 +452,11 @@
     <Entry>
       <ID>500</ID>
       <DefaultText>Crowns allies in the glory of the priest's god, imbuing all allies in the area of effect with the Insightful, Smart, and Steadfast Inspirations.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>502</ID>
+      <DefaultText>Calls upon the aid of the priest's god, restoring Health and reducing durations of negative effects for all allies in the area of effect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -482,6 +527,11 @@
     <Entry>
       <ID>543</ID>
       <DefaultText>Conjures a rolling wave of water that plows through everything in its path, causing Crush damage and the Stun affliction.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>547</ID>
+      <DefaultText>Creates a rolling cloud of purification, healing the Health of allies and pushing back enemies.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -616,7 +666,7 @@
     </Entry>
     <Entry>
       <ID>646</ID>
-      <DefaultText>Tears at the lifeforce of all enemies in the area of effect, dealing Raw Damage. If at least one enemy is affected, the chanter will restore some health as well.</DefaultText>
+      <DefaultText>Tears at the lifeforce of all enemies in the area of effect, dealing Raw Damage. If at least one enemy is affected, the chanter will restore some Health as well.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -710,6 +760,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>814</ID>
+      <DefaultText>Revives allies in the area of effect with a small amount of Health.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>817</ID>
       <DefaultText>Causes enemies in the area of effect to glow with pale green light, making them easier targets. Affected enemies suffer decreased Deflection and Reflex.</DefaultText>
       <FemaleText />
@@ -775,6 +830,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>834</ID>
+      <DefaultText>Channels lunar energy into a localized source of power, regenerating the Health of allies in the area of effect and granting a minor bonus to all Defenses.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>835</ID>
       <DefaultText>Brings a deadly storm into being, striking enemies frequently in the area of effect with lightning bolts that Stun and deal Shock damage.</DefaultText>
       <FemaleText />
@@ -792,6 +852,11 @@
     <Entry>
       <ID>839</ID>
       <DefaultText>Grows a beautiful but panic-inducing field of poisonous flowers that Frighten, Weaken and deal Raw Damage over time to those in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>843</ID>
+      <DefaultText>Creates a glowing quarterstaff in the wizard's hands, imbued with negative energy. Each successful strike with the staff siphons Health for the wizard. </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -851,7 +916,7 @@
     </Entry>
     <Entry>
       <ID>863</ID>
-      <DefaultText>(Berserker) - Grants Tenacious and Hardy Inspirations, instead of Fit and Strong. Hit to Crit on melee attacks and carnage is greatly increased while frenzied. However, the barbarian is confused, cannot see their health, and takes continuous Raw damage while frenzied.</DefaultText>
+      <DefaultText>(Berserker) - Grants Tenacious and Hardy Inspirations, instead of Fit and Strong. Hit to Crit on melee attacks and carnage is greatly increased while frenzied. However, the barbarian is confused, cannot see their Health, and takes continuous Raw damage while frenzied.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -870,8 +935,18 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>877</ID>
+      <DefaultText>Invokes a primal energy, causing allies within range to benefit from constant Health regeneration while the chanter is chanting.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>878</ID>
       <DefaultText>Draws upon the druid's natural connection to the bear, temporarily allowing them to assume that form. The bear spiritshift can engage targets, has a high Armor Rating, and can invoke a terrifying roar.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>879</ID>
+      <DefaultText>Draws upon the druid's natural connection to the boar, temporarily allowing them to assume that form. The boar spiritshift can engage targets, regenerates Health, and inflicts Raw damage over time with its melee attacks.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -940,6 +1015,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>918</ID>
+      <DefaultText>The rogue looks to finish off an injured opponent with a precise, deadly strike that increases in damage the more Health the target is missing.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>922</ID>
       <DefaultText>The rogue attacks their enemy's ability to move around effectively, Hobbling any enemy successfully hit.</DefaultText>
       <FemaleText />
@@ -992,6 +1072,16 @@
     <Entry>
       <ID>1017</ID>
       <DefaultText>Bear companions have an unusually high Armor Rating, giving them superior protection from most forms of damage.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1018</ID>
+      <DefaultText>Boar companions slowly regenerate Health, even during combat.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1020</ID>
+      <DefaultText>All boar animal companions regenerate Health at a slow rate, even in combat.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1145,6 +1235,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1385</ID>
+      <DefaultText>Prevents a severely injured character's Health from reaching 0 for a brief moment.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1391</ID>
       <DefaultText>A trio of stone claws erupt from the ground, turning flesh to stone, Paralyzing and inflicting Slash damage on everyone caught in the area.</DefaultText>
       <FemaleText />
@@ -1171,7 +1266,7 @@
     </Entry>
     <Entry>
       <ID>1468</ID>
-      <DefaultText>The paladin focuses their faith and self-immolates in blue flame. Each time the spell pulses, enemies in the immediate area take Burn damage, while the paladin will receive a portion of their total health in Raw Damage. (This damage can kill the paladin)</DefaultText>
+      <DefaultText>The paladin focuses their faith and self-immolates in blue flame. Each time the spell pulses, enemies in the immediate area take Burn damage, while the paladin will receive a portion of their total Health in Raw Damage. (This damage can kill the paladin)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1182,6 +1277,11 @@
     <Entry>
       <ID>1472</ID>
       <DefaultText>A terrible rain of fire falls in the area of effect, repeatedly inflicting Burn damage on all in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1474</ID>
+      <DefaultText>The ranger's animal companion falls over and appears to be dead for a limited time. When the companion stands back up, they regain Health from the time spent resting.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1337,6 +1437,11 @@
     <Entry>
       <ID>1760</ID>
       <DefaultText>When a ranger or their animal companion are knocked out, the partner suffers the normal effects of Bonded grief, but becomes filled with focused rage for a short duration. While affected, they gain the Nimble and Tenacious inspirations.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1761</ID>
+      <DefaultText>The ranger can revive their animal companion and restore a small amount of Health.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1564,7 +1669,7 @@ One-Handed: Raw Damage over time</DefaultText>
     </Entry>
     <Entry>
       <ID>2074</ID>
-      <DefaultText>(Wrath of the Five Suns) - Five searing projectiles shoot forth from the paladin's hand towards the focus of their righteous fury.</DefaultText>
+      <DefaultText>(Wrath of the Five Suns) - Five searing projectiles shoot forth from the paladin's hand towards the focus of their righteous fury, dealing Burn damage to the target.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1707,6 +1812,30 @@ Automatically learn the following druid spells at new power levels:
 
 Penalty
 Cannot cast Rejuvenation spells.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2257</ID>
+      <DefaultText>Bonus
+Druid can switch to any of the spiritshifting animals, once each, per combat.
+
+Spiritshift has a longer duration.
+
+After a spiritshift ends, the druid is healed a portion of their Health.
+
+Automatically learn the following druid spells at new power levels:
+1. Nature's Mark
+2. Insect Swarm
+3. Infestation of Maggots
+4. Form of the Delemgan
+5. Nature's Terror
+6. Garden of Life
+7. Rusted Armor
+8. Entropy
+9. Pollen Patch
+
+Penalty
+Cannot cast spells while in animal form.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1854,6 +1983,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2407</ID>
+      <DefaultText>When a barbarian is reduced to 0 Health and has melee weapons equipped, he or she immediately makes instant Full Attacks at everyone in range. (These attacks trigger Carnage)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2409</ID>
       <DefaultText>(Dragon Leap) - Adds a Burn damage area of effect on the impact of Leap.</DefaultText>
       <FemaleText />
@@ -1956,6 +2090,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>2511</ID>
       <DefaultText>(Rebirthing Exhortation) - Strong Inspiration upgraded to Tenacious.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2515</ID>
+      <DefaultText>(Sacred Sacrifice) - If the paladin is defeated during the immolation, they revive with full Health shortly afterwards.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2074,6 +2213,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2636</ID>
+      <DefaultText>Affected allies gain a portion of the damage they deal as Health.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2639</ID>
       <DefaultText>Cipher spell effects that target the enemies' Will gain bonus Accuracy.</DefaultText>
       <FemaleText />
@@ -2099,6 +2243,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2659</ID>
+      <DefaultText>Allies receive more Health from healing effects.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2661</ID>
       <DefaultText>The cipher targets a spirit or vessel and tears at the coalesced soul energy inside of them, causing them and any immediate spirit or vessels to emit a deafening scream that Distracts and deals Raw Damage to those nearby.</DefaultText>
       <FemaleText />
@@ -2121,6 +2270,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>2672</ID>
       <DefaultText>(Unbending Shield) - The fighter and their allies now also gain the Resolute Inspiration.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2673</ID>
+      <DefaultText>(Unbending Trunk) - The fighter now recovers more Health from each attack received.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2286,6 +2440,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>2813</ID>
       <DefaultText>Creates a sphere of divine darkness that causes the Blind affliction to anyone who is inside, or moves into the area.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2815</ID>
+      <DefaultText>A major intercession of the deity, Eothas. Its light restores Health to all allies in the area and shortens the duration of various negative effects by a large amount.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2494,6 +2653,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3386</ID>
+      <DefaultText>Channels the merciful sacrifice of Saint Omaku. Aura increases nearby allies' Action Speed. Bonus increases as the wielder loses Health.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3395</ID>
       <DefaultText>Strike out at all nearby enemies, dealing Pierce/Slash Damage and Frightening them.</DefaultText>
       <FemaleText />
@@ -2554,6 +2718,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3533</ID>
+      <DefaultText>When the wearer falls from Unharmed to Healthy, nearby enemies receive 75% less Healing.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3547</ID>
       <DefaultText>The bullet draws electricity from the air as it travels to its target. Deals Shock Damage to anyone near the target.</DefaultText>
       <FemaleText />
@@ -2561,6 +2730,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>3549</ID>
       <DefaultText>Fires a blast of charged shot into an area, pulsing Shock Damage at anyone caught in the impact area.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3555</ID>
+      <DefaultText>Grants Health over time and reduces incoming Damage when the wearer is Near Death.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2584,6 +2758,16 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3636</ID>
+      <DefaultText>(Rapid Recovery) - Increases the amount of Health regenerated.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3664</ID>
+      <DefaultText>The wearer transforms into a stationary pillar of steel, reducing incoming Damage and restoring Health.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3689</ID>
       <DefaultText>Launches a cone attack that can knock back and Stun targets in the area of effect.</DefaultText>
       <FemaleText />
@@ -2596,6 +2780,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>3697</ID>
       <DefaultText>Passive Ability. First melee attack from stealth inflicts a long-duration Raw Damage over time on Hit.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3699</ID>
+      <DefaultText>Focusing the divine energies of the gloves, the wearer heals an ally or themselves with a touch of their hands, restoring a small amount of Health.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2706,6 +2895,16 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3867</ID>
+      <DefaultText>Through extreme physical conditioning, the user can redouble their efforts and call upon a surge of Health to remain in battle longer. This ability requires Athletics and recovers Health based on the user's Athletics skill.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3875</ID>
+      <DefaultText>While Frau Nils is following you around, you are more Accurate with melee attacks and your party receives bonus Health.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3877</ID>
       <DefaultText>While Ginger Demon is following you around, you receive a bonus to Perception and your party gains bonus Reflex.</DefaultText>
       <FemaleText />
@@ -2718,6 +2917,21 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>3885</ID>
       <DefaultText>While Lil' Babs is following you around, you receive a bonus to Dexterity and your party gains bonus Deflection against enemy weapon attacks.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3893</ID>
+      <DefaultText>While Prissy is following you around, you are more effective with healing spells and potions and your party members regain some Health when they kill an enemy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3895</ID>
+      <DefaultText>While Twix is following you around, you gain a bonus to your Max Health and your party members will regain some Health when they kill an enemy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3897</ID>
+      <DefaultText>While Abraham is following you around, your recovery penalty from armor is reduced and your party members will regain some Health when they kill an enemy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2736,6 +2950,16 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3905</ID>
+      <DefaultText>While Deus is following you around you receive a bonus to Constitution and your party members regain some Health when they kill an enemy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3909</ID>
+      <DefaultText>While Freya is following you around you receive a bonus to Intellect and your party members regain some Health when they kill an enemy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3911</ID>
       <DefaultText>While Gizmo is following you around you move faster in combat and your party receives a bonus to Reflex.</DefaultText>
       <FemaleText />
@@ -2751,6 +2975,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3917</ID>
+      <DefaultText>While Mercedes is following you around you receive a bonus to Max Health and your party receives a bonus to melee weapon damage.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3921</ID>
       <DefaultText>While Nikki is following you around enemy attacks against you are more likely to Graze, and your party receives a bonus to melee weapon Accuracy.</DefaultText>
       <FemaleText />
@@ -2758,6 +2987,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>3923</ID>
       <DefaultText>While Pancake is following you around you receive a bonus to Might and your party has enhanced resistance to Burn damage.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3929</ID>
+      <DefaultText>While Toby is following you around you receive a bonus to Perception and your party gains a bonus to Max Health.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2798,6 +3032,16 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>3993</ID>
       <DefaultText>Aura that lowers enemy Fortitude, Reflex, and Will. The penalty increases with the wielder's Survival skill.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4063</ID>
+      <DefaultText>The priest looks to finish off an injured opponent with a precise, deadly strike that increases in damage the more Health the target is missing.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4088</ID>
+      <DefaultText>Creates an aura that slowly restores the Health of nearby allies, based on their remaining Health. (Full healing is granted to those nearest to death)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2877,7 +3121,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4155</ID>
-      <DefaultText>Aura that inflicts Raw Damage over time to nearby enemies, based on their remaining health. (Full Damage is dealt to those nearest to death)</DefaultText>
+      <DefaultText>Aura that inflicts Raw Damage over time to nearby enemies, based on their remaining Health. (Full Damage is dealt to those nearest to death)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2893,6 +3137,16 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>4166</ID>
       <DefaultText>Grants a Will bonus.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4268</ID>
+      <DefaultText>Distraho's pommel gem shares from its store of essence. Restores a small amount of Health to the wielder.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4270</ID>
+      <DefaultText>Distraho's pommel gem pulses with life-giving essence. Restores a small amount of Health to the wielder and nearby allies.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2978,6 +3232,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>4324</ID>
       <DefaultText>Stealth attacks cause the target to bleed for Raw Damage until combat ends.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4329</ID>
+      <DefaultText>Applies minor Health over time when the wielder falls Near Death.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3101,6 +3360,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4434</ID>
+      <DefaultText>Increases the base maximum Health that you gain with each level.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4442</ID>
       <DefaultText>Empowered attacks gain increased Accuracy.</DefaultText>
       <FemaleText />
@@ -3141,6 +3405,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4516</ID>
+      <DefaultText>Using meditation techniques, sooth an injured allies' pain, restoring their Health over time and suspending any hostile effects. (May only be used on Injured characters) </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4558</ID>
       <DefaultText>Effort purges fear of imminent death from the wielder. Grants immunity to Resolve Afflictions when Near Death.</DefaultText>
       <FemaleText />
@@ -3166,6 +3435,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4571</ID>
+      <DefaultText>Causes nearby allies to recover Health over time.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4578</ID>
       <DefaultText>While engaged by anyone, gain Damage and Deflection bonuses.</DefaultText>
       <FemaleText />
@@ -3188,6 +3462,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>4634</ID>
       <DefaultText>Gather your thoughts and channel your strength into a state of pure focused discipline, granting all first tier Inspirations for a short time. (Strong, Fit, Quick, Insightful, Smart, and Steadfast)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4636</ID>
+      <DefaultText>You shall not bow. Constantly restores Health while the wielder is Bloodied or Near Death.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3268,6 +3547,16 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>4781</ID>
       <DefaultText>(Greater Fire Shield) - The wielder gains increased Freeze Damage Reduction and the retaliation attack deals additional damage.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4864</ID>
+      <DefaultText>Unleash a burst of chaotic energy that seeps into the weaknesses in an enemy's defenses and alters them in unexpected ways, manifesting through powerful afflictions.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4866</ID>
+      <DefaultText>Imbues the caster with the ferocity of a dragon, causing their melee attacks to deal additional Slash and Burn damage. While active, enemies that attack the caster with melee weapons must resist their fears or be Terrified.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
