@@ -31,7 +31,7 @@
     </Entry>
     <Entry>
       <ID>243</ID>
-      <DefaultText>Erzeugt einen lang andauernden Heilungskreis, in dem Verbündete &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; regenerieren.</DefaultText>
+      <DefaultText>Erzeugt einen lang andauernden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Heilung&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt;skreis, in dem Verbündete &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; regenerieren.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -47,6 +47,11 @@
     <Entry>
       <ID>246</ID>
       <DefaultText>Erzeugt eine langsame, energetische Projektion des Glaubens des Priesters, durch die alle Verbündeten &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; regenerieren und alle Feinde &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frostschaden&lt;/link&gt;&lt;/nobr&gt; erleiden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>251</ID>
+      <DefaultText>Quälender Zweifel am unerschütterlichen Glauben überfällt Feinde im Wirkungsbereich, verringert ihre &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; für Nahkampfangriffe und verwandelt ihre kritischen Treffer zu Treffern.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -125,6 +130,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>274</ID>
+      <DefaultText>Der Wirker wird zu einem lebenden Generator für einen mächtigen Elektrizitätsbolzen, der in einer geraden Linie herausschießt, von Wänden abprallt und allem in seinem Weg &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;space=0.7em&gt;Schockschaden&lt;/link&gt;&lt;/nobr&gt; zufügt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>275</ID>
       <DefaultText>Deckt für alle sichtbar die Schwachstellen des Feindes im Kampf auf, unterbricht diesen und verringert dessen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
@@ -162,6 +172,11 @@
     <Entry>
       <ID>286</ID>
       <DefaultText>Verwandelt die äußere Hülle eines verbündeten Ziels vorübergehend in Energie und sondert einen Stromumschlag um sie herum ab. Gegner, die um das Ziel herumstehen, erleiden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;space=0.7em&gt;Schockschaden&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>287</ID>
+      <DefaultText>Visiert die Essenz des Ziels an und erzeugt eine für &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/link&gt;&lt;/nobr&gt; geformte Klinge, die es angreift, bevor sie auf weitere Ziele überspringt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -226,7 +241,7 @@
     </Entry>
     <Entry>
       <ID>320</ID>
-      <DefaultText>Beschwört das innere Feuer des Paladins herauf. Seine ausgerüsteten Waffen gehen in Flammen auf und fügen seinem nächsten Angriff &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; hinzu.</DefaultText>
+      <DefaultText>Beschwört das innere &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuer&lt;/link&gt;&lt;/nobr&gt; des Paladins herauf. Seine ausgerüsteten Waffen gehen in Flammen auf und fügen seinem nächsten Angriff &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; hinzu.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -431,7 +446,7 @@
     </Entry>
     <Entry>
       <ID>498</ID>
-      <DefaultText>Der Priester schleudert eine Kugel aus heiligem Feuer auf den Feind, die seinen Schutz aufhebt und seinen Untergang beschleunigt. Fügt kontinuierlich &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; zu und beschleunigt die Zähler aller zuträglichen Effekte sowie aller kontinuierlichen Schadenseffekte auf dem Ziel und springt dann weitere Ziele in der Nähe über.</DefaultText>
+      <DefaultText>Der Priester schleudert eine Kugel aus heiligem &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuer&lt;/link&gt;&lt;/nobr&gt; auf den Feind, die seinen Schutz aufhebt und seinen Untergang beschleunigt. Fügt kontinuierlich &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; zu und beschleunigt die Zähler aller zuträglichen Effekte sowie aller kontinuierlichen Schadenseffekte auf dem Ziel und springt dann weitere Ziele in der Nähe über.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -710,6 +725,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>807</ID>
+      <DefaultText>Verbündete im Wirkungsbereich erhalten eine Resistenz gegen &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Gewandtheits-&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; und &lt;link="glossary://GlossaryEntry_Afflictions_Might"&gt;&lt;#ff4800&gt;Machtwirkungen&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>808</ID>
       <DefaultText>Ruft mächtige Krallen herbei, die Feinden im Wirkungsbereich &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brand&lt;/link&gt;&lt;/nobr&gt;- oder &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/link&gt;&lt;/nobr&gt; zufügen.</DefaultText>
       <FemaleText />
@@ -722,6 +742,11 @@
     <Entry>
       <ID>810</ID>
       <DefaultText>Ermutigt Verbündete im Wirkungsbereich, wodurch diese einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Tapferkeit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Willen&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; erhalten.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>811</ID>
+      <DefaultText>Greift Feinde in sieben Richtungen um den Sänger mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Eislanzen&lt;/link&gt;&lt;/nobr&gt; an.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -771,7 +796,7 @@
     </Entry>
     <Entry>
       <ID>824</ID>
-      <DefaultText>Formt ein mächtiges Schwert mit einer Klinge aus reinem Feuer in den Händen des Zauberwirkers, dessen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; nicht abgewehrt werden kann. Durch den Wechsel zu einer anderen Waffe endet der Zauber.</DefaultText>
+      <DefaultText>Formt ein mächtiges Schwert mit einer Klinge aus reinem &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuer&lt;/link&gt;&lt;/nobr&gt; in den Händen des Zauberwirkers, dessen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; nicht abgewehrt werden kann. Durch den Wechsel zu einer anderen Waffe endet der Zauber.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -841,7 +866,7 @@
     </Entry>
     <Entry>
       <ID>847</ID>
-      <DefaultText>Hüllt den Zauberwirker in Feuer, erhöht seinen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; gegen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frostschaden&lt;/link&gt;&lt;/nobr&gt; und fügt jedem, der ihn im Nahkampf verletzt, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; zu.</DefaultText>
+      <DefaultText>Hüllt den Zauberwirker in &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuer&lt;/link&gt;&lt;/nobr&gt;, erhöht seinen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; gegen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frostschaden&lt;/link&gt;&lt;/nobr&gt; und fügt jedem, der ihn im Nahkampf verletzt, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; zu.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -935,6 +960,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>885</ID>
+      <DefaultText>Ein Schlag auf den Kopf, der die Reaktionsfähigkeit des Feindes beeinträchtigt und ihn &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Betäubt&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>886</ID>
       <DefaultText>Die Hände des Mönchs entfachen einen Wirbelwind von Angriffen. Seine Aktionsgeschwindigkeit wird kurzfristig erhöht und er erhält die Inspiration &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Schnell&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
@@ -975,6 +1005,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>913</ID>
+      <DefaultText>Beschwört Wurzeln aus dem Boden unterhalb des Ziels herauf, wodurch es &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Immobilized"&gt;&lt;#72da26&gt;Bewegungsunfähig&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; wird.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>916</ID>
       <DefaultText>Ruft den tierischen Gefährten des Waldläufers an seine Seite, wodurch der Gefährte die Inspiration &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Nimble"&gt;&lt;#72da26&gt;Flink&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; erhält und mit erhöhter Geschwindigkeit zum Waldläufer zurückkehrt.</DefaultText>
       <FemaleText />
@@ -997,6 +1032,11 @@
     <Entry>
       <ID>925</ID>
       <DefaultText>(Aushöhlender Schlag) – Fügt Feinden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;space=0.7em&gt;direkten Schaden&lt;/link&gt;&lt;/nobr&gt; über Zeit zu bis der Kampf endet.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>926</ID>
+      <DefaultText>Der Schurke ist besonders geschickt darin, Angriffen auszuweichen, und verwandelt fast alle auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflexe&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; abziehlende leichten Treffer in Fehlschläge.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1135,8 +1175,13 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1306</ID>
+      <DefaultText>Wilde Orlaner haben von Natur aus einen robusten Geist und erhalten eine Resistenz gegen &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Entschlossenheitswirkungen&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1307</ID>
-      <DefaultText>Wenn Feuer-Gottähnliche Schwer verletzt oder Dem Tode nahe sind, härten sich ihre Körper und ihr &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; erhöht sich. Ihre Seelen wehren sich außerdem gegen die Angreifer und fügen allen, die sie im Nahkampf treffen, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; zu.</DefaultText>
+      <DefaultText>Wenn &lt;xg&gt;Feuer&lt;/xg&gt;-Gottähnliche Schwer verletzt oder Dem Tode nahe sind, härten sich ihre Körper und ihr &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; erhöht sich. Ihre Seelen wehren sich außerdem gegen die Angreifer und fügen allen, die sie im Nahkampf treffen, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; zu.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1260,6 +1305,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1543</ID>
+      <DefaultText>Der Zauberwirker beschwört einen gewaltigen elektrischen Blitz, der direkt auf ein einzelnes Ziel springt und anschließend auf mehrere Feinde in der Nähe weiterspringt. An jedem Ziel wird &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;space=0.7em&gt;Schockschaden&lt;/link&gt;&lt;/nobr&gt; angerichtet. Andere im Wirkungsbereich erleiden keinen Schaden durch den arkanen Blitz.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1569</ID>
       <DefaultText>Der Dieb führt einen Primärangriff aus, der das Ziel &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Confused"&gt;&lt;#00a4ff&gt;Verwirrt&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Hobbled"&gt;&lt;#72da26&gt;Humpelnd&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zurücklässt.</DefaultText>
       <FemaleText />
@@ -1321,7 +1371,7 @@
     </Entry>
     <Entry>
       <ID>1737</ID>
-      <DefaultText>Der Druide verbindet winzige Naturgeister zur Gestalt eines großen Hirsches aus Feuer. Der Hirsch hat einen dauerhaften Flammenschild. Der Druide kann die im Hirsch enthaltenen Geister heftig auseinanderfliegen lassen, was den Hirsch zerstört, aber Feuer- oder &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/link&gt;&lt;/nobr&gt; bei allen verursacht, die von der Explosion getroffen werden.</DefaultText>
+      <DefaultText>Der Druide verbindet winzige Naturgeister zur Gestalt eines großen Hirsches aus &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuer&lt;/link&gt;&lt;/nobr&gt;. Der Hirsch hat einen dauerhaften Flammenschild. Der Druide kann die im Hirsch enthaltenen Geister heftig auseinanderfliegen lassen, was den Hirsch zerstört, aber &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuer&lt;/link&gt;&lt;/nobr&gt;- oder &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/link&gt;&lt;/nobr&gt; bei allen verursacht, die von der Explosion getroffen werden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1613,6 +1663,11 @@ Einhändig: &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;sprite="I
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2074</ID>
+      <DefaultText>(Zorn der fünf Sonnen) – Fünf siedend heiße Geschosse lösen sich aus der Hand des Paladins und richten &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; am Ziel seiner rechtschaffenen Raserei an.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2076</ID>
       <DefaultText>Lässt eine widerhallende Welle über Verbündete in der Nähe des Ziels rollen, die freundlichen Charakteren die Inspiration &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Resolute"&gt;&lt;#30d3d5&gt;Resolut&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verleiht und Gegnern die Konzentration raubt.</DefaultText>
       <FemaleText />
@@ -1685,6 +1740,11 @@ Einhändig: &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;sprite="I
     <Entry>
       <ID>2157</ID>
       <DefaultText>Feinde in der Nähe des Sängers werden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Weakened"&gt;&lt;#f7b733&gt;Geschwächt&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;. Ihre &lt;xg&gt;Macht&lt;/xg&gt; wird verringert.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2159</ID>
+      <DefaultText>(Die Lichter tanzten über das Moor) – Irrlichter sind stärker als normalerweise und verfügen über einen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Distracted"&gt;&lt;#ca58ff&gt;Ablenkenden&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Angriff.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2399,7 +2459,7 @@ Trotz dieser Vorteile bringt diese Beziehung auch gewisse Risiken mit sich. Wald
     </Entry>
     <Entry>
       <ID>2843</ID>
-      <DefaultText>Die eigene Haut des Ziels frisst sie langsam auf und versetzt ihm in hohem Umfang &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;space=0.7em&gt;Zersetzungsschaden&lt;/link&gt;&lt;/nobr&gt; über einen längeren Zeitraum. Außerdem wird das Ziel &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Weakened"&gt;&lt;#f7b733&gt;Geschwächt&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; und eine Heilung wird verhindert.</DefaultText>
+      <DefaultText>Die eigene Haut des Ziels frisst sie langsam auf und versetzt ihm in hohem Umfang &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;space=0.7em&gt;Zersetzungsschaden&lt;/link&gt;&lt;/nobr&gt; über einen längeren Zeitraum. Außerdem wird das Ziel &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Weakened"&gt;&lt;#f7b733&gt;Geschwächt&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; und eine &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Heilung&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; wird verhindert.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2519,7 +2579,7 @@ Trotz dieser Vorteile bringt diese Beziehung auch gewisse Risiken mit sich. Wald
     </Entry>
     <Entry>
       <ID>3207</ID>
-      <DefaultText>Solange der Flammennāga-Schlüpfling dir folgt, verschafft dir das einen Bonus für Brandrüstung und jeder in deiner Gruppe erhält einen Bonus für die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; bei Feuerangriffen.</DefaultText>
+      <DefaultText>Solange der Flammennāga-Schlüpfling dir folgt, verschafft dir das einen Bonus für Brandrüstung und jeder in deiner Gruppe erhält einen Bonus für die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; bei &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuerangriffen&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2564,7 +2624,7 @@ Trotz dieser Vorteile bringt diese Beziehung auch gewisse Risiken mit sich. Wald
     </Entry>
     <Entry>
       <ID>3337</ID>
-      <DefaultText>Die Haut der Feuer-Gottähnlichen ist auf natürliche Weise widerstandsfähig gegen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <DefaultText>Die Haut der &lt;xg&gt;Feuer&lt;/xg&gt;-Gottähnlichen ist auf natürliche Weise widerstandsfähig gegen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2645,6 +2705,11 @@ Trotz dieser Vorteile bringt diese Beziehung auch gewisse Risiken mit sich. Wald
     <Entry>
       <ID>3523</ID>
       <DefaultText>Bedient sich der Macht des Grabes, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Charmed"&gt;&lt;#00a4ff&gt;Bezaubert&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; alle Gefäße und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Frightened"&gt;&lt;#30d3d5&gt;Verängstigt&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; alle Gestandenen im betroffenen Bereich.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3533</ID>
+      <DefaultText>Wenn der Träger vom Zustand unverletzt aus in den Zustand gesund fällt, erhalten die Feinde in der Nähe 75 % weniger &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Heilung&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2956,7 +3021,7 @@ Trotz dieser Vorteile hat diese Beziehung auch Risiken. Waldläufer sind buchst�
     </Entry>
     <Entry>
       <ID>4088</ID>
-      <DefaultText>Erzeugt eine Aura, die langsam die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; naher Verbündeter in Abhängigkeit von ihrer verbleibenden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; wiederherstellt. (Maximale Heilung an Zielen, die Dem Tode nahe sind.)</DefaultText>
+      <DefaultText>Erzeugt eine Aura, die langsam die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; naher Verbündeter in Abhängigkeit von ihrer verbleibenden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; wiederherstellt. (Maximale &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Heilung&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; an Zielen, die Dem Tode nahe sind.)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3022,6 +3087,16 @@ Trotz dieser Vorteile hat diese Beziehung auch Risiken. Waldläufer sind buchst�
     <Entry>
       <ID>4145</ID>
       <DefaultText>Aura, die den Verstand von nahen Verbündeten vernebelt und sie anfälliger für &lt;link="glossary://GlossaryEntry_Afflictions_Intellect"&gt;&lt;#00a4ff&gt;Intellektwirkungen&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;/color&gt;&lt;/link&gt; macht.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4151</ID>
+      <DefaultText>Tagsüber erhält der Träger erhöhte Kraftstufen auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuerangriffe&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4152</ID>
+      <DefaultText>Tagsüber erhält der Träger erhöhte Kraftstufen auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frostangriffe&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3246,7 +3321,7 @@ Trotz dieser Vorteile hat diese Beziehung auch Risiken. Waldläufer sind buchst�
     </Entry>
     <Entry>
       <ID>4419</ID>
-      <DefaultText>Gewährt erhöhte &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Durchschlag&lt;/link&gt;&lt;/nobr&gt;skraft mit Feuerangriffen.</DefaultText>
+      <DefaultText>Gewährt erhöhte &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Durchschlag&lt;/link&gt;&lt;/nobr&gt;skraft mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuerangriffen&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3436,12 +3511,12 @@ Trotz dieser Vorteile hat diese Beziehung auch Risiken. Waldläufer sind buchst�
     </Entry>
     <Entry>
       <ID>4775</ID>
-      <DefaultText>Zu beginn des Kampfes wird der Träger in Feuer gehüllt und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;verbrennt&lt;/link&gt;&lt;/nobr&gt; jeden der ihm Nahkampfschaden zufügt. Das Feuer erhöht außerdem den &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frost&lt;/link&gt;&lt;/nobr&gt; &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <DefaultText>Zu beginn des Kampfes wird der Träger in &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuer&lt;/link&gt;&lt;/nobr&gt; gehüllt und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;verbrennt&lt;/link&gt;&lt;/nobr&gt; jeden der ihm Nahkampfschaden zufügt. Das &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuer&lt;/link&gt;&lt;/nobr&gt; erhöht außerdem den &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frost&lt;/link&gt;&lt;/nobr&gt; &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4779</ID>
-      <DefaultText>Zu beginn des Kampfes wird der Träger in Feuer gehüllt und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;verbrennt&lt;/link&gt;&lt;/nobr&gt; jeden der ihm Nahkampfschaden zufügt. Das Feuer erhöht außerdem den &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frost&lt;/link&gt;&lt;/nobr&gt; &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <DefaultText>Zu beginn des Kampfes wird der Träger in &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuer&lt;/link&gt;&lt;/nobr&gt; gehüllt und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;verbrennt&lt;/link&gt;&lt;/nobr&gt; jeden der ihm Nahkampfschaden zufügt. Das &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuer&lt;/link&gt;&lt;/nobr&gt; erhöht außerdem den &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frost&lt;/link&gt;&lt;/nobr&gt; &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

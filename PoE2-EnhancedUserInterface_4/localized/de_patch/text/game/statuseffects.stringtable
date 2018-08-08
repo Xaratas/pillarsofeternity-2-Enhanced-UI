@@ -181,7 +181,7 @@
     </Entry>
     <Entry>
       <ID>100</ID>
-      <DefaultText>{0:extravalue:percent} Chance, {0:value:percent} des Schadens von Angriffen mit dem Schlüsselwort Feuer in &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; umzuwandeln</DefaultText>
+      <DefaultText>{0:extravalue:percent} Chance, {0:value:percent} des Schadens von Angriffen mit dem Schlüsselwort &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuer&lt;/link&gt;&lt;/nobr&gt; in &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; umzuwandeln</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -226,7 +226,7 @@
     </Entry>
     <Entry>
       <ID>120</ID>
-      <DefaultText>{0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; gegen Frostangriffe, die sich erhöht wenn Träger &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; verliert (Max 5 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;RW&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
+      <DefaultText>{0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; gegen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frostangriffe&lt;/link&gt;&lt;/nobr&gt;, die sich erhöht wenn Träger &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; verliert (Max 5 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;RW&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -446,7 +446,7 @@
     </Entry>
     <Entry>
       <ID>240</ID>
-      <DefaultText>Wirft 20 % des &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt;s von Feuerangriffen auf den Angreifer zurück</DefaultText>
+      <DefaultText>Wirft 20 % des &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt;s von &lt;xg&gt;Feuerangriffen&lt;/xg&gt; auf den Angreifer zurück</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -576,7 +576,7 @@
     </Entry>
     <Entry>
       <ID>316</ID>
-      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; alle {0:triggervalue:duration} für die Dauer von {0:extravalue:duration} bei einem erlittenen kritischen Treffer. Die Heilung erhöht sich, wenn der Träger an &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; verliert</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; alle {0:triggervalue:duration} für die Dauer von {0:extravalue:duration} bei einem erlittenen kritischen Treffer. Die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Heilung&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; erhöht sich, wenn der Träger an &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; verliert</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

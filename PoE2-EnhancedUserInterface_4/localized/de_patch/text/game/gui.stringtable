@@ -51,7 +51,7 @@
     </Entry>
     <Entry>
       <ID>367</ID>
-      <DefaultText>{0}% Schaden und Heilung, {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Tapferkeit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <DefaultText>{0}% Schaden und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Heilung&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt;, {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Tapferkeit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -86,7 +86,7 @@
     </Entry>
     <Entry>
       <ID>470</ID>
-      <DefaultText>Macht trägt zum Waffenschaden, Heilungswirkung und der &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Tapferkeitsverteidigung&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; bei. Sie stellt die brachiale, körperliche Stärke eines Charakters dar ebenso wie seine Fähigkeit, starke Magie zu wirken.
+      <DefaultText>Macht trägt zum Waffenschaden, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Heilung&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt;swirkung und der &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Tapferkeitsverteidigung&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; bei. Sie stellt die brachiale, körperliche Stärke eines Charakters dar ebenso wie seine Fähigkeit, starke Magie zu wirken.
 
  5 – Schwach
 10 – Durchschnittlich
@@ -658,7 +658,7 @@ Zwischen die Augen – Fernkampfangriff mit großem &lt;nobr&gt;&lt;link="glossa
     </Entry>
     <Entry>
       <ID>88003</ID>
-      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; wird durch Feuer verursacht. Magier können es in Feuerbälle, Lavakugeln oder „Wände“ formen. Viele Feuerfähgkeiten verursachen Zeitschaden und betreffen einen ganzen Bereich. Wer in der Nähe von Pulverfässern mit offenem Feuer hantiert sollte sich nicht wundern, wenn diese in einer fürchterlichen Explosion allen umstehenden schweren &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; zufügen.</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; wird durch &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuer&lt;/link&gt;&lt;/nobr&gt; verursacht. Magier können es in Feuerbälle, Lavakugeln oder „Wände“ formen. Viele Feuerfähgkeiten verursachen Zeitschaden und betreffen einen ganzen Bereich. Wer in der Nähe von Pulverfässern mit offenem &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Feuer&lt;/link&gt;&lt;/nobr&gt; hantiert sollte sich nicht wundern, wenn diese in einer fürchterlichen Explosion allen umstehenden schweren &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;space=0.7em&gt;Brandschaden&lt;/link&gt;&lt;/nobr&gt; zufügen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
