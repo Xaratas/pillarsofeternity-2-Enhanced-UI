@@ -5,6 +5,11 @@
   <EntryCount>538</EntryCount>
   <Entries>
     <Entry>
+      <ID>1</ID>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Fernkampfgenauigkeit&lt;/link&gt;&lt;/nobr&gt; (Erhöht sich mit der Fertigkeit Arkana)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4</ID>
       <DefaultText>{0:value:percent} Chance, bei kritischem Treffer einen kegelförmigen Angriff mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frostschaden&lt;/link&gt;&lt;/nobr&gt; zu starten</DefaultText>
       <FemaleText />
@@ -412,6 +417,11 @@
     <Entry>
       <ID>220</ID>
       <DefaultText>Mäßiger längere Zeit anhaltender &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;space=0.7em&gt;direkter Schaden&lt;/link&gt;&lt;/nobr&gt; beim flankierten Ziel bei einem Treffer</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>224</ID>
+      <DefaultText>Fügt dem Ziel bei einem kritischen Treffer für {0:extravalue:duration} alle {0:value:duration} {0:triggercount} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;space=0.7em&gt;direkten Blutungsschaden&lt;/link&gt;&lt;/nobr&gt; zu</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

@@ -1511,7 +1511,7 @@ Trotz dieser Vorteile bringt diese Beziehung auch gewisse Risiken mit sich. Wald
     </Entry>
     <Entry>
       <ID>2659</ID>
-      <DefaultText>Verb체ndete erhalten mehr &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; durch Heileffekte.</DefaultText>
+      <DefaultText>Verb체ndete erhalten mehr &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; durch &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Heileffekte&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2169,6 +2169,11 @@ Trotz dieser Vorteile hat diese Beziehung auch Risiken. Waldl채ufer sind buchst�
     <Entry>
       <ID>4324</ID>
       <DefaultText>Heimliche Angriffe lassen das Ziel bis zum Ende des Kampfes f체r &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;space=0.7em&gt;direkten Schaden&lt;/link&gt;&lt;/nobr&gt; bluten.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4329</ID>
+      <DefaultText>Wenn der Tr채ger Dem Tode nahe ist, erh채lt er einen geringen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;space=0.7em&gt;Heileffekt&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/nobr&gt; 체ber Zeit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

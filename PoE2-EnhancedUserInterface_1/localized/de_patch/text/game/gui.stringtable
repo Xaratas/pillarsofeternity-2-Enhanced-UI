@@ -155,6 +155,16 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1106</ID>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Nahkampfgenauigkeit&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1107</ID>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Fernkampfgenauigkeit&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1108</ID>
       <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
@@ -237,6 +247,11 @@
     <Entry>
       <ID>1176</ID>
       <DefaultText>{0} der eingehenden Treffer werden in Leichter Treffer umgewandelt (nur &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Tapferkeit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; oder &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Wille&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1194</ID>
+      <DefaultText>{0} Verteidigung während &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Betäubung&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -401,6 +416,11 @@ Trotz dieser Vorteile ist die Beziehung aber auch mit Risiken behaftet. Waldläu
     <Entry>
       <ID>2200</ID>
       <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; bei Einsatz von {1}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2206</ID>
+      <DefaultText>Zusätzlicher Angriff mit {0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; und {1} Schaden pro Schlag</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

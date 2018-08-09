@@ -10,6 +10,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1</ID>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Fernkampfgenauigkeit&lt;/link&gt;&lt;/nobr&gt; (Erhöht sich mit der Fertigkeit Arkana)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2</ID>
       <DefaultText>{0:value:percent} Chance, das Ziel bei einem Treffer für {0:extravalue:duration} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Dazed"&gt;&lt;#ff4800&gt;Benommen&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zu machen</DefaultText>
       <FemaleText />
@@ -547,6 +552,11 @@
     <Entry>
       <ID>220</ID>
       <DefaultText>Mäßiger längere Zeit anhaltender &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;space=0.7em&gt;direkter Schaden&lt;/link&gt;&lt;/nobr&gt; beim flankierten Ziel bei einem Treffer</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>224</ID>
+      <DefaultText>Fügt dem Ziel bei einem kritischen Treffer für {0:extravalue:duration} alle {0:value:duration} {0:triggercount} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;space=0.7em&gt;direkten Blutungsschaden&lt;/link&gt;&lt;/nobr&gt; zu</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

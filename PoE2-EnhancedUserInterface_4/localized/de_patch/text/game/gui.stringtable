@@ -145,6 +145,16 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1106</ID>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Nahkampfgenauigkeit&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1107</ID>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Fernkampfgenauigkeit&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1108</ID>
       <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
@@ -386,6 +396,11 @@ Trotz dieser Vorteile ist die Beziehung aber auch mit Risiken behaftet. Waldläu
     <Entry>
       <ID>2200</ID>
       <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; bei Einsatz von {1}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2206</ID>
+      <DefaultText>Zusätzlicher Angriff mit {0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; und {1} Schaden pro Schlag</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
