@@ -90,7 +90,7 @@
 
 5 - Timid
 10 - Average
-15 - Strong-Willed
+15 - &lt;xg&gt;Strong&lt;/xg&gt;-Willed
 20 - Fearless</DefaultText>
       <FemaleText />
     </Entry>
@@ -100,7 +100,7 @@
 
 5 - Weak
 10 - Average
-15 - Strong
+15 - &lt;xg&gt;Strong&lt;/xg&gt;
 20 - Fantastically Powerful</DefaultText>
       <FemaleText />
     </Entry>
@@ -120,8 +120,8 @@
 
 5 - Dim
 10 - Average
-15 - Quick-Witted
-20 - Brilliant</DefaultText>
+15 - &lt;xg&gt;Quick&lt;/xg&gt;-Witted
+20 - &lt;xg&gt;Brilliant&lt;/xg&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -343,7 +343,9 @@ In conversations and scripted interactions, Athletics is used for physical feats
     </Entry>
     <Entry>
       <ID>1477</ID>
-      <DefaultText>All rangers form a strong spiritual connection with a single creature, their animal companion. This connection allows rangers and their companions to coordinate attacks and efficiently take down prey. In most situations, the companion runs interference while the ranger attacks at range.
+      <DefaultText>
+
+All rangers form a strong spiritual connection with a single creature, their animal companion. This connection allows rangers and their companions to coordinate attacks and efficiently take down prey. In most situations, the companion runs interference while the ranger attacks at range.
 
 Despite these advantages, there are risks to the relationship. Rangers share a literal life bond with their animal companions. When one is wounded, the can sense it and feel intense emotional pain. If a ranger or animal companion are knocked unconscious, the partner suffers from Bonded Grief, affecting Accuracy and other stats, until the downed ally is revived. If a ranger is ever killed, the animal companion immediately dies from grief.</DefaultText>
       <FemaleText />
@@ -400,7 +402,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>1739</ID>
-      <DefaultText>{0} All Defenses except Deflection</DefaultText>
+      <DefaultText>{0} all Defenses (Fortitude, Reflex, and Will) except Deflection</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -715,68 +717,68 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88001</ID>
+      <ID>11001</ID>
       <DefaultText>Shock damage is a type of elemental damage based on electricity. Often the abilities and spells that use them create lightning bolts that can propagate in an AE, bounce on walls and stun the targets.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88002</ID>
+      <ID>11002</ID>
       <DefaultText>Raw damage bypasses all Armor Rating, having no need to Penetrate.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88003</ID>
+      <ID>11003</ID>
       <DefaultText>Burn damage is a type of elemental damage based on Fire. Often the abilities and spells that use it create flare-ups in an AE that can spread and / or cause damage over time. In addition, the flammable surfaces are affected as well as gunpowder, allowing pyrotechnic explosions to chain.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88004</ID>
+      <ID>11004</ID>
       <DefaultText>Freeze damage is a type of elemental damage based on Ice. Often the abilities and spells that use it create ice spikes or storms that can slow down or paralyze targets or cause damage over time.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88005</ID>
-      <DefaultText>Corrode damage is a type of elemental damage based on Acid. Often the abilities and spells that use it cause damage over time or can cause ConstitutionAfflictions.</DefaultText>
+      <ID>11005</ID>
+      <DefaultText>Corrosive damage is a type of elemental damage based on Acid. Often the abilities and spells that use it cause damage over time or can cause ConstitutionAfflictions.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88006</ID>
-      <DefaultText>Crush damage is a type of Physical Damage. Often the abilities and spells that use it allow to Interrupt, knockdown or Stun3 and deal Shock Damage to targets.</DefaultText>
+      <ID>11006</ID>
+      <DefaultText>Crush damage is a type of Physical Damage. Often the abilities and spells that use it allow to Interrupt, knockdown or Stun3 and deal Shock damage to targets.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88007</ID>
+      <ID>11007</ID>
       <DefaultText>Pierce damage is a type of physical damage. Often the abilities and spells that use it allow to cross the Armor Rating.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88008</ID>
+      <ID>11008</ID>
       <DefaultText>Slash damage is a type of physical damage. Often the skills and spells that use it cause damage over time.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88009</ID>
+      <ID>11009</ID>
       <DefaultText>Defenders excel at resisting attacks or being able to take a large amount of punishment in combat.
 
 Defender classes include: Barbarian, Fighter, Monk, Paladin, and Ranger.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88010</ID>
+      <ID>11010</ID>
       <DefaultText>Strikers are unequaled in their ability to inflict large amounts of damage and crippling afflictions to single targets.
 
 Striker classes include: Cipher, Druid, Fighter, Monk, Ranger, Rogue, and Wizard.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88011</ID>
+      <ID>11011</ID>
       <DefaultText>Support characters aid their allies with defensive bonuses, healing, or protective wards.
 
 Support classes include: Chanter, Paladin, and Priest.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88012</ID>
+      <ID>11012</ID>
       <DefaultText>Classes that focus on crowd control can inflict heavy damage and negative effects on groups of enemies.
 
 Crowd Control classes include: Barbarian, Chanter, Cipher, Druid, and Wizard.</DefaultText>

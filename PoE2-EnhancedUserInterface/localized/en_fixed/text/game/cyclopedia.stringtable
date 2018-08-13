@@ -105,7 +105,7 @@ Immobilized characters can't move and have -5 Dexterity.</DefaultText>
     <Entry>
       <ID>120</ID>
       <DefaultText>
-Stunned characters can't take any action, cannot Engage, have a penalty to all defenses, -4 Penetration, and -5 Might.</DefaultText>
+Stunned characters can't take any action, cannot Engage, have a penalty to all Defenses (Deflection, Fortitude, Reflex, and Will), -4 Penetration, and -5 Might.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -206,7 +206,7 @@ Note that many suits of armor and many creatures will grant different Armor Rati
       <ID>162</ID>
       <DefaultText>Health represents a character's short-term survivability.
 
-Damage that is not reduced by a character's Armor Rating goes straight to their Health. Potions and healing magic (such as from a paladin, priest, or druid) can restore Health in combat. 
+Damage that is not reduced by a character's Armor Rating goes straight to their Health. Potions and healing magic (such as from a paladin, priest, or druid) can restore Health in combat.
 
 When a character's Health reaches 0, he or she will be Knocked Out. A Knocked Out character can be brought back in combat through the use of a Revive ability. Otherwise, characters will regain all of their Health at the end of combat (assuming they're on the winning side).</DefaultText>
       <FemaleText />
@@ -225,7 +225,7 @@ Modal abilities should be changed based on the tactical needs of a combat. For e
     </Entry>
     <Entry>
       <ID>194</ID>
-      <DefaultText>There are eight damage types in Pillars of Eternity: Slash, Pierce, Crush, Burn, Shock, Corrode, Freeze, and Raw. Damage types are used to determine how easily a target resists damage of that type based on their Armor Ratings. A creature or suit of armor may be very resistant to one type of damage but quite vulnerable to another.
+      <DefaultText>There are eight damage types in Pillars of Eternity: Slash, Pierce, Crush, Burn, Shock, Corrode, Freezing, and Raw. Damage types are used to determine how easily a target resists damage of that type based on their Armor Ratings. A creature or suit of armor may be very resistant to one type of damage but quite vulnerable to another.
 
 Some weapons or attacks may do multiple damage types or list an "or" between their damage types. When an "or" is listed, the attack will always do the damage type that the target is most vulnerable to. Raw damage is the only damage type that ignores all Armor Ratings and is generally associated with poisons and similar effects. </DefaultText>
       <FemaleText />
@@ -254,6 +254,16 @@ E.g., if a wizard spell grants +3 to Deflection and a paladin's aura grants +5, 
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>257</ID>
+      <DefaultText>Berath's Wheel</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>258</ID>
+      <DefaultText>Also known as the "Wheel of Life and Death" or simply "the Wheel," Berath's Wheel is a metaphorical concept used to describe the collective churning of souls as they leave their bodies upon death, exit the world through pillars of adra, and then are reborn in new bodies.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>322</ID>
       <DefaultText>
 A Distracted character has -5 Perception and is considered Flanked.</DefaultText>
@@ -265,18 +275,38 @@ A Distracted character has -5 Perception and is considered Flanked.</DefaultText
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>388</ID>
+      <DefaultText>The Beyond</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>389</ID>
+      <DefaultText>"The Beyond" is a metaphysical concept for where souls go after death before they are reincarnated back into the world. This is also the realm of the gods.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>390</ID>
+      <DefaultText>In-Between</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>391</ID>
+      <DefaultText>"The In-Between" refers to the shadow world that souls (briefly) wander after death on their way to the Beyond. It has been described as a hazy landscape, empty but for the glow of other souls, adra, and Watchers. This is the space that Watchers peer into when they observe and speak to lost souls and soul fragments. Even the gods cannot reach it.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>453</ID>
       <DefaultText>When a damaging attack hits a target, the attack's Penetration is compared to the target's Armor Rating to determine how much damage gets through.
 
 Penetration comes from the weapon or spell that is being used, but can be raised through the use of magic, Abilities, Talents, or weapon enchantments. Penetration is compared to the Armor Rating of the attack's damage type. E.g. A Fireball will always check Penetration against Burn Armor Rating.
 
+Raw damage bypasses all armor and does not need to penetrate.
+
 Full Penetration (+30% Damage) - Penetration is twice the target's Armor Rating or more.
 
 Penetration (Listed Damage) - Penetration meets or exceeds the target's Armor Rating.
 
-Under Penetration (-25% Damage per point under the target's Armor, Max -75%) - Penetration is less than the target's Armor Rating.
-
-Raw Damage bypasses all armor and does not need to penetrate.</DefaultText>
+Under Penetration (-25% Damage per point under the target's Armor, Max -75%) - Penetration is less than the target's Armor Rating.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -527,27 +557,65 @@ Courageous characters have +5 Resolve and are immune to Interrupt.</DefaultText>
     </Entry>
     <Entry>
       <ID>806</ID>
-      <DefaultText>The ship maintains its current position and receives an Accuracy bonus for the following turn.</DefaultText>
+      <DefaultText>The ship maintains its current position and receives an accuracy bonus for the following turn.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>883</ID>
-      <DefaultText>A character that is between 50% Health and 25% Health is considered "Bloodied".</DefaultText>
+      <DefaultText>A character that is between 25-50% Health is considered "Bloodied".</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>885</ID>
-      <DefaultText>A character that is between 75% Health and 50% Health is considered "Hurt".</DefaultText>
+      <DefaultText>A character that is between 50-75% Health is considered "Hurt".</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>887</ID>
-      <DefaultText>A character that is below 100% Health and above 75% Health is considered "Healthy".</DefaultText>
+      <DefaultText>A character that is below 100% but above 100% Health is considered "Healthy".</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>889</ID>
       <DefaultText>A character that is at 100% Health is considered "Unharmed".</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>11013</ID>
+      <DefaultText>The Wheel</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>11014</ID>
+      <DefaultText>Called the "Builders" by the tribes of Eir Glanfath, the Engwithans are believed to have created strange, elaborate structures over decades using shaped pillars of living adra to support the stone. One such creation is thought to be the Wheel, also known as the "Wheel of Life and Death" or "Berath's Wheel".
+
+The Wheel facilitates the process of reincarnation. Upon the death of a living creature, its soul enters the In-Between. When the In-Between grows full, souls move on to the Beyond where they wait to be redistributed into new bodies, new lives.
+
+Without the Wheel, and therefore the means of moving into the Beyond, it is speculated that the souls of all who die would remain in the In-Between. The Beyond would empty, eventually ending life as we know it in Eora.
+
+It is not known, however, when the Wheel was constructed and what, if anything, came before it.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>11015</ID>
+      <DefaultText>White Void</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>11016</ID>
+      <DefaultText>The White Void is the name of Rymrgand's domain in the Beyond.
+
+It is said that The White Void is the hunger that gnaws at the guts of Eora and cannot be sated.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>11017</ID>
+      <DefaultText>Glasvahl</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>11018</ID>
+      <DefaultText>A Glamfellen clan leader hailing from The White that Wends, Glasvahl led his clan to the Frost-Hewn Breach in Eir Glanfath, seeking a path from this world to the realm of Rymrgand.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

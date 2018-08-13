@@ -16,12 +16,12 @@
     </Entry>
     <Entry>
       <ID>2</ID>
-      <DefaultText>{0:value:percent} probabilità di causare Disorientamento  sul bersaglio per {0:extravalue:duration} durante un colpo a segno</DefaultText>
+      <DefaultText>{0:value:percent} probabilità di causare Disorientamento sul bersaglio per {0:extravalue:duration} durante un colpo a segno</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3</ID>
-      <DefaultText>{0:value:percent} probabilità di causare Disorientamento  sul bersaglio per {0:extravalue:duration} durante un colpo a segno se chi l'impugna è un nano</DefaultText>
+      <DefaultText>{0:value:percent} probabilità di causare Disorientamento sul bersaglio per {0:extravalue:duration} durante un colpo a segno se chi l'impugna è un nano</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -37,11 +37,6 @@
     <Entry>
       <ID>7</ID>
       <DefaultText>Colpire con qualsiasi incantesimo ha una possibilità del {0:value:percent} di Incantare sul bersaglio</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>8</ID>
-      <DefaultText>{0:value:percent} probabilità di lanciare Forma della Belva indifesa su un bersaglio durante un colpo a segno con quest'arma</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -311,7 +306,7 @@
     </Entry>
     <Entry>
       <ID>121</ID>
-      <DefaultText>{0:value} Precisione  e {0:extravalue:percentbonus} Danno sui bersagli Accerchiati</DefaultText>
+      <DefaultText>{0:value} Precisione e {0:extravalue:percentbonus} Danno sui bersagli Accerchiati</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -540,11 +535,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>219</ID>
-      <DefaultText>Distruggere un distruttibile conferisce Colpi tonanti</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>220</ID>
       <DefaultText>moderato Danno Puro nel tempo a bersagli Accerchiati in caso di colpo a segno</DefaultText>
       <FemaleText />
@@ -592,11 +582,6 @@
     <Entry>
       <ID>242</ID>
       <DefaultText>{0:extravalue:percent} probabilità in caso di colpo a segno di causare Disorientamento sul bersaglio e lasciarlo Prono</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>243</ID>
-      <DefaultText>Le abilità con un'arma che vengono Potenziate provocano Menomazione al bersaglio</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -681,7 +666,7 @@
     </Entry>
     <Entry>
       <ID>280</ID>
-      <DefaultText>{0:value} a tutte le Difese contro attacchi con Alterazioni della Destrezza  mentre si è sopra al 75% di Salute</DefaultText>
+      <DefaultText>{0:value} a tutte le Difese contro attacchi con Alterazioni della Destrezza mentre si è sopra al 75% di Salute</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -712,21 +697,6 @@
     <Entry>
       <ID>294</ID>
       <DefaultText>Per {0:value:duration} dopo avere lanciato un attacco, {0:extravalue:percent} del Danno da mischia subito viene restituito all'assalitore come Danno Puro </DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>297</ID>
-      <DefaultText>Ispirazione del Vigore </DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>298</ID>
-      <DefaultText>Ispirazione della Percezione </DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>299</ID>
-      <DefaultText>Ispirazione dell'Intelletto </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -857,7 +827,7 @@
     <Entry>
       <ID>379</ID>
       <DefaultText>{0:value:percent} probabilità di causare 
-   Stordimento sul bersaglio per {0:extravalue:duration} durante un colpo a segno</DefaultText>
+  Stordimento sul bersaglio per {0:extravalue:duration} durante un colpo a segno</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -897,7 +867,7 @@
     </Entry>
     <Entry>
       <ID>401</ID>
-      <DefaultText>Immune alle Alterazioni della Risolutezza  se si possiede meno del {0:extravalue:percent} di Salute </DefaultText>
+      <DefaultText>Immune alle Alterazioni della Risolutezza se si possiede meno del {0:extravalue:percent} di Salute </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -907,7 +877,7 @@
     </Entry>
     <Entry>
       <ID>406</ID>
-      <DefaultText>{0:value:percent} probabilità di lanciare un ristretto attacco AE da Ustione  in caso di colpo a segno o Critico</DefaultText>
+      <DefaultText>{0:value:percent} probabilità di lanciare un ristretto attacco AE da Ustione in caso di colpo a segno o Critico</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -966,11 +936,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>440</ID>
-      <DefaultText>Evoca arma: Morbo minore di Kalakoth</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>446</ID>
       <DefaultText>Ricevendo colpi critici da attacchi in Mischia, gli assalitori hanno la probabilità del {0:value:percent} di venire Confusi (migliorato a Incantato in caso di colpo Critico)</DefaultText>
       <FemaleText />
@@ -982,7 +947,7 @@
     </Entry>
     <Entry>
       <ID>451</ID>
-      <DefaultText>{0:value:percent} probabilità di lanciare da se stessi un attacco AE conico con Danno da Corrosione  e di Azzoppare il bersaglio quando si attacca</DefaultText>
+      <DefaultText>{0:value:percent} probabilità di lanciare da se stessi un attacco AE conico con Danno da Corrosione e di Azzoppare il bersaglio quando si attacca</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1102,12 +1067,12 @@
     </Entry>
     <Entry>
       <ID>505</ID>
-      <DefaultText>Conferisce Resistenza alle Alterazioni della Costituzione  quando la Salute è superiore al 75%</DefaultText>
+      <DefaultText>Conferisce Resistenza alle Alterazioni della Costituzione quando la Salute è superiore al 75%</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>506</ID>
-      <DefaultText>Conferisce Immunità alle Alterazioni della Costituzione  quando la Salute è superiore al 75%</DefaultText>
+      <DefaultText>Conferisce Immunità alle Alterazioni della Costituzione quando la Salute è superiore al 75%</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1142,7 +1107,7 @@
     </Entry>
     <Entry>
       <ID>535</ID>
-      <DefaultText>{0:value:percentbonus} Durata Alterazioni della Destrezza  ostile</DefaultText>
+      <DefaultText>{0:value:percentbonus} Durata Alterazioni della Destrezza ostile</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1163,11 +1128,6 @@
     <Entry>
       <ID>544</ID>
       <DefaultText>{0:value} Deflessione se si è vicini ad Alleati</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>546</ID>
-      <DefaultText>Rimuove tutte le Menomazioni</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
