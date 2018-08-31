@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\items</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>2825</EntryCount>
+  <EntryCount>2831</EntryCount>
   <Entries>
     <Entry>
       <ID>254</ID>
@@ -38,7 +38,7 @@ This crude spear is decorated with feathers and beads.</DefaultText>
     </Entry>
     <Entry>
       <ID>1478</ID>
-      <DefaultText>These baubles provide +5 Accuracy for all fire-based attacks.</DefaultText>
+      <DefaultText>These baubles provide +5 Accuracy for all Fire attacks.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -53,7 +53,7 @@ This crude spear is decorated with feathers and beads.</DefaultText>
     </Entry>
     <Entry>
       <ID>2838</ID>
-      <DefaultText>This golden ring bears Huana runic engravings. The delicacy of the inscriptions and clean Accuracy of the shaping are markers of a master craftsman. Grooves along the underside would suggest this piece connects to a larger mechanism.</DefaultText>
+      <DefaultText>This golden ring bears Huana runic engravings. The delicacy of the inscriptions and clean &lt;xg&gt;accuracy&lt;/xg&gt; of the shaping are markers of a master craftsman. Grooves along the underside would suggest this piece connects to a larger mechanism.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -63,7 +63,7 @@ This crude spear is decorated with feathers and beads.</DefaultText>
     </Entry>
     <Entry>
       <ID>2866</ID>
-      <DefaultText>Deal {0} Burn Damage</DefaultText>
+      <DefaultText>Deal {0} Burn damage</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -78,17 +78,17 @@ This crude spear is decorated with feathers and beads.</DefaultText>
     </Entry>
     <Entry>
       <ID>3122</ID>
-      <DefaultText>An alchemical device of devastating power. Lost whispers emanate from deep within, singing of crushing darkness. When the charge detonates, a rift forms, pulling all within towards the black horizon, dealing Crush damage.</DefaultText>
+      <DefaultText>An alchemical device of devastating power. Lost whispers emanate from deep within, singing of &lt;xg&gt;crushing&lt;/xg&gt; darkness. When the charge detonates, a rift forms, pulling all within towards the black horizon, dealing Crush damage.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3138</ID>
-      <DefaultText>This foul-tasting elixir alters the skin and internal body structures to better withstand Burn, Freeze, Corrode, and Shock Damage.</DefaultText>
+      <DefaultText>This foul-tasting elixir alters the skin and internal body structures to better withstand Burn, Freeze, Corrode, and Shock damage.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3143</ID>
-      <DefaultText>The bubbling liquid burns like fire when swallowed. Fury burns behind the eyes, increasing Action Speed and melee Damage, at the expense of Deflection.</DefaultText>
+      <DefaultText>The bubbling liquid &lt;xg&gt;burns&lt;/xg&gt; like fire when swallowed. Fury burns behind the eyes, increasing Action Speed and melee Damage, at the expense of Deflection.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -127,8 +127,13 @@ This crude spear is decorated with feathers and beads.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3396</ID>
+      <DefaultText>Restores a minor amount of Health to all allies in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3398</ID>
-      <DefaultText>Calls down a shaft of intense sunlight, burning and potentially Blinding those caught in the area of effect.</DefaultText>
+      <DefaultText>Calls down a shaft of intense sunlight, Burning and potentially Blinding those caught in the area of effect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -143,7 +148,7 @@ This crude spear is decorated with feathers and beads.</DefaultText>
     </Entry>
     <Entry>
       <ID>3402</ID>
-      <DefaultText>Attracts a swarm of aggressive insects, causing Raw Damage over time and reducing the concentration of anyone in the area of effect.</DefaultText>
+      <DefaultText>Attracts a swarm of aggressive insects, causing Raw damage over time and reducing the concentration of anyone in the area of effect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -157,8 +162,18 @@ This crude spear is decorated with feathers and beads.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3405</ID>
+      <DefaultText>Isolates a single target within a protective sphere, shielding them from harm while their Health regenerates.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3407</ID>
       <DefaultText>Creates a ball of energy in the reader's hand that can be thrown at an enemy, causing Burn, Freeze, Corrode, or Shock damage to anyone caught in the area of effect. Blights are continually replenished until the spell ends.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3408</ID>
+      <DefaultText>Restores a moderate amount of Health to all allies in the area of effect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -183,17 +198,22 @@ This crude spear is decorated with feathers and beads.</DefaultText>
     </Entry>
     <Entry>
       <ID>3414</ID>
-      <DefaultText>Creates a beam of crushing force, Staggering the target and anyone caught in the beam.</DefaultText>
+      <DefaultText>Creates a beam of Crushing force, Staggering the target and anyone caught in the beam.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3415</ID>
-      <DefaultText>Fires five missiles of pure force at the target, causing a shockwave of Crushing damage to foes close to the impact.</DefaultText>
+      <DefaultText>Fires several missiles of pure force at the target, causing a shockwave of Crushing damage to foes close to the impact.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3416</ID>
+      <DefaultText>Channels lunar energy into a localized source of power, regenerating the Health of allies in the area of effect and granting a minor bonus to all Defenses (Deflection, Fortitude, Reflex, and Will).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3418</ID>
-      <DefaultText>Conjures an intensely luminous beacon of light, causing enemies in the area of effect to take a penalty to all defenses and accrue Burn damage over time.</DefaultText>
+      <DefaultText>Conjures an intensely luminous beacon of light, causing enemies in the area of effect to take a penalty to all Defenses (Deflection, Fortitude, Reflex, and Will) and accrue Burn damage over time.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -202,8 +222,18 @@ This crude spear is decorated with feathers and beads.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3421</ID>
+      <DefaultText>Restores a significant amount of Health to all allies in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3422</ID>
       <DefaultText>Summons an enormous infestation of venomous insects, dealing Raw damage over time, reducing Concentration and Sickening anyone in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3423</ID>
+      <DefaultText>Grants fallen friends a second chance, reviving unconscious allies in the area of effect and restoring a small amount of their Health.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -213,12 +243,17 @@ This crude spear is decorated with feathers and beads.</DefaultText>
     </Entry>
     <Entry>
       <ID>3428</ID>
-      <DefaultText>Summons a flaming pillar of fire, Burning everyone in the area of effect.</DefaultText>
+      <DefaultText>Summons a flaming pillar of fire, causing Burn damage to everyone in the area of effect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3429</ID>
       <DefaultText>The reader hurls a ball of holy fire at the enemy that purges its protections and speeds its doom. Does continuous Burn damage for five seconds and accelerates the timer for all beneficial effects on the target (except heals), as well as those of any continuous damage effects. Leaps to up to two additional nearby enemies.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3430</ID>
+      <DefaultText>Restores an abundant amount of Health to all allies in the area of effect.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -233,7 +268,7 @@ This crude spear is decorated with feathers and beads.</DefaultText>
     </Entry>
     <Entry>
       <ID>3436</ID>
-      <DefaultText>Causes an icy wind of incredible power to arise, pushing back all in the area of effect and inflicting Freeze damage.</DefaultText>
+      <DefaultText>Causes an icy wind of incredible power to arise, pushing back all in the area of effect and inflicting Freezing damage.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -244,6 +279,11 @@ This crude spear is decorated with feathers and beads.</DefaultText>
     <Entry>
       <ID>3439</ID>
       <DefaultText>A series of fiery meteors fall from the sky, pummeling the area with Burn damage on impact and additional Burn damage over time.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3638</ID>
+      <DefaultText>While Frau Nils is following you around, you are more Accurate with melee attacks and your party receives bonus Health.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -262,18 +302,38 @@ This crude spear is decorated with feathers and beads.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3645</ID>
+      <DefaultText>While Prissy is following you around, you are more effective with healing spells and potions and your party members regain some Health when they kill an enemy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3646</ID>
+      <DefaultText>While Twix is following you around, you gain a bonus to your Max Health and your party members will regain some Health when they kill an enemy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3647</ID>
+      <DefaultText>While Abraham is following you around, your recovery penalty from armor is reduced and your party members will regain some Health when they kill an enemy.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3648</ID>
       <DefaultText>While Algol is following you around any Constitution Afflictions applied to you wear off more quickly, and party members regain some Health when they kill an enemy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3649</ID>
-      <DefaultText>While Atlas is following you around, you gain a bonus to Perception and your party receives a bonus to ranged Weapon Accuracy.</DefaultText>
+      <DefaultText>While Atlas is following you around, you gain a bonus to Perception and your party receives a bonus to ranged weapon Accuracy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3650</ID>
       <DefaultText>While Chilli is following you around you receive a bonus to Resolve and your party gains a bonus to Will.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3652</ID>
+      <DefaultText>While Freya is following you around you receive a bonus to Intellect and your party members regain some Health when they kill an enemy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -283,7 +343,7 @@ This crude spear is decorated with feathers and beads.</DefaultText>
     </Entry>
     <Entry>
       <ID>3654</ID>
-      <DefaultText>While Harley is following you around you receive a bonus to ranged damage and your party receives a bonus to ranged Weapon Accuracy.</DefaultText>
+      <DefaultText>While Harley is following you around you receive a bonus to ranged damage and your party receives a bonus to ranged weapon Accuracy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -292,13 +352,23 @@ This crude spear is decorated with feathers and beads.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3656</ID>
+      <DefaultText>While Mercedes is following you around you receive a bonus to Max Health and your party receives a bonus to melee weapon damage.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3658</ID>
-      <DefaultText>While Nikki is following you around enemy attacks against you are more likely to Graze, and your party receives a bonus to melee Weapon Accuracy.</DefaultText>
+      <DefaultText>While Nikki is following you around enemy attacks against you are more likely to Graze, and your party receives a bonus to melee weapon Accuracy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3659</ID>
       <DefaultText>While Pancake is following you around you receive a bonus to Might and your party has enhanced resistance to Burn damage.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3661</ID>
+      <DefaultText>While Toby is following you around you receive a bonus to Perception and your party gains a bonus to Max Health.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -329,6 +399,11 @@ This crude spear is decorated with feathers and beads.</DefaultText>
     <Entry>
       <ID>4390</ID>
       <DefaultText>While the Grave Hound pup is following you around you deal bonus damage against Vessels and everyone in the party takes reduced Corrode damage.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4406</ID>
+      <DefaultText>While Deus is following you around you receive a bonus to Constitution and your party members regain some Health when they kill an enemy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -368,7 +443,7 @@ This crude spear is decorated with feathers and beads.</DefaultText>
     </Entry>
     <Entry>
       <ID>4935</ID>
-      <DefaultText>While the Obsidian Wurm is following you, you gain a bonus to the Stealth and Sleight of Hand skills and your party gains bonus Accuracy against flanked enemies.</DefaultText>
+      <DefaultText>While the Obsidian Wurm is following you, you gain a bonus to the Stealth and Sleight of Hand skills and your party gains bonus Accuracy against Flanked enemies.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -378,12 +453,19 @@ This crude spear is decorated with feathers and beads.</DefaultText>
     </Entry>
     <Entry>
       <ID>5145</ID>
-      <DefaultText>Deal {0} Corrode Damage</DefaultText>
+      <DefaultText>Deal {0} Corrode damage</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>5149</ID>
-      <DefaultText>Deal {0} Shock Damage</DefaultText>
+      <DefaultText>Deal {0} Shock damage</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5349</ID>
+      <DefaultText>Small and cold to the touch, this construct may have been a prototype. Or the product of tinkering. Or a toy.
+
+While followed by Frosty, you gain bonus Freeze Armor Rating and the party's Freeze attacks benefit form improved Accuracy.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

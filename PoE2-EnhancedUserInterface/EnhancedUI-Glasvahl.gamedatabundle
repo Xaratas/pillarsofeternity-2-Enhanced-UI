@@ -1,19 +1,19 @@
 {
 	"GameDataObjects": [{
 		"$type": "Game.GameData.GlossaryEntryGameData, Assembly-CSharp",
-		"DebugName": "GlossaryEntry_The_Wheel",
-		"ID": "e0063488-d45e-4c0f-a428-ce446bbaf862",
+		"DebugName": "GlossaryEntry_Glasvahl",
+		"ID": "f15e5300-1f96-4340-b58e-1f3a662f058c",
 		"Components": [{
 			"$type": "Game.GameData.GlossaryEntryComponent, Assembly-CSharp",
-			"TermCyclopedia": 11013,
+			"TermCyclopedia": 11017,
 			"TermGui": -1,
-			"DescriptionCyclopedia": 11014,
+			"DescriptionCyclopedia": 11018,
 			"DescriptionGui": -1,
 			"CategoryID": "c2b238b2-c72b-4770-b847-43d18678477c",
-			"ShowInJournal": "true",
+			"ShowInJournal": "false",
 			"CaseSensitive": "false",
 			"AutomaticallyAddLinks": "true",
-			"LinkedEntriesIDs": ["6b1a6b57-477a-425f-b419-fb1bf57e0b2f", "68661c8d-52fa-4d8a-a722-0119e7403484", "30dd45b1-97e5-4d29-8a20-734a96df1feb"],
+			"LinkedEntriesIDs": [],
 			"ParentObjectID": "9a09068c-0b52-4a44-bb98-0119de678068"
 		}]
 	}]

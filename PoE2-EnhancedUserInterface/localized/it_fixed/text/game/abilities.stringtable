@@ -21,8 +21,13 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>240</ID>
+      <DefaultText>Ordina a un singolo nemico di fermarsi, Immobilizzandolo temporaneamente.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>242</ID>
-      <DefaultText>Isola un bersaglio singolo in una sfera protettiva, proteggendolo dai pericoli mentre la sua Salute si rigenera(il bersaglio viene reso Invisibile, ma rimane anche Stordito ).</DefaultText>
+      <DefaultText>Isola un bersaglio singolo in una sfera protettiva, proteggendolo dai pericoli mentre la sua Salute si rigenera(il bersaglio viene reso Invisibile, ma resta anche Stordito ).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -44,11 +49,6 @@
     <Entry>
       <ID>246</ID>
       <DefaultText>Crea una proiezione energetica della fede del Sacerdote che, spostandosi lentamente, restituisce Salute agli Alleati e infligge Danno da Congelamento ai nemici.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>249</ID>
-      <DefaultText>Benedice gli Alleati con l'aiuto di un'anima comprensiva, attivando un effetto curativo sono Agonizzanti.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -153,7 +153,7 @@
     </Entry>
     <Entry>
       <ID>279</ID>
-      <DefaultText>Il lanciatore attinge alla sua forza vitale per acquisire l'Ispirazione Rapido , prosciugando gradualmente la sua stessa Salute.</DefaultText>
+      <DefaultText>Il lanciatore attinge alla sua forza vitale per acquisire l'Ispirazione Rapido e Velocità di Combattimento, prosciugando gradualmente la sua stessa Salute.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -177,6 +177,12 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>287</ID>
+      <DefaultText>Coopta l'essenza del bersaglio, generando una lama Lacerante 
+ di energia che lo colpisce prima di aggredire fino a un massimo di cinque bersagli aggiuntivi.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>288</ID>
       <DefaultText>Il Cipher sfrutta la stessa forza mentale del bersaglio per attaccarlo e ruba parte della sua Risolutezza per acquisire l'Ispirazione Nerbo .</DefaultText>
       <FemaleText />
@@ -192,18 +198,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>294</ID>
-      <DefaultText>Il Guerriero rotea la sua arma da mischia con un'ampia spazzata, rendendo Proni i nemici e infliggendo Danno da Impatto .</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>296</ID>
       <DefaultText>Il Guerriero, esaltato dall'impeto della battaglia, recupera continuamente modeste quantità di Salute.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>298</ID>
-      <DefaultText>Il Guerriero adotta una strategia più prudente, concentrandosi sul bloccare i nemici che si avvicinano troppo. Questo aumenta a tre il numero dei bersagli ingaggiabili, ma va a discapito della Deflessione .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -703,7 +699,7 @@
     </Entry>
     <Entry>
       <ID>800</ID>
-      <DefaultText>Difende gli Alleati nell'Area d'Effetto dalle Alterazioni della Risolutezza  e Alterazioni della Costituzione .</DefaultText>
+      <DefaultText>Difende gli Alleati nell'Area d'Effetto dalle Alterazioni della Risolutezza e Alterazioni della Costituzione .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -728,7 +724,7 @@
     </Entry>
     <Entry>
       <ID>807</ID>
-      <DefaultText>Gli Alleati nell'Area d'Effetto ottengono Resistenza contro le Alterazioni della Destrezza  and Alterazioni della Destrezza .</DefaultText>
+      <DefaultText>Gli Alleati nell'Area d'Effetto ottengono Resistenza contro le Alterazioni della Destrezza and Alterazioni del Vigore .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -759,6 +755,11 @@
     <Entry>
       <ID>813</ID>
       <DefaultText>Dona le Ispirazioni Veloce e Profondo agli Alleati nell'Area d'Effetto.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>814</ID>
+      <DefaultText>Rianima gli Alleati nell'Area d'Effetto con una piccola quantità di Salute.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -842,11 +843,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>837</ID>
-      <DefaultText>Raccoglie un'immensa quantità di frammenti di anima dispersi, plasmandoli in un Morbo maggiore Fiamma, Vento, Sabbia, Ghiaccio o Terra.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>838</ID>
       <DefaultText>Crea dei teschi putrescenti e infetti nelle mani del lanciatore, che potrà utilizzarli come un'arma a distanza provocando Danno da Impatto e formando un'area infetta da Malattia ad effetto Corrosivo che infligge Danno nel tempo.</DefaultText>
       <FemaleText />
@@ -854,6 +850,11 @@
     <Entry>
       <ID>839</ID>
       <DefaultText>Crea un campo di fiori velenosi, bellissimi e ammalianti, che infliggono Spavento , Indebolimento e Danno Puro nel tempo a chi si trova nell'Area d'Effetto.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>843</ID>
+      <DefaultText>Dona al Mago un lucente Bastone Ferrato di energia negativa, ripristinando Salute a ogni colpo andato a segno.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -932,8 +933,18 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>877</ID>
+      <DefaultText>Evoca un'energia primitiva che rigenera continuamente la Salute degli Alleati presenti nel raggio d'Azione durante il Canto del Cantore.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>878</ID>
       <DefaultText>Grazie al suo legame naturale con l'orso, il Druido è in grado di assumerne temporaneamente le sembianze. La Metamorfosi dell'Orso ha una Soglia di Danno elevata e può evocare uno spaventoso ruggito.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>879</ID>
+      <DefaultText>Grazie al suo legame naturale con il Cinghiale, il Druido è in grado di assumerne temporaneamente le sembianze. La Metamorfosi del Cinghiale rigenera la Salute perduta, infliggendo Danno nel tempo con i suoi attacchi in mischia.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1017,6 +1028,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>925</ID>
+      <DefaultText>(Colpo Lacerante) - Un attacco sleale che lascia l'avversario incapace di vedere. Infligge Danno extra e Acceca il bersaglio.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>926</ID>
       <DefaultText>Il Ladro diventa estremamente abile a schivare gli attacchi. Molti dei colpi di striscio contro Riflessi diventano colpi a vuoto.</DefaultText>
       <FemaleText />
@@ -1057,13 +1073,18 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1018</ID>
+      <DefaultText>I compagni cinghiale rigenerano la propria Salute a poco a poco, anche durante il combattimento.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1020</ID>
       <DefaultText>Tutti i compagni animali cinghiale ricevono un bonus Danno finché la Salute resta al di sotto del 50%.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1026</ID>
-      <DefaultText>Gli elfi dei boschi hanno una resistenza naturale contro le Alterazioni della Destrezza.</DefaultText>
+      <DefaultText>Gli elfi dei boschi hanno una resistenza naturale contro le Alterazioni della Destrezza .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1098,7 +1119,8 @@
     </Entry>
     <Entry>
       <ID>1052</ID>
-      <DefaultText>Se Lesionato o in miglior condizione il Barbaro guadagna resistenza contro le Alterazioni del Corpo</DefaultText>
+      <DefaultText>Se Lesionato o in miglior condizione il Barbaro guadagna resistenza contro le Alterazioni del Corpo&gt;
+</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1108,7 +1130,7 @@
     </Entry>
     <Entry>
       <ID>1058</ID>
-      <DefaultText>Aumenta le difese del compagno animale del Ranger contro le Alterazioni dell'Alterazioni dell'Acume  e le Alterazioni della Percezione .</DefaultText>
+      <DefaultText>Aumenta le difese del compagno animale del Ranger contro le Alterazioni dell'Acume e le Alterazioni della Percezione .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1127,13 +1149,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1208</ID>
-      <DefaultText>Tutti gli attacchi contro i nemici Agonizzanti convertono alcuni colpi a segno in colpi critici; i quali a loro volta infliggono Danno extra.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1210</ID>
-      <DefaultText>Riduce il Tempo di Recupero quando cambi arma.</DefaultText>
+      <ID>1143</ID>
+      <DefaultText>Sacrifica Velocità di attacco a distanza per aumentare la Penetrazione .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1187,28 +1204,19 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1336</ID>
-      <DefaultText>I deiformi della morte sembrano avere un'innata capacità di avvertire la vulnerabilità dei nemici quando la morte si avvicina. Contro tutti i bersagli con Salute bassa, i deiformi della morte guadagnano un bonus di Danno.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1337</ID>
       <DefaultText>Tutti gli umani hanno uno spirito indomabile che si risveglia quando la situazione si fa cupa. Ogni volta che un umano scende sotto il 50% di Salute, guadagna un bonus di Precisione e Danno.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1338</ID>
-      <DefaultText>I nani di montagna sono i più grandi viaggiatori di Eora. I loro incredibili viaggi li hanno esposti a ogni tipo di pericolo mortale, conferendogli resistenza alle Alterazioni della Costituzione.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1340</ID>
-      <DefaultText>Le anime di tutti i deiformi della luna sono legate a riserve di energia curativa. In combattimento, la prima volta che un deiforme della luna scende sotto il 75%, 50% e 25% di Salute, esso genera automaticamente un'ondata curativa intorno a sé.</DefaultText>
+      <DefaultText>I nani di montagna sono i più grandi viaggiatori di Eora. I loro incredibili viaggi li hanno esposti a ogni tipo di pericolo mortale, conferendogli Resistenza alle 
+Alterazioni della Costituzione .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1341</ID>
-      <DefaultText>Gli Aumaua costieri sono noti per il loro "gambe acquatiche" e la loro costituzione robusta. Che sia dovuto alla loro natura di popolo marinaro o a una caratteristica innata, tutti gli Aumaua costieri resistono alle Alterazioni Vigore.</DefaultText>
+      <DefaultText>Gli Aumaua costieri sono noti per il loro "gambe acquatiche" e la loro costituzione robusta. Che sia dovuto alla loro natura di popolo marinaro o a una caratteristica innata, tutti gli Aumaua costieri resistono alle Alterazioni del Vigore .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1224,6 +1232,11 @@
     <Entry>
       <ID>1391</ID>
       <DefaultText>Tre artigli di pietra emergono dal terreno, infliggendo Paralisi e Danno da Lacerazione a chiunque si trovi nella zona.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1421</ID>
+      <DefaultText>(Ruota di Ferro) - Attingendo al dolore dalle Ferite, il Monaco accumula Soglia di Danno contro gli attacchi in arrivo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1358,7 +1371,7 @@
     </Entry>
     <Entry>
       <ID>1739</ID>
-      <DefaultText>Ricopre gli Alleati con una "pelle" di legno protettiva, pervasa da poteri delemgan, che li rende più veloci, meno vulnerabili agli attacchi in Disingaggio e immuni alle alterazioni della Destrezza.</DefaultText>
+      <DefaultText>Ricopre gli Alleati con una "pelle" di legno protettiva, pervasa da poteri delemgan, che li rende più veloci, meno vulnerabili agli attacchi in Disingaggio e Immuni alle Alterazioni della Destrezza .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1417,6 +1430,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1761</ID>
+      <DefaultText>Il ranger può rianimare il suo compagno animale e ripristinare una piccola quantità di Salute.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1764</ID>
       <DefaultText>Il Mago evoca un arco spaventoso che infligge Danno da Corrosione al nemico e lo lascia Terrorizzato . Ciascun dardo energetico scagliato dal Mago rimbalzerà su un secondo bersaglio.</DefaultText>
       <FemaleText />
@@ -1429,11 +1447,6 @@
     <Entry>
       <ID>1766</ID>
       <DefaultText>Il Mago si ripara dietro a scudi elementali, che lo proteggono dai danni da Ustione , Corrosione , Congelamento e Folgorazione finché non vengono sopraffatti o l'effetto svanisce.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1768</ID>
-      <DefaultText>Evoca uno scintillante muro multicolore che infligge diversi danni e alterazioni a tutti coloro che lo attraversano.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1454,16 +1467,6 @@
     <Entry>
       <ID>1852</ID>
       <DefaultText>Il Barbaro si è addestrato diligentemente per andare a segno con la sua arma preferita. Tutte le armi di cui è esperto ottengono Precisione bonus.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1857</ID>
-      <DefaultText>Alterazione della Percezione</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1858</ID>
-      <DefaultText>Alterazione del Vigore</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1489,6 +1492,11 @@
     <Entry>
       <ID>1942</ID>
       <DefaultText>La coscienza di sé del Cipher è molto più forte, conferendogli Volontà bonus.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1947</ID>
+      <DefaultText>Il Cipher è in grado di usare gli Echi del Tempo per colpire con la sua arma, aumentandone la Penetrazione .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1522,13 +1530,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1975</ID>
-      <DefaultText>(Turbine &lt;xg&gt;rapido&lt;/xg&gt;) - Quando è attivo, i colpi critici delle armi in mischia hanno una possibilità di scatenare immediatamente un altro attacco.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1981</ID>
-      <DefaultText>Raccogli tutta la tua forza nei tuoi colpi. Ottieni l'ispirazione Tenace per tutta la durata dell'effetto.</DefaultText>
+      <DefaultText>Raccogli tutta la tua forza nei tuoi colpi. Ottieni l'Ispirazione Tenace per tutta la durata dell'effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1555,16 +1558,6 @@ Resistenza - Conferisce Soglia di Danno </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1997</ID>
-      <DefaultText>Mani della Luce</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1999</ID>
-      <DefaultText>Devozione Eterna</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2000</ID>
       <DefaultText>(Devozione Eterna) - Dopo l'uso, gli attacchi del Paladino ricevono temporaneamente Danno da Ustione bonus.</DefaultText>
       <FemaleText />
@@ -1572,16 +1565,6 @@ Resistenza - Conferisce Soglia di Danno </DefaultText>
     <Entry>
       <ID>2004</ID>
       <DefaultText>Gli attacchi in mischia del Paladino rimuovono le Alterazioni Incantato , Confuso e Dominato dai componenti del gruppo.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2007</ID>
-      <DefaultText>Carica Eccelsa</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2008</ID>
-      <DefaultText>(Carica Eccelsa) - Gli Alleati ora convertono anche alcuni colpi critici in arrivo in colpi di striscio (o colpi a vuoto se quell'attacco non può causare colpi di striscio).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1619,13 +1602,18 @@ A una mano: Danno Puro nel tempo</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2039</ID>
+      <DefaultText>(Colpo Sanguifero) - Adesso i nemici colpiti sanguineranno quando si muovono e subiranno Danno Puro a ogni passo.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2041</ID>
       <DefaultText>(Colpo Debilitante) - I colpi che vanno a segno Distraggono il bersaglio.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2044</ID>
-      <DefaultText>(Cecità Frustrante) - mentre viene Accecato , gli attacchi aggiungono una penalità Cumulabile alla Deflessione .</DefaultText>
+      <DefaultText>(&lt;xg&gt;Cecità&lt;/xg&gt; Frustrante) - mentre viene Accecato , gli attacchi aggiungono una penalità Cumulabile alla Deflessione .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1656,6 +1644,16 @@ A una mano: Danno Puro nel tempo</DefaultText>
     <Entry>
       <ID>2063</ID>
       <DefaultText>Attingendo a riserve di intenso potere spirituale, i barbari sono in grado di spiccare grandi balzi in aria e ricadere sui nemici, lasciandoli Disorientati .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2069</ID>
+      <DefaultText>Aumenta la Penetrazione degli incantesimi del Cipher.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2074</ID>
+      <DefaultText>(Ira dei Cinque Soli) - Il Paladino lancia cinque proiettili ardenti dalla mano verso l'obiettivo della sua furia legittima causando Danno da Ustione .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1690,32 +1688,32 @@ A una mano: Danno Puro nel tempo</DefaultText>
     </Entry>
     <Entry>
       <ID>2124</ID>
-      <DefaultText>Il Guerriero diventa resistente alle Alterazioni della Risolutezza  ((Scosso , Spaventato e Terrorizzato ).</DefaultText>
+      <DefaultText>Il Guerriero diventa resistente alle Alterazioni della Risolutezza ((Scosso , Spaventato e Terrorizzato ).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2129</ID>
-      <DefaultText>Il Guerriero diventa resistente alle Alterazioni della Destrezza  ((Azzoppato , Immobilizzato e Paralizzato ).</DefaultText>
+      <DefaultText>Il Guerriero diventa resistente alle Alterazioni della Destrezza ((Azzoppato , Immobilizzato e Paralizzato ).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2134</ID>
-      <DefaultText>Il Guerriero ottiene difesa bonus contro Alterazioni dell'Acume , Alterazioni della Percezione  e Alterazioni della Costituzione .</DefaultText>
+      <DefaultText>Il Guerriero ottiene difesa bonus contro Alterazioni dell'Acume , Alterazioni della Percezione e Alterazioni della Costituzione .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2137</ID>
-      <DefaultText>Il Paladino diventa resistente alle Alterazioni della Percezione  (Distratto , Spaesato e Accecato ).</DefaultText>
+      <DefaultText>Il Paladino diventa resistente alle Alterazioni della Percezione (Distratto , Spaesato e Accecato ).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2139</ID>
-      <DefaultText>Il Paladino diventa resistente alle Alterazioni della Costituzione  (Nauseato , Indebolito e Debilitato ).</DefaultText>
+      <DefaultText>Il Paladino diventa resistente alle Alterazioni della Costituzione (Nauseato , Indebolito e Debilitato ).</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2141</ID>
-      <DefaultText>Il Paladino ottiene maggiori difese contro Alterazioni della Risolutezza , Alterazioni del Vigore  e Alterazioni della Destrezza .</DefaultText>
+      <DefaultText>Il Paladino ottiene maggiori difese contro Alterazioni della Risolutezza , Alterazioni del Vigore e Alterazioni della Destrezza .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1777,6 +1775,57 @@ La Sinergia massima diminuisce. (E anche la quantità di Sinergia con cui inizi 
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2255</ID>
+      <DefaultText>Bonus
+Invece di una forma animale, le Furie si trasformano in una Tempesta devastante.
+
+Gli incantesimi elementali del Druido hanno una Portata e una Penetrazione maggiori.
+
+Uccidere un nemico durante la metamorfosi ne aumenta la durata.
+
+Impara automaticamente i seguenti incantesimi di Druido a nuovi Livelli di Potere:
+1. Saette Danzanti 
+2. Scoppio di Fiamma Estiva 
+3. Ritorno della Tempesta 
+4. Grandinata 
+5. Tempesta Incessante 
+6. Lancia del Sole 
+7. Oltre la Tempesta 
+8. Tempesta Vendicativa 
+9. Grande Maelstrom 
+
+Penalità 
+Impossibile lanciare incantesimi di Ringiovanimento.
+
+Dopo la Metamorfosi e fino al termine del combattimento, il Druido riceve una significante penalità al Livello di Potere dei propri incantesimi di Rinvigorimento. 
+</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2257</ID>
+      <DefaultText>Bonus
+Il Druido può trasformarsi una volta per combattiemnto in qualsiasi animale della Metamorfosi.
+
+La Metamorfosi ha una durata maggiore.
+
+Al termine della Metamorfosi, al Druido viene ripristinata una parte della Salute.
+
+Impara automaticamente i seguenti incantesimi di Druido a nuovi Livelli di Potere:
+1. Marchio della Natura 
+2. Sciame d'Insetti 
+3. Invasione di Vermi 
+4. Forma di Delemgan 
+5. Terrore della Natura 
+6. Giardino della Vita 
+7. Armatura Arrugginita 
+8. Entropia 
+9. Distesa di Polline 
+
+Penalità 
+Impossibile lanciare incantesimi mentre si è in Forma Animale.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2261</ID>
       <DefaultText>Bonus
 Ingaggio +1.
@@ -1807,17 +1856,6 @@ Ottieni una sola Competenza e non ne guadagni nessuna nuova quando sali di livel
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2271</ID>
-      <DefaultText>Bonus
-Inizi il combattimento con più Ferite.
-
-I Monaci Helwalker ottengono Vigore per ogni Ferita.
-
-Penalità
-I monaci Helwalker subiscono più danni per ogni Ferita.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2273</ID>
       <DefaultText>Bonus
 Ottieni Fiamme della Devozione.
@@ -1831,21 +1869,6 @@ Le Fiamme della Devozione provocano Danno da Corrosione extra (Fiamme nere) e ap
 Ottieni Nemico Giurato.
 
 Nemico Giurato ottiene la miglioria Ostilità Dorata causando una benedizione d'oro al Paladino che dichiara un Nemico Giurato. Il Paladino riceve Soglia di Danno bonus finché l'oro non si rompe in seguito ai colpi ricevuti.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2287</ID>
-      <DefaultText>Bonus
-I sacerdoti di Magran imparano automaticamente i seguenti incantesimi al Livello di Potere corrispondente:
-1. Ventaglio di fiamme
-2. Arma spirituale
-3. Raggio di Fuoco
-4. Luce splendente
-5. Scudo di fiamme
-6. Pilastro di Fuoco sacro
-7. Torrente di fiamme
-8. Simbolo di &lt;xg&gt;Magran
-&lt;/xg&gt;9. Vigore di &lt;xg&gt;Magran&lt;/xg&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1867,7 +1890,7 @@ Deflessione ridotta.</DefaultText>
 L'Infiltrato e il suo compagno ottengono Deflessione e Soglia di Danno bonus quando distano l'un l'altro non più di 4 m.
 
 Penalità
-L'infiltrato e il suo compagno subiscono Vincoli della Pena quando distano l'un l'altro più di 7 m.</DefaultText>
+L'Infiltrato e il suo compagno subiscono Vincoli della Pena quando distano l'un l'altro più di 7 m.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1877,19 +1900,6 @@ Ottieni Assassinare passivo che conferisce agli Attacchi Furtivi maggior Penetra
 
 Penalità
 Tutti i danni ricevuti aumentano.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>2317</ID>
-      <DefaultText>Bonus
-Ottieni un Livello di Potere maggiore con gli incantesimi di Incantazione.
-
-Ottieni Azione libera passiva. Una volta per combattimento, quando il Mago subisce un'alterazione della Destrezza, eliminerà quell'effetto e diventerà temporaneamente immune a quel tipo di Alterazioni.
-
-Penalità
-Perdi l'accesso agli incantesimi di tipo Trasmutazione e Illusione.
-
-Maggiore Tempo di Recupero per gli incantesimi del Mago non del tipo Incantazione.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1947,6 +1957,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2407</ID>
+      <DefaultText>Quando il Barbaro è equipaggiato con armi da mischia, e la sua Salute arriva a 0, sferra immediatamente Attacchi doppi a chiunque sia entro la sua Portata. (Questi attacchi scatenano il Massacro).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2409</ID>
       <DefaultText>(Balzo del Dragone) - Aggiunge un'area di Danno da Ustione al momento dell'Impatto .</DefaultText>
       <FemaleText />
@@ -1963,7 +1978,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>2423</ID>
-      <DefaultText>(Urlo Disorientante) - Anche i nemici subiscono Danno da Impatto e vengono Disorientati .</DefaultText>
+      <DefaultText>(Urlo &lt;xg&gt;Disorientante&lt;/xg&gt;) - Anche i nemici subiscono Danno da Impatto e vengono Disorientati .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2018,7 +2033,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>2494</ID>
-      <DefaultText>(Comando Velocizzante) - Oltre all'Ispirazione Veloce conferisce anche quella Forte .</DefaultText>
+      <DefaultText>(Comando &lt;xg&gt;Velocizzante&lt;/xg&gt;) - Oltre all'Ispirazione Veloce conferisce anche quella Forte .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2047,8 +2062,18 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2515</ID>
+      <DefaultText>(Sacrificio Sacro) - Se il Paladino viene sconfitto durante il rogo, viene rianimato con il massimo della Salute poco dopo.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2530</ID>
       <DefaultText>Usa il tuo Scudo piccolo per intercettare meglio gli attacchi e i contrattacchi in mischia con armi, a spese del Tempo di Recupero. Quando manchi il colpo con le armi da mischia, ottieni maggiore Precisione nell'attacco con l'arma successiva.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2534</ID>
+      <DefaultText>Roteando la Sciabola con grandi colpi arcuati, ottieni Penetrazione a spese del Tempo di Recupero.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2117,6 +2142,16 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2592</ID>
+      <DefaultText>Mira attentamente ai punti deboli dell'armatura del nemico, sacrificando Tempo di Recupero in cambio di una maggiore Penetrazione .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2594</ID>
+      <DefaultText>Colpisci con pesanti attacchi perforanti ottenendo Penetrazione aggiuntiva a spese del Tempo di Recupero.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2596</ID>
       <DefaultText>Dirigi i tuoi attacchi verso il corpo, infliggendo meno Danno, ma diminuendo la Tempra del bersaglio.</DefaultText>
       <FemaleText />
@@ -2138,7 +2173,12 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>2635</ID>
-      <DefaultText>Conferisce agli Alleati la resistenza alle Alterazioni di Alterazioni della Percezione  e Alterazioni dell'Acume .</DefaultText>
+      <DefaultText>Conferisce agli Alleati la resistenza alle Alterazioni di Alterazioni della Percezione e Alterazioni dell'Acume .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2636</ID>
+      <DefaultText>Una percentuale del Danno inflitto dagli Alleati viene convertita in Salute ricevuta.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2167,8 +2207,18 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2659</ID>
+      <DefaultText>Gli effetti guaritori ripristinano una quantità maggiore di Salute degli Alleati.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2661</ID>
       <DefaultText>Il Cipher sceglie uno Spirito o un Posseduto e cerca di strappargli l'energia dell'anima al suo interno. Tutti gli spiriti o i posseduti, anche quelli accanto al bersaglio, emettono un urlo assordante che Distrae e infligge Danno Puro a chi li circonda.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2663</ID>
+      <DefaultText>Sblocca i ricordi nascosti nel subconscio della mente e dell’anima di un alleato, garantendogli l'Ispirazione Brillante per un breve periodo di tempo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2184,6 +2234,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     <Entry>
       <ID>2672</ID>
       <DefaultText>(Scudo Inflessibile) - Ora il Guerriero e i suoi Alleati ottengono anche l'Ispirazione Risoluto .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2673</ID>
+      <DefaultText>(Fusto Inflessibile) - Ora il Guerriero recupera più Salute da ogni attacco ricevuto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2237,11 +2292,6 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2074</ID>
-      <DefaultText>(Ira dei Cinque Soli) - Il Paladino lancia cinque proiettili ardenti dalla mano verso l'obiettivo della sua furia legittima causando Danno da Ustione .</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2705</ID>
       <DefaultText>Aumenta la Precisione e il Danno degli Alleati contro nemici di tipo Belva.</DefaultText>
       <FemaleText />
@@ -2269,6 +2319,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     <Entry>
       <ID>2723</ID>
       <DefaultText>Rianima un Alleato morto e gli conferisce l'Ispirazione Robusto per lungo tempo.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2732</ID>
+      <DefaultText>(Dolore Condiviso) - I nemici nella sua traiettoria sono flagellati e subiscono Danno Puro da sanguinamento a seconda del numero di Ferite del monaco.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2302,6 +2357,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2775</ID>
+      <DefaultText>Conferisce Perforazione bonus agli Alleati vicini.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2781</ID>
       <DefaultText>Spezza l'anima del bersaglio causandogli Danno Puro nel tempo. Gli incantesimi con la parola chiave Brandello usati sul bersaglio causano un'altra frattura, infliggendo immediatamente Danno Puro ed estendendo la durata dell'effetto.</DefaultText>
       <FemaleText />
@@ -2309,6 +2369,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     <Entry>
       <ID>2783</ID>
       <DefaultText>Ossessiona la mente del bersaglio con ricordi oscuri di coloro che ha perso e ucciso, Terrorizzandolo e Azzoppandolo .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2785</ID>
+      <DefaultText>Ripete gli attacchi di un Alleato con ciascuno dei ricordi della sua anima. Garantisce un significativo bonus alla Perforazione .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2329,6 +2394,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     <Entry>
       <ID>2813</ID>
       <DefaultText>Crea una sfera di oscurità divina che provoca l'Alterazione Accecato a chiunque si trovi o si sposti al suo interno.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2815</ID>
+      <DefaultText>Una intercessione maggiore della divinità Eothas. La sua luce ripristina la Salute di tutti gli alleati all'interno dell'area e fa diminuire notevolmente la durata di diversi effetti negativi.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2427,11 +2497,6 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>2964</ID>
-      <DefaultText>Produce una serie di esplosioni colorate, sorprendendo e confondendo chiunque si trovi nell'area colpita.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>2966</ID>
       <DefaultText>Applica Stordimento a chiunque si trovi nell'area di esplosione.</DefaultText>
       <FemaleText />
@@ -2453,7 +2518,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>2982</ID>
-      <DefaultText>Congela all'istante tutta l'area circostante, provocando danni, rallentando e immobilizzando chiunque si trovi all'interno.</DefaultText>
+      <DefaultText>Congela all'istante tutta l'area circostante, provocando danni, rallentando e Immobilizzando chiunque si trovi all'interno.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2464,11 +2529,6 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     <Entry>
       <ID>3098</ID>
       <DefaultText>Crea un fascio di forza contundente, Sorprendendo il bersaglio e chiunque altro al suo interno.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3133</ID>
-      <DefaultText>Dall'aroma floreale o muschiato, questa pozione contiene energia spirituale e, se bevuta da un lanciatore, lo circonda con uno Scudo mistico che aumenta Soglia di Danno e Concentrazione.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2527,23 +2587,6 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3311</ID>
-      <DefaultText>Bonus
-Ottiene competenza nell'uso dell'accetta.
-
-I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello di Potere corrispondente:
-1. Mietitura benedetta
-2. Ritirata
-3. Spine traditrici
-4. Cerchia di protezione
-5. Rovi maligni
-6. Intercessione minore
-7. Muro di spine
-8. Simbolo di Eothas
-9. Viticcio sferzante</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3337</ID>
       <DefaultText>La pelle deiforme è resistente per natura al Danno da Ustione .</DefaultText>
       <FemaleText />
@@ -2555,12 +2598,17 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
     <Entry>
       <ID>3349</ID>
-      <DefaultText>Libera chi l'impugna e gli Alleati circostanti dalle Alterazioni della Destrezza  o Alterazioni del Vigore .</DefaultText>
+      <DefaultText>Libera chi l'impugna e gli Alleati circostanti dalle Alterazioni della Destrezza o Alterazioni del Vigore .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3368</ID>
       <DefaultText>Un'ingente carica di polvere crea un'esplosione che colpisce tutti i bersagli in un'area conica, causando Danno da Ustione /Impatto , respingendoli e Disorientandoli .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3386</ID>
+      <DefaultText>Incanala il sacrificio misericordioso di San Omaku. L'aura aumenta la Velocità d'Azione degli Alleati vicini. Il bonus aumenta mentre il portatore perde Salute.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2581,11 +2629,6 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     <Entry>
       <ID>3429</ID>
       <DefaultText>Quando chi l'indossa è Sanguinante o Agonizzante, diventa immune al Danno da Corrosione .</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3431</ID>
-      <DefaultText>Erode l'armatura del bersaglio, con un impatto significativo sulla sua Soglia di Danno .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2610,7 +2653,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
     <Entry>
       <ID>3506</ID>
-      <DefaultText>Spara una saetta simile a una lancia su più bersagli, causando Danno da Perforazione , respingendoli e Immobilizzandoli  .</DefaultText>
+      <DefaultText>Spara una saetta simile a una lancia su più bersagli, causando Danno da Perforazione , respingendoli e Immobilizzandoli .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2629,6 +2672,11 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3533</ID>
+      <DefaultText>Quando chi l'indossa passa da Illeso a In Salute, i nemici circostanti ricevono il 75% in meno di Guarigione.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3547</ID>
       <DefaultText>Il proiettile attira Elettricità dall'aria mentre si dirige verso il bersaglio. Provoca Danno da Folgorazione a chiunque si trovi vicino all'obiettivo.</DefaultText>
       <FemaleText />
@@ -2639,13 +2687,18 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3555</ID>
+      <DefaultText>Conferisce Salute nel tempo e riduce il Danno subito quando chi l'indossa è Agonizzante.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3596</ID>
       <DefaultText>La signora Kaul canta attraverso la lama. Conferisce casualmente un bonus alla Soglia di Danno da mischia o alla Deflessione all'inizio del combattimento.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3608</ID>
-      <DefaultText>Conferisce per un breve periodo Resistenza alle Alterazioni della Destrezza  all'inizio del combattimento .</DefaultText>
+      <DefaultText>Conferisce per un breve periodo Resistenza alle Alterazioni della Destrezza all'inizio del combattimento .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2659,8 +2712,13 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3634</ID>
-      <DefaultText>Durante la notte, quest'Aura garantisce a tutti gli Alleati nelle vicinanze (escluso il portatore) un bonus capacità Furtività e Risolutezza.</DefaultText>
+      <ID>3636</ID>
+      <DefaultText>(Recupero Rapido) - Aumenta la quantità di Salute rigenerata.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3664</ID>
+      <DefaultText>Il portatore si trasforma in un pilastro d'acciaio immobile, riducendo i danni e ripristinando la propria Salute.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2676,6 +2734,11 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     <Entry>
       <ID>3697</ID>
       <DefaultText>Abilità passiva. Il primo attacco a segno in mischia effettuato in modalità Furtiva causa Danno Puro nel tempo per una lunga durata.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3699</ID>
+      <DefaultText>Chi indossa i guanti che concentrano energia divina può guarire un Alleato o se stesso con un tocco delle mani, ripristinando una piccola quantità di Salute.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2695,7 +2758,7 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     </Entry>
     <Entry>
       <ID>3762</ID>
-      <DefaultText>Quando il Fuoco Fatuo ti segue, l'effetto delle Alterazioni dell'Acume  si esaurisce prima e tutti i membri del gruppo lanciano attacchi più precisi contro gli spiriti.</DefaultText>
+      <DefaultText>Quando il Fuoco Fatuo ti segue, l'effetto delle Alterazioni dell'Acume si esaurisce prima e tutti i membri del gruppo lanciano attacchi più precisi contro gli spiriti.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2706,26 +2769,6 @@ I sacerdoti di Gaun imparano automaticamente i seguenti incantesimi al Livello d
     <Entry>
       <ID>3769</ID>
       <DefaultText>Genera un cono di fiamme, causando un Danno da Ustione che si protrae nel tempo a chiunque si trovi nell'area.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3771</ID>
-      <DefaultText>Evoca un Posseduto che combatterà per il gruppo . Contiene 10 cariche.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3772</ID>
-      <DefaultText>Menomazione Maggiore</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3773</ID>
-      <DefaultText>Menomazione Critica</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3775</ID>
-      <DefaultText>Aumenta il Livello di Potere per la durata del combattimento.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2791,8 +2834,13 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3862</ID>
+      <DefaultText>Se il Gatto dell'Animanzia ti segue, guadagni un bonus alle capacità Arcana e Metafisica, e tutte le creature evocate dal tuo gruppo guadagnano un bonus a Vigore e Penetrazione .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3864</ID>
-      <DefaultText>Se Eviee ti segue, guadagni un bonus Risolutezza e una maggior Resistenza alle Alterazioni della Risolutezza. Inoltre, la durata di queste ultime applicate al tuo gruppo si riduce.</DefaultText>
+      <DefaultText>Se Eviee ti segue, guadagni un bonus Risolutezza e una maggior Resistenza alle Alterazioni della Risolutezza . Inoltre, la durata di queste ultime applicate al tuo gruppo si riduce.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2803,6 +2851,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     <Entry>
       <ID>3867</ID>
       <DefaultText>Se si trova in condizioni fisiche estreme, l'utilizzatore può raddoppiare gli sforzi e chiedere un aumento della Salute per restare più a lungo in battaglia. Questa abilità recupera Salute in base all'Atletismo dell'utilizzatore.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3875</ID>
+      <DefaultText>Se Frau Nils ti segue, i tuoi attacchi in mischia sono più precisi e il tuo gruppo riceve un bonus alla Salute.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2821,8 +2874,23 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3893</ID>
+      <DefaultText>Se Prissy ti segue, le tue pozioni e incantesimi di guarigione sono più efficaci e i membri del tuo gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3895</ID>
+      <DefaultText>Se Twix ti segue, ottieni un bonus alla tua Salute massima e i membri del tuo gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3897</ID>
+      <DefaultText>Se Abraham ti segue, la tua penalità al recupero dovuta all'armatura è ridotta e i membri del tuo gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3899</ID>
-      <DefaultText>Se Algol ti segue, ogni Alterazione della Costituzione svanisce più rapidamente e i membri del gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
+      <DefaultText>Se Algol ti segue, ogni Alterazioni della Costituzione svanisce più rapidamente e i membri del gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2833,6 +2901,16 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     <Entry>
       <ID>3903</ID>
       <DefaultText>Se Chili ti segue, ricevi un bonus Risolutezza e il tuo gruppo ottiene un bonus Volontà .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3905</ID>
+      <DefaultText>Se Deus ti segue, ottieni un bonus Costituzione e i membri del tuo gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3909</ID>
+      <DefaultText>Se Freya ti segue, ottieni un bonus Acume e i membri del tuo gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2851,8 +2929,18 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3917</ID>
+      <DefaultText>Se Mercedes ti segue, ricevi un bonus alla tua Salute Massima, mentre il tuo gruppo ne riceve uno ai danni delle armi da mischia.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3921</ID>
       <DefaultText>Se Nikki ti segue, è più probabile che gli attacchi nemici ti colpiscano di striscio e il tuo gruppo riceve un bonus alla Precisione delle armi da mischia.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3929</ID>
+      <DefaultText>Se Toby ti segue, ricevi un bonus Percezione e il tuo gruppo guadagna un bonus alla Salute Massima.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2862,7 +2950,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>3953</ID>
-      <DefaultText>Conferisce Resistenza alle Alterazioni della Costituzione  quando si è in Salute o Illesi.</DefaultText>
+      <DefaultText>Conferisce Resistenza alle Alterazioni della Costituzione quando si è in Salute o Illesi.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2882,7 +2970,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>3971</ID>
-      <DefaultText>Se Filo di corteccia ti segue, ogni Alterazione della Destrezza  applicata su di te svanisce più velocemente e il tuo gruppo è più veloce in combattimento.</DefaultText>
+      <DefaultText>Se Filo di corteccia ti segue, ogni Alterazione della Destrezza applicata su di te svanisce più velocemente e il tuo gruppo è più veloce in combattimento.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2893,6 +2981,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     <Entry>
       <ID>3993</ID>
       <DefaultText>Aura che diminuisce la Tempra , i Riflessi e la Volontà del nemico. La penalità aumenta all'aumentare della capacità Sopravvivenza del portatore.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4063</ID>
+      <DefaultText>Il Sacerdote cerca di finire un avversario ferito con un colpo preciso e letale, tanto più potente a seconda di quanta Salute ha perso il bersaglio.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2918,11 +3011,6 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     <Entry>
       <ID>4113</ID>
       <DefaultText>Conferisce per un breve periodo le Ispirazioni In Forma e Nerbo all'inizio del combattimento.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4115</ID>
-      <DefaultText>Il lanciatore evoca frammenti di anima bestiale dalla Pelle pallida al fine di produrre un ululato terrificante che provoca paura nei nemici nelle vicinanze.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2957,7 +3045,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>4140</ID>
-      <DefaultText>Conferisce Resistenza alle Alterazioni della Costituzione  quando si è In Salute o Illesi.</DefaultText>
+      <DefaultText>Conferisce Resistenza alle Alterazioni della Costituzione quando si è In Salute o Illesi.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2971,11 +3059,6 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>4151</ID>
-      <DefaultText>Durante il giorno, il portatore riceve un Livello di Potere superiore per gli attacchi basati sull'elemento Fuoco.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>4152</ID>
       <DefaultText>Durante la notte, il portatore riceve un Livello di Potere superiore per gli attacchi da Congelamento .</DefaultText>
       <FemaleText />
@@ -2983,11 +3066,6 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     <Entry>
       <ID>4155</ID>
       <DefaultText>Aura che infligge Danno Puro nel tempo ai nemici nelle vicinanze, sulla base della loro Salute rimasta. (È inflitto un Danno completo agli avversari Agonizzanti)</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>4158</ID>
-      <DefaultText>Il portatore è immune agli Arresti, nel caso in cui abbia una o più Menomazioni.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3001,8 +3079,13 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>4245</ID>
-      <DefaultText>Ricuce la carne e aggiusta le ossa, rimuovendo le Menomazioni dal bersaglio. La procedura è molto cruenta, comunque, e il paziente ha le difese abbassate fino a quando non si sarà concesso il riposo necessario.</DefaultText>
+      <ID>4268</ID>
+      <DefaultText>La gemma del pomolo di Distraho, condivide una parte dell'essenza che conserva. Consentono al portatore di recuperare una piccola parte di Salute.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4270</ID>
+      <DefaultText>La gemma del pomolo di Distraho pulsa di essenze vivificanti. Consente di recuperare una piccola parte di Salute al portatore e ai suoi alleati nelle vicinanze.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3017,7 +3100,7 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>4276</ID>
-      <DefaultText>Conferisce Immunità alle Alterazioni della Costituzione  se si è in Salute o Illesi.</DefaultText>
+      <DefaultText>Conferisce Immunità alle Alterazioni della Costituzione se si è in Salute o Illesi.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3042,22 +3125,22 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>4300</ID>
-      <DefaultText>(Timore dell'Araldo della Morte) - Se è in uso, conferisce all'Osservatore un'Ispirazione del Vigore  e della Percezione.</DefaultText>
+      <DefaultText>(Timore dell'Araldo della Morte) - Se è in uso, conferisce all'Osservatore un'Ispirazione del Vigore e della Percezione.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4302</ID>
-      <DefaultText>(Abito dell'Araldo della Morte) - Se è in uso, conferisce all'Osservatore un'Ispirazione dell'Acume  e un'Ispirazione della Percezione .</DefaultText>
+      <DefaultText>(Abito dell'Araldo della Morte) - Se è in uso, conferisce all'Osservatore un'Ispirazione dell'Acume e un'Ispirazione della Percezione .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4304</ID>
-      <DefaultText>(Crudeltà dell'Araldo della Morte) - Se è in uso, garantisce all'Osservatore un'Ispirazione del Vigore  e un'Ispirazione dell'Acume .</DefaultText>
+      <DefaultText>(Crudeltà dell'Araldo della Morte) - Se è in uso, garantisce all'Osservatore un'Ispirazione del Vigore e un'Ispirazione dell'Acume .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4306</ID>
-      <DefaultText>(Maestosità dell'Araldo della Morte) - Se è in uso, conferisce all'Osservatore un'Ispirazione dell'Acume , un'Ispirazione del Vigore  e un'Ispirazione dell'Acume .</DefaultText>
+      <DefaultText>(Maestosità dell'Araldo della Morte) - Se è in uso, conferisce all'Osservatore un'Ispirazione dell'Acume , un'Ispirazione del Vigore e un'Ispirazione dell'Acume .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3083,6 +3166,16 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     <Entry>
       <ID>4321</ID>
       <DefaultText>(Comando dei Perduti) - Ora le anime Immobilizzano i nemici nell'area.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4324</ID>
+      <DefaultText>Gli Attacchi Furtivi causano il sanguinamento del bersaglio provocando Danno Puro fino al termine del combattimento.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4329</ID>
+      <DefaultText>Applica una Salute inferiore nel tempo se il portatore cade Agonizzante.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3151,6 +3244,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4379</ID>
+      <DefaultText>Colpisce con pesanti attacchi estenuanti ottenendo Penetrazione aggiuntiva a spese del Tempo di Recupero.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4382</ID>
       <DefaultText>Fa roteare la lama con un arco ampio e colpisce tutti i bersagli nelle vicinanze con Danno da Lacerazione /Perforazione mandandoli al tappeto e Azzoppandoli .</DefaultText>
       <FemaleText />
@@ -3197,7 +3295,12 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     </Entry>
     <Entry>
       <ID>4422</ID>
-      <DefaultText>Ottieni Penetrazione aumentata con gli attacchi Corrosivi e di Decadimento.</DefaultText>
+      <DefaultText>Ottieni Penetrazione aumentata con gli attacchi Corrosivi e Decadimento.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4434</ID>
+      <DefaultText>Aumenta la Salute Massima di base che guadagni a ogni livello.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3221,13 +3324,13 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>4507</ID>
-      <DefaultText>Lancia un dardo avvelenato a un bersaglio nei paraggi, infliggendo un Danno da Perforazione e applicando gli effetti di un Danno da Corrosione nel tempo.</DefaultText>
+      <ID>4505</ID>
+      <DefaultText>Il combattente colpisce il bersaglio con forza devastante, acquisendo una notevole Penetrazione aggiuntiva durante l'attacco.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>4510</ID>
-      <DefaultText>Il Paladino si concentra nel proteggersi da attacchi in arrivo, guadagnando un bonus alla Soglia di Danno temporaneo.</DefaultText>
+      <ID>4507</ID>
+      <DefaultText>Lancia un dardo avvelenato a un bersaglio nei paraggi, infliggendo un Danno da Perforazione e applicando gli effetti di un Danno da Corrosione nel tempo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3263,6 +3366,11 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
     <Entry>
       <ID>4562</ID>
       <DefaultText>Ingaggiare un nemico per la prima volta in combattimento infligge l'Alterazione Confuso al bersaglio.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4571</ID>
+      <DefaultText>Fa sì che gli Alleati nei paraggi recuperino la Salute gradualmente.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3341,8 +3449,13 @@ Nonostante questi vantaggi, la relazione comporta dei rischi. I Ranger condivido
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4687</ID>
+      <DefaultText>Penetrazione aumentata per un breve periodo.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4755</ID>
-      <DefaultText>All'inizio del e solo per il primo attacco con arma combattimento conferisce bonus a Precisione e al Danno.</DefaultText>
+      <DefaultText>All'inizio del combattimento e solo per il primo attacco con arma conferisce bonus a Precisione e al Danno.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

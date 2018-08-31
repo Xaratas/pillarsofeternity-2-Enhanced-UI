@@ -25,48 +25,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3093</ID>
-      <DefaultText>Una batteria di piccoli fuochi d'artificio variopinti di diverso tipo. Se accesi, producono effetti e rumori spettacolari. Sebbene siano innocui, possono essere utilizzati per Distrarre i nemici in perlustrazione.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3096</ID>
-      <DefaultText>Un semplice dispositivo ideato per generare un'improvvisa e rumorosa esplosione di luce che Stordisce e Spaventa gli obiettivi vicini.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3105</ID>
-      <DefaultText>Un insieme rudimentale di ceneri e fuliggine. Produce una nube di fumo e polvere nocivi, causando Danno da Ustione e Accecando tutti coloro che vengono colpiti.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3114</ID>
       <DefaultText>Una fragile sfera contenente composti caustici e gas soffocanti. Quando esplode, una nube acida fuoriesce dal congegno, infliggendo Danno da Corrosione e riducendo il valore effettivo dell'armatura.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3115</ID>
-      <DefaultText>Bomba Fulminante</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3116</ID>
       <DefaultText>Una labirinto di cavi e parti elementali. La miccia di rame emette terribili scintille in prossimità di carne e armature. Se attivato, il dispositivo libera un nugolo di scariche elettriche infliggendo un Danno da Folgorazione ed eventualmente Paralizzando qualsiasi creatura colpita dall'esplosione.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3119</ID>
-      <DefaultText>Bomba Congelante</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3120</ID>
-      <DefaultText>Schegge di Ghiaccio elementale sospese in acceleratori alchemici. La sfera pulsa di energie instabili. Se frantumata, rilascia una furia ibernante che provoca Danno da Congelamento nell'area circostante, rallentando e Paralizzando qualsiasi creatura nelle vicinanze.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3121</ID>
-      <DefaultText>Carica a Implosione</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -86,7 +51,7 @@
     </Entry>
     <Entry>
       <ID>3145</ID>
-      <DefaultText>Il liquido contenuto in questo flacone schiumeggia e ribolle naturalmente. Se ingerito, l'elisir contorce e deforma il volto, trasformandolo in un'orribile maschera di carne putrefatta e divorata dagli insetti e altri elementi disgustosi che Terrorizzano  e Nauseano  i nemici vicini.</DefaultText>
+      <DefaultText>Il liquido contenuto in questo flacone schiumeggia e ribolle naturalmente. Se ingerito, l'elisir contorce e deforma il volto, trasformandolo in un'orribile maschera di carne putrefatta e divorata dagli insetti e altri elementi disgustosi che Terrorizzano e Nauseano i nemici vicini.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -105,11 +70,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3321</ID>
-      <DefaultText>Pergamena della Mano della Gioa e del Tormento</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3394</ID>
       <DefaultText>Invoca il favore divino garantendo l'Ispirazione Profondo agli Alleati nell'Area d'Effetto.</DefaultText>
       <FemaleText />
@@ -117,6 +77,11 @@
     <Entry>
       <ID>3395</ID>
       <DefaultText>Crea un cono di Fuoco davanti al lettore, infliggendo Danno da Ustione a tutti i presenti nell'Area d'Effetto.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3396</ID>
+      <DefaultText>Ripristina una piccola quantità di Salute a tutti gli alleati nell'area d'effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -147,11 +112,6 @@
     <Entry>
       <ID>3405</ID>
       <DefaultText>Isola un bersaglio singolo in una sfera protettiva, proteggendolo dai pericoli mentre la sua Salute si rigenera.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3406</ID>
-      <DefaultText>La pergamena scaglia un potente dardo elettrico che procede in linea retta e poi rimbalza sulle pareti, causando Danno da Folgorazione chiunque incontri al proprio passaggio.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -195,6 +155,11 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3416</ID>
+      <DefaultText>Incanala energia lunare in una fonte di potere circoscritta, rigenerando la Salute degli alleati nell'area d'effetto e conferendo un bonus minore a tutte le difese.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3418</ID>
       <DefaultText>Invoca una luce sfolgorante che infligge penalità a tutte le Difese dei nemici nell'Area d'Effetto e Danno da Ustione nel tempo.</DefaultText>
       <FemaleText />
@@ -205,18 +170,23 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3421</ID>
+      <DefaultText>Ripristina una significativa quantità di Salute a tutti gli alleati nell'area d'effetto.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3422</ID>
       <DefaultText>Evoca un'enorme colonia di insetti velenosi, infliggendo Danno Puro nel tempo, riducendo la Concentrazione e causando Nausea a tutti i presenti nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3424</ID>
-      <DefaultText>Scatena un rogo terrificante intorno al lettore, infliggendo Danno da Ustione a chiunque gli si trovi vicino.</DefaultText>
+      <ID>3423</ID>
+      <DefaultText>Dona una seconda occasione ai compagni caduti, rianimando gli alleati nell'area d'effetto e ripristinando una piccola quantità della loro Salute.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3425</ID>
-      <DefaultText>Il lettore evoca una spaventosa saetta di Elettricità che piomba direttamente su un bersaglio singolo e poi salta sui nemici circostanti, fino a un massimo di sei, provocando Danno da Folgorazione . Gli altri personaggi presenti nell'Area d'Effetto non vengono danneggiati da questo fulmine arcano.</DefaultText>
+      <ID>3424</ID>
+      <DefaultText>Scatena un rogo terrificante intorno al lettore, infliggendo Danno da Ustione a chiunque gli si trovi vicino.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -235,23 +205,8 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3431</ID>
-      <DefaultText>Erode l'armatura del bersaglio, con un impatto significativo sulla sua Soglia di Danno .</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3432</ID>
       <DefaultText>Una terribile pioggia di Fuoco si abbatte sull'Area d'Effetto, infliggendo ripetuti danni da Ustione a tutti coloro che vi si trovano.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3433</ID>
-      <DefaultText>Il lettore incanala la potenza di una tempesta, scagliando fulmini su tutti i bersagli che colpisce (e da cui viene colpito) con un'arma, provacando danni da Folgorazione </DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>3434</ID>
-      <DefaultText>Il lettore invoca un raggio di luce che cura gli Alleati e Ustiona i nemici sul proprio cammino.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -270,18 +225,13 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3438</ID>
-      <DefaultText>Un cataclisma di vento, fuoco, fulmini e pioggia si abbatte sull'area prescelta. Chi viene catturato dal maelstrom subisce diversi tipi di Danno.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>3439</ID>
       <DefaultText>Una serie di meteore infuocate cadono dal cielo, colpendo l'area con danni da Ustione sia all'impatto che nel tempo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>3440</ID>
-      <DefaultText>Invoca un devastante vortice di vento che scaglia in aria le sue vittime e infligge Danno da Impatto su tutto ciò che tocca.</DefaultText>
+      <ID>3638</ID>
+      <DefaultText>Se Frau Nils ti segue, i tuoi attacchi in mischia sono più precisi e il tuo gruppo riceve un bonus alla Salute.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -300,13 +250,33 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3645</ID>
+      <DefaultText>Se Prissy ti segue, le tue pozioni e incantesimi di Guarigione sono più efficaci e i membri del tuo gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3646</ID>
+      <DefaultText>Se Twix ti segue, ottieni un bonus alla tua Salute Massima e i membri del tuo gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3647</ID>
+      <DefaultText>Se Abraham ti segue, la tua penalità al recupero dovuta all'armatura è ridotta e i membri del tuo gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3648</ID>
-      <DefaultText>Se Algol ti segue, ogni Alterazione della Costituzione  svanisce più rapidamente e i membri del gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
+      <DefaultText>Se Algol ti segue, ogni Alterazione della Costituzione svanisce più rapidamente e i membri del gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3650</ID>
       <DefaultText>Se Chili ti segue, ricevi un bonus Risolutezza e il tuo gruppo ottiene un bonus Volontà .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3652</ID>
+      <DefaultText>Se Freya ti segue, ottieni un bonus Acume e i membri del tuo gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -320,8 +290,18 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3656</ID>
+      <DefaultText>Se Mercedes ti segue, ricevi un bonus alla tua Salute Massima, mentre il tuo gruppo ne riceve uno ai danni delle armi da mischia.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3659</ID>
       <DefaultText>Se Frittella ti segue, ottieni un bonus Vigore e il tuo gruppo ha una maggiore resistenza ai danni Ustione .</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3661</ID>
+      <DefaultText>Se Toby ti segue, ricevi un bonus Percezione e il tuo gruppo guadagna un bonus alla sua Salute Massima.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -331,7 +311,7 @@
     </Entry>
     <Entry>
       <ID>3693</ID>
-      <DefaultText>Se Eviee ti segue, guadagni un bonus Risolutezza e una maggior resistenza alle Alterazioni della Risolutezza . Inoltre, la durata delle Alterazione della Risolutezza  applicate al tuo gruppo si riduce.</DefaultText>
+      <DefaultText>Se Eviee ti segue, guadagni un bonus Risolutezza e una maggior resistenza alle Alterazioni della Risolutezza . Inoltre, la durata delle Alterazione della Risolutezza applicate al tuo gruppo si riduce.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -346,12 +326,17 @@
     </Entry>
     <Entry>
       <ID>4282</ID>
-      <DefaultText>Quando il fuoco fatuo ti segue, l'effetto delle Alterazioni dell'Acume  si esaurisce prima e tutti i membri del gruppo lanciano attacchi più precisi contro gli spiriti.</DefaultText>
+      <DefaultText>Quando il fuoco fatuo ti segue, l'effetto delle Alterazioni dell'Acume si esaurisce prima e tutti i membri del gruppo lanciano attacchi più precisi contro gli spiriti.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4390</ID>
       <DefaultText>Quando il cucciolo di segugio dei sepolcri ti segue infliggi un bonus Danno contro i Posseduti e tutti quelli del gruppo subiscono un Danno da Corrosione ridotto.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4406</ID>
+      <DefaultText>Se Deus ti segue, ottieni un bonus Costituzione e i membri del tuo gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -371,7 +356,7 @@
     </Entry>
     <Entry>
       <ID>4485</ID>
-      <DefaultText>Se Filo di corteccia ti segue, ogni Alterazione della Destrezza  applicata su di te svanisce più velocemente e il tuo gruppo è più Veloce in combattimento.</DefaultText>
+      <DefaultText>Se Filo di corteccia ti segue, ogni Alterazione della Destrezza applicata su di te svanisce più velocemente e il tuo gruppo è più Veloce in combattimento.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
