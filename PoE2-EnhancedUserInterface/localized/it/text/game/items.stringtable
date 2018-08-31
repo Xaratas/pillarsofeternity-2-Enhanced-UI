@@ -75,6 +75,11 @@
       <FemaleText />
     </Entry>
 	 <Entry>
+      <ID>3133</ID>
+      <DefaultText>Dall'aroma floreale o muschiato, questa pozione contiene energia spirituale e, se bevuta da un lanciatore, lo circonda con uno Scudo mistico che aumenta &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Soglia di Danno &lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; e Concentrazione.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
       <ID>3138</ID>
       <DefaultText>Questo elisir dal sapore orribile altera la pelle e le strutture interne del corpo rendendole più resistenti ai danni da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode"&gt;Corrosione&#160;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing"&gt;Congelamento&#160;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt; e &lt;link="glossary://GlossaryEntry_Shock"&gt;Folgorazione&#160;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
@@ -119,6 +124,11 @@
       <DefaultText>Crea un cono di Fuoco davanti al lettore, infliggendo Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; a tutti i presenti nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>3396</ID>
+      <DefaultText>Ripristina una piccola quantità di &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; a tutti gli alleati nell'area d'effetto.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>3398</ID>
       <DefaultText>Richiama un intenso raggio di sole, che infligge &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; e possibile &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Cecità &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; a chi si trova nell'Area d'Effetto.</DefaultText>
@@ -146,7 +156,7 @@
     </Entry>
     <Entry>
       <ID>3405</ID>
-      <DefaultText>Isola un bersaglio singolo in una sfera protettiva, proteggendolo dai pericoli mentre la sua Salute si rigenera.</DefaultText>
+      <DefaultText>Isola un bersaglio singolo in una sfera protettiva, proteggendolo dai pericoli mentre la sua &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; si rigenera.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -161,7 +171,7 @@
     </Entry>
     <Entry>
       <ID>3408</ID>
-      <DefaultText>Ripristina una modesta quantità di Salute a tutti gli Alleati nell'Area d'Effetto.</DefaultText>
+      <DefaultText>Ripristina una modesta quantità di &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; a tutti gli Alleati nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -194,6 +204,11 @@
       <DefaultText>Colpisce il bersaglio con cinque dardi di energia pura, mentre un'onda d'urto infligge Danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; ai nemici nelle vicinanze.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>3416</ID>
+      <DefaultText>Incanala energia lunare in una fonte di potere circoscritta, rigenerando la &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; degli alleati nell'area d'effetto e conferendo un bonus minore a tutte le difese.</DefaultText>
+      <FemaleText />
+    </Entry>
 	<Entry>
       <ID>3418</ID>
       <DefaultText>Invoca una luce sfolgorante che infligge penalità a tutte le Difese dei nemici nell'Area d'Effetto e Danno da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; nel tempo.</DefaultText>
@@ -204,9 +219,19 @@
       <DefaultText>Tre artigli di pietra emergono dal terreno, trasformando la carne in pietra, infliggendo &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralisi &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; e Danno da &lt;link="glossary://GlossaryEntry_Slashing"&gt;Lacerazione&#160;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; a chiunque si trovi nell'area.</DefaultText>
       <FemaleText />
     </Entry>
+	  <Entry>
+      <ID>3421</ID>
+      <DefaultText>Ripristina una significativa quantità di &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; a tutti gli alleati nell'area d'effetto.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>3422</ID>
       <DefaultText>Evoca un'enorme colonia di insetti velenosi, infliggendo Danno &lt;link="glossary://GlossaryEntry_Damage_Raw"&gt;Puro&#160;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; nel tempo, riducendo la Concentrazione e causando &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Nausea &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; a tutti i presenti nell'Area d'Effetto.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>3423</ID>
+      <DefaultText>Dona una seconda occasione ai compagni caduti, rianimando gli alleati nell'area d'effetto e ripristinando una piccola quantità della loro &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
@@ -231,7 +256,7 @@
     </Entry>
     <Entry>
       <ID>3430</ID>
-      <DefaultText>Ripristina una notevole quantità di Salute a tutti gli Alleati nell'Area d'Effetto.</DefaultText>
+      <DefaultText>Ripristina una notevole quantità di &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; a tutti gli Alleati nell'Area d'Effetto.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -241,7 +266,7 @@
     </Entry>
 	  <Entry>
       <ID>3432</ID>
-      <DefaultText>Una terribile pioggia di Fuoco si abbatte sull'Area d'Effetto, infliggendo ripetuti danni da Ustione a tutti coloro che vi si trovano.</DefaultText>
+      <DefaultText>Una terribile pioggia di Fuoco si abbatte sull'Area d'Effetto, infliggendo ripetuti danni da &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt; a tutti coloro che vi si trovano.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -284,6 +309,11 @@
       <DefaultText>Invoca un devastante vortice di vento che scaglia in aria le sue vittime e infligge Danno da &lt;link="glossary://GlossaryEntry_Crushing"&gt;Impatto&#160;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; su tutto ciò che tocca.</DefaultText>
       <FemaleText />
     </Entry>
+	  <Entry>
+      <ID>3638</ID>
+      <DefaultText>Se Frau Nils ti segue, i tuoi attacchi in mischia sono più precisi e il tuo gruppo riceve un bonus alla &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
 	 <Entry>
       <ID>3639</ID>
       <DefaultText>Se Demone rosso ti segue, ricevi un bonus Percezione e il tuo gruppo ottiene un bonus &lt;link="glossary://GlossaryEntry_Reflexes"&gt;Riflessi&#160;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/link&gt;.</DefaultText>
@@ -299,14 +329,34 @@
       <DefaultText>Se Lil' Babs ti segue, ricevi un bonus Destrezza e il tuo gruppo ottiene un bonus &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; nei confronti degli attacchi delle armi nemiche.</DefaultText>
       <FemaleText />
     </Entry>
+	 <Entry>
+      <ID>3645</ID>
+      <DefaultText>Se Prissy ti segue, le tue pozioni e incantesimi di Guarigione sono più efficaci e i membri del tuo gruppo recuperano parte della loro &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; se uccidono un nemico.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3646</ID>
+      <DefaultText>Se Twix ti segue, ottieni un bonus alla tua &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; Massima e i membri del tuo gruppo recuperano parte della loro &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; se uccidono un nemico.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>3647</ID>
+      <DefaultText>Se Abraham ti segue, la tua penalità al recupero dovuta all'armatura è ridotta e i membri del tuo gruppo recuperano parte della loro &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; se uccidono un nemico.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>3648</ID>
-      <DefaultText>Se Algol ti segue, ogni &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazione&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; svanisce più rapidamente e i membri del gruppo recuperano parte della loro Salute se uccidono un nemico.</DefaultText>
+      <DefaultText>Se Algol ti segue, ogni &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Alterazione&#160;della Costituzione &#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; svanisce più rapidamente e i membri del gruppo recuperano parte della loro &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; se uccidono un nemico.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
       <ID>3650</ID>
       <DefaultText>Se Chili ti segue, ricevi un bonus Risolutezza e il tuo gruppo ottiene un bonus &lt;link="glossary://GlossaryEntry_Will"&gt;Volontà&#160;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	  <Entry>
+      <ID>3652</ID>
+      <DefaultText>Se Freya ti segue, ottieni un bonus Acume e i membri del tuo gruppo recuperano parte della loro &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; se uccidono un nemico.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -319,9 +369,19 @@
       <DefaultText>Se Hemp ti segue, ricevi un bonus Costituzione, mentre il tuo gruppo ne riceve uno alla &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
     </Entry>
+	<Entry>
+      <ID>3656</ID>
+      <DefaultText>Se Mercedes ti segue, ricevi un bonus alla tua &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; Massima, mentre il tuo gruppo ne riceve uno ai danni delle armi da mischia.</DefaultText>
+      <FemaleText />
+    </Entry>
 	 <Entry>
       <ID>3659</ID>
       <DefaultText>Se Frittella ti segue, ottieni un bonus Vigore e il tuo gruppo ha una maggiore resistenza ai danni &lt;link="glossary://GlossaryEntry_Burning"&gt;Ustione&#160;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
+      <ID>3661</ID>
+      <DefaultText>Se Toby ti segue, ricevi un bonus Percezione e il tuo gruppo guadagna un bonus alla sua &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; Massima.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
@@ -355,6 +415,11 @@
       <FemaleText />
     </Entry>
 	 <Entry>
+      <ID>4406</ID>
+      <DefaultText>Se Deus ti segue, ottieni un bonus Costituzione e i membri del tuo gruppo recuperano parte della loro &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; se uccidono un nemico.</DefaultText>
+      <FemaleText />
+    </Entry>
+	 <Entry>
       <ID>4410</ID>
       <DefaultText>Se Rare Dan ti segue, gli attacchi nemici nei tuoi confronti vanno a segno come colpi di striscio con maggiore frequenza e il tuo gruppo riceve un bonus &lt;link="glossary://GlossaryEntry_Fortitude"&gt;Tempra&#160;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/link&gt;.</DefaultText>
       <FemaleText />
@@ -381,7 +446,7 @@
     </Entry>
 	 <Entry>
       <ID>4647</ID>
-      <DefaultText>Se Socrate ti segue recuperi una parte di Salute quando infliggi un colpo di grazia a un nemico, mentre il tuo gruppo ottiene un aumento della &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; nei confronti degli attacchi da mischia.</DefaultText>
+      <DefaultText>Se Socrate ti segue recuperi una parte di &lt;link="glossary://GlossaryEntry_Health"&gt;Salute&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; quando infliggi un colpo di grazia a un nemico, mentre il tuo gruppo ottiene un aumento della &lt;link="glossary://GlossaryEntry_Deflection"&gt;Deflessione&#160;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; nei confronti degli attacchi da mischia.</DefaultText>
       <FemaleText />
     </Entry>
 	 <Entry>
