@@ -1,4 +1,63 @@
 ## CHANGELOG
+### Version 1.3.0
+- Added and fixed all new entries added in patch 2.1.
+- Added missing entries from the BoW DLC.
+- Changed the color of the Raw icon slightly.
+- Changed the font for all rank 1 afflictions/inspirations.
+- Reduced the space between the rank number and the icon for the `Fit` inspiration.
+- Added missing entries containing the keyword `Defenses`.
+- The `{0}` value tag will no longer be colorized and will instead use the default UI color.
+- Changed the description of statuseffect ID `595` to something that's easier to comprehend.
+- Added an italian translation of the new cyclopedia entry for “The Wheel”.
+- Lots and lots of bug fixes.
+- Added a few entries not in use at the moment but that might be used by the mod in the near future...
+
+### Version 1.2.4
+- Changed all custom entry ID's to something less likely to cause conflicts with other mods.
+- Updated the mod for game version 2.0.1.
+
+### Version 1.2.2
+- Fixed a problem that could prevent any other mods than EnhUI to load properly.
+
+### Version 1.2.1
+- Changed the color of Corrode damage (both icon and text have new colors):
+  `&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#adc455&gt;Corrode&lt;#9ba967&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;`
+- The cyclopedia entry for "The Wheel" has been re-written by the excellent @commonterry, a huge thanks to him!
+- Fixed a issue that was causing the new damage type cyclopedia entries not to show properly.
+
+### Version 1.2.0
+**Aesthetics**
+- Removed all instances of the <b> tag from the mod.
+- Colorized all defense keyword texts to match the color of their icons (Will, Fortitude, Deflection and Reflex).
+- Colorized all icons and entry names for the damage types Freeze, Shock, Corrode, Burn and Raw.
+- Colorized the {0} tag so that the whole text is the same color (i.e. the text "+55 Health" should now have the same color). The following ID's have been edited:
+
+  126, 127, 128, 129, 367, 368, 370, 371, 372, 1102, 1104, 1108, 1109, 1110, 1111, 1112, 1137, 1143, 1147, 1160, 1161, 1234, 1235, 1261, 1275, 1370, 1582, 1628, 1629, 1676, 1693, 2259, 2291, 2326, 2432, 2433, 3362, 4019.
+
+  Note: The edited ID's will need a manual touch-up and/or a new RegEx.
+
+- Decreased the space between keyword and icon for the defenses Will and Reflex.
+
+**Bug fixes**
+- Removed a keyword from ID 180 (cyclopedia.stringtable) - "Windmill Slash".
+- Removed a keyword from ID 150 (cyclopedia.stringtable) - "Snake's Reflexes".
+- Added a few missing line-height tags as well as a missing color tag (abilities, gui and statuseffects).
+- Freeze damage should now correctly be referenced as Freeze damage not Freezing damage (where appropriate).
+- The Seeing Red enchantment should no longer display a < bracket next to it's name (ID 530 in gui.stringtable).
+- Removed incorrectly applied stylization to a number of keywords (can't remember exactly which, check the commit for more info).
+- Added a ton of <xg> tags to avoid incorrect links to keywords.
+- Removed a bunch of unused entries.
+
+**Other**
+- Fixed a number of small spelling errors and bugs.
+- Added a new cyclopedia entry for The Wheel.
+- Added new linked keywords to the cyclopedia entry Berath's Wheel.
+- Linked multiple keywords to the cyclopedia entries The Beyond and In-Between.
+
+### Version 1.1.5
+- Updated German localization for game version 2.0.
+- Updated Italian localization for game version 2.0.
+
 ### Version 1.1.0
 - New icon for the "Health" keyword! All instances of the keyword "Health" should now have a icon next to it's name.
 - Fixed a issue that was causing the game to give a "Version Warning" message when no such warning was warranted.
