@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\cyclopedia</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>890</EntryCount>
+  <Entries>
+    <Entry>
+      <ID>84</ID>
+      <DefaultText>La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;précision&lt;/link&gt;&lt;/nobr&gt; est indissociable de la plupart des attaques. Elle influence leurs chances d'affecter la cible. Elle dépend essentiellement de la classe et du niveau du personnage, mais est aussi influencée par la perception, les talents et autres effets actifs, tels que les sorts ou les objets. En cas d'attaque, la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;précision&lt;/link&gt;&lt;/nobr&gt; est comparée à la défense appropriée de la cible pour déterminer la manière dont le jet d'attaque sera modifié. Si la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;précision&lt;/link&gt;&lt;/nobr&gt; est supérieure à la défense de la cible, elle a plus de chances de se traduire par un coup ou un critique et moins de chances de se traduire par une éraflure ou un échec.
+Toute compétence ou talent qui n'utilise pas d'arme dans l'attaque gagne un petit bonus de &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;précision&lt;/link&gt;&lt;/nobr&gt; basé sur le niveau du personnage.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>86</ID>
+      <DefaultText>La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;déviation&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; correspond à la défense utilisée pour résister à des attaques de mêlée et des attaques à distance directes contre le personnage situé en dehors de la zone d'effet (ZE). Elle dépend de la classe, du niveau et de la détermination du personnage, mais peut aussi être influencée par les boucliers, certaines armes, les talents et autres effets, tels que les sorts ou les objets.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>90</ID>
+      <DefaultText>La propriété défensive &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Réflexes&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; permet aux personnages d'esquiver les redoutables attaques à zone d'effet (explosions, éclairs). Elle dépend de la classe, du niveau, de la dextérité et de la perception du personnage, mais peut aussi être influencée par d'autres effets.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>92</ID>
+      <DefaultText>La propriété défensive &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Volonté&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; s'oppose aux attaques mentales (sort paralysant mentalement la cible, par exemple). Elle dépend de la classe, du niveau, de l'intelligence et de la détermination du personnage, mais peut aussi être influencée par d'autres effets.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>94</ID>
+      <DefaultText>Affliction touchant la Perception. Les personnages aveuglés souffrent de -5 en Perception, -10 en &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Précision&lt;/link&gt;&lt;/nobr&gt;, de 50 % de récupération en plus, sont considérés comme pris à revers et la portée de toutes leurs attaques à distance est diminuée de moitié. Les personnages aveuglés ne peuvent pas utiliser ni subir d'attaques de regard.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>100</ID>
+      <DefaultText>Affliction touchant la Puissance. Une victime sous l'effet d'un Étourdissement souffre de -5 en Puissance, -4 en &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; et ne peut effectuer d'engagement.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>102</ID>
+      <DefaultText>Afflictions touchant l'Intelligence. Une cible dominée est soumise à la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;volonté&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; de l'ennemi et utilisera tout ce qui est en son pouvoir pour se battre contre ses anciens alliés. -5 en Intelligence.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>104</ID>
+      <DefaultText>La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;déviation&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; est réduite de 10 points.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>120</ID>
+      <DefaultText>Affliction touchant la Puissance. Les personnages assommés ne peuvent pas entreprendre d'action, ne peuvent pas engager, ont un malus à toutes leurs défenses et souffrent de -4 en &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; et de -5 en Puissance.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>130</ID>
+      <DefaultText>La blessure Poignet foulé inflige une pénalité à la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Déviation&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>134</ID>
+      <DefaultText>Une Entorse à la cheville réduit les défenses de &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Réflexe&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; du personnage.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>146</ID>
+      <DefaultText>Il existe quatre types de défense dans Pillars of Eternity : la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Déviation&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, la Robustesse, les &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Réflexes&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; et la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Volonté&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;. Chaque type de défense sert à résister à une catégorie d'attaques différente via le jet d'attaque. La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Déviation&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; sert à résister aux attaques à l'arme directes ou aux attaques similaires à celles effectuées au moyen d'une arme. La Robustesse s'oppose aux attaques physiques visant à neutraliser un personnage ou à nuire à son intégrité physique (via un poison, par exemple). Les &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Réflexes&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; permettent de résister aux attaques physiques à effet de zone, comme les boules de &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;feu&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; et les éclairs. La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Volonté&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; s'oppose à presque toutes les attaques psychiques.
+
+La Robustesse, les &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Réflexes&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; et la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Volonté&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; reposent tous sur une paire d'attributs. La Robustesse repose sur la Puissance et la Constitution. Les &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Réflexes&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; reposent sur la Dextérité et la Perception. Et la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Volonté&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; repose sur l'Intelligence et la Détermination. La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Déviation&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; de base dépend de la classe du personnage et de sa Détermination. À chaque niveau, tous les personnages reçoivent des bonus défensifs. En outre, les sorts, les capacités, les afflictions et les objets peuvent tous modifier les valeurs de défense d'un personnage.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>150</ID>
+      <DefaultText>Une capacité ou un talent passif peut être attribué à un personnage si le bonus est acquis automatiquement. Par exemple, si un personnage est doté de &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Réflexes&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; félins, ses bonus de &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;réflexes&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; sont automatiquement enregistrés.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>154</ID>
+      <DefaultText>Pour toutes les attaques dans Pillars of Eternity, la valeur de &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Précision&lt;/link&gt;&lt;/nobr&gt; de l'attaquant est comparée à l'une des quatre propriétés défensives suivantes : &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Déviation&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (attaques de mêlée et attaques à distance directes), Robustesse (attaques visant l'organisme, comme le poison et la maladie), &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Réflexes&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (attaques dévastatrices à effet de zone) et &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Volonté&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (attaques psychiques).
+
+Un nombre compris entre 1 et 100 est généré et ajouté à la différence entre la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;précision&lt;/link&gt;&lt;/nobr&gt; et la défense pour déterminer les résultats de l'attaque. Nombre inférieur ou égal à 15 = Échec. Nombre compris entre 16 et 50 = éraflure. Nombre compris entre 51 et 100 = coup. Nombre supérieur à 100 = critique.
+
+En cas d'équilibre entre l'attaque et la défense, la majorité des attaques se soldent par des coups ou des éraflures. Lorsque la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;précision&lt;/link&gt;&lt;/nobr&gt; est supérieure à la défense, les critiques sont plus probables. Lorsque la défense est supérieure à la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Précision&lt;/link&gt;&lt;/nobr&gt;, les échecs sont plus probables.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>158</ID>
+      <DefaultText>Lorsqu'une attaque réussit, il y a un facteur principal qui détermine l'atténuation des dégâts : La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt;.
+
+La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt; découle souvent de l'armure portée, mais de nombreuses créatures ont une VA naturelle, et la VA peut être augmentée par le biais de magie, de capacités, de talents ou d'autres types d'équipement. La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt; est opposée à la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; des attaques subies afin de déterminer l'efficacité globale de l'attaque.
+
+La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; totale (130 % des dégâts sont infligés) survient lorsque la valeur de &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; est le double (ou plus) de la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt;. La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; partielle (100 % des dégâts sont infligés) survient lorsque la valeur de &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; est égale ou supérieure à la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt; de la cible, mais qu'elle est moins du double de cette dernière.
+
+La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; réduite (-25 % de dégâts par point de moins que la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt; de la cible, jusqu'à un maximum de -75 %) survient lorsque la valeur de &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; est inférieure à la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt; de la cible. Veuillez noter que de nombreuses armures et de nombreuses créatures ont des &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeurs d'armure&lt;/link&gt;&lt;/nobr&gt;s différentes contre les différents types de dégâts. Une VA plus faible indique une protection moindre contre ce type de dégâts, signifiant que la cible est plus vulnérable aux attaques de ce type.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>162</ID>
+      <DefaultText>L'endurance représente la capacité de survie d'un personnage à court terme. Les dégâts non absorbés par la réduction de dégâts du personnage sont directement déduits de son endurance et de sa &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;santé&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;. Les potions et les sorts de guérison (d'un paladin, d'un prêtre ou d'un druide) peuvent renforcer l'endurance au combat. Lorsque l'endurance du personnage est épuisée (0), celui-ci est renversé. Un personnage renversé peut reprendre le combat grâce à l'utilisation d'une capacité Ranimation. Sinon, le personnage récupère toute son endurance à la fin du combat (à condition qu'il appartienne au camp victorieux).</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>180</ID>
+      <DefaultText>Une capacité modale est une capacité qui peut être activée ou désactivée ou définie à différents &lt;i&gt;modes&lt;/i&gt; afin de générer des effets différents. Par exemple, toutes les connaissances d'armes confèrent des capacités modales qui sont disponibles lorsque l'arme ou le bouclier connu(e) est équipé(e). De la même façon, les Auras zélées d'un paladin peuvent être définies à trois états différents. Les capacités modales doivent être modifiées en fonction des besoins tactiques d'un combat. Par exemple, si un personnage ne tirait aucun profit de la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; supplémentaire conférée par la capacité Moulinets d'un sabre, il vaudrait mieux la désactiver afin d'améliorer le temps de récupération du personnage. Un paladin peut souhaiter utiliser Charge zélée au début d'un combat, mais la faire passer ensuite à Concentration zélée afin de gagner en &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Précision&lt;/link&gt;&lt;/nobr&gt; une fois que le combat bat son plein.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>192</ID>
+      <DefaultText>Les propriétés défensives secondaires sont utilisées pour les attaques secondaires (ex : poison sur une dague). Dans cet exemple, l'attaque principale (à l'aide de la dague) vise une propriété défensive (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;déviation&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;) et l'attaque secondaire (à l'aide du poison) n'est possible que si la première attaque aboutit. Si l'attaque initiale aboutit, la propriété défensive secondaire (dans ce cas, la robustesse face au poison) est utilisée pour en déterminer les effets. Si l'attaque initiale échoue, la propriété défensive secondaire n'est pas utilisée.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>194</ID>
+      <DefaultText>Pillars of Eternity utilise huit types de dégâts : &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Tranchant&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Perforant&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Contondant&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Brûlant&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Électrique&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrosif&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Givrant&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; et Brut. Les types de dégâts permettent de déterminer la facilité avec laquelle une cible résiste aux dégâts d'un certain type en fonction de sa réduction de dégâts (RD). Une créature ou une armure peut être très résistante à un type de dégâts et vulnérable à un autre. 
+
+Certaines armes ou attaques peuvent infliger des dégâts de plusieurs types ou intégrer une condition "ou" entre les types de dégâts. En présence d'une condition "ou", l'attaque inflige toujours le type de dégâts auquel la cible est la plus vulnérable. Les dégâts &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;bruts&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; sont les seuls dégâts qui ignorent toute réduction de dégâts et sont généralement associés aux poisons et effets similaires.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>207</ID>
+      <DefaultText>Ce sont les règles d'accumulation qui contrôlent la manière dont les bonus et malus sont calculés. Par souci de simplicité, le jeu différencie deux catégories sources de bonus : &lt;b&gt;passif&lt;/b&gt; et &lt;b&gt;actif&lt;/b&gt;.
+
+La plupart des bonus passifs proviennent d'objets équipés (dont les armes et boucliers) et des capacités passives. Si un effet n'a pas de durée et n'a pas besoin d'être activé ou désactivé, il est généralement considéré comme un bonus passif. &lt;b&gt;Tous les bonus passifs se cumulent les uns aux autres.&lt;/b&gt;
+
+Les bonus actifs proviennent des sorts, objets et capacités qui doivent être activés. Cela comprend les capacités modales qui sont activées sur la barre d'action, comme les modales d'armes, les auras de paladin et les postures de combattant. &lt;i&gt;Les bonus actifs utilisent le bonus le plus élevé d'une statistique et suppriment tous les bonus équivalents ou inférieurs.&lt;/i&gt;
+
+Par exemple, si un sort de magicien confère +3 en &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Déviation&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; et une aura de paladin confère +5, le bonus actif le plus élevé est de +5, et le +3 est supprimé. Si le même sort de magicien octroyait aussi un bonus en Dextérité, il s'applique, à moins qu'il soit &lt;i&gt;aussi&lt;/i&gt; remplacé par un bonus de Dextérité supérieur provenant d'une autre source active/modale.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>324</ID>
+      <DefaultText>Les personnages inconscients ne peuvent pas agir. Leur Dextérité est réduite à 0. Leurs &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Réflexes&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; et leur &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Déviation&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; sont réduits de 40.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>453</ID>
+      <DefaultText>Quand une attaque porte un coup à une cible, la &lt;b&gt;&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt;&lt;/b&gt; de l'attaque est comparée à la &lt;b&gt;&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt;&lt;/b&gt; de la cible afin de déterminer les dégâts effectivement infligés.
+
+La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; dépend de l'arme ou du sort utilisé, mais elle peut être accrue grâce à la magie, aux capacités, aux talents ou à l'enchantement des armes. La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; est comparée à la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt; correspondant au type de dégâts de l'attaque. Par ex. : Une boule de &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;feu&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; oppose toujours la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; à la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt; contre les dégâts &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;brûlants&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;. Les dégâts &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;bruts&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; ignorent toutes les armures et n'ont donc pas besoin de les pénétrer.
+
+&lt;b&gt;&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; totale&lt;/b&gt; (+30 % de dégâts) - La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; est au moins deux fois supérieure à la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt; de la cible.
+
+&lt;b&gt;&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt;&lt;/b&gt; (dégâts indiqués) - La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; est égale ou supérieure à la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt; de la cible.
+
+&lt;b&gt;&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; réduite&lt;/b&gt; (-25 % de dégâts par point de moins que la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt; de la cible, max. de -75 %) - La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; est inférieure à la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt; de la cible.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>516</ID>
+      <DefaultText>La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Précision&lt;/link&gt;&lt;/nobr&gt; des canons affecte les chances de toucher le navire ennemi. Les canonniers ou les améliorations propres aux canons peuvent être utilisés pour améliorer la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Précision&lt;/link&gt;&lt;/nobr&gt; des canons.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>590</ID>
+      <DefaultText>Les tireurs d'élite concentrent toute leur attention sur le combat à distance, dépendant de leurs compagnons animaux pour assurer leur défense. Ils bénéficient d'une &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; et d'une &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Précision&lt;/link&gt;&lt;/nobr&gt; supérieures avec les armes à distance, mais se régénèrent moins vite entre les attaques et ont une faible capacité de &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Déviation&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>609</ID>
+      <DefaultText>Un personnage conscient dont la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;santé&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; est égale ou inférieure à 25 % est considéré comme « Proche de la mort ».</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>715</ID>
+      <DefaultText>Inspiration de Puissance. Les personnages sujets à Ténacité gagnent +5 en Puissance et +2 en &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>717</ID>
+      <DefaultText>Inspiration de Puissance. Les personnages sujets à Tonus gagnent +5 en Puissance, +2 en &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Pénétration&lt;/link&gt;&lt;/nobr&gt; et interrompent les ennemis en cas de coups critiques.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>721</ID>
+      <DefaultText>Inspiration de Constitution. Les personnages sous Vigueur gagnent +5 en Constitution et +2 en &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>723</ID>
+      <DefaultText>Inspiration de Constitution. Les personnages sous Solidité gagnent +5 en Constitution, +2 en &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Valeur d'armure&lt;/link&gt;&lt;/nobr&gt; et régénèrent leur &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Santé&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; périodiquement.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>769</ID>
+      <DefaultText>Les rôdeurs partagent littéralement un lien vital avec leur compagnon animal. Lorsque l'un est blessé, l'autre le ressent sous forme d'une intense souffrance émotionnelle. Si un rôdeur ou un compagnon animal tombe inconscient, son partenaire souffre de Chagrin lié, ce qui diminue sa &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Précision&lt;/link&gt;&lt;/nobr&gt; et d'autres statistiques jusqu'à ce que l'allié terrassé soit ranimé. Si jamais un rôdeur est tué, son compagnon animal meurt instantanément de chagrin.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>883</ID>
+      <DefaultText>Un personnage dont la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;santé&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; est comprise entre 50 % et 25 % est considéré « Ensanglanté ».</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>885</ID>
+      <DefaultText>Un personnage dont la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;santé&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; est comprise entre 75 % et 50 % est considéré « Blessé ».</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>887</ID>
+      <DefaultText>Un personnage dont la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;santé&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; est inférieure à 100 % et supérieure à 75 % est considéré « En bonne &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;santé&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; ».</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>889</ID>
+      <DefaultText>Un personnage dont la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;santé&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; est égale à 100 % est considéré « Indemne ».</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>
