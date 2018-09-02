@@ -205,11 +205,11 @@ Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; value
 
 Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; is compared against the Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt; of oncoming attacks to determine the attack's overall effectiveness.
 
-&lt;margin=2em&gt;&lt;b&gt;Full Penetration:&lt;/b&gt; (130% Damage) occurs when Penetration is twice the target's Armor Ratin or more.
+&lt;xg&gt;&lt;margin=2em&gt;&lt;b&gt;Full Penetration:&lt;/b&gt; (130% Damage) occurs when Penetration is twice the target's Armor Ratin or more.
 
 &lt;b&gt;Partial Penetration:&lt;/b&gt; (100% Damage) occurs when Penetration meets or exceeds the target's Armor Rating.
 
-&lt;b&gt;Under Penetration:&lt;/b&gt; (-25% Damage per point under the target's Armor, Max -75%) occurs when Penetration is less than the target's Armor Rating.&lt;/margin&gt;
+&lt;b&gt;Under Penetration:&lt;/b&gt; (-25% Damage per point under the target's Armor, Max -75%) occurs when Penetration is less than the target's Armor Rating.&lt;/margin&gt;&lt;/xg&gt;
 
 Note that many suits of armor and many creatures will grant different Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; values against the different Damage Types. Lower ARs protect less against that type of damage, making the target more vulnerable to attacks of that type.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
