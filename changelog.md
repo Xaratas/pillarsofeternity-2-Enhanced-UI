@@ -3,13 +3,10 @@
 ### Version 1.3.0
 - Added stylization to the `Petrified` and `Frozen` keywords.
 - Added stylization of `Burn Armor Rating` and `Freeze Armor Rating`.
+- Added non-breaking spaces to all instances of the `Armor Rating` keyword.
 - Removed a wrongly applied link in entry `368` (gui.stringtable).
 - Changed the cyclopedia entry for “Petrified” (ID `111` and `112`) to also include the “Frozen” affliction (cyclopedia.stringtable).
 - Made slight changes to the cyclopedia entry for `Armor Rating`, it should now mirror the cyclopedia entry for `Penetration` a bit better.
-
-*Question* Re: Auto-pause. Where does entry ID 198, 199 and 205 (gui.stringtable) appear in-game?
-
-**31st of August 2018**
 - Added and fixed all new entries added in patch 2.1.
 - Added missing entries from the BoW DLC.
 - Changed the color of the Raw icon slightly.
