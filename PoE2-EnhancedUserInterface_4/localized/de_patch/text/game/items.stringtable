@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\items</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>2831</EntryCount>
+  <EntryCount>2910</EntryCount>
   <Entries>
     <Entry>
       <ID>254</ID>
@@ -22,6 +22,11 @@
     <Entry>
       <ID>289</ID>
       <DefaultText>Kleine Schilde bieten zwar nicht viel Schutz, beeinträchtigen die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; eines Kriegers dafür aber überhaupt nicht. Im Gegensatz zu größeren Schilden, die am Unterarm getragen werden, werden kleine Schilde in der Hand gehalten.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>290</ID>
+      <DefaultText>Speere sind nicht so lang wie die mit ihnen verwandten Zweihandwaffen, die Piken, sind dafür aber leichter zu führen und können in Kombination mit einem Schild eingesetzt werden. Selbst im Einhandgriff können mit einem Speer verheerende Schläge mit hoher &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; ausgeteilt werden.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -128,7 +133,7 @@ Dieser einfache Speer ist mit Federn und Perlen verziert.</DefaultText>
     </Entry>
     <Entry>
       <ID>3407</ID>
-      <DefaultText>Erzeugt einen Energieball in der Hand des Lesers, der auf einen Gegner geschleudert werden kann und somit jedem im Wirkungsbereich &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Brand&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;-, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frost&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;-, Zersetzungs- oder &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Schockschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zufügt. Fäule werden kontinuierlich aufgefüllt, bis der Zauber endet. </DefaultText>
+      <DefaultText>Erzeugt einen Energieball in der Hand des Lesers, der auf einen Gegner geschleudert werden kann und somit jedem im Wirkungsbereich &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Brand&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;-, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frost&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;-, Zersetzungs- oder &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Schockschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zufügt. Fäule werden kontinuierlich aufgefüllt, bis der Zauber endet.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -292,6 +297,11 @@ Dieser einfache Speer ist mit Federn und Perlen verziert.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3654</ID>
+      <DefaultText>Während Harley dir folgt, erhältst du einen Bonus auf Fernkampfschaden und deine Gruppenmitglieder erhalten einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; mit Fernkampfwaffen.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3655</ID>
       <DefaultText>Während Hemp dir folgt, erhältst du einen Bonus auf Verfassung und deine Gruppenmitglieder erhalten einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Tapferkeit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
@@ -299,6 +309,11 @@ Dieser einfache Speer ist mit Federn und Perlen verziert.</DefaultText>
     <Entry>
       <ID>3656</ID>
       <DefaultText>Während Mercedes dir folgt, erhältst du einen Bonus auf Max &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; und deine Gruppenmitglieder erhalten einen Bonus auf Nahkampfwaffenschaden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3658</ID>
+      <DefaultText>Während Nikki dir folgt, erhöht sich die Wahrscheinlichkeit, dass Angriffe gegen dich als Leichte Treffer gewertet werden, und alle Gruppenmitglieder erhalten einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; mit Nahkampfwaffen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -318,17 +333,17 @@ Dieser einfache Speer ist mit Federn und Perlen verziert.</DefaultText>
     </Entry>
     <Entry>
       <ID>3695</ID>
-      <DefaultText>Während Xopn’aua dir folgt, erhältst du einen Bonus auf Einsicht und Metaphysik. Darüber hinaus erhält deine Gruppe einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Wille&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <DefaultText>Während Xopn’aua dir folgt, erhältst du einen Bonus auf Tiefblick und Metaphysik. Darüber hinaus erhält deine Gruppe einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Wille&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4282</ID>
-      <DefaultText>Während das Irrlicht dir folgt, haben Intellektwirkungen auf dich eine kürzere Dauer und alle Gruppenmitglieder haben erhöhte &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; bei ihren Angriffen gegen Geister.</DefaultText>
+      <DefaultText>Während das Irrlicht dir folgt, haben Intellektwirkungen auf dich eine kürzere Dauer und alle Gruppenmitglieder verfügen über erhöhte &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; bei ihren Angriffen gegen Geister.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4390</ID>
-      <DefaultText>Während der Grabhund-Welpe dir folgt, erteilst du zusätzlichen Schaden gegen Gefäße und alle Gruppenmitglieder erleiden verringerten &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Zersetzungsschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <DefaultText>Während der Grabhundwelpe dir folgt, erteilst du zusätzlichen Schaden gegen Gefäße und alle Gruppenmitglieder erleiden verringerten &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Zersetzungsschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -348,7 +363,7 @@ Dieser einfache Speer ist mit Federn und Perlen verziert.</DefaultText>
     </Entry>
     <Entry>
       <ID>4456</ID>
-      <DefaultText>Während das Babywildschein dir folgt, besteht bei deinen Nahkampfangriffen die Chance, den Gegner zu unterbrechen, und deine Gruppenmitglieder verursachen zusätzlichen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <DefaultText>Während das Babywildschwein dir folgt, besteht bei deinen Nahkampfangriffen die Chance, den Gegner zu unterbrechen, und deine Gruppenmitglieder verursachen zusätzlichen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -359,6 +374,11 @@ Dieser einfache Speer ist mit Federn und Perlen verziert.</DefaultText>
     <Entry>
       <ID>4647</ID>
       <DefaultText>Während Socrates dir folgt, erhältst du etwas &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, wenn du den Todesstoß gegen einen Gegner erzielst und deine Gruppenmitglieder erhalten einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; gegen Nahkampfangriffe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4728</ID>
+      <DefaultText>Füge {0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;direkten Schaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zu</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -379,6 +399,36 @@ Dieser einfache Speer ist mit Federn und Perlen verziert.</DefaultText>
     <Entry>
       <ID>5149</ID>
       <DefaultText>Füge {0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Schockschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zu</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5500</ID>
+      <DefaultText>Erleide {0} Schaden, während die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; unter 25% ist.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5502</ID>
+      <DefaultText>Füge Feinden {0} Schaden zu, während die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; unter 25% ist.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5568</ID>
+      <DefaultText>Während Cajux dir folgt, erhältst du etwas &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, wenn du den Todesstoß gegen einen Gegner erzielst und deine Gruppenmitglieder bewegen sich im Kampf schneller.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5570</ID>
+      <DefaultText>Während Dude, die sechszehige Katze, dir folgt, erhältst du etwas &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, wenn du den Todesstoß gegen einen Gegner erzielst, und die Wahrscheinlichkeit ist geringer, dass Gruppenmitglieder durch einen Angriff einen Treffer erleiden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5575</ID>
+      <DefaultText>Während Zorro dir folgt, erhältst du zusätzliche Entschlossenheit und deine Gruppenmitglieder erhalten einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflexe&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5576</ID>
+      <DefaultText>Während Hati dir folgt, erhältst du Bonus-Macht und deine Gruppenmitglieder erhalten einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflexe&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

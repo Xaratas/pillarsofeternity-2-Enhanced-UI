@@ -1,5 +1,12 @@
 ## CHANGELOG
+
 ### Version 1.3.0
+- Added stylization to the `Petrified` and `Frozen` keywords.
+- Added stylization of `Burn Armor Rating` and `Freeze Armor Rating`.
+- Added non-breaking spaces to all instances of the `Armor Rating` keyword.
+- Removed a wrongly applied link in entry `368` (gui.stringtable).
+- Changed the cyclopedia entry for “Petrified” (ID `111` and `112`) to also include the “Frozen” affliction (cyclopedia.stringtable).
+- Made slight changes to the cyclopedia entry for `Armor Rating`, it should now mirror the cyclopedia entry for `Penetration` a bit better.
 - Added and fixed all new entries added in patch 2.1.
 - Added missing entries from the BoW DLC.
 - Changed the color of the Raw icon slightly.
@@ -11,6 +18,8 @@
 - Added an italian translation of the new cyclopedia entry for “The Wheel”.
 - Lots and lots of bug fixes.
 - Added a few entries not in use at the moment but that might be used by the mod in the near future...
+- Remvoed a few unused cyclopedia entries.
+- Updated the UUID of glossary entry "The Wheel" to fit our new enumeration policy.
 
 ### Version 1.2.4
 - Changed all custom entry ID's to something less likely to cause conflicts with other mods.
