@@ -2,66 +2,101 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\gui</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>4419</EntryCount>
+  <EntryCount>4425</EntryCount>
   <Entries>
     <Entry>
+      <ID>126</ID>
+      <DefaultText>{0} is healed for {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>127</ID>
+      <DefaultText>{2} heals {0} for {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>128</ID>
+      <DefaultText>{0} regains {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>129</ID>
+      <DefaultText>{2} heals {0} for {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>135</ID>
+      <DefaultText>Characters will be maimed instead of dying permanently the first time their &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; reaches zero.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>140</ID>
-      <DefaultText>Hovering over enemies will provide a pop-up comparing their known defense scores to the attacker's &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy.</DefaultText>
+      <DefaultText>Hovering over enemies will provide a pop-up comparing their known defense scores to the attacker's &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>198</ID>
+      <DefaultText>Autopause when a party member's &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; drops below 25%.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>199</ID>
+      <DefaultText>Autopause when a party member's &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; drops below 25%.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>205</ID>
-      <DefaultText>Autopause if a party member attacks an enemy whose defense exceeds their &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy by 50 points or more.</DefaultText>
+      <DefaultText>Autopause if a party member attacks an enemy whose defense exceeds their &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; by 50 points or more.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>367</ID>
-      <DefaultText>{0}% Damage and Healing, {1} &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;</DefaultText>
+      <DefaultText>{0}% Damage and Healing, {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>368</ID>
-      <DefaultText>{0}% &lt;sprite="Inline" name="cs_health" tint=1&gt; Health, {1} &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;</DefaultText>
+      <DefaultText>{0}% &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>370</ID>
-      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy, and {1} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;, and {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>371</ID>
-      <DefaultText>{0}% Area of Effect, {1}% Ability Duration, and {2} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;</DefaultText>
+      <DefaultText>{0}% Area of Effect, {1}% Ability Duration, and {2} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>372</ID>
-      <DefaultText>{0} Hostile Effect Duration, {1} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;, and {2} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;</DefaultText>
+      <DefaultText>{0} Hostile Effect Duration, {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, and {2} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>469</ID>
-      <DefaultText>Resolve contributes towards reducing Hostile Effect Durations, as well as improving &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt; and &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; defenses. It reflects a character's internal drive, determination, and fearlessness.
+      <DefaultText>Resolve contributes towards reducing Hostile Effect Durations, as well as improving &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; defenses. It reflects a character's internal drive, determination, and fearlessness.
 
 5 - Timid
 10 - Average
-15 - &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;-&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;ed
+15 - &lt;xg&gt;Strong&lt;/xg&gt;-&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;ed
 20 - Fearless</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>470</ID>
-      <DefaultText>Might contributes to Damage, Healing Effectiveness, and the &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt; defense. It represents a character's physical and spiritual strength, brute force as well as their ability to channel powerful magic.
+      <DefaultText>Might contributes to Damage, Healing Effectiveness, and the &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; defense. It represents a character's physical and spiritual strength, brute force as well as their ability to channel powerful magic.
 
 5 - Weak
 10 - Average
-15 - &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;
+15 - &lt;xg&gt;Strong&lt;/xg&gt;
 20 - Fantastically Powerful</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>471</ID>
-      <DefaultText>Dexterity affects the character's Action Speed with all attacks, spells, and abilities and contributes to the &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt; defense. It represents a combination of hand-eye coordination, swiftness, and overall grace.
+      <DefaultText>Dexterity affects the character's Action Speed with all attacks, spells, and abilities and contributes to the &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; defense. It represents a combination of hand-eye coordination, swiftness, and overall grace.
 
 5 - Clumsy
 10 - Average
@@ -71,17 +106,17 @@
     </Entry>
     <Entry>
       <ID>472</ID>
-      <DefaultText>Intellect contributes to the &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt; defense and influences Durations and Areas of Effect for all Abilities. It represents a character's logic, reasoning, and deduction capabilities.
+      <DefaultText>Intellect contributes to the &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; defense and influences Durations and Areas of Effect for all Abilities. It represents a character's logic, reasoning, and deduction capabilities.
 
 5 - Dim
 10 - Average
-15 - &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Quick &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;-Witted
-20 - &lt;link="gamedata://dee61b5a-6313-4406-ab83-4fb72b37cea2"&gt;&lt;#00a4ff&gt;Brilliant &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;³&lt;/color&gt;&lt;/link&gt;</DefaultText>
+15 - &lt;xg&gt;Quick&lt;/xg&gt;-Witted
+20 - &lt;xg&gt;Brilliant&lt;/xg&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>473</ID>
-      <DefaultText>Constitution affects &lt;sprite="Inline" name="cs_health" tint=1&gt; Health and the &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt; defense. It represents a combination of the character's overall health and stamina.
+      <DefaultText>Constitution affects &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; and the &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; defense. It represents a combination of the character's overall &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; and stamina.
 
 5 - Frail
 10 - Average
@@ -91,7 +126,7 @@
     </Entry>
     <Entry>
       <ID>474</ID>
-      <DefaultText>Perception contributes to &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy and the &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt; defense. &lt;xg&gt;Perception&lt;/xg&gt; represents a character's senses as well as their instinctive ability to pick up on details, such as detecting traps or hidden objects.
+      <DefaultText>Perception contributes to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; and the &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; defense. &lt;xg&gt;Perception&lt;/xg&gt; represents a character's senses as well as their instinctive ability to pick up on details, such as detecting traps or hidden objects.
 
 5 - Oblivious
 10 - Average
@@ -100,201 +135,371 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>1102</ID>
+      <DefaultText>{0} Max &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1104</ID>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Restored</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>1106</ID>
-      <DefaultText>{0} Melee &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy</DefaultText>
+      <DefaultText>{0} Melee &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1107</ID>
-      <DefaultText>{0} Ranged &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy</DefaultText>
+      <DefaultText>{0} Ranged &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1108</ID>
-      <DefaultText>{0} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1109</ID>
-      <DefaultText>{0} &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1110</ID>
-      <DefaultText>{0} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1111</ID>
-      <DefaultText>{0} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1112</ID>
+      <DefaultText>{0:Value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; regeneration</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1124</ID>
-      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy against Disengaging enemies</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; against Disengaging enemies</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1137</ID>
+      <DefaultText>Sneak Attacks on enemies under {0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1143</ID>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; loss</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1147</ID>
-      <DefaultText>Drains {0} Resolve for {1} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;</DefaultText>
+      <DefaultText>Drains {0} Resolve for {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1154</ID>
+      <DefaultText>{0} Damage by percentage of target's &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; lost</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1160</ID>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Drained</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1161</ID>
+      <DefaultText>{0:Value:PercentBonus} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; regeneration</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1169</ID>
-      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy, &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;, &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt; against distant enemies</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; against distant enemies</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1170</ID>
+      <DefaultText>{0} Damage against enemies with low &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1172</ID>
-      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy granted to an ally attacking the same target</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; granted to an ally attacking the same target</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1175</ID>
-      <DefaultText>{0} of incoming Hits converted to Grazes (&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; or &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt; only)</DefaultText>
+      <DefaultText>{0} of incoming Hits converted to Grazes (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; or &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; only)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1176</ID>
-      <DefaultText>{0} of incoming Hits converted to Grazes (&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt; or &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt; only)</DefaultText>
+      <DefaultText>{0} of incoming Hits converted to Grazes (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; or &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; only)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1194</ID>
-      <DefaultText>{0} Defense while &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stunned &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;</DefaultText>
+      <DefaultText>{0} Defense while &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stunned&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1196</ID>
-      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy when attacking same target as an ally</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; when attacking same target as an ally</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1214</ID>
-      <DefaultText>{0} of incoming Grazes converted to Misses (&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt; only)</DefaultText>
+      <DefaultText>{0} of incoming Grazes converted to Misses (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; only)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1230</ID>
-      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy when attacking the same enemy as {1}</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; when attacking the same enemy as {1}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1232</ID>
+      <DefaultText>{0} of Damage restored as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1234</ID>
-      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy when below {1} &lt;sprite="Inline" name="cs_health" tint=1&gt; Health</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; when below {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1235</ID>
+      <DefaultText>{0} Damage when below {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1236</ID>
-      <DefaultText>{0} Damage against Prone, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stunned &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt;, Flanked enemies</DefaultText>
+      <DefaultText>{0} Damage against Prone, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stunned&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, Flanked enemies</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1243</ID>
-      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy against {1}</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; against {1}</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1261</ID>
-      <DefaultText>{0} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; against ranged attacks</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; against ranged attacks</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1266</ID>
+      <DefaultText>{0} of {1} Damage converted to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1275</ID>
+      <DefaultText>Revive with {0:Value:Straight} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1366</ID>
+      <DefaultText>Requires &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; below {0}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1370</ID>
+      <DefaultText>Requires at least {0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1371</ID>
+      <DefaultText>Requires &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; below {0}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1397</ID>
+      <DefaultText>Adventuring is tiring work. In addition to the hazards of mortal combat, adventurers have walls to climb, rivers to cross, and pits to leap over.
+Once per encounter, characters with Athletics can use the Second Wind ability to recover lost &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;. A higher Athletics score increases the effect of Second Wind.
+In conversations and scripted interactions, Athletics is used for physical feats like climbing, swimming, and jumping.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1404</ID>
-      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1466</ID>
-      <DefaultText>Druids select a damage type (&lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash, &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Pierce, &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crush, &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn, &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode, &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze, or &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock) that is added to any attack they use that inflicts damage of one of those types to a target.</DefaultText>
+      <DefaultText>Druids select a damage type (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Slash&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Pierce&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Crush&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrode&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, or &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Shock&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;) that is added to any attack they use that inflicts damage of one of those types to a target.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1477</ID>
-      <DefaultText>All rangers form a strong spiritual connection with a single creature, their animal companion. This connection allows rangers and their companions to coordinate attacks and efficiently take down prey. In most situations, the companion runs interference while the ranger attacks at range.
+      <DefaultText>
 
-Despite these advantages, there are risks to the relationship. Rangers share a literal life bond with their animal companions. When one is wounded, the can sense it and feel intense emotional pain. If a ranger or animal companion are knocked unconscious, the partner suffers from Bonded Grief, affecting &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy and other stats, until the downed ally is revived. If a ranger is ever killed, the animal companion immediately dies from grief.</DefaultText>
+All rangers form a strong spiritual connection with a single creature, their animal companion. This connection allows rangers and their companions to coordinate attacks and efficiently take down prey. In most situations, the companion runs interference while the ranger attacks at range.
+
+Despite these advantages, there are risks to the relationship. Rangers share a literal life bond with their animal companions. When one is wounded, the can sense it and feel intense emotional pain. If a ranger or animal companion are knocked unconscious, the partner suffers from Bonded Grief, affecting &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; and other stats, until the downed ally is revived. If a ranger is ever killed, the animal companion immediately dies from grief.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1532</ID>
+      <DefaultText>Drains {0} {1} Damage as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1546</ID>
+      <DefaultText>{0} when &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; below {1}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1552</ID>
+      <DefaultText>{0} while &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; above {1}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1553</ID>
+      <DefaultText>{0} while &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; below {1}</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1582</ID>
-      <DefaultText>{0}% Action Speed and {1} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;</DefaultText>
+      <DefaultText>{0}% Action Speed and {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1628</ID>
-      <DefaultText>{0} Shield &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;</DefaultText>
+      <DefaultText>{0} Shield &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1629</ID>
-      <DefaultText>Shield &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; bonus also applies to &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;.</DefaultText>
+      <DefaultText>Shield &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; bonus also applies to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1676</ID>
-      <DefaultText>{0} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; while wielding a two-handed weapon</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; while wielding a two-handed weapon</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1693</ID>
+      <DefaultText>{0:Value:Percent} of Hits converted to Crits against targets with less than {0:ExtraValue:Percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1694</ID>
-      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy against distant enemies</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; against distant enemies</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1739</ID>
-      <DefaultText>{0} All Defenses except &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;</DefaultText>
+      <DefaultText>{0} all Defenses (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;) except &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1890</ID>
-      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy when attacking the same target as animal companion</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; when attacking the same target as animal companion</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1949</ID>
-      <DefaultText>{0} Unarmed &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy</DefaultText>
+      <DefaultText>{0} Unarmed &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1952</ID>
+      <DefaultText>{0:Value:PercentBonus} Crit Damage against targets with less than {0:ExtraValue::Percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2200</ID>
-      <DefaultText>{0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy when using {1}</DefaultText>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; when using {1}</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2206</ID>
-      <DefaultText>Additional attack with {0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy and {1} Damage per strike</DefaultText>
+      <DefaultText>Additional attack with {0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; and {1} Damage per strike</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2207</ID>
+      <DefaultText>Requires &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; above {0}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2259</ID>
+      <DefaultText>Grants Second Wind ({0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2261</ID>
+      <DefaultText>{0} when &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; drops below {1}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2291</ID>
+      <DefaultText>Party members will not receive knockout injuries when they are reduced to 0 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; in combat.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2302</ID>
+      <DefaultText>Camping allows your party members to restore lost &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; and receive a Camping Bonus. Camping will consume a Camping Supply.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2304</ID>
-      <DefaultText>{1} attackers get {0} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy</DefaultText>
+      <DefaultText>{1} attackers get {0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2314</ID>
-      <DefaultText>minimum damage against &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charmed &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt;, &lt;link="gamedata://9e773415-4d95-4be6-ab87-325d9815e0d7"&gt;&lt;#00a4ff&gt;Dominated &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; characters</DefaultText>
+      <DefaultText>minimum damage against &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Confused"&gt;&lt;#00a4ff&gt;Confused&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Charmed"&gt;&lt;#00a4ff&gt;Charmed&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Dominated"&gt;&lt;#00a4ff&gt;Dominated&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; characters</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2326</ID>
+      <DefaultText>{0} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; transferred from caster </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2432</ID>
+      <DefaultText>{0} with at least {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2433</ID>
+      <DefaultText>{0} with less than {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2815</ID>
       <DefaultText>Bonus
-Frenzy grants the &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenacious &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Hardy &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; Inspirations, instead of &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt;.
+Frenzy grants the &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Tenacious"&gt;&lt;#ff4800&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Hardy"&gt;&lt;#f7b733&gt;Hardy&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Inspirations, instead of &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.
 
 Gain significant Hit to Crit conversion on melee and carnage attacks while frenzied.
 
 Penalty
-&lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; while frenzied.
+&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Confused"&gt;&lt;#00a4ff&gt;Confused&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; while frenzied.
 
-Cannot see &lt;sprite="Inline" name="cs_health" tint=1&gt; Health while frenzied.
+Cannot see &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; while frenzied.
 
-Takes &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage continuously while frenzied.</DefaultText>
+Takes &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage continuously while frenzied.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>2818</ID>
+      <DefaultText>Bonus
+Invocations summon twice the number of creatures.
+
+Penalty
+The chanter's summons are smaller and have reduced &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; and duration.
+
+Summon Invocations cost +1 Phrases.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2823</ID>
       <DefaultText>Bonus
-Gains "Soul Annihilation" ability: A soul enhanced melee strike that consumes the cipher's remaining power pool and converts it into &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage on the target.
+Gains "Soul Annihilation" ability: A soul enhanced melee strike that consumes the cipher's remaining power pool and converts it into &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage on the target.
 
 Shred cipher spells cost less Focus.
 
@@ -309,7 +514,7 @@ Max Focus is reduced. (Combat starting amount as well)</DefaultText>
       <DefaultText>Bonus
 Instead of an animal form, Furies spiritshift into a storm blight.
 
-Elemental druid spells gain increased range and &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration.
+Elemental druid spells gain increased range and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt;.
 
 Killing an enemy while spiritshifted extends the duration of the shift.
 
@@ -329,16 +534,40 @@ Cannot cast Rejuvenation spells.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>2828</ID>
+      <DefaultText>Bonus
+Druid can switch to any of the spiritshifting animals, once each, per combat.
+
+Spiritshift has a longer duration.
+
+After a spiritshift ends, the druid is healed a portion of their &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.
+
+Automatically learn the following druid spells at new power levels:
+1. Nature's Mark
+2. Insect Swarm
+3. Infestation of Maggots
+4. Form of the Delemgan
+5. Nature's Terror
+6. Garden of Life
+7. Rusted Armor
+8. Entropy
+9. Pollen Patch
+
+Penalty
+Cannot cast spells while in animal form.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>2830</ID>
       <DefaultText>Bonus
 May select a single weapon proficiency as their chosen weapon.
 
-Increased &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration with their chosen weapon.
+Increased &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt; with their chosen weapon.
 
 Increased Critical Hit damage with their chosen weapon.
 
 Penalty
-&lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy is penalized whenever using a weapon that is not their chosen weapon.
+&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; is penalized whenever using a weapon that is not their chosen weapon.
 
 Only gain a single proficiency and no new proficiencies during level up.</DefaultText>
       <FemaleText />
@@ -348,14 +577,14 @@ Only gain a single proficiency and no new proficiencies during level up.</Defaul
       <DefaultText>Bonus
 +1 Engagement.
 
-Increased &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration on Disengagement Attacks.
+Increased &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt; on Disengagement Attacks.
 
-Gains "Shield Mastery" providing bonus &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating while wearing a shield.
+Gains "Shield Mastery" providing bonus &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; while wearing a shield.
 
 Penalty
 Lower Stride in combat.
 
-Lower &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt;es.</DefaultText>
+Lower &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;es.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -363,7 +592,7 @@ Lower &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;
       <DefaultText>Bonus
 Gain Flames of Devotion.
 
-Flames of Devotion deals additional &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode damage (Black Flames) and applies the &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; Affliction to targets.</DefaultText>
+Flames of Devotion deals additional &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrode&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage (Black Flames) and applies the &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Sickened"&gt;&lt;#f7b733&gt;Sickened&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Affliction to targets.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -371,7 +600,7 @@ Flames of Devotion deals additional &lt;sprite="Inline" name="cs_corrosive" tint
       <DefaultText>Bonus
 Gain Sworn Enemy.
 
-Sworn Enemy gains the upgrade "Gilded Enmity" which causes the paladin to be imbued with a blessing of gold when they declare a Sworn Enemy. The paladin receives bonus &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating until struck enough times for the gold to break.</DefaultText>
+Sworn Enemy gains the upgrade "Gilded Enmity" which causes the paladin to be imbued with a blessing of gold when they declare a Sworn Enemy. The paladin receives bonus &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; until struck enough times for the gold to break.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -379,18 +608,18 @@ Sworn Enemy gains the upgrade "Gilded Enmity" which causes the paladin to be imb
       <DefaultText>Bonus
 Bonus Hit to Crit conversion when attacking targets greater than 4m away.
 
-Bonus &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration when attacking targets 4m or closer.
+Bonus &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt; when attacking targets 4m or closer.
 
 Penalty
 Slower Recovery Time.
 
-Lower &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;.</DefaultText>
+Lower &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2850</ID>
       <DefaultText>Bonus
-The stalker and their companion gain bonus &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; and &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating when within 4m of each other.
+The stalker and their companion gain bonus &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; when within 4m of each other.
 
 Penalty
 The stalker and their companion suffer Bonded Grief when they are more than 7m from each other.</DefaultText>
@@ -399,7 +628,7 @@ The stalker and their companion suffer Bonded Grief when they are more than 7m f
     <Entry>
       <ID>2853</ID>
       <DefaultText>Bonus
-Gain the "Assassinate" passive which grants stealth attacks bonus &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration, &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy, and Critical Hit damage.
+Gain the "Assassinate" passive which grants stealth attacks bonus &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;, and Critical Hit damage.
 
 Penalty
 All damage received is increased.</DefaultText>
@@ -408,7 +637,7 @@ All damage received is increased.</DefaultText>
     <Entry>
       <ID>2854</ID>
       <DefaultText>Bonus
-Between the Eyes - Ranged attack with a large &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy bonus, and if used while stealthed is a guaranteed Critical Hit.
+Between the Eyes - Ranged attack with a large &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; bonus, and if used while stealthed is a guaranteed Critical Hit.
 
 Penalty
 -1 Guile.</DefaultText>
@@ -419,7 +648,7 @@ Penalty
       <DefaultText>Bonus
 Gain increased Power Level with Enchanting Spells.
 
-Gain "Free Action" passive: Once per encounter, when the wizard is affected by a &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Affliction &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , they will clear that effect and become temporarily immune to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .
+Gain "Free Action" passive: Once per encounter, when the wizard is affected by a &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Affliction&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , they will clear that effect and become temporarily immune to &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Afflictions&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; .
 
 Penalty
 Lose access to spells from Illusion and Transmutation schools.
@@ -429,72 +658,82 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.</Default
     </Entry>
     <Entry>
       <ID>2915</ID>
-      <DefaultText>The Explosives improves the &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy, damage and effectiveness of bombs, noisemakers, and similar devices.</DefaultText>
+      <DefaultText>The Explosives improves the &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;, damage and effectiveness of bombs, noisemakers, and similar devices.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3012</ID>
-      <DefaultText>{0:Value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating</DefaultText>
+      <DefaultText>{0:Value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3016</ID>
-      <DefaultText>{0:Value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy when behind an unaware target</DefaultText>
+      <DefaultText>{0:Value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; when behind an unaware target</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3028</ID>
-      <DefaultText>{0:Value} &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration</DefaultText>
+      <DefaultText>{0:Value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3034</ID>
-      <DefaultText>{0:Value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy with proficient weapons</DefaultText>
+      <DefaultText>{0:Value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; with proficient weapons</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>3362</ID>
+      <DefaultText>{0} converts the damage to {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3938</ID>
-      <DefaultText>{0:Value} {0:DamageType} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating</DefaultText>
+      <DefaultText>{0:Value} {0:DamageType} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88001</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock damage is a type of elemental damage based on electricity. Often the abilities and spells that use them create lightning bolts that can propagate in an AE, bounce on walls and stun the targets.</DefaultText>
+      <ID>4019</ID>
+      <DefaultText>{0} {1} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88002</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw damage bypasses all &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating, having no need to &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrate.</DefaultText>
+      <ID>11001</ID>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Shock&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage is a type of elemental damage based on electricity. Often the abilities and spells that use them create lightning bolts that can propagate in an AE, bounce on walls and stun the targets.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88003</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage is a type of elemental damage based on Fire. Often the abilities and spells that use it create flare-ups in an AE that can spread and / or cause damage over time. In addition, the flammable surfaces are affected as well as gunpowder, allowing pyrotechnic explosions to chain.</DefaultText>
+      <ID>11002</ID>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage bypasses all &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt;, having no need to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetrate&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88004</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze damage is a type of elemental damage based on Ice. Often the abilities and spells that use it create ice spikes or storms that can slow down or paralyze targets or cause damage over time.</DefaultText>
+      <ID>11003</ID>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage is a type of elemental damage based on Fire. Often the abilities and spells that use it create flare-ups in an AE that can spread and / or cause damage over time. In addition, the flammable surfaces are affected as well as gunpowder, allowing pyrotechnic explosions to chain.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88005</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode damage is a type of elemental damage based on Acid. Often the abilities and spells that use it cause damage over time or can cause ConstitutionAfflictions.</DefaultText>
+      <ID>11004</ID>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage is a type of elemental damage based on Ice. Often the abilities and spells that use it create ice spikes or storms that can slow down or paralyze targets or cause damage over time.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88006</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crush damage is a type of Physical Damage. Often the abilities and spells that use it allow to Interrupt, knockdown or Stun3 and deal &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock Damage to targets.</DefaultText>
+      <ID>11005</ID>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrosive&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage is a type of elemental damage based on Acid. Often the abilities and spells that use it cause damage over time or can cause ConstitutionAfflictions.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88007</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_pierce" tint=1&gt; Pierce damage is a type of physical damage. Often the abilities and spells that use it allow to cross the &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating.</DefaultText>
+      <ID>11006</ID>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Crush&lt;/link&gt;&lt;/nobr&gt; damage is a type of Physical Damage. Often the abilities and spells that use it allow to Interrupt, knockdown or Stun3 and deal &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Shock&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage to targets.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>88008</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash damage is a type of physical damage. Often the skills and spells that use it cause damage over time.</DefaultText>
+      <ID>11007</ID>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Pierce&lt;/link&gt;&lt;/nobr&gt; damage is a type of physical damage. Often the abilities and spells that use it allow to cross the &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>11008</ID>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Slash&lt;/link&gt;&lt;/nobr&gt; damage is a type of physical damage. Often the skills and spells that use it cause damage over time.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

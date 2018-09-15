@@ -2,236 +2,266 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>532</EntryCount>
+  <EntryCount>538</EntryCount>
   <Entries>
     <Entry>
       <ID>0</ID>
-      <DefaultText>{0:value:percent} chance &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Shaken &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; attack on target on scoring Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shaken"&gt;&lt;#30d3d5&gt;Shaken&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; attack on target on scoring Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1</ID>
-      <DefaultText>{0:value} Ranged &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy (Increases with Arcana skill)</DefaultText>
+      <DefaultText>{0:value} Ranged &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; (Increases with Arcana skill)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Daze &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; target for {0:extravalue:duration} on scoring Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Dazed"&gt;&lt;#ff4800&gt;Daze&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target for {0:extravalue:duration} on scoring Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Daze &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; target for {0:extravalue:duration} on scoring Hit if wielder is a dwarf</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Dazed"&gt;&lt;#ff4800&gt;Daze&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target for {0:extravalue:duration} on scoring Hit if wielder is a dwarf</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4</ID>
-      <DefaultText>{0:value:percent} Chance to launch a &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze Damage cone attack on Crit</DefaultText>
+      <DefaultText>{0:value:percent} Chance to launch a &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage cone attack on Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>5</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyze &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; the target in ice for {0:extravalue:duration} on Crit</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Paralyzed"&gt;&lt;#72da26&gt;Paralyze&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; the target in ice for {0:extravalue:duration} on Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>7</ID>
-      <DefaultText>Spell Hits have a {0:value:percent} chance to &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charm &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; targets</DefaultText>
+      <DefaultText>Spell Hits have a {0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Charmed"&gt;&lt;#00a4ff&gt;Charm&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; targets</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>9</ID>
-      <DefaultText>{0:value:percent} chance to launch &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crush counterattack when missed in melee</DefaultText>
+      <DefaultText>{0:value:percent} chance to launch &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Crush&lt;/link&gt;&lt;/nobr&gt; counterattack when missed in melee</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>10</ID>
-      <DefaultText>&lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Shaken &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; attack on Kith or Wilder target on scoring Crit</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shaken"&gt;&lt;#30d3d5&gt;Shaken&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; attack on Kith or Wilder target on scoring Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>11</ID>
-      <DefaultText>Deals &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage and attacks more quickly than a standard blade</DefaultText>
+      <DefaultText>Deals &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage and attacks more quickly than a standard blade</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>13</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sicken &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; target on Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Sickened"&gt;&lt;#f7b733&gt;Sicken&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target on Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>14</ID>
-      <DefaultText>Hit applies {0:value:straight} stacking &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating to target</DefaultText>
+      <DefaultText>Hit applies {0:value:straight} stacking &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; to target</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>15</ID>
-      <DefaultText>Weapon &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy, Damage, and &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration increase with wielder's level</DefaultText>
+      <DefaultText>Weapon &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;, Damage, and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt; increase with wielder's level</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>22</ID>
-      <DefaultText>{0:value:percent} chance for wielder to suffer {0:extravalue:straight} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn Damage on launching attack</DefaultText>
+      <DefaultText>{0:value:percent} chance for wielder to suffer {0:extravalue:straight} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage on launching attack</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>23</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration when attacking the same target as an ally.</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt; when attacking the same target as an ally.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>25</ID>
-      <DefaultText>Scoring a Critical Hit grants {0:triggervalue} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy and {0:extravalue:percent} Action Speed (Stacks {0:value:straight} times)</DefaultText>
+      <DefaultText>Scoring a Critical Hit grants {0:triggervalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; and {0:extravalue:percent} Action Speed (Stacks {0:value:straight} times)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>26</ID>
-      <DefaultText>Enrage, gaining &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;Nimble &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;Tenacious &lt;sprite="Inline" name="attribute_might" tint=1&gt;²&lt;/color&gt;&lt;/link&gt;</DefaultText>
+      <DefaultText>Enrage, gaining &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Nimble"&gt;&lt;#72da26&gt;Nimble&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Tenacious"&gt;&lt;#ff4800&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>32</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; when wielded with a shield</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; when wielded with a shield</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>33</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; against non-Veil &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Piercing attacks</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; against non-Veil &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Piercing&lt;/link&gt;&lt;/nobr&gt; attacks</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>34</ID>
-      <DefaultText>{0:value:percentbonus} &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze damage for {0:extravalue:duration} on Hit (stacks {0:triggercount} times)</DefaultText>
+      <DefaultText>{0:value:percentbonus} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage for {0:extravalue:duration} on Hit (stacks {0:triggercount} times)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>35</ID>
-      <DefaultText>Basic attacks deal best of &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Pierce or &lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash Damage in a small AoE</DefaultText>
+      <DefaultText>Basic attacks deal best of &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Pierce&lt;/link&gt;&lt;/nobr&gt; or &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Slash&lt;/link&gt;&lt;/nobr&gt; damage in a small AoE</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>36</ID>
-      <DefaultText>{0:value:percentbonus} &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode Damage for {0:extravalue:duration} on Hit (stacks {0:triggercount} times)</DefaultText>
+      <DefaultText>{0:value:percentbonus} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrode&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage for {0:extravalue:duration} on Hit (stacks {0:triggercount} times)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>38</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Daze &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; on Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Dazed"&gt;&lt;#ff4800&gt;Daze&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; on Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>39</ID>
-      <DefaultText>&lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frighten &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; Kith targets on Critical Hit</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Frightened"&gt;&lt;#30d3d5&gt;Frighten&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Kith targets on Critical Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>42</ID>
-      <DefaultText>Stealth attacks cause the target to bleed for &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage until the end of combat.</DefaultText>
+      <DefaultText>Stealth attacks cause the target to bleed for &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage until the end of combat.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>43</ID>
-      <DefaultText>5 &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw bleed Damage per 3.0 sec for 9.0 sec on scoring Crit </DefaultText>
+      <DefaultText>5 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; bleed Damage per 3.0 sec for 9.0 sec on scoring Crit </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>44</ID>
+      <DefaultText>Incoming weapon Damage is reduced as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; is lost. (Max {0:value:percentbonus} Damage reduction)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>45</ID>
-      <DefaultText>(Current Bonus: {0:value}) {0:extravalue} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy</DefaultText>
+      <DefaultText>(Current Bonus: {0:value}) {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>46</ID>
-      <DefaultText>{0:triggercount} &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage per {0:value:duration} for {0:extravalue:duration} on scoring Hit on Flanked target</DefaultText>
+      <DefaultText>{0:triggercount} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage per {0:value:duration} for {0:extravalue:duration} on scoring Hit on Flanked target</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>48</ID>
-      <DefaultText>{0:triggercount} &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode Damage per {0:value:duration} for {0:extravalue:duration} on Hit</DefaultText>
+      <DefaultText>{0:triggercount} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrode&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage per {0:value:duration} for {0:extravalue:duration} on Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>53</ID>
-      <DefaultText>Chance to &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Daze &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; and knock target Prone on Critical Hit.</DefaultText>
+      <DefaultText>Chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Dazed"&gt;&lt;#ff4800&gt;Daze&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; and knock target Prone on Critical Hit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>58</ID>
-      <DefaultText>Chance to &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distract &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; target on Hit</DefaultText>
+      <DefaultText>Chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Distracted"&gt;&lt;#ca58ff&gt;Distract&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target on Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>60</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; to target on Crit for {0:triggervalue:duration} (Stacks {0:extravalue:straight} times)</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; to target on Crit for {0:triggervalue:duration} (Stacks {0:extravalue:straight} times)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>63</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distract &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; target for {0:extravalue:duration} on scoring Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Distracted"&gt;&lt;#ca58ff&gt;Distract&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target for {0:extravalue:duration} on scoring Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>64</ID>
-      <DefaultText>Hits twice, but with reduced damage (Sun adds {0:value:percent} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage) (Moon adds {0:value:percent} &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze damage)</DefaultText>
+      <DefaultText>Hits twice, but with reduced damage (Sun adds {0:value:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage) (Moon adds {0:value:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>65</ID>
-      <DefaultText>Basic attack deals lesser &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage</DefaultText>
+      <DefaultText>Basic attack deals lesser &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>70</ID>
-      <DefaultText>{0:value} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt; on target for {0:extravalue:duration} on scoring Hit (Stacks {0:triggercount} times)</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; on target for {0:extravalue:duration} on scoring Hit (Stacks {0:triggercount} times)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>73</ID>
-      <DefaultText>Wielder receives {0:value:percent} Damage dealt back as &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage</DefaultText>
+      <DefaultText>Wielder receives {0:value:percent} Damage dealt back as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>74</ID>
-      <DefaultText>Wielder receives {0:value:percent} Damage dealt back as &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode Damage</DefaultText>
+      <DefaultText>Wielder receives {0:value:percent} Damage dealt back as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrode&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>76</ID>
-      <DefaultText>{0:value:percent} chance to deal &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Pierce Damage to self or nearby ally on launching attack</DefaultText>
+      <DefaultText>{0:value:percent} chance to deal &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Pierce&lt;/link&gt;&lt;/nobr&gt; damage to self or nearby ally on launching attack</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>77</ID>
-      <DefaultText>Chance to inflict &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbled &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt;, Knockdown, &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage over time for 12.0 sec, or -25% Action Speed on target on scoring Crit</DefaultText>
+      <DefaultText>Chance to inflict &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Hobbled"&gt;&lt;#72da26&gt;Hobbled&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, Knockdown, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage over time for 12.0 sec, or -25% Action Speed on target on scoring Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>81</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; that increases with Intimidate skill</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; that increases with Intimidate skill</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>82</ID>
+      <DefaultText>{0:extravalue:percentbonus} Damage taken (improves as wearer loses &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>83</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stun &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; attacker for {0:extravalue:duration} when Hit with a melee weapon.</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stun&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; attacker for {0:extravalue:duration} when Hit with a melee weapon.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>85</ID>
+      <DefaultText>While above {0:triggervalue:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, {0:extravalue:percent} chance incoming Ranged weapon attacks inflict {0:value:percent} Damage</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>86</ID>
-      <DefaultText>Attacks made from stealth &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stun &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; the target</DefaultText>
+      <DefaultText>Attacks made from stealth &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stun&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; the target</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>87</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy to Weapon attacks made from stealth</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; to Weapon attacks made from stealth</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>90</ID>
-      <DefaultText>{0:value:percent} Chance to launch a &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock Damage attack at target on scoring a melee weapon Crit</DefaultText>
+      <DefaultText>{0:value:percent} Chance to launch a &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Shock&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage attack at target on scoring a melee weapon Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>92</ID>
-      <DefaultText>Receiving &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock Damage grants the wearer's attacks additional &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock Damage for a brief time</DefaultText>
+      <DefaultText>Receiving &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Shock&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage grants the wearer's attacks additional &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Shock&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage for a brief time</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>98</ID>
+      <DefaultText>All Damage from Acid or Poison attacks has a {0:extravalue:percent} chance to be converted into {0:value:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; for the wearer</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>99</ID>
+      <DefaultText>{0:value:percent} chance to instantly destroy a Kith or Beast with less than 100 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; on Hit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>100</ID>
+      <DefaultText>{0:extravalue:percent} Chance to convert {0:value:percent} Damage from Fire keyword attacks to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -240,528 +270,613 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>102</ID>
+      <DefaultText>{0:extravalue:percent} Chance to convert {0:value:percent} Damage from Water keyword attacks to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>106</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock Damage AoE when Knocked Out</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Shock&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage AoE when Knocked Out</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>109</ID>
-      <DefaultText>Melee weapon attacks from stealth inflict &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage over time on target</DefaultText>
+      <DefaultText>Melee weapon attacks from stealth inflict &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage over time on target</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>110</ID>
-      <DefaultText>{0:value:percent} chance to cast interrupting &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crush Damage AoE when Critically Hit in melee</DefaultText>
+      <DefaultText>{0:value:percent} chance to cast interrupting &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Crush&lt;/link&gt;&lt;/nobr&gt; damage AoE when Critically Hit in melee</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>111</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage retaliation Attack when Critically Hit in Melee</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage retaliation Attack when Critically Hit in Melee</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>112</ID>
-      <DefaultText>Convert {0:value:percent} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn Damage to &lt;sprite="Inline" name="cs_health" tint=1&gt; Health.</DefaultText>
+      <DefaultText>Convert {0:value:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>117</ID>
-      <DefaultText>{0:value:percent} of {0:damagetype} Damage as &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage over time</DefaultText>
+      <DefaultText>{0:value:percent} of {0:damagetype} Damage as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage over time</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>119</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy and Action Speed bonus on receiving a Critical Hit.</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; and Action Speed bonus on receiving a Critical Hit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>120</ID>
-      <DefaultText>Grants &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating against &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze attacks that increases as wearer loses &lt;sprite="Inline" name="cs_health" tint=1&gt; Health (Max {0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; AR)</DefaultText>
+      <DefaultText>Grants &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; against &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; attacks that increases as wearer loses &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (Max {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;AR&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>121</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy and {0:extravalue:percentbonus} Damage to Flanked targets</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>124</ID>
-      <DefaultText>Summons a random potion into an empty &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Quick &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Slot</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; and {0:extravalue:percentbonus} Damage to Flanked targets</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>125</ID>
-      <DefaultText>{0:value} All Defenses except &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; (Increases with the History skill)</DefaultText>
+      <DefaultText>{0:value} All Defenses (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;) except &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (Increases with the History skill)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>131</ID>
+      <DefaultText>Ability triggers when wearer falls to {0:value:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>134</ID>
-      <DefaultText>When Bloodied or Near Death, wearer is immune to &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode Damage</DefaultText>
+      <DefaultText>When Bloodied or Near Death, wearer is immune to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrode&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>136</ID>
-      <DefaultText>Wielder takes {0:value:percent} Damage dealt as &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage to self</DefaultText>
+      <DefaultText>Wielder takes {0:value:percent} Damage dealt as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage to self</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>138</ID>
-      <DefaultText>{0:extravalue} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating that increases as the wearer loses &lt;sprite="Inline" name="cs_health" tint=1&gt; Health (max {0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; AR})</DefaultText>
+      <DefaultText>{0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; that increases as the wearer loses &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (max {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;AR&lt;/link&gt;&lt;/nobr&gt;})</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>141</ID>
-      <DefaultText>Summons a random potion into an empty &lt;link="gamedata://a0b4a490-2c99-456e-b6fb-131353133fba"&gt;&lt;#72da26&gt;Quick &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Slot at the start of combat. The potion disappears when combat ends.</DefaultText>
+      <ID>139</ID>
+      <DefaultText>{0:value:percentbonus} Damage from weapons. Bonus increases as wielder loses &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>149</ID>
-      <DefaultText>Chance to &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Shaken &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; target on Critical Hit</DefaultText>
+      <DefaultText>Chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shaken"&gt;&lt;#30d3d5&gt;Shaken&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target on Critical Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>150</ID>
-      <DefaultText>Chance to &lt;link="gamedata://8f4832b6-49ef-4f40-9d64-20eb50fd9bb6"&gt;&lt;#30d3d5&gt;Shaken &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; target and nearby enemies on Critical Hit</DefaultText>
+      <DefaultText>Chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shaken"&gt;&lt;#30d3d5&gt;Shaken&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target and nearby enemies on Critical Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>152</ID>
-      <DefaultText>{0:value} target &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; for {0:extravalue:duration} on Hit (stacks {0:triggercount} times)</DefaultText>
+      <DefaultText>{0:value} target &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; for {0:extravalue:duration} on Hit (stacks {0:triggercount} times)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>153</ID>
+      <DefaultText>Wielder gains {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; on Critical Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>154</ID>
-      <DefaultText>Deals {0:value} &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock Damage to target on Critical Hit</DefaultText>
+      <DefaultText>Deals {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Shock&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage to target on Critical Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>157</ID>
-      <DefaultText>{0:value:percent} Chance to &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Daze &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; target and nearby enemies on Crit</DefaultText>
+      <DefaultText>{0:value:percent} Chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Dazed"&gt;&lt;#ff4800&gt;Daze&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target and nearby enemies on Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>158</ID>
-      <DefaultText>Deals best of &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crush or &lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash Damage</DefaultText>
+      <DefaultText>Deals best of &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Crush&lt;/link&gt;&lt;/nobr&gt; or &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Slash&lt;/link&gt;&lt;/nobr&gt; damage</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>159</ID>
-      <DefaultText>{0:value:percent} chance to cast &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crush Damage water wave at target on Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance to cast &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Crush&lt;/link&gt;&lt;/nobr&gt; damage water wave at target on Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>161</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Daze &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; target on hit</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Dazed"&gt;&lt;#ff4800&gt;Daze&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target on hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>162</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Daze &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; target on hit</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Dazed"&gt;&lt;#ff4800&gt;Daze&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target on hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>163</ID>
-      <DefaultText>{0:triggervalue} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy and {0:extravalue:percentbonus} weapon Damage when below 50% &lt;sprite="Inline" name="cs_health" tint=1&gt; Health</DefaultText>
+      <DefaultText>{0:triggervalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; and {0:extravalue:percentbonus} weapon Damage when below 50% &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>164</ID>
-      <DefaultText>{0:value:percent} chance to launch &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crush/&lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash counterattack when missed in melee</DefaultText>
+      <DefaultText>{0:value:percent} chance to launch &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Crush&lt;/link&gt;&lt;/nobr&gt;/&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Slash&lt;/link&gt;&lt;/nobr&gt; counterattack when missed in melee</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>165</ID>
-      <DefaultText>&lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightened &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; attack on Kith or Wilder target on scoring Crit</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Frightened"&gt;&lt;#30d3d5&gt;Frightened&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; attack on Kith or Wilder target on scoring Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>171</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sicken &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; target for {0:extravalue:duration} on Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Sickened"&gt;&lt;#f7b733&gt;Sicken&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target for {0:extravalue:duration} on Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>172</ID>
-      <DefaultText>&lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;Hardy &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; Inspiration to self for {0:value:duration} when ally falls unconscious</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Hardy"&gt;&lt;#f7b733&gt;Hardy&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Inspiration to self for {0:value:duration} when ally falls unconscious</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>173</ID>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per {0:interval} when below {0:extravalue:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>174</ID>
-      <DefaultText>Hit applies -0.25 stacking &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating on target. Max -3 reduction</DefaultText>
+      <DefaultText>Hit applies -0.25 stacking &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; on target. Max -3 reduction</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>175</ID>
-      <DefaultText>Hit applies -0.5 stacking &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating on target. Max -4 reduction</DefaultText>
+      <DefaultText>Hit applies -0.5 stacking &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; on target. Max -4 reduction</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>176</ID>
+      <DefaultText>Stacking -5% Action Speed to target above 50% &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; on Hit. Max 5 stacks</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>178</ID>
-      <DefaultText>Launches &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage AoE on scoring {0:value:straight} consecutive Hits on target</DefaultText>
+      <DefaultText>Launches &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage AoE on scoring {0:value:straight} consecutive Hits on target</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>181</ID>
-      <DefaultText>{0:value:percent} chance to launch &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazed &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; attack at target when Missed in melee</DefaultText>
+      <DefaultText>{0:value:percent} chance to launch &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Dazed"&gt;&lt;#ff4800&gt;Dazed&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; attack at target when Missed in melee</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>182</ID>
+      <DefaultText>Casts Ghost Blades on Kill and returns &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; based on damage dealt</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>183</ID>
+      <DefaultText>On Kill: +2 Might. Convert 25% Hits to Crits against targets below 25% &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;. +15% Action Speed for 45.0 sec. Effects Stack. Suppresses Soul Hunger</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>184</ID>
+      <DefaultText>On Kill: +6 Might. Convert 35% Hits to Crits against targets below 50% &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;. +30% Action Speed for 45.0 sec. Effects Stack. Suppresses Soul Hunger</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>185</ID>
+      <DefaultText>On Kill: +3 Might. Convert 25% Hits to Crits against targets below 50% &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;. +20% Action Speed for 45.0 sec. Effects Stack. Suppresses Soul Hunger</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>186</ID>
-      <DefaultText>Soul Hunger: -2 Constitution. 30% Crits converted to Hits. -10 &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy</DefaultText>
+      <DefaultText>Soul Hunger: -2 Constitution. 30% Crits converted to Hits. -10 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>187</ID>
-      <DefaultText>Ravenous Soul Hunger: -4 Constitution. 50% Crits converted to Hits. -15 &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy</DefaultText>
+      <DefaultText>Ravenous Soul Hunger: -4 Constitution. 50% Crits converted to Hits. -15 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>188</ID>
-      <DefaultText>Subdued Soul Hunger: -1 Constitution. 20% Crits converted to Hits. -5 &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy</DefaultText>
+      <DefaultText>Subdued Soul Hunger: -1 Constitution. 20% Crits converted to Hits. -5 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>194</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze/&lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash Damage AoE at target location on scoring Crit</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;/&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Slash&lt;/link&gt;&lt;/nobr&gt; damage AoE at target location on scoring Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>195</ID>
-      <DefaultText>When Frosted Edge has {0:value:straight} stacks, &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyze &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; target for {0:extravalue:duration} on Crit</DefaultText>
+      <DefaultText>When Frosted Edge has {0:value:straight} stacks, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Paralyzed"&gt;&lt;#72da26&gt;Paralyze&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target for {0:extravalue:duration} on Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>196</ID>
-      <DefaultText>Gain +3% &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze damage on Hit. Effect stacks 20 times</DefaultText>
+      <DefaultText>Gain +3% &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage on Hit. Effect stacks 20 times</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>201</ID>
-      <DefaultText>Gain +3% &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode Damage on Hit. Effect stacks 20 times</DefaultText>
+      <DefaultText>Gain +3% &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrode&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage on Hit. Effect stacks 20 times</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>202</ID>
-      <DefaultText>When Tainted Blade has {0:triggercount} stacks, &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sicken &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; target on Crit</DefaultText>
+      <DefaultText>When Tainted Blade has {0:triggercount} stacks, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Sickened"&gt;&lt;#f7b733&gt;Sicken&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target on Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>205</ID>
-      <DefaultText>{0:extravalue} Melee &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy for each Engaged target</DefaultText>
+      <DefaultText>{0:extravalue} Melee &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; for each Engaged target</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>209</ID>
-      <DefaultText>{0:value} all Defenses except &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; for {0:extravalue:duration} for nearby allies on scoring Kill with Keybreaker</DefaultText>
+      <DefaultText>{0:value} all Defenses (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;) except &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; for {0:extravalue:duration} for nearby allies on scoring Kill with Keybreaker</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>211</ID>
-      <DefaultText>Kills with &lt;xg&gt;Magran's&lt;/xg&gt; Favor deal &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn Damage to nearby enemies</DefaultText>
+      <DefaultText>Kills with &lt;xg&gt;Magran's&lt;/xg&gt; Favor deal &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage to nearby enemies</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>212</ID>
-      <DefaultText>{0:triggercount} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn Damage per {0:extravalue:duration} for {0:value:duration} to target on scoring Crit</DefaultText>
+      <DefaultText>{0:triggercount} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage per {0:extravalue:duration} for {0:value:duration} to target on scoring Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>213</ID>
-      <DefaultText>{0:value:percent} of &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn Damage dealt by &lt;xg&gt;Magran's&lt;/xg&gt; Favor Heals the wielder</DefaultText>
+      <DefaultText>{0:value:percent} of &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage dealt by &lt;xg&gt;Magran's&lt;/xg&gt; Favor Heals the wielder</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>214</ID>
-      <DefaultText>Kills with &lt;xg&gt;Magran's&lt;/xg&gt; Favor grant {0:value:percent} Damage as &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn and {0:extravalue:percent} Action Speed (Stacks {0:triggervalue:straight} times)</DefaultText>
+      <DefaultText>Kills with &lt;xg&gt;Magran's&lt;/xg&gt; Favor grant {0:value:percent} Damage as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; and {0:extravalue:percent} Action Speed (Stacks {0:triggervalue:straight} times)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>215</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration. Increases with Survival skill</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt;. Increases with Survival skill</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>216</ID>
-      <DefaultText>&lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Disorienting &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; cone attack towards target on Crit</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Disoriented"&gt;&lt;#ca58ff&gt;Disorienting&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; cone attack towards target on Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>220</ID>
-      <DefaultText>Moderate &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage over time to Flanked target on Hit</DefaultText>
+      <DefaultText>Moderate &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage over time to Flanked target on Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>224</ID>
-      <DefaultText>{0:triggercount} &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw bleed Damage per {0:value:duration} for {0:extravalue:duration} to target on scoring Crit</DefaultText>
+      <DefaultText>{0:triggercount} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; bleed Damage per {0:value:duration} for {0:extravalue:duration} to target on scoring Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>225</ID>
-      <DefaultText>{0:triggercount} &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode Damage per {0:value:duration} for {0:triggervalue:duration} on Hit ({0:extravalue:percent} chance to kill Near Death target on tick)</DefaultText>
+      <DefaultText>{0:triggercount} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrode&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage per {0:value:duration} for {0:triggervalue:duration} on Hit ({0:extravalue:percent} chance to kill Near Death target on tick)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>226</ID>
-      <DefaultText>{0:triggercount} &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode Damage per {0:value:duration} for {0:triggervalue:duration} on Hit ({0:extravalue:percent} chance to &lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyze &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; target on tick)</DefaultText>
+      <DefaultText>{0:triggercount} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrode&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage per {0:value:duration} for {0:triggervalue:duration} on Hit ({0:extravalue:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Paralyzed"&gt;&lt;#72da26&gt;Paralyze&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target on tick)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>230</ID>
-      <DefaultText>{0:extravalue:percent} Damage as &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock for each held Chanter Phrase</DefaultText>
+      <DefaultText>{0:extravalue:percent} Damage as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Shock&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; for each held Chanter Phrase</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>232</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy with Ranged weapons for {0:extravalue:duration} on scoring Hit (stacks {0:triggercount} times)</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; with Ranged weapons for {0:extravalue:duration} on scoring Hit (stacks {0:triggercount} times)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>233</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy with all weapons for {0:extravalue:duration} on scoring Hit (stacks {0:triggercount} times)</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; with all weapons for {0:extravalue:duration} on scoring Hit (stacks {0:triggercount} times)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>234</ID>
-      <DefaultText>{0:value} stacking Ranged Weapon &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy</DefaultText>
+      <DefaultText>{0:value} stacking Ranged Weapon &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>240</ID>
-      <DefaultText>Reflect 20% &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn damage from Fire attacks to attacker</DefaultText>
+      <DefaultText>Reflect 20% &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage from Fire attacks to attacker</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>241</ID>
-      <DefaultText>50% chance to &lt;link="gamedata://76a5e15a-e75c-4853-889b-2e9229d46444"&gt;&lt;#ca58ff&gt;Blind &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; attacker for 10.0 sec when missed with Gaze attack</DefaultText>
+      <DefaultText>50% chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Blinded"&gt;&lt;#ca58ff&gt;Blind&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; attacker for 10.0 sec when missed with Gaze attack</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>242</ID>
-      <DefaultText>{0:extravalue:percent} chance to &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Daze &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; target for {0:value:duration} and knock Prone on scoring Hit</DefaultText>
+      <DefaultText>{0:extravalue:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Dazed"&gt;&lt;#ff4800&gt;Daze&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target for {0:value:duration} and knock Prone on scoring Hit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>244</ID>
+      <DefaultText>{0:value} Max &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; until combat end on scoring Kill with weapon</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>245</ID>
-      <DefaultText>{0:value:percent} chance to Knockback and &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Daze &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; target on scoring Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance to Knockback and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Dazed"&gt;&lt;#ff4800&gt;Daze&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target on scoring Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>246</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://a31fdd6c-5f4f-404d-92f5-5d7d8c166f2c"&gt;&lt;#72da26&gt;Immobilize &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; target on scoring Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Immobilized"&gt;&lt;#72da26&gt;Immobilize&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target on scoring Hit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>251</ID>
+      <DefaultText>Restore {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; to nearby allies on scoring Kill (Increases with Religion skill)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>252</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobble &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; target on scoring Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Hobbled"&gt;&lt;#72da26&gt;Hobble&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target on scoring Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>253</ID>
-      <DefaultText>Hits with this weapon cause {0:value:percent} Damage as &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage over time</DefaultText>
+      <DefaultText>Hits with this weapon cause {0:value:percent} Damage as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage over time</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>256</ID>
-      <DefaultText>{0:value:percent} chance target &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; for {0:extravalue:duration} on Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance target &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Confused"&gt;&lt;#00a4ff&gt;Confused&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; for {0:extravalue:duration} on Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>257</ID>
-      <DefaultText>If target is &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distracted &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; knock Prone on scoring Crit</DefaultText>
+      <DefaultText>If target is &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Distracted"&gt;&lt;#ca58ff&gt;Distracted&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; knock Prone on scoring Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>258</ID>
-      <DefaultText>{0:value:percent} &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn Damage from weapon returns &lt;sprite="Inline" name="cs_health" tint=1&gt; Health</DefaultText>
+      <DefaultText>{0:value:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage from weapon returns &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>259</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze damage from weapon reduces target Max &lt;sprite="Inline" name="cs_health" tint=1&gt; Health by {0:extravalue:percent} of damage dealt</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage from weapon reduces target Max &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; by {0:extravalue:percent} of damage dealt</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>261</ID>
-      <DefaultText>Modifies Imbued Ammunition with {0:value:percent} on scoring Hit to add &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn Damage over time</DefaultText>
+      <DefaultText>Modifies Imbued Ammunition with {0:value:percent} on scoring Hit to add &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage over time</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>270</ID>
-      <DefaultText>If target has &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Affliction &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , {0:value:percent} chance to Interrupt target on scoring Hit</DefaultText>
+      <DefaultText>If target has &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Affliction&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , {0:value:percent} chance to Interrupt target on scoring Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>271</ID>
-      <DefaultText>If target has &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Affliction &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , {0:triggercount} &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage per {0:extravalue:duration} for {0:value:duration} on scoring Crit</DefaultText>
+      <DefaultText>If target has &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Affliction&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; , {0:triggercount} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage per {0:extravalue:duration} for {0:value:duration} on scoring Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>272</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw bleed Damage over time for 12.0 sec on target on scoring Crit</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; bleed Damage over time for 12.0 sec on target on scoring Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>274</ID>
-      <DefaultText>&lt;link="gamedata://72de641d-d2f1-47ca-85f2-6ec3e41140bd"&gt;&lt;#72da26&gt;Paralyze &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; target for {0:value:duration} on scoring Crit</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Paralyzed"&gt;&lt;#72da26&gt;Paralyze&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target for {0:value:duration} on scoring Crit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>275</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy if target has Shield, Medium Armor, or Heavy Armor equipped</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; if target has Shield, Medium Armor, or Heavy Armor equipped</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>280</ID>
-      <DefaultText>{0:value} All Defenses against &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Affliction &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; attacks while above 75% &lt;sprite="Inline" name="cs_health" tint=1&gt; Health</DefaultText>
+      <DefaultText>{0:value} All Defenses (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;) against &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Affliction&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; attacks while above 75% &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>283</ID>
+      <DefaultText>Restore {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; on scoring Kill with weapon</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>284</ID>
-      <DefaultText>&lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sicken &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; for 12.0 sec on scoring Crit. Opposed by &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt;</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Sickened"&gt;&lt;#f7b733&gt;Sicken&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; for 12.0 sec on scoring Crit. Opposed by &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>285</ID>
-      <DefaultText>{0:value:percent} chance to cast &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crush Damage Water AoE on target on scoring Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance to cast &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Crush&lt;/link&gt;&lt;/nobr&gt; damage Water AoE on target on scoring Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>287</ID>
-      <DefaultText>+10% Melee Damage and +5 &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; when Engaged. Stacks 3 times</DefaultText>
+      <DefaultText>+10% Melee Damage and +5 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; when Engaged. Stacks 3 times</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>290</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage over time for 18.0 sec on target below 25% &lt;sprite="Inline" name="cs_health" tint=1&gt; Health on Hit</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage over time for 18.0 sec on target below 25% &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; on Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>294</ID>
-      <DefaultText>For {0:value:duration} after launching attack, return {0:extravalue:percent} incoming Melee Damage to attacker as &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage</DefaultText>
+      <DefaultText>For {0:value:duration} after launching attack, return {0:extravalue:percent} incoming Melee Damage to attacker as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>301</ID>
-      <DefaultText>{0:value:percent} chance to &lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash attack enemy when Hit with &lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash Damage in melee</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Slash&lt;/link&gt;&lt;/nobr&gt; attack enemy when Hit with &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Slash&lt;/link&gt;&lt;/nobr&gt; damage in melee</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>302</ID>
-      <DefaultText>{0:extravalue} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt; that increases as &lt;sprite="Inline" name="cs_health" tint=1&gt; Health is lost (max {0:value} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt;)</DefaultText>
+      <DefaultText>{0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; that increases as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; is lost (max {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>305</ID>
-      <DefaultText>Hostile-only &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage AoE on Unconscious</DefaultText>
+      <DefaultText>Hostile-only &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage AoE on Unconscious</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>306</ID>
-      <DefaultText>Being hit grants {0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; and {0:extravalue} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt; until combat ends (Stacks {0:triggervalue:straight} times)</DefaultText>
+      <DefaultText>Being hit grants {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; and {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; until combat ends (Stacks {0:triggervalue:straight} times)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>307</ID>
-      <DefaultText>+1 &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating for Aloth if Positive</DefaultText>
+      <DefaultText>+1 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; for Aloth if Positive</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>308</ID>
-      <DefaultText>+3 &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating for Aloth if Very Positive</DefaultText>
+      <DefaultText>+3 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; for Aloth if Very Positive</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>312</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; against Ranged weapons (increases with Stealth skill)</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; against Ranged weapons (increases with Stealth skill)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>314</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; while Flanked</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; while Flanked</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>315</ID>
+      <DefaultText>{0:extravalue} All Defenses (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;) (decreases as wearer loses &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>316</ID>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per {0:triggervalue:duration} for {0:extravalue:duration} when Critically Hit (Healing increases as wearer loses &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>317</ID>
-      <DefaultText>+3 &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy. Increases as wearer loses &lt;sprite="Inline" name="cs_health" tint=1&gt; Health</DefaultText>
+      <DefaultText>+3 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt;. Increases as wearer loses &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>318</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating increases as wearer loses &lt;sprite="Inline" name="cs_health" tint=1&gt; Health (Max {0:extravalue} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating)</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; increases as wearer loses &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (Max {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>319</ID>
+      <DefaultText>Melee Weapon Damage increases as wearer loses &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (Max {0:extravalue:percent} Damage)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>323</ID>
-      <DefaultText>Two-Handed gains &lt;link="gamedata://67f6a58b-658e-4c97-b0a2-5d53067dcbd8"&gt;&lt;#ff4800&gt;Staggered &lt;sprite="Inline" name="attribute_might" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; for {0:extravalue:duration}</DefaultText>
+      <DefaultText>Two-Handed gains &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Staggered"&gt;&lt;#ff4800&gt;Staggered&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; for {0:extravalue:duration}</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>324</ID>
-      <DefaultText>Ranged gains {0:value} &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration</DefaultText>
+      <DefaultText>Ranged gains {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>325</ID>
-      <DefaultText>Two-Handed gains &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazed &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; for {0:extravalue:duration}</DefaultText>
+      <DefaultText>Two-Handed gains &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Dazed"&gt;&lt;#ff4800&gt;Dazed&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; for {0:extravalue:duration}</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>326</ID>
-      <DefaultText>Ranged gains {0:value} &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration and {0:extravalue:percentbonus} Bonus Damage</DefaultText>
+      <DefaultText>Ranged gains {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt; and {0:extravalue:percentbonus} Bonus Damage</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>327</ID>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per {0:interval} while below {0:extravalue:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>332</ID>
-      <DefaultText>{0:value:percent} of Damage Dealt is Applied to Self as &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage</DefaultText>
+      <DefaultText>{0:value:percent} of Damage Dealt is Applied to Self as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>337</ID>
-      <DefaultText>Weapon &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration increases with wielder's level</DefaultText>
+      <DefaultText>Weapon &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt; increases with wielder's level</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>338</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_health" tint=1&gt; Health to wielder and &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage to target on receiving Hit</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; to wielder and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage to target on receiving Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>340</ID>
-      <DefaultText>+10% Damage added as &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode until combat ends on scoring Crit. Stacks 10 times</DefaultText>
+      <DefaultText>+10% Damage added as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrode&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; until combat ends on scoring Crit. Stacks 10 times</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>346</ID>
-      <DefaultText>{0:value} Melee &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy per {0:interval} until combat ends (Stacks {0:extravalue:straight} times)</DefaultText>
+      <DefaultText>{0:value} Melee &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; per {0:interval} until combat ends (Stacks {0:extravalue:straight} times)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>347</ID>
-      <DefaultText>Receiving Critical Hits causes an additional {0:value} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt; until combat ends (Stacks {0:extravalue:straight} times)</DefaultText>
+      <DefaultText>Receiving Critical Hits causes an additional {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; until combat ends (Stacks {0:extravalue:straight} times)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>351</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; against Melee weapons</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; against Melee weapons</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>352</ID>
-      <DefaultText>Counterattack enemy when Missed in Melee (inflicts &lt;link="gamedata://3a790bc4-40a9-4d9f-8da8-a76f3cb6c5e1"&gt;&lt;#ff4800&gt;Dazed &lt;sprite="Inline" name="attribute_might" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; on target)</DefaultText>
+      <DefaultText>Counterattack enemy when Missed in Melee (inflicts &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Dazed"&gt;&lt;#ff4800&gt;Dazed&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; on target)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>361</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy against Marked target</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; against Marked target</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>377</ID>
+      <DefaultText>{0:value} All Defenses (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;) against Plant attacks while above {0:extravalue:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>378</ID>
+      <DefaultText>{0:value} All Defenses (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;) against Plant attacks while above {0:extravalue:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>379</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stun &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; target for {0:extravalue:duration} on scoring Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stun&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target for {0:extravalue:duration} on scoring Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>380</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stun &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; target for {0:extravalue:duration} on scoring Hit if wielder is a dwarf</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stun&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target for {0:extravalue:duration} on scoring Hit if wielder is a dwarf</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -771,282 +886,437 @@
     </Entry>
     <Entry>
       <ID>384</ID>
-      <DefaultText>{0:value:percent} of received damage is reapplied as &lt;sprite="Inline" name="cs_raw" tint=1&gt; Raw Damage</DefaultText>
+      <DefaultText>{0:value:percent} of received damage is reapplied as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>391</ID>
-      <DefaultText>Deals &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Pierce/&lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash Damage</DefaultText>
+      <DefaultText>Deals &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Pierce&lt;/link&gt;&lt;/nobr&gt;/&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Slash&lt;/link&gt;&lt;/nobr&gt; damage</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>392</ID>
-      <DefaultText>Corona of the Soul grants &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;Strong &lt;sprite="Inline" name="attribute_might" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; and &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Smart &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; inspirations for {0:value:duration}</DefaultText>
+      <DefaultText>Corona of the Soul grants &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Smart"&gt;&lt;#00a4ff&gt;Smart&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; inspirations for {0:value:duration}</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>393</ID>
-      <DefaultText>{0:value:percent} chance to cast &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn Damage AoE on Hit with Marux Amanth.</DefaultText>
+      <DefaultText>{0:value:percent} chance to cast &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage AoE on Hit with Marux Amanth.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>399</ID>
-      <DefaultText>Critical Hits can cause &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobbled &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; or &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;Sickened &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; Afflictions for {0:extravalue:duration}.</DefaultText>
+      <DefaultText>Critical Hits can cause &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Hobbled"&gt;&lt;#72da26&gt;Hobbled&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; or &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Sickened"&gt;&lt;#f7b733&gt;Sickened&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Afflictions for {0:extravalue:duration}.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>400</ID>
-      <DefaultText>On unconscious, launches an AoE that gives Allies &lt;link="gamedata://92d1a280-2f8e-4a6d-87a9-6599d41d65e4"&gt;&lt;#30d3d5&gt;Steadfast &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; for {0:extravalue:duration} and does a Full Attack to Enemies</DefaultText>
+      <DefaultText>On unconscious, launches an AoE that gives Allies &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Steadfast"&gt;&lt;#30d3d5&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; for {0:extravalue:duration} and does a Full Attack to Enemies</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>401</ID>
-      <DefaultText>Immune to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while under {0:extravalue:percent} &lt;sprite="Inline" name="cs_health" tint=1&gt; Health</DefaultText>
+      <DefaultText>Immune to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while under {0:extravalue:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>405</ID>
-      <DefaultText>Killing an enemy with a Critical Hit launches a &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn AoE</DefaultText>
+      <DefaultText>Killing an enemy with a Critical Hit launches a &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; AoE</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>406</ID>
-      <DefaultText>{0:value:percent} chance to launch a small &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn AoE on Hit or Critical Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance to launch a small &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; AoE on Hit or Critical Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>411</ID>
-      <DefaultText>Grants &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; as &lt;sprite="Inline" name="cs_health" tint=1&gt; Health decreases, up to a max of {0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; at 0% &lt;sprite="Inline" name="cs_health" tint=1&gt; Health</DefaultText>
+      <DefaultText>Grants &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; decreases, up to a max of {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; at 0% &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>412</ID>
+      <DefaultText>Unable to move when under 25% &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>413</ID>
-      <DefaultText>Grants &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Smart &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspiration to Self and &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; Affliction to an enemy for {0:value:duration} when engaged for the first time in combat.</DefaultText>
+      <DefaultText>Grants &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Smart"&gt;&lt;#00a4ff&gt;Smart&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Inspiration to Self and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Confused"&gt;&lt;#00a4ff&gt;Confused&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Affliction to an enemy for {0:value:duration} when engaged for the first time in combat.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>414</ID>
+      <DefaultText>Grants {0:extravalue} Armor and {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; every {0:interval} when under 25% &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>416</ID>
-      <DefaultText>Grants &lt;link="gamedata://0435c12c-8049-4f50-b234-ed3cca340696"&gt;&lt;#00a4ff&gt;Smart &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; Inspiration for {0:value:duration} when engaged for the first time in combat.</DefaultText>
+      <DefaultText>Grants &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Smart"&gt;&lt;#00a4ff&gt;Smart&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Inspiration for {0:value:duration} when engaged for the first time in combat.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>417</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating for Aloth if relationship is Negative</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; for Aloth if relationship is Negative</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>418</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating for Aloth if relationship is Very Negative</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; for Aloth if relationship is Very Negative</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>419</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating for Edér if relationship is Negative</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; for Edér if relationship is Negative</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>420</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating for Edér if relationship is Negative</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; for Edér if relationship is Negative</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>424</ID>
-      <DefaultText>Being critically hit with a Fire attack will cause interrupt and give a {0:value} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Will&lt;/color&gt; penalty for {0:extravalue:duration}</DefaultText>
+      <DefaultText>Being critically hit with a Fire attack will cause interrupt and give a {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; penalty for {0:extravalue:duration}</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>431</ID>
-      <DefaultText>(Current Bonus: {0:value}) {0:extravalue} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy per Wound</DefaultText>
+      <DefaultText>(Current Bonus: {0:value}) {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; per Wound</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>446</ID>
-      <DefaultText>Receiving Critical Hits from Melee Attacks has a {0:value:percent} chance to cause &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;Confused &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; on attackers (Upgrades to &lt;link="gamedata://f4a09726-a62d-49a2-8cc6-c3713676c833"&gt;&lt;#00a4ff&gt;Charmed &lt;sprite="Inline" name="attribute_intellect" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; on Crit)</DefaultText>
+      <DefaultText>Receiving Critical Hits from Melee Attacks has a {0:value:percent} chance to cause &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Confused"&gt;&lt;#00a4ff&gt;Confused&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; on attackers (Upgrades to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Charmed"&gt;&lt;#00a4ff&gt;Charmed&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; on Crit)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>448</ID>
+      <DefaultText>Attack Speed increases as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; decreases</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>450</ID>
+      <DefaultText>{0:value:percentbonus} Action Speed (Increases as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; is lost)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>451</ID>
-      <DefaultText>{0:value:percent} chance to cast &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrode Damage cone AoE from self and &lt;link="gamedata://c1d82f88-4f54-4279-8e72-43104bf754a2"&gt;&lt;#72da26&gt;Hobble &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; target on attack</DefaultText>
+      <DefaultText>{0:value:percent} chance to cast &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrode&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage cone AoE from self and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Hobbled"&gt;&lt;#72da26&gt;Hobble&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target on attack</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>453</ID>
-      <DefaultText>Nearby enemies will become &lt;link="gamedata://919bddc8-1e05-412b-bb5c-8272545b28f0"&gt;&lt;#ca58ff&gt;Distracted &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₁&lt;/color&gt;&lt;/link&gt; after killing an enemy with the weapon for {0:value:duration}</DefaultText>
+      <DefaultText>Nearby enemies will become &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Distracted"&gt;&lt;#ca58ff&gt;Distracted&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; after killing an enemy with the weapon for {0:value:duration}</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>455</ID>
-      <DefaultText>On Hit, applies a stacking effect to an enemy. On Crit, all enemies in an AoE will lose all stacks and take {0:extravalue} &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock damage for every stack.</DefaultText>
+      <DefaultText>On Hit, applies a stacking effect to an enemy. On Crit, all enemies in an AoE will lose all stacks and take {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Shock&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage for every stack.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>456</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stun &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; attacker for 8.0 sec when Hit with a melee weapon.</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stun&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; attacker for 8.0 sec when Hit with a melee weapon.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>458</ID>
-      <DefaultText>Enemies in the AoE will become &lt;link="gamedata://1021cac0-2d10-4f0d-93e3-e1b0ce24f9fd"&gt;&lt;#ca58ff&gt;Disoriented &lt;sprite="Inline" name="attribute_perception" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; for {0:extravalue:duration}.</DefaultText>
+      <DefaultText>Enemies in the AoE will become &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Disoriented"&gt;&lt;#ca58ff&gt;Disoriented&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; for {0:extravalue:duration}.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>459</ID>
-      <DefaultText>+{0:value:percent} Damage dealt as &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn when above {0:extravalue:percent} &lt;sprite="Inline" name="cs_health" tint=1&gt; Health and +{0:value:percent} Damage dealt as &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Freeze when below {0:extravalue:percent} &lt;sprite="Inline" name="cs_health" tint=1&gt; Health</DefaultText>
+      <DefaultText>+{0:value:percent} Damage dealt as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; when above {0:extravalue:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; and +{0:value:percent} Damage dealt as &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; when below {0:extravalue:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>460</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating if relationship is Negative, {0:extravalue} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating if relationship is Very Negative</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; if relationship is Negative, {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; if relationship is Very Negative</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>461</ID>
+      <DefaultText>Walking leaves a small AoE that &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Hobbled"&gt;&lt;#72da26&gt;Hobbles&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; enemies</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>462</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating if relationship is Positive, {0:extravalue} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating if relationship is Very Positive</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; if relationship is Positive, {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; if relationship is Very Positive</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>463</ID>
-      <DefaultText>{0:value} to all Defenses (except &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;) if relationship is Positive, {0:extravalue} to all Defenses (except &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt;) if relationship is Very Positive</DefaultText>
+      <DefaultText>{0:value} to all Defenses (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;), except &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, if relationship is Positive, {0:extravalue} to all Defenses (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Will&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;), except &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, if relationship is Very Positive</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>465</ID>
+      <DefaultText>On Hit or Crit, the wearer's next successful attack does additional &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>466</ID>
+      <DefaultText>The wearer's next successful attack does additional &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>469</ID>
-      <DefaultText>Randomly grants {0:value} Armor, {0:value} Bonus &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration, or {0:extravalue:percentbonus} Recovery time for a short duration when engaging an enemy.</DefaultText>
+      <DefaultText>Randomly grants {0:value} Armor, {0:value} Bonus &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt;, or {0:extravalue:percentbonus} Recovery time for a short duration when engaging an enemy.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>470</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; for 45.0 sec on target on scoring Hit. Stacks 5 times</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; for 45.0 sec on target on scoring Hit. Stacks 5 times</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>473</ID>
+      <DefaultText>Casts a random Storm spell once per combat when under {0:value:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>475</ID>
+      <DefaultText>{0:value:percent} chance 20 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Restored to enemy on Critical Hit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>476</ID>
+      <DefaultText>{0:value:percent} chance 30 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Restored to self on scoring Critical Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>478</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; (Improves with Athletics skill)</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (Improves with Athletics skill)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>483</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating. Armor lost when Hit, but regenerates</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt;. Armor lost when Hit, but regenerates</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>485</ID>
-      <DefaultText>{0:extravalue:percent} chance to resist &lt;sprite="Inline" name="cs_slash" tint=1&gt; Slash Damage attacks</DefaultText>
+      <DefaultText>{0:extravalue:percent} chance to resist &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Slash&lt;/link&gt;&lt;/nobr&gt; damage attacks</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>486</ID>
-      <DefaultText>{0:extravalue:percent} chance to resist &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Crush Damage attacks</DefaultText>
+      <DefaultText>{0:extravalue:percent} chance to resist &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Crush&lt;/link&gt;&lt;/nobr&gt; damage attacks</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>487</ID>
-      <DefaultText>{0:extravalue:percent} chance to resist &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Pierce Damage attacks</DefaultText>
+      <DefaultText>{0:extravalue:percent} chance to resist &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Pierce&lt;/link&gt;&lt;/nobr&gt; damage attacks</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>488</ID>
-      <DefaultText>{0:value:percent} chance to apply &lt;link="gamedata://d9e00789-14d3-46f1-be3e-4c1379148d24"&gt;&lt;#30d3d5&gt;Frightened &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₂&lt;/color&gt;&lt;/link&gt; for {0:extravalue:duration} on scoring Hit (excludes grazes)</DefaultText>
+      <DefaultText>{0:value:percent} chance to apply &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Frightened"&gt;&lt;#30d3d5&gt;Frightened&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; for {0:extravalue:duration} on scoring Hit (excludes grazes)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>489</ID>
-      <DefaultText>{0:value:percent} chance to apply &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrified &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; for {0:extravalue:duration} on scoring Hit (excludes grazes)</DefaultText>
+      <DefaultText>{0:value:percent} chance to apply &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Terrified"&gt;&lt;#30d3d5&gt;Terrified&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; for {0:extravalue:duration} on scoring Hit (excludes grazes)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>497</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy to first attack made in combat</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; to first attack made in combat</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>498</ID>
-      <DefaultText>Lower level Kith enemies may become &lt;link="gamedata://0d89a32d-c883-4a18-9fbd-4ff58f1fd0de"&gt;&lt;#30d3d5&gt;Terrified &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; at the beginning of combat</DefaultText>
+      <DefaultText>Lower level Kith enemies may become &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Terrified"&gt;&lt;#30d3d5&gt;Terrified&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; at the beginning of combat</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>501</ID>
+      <DefaultText>per {0:interval:duration} while below {0:extravalue:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>504</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; against Flanking attacks</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; against Flanking attacks</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>505</ID>
+      <DefaultText>Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while above {0:extravalue:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>506</ID>
+      <DefaultText>Immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while above {0:value:percent} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>507</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stun &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; target for {0:extravalue:duration} on scoring Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stun&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target for {0:extravalue:duration} on scoring Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>508</ID>
-      <DefaultText>{0:value:percent} chance to &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;Stun &lt;sprite="Inline" name="attribute_might" tint=1&gt;₃&lt;/color&gt;&lt;/link&gt; target for {0:extravalue:duration} on scoring Hit if wielder is a dwarf</DefaultText>
+      <DefaultText>{0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stun&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; target for {0:extravalue:duration} on scoring Hit if wielder is a dwarf</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>509</ID>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (increases with Diplomacy skill)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>512</ID>
-      <DefaultText>{0:value:percent} chance &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;Fit &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;¹&lt;/color&gt;&lt;/link&gt; for {0:extravalue:duration} on self on scoring Hit</DefaultText>
+      <DefaultText>{0:value:percent} chance &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; for {0:extravalue:duration} on self on scoring Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>520</ID>
-      <DefaultText>Grants &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating against &lt;sprite="Inline" name="cs_shock" tint=1&gt; Shock attacks that increases as wearer loses &lt;sprite="Inline" name="cs_health" tint=1&gt; Health (Max {0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; AR)</DefaultText>
+      <DefaultText>Grants &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; against &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Shock&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; attacks that increases as wearer loses &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (Max {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;AR&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>521</ID>
-      <DefaultText>Grants &lt;sprite="Inline" name="cs_ar" tint=1&gt; Armor Rating against Water attacks that increases as wearer loses &lt;sprite="Inline" name="cs_health" tint=1&gt; Health (Max {0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; AR)</DefaultText>
+      <DefaultText>Grants &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Armor Rating&lt;/link&gt;&lt;/nobr&gt; against Water attacks that increases as wearer loses &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (Max {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;AR&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>524</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetration for Summons</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt; for Summons</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>535</ID>
-      <DefaultText>{0:value:percentbonus} hostile &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Affliction &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; duration</DefaultText>
+      <DefaultText>{0:value:percentbonus} hostile &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Affliction&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; duration</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>536</ID>
-      <DefaultText>{0:value} &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Fortitude&lt;/color&gt; while standing still</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Fortitude&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; while standing still</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>538</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Accuracy with weapons after being missed by a melee weapon attack</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Accuracy&lt;/link&gt;&lt;/nobr&gt; with weapons after being missed by a melee weapon attack</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>543</ID>
+      <DefaultText>{0:extravalue:percentbonus} Damage done with weapons (increases as wearer loses &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>544</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; while near allies</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; while near allies</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>551</ID>
-      <DefaultText>20% chance to deal additional &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn Damage on Hit</DefaultText>
+      <DefaultText>20% chance to deal additional &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage on Hit</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>552</ID>
-      <DefaultText>20% chance to deal additional &lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn Damage in AoE on Hit</DefaultText>
+      <DefaultText>20% chance to deal additional &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage in AoE on Hit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>556</ID>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt; after taking &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage. Stacks {0:extravalue:straight} times.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>557</ID>
+      <DefaultText>Weapon attacks deal best of &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Crush&lt;/link&gt;&lt;/nobr&gt;/&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>560</ID>
+      <DefaultText>Critical Hits have a {0:value:percent} chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; the enemy for {0:extravalue:duration}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>561</ID>
+      <DefaultText>{0:value:percent} chance on scoring Crit to deal &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;/&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Pierce&lt;/link&gt;&lt;/nobr&gt; damage to enemies around the target</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>562</ID>
+      <DefaultText>Large Shield Weapon Proficiency now grants a {0:value:percent} chance to deal &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Freeze&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage when Missed in Melee.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>570</ID>
-      <DefaultText>{0:extravalue} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflection&lt;/color&gt; per Wound</DefaultText>
+      <DefaultText>{0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per Wound</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>571</ID>
-      <DefaultText>{0:extravalue} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Reflex&lt;/color&gt; per Wound</DefaultText>
+      <DefaultText>{0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflex&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per Wound</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>576</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_burn" tint=1&gt; Burn AoE per {0:interval}</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; AoE per {0:interval}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>580</ID>
+      <DefaultText>{0:value:percent} of Damage dealt with this weapon restores &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; to the wielder</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>584</ID>
+      <DefaultText>Scoring a Critical Hit on an enemy causes them to take &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Raw&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage over time. Whenever that enemy deals damage, the duration increases</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>588</ID>
-      <DefaultText>Gain the &lt;link="gamedata://a64e1484-5867-4112-843c-06da3be5399b"&gt;&lt;#ca58ff&gt;Aware &lt;sprite="Inline" name="attribute_perception" tint=1&gt;²&lt;/color&gt;&lt;/link&gt; Inspiration for {0:value:duration} whenever a nearby Ally scores a killing blow</DefaultText>
+      <DefaultText>Gain the &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Aware"&gt;&lt;#ca58ff&gt;Aware&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Inspiration for {0:value:duration} whenever a nearby Ally scores a killing blow</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>590</ID>
+      <DefaultText>{0:value:percent} chance to apply &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrode&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage over time when Hit with weapons</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>594</ID>
+      <DefaultText>{0:value:percent} chance to launch an interrupting &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Crush&lt;/link&gt;&lt;/nobr&gt; damage AoE on scoring a Crit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>595</ID>
+      <DefaultText>{0:value:percent} chance to launch an interrupting and &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Immobilized"&gt;&lt;#72da26&gt;Immobilizing&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Crush&lt;/link&gt;&lt;/nobr&gt; damage AoE on scoring a Crit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>598</ID>
+      <DefaultText>{0:value:percent} chance after scoring a Crit with a melee weapon to reduce the target's weapon &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetration&lt;/link&gt;&lt;/nobr&gt; by {0:extravalue} for {0:triggervalue:duration}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>599</ID>
+      <DefaultText>When the wearer is knocked Unconscious, they deal significant &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Burn&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; damage to nearby enemies</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>601</ID>
+      <DefaultText>The wearer gains bonus Engagement as their &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; decreases</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>626</ID>
+      <DefaultText>Chance to &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Terrified"&gt;&lt;#30d3d5&gt;Terrify&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; when attacked with Melee Weapons</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>632</ID>
+      <DefaultText>{0:value:percent} Chance on scoring a kill with this weapon to Frenzy the wielder (Without a &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflection&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; penalty)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>635</ID>
+      <DefaultText>If the wielder's Might is {0:value:straight} or above, Critical Hits with this weapon cause {0:extravalue:percent} of base weapon damage in an area around the wielder (Enemies under {0:triggervalue:straight} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Health&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; are killed instantly)</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

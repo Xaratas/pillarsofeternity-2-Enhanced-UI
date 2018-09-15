@@ -6,687 +6,872 @@
   <Entries>
     <Entry>
       <ID>1</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione a distanza: {0:value}. Aumenta con la Capacità Arcana</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; a distanza: {0:value}. Aumenta con la Capacità Arcana</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4</ID>
-      <DefaultText>{0:value:percent} probabilità di lanciare un attacco a cono con Danno da &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Congelamento durante un colpo Critico</DefaultText>
+      <DefaultText>{0:value:percent} probabilità di lanciare un attacco a cono con Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Congelamento&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; durante un colpo Critico</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>9</ID>
-      <DefaultText>Possibilità del {0:value:percent} di lanciare un contrattacco da &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Impatto se un attacco subito in mischia va a vuoto</DefaultText>
+      <DefaultText>Possibilità del {0:value:percent} di lanciare un contrattacco da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Impatto&lt;/link&gt;&lt;/nobr&gt; se un attacco subito in mischia va a vuoto</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>11</ID>
-      <DefaultText>Infligge Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro e attacca più rapidamente di una lama normale</DefaultText>
+      <DefaultText>Infligge Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; e attacca più rapidamente di una lama normale</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>14</ID>
-      <DefaultText>Il colpo a segno causa {0:value:straight} Cumulabile alla &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno del bersaglio </DefaultText>
+      <DefaultText>Il colpo a segno causa {0:value:straight} Cumulabile alla &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; del bersaglio </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>15</ID>
-      <DefaultText>La &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione , il Danno e la &lt;sprite="Inline" name="cs_penetration" tint=1&gt; Penetrazione dell'arma aumentano a seconda del livello di chi l'impugna</DefaultText>
+      <DefaultText>La &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; , il Danno e la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Penetrazione&lt;/link&gt;&lt;/nobr&gt; dell'arma aumentano a seconda del livello di chi l'impugna</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>22</ID>
-      <DefaultText>{0:value:percent} probabilità di infliggere {0:extravalue} danni da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione al portatore al momento dell'attacco</DefaultText>
+      <DefaultText>{0:value:percent} probabilità di infliggere {0:extravalue} danni da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; al portatore al momento dell'attacco</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>25</ID>
-      <DefaultText>Mandare a segno un Critico conferisce {0:triggervalue} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione e {0:extravalue:percent} Velocità d'Azione (accumulabile {0:value:straight} volte)</DefaultText>
+      <DefaultText>Mandare a segno un Critico conferisce {0:triggervalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; e {0:extravalue:percent} Velocità d'Azione (accumulabile {0:value:straight} volte)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>32</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; quando s'impugna con uno Scudo </DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; quando s'impugna con uno Scudo </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>33</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; contro attacchi senza &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Perforazione del Velo </DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; contro attacchi senza &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Perforazione&lt;/link&gt;&lt;/nobr&gt; del Velo </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>34</ID>
-      <DefaultText>{0:value:percentbonus} Danno da &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Congelamento per {0:extravalue:duration} durante un colpo a segno (Cumulabile {0:triggercount} volte)</DefaultText>
+      <DefaultText>{0:value:percentbonus} Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Congelamento&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per {0:extravalue:duration} durante un colpo a segno (Cumulabile {0:triggercount} volte)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>35</ID>
-      <DefaultText>Gli attacchi di base provocano maggiori danni da &lt;sprite="Inline" name="cs_slash" tint=1&gt; Lacerazione o &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Perforazione in una AE più piccola</DefaultText>
+      <DefaultText>Gli attacchi di base provocano maggiori danni da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Lacerazione&lt;/link&gt;&lt;/nobr&gt; o &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Perforazione&lt;/link&gt;&lt;/nobr&gt; in una AE più piccola</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>36</ID>
-      <DefaultText>{0:value:percentbonus} di Danno da &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrosione per {0:extravalue:duration} durante un colpo a segno (Cumulabile {0:triggercount} volte)</DefaultText>
+      <DefaultText>{0:value:percentbonus} di Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrosione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per {0:extravalue:duration} durante un colpo a segno (Cumulabile {0:triggercount} volte)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>42</ID>
-      <DefaultText>Gli Attacchi Furtivi causano il sanguinamento del bersaglio provocando Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro fino al termine del combattimento.</DefaultText>
+      <DefaultText>Gli Attacchi Furtivi causano il sanguinamento del bersaglio provocando Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; fino al termine del combattimento.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>43</ID>
-      <DefaultText>5 di Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro da sanguinamento per 3,0 sec per 9,0 sec durante un colpo Critico</DefaultText>
+      <DefaultText>5 di Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; da sanguinamento per 3,0 sec per 9,0 sec durante un colpo Critico</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>44</ID>
+      <DefaultText>I danni da arma in arrivo vengono ridotti al diminuire della &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;. (Massimo {0:value:percentbonus} del danno ricevuto)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>45</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione : {0:extravalue} (bonus attuale: {0:value})</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; : {0:extravalue} (bonus attuale: {0:value})</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>46</ID>
-      <DefaultText>{0:triggercount} Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro per {0:value:duration} per {0:extravalue:duration} al bersaglio accerchiato durante un colpo a segno.</DefaultText>
+      <DefaultText>{0:triggercount} Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per {0:value:duration} per {0:extravalue:duration} al bersaglio accerchiato durante un colpo a segno.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>48</ID>
-      <DefaultText>{0:triggercount} Danno da &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrosione ogni {0:value:duration} per {0:extravalue:duration} durante un colpo a segno.</DefaultText>
+      <DefaultText>{0:triggercount} Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrosione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; ogni {0:value:duration} per {0:extravalue:duration} durante un colpo a segno.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>60</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; sul bersaglio durante un colpo Critico per {0:triggervalue:duration} (Cumulabile {0:extravalue:straight} volte)</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; sul bersaglio durante un colpo Critico per {0:triggervalue:duration} (Cumulabile {0:extravalue:straight} volte)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>64</ID>
-      <DefaultText>Colpisce due volte, ma con minor Danno (il Sole aggiunge {0:value:percent} Danno da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione ) (la Luna aggiunge {0:value:percent} Danno da &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Congelamento )</DefaultText>
+      <DefaultText>Colpisce due volte, ma con minor Danno (il Sole aggiunge {0:value:percent} Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; ) (la Luna aggiunge {0:value:percent} Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Congelamento&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; )</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>65</ID>
-      <DefaultText>Gli attacchi di base causano minor Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro </DefaultText>
+      <DefaultText>Gli attacchi di base causano minor Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>70</ID>
-      <DefaultText>{0:value} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Volontà&lt;/color&gt; sul bersaglio per {0:extravalue:duration} durante un colpo a segno (Cumulabile {0:triggercount} volte)</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Volontà&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; sul bersaglio per {0:extravalue:duration} durante un colpo a segno (Cumulabile {0:triggercount} volte)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>73</ID>
-      <DefaultText>Chi l'impugna riceve il {0:value:percent} del Danno causato come Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro </DefaultText>
+      <DefaultText>Chi l'impugna riceve il {0:value:percent} del Danno causato come Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>74</ID>
-      <DefaultText>Chi l'impugna riceve il {0:value:percent} del Danno causato come Danno da &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrosione </DefaultText>
+      <DefaultText>Chi l'impugna riceve il {0:value:percent} del Danno causato come Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrosione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>76</ID>
-      <DefaultText>Possibilità del {0:value:percent} di causare Danno da &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Perforazione a sé stessi o agli Alleati circostanti al lanciatore dell'attacco</DefaultText>
+      <DefaultText>Possibilità del {0:value:percent} di causare Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Perforazione&lt;/link&gt;&lt;/nobr&gt; a sé stessi o agli Alleati circostanti al lanciatore dell'attacco</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>77</ID>
-      <DefaultText>Durante un colpo Critico possibilità di causare al bersaglio Azzoppato , Atterrato e Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro nel tempo per 12 secondi o il -25% di Velocità d'Azione</DefaultText>
+      <DefaultText>Durante un colpo Critico possibilità di causare al bersaglio Azzoppato , Atterrato e Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; nel tempo per 12 secondi o il -25% di Velocità d'Azione</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>81</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; . Aumenta con la capacità Minaccia</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; . Aumenta con la capacità Minaccia</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>82</ID>
+      <DefaultText>{0:extravalue:percentbonus} Danno subito (migliora quando chi l'indossa perde &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>85</ID>
+      <DefaultText>Quando si è sopra il {0:triggervalue:percent} di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, {0:extravalue:percent} di possibilità che le armi a distanza infliggano il {0:value:percent} di danni</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>87</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione agli attacchi con armi in modalità Furtiva.</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; agli attacchi con armi in modalità Furtiva.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>90</ID>
-      <DefaultText>{0:value:percent} probabilità di lanciare un attacco con Danno da &lt;sprite="Inline" name="cs_shock" tint=1&gt; Folgorazione contro il bersaglio quando effettui un Critico in mischia</DefaultText>
+      <DefaultText>{0:value:percent} probabilità di lanciare un attacco con Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Folgorazione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; contro il bersaglio quando effettui un Critico in mischia</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>92</ID>
-      <DefaultText>Ricevere Danno da &lt;sprite="Inline" name="cs_shock" tint=1&gt; Folgorazione conferisce agli attacchi di chi l'indossa ulteriore Danno da &lt;sprite="Inline" name="cs_shock" tint=1&gt; Folgorazione per breve tempo</DefaultText>
+      <DefaultText>Ricevere Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Folgorazione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; conferisce agli attacchi di chi l'indossa ulteriore Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Folgorazione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per breve tempo</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>98</ID>
+      <DefaultText>Tutti i danni causati da attacchi Veleno o &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrosione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; hanno una probabilità del {0:extravalue:percent} di essere convertiti in {0:value:percent} di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per chi l'indossa</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>99</ID>
+      <DefaultText>Possibilità del 5% di distruggere istantaneamente un kith o una belva con &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; inferiore a 100 durante un colpo a segno</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>100</ID>
+      <DefaultText>{0:extravalue:percent} di possibilità di convertire il {0:value:percent} del Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; in &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>102</ID>
+      <DefaultText>{0:extravalue:percent} probabilità di convertire un {0:value:percent} del Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; in &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>106</ID>
-      <DefaultText>AE da &lt;sprite="Inline" name="cs_shock" tint=1&gt; Folgorazione quando si viene messi K.O.</DefaultText>
+      <DefaultText>AE da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Folgorazione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; quando si viene messi K.O.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>109</ID>
-      <DefaultText>Gli attacchi in mischia in modalità Furtiva causano Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro nel tempo</DefaultText>
+      <DefaultText>Gli attacchi in mischia in modalità Furtiva causano Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; nel tempo</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>110</ID>
-      <DefaultText>Possibilità del {0:value:percent} di arrestare l'AE di un Danno da &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Impatto se si subisce un Critico in mischia</DefaultText>
+      <DefaultText>Possibilità del {0:value:percent} di arrestare l'AE di un Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Impatto&lt;/link&gt;&lt;/nobr&gt; se si subisce un Critico in mischia</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>111</ID>
-      <DefaultText>Attacco di Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro se si subisce un colpo Critico in mischia</DefaultText>
+      <DefaultText>Attacco di Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; se si subisce un colpo Critico in mischia</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>112</ID>
-      <DefaultText>Converti il {0:value:percent} del Danno da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione in Salute.</DefaultText>
+      <DefaultText>Converti il {0:value:percent} del Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; in &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>117</ID>
-      <DefaultText>{0:value:percent} del Danno da {0:damagetype} come Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro nel tempo</DefaultText>
+      <DefaultText>{0:value:percent} del Danno da {0:damagetype} come Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; nel tempo</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>119</ID>
-      <DefaultText>Bonus &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione e Velocità d'Azione in caso di Critico.</DefaultText>
+      <DefaultText>Bonus &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; e Velocità d'Azione in caso di Critico.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>120</ID>
-      <DefaultText>Fornisce una &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno contro gli attacchi &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Congelamento che si aggravano se chi la indossa perde Salute (Max {0:value} SD)</DefaultText>
+      <DefaultText>Fornisce una &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; contro gli attacchi &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Congelamento&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; che si aggravano se chi la indossa perde &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (Max {0:value} SD)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>121</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione  e {0:extravalue:percentbonus} Danno sui bersagli Accerchiati</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; e {0:extravalue:percentbonus} Danno sui bersagli Accerchiati</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>125</ID>
-      <DefaultText>{0:value} a tutte le Difese tranne &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; (aumenta con la capacità Storia)</DefaultText>
+      <DefaultText>{0:value} a tutte le Difese tranne &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (aumenta con la capacità Storia)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>131</ID>
+      <DefaultText>L'abilità si attiva quando chi l'indossa scende al {0:value:percent} di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>134</ID>
-      <DefaultText>Quando chi l'indossa è Sanguinante o Agonizzante, diventa Immune al Danno da &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrosione </DefaultText>
+      <DefaultText>Quando chi l'indossa è Sanguinante o Agonizzante, diventa Immune al Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrosione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>136</ID>
-      <DefaultText>Chi l'impugna riceve il {0:value:percent} del Danno causato come Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro su di sé</DefaultText>
+      <DefaultText>Chi l'impugna riceve il {0:value:percent} del Danno causato come Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; su di sé</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>138</ID>
-      <DefaultText>{0:extravalue} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione che aumenta quando chi l'indossa perde Salute (Max {0:value} SD})</DefaultText>
+      <DefaultText>{0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; che aumenta quando chi l'indossa perde &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (Max {0:value} SD})</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>152</ID>
-      <DefaultText>{0:value} D&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; Bersaglio per {0:extravalue:duration} in caso di colpo a segno (Cumulabile {0:triggercount} volte)</DefaultText>
+      <DefaultText>{0:value} D&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Bersaglio per {0:extravalue:duration} in caso di colpo a segno (Cumulabile {0:triggercount} volte)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>153</ID>
+      <DefaultText>Chi l'impugna ottiene {0:value} di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; durante un colpo critico</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>154</ID>
-      <DefaultText>Causa {0:value} Danno da &lt;sprite="Inline" name="cs_shock" tint=1&gt; Folgorazione al bersaglio durante un Critico</DefaultText>
+      <DefaultText>Causa {0:value} Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Folgorazione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; al bersaglio durante un Critico</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>158</ID>
-      <DefaultText>Causa Danno da &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Impatto e da &lt;sprite="Inline" name="cs_slash" tint=1&gt; Lacerazione </DefaultText>
+      <DefaultText>Causa Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Impatto&lt;/link&gt;&lt;/nobr&gt; e da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Lacerazione&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>159</ID>
-      <DefaultText>Possibilità del {0:value:percent} di lanciare un'onda d'Acqua con Danno da &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Impatto sul bersaglio durante un colpo a segno</DefaultText>
+      <DefaultText>Possibilità del {0:value:percent} di lanciare un'onda d'Acqua con Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Impatto&lt;/link&gt;&lt;/nobr&gt; sul bersaglio durante un colpo a segno</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>163</ID>
-      <DefaultText>{0:triggervalue} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione e {0:extravalue:percentbonus} Danni da arma quando la Salute è inferiore al 50%</DefaultText>
+      <DefaultText>{0:triggervalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; e {0:extravalue:percentbonus} Danni da arma quando la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; è inferiore al 50%</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>164</ID>
-      <DefaultText>Possibilità del {0:value:percent} di lanciare un contrattacco da &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Impatto /&lt;sprite="Inline" name="cs_slash" tint=1&gt; Lacerazione se l'attacco in mischia subito va a vuoto</DefaultText>
+      <DefaultText>Possibilità del {0:value:percent} di lanciare un contrattacco da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Impatto&lt;/link&gt;&lt;/nobr&gt; /&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Lacerazione&lt;/link&gt;&lt;/nobr&gt; se l'attacco in mischia subito va a vuoto</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>173</ID>
+      <DefaultText>{0:value}&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per {0:interval} quando si è sotto il {0:extravalue:percent} di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>174</ID>
-      <DefaultText>Il colpo a segno causa -0,25 alla &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno del bersaglio (Cumulabile). Riduzione massima -3</DefaultText>
+      <DefaultText>Il colpo a segno causa -0,25 alla &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; del bersaglio (Cumulabile). Riduzione massima -3</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>175</ID>
-      <DefaultText>Il colpo a segno causa -0,5 alla &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno del bersaglio (Cumulabile). Riduzione massima -4</DefaultText>
+      <DefaultText>Il colpo a segno causa -0,5 alla &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; del bersaglio (Cumulabile). Riduzione massima -4</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>176</ID>
+      <DefaultText>-5% di Velocità d'azione cumulabile al bersaglio con più del 50% di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; durante un colpo a segno. Cumulabile al massimo 5 volte</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>178</ID>
-      <DefaultText>Lancia AE di Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro in caso di {0:value:straight} colpi a segno consecutivi sul bersaglio</DefaultText>
+      <DefaultText>Lancia AE di Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; in caso di {0:value:straight} colpi a segno consecutivi sul bersaglio</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>182</ID>
+      <DefaultText>Lancia Lame fantasma durante un'Uccisione e restituisce &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; in base ai danni inferti</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>183</ID>
+      <DefaultText>All'uccisione: vigore +2. Converte il 25% di colpi a segno in colpi critici contro bersagli con &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; minore del 25%. +15% di Velocità d'azione per 45 secondi. Effetti cumulabili. Sopprime Divoratore di anime</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>184</ID>
+      <DefaultText>All'uccisione: vigore +6. Converte il 35% di colpi a segno in colpi critici contro bersagli con &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; minore del 50%. +30% di Velocità d'azione per 45 secondi. Effetti cumulabili. Sopprime Divoratore di anime</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>185</ID>
+      <DefaultText>All'uccisione: vigore +3. Converte il 25% di colpi a segno in colpi critici contro bersagli con &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; minore del 50%. +20% di Velocità d'azione per 45 secondi. Effetti cumulabili. Sopprime Divoratore di anime</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>186</ID>
-      <DefaultText>Divoratore di Anime: Costituzione -2. Il 30% dei colpi Critici convertiti in colpi a segno. &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione -10.</DefaultText>
+      <DefaultText>Divoratore di Anime: Costituzione -2. Il 30% dei colpi Critici convertiti in colpi a segno. &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; -10.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>187</ID>
-      <DefaultText>Famelico Divoratore di Anime: Costituzione -4. Il 50% dei colpi Critici convertiti in colpi a segno. &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione -15.</DefaultText>
+      <DefaultText>Famelico Divoratore di Anime: Costituzione -4. Il 50% dei colpi Critici convertiti in colpi a segno. &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; -15.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>188</ID>
-      <DefaultText>Famelico divoratore di anime: Costituzione -1. Il 20% dei colpi critici convertiti in colpi a segno. &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione -5.</DefaultText>
+      <DefaultText>Famelico divoratore di anime: Costituzione -1. Il 20% dei colpi critici convertiti in colpi a segno. &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; -5.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>194</ID>
-      <DefaultText>AE Danno da &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Congelamento /&lt;sprite="Inline" name="cs_slash" tint=1&gt; Lacerazione sul luogo del bersaglio in caso di Critico</DefaultText>
+      <DefaultText>AE Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Congelamento&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; /&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Lacerazione&lt;/link&gt;&lt;/nobr&gt; sul luogo del bersaglio in caso di Critico</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>196</ID>
-      <DefaultText>Ottieni +3% Danno da &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Congelamento durante un colpo a segno. L'effetto è Cumulabile 20 volte</DefaultText>
+      <DefaultText>Ottieni +3% Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Congelamento&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; durante un colpo a segno. L'effetto è Cumulabile 20 volte</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>201</ID>
-      <DefaultText>Ottieni il +3% di Danno da &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrosione durante un colpo a segno. L'effetto è Cumulabile 20 volte</DefaultText>
+      <DefaultText>Ottieni il +3% di Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrosione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; durante un colpo a segno. L'effetto è Cumulabile 20 volte</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>205</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione in mischia per ogni bersaglio Ingaggiato</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; in mischia per ogni bersaglio Ingaggiato</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>209</ID>
-      <DefaultText>{0:extravalue:percent} Difese tranne &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; per {0:extravalue:duration} a tutti gli Alleati vicini durante un'uccisione con Spezza-chiave</DefaultText>
+      <DefaultText>{0:extravalue:percent} Difese tranne &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per {0:extravalue:duration} a tutti gli Alleati vicini durante un'uccisione con Spezza-chiave</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>211</ID>
-      <DefaultText>Le uccisioni con il Favore di&lt;xg&gt;Magran&lt;/xg&gt; infliggono Danno da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione ai nemici nelle vicinanze</DefaultText>
+      <DefaultText>Le uccisioni con il Favore di&lt;xg&gt;Magran&lt;/xg&gt; infliggono Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; ai nemici nelle vicinanze</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>212</ID>
-      <DefaultText>{0:triggercount} Danno da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione ogni {0:extravalue:duration} per {0:value:duration} sul bersaglio durante un colpo Critico</DefaultText>
+      <DefaultText>{0:triggercount} Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; ogni {0:extravalue:duration} per {0:value:duration} sul bersaglio durante un colpo Critico</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>213</ID>
-      <DefaultText>{0:value:percent} Danno da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione inflitto dal Favore di &lt;xg&gt;Magran&lt;/xg&gt; restituisce Salute al portatore</DefaultText>
+      <DefaultText>{0:value:percent} Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; inflitto dal Favore di &lt;xg&gt;Magran&lt;/xg&gt; restituisce &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; al portatore</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>214</ID>
-      <DefaultText>Le uccisioni con il Favore di &lt;xg&gt;Magran&lt;/xg&gt; garantiscono {0:value:percent} Danno da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione e {0:extravalue:percent} Velocità d'Azione (Cumulabile {0:triggervalue:straight} 4 volte)</DefaultText>
+      <DefaultText>Le uccisioni con il Favore di &lt;xg&gt;Magran&lt;/xg&gt; garantiscono {0:value:percent} Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; e {0:extravalue:percent} Velocità d'Azione (Cumulabile {0:triggervalue:straight} 4 volte)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>220</ID>
-      <DefaultText>moderato Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro nel tempo a bersagli Accerchiati in caso di colpo a segno</DefaultText>
+      <DefaultText>moderato Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; nel tempo a bersagli Accerchiati in caso di colpo a segno</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>225</ID>
-      <DefaultText>{0:triggercount} Danni da &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrosione ogni {0:value:duration} per {0:triggervalue:duration} in caso di colpo a segno ({0:extravalue:percent} di uccidere un bersaglio Agonizzante all'instante)</DefaultText>
+      <DefaultText>{0:triggercount} Danni da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrosione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; ogni {0:value:duration} per {0:triggervalue:duration} in caso di colpo a segno ({0:extravalue:percent} di uccidere un bersaglio Agonizzante all'instante)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>226</ID>
-      <DefaultText>{0:triggercount} Danni da &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrosione ogni {0:value:duration} per {0:triggervalue:duration} in caso di colpo a segno ({0:extravalue:percent} di Paralizzare il bersaglio all'istante)</DefaultText>
+      <DefaultText>{0:triggercount} Danni da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrosione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; ogni {0:value:duration} per {0:triggervalue:duration} in caso di colpo a segno ({0:extravalue:percent} di Paralizzare il bersaglio all'istante)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>230</ID>
-      <DefaultText>{0:extravalue:percent} di Danno come &lt;sprite="Inline" name="cs_shock" tint=1&gt; Folgorazione per ogni Formula del Cantore mantenuta</DefaultText>
+      <DefaultText>{0:extravalue:percent} di Danno come &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Folgorazione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per ogni Formula del Cantore mantenuta</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>232</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione con armi a distanza per {0:extravalue:duration} in caso di colpo a segno (Cumulabile {0:triggercount} volte)</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; con armi a distanza per {0:extravalue:duration} in caso di colpo a segno (Cumulabile {0:triggercount} volte)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>233</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione con tutte le armi per {0:extravalue:duration} in caso di colpo a segno (Cumulabile {0:triggercount} volte)</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; con tutte le armi per {0:extravalue:duration} in caso di colpo a segno (Cumulabile {0:triggercount} volte)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>234</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione Accumulabile con armi a distanza</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; Accumulabile con armi a distanza</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>240</ID>
-      <DefaultText>Riflette il 20% del Danno da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione dagli attacchi di Fuoco sull'assalitore</DefaultText>
+      <DefaultText>Riflette il 20% del Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; dagli attacchi di Fuoco sull'assalitore</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>244</ID>
+      <DefaultText>{0:value} di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Massima fino alla fine del combattimento quando compi un’uccisione con un'arma</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>251</ID>
+      <DefaultText>Ripristina {0:value} di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; agli alleati vicini durante un'uccisione (aumenta con la capacità Religione)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>253</ID>
-      <DefaultText>Colpire con quest'arma causa {0:value:percent} di Danno come Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro nel tempo</DefaultText>
+      <DefaultText>Colpire con quest'arma causa {0:value:percent} di Danno come Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; nel tempo</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>258</ID>
-      <DefaultText>{0:value:percent} Danno da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione da armi restituito come Salute</DefaultText>
+      <DefaultText>{0:value:percent} Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; da armi restituito come &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>259</ID>
-      <DefaultText>Il Danno da &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Congelamento proveniente da un arma riduce la Salute Massima del bersaglio del {0:extravalue:percent} del Danno inflitto</DefaultText>
+      <DefaultText>Il Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Congelamento&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; proveniente da un arma riduce la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Massima del bersaglio del {0:extravalue:percent} del Danno inflitto</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>261</ID>
-      <DefaultText>Modifica le munizioni impregnate col {0:value:percent} di Danno da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione nel tempo in caso di colpo a segno .</DefaultText>
+      <DefaultText>Modifica le munizioni impregnate col {0:value:percent} di Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; nel tempo in caso di colpo a segno .</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>271</ID>
-      <DefaultText>Se il bersaglio ha un'Alterazione della Risolutezza , {0:triggercount} Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro ogni {0:extravalue:duration} per {0:value:duration} in caso di Critico</DefaultText>
+      <DefaultText>Se il bersaglio ha un'Alterazione della Risolutezza , {0:triggercount} Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; ogni {0:extravalue:duration} per {0:value:duration} in caso di Critico</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>272</ID>
-      <DefaultText>Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro da sanguinamento nel tempo per 12 secondi sul bersaglio in caso di Critico</DefaultText>
+      <DefaultText>Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; da sanguinamento nel tempo per 12 secondi sul bersaglio in caso di Critico</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>275</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione se il bersaglio ha equipaggiato uno tra: Scudo, Armatura Media o Armatura Pesante</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; se il bersaglio ha equipaggiato uno tra: Scudo, Armatura Media o Armatura Pesante</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>280</ID>
+      <DefaultText>{0:value} a tutte le Difese contro attacchi con Alterazioni della Destrezza mentre si è sopra al 75% di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>283</ID>
+      <DefaultText>Ripristina {0:value} di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; durante un'uccisione con arma</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>284</ID>
-      <DefaultText>Rende Nauseato il bersaglio durante colpo Critico per 12 secondi. Respinto da &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tempra&lt;/color&gt; </DefaultText>
+      <DefaultText>Rende Nauseato il bersaglio durante colpo Critico per 12 secondi. Respinto da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Tempra&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>285</ID>
-      <DefaultText>Possibilità del {0:value:percent} di lanciare AE di tipo Acqua con Danno da &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Impatto sul bersaglio durante un colpo a segno</DefaultText>
+      <DefaultText>Possibilità del {0:value:percent} di lanciare AE di tipo Acqua con Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Impatto&lt;/link&gt;&lt;/nobr&gt; sul bersaglio durante un colpo a segno</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>287</ID>
-      <DefaultText>+10% Danno da mischia +5 &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; se Ingaggiato. Cumulabile 3 volte</DefaultText>
+      <DefaultText>+10% Danno da mischia +5 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; se Ingaggiato. Cumulabile 3 volte</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>290</ID>
-      <DefaultText>Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro nel tempo per 18 secondi su bersagli Agonizzanti</DefaultText>
+      <DefaultText>Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; nel tempo per 18 secondi su bersagli Agonizzanti</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>294</ID>
-      <DefaultText>Per {0:value:duration} dopo avere lanciato un attacco, {0:extravalue:percent} del Danno da mischia subito viene restituito all'assalitore come Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro </DefaultText>
+      <DefaultText>Per {0:value:duration} dopo avere lanciato un attacco, {0:extravalue:percent} del Danno da mischia subito viene restituito all'assalitore come Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>301</ID>
-      <DefaultText>{0:value:percent} possibilità di effettuare un attacco da &lt;sprite="Inline" name="cs_slash" tint=1&gt; Lacerazione quando si colpiti da Danno da &lt;sprite="Inline" name="cs_slash" tint=1&gt; Lacerazione in mischia</DefaultText>
+      <DefaultText>{0:value:percent} possibilità di effettuare un attacco da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Lacerazione&lt;/link&gt;&lt;/nobr&gt; quando si colpiti da Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Lacerazione&lt;/link&gt;&lt;/nobr&gt; in mischia</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>302</ID>
-      <DefaultText>{0:extravalue} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Volontà&lt;/color&gt; che aumenta con la perdita di Salute (massimo {0:value} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Volontà&lt;/color&gt; )</DefaultText>
+      <DefaultText>{0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Volontà&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; che aumenta con la perdita di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (massimo {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Volontà&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; )</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>305</ID>
-      <DefaultText>AE con Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro sui nemici K.O.</DefaultText>
+      <DefaultText>AE con Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; sui nemici K.O.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>306</ID>
-      <DefaultText>Subire un colpo a segno garantisce {0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; e {0:extravalue} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Riflessi&lt;/color&gt; fino al termine del combattimento (Cumulabile {0:triggervalue:straight} volte)</DefaultText>
+      <DefaultText>Subire un colpo a segno garantisce {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; e {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Riflessi&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; fino al termine del combattimento (Cumulabile {0:triggervalue:straight} volte)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>307</ID>
-      <DefaultText>+1 &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno per Aloth se Positivo</DefaultText>
+      <DefaultText>+1 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; per Aloth se Positivo</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>308</ID>
-      <DefaultText>+3 &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno per Aloth se Molto Positivo</DefaultText>
+      <DefaultText>+3 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; per Aloth se Molto Positivo</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>312</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; contro attacchi a distanza (aumenta con la capacità Furtività)</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; contro attacchi a distanza (aumenta con la capacità Furtività)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>314</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; se Accerchiato</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; se Accerchiato</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>315</ID>
+      <DefaultText>{0:extravalue} a tutte le Difese (diminuisce con la perdita di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>316</ID>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; ogni {0:triggervalue:duration} per {0:extravalue:duration} quando si subisce un colpo Critico (la Guarigione aumenta con la perdita di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; del portatore)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>317</ID>
-      <DefaultText>+3 &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione . Aumenta con la perdita di Salute del portatore</DefaultText>
+      <DefaultText>+3 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; . Aumenta con la perdita di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; del portatore</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>318</ID>
-      <DefaultText>&lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno aumenta con la perdita di Salute del portatore ({0:extravalue} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno massimo)</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; aumenta con la perdita di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; del portatore ({0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; massimo)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>327</ID>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; ogni {0:interval} se si è sotto al {0:extravalue:percent} di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>332</ID>
-      <DefaultText>{0:value:percent} Danno inflitto applicato a sé stesso come Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro </DefaultText>
+      <DefaultText>{0:value:percent} Danno inflitto applicato a sé stesso come Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>338</ID>
-      <DefaultText>Salute al portatore e Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro al bersaglio in caso di colpo a segno</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; al portatore e Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; al bersaglio in caso di colpo a segno</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>340</ID>
-      <DefaultText>+10% Danno aggiunto come &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrosione fino al termine del combattimento in caso di Critico. Cumulabile 10 volte</DefaultText>
+      <DefaultText>+10% Danno aggiunto come &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrosione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; fino al termine del combattimento in caso di Critico. Cumulabile 10 volte</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>346</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione in mischia ogni {0:interval} fino al termine del combattimento (Cumulabile {0:extravalue:straight} volte)</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; in mischia ogni {0:interval} fino al termine del combattimento (Cumulabile {0:extravalue:straight} volte)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>347</ID>
-      <DefaultText>La ricezione di Colpi critici causa un ulteriore {0:value} &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Volontà&lt;/color&gt; fino alla fine del combattimento (Cumulabile {0:extravalue:straight} volte)</DefaultText>
+      <DefaultText>La ricezione di Colpi critici causa un ulteriore {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Volontà&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; fino alla fine del combattimento (Cumulabile {0:extravalue:straight} volte)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>351</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; contro armi di mischia</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; contro armi di mischia</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>361</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione contro un bersaglio Marchiato</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; contro un bersaglio Marchiato</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>377</ID>
+      <DefaultText>{0:value} a tutte le Difese contro attacchi Pianta quando si è al di sopra del {0:extravalue:percent} di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>378</ID>
+      <DefaultText>{0:value} a tutte le Difese contro attacchi Pianta quando si è al di sopra del {0:extravalue:percent} di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>384</ID>
-      <DefaultText>{0:value:percent} Danno subito riapplicato come Danno &lt;sprite="Inline" name="cs_raw" tint=1&gt; Puro </DefaultText>
+      <DefaultText>{0:value:percent} Danno subito riapplicato come Danno &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;Puro&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>391</ID>
-      <DefaultText>Infligge Danni da &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Perforazione /&lt;sprite="Inline" name="cs_slash" tint=1&gt; Lacerazione </DefaultText>
+      <DefaultText>Infligge Danni da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Perforazione&lt;/link&gt;&lt;/nobr&gt; /&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Lacerazione&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>393</ID>
-      <DefaultText>{0:value:percent} probabilità di lanciare un AE da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione in caso di colpo a segno con il Marux Amanth.</DefaultText>
+      <DefaultText>{0:value:percent} probabilità di lanciare un AE da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; in caso di colpo a segno con il Marux Amanth.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>401</ID>
+      <DefaultText>Immune alle Alterazioni della Risolutezza se si possiede meno del {0:extravalue:percent} di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>405</ID>
-      <DefaultText>Uccidendo un nemico con un colpo Critico, viene lanciato un AE da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione </DefaultText>
+      <DefaultText>Uccidendo un nemico con un colpo Critico, viene lanciato un AE da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>406</ID>
-      <DefaultText>{0:value:percent} probabilità di lanciare un ristretto attacco AE da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione  in caso di colpo a segno o Critico</DefaultText>
+      <DefaultText>{0:value:percent} probabilità di lanciare un ristretto attacco AE da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; in caso di colpo a segno o Critico</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>411</ID>
-      <DefaultText>Con il diminuire della Salute conferisce &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; fino a un massimo di {0:value} con Salute allo 0%</DefaultText>
+      <DefaultText>Con il diminuire della &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; conferisce &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; fino a un massimo di {0:value} con &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; allo 0%</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>412</ID>
+      <DefaultText>Impossibile muoversi con &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; inferiore al 25%</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>414</ID>
+      <DefaultText>Conferisce {0:extravalue} Armatura e {0:value} di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; ogni {0:interval} se la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; è inferiore al 25%.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>417</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno per Aloth se la relazione è Negativa</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; per Aloth se la relazione è Negativa</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>418</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno per Aloth se la relazione è Molto Negativa</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; per Aloth se la relazione è Molto Negativa</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>419</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno per Edér se la relazione è negativa</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; per Edér se la relazione è negativa</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>420</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno per Edér se la relazione è Negativa</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; per Edér se la relazione è Negativa</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>424</ID>
-      <DefaultText>Se si riceve un colpo Critico da un attacco &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione , si subirà un Arresto e una penalità di {0:value} alla &lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt; Volontà&lt;/color&gt; per {0:extravalue:duration}</DefaultText>
+      <DefaultText>Se si riceve un colpo Critico da un attacco &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; , si subirà un Arresto e una penalità di {0:value} alla &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Volontà&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per {0:extravalue:duration}</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>431</ID>
-      <DefaultText>(Bonus attuale: {0:value}){0:extravalue} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione per Ferita</DefaultText>
+      <DefaultText>(Bonus attuale: {0:value}){0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; per Ferita</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>450</ID>
+      <DefaultText>{0:value:percentbonus} Velocità d'Azione (aumenta perdendo &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>451</ID>
-      <DefaultText>{0:value:percent} probabilità di lanciare da se stessi un attacco AE conico con Danno da &lt;sprite="Inline" name="cs_corrosive" tint=1&gt; Corrosione  e di Azzoppare il bersaglio quando si attacca</DefaultText>
+      <DefaultText>{0:value:percent} probabilità di lanciare da se stessi un attacco AE conico con Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#9ba967&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;#adc455&gt;&lt;space=0.3em&gt;Corrosione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; e di Azzoppare il bersaglio quando si attacca</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>455</ID>
-      <DefaultText>Se il colpo va a segno, applica un effetto Cumulabile al nemico. Durante un Critico, tutti i nemici in un'AE perderanno tutti gli accumuli e subiranno {0:extravalue} Danno da &lt;sprite="Inline" name="cs_shock" tint=1&gt; Folgorazione per ogni accumulo.</DefaultText>
+      <DefaultText>Se il colpo va a segno, applica un effetto Cumulabile al nemico. Durante un Critico, tutti i nemici in un'AE perderanno tutti gli accumuli e subiranno {0:extravalue} Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Folgorazione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per ogni accumulo.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>459</ID>
-      <DefaultText>+{0:value:percent} Danni da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione inflitti con Salute superiore al {0:extravalue:percent} e +{0:value:percent} Danni da &lt;sprite="Inline" name="cs_freeze" tint=1&gt; Congelamento con Salute inferiore al {0:extravalue:percent}</DefaultText>
+      <DefaultText>+{0:value:percent} Danni da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; inflitti con &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; superiore al {0:extravalue:percent} e +{0:value:percent} Danni da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Congelamento&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; con &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; inferiore al {0:extravalue:percent}</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>460</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno se la relazione è Negativa, {0:extravalue} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno se la relazione è Molto Negativa</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; se la relazione è Negativa, {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; se la relazione è Molto Negativa</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>462</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno se la relazione è Positiva, {0:extravalue} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno se la relazione è Molto Positiva</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; se la relazione è Positiva, {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; se la relazione è Molto Positiva</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>463</ID>
-      <DefaultText>{0:value} a tutte le Difese (esclusa la &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; ) se la relazione è positiva, {0:extravalue} a tutte le Difese (esclusa la &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; ) se la relazione è Molto Positiva</DefaultText>
+      <DefaultText>{0:value} a tutte le Difese (esclusa la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; ) se la relazione è positiva, {0:extravalue} a tutte le Difese (esclusa la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; ) se la relazione è Molto Positiva</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>470</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; per 45.0 secondi sul bersaglio durante un colpo a segno. Cumulabile 5 volte</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per 45.0 secondi sul bersaglio durante un colpo a segno. Cumulabile 5 volte</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>473</ID>
+      <DefaultText>Lancia un incantesimo Tempesta casuale una volta per combattimento se la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; è inferiore al {0:value:percent}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>475</ID>
+      <DefaultText>{0:value:percent} probabilità di ripristinare 20 di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; al nemico quando si subisce un Critico</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>476</ID>
+      <DefaultText>{0:value:percent} probabilità di ripristinare 30 di &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; a se stessi quando si infligge un Critico</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>478</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; . Aumenta con la capacità Atletismo</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; . Aumenta con la capacità Atletismo</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>483</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno persa quando si subisce un colpo a segno, ma si rigenera</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; persa quando si subisce un colpo a segno, ma si rigenera</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>485</ID>
-      <DefaultText>{0:extravalue:percent} probabilità di resistere agli attacchi con Danno da &lt;sprite="Inline" name="cs_slash" tint=1&gt; Lacerazione </DefaultText>
+      <DefaultText>{0:extravalue:percent} probabilità di resistere agli attacchi con Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Lacerazione&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>486</ID>
-      <DefaultText>{0:extravalue:percent} probabilità di resistere ad attacchi con Danno da &lt;sprite="Inline" name="cs_blunt" tint=1&gt; Impatto </DefaultText>
+      <DefaultText>{0:extravalue:percent} probabilità di resistere ad attacchi con Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Impatto&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>487</ID>
-      <DefaultText>{0:extravalue:percent} probabilità di resistere agli attacchi con Danno da &lt;sprite="Inline" name="cs_pierce" tint=1&gt; Perforazione </DefaultText>
+      <DefaultText>{0:extravalue:percent} probabilità di resistere agli attacchi con Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Perforazione&lt;/link&gt;&lt;/nobr&gt; </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>497</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione al primo attacco realizzato in combattimento</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; al primo attacco realizzato in combattimento</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>501</ID>
+      <DefaultText>per {0:interval:duration} con &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; inferiore a: {0:extravalue:percent}</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>504</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; contro attacchi Accerchiamento</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; contro attacchi Accerchiamento</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>505</ID>
+      <DefaultText>Conferisce Resistenza alle Alterazioni della Costituzione quando la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; è superiore al 75%</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>506</ID>
+      <DefaultText>Conferisce Immunità alle Alterazioni della Costituzione quando la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; è superiore al 75%</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>509</ID>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (aumenta con la capacità Diplomazia)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>520</ID>
-      <DefaultText>Fornisce &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno contro attacchi da &lt;sprite="Inline" name="cs_shock" tint=1&gt; Folgorazione che aumenta con la perdita Salute del portatore (massimo {0:value} SD)</DefaultText>
+      <DefaultText>Fornisce &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; contro attacchi da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;space=-0.5em&gt;&lt;#fff151&gt;&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;space=-0.3em&gt;Folgorazione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; che aumenta con la perdita &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; del portatore (massimo {0:value} SD)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>521</ID>
-      <DefaultText>Fornisce &lt;sprite="Inline" name="cs_ar" tint=1&gt; Soglia di Danno contro attacchi Acqua che aumenta quando il portatore perde Salute (massimo {0:value} SD)</DefaultText>
+      <DefaultText>Fornisce &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Soglia di Danno&lt;/link&gt;&lt;/nobr&gt; contro attacchi Acqua che aumenta quando il portatore perde &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (massimo {0:value} SD)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>536</ID>
-      <DefaultText>{0:value} &lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt; Tempra&lt;/color&gt; rimanendo immobile</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Tempra&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; rimanendo immobile</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>538</ID>
-      <DefaultText>{0:value} &lt;sprite="Inline" name="cs_accuracy" tint=1&gt; Precisione con armi dopo avere schivato un attacco con arma da mischia</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Precisione&lt;/link&gt;&lt;/nobr&gt; con armi dopo avere schivato un attacco con arma da mischia</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>543</ID>
+      <DefaultText>{0:extravalue:percentbonus} Danno inflitto con armi (aumenta quando il portatore perde &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>544</ID>
-      <DefaultText>{0:value} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; se si è vicini ad Alleati</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; se si è vicini ad Alleati</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>551</ID>
-      <DefaultText>20% probabilità di infliggere Danno da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione aggiuntivo durante un colpo a segno</DefaultText>
+      <DefaultText>20% probabilità di infliggere Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; aggiuntivo durante un colpo a segno</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>552</ID>
-      <DefaultText>20% probabilità di infliggere Danno da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione aggiuntivo nell'AE durante un colpo a segno</DefaultText>
+      <DefaultText>20% probabilità di infliggere Danno da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; aggiuntivo nell'AE durante un colpo a segno</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>570</ID>
-      <DefaultText>{0:extravalue} &lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt; Deflessione&lt;/color&gt; per Ferita</DefaultText>
+      <DefaultText>{0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Deflessione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per Ferita</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>571</ID>
-      <DefaultText>{0:extravalue} &lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt; Riflessi&lt;/color&gt; per Ferita</DefaultText>
+      <DefaultText>{0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Riflessi&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; per Ferita</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>576</ID>
-      <DefaultText> AE da &lt;sprite="Inline" name="cs_burn" tint=1&gt; Ustione ogni {0:interval}</DefaultText>
+      <DefaultText> AE da &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Ustione&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; ogni {0:interval}</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>580</ID>
+      <DefaultText>{0:value:percent} del Danno inflitto con quest'arma ripristina la &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Salute&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; del portatore</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
