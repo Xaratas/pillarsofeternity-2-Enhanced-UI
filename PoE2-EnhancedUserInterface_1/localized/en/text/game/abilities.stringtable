@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3341</EntryCount>
+  <EntryCount>3359</EntryCount>
   <Entries>
     <Entry>
       <ID>237</ID>
@@ -2839,7 +2839,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>3702</ID>
-      <DefaultText>&lt;line-height=100%&gt;Choking attack that applies &lt;link="glossary://GlossaryEntry_Paralyzed"&gt;&lt;#72da26&gt;Paralyzed&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; to the target.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Choke the target &lt;link="glossary://GlossaryEntry_Paralyzed"&gt;&lt;#72da26&gt;Paralyzing&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; them and dealing &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage over time. When the effect ends, the target is Proned.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2971,7 +2971,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>3883</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Kathrynn Vonn Kiliann the Kat is following you around, you gain a bonus to Intellect and your party receives a bonus to &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Kathrynn Vonn Kiliann the Cat is following you around, you gain a bonus to Intellect and your party receives a bonus to &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3696,17 +3696,17 @@ Priests of Rymrgand automatically learn the following spells at the appropriate 
     </Entry>
     <Entry>
       <ID>4775</ID>
-      <DefaultText>&lt;line-height=100%&gt;At the beginning of combat, the wielder is engulfed in fire, increasing their &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;Freeze&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/link&gt; damage Reduction and causing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage to anyone who damages them with a melee attack.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;At the beginning of combat, the wielder is engulfed in fire, increasing their &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Freeze&#160;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=-1em&gt;&lt;voffset=0.5&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/voffset&gt;&lt;/link&gt; and causing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage to anyone who damages them with a melee attack.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4779</ID>
-      <DefaultText>&lt;line-height=100%&gt;At the beginning of combat, the wielder is engulfed in fire, increasing their &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;Freeze&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/link&gt; damage Reduction and causing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage to anyone who damages them with a melee attack.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;At the beginning of combat, the wielder is engulfed in fire, increasing their &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Freeze&#160;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=-1em&gt;&lt;voffset=0.5&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/voffset&gt;&lt;/link&gt; and causing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage to anyone who damages them with a melee attack.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4781</ID>
-      <DefaultText>&lt;line-height=100%&gt;(Greater Fire Shield) - The wielder gains increased &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;Freeze&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/link&gt; damage Reduction and the retaliation attack deals additional damage.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;(Greater Fire Shield) - The wielder gains increased &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Freeze&#160;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=-1em&gt;&lt;voffset=0.5&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/voffset&gt;&lt;/link&gt; and the retaliation attack deals additional damage.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3742,6 +3742,11 @@ Priests of Rymrgand automatically learn the following spells at the appropriate 
 7. &lt;link="dbb1f8c8-0977-4dd0-aadd-c29f75120670"&gt;Death Ring&lt;/link&gt;
 8. &lt;link="40612e71-7716-4fd9-a17b-adc0d5927a30"&gt;Symbol of Rymrgand&lt;/link&gt;
 9. &lt;link="f3faf841-af2f-4bf2-86fd-14cd377416ff"&gt;Call of Rymrgand&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4862</ID>
+      <DefaultText>Venom from the mandible enters the target's body, &lt;link="glossary://GlossaryEntry_Petrified"&gt;&lt;#72da26&gt;Petrifying&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3+&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; them. If the target dies while Petrified, Crystal-Eater Spiderlings burst from their body and join the party for a time.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3806,6 +3811,31 @@ Priests of Rymrgand automatically learn the following spells at the appropriate 
     <Entry>
       <ID>4910</ID>
       <DefaultText>&lt;line-height=100%&gt;While affected by a &lt;link="glossary://GlossaryEntry_Mind_Inspiration"&gt;Mind Inspiration&lt;/link&gt;, spells cast more quickly.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4919</ID>
+      <DefaultText>The ranger strikes in melee like an apex predator, studying their prey, and learning how best to defeat them. When first used, the ranger will gain additional &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; against the Race of their target. This bonus stacks with each successful hit with this ability against creatures of the same race (up to a limit). Once a Race has been chosen as prey, the Ranger cannot designate a new Race as prey until they Rest, at which point all stacks are cleared.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4921</ID>
+      <DefaultText>(Beast's Claw) - Each stack now also increases Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;) against the chosen Race.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4925</ID>
+      <DefaultText>The ranger calls out to their Animal Companion, inspiring a primal rage within them and granting them several powerful Inspirations (&lt;link="glossary://GlossaryEntry_Tenacious"&gt;&lt;#ff4800&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Hardy"&gt;&lt;#f7b733&gt;Hardy&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Nimble"&gt;&lt;#72da26&gt;Nimble&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Aware"&gt;&lt;#ca58ff&gt;Aware&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Acute"&gt;&lt;#00a4ff&gt;Acute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Resolute"&gt;&lt;#30d3d5&gt;Resolute&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;) for an extended time.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4927</ID>
+      <DefaultText>The ranger fires a powerful unerring shot with their ranged weapon, striking all characters in a line with increased Damage and &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; as well as &lt;link="glossary://GlossaryEntry_Enfeebled"&gt;&lt;#f7b733&gt;Enfeebling&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; them.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5025</ID>
+      <DefaultText>While in combat, Nebula will periodically grant any one character an Inspiration (&lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.35em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Quick&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Insightful"&gt;&lt;#ca58ff&gt;Insightful&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Smart"&gt;&lt;#00a4ff&gt;Smart&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Steadfast"&gt;&lt;#30d3d5&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;). While you are Near Death and being attacked, Nebula also has a small chance to cast Withdraw or Recall Agony on you.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
