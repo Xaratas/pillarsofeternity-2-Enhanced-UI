@@ -221,7 +221,7 @@ Many suits of armor and many creatures will grant different Armor Rating values 
     </Entry>
     <Entry>
       <ID>162</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; represents a character's short-term survivability.
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; represents a character's short-term survivability.
 
 Damage that is not reduced by a character's &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; goes straight to their Health. Potions and healing magic (such as from a paladin, priest, or druid) can restore Health in combat.
 
@@ -321,7 +321,7 @@ A &lt;link="glossary://GlossaryEntry_Shaken"&gt;&lt;#30d3d5&gt;Shaken&lt;space=0
     </Entry>
     <Entry>
       <ID>609</ID>
-      <DefaultText>&lt;line-height=100%&gt;A conscious character that is at or below &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;25% Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; is considered "Near Death".&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A conscious character that is &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;&lt;size=110%&gt;≤&lt;/size&gt; 25% Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; is considered "Near Death".&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -442,7 +442,7 @@ Each Inspiration is categorized by an Attribute, such as Might or Dexterity. Ins
     <Entry>
       <ID>723</ID>
       <DefaultText>&lt;line-height=100%&gt;&lt;voffset=0.5em&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Constitution"&gt;&lt;#dac79c&gt;Constitution&#160;Inspiration&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
-&lt;link="glossary://GlossaryEntry_Robust"&gt;&lt;#f7b733&gt;Robust&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Constitution, gain +2 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;, and will regenerate &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; periodically.&lt;/line-height&gt;</DefaultText>
+&lt;link="glossary://GlossaryEntry_Robust"&gt;&lt;#f7b733&gt;Robust&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; characters have +5 Constitution, gain +2 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;, and will regenerate &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; periodically.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -544,22 +544,22 @@ Each Inspiration is categorized by an Attribute, such as Might or Dexterity. Ins
     </Entry>
     <Entry>
       <ID>883</ID>
-      <DefaultText>&lt;line-height=100%&gt;A character that is between &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;25-50% Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; is considered "Bloodied".&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A character that is between &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;25-50% Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; is considered "Bloodied".&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>885</ID>
-      <DefaultText>&lt;line-height=100%&gt;A character that is between &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;50-75% Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; is considered "Hurt".&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A character that is between &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;50-75% Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; is considered "Hurt".&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>887</ID>
-      <DefaultText>&lt;line-height=100%&gt;A character that is below &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;100%&lt;/color&gt;&lt;/link&gt; but above &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;100% Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; is considered "Healthy".&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A character that is between &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;75-99% Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; is considered "Healthy".&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>889</ID>
-      <DefaultText>&lt;line-height=100%&gt;A character that is at &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;100% Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; is considered "Unharmed".&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A character that is at &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;100% Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; is considered "Unharmed".&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

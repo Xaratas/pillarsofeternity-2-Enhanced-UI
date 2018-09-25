@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\abilities</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>3359</EntryCount>
+  <EntryCount>3363</EntryCount>
   <Entries>
     <Entry>
       <ID>237</ID>
@@ -26,12 +26,12 @@
     </Entry>
     <Entry>
       <ID>242</ID>
-      <DefaultText>&lt;line-height=100%&gt;Isolates a single target within a protective sphere, shielding them from harm while their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; regenerates.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Isolates a single target within a protective sphere, shielding them from harm while their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; regenerates.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>243</ID>
-      <DefaultText>&lt;line-height=100%&gt;Creates a long-lasting circle of healing, regenerating ally &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a long-lasting circle of healing, regenerating ally &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -46,7 +46,12 @@
     </Entry>
     <Entry>
       <ID>246</ID>
-      <DefaultText>&lt;line-height=100%&gt;Creates a slow-moving energetic projection of the priest's faith, returning &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; to allies and inflicting &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;Freeze&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/link&gt; damage to enemies.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a slow-moving energetic projection of the priest's faith, returning &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; to allies and inflicting &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;Freeze&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/link&gt; damage to enemies.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>249</ID>
+      <DefaultText>&lt;line-height=100%&gt;Blesses allies with the aid of a sympathetic soul, releasing a healing effect when they are &lt;#ff462d&gt;Near Death&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=35%&gt;&lt;sprite="Inline" name="down_arrow" tint=1 color=#ff462dFF&gt;&lt;voffset=1em&gt;&lt;space=-6.25em&gt;&lt;sprite="Inline" name="down_arrow" tint=1 color=#ff462dFF&gt;&lt;/voffset&gt;&lt;voffset=2em&gt;&lt;space=-6.25em&gt;&lt;sprite="Inline" name="down_arrow" tint=1 color=#ff462dFF&gt;&lt;/voffset&gt;&lt;/size&gt;&lt;space=0.5em&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -131,7 +136,7 @@
     </Entry>
     <Entry>
       <ID>272</ID>
-      <DefaultText>&lt;line-height=100%&gt;Eats away at the target's spirit, inflicting &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#adc455&gt;Corrosive&lt;#9ba967&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt; damage and converting that essence into &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; for the caster.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Eats away at the target's spirit, inflicting &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#adc455&gt;Corrosive&lt;#9ba967&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt; damage and converting that essence into &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; for the caster.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -156,7 +161,7 @@
     </Entry>
     <Entry>
       <ID>279</ID>
-      <DefaultText>&lt;line-height=100%&gt;Caster draws upon their life force to gain the &lt;link="glossary://GlossaryEntry_Swift"&gt;&lt;#72da26&gt;Swift&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration and Action Speed at the cost their own &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; draining over time.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Caster draws upon their life force to gain the &lt;link="glossary://GlossaryEntry_Swift"&gt;&lt;#72da26&gt;Swift&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration and Action Speed at the cost their own &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; draining over time.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -201,7 +206,7 @@
     </Entry>
     <Entry>
       <ID>296</ID>
-      <DefaultText>&lt;line-height=100%&gt;Charged by the rush of battle, the fighter will continually regenerate &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; at a modest rate.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Charged by the rush of battle, the fighter will continually regenerate &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; at a modest rate.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -216,12 +221,12 @@
     </Entry>
     <Entry>
       <ID>303</ID>
-      <DefaultText>&lt;line-height=100%&gt;Creates a field of holy energy around the priest, dealing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage and applying &lt;link="glossary://GlossaryEntry_Shaken"&gt;&lt;#30d3d5&gt;Shaken&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; to any vessels in the vicinity while regenerating a modest amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; for allies. The power of a priest's Holy Radiance is modified by how well their Reputations align with the preferred behaviors of their faith.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a field of holy energy around the priest, dealing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage and applying &lt;link="glossary://GlossaryEntry_Shaken"&gt;&lt;#30d3d5&gt;Shaken&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; to any vessels in the vicinity while regenerating a modest amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; for allies. The power of a priest's Holy Radiance is modified by how well their Reputations align with the preferred behaviors of their faith.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>305</ID>
-      <DefaultText>&lt;line-height=100%&gt;Paladins can command an unconscious ally to get back up with a large instant spike in &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, while also granting the &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration. However, the ally will lose half of the regained &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; after a short duration.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Paladins can command an unconscious ally to get back up with a large instant spike in &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, while also granting the &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration. However, the ally will lose half of the regained &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; after a short duration.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -261,7 +266,7 @@
     </Entry>
     <Entry>
       <ID>322</ID>
-      <DefaultText>&lt;line-height=100%&gt;Fueled solely by belief, the paladin is able to heal with the touch of their hands, recovering a substantial amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; for the paladin or an ally within range.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Fueled solely by belief, the paladin is able to heal with the touch of their hands, recovering a substantial amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; for the paladin or an ally within range.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -301,12 +306,12 @@
     </Entry>
     <Entry>
       <ID>378</ID>
-      <DefaultText>&lt;line-height=100%&gt;The fighter draws strength from their own indomitable spirit, causing them to regenerate a portion of the &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; lost from each attack.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The fighter draws strength from their own indomitable spirit, causing them to regenerate a portion of the &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; lost from each attack.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>381</ID>
-      <DefaultText>&lt;line-height=100%&gt;The fighter refuses to be vanquished. After being knocked out, the fighter stands back up with a portion of their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; restored and temporary bonuses to all Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;) and &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Ratings&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The fighter refuses to be vanquished. After being knocked out, the fighter stands back up with a portion of their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; restored and temporary bonuses to all Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;) and &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Ratings&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -371,7 +376,7 @@
     </Entry>
     <Entry>
       <ID>427</ID>
-      <DefaultText>&lt;line-height=100%&gt;The caster's hand becomes a toxic parasite, causing &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#adc455&gt;Corrosive&lt;#9ba967&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt; damage to the next target the wizard attacks, &lt;link="glossary://GlossaryEntry_Weakened"&gt;&lt;#f7b733&gt;Weakening&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; it, and converting its lifeforce to the caster as &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The caster's hand becomes a toxic parasite, causing &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#adc455&gt;Corrosive&lt;#9ba967&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt; damage to the next target the wizard attacks, &lt;link="glossary://GlossaryEntry_Weakened"&gt;&lt;#f7b733&gt;Weakening&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; it, and converting its lifeforce to the caster as &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -426,7 +431,7 @@
     </Entry>
     <Entry>
       <ID>462</ID>
-      <DefaultText>&lt;line-height=100%&gt;Shares a generous portion of the caster's divine strength, restoring a significant amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; to all allies in the area of effect.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Shares a generous portion of the caster's divine strength, restoring a significant amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; to all allies in the area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -446,7 +451,7 @@
     </Entry>
     <Entry>
       <ID>483</ID>
-      <DefaultText>&lt;line-height=100%&gt;Imparts to allies the fervor of righteousness in battle, granting them the &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration. When any ally in the area of effect delivers a killing blow, he or she regains &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Imparts to allies the fervor of righteousness in battle, granting them the &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration. When any ally in the area of effect delivers a killing blow, he or she regains &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -461,7 +466,7 @@
     </Entry>
     <Entry>
       <ID>492</ID>
-      <DefaultText>&lt;line-height=100%&gt;Grants fallen friends a second chance, reviving unconscious allies in the area of effect and restoring a small amount of their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Grants fallen friends a second chance, reviving unconscious allies in the area of effect and restoring a small amount of their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -481,7 +486,7 @@
     </Entry>
     <Entry>
       <ID>502</ID>
-      <DefaultText>&lt;line-height=100%&gt;Calls upon the aid of the priest's god, restoring &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; and reducing durations of negative effects for all allies in the area of effect.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Calls upon the aid of the priest's god, restoring &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; and reducing durations of negative effects for all allies in the area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -526,7 +531,7 @@
     </Entry>
     <Entry>
       <ID>528</ID>
-      <DefaultText>&lt;line-height=100%&gt;Enemies in the area of effect have their skin infested by hordes of burrowing maggots, inflicting &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage over time. The more wounded the target, the greater the damage. A target at maximum &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; takes no damage from the spell.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Enemies in the area of effect have their skin infested by hordes of burrowing maggots, inflicting &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage over time. The more wounded the target, the greater the damage. A target at maximum &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; takes no damage from the spell.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -556,7 +561,7 @@
     </Entry>
     <Entry>
       <ID>547</ID>
-      <DefaultText>&lt;line-height=100%&gt;Creates a rolling cloud of purification, healing the &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; of allies and pushing back enemies.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a rolling cloud of purification, healing the &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; of allies and pushing back enemies.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -661,7 +666,7 @@
     </Entry>
     <Entry>
       <ID>603</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;xg&gt;Burns&lt;/xg&gt; away the ethereal sinew that holds together the mind, body, and soul of the target enemy, causing it to rapidly take &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage. Targets that have their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; reduced to zero disintegrate into nonexistence.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;xg&gt;Burns&lt;/xg&gt; away the ethereal sinew that holds together the mind, body, and soul of the target enemy, causing it to rapidly take &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage. Targets that have their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; reduced to zero disintegrate into nonexistence.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -691,7 +696,7 @@
     </Entry>
     <Entry>
       <ID>646</ID>
-      <DefaultText>&lt;line-height=100%&gt;Tears at the lifeforce of all enemies in the area of effect, dealing &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage. If at least one enemy is affected, the chanter will restore some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; as well.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Tears at the lifeforce of all enemies in the area of effect, dealing &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage. If at least one enemy is affected, the chanter will restore some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; as well.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -786,7 +791,7 @@
     </Entry>
     <Entry>
       <ID>814</ID>
-      <DefaultText>&lt;line-height=100%&gt;Revives allies in the area of effect with a small amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Revives allies in the area of effect with a small amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -826,7 +831,7 @@
     </Entry>
     <Entry>
       <ID>826</ID>
-      <DefaultText>&lt;line-height=100%&gt;Caster's melee weapon becomes an ideal instrument for hunting, adding continuous &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage to a single enhanced attack and restoring &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; to the caster.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Caster's melee weapon becomes an ideal instrument for hunting, adding continuous &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage to a single enhanced attack and restoring &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; to the caster.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -856,7 +861,7 @@
     </Entry>
     <Entry>
       <ID>834</ID>
-      <DefaultText>&lt;line-height=100%&gt;Channels lunar energy into a localized source of power, regenerating the &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; of allies in the area of effect and granting a minor bonus to all Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;).&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Channels lunar energy into a localized source of power, regenerating the &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; of allies in the area of effect and granting a minor bonus to all Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;).&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -881,7 +886,7 @@
     </Entry>
     <Entry>
       <ID>843</ID>
-      <DefaultText>&lt;line-height=100%&gt;Creates a glowing quarterstaff in the wizard's hands, imbued with negative energy. Each successful strike with the staff siphons &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; for the wizard. &lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a glowing quarterstaff in the wizard's hands, imbued with negative energy. Each successful strike with the staff siphons &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; for the wizard. &lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -941,7 +946,7 @@
     </Entry>
     <Entry>
       <ID>863</ID>
-      <DefaultText>&lt;line-height=100%&gt;(Berserker) - Grants &lt;link="glossary://GlossaryEntry_Tenacious"&gt;&lt;#ff4800&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Hardy"&gt;&lt;#f7b733&gt;Hardy&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations, instead of &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.35em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;. Hit to Crit on melee attacks and carnage is greatly increased while frenzied. However, the barbarian is confused, cannot see their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, and takes continuous &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage while frenzied.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;(Berserker) - Grants &lt;link="glossary://GlossaryEntry_Tenacious"&gt;&lt;#ff4800&gt;Tenacious&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Hardy"&gt;&lt;#f7b733&gt;Hardy&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations, instead of &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.35em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;. Hit to Crit on melee attacks and carnage is greatly increased while frenzied. However, the barbarian is confused, cannot see their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, and takes continuous &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage while frenzied.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -961,7 +966,7 @@
     </Entry>
     <Entry>
       <ID>877</ID>
-      <DefaultText>&lt;line-height=100%&gt;Invokes a primal energy, causing allies within range to benefit from constant &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; regeneration while the chanter is chanting.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Invokes a primal energy, causing allies within range to benefit from constant &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; regeneration while the chanter is chanting.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -971,7 +976,7 @@
     </Entry>
     <Entry>
       <ID>879</ID>
-      <DefaultText>&lt;line-height=100%&gt;Draws upon the druid's natural connection to the boar, temporarily allowing them to assume that form. The boar spiritshift can engage targets, regenerates &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, and inflicts &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage over time with its melee attacks.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Draws upon the druid's natural connection to the boar, temporarily allowing them to assume that form. The boar spiritshift can engage targets, regenerates &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, and inflicts &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage over time with its melee attacks.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1046,7 +1051,7 @@
     </Entry>
     <Entry>
       <ID>918</ID>
-      <DefaultText>&lt;line-height=100%&gt;The rogue looks to finish off an injured opponent with a precise, deadly strike that increases in damage the more &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; the target is missing.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The rogue looks to finish off an injured opponent with a precise, deadly strike that increases in damage the more &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; the target is missing.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1106,12 +1111,12 @@
     </Entry>
     <Entry>
       <ID>1018</ID>
-      <DefaultText>&lt;line-height=100%&gt;Boar companions slowly regenerate &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, even during combat.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Boar companions slowly regenerate &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, even during combat.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1020</ID>
-      <DefaultText>&lt;line-height=100%&gt;All boar animal companions regenerate &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; at a slow rate, even in combat.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;All boar animal companions regenerate &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; at a slow rate, even in combat.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1196,7 +1201,7 @@
     </Entry>
     <Entry>
       <ID>1212</ID>
-      <DefaultText>&lt;line-height=100%&gt;With a touch of their hands, the paladin imbues themselves or an ally within range with light, restoring a substantial amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; and granting the &lt;link="glossary://GlossaryEntry_Courageous"&gt;&lt;#30d3d5&gt;Courageous&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;With a touch of their hands, the paladin imbues themselves or an ally within range with light, restoring a substantial amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; and granting the &lt;link="glossary://GlossaryEntry_Courageous"&gt;&lt;#30d3d5&gt;Courageous&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1271,7 +1276,7 @@
     </Entry>
     <Entry>
       <ID>1385</ID>
-      <DefaultText>&lt;line-height=100%&gt;Prevents a severely injured character's &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; from reaching 0 for a brief moment.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Prevents a severely injured character's &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; from reaching 0 for a brief moment.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1301,12 +1306,12 @@
     </Entry>
     <Entry>
       <ID>1468</ID>
-      <DefaultText>&lt;line-height=100%&gt;The paladin focuses their faith and self-immolates in blue flame. Each time the spell pulses, enemies in the immediate area take &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage, while the paladin will receive a portion of their total &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; in &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage. (This damage can kill the paladin)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The paladin focuses their faith and self-immolates in blue flame. Each time the spell pulses, enemies in the immediate area take &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage, while the paladin will receive a portion of their total &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; in &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage. (This damage can kill the paladin)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>1470</ID>
-      <DefaultText>&lt;line-height=100%&gt;The priest gains a supernatural glow as he or she is infused with power. As a minor avatar of their deity, the priest gains the &lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Quick&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.35em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Smart"&gt;&lt;#00a4ff&gt;Smart&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Insightful"&gt;&lt;#ca58ff&gt;Insightful&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Steadfast"&gt;&lt;#30d3d5&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations as well as a bonus to &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, and weapon damage.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The priest gains a supernatural glow as he or she is infused with power. As a minor avatar of their deity, the priest gains the &lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Quick&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.35em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Smart"&gt;&lt;#00a4ff&gt;Smart&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Insightful"&gt;&lt;#ca58ff&gt;Insightful&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Steadfast"&gt;&lt;#30d3d5&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations as well as a bonus to &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, and weapon damage.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1316,7 +1321,7 @@
     </Entry>
     <Entry>
       <ID>1474</ID>
-      <DefaultText>&lt;line-height=100%&gt;The ranger's animal companion falls over and appears to be dead for a limited time. When the companion stands back up, they regain &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; from the time spent resting.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The ranger's animal companion falls over and appears to be dead for a limited time. When the companion stands back up, they regain &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; from the time spent resting.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1366,7 +1371,7 @@
     </Entry>
     <Entry>
       <ID>1572</ID>
-      <DefaultText>&lt;line-height=100%&gt;Concelhaut's variant of Minoletta's Minor Missiles does &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage, attacks the target's &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, and grants drained &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; to the caster.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Concelhaut's variant of Minoletta's Minor Missiles does &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage, attacks the target's &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, and grants drained &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; to the caster.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1401,7 +1406,7 @@
     </Entry>
     <Entry>
       <ID>1730</ID>
-      <DefaultText>&lt;line-height=100%&gt;The chanter creates two bouncing beams of pure light that restore &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; and grant immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; on all allies they touch.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The chanter creates two bouncing beams of pure light that restore &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; and grant immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; on all allies they touch.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1476,7 +1481,7 @@
     </Entry>
     <Entry>
       <ID>1761</ID>
-      <DefaultText>&lt;line-height=100%&gt;The ranger can revive their animal companion and restore a small amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The ranger can revive their animal companion and restore a small amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1802,14 +1807,14 @@ Gain significant Hit to Crit conversion on melee and carnage attacks while frenz
 &lt;b&gt;Penalty&lt;/b&gt;
 &lt;link="glossary://GlossaryEntry_Confused"&gt;&lt;#00a4ff&gt;Confused&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; while frenzied.
 
-Cannot see &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; while frenzied.
+Cannot see &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; while frenzied.
 
 Takes &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage continuously while frenzied.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>2225</ID>
-      <DefaultText>&lt;line-height=100%&gt;With a touch of their hands, the paladin restores a substantial amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; and applies the &lt;link="glossary://GlossaryEntry_Robust"&gt;&lt;#f7b733&gt;Robust&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration to themselves or an ally within range.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;With a touch of their hands, the paladin restores a substantial amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; and applies the &lt;link="glossary://GlossaryEntry_Robust"&gt;&lt;#f7b733&gt;Robust&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration to themselves or an ally within range.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1856,7 +1861,7 @@ Druid can switch to any of the spiritshifting animals, once each, per combat.
 
 Spiritshift has a longer duration.
 
-After a spiritshift ends, the druid is healed a portion of their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.
+After a spiritshift ends, the druid is healed a portion of their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.
 
 Automatically learn the following druid spells at new power levels:
 1. Nature's Mark
@@ -2019,7 +2024,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>2407</ID>
-      <DefaultText>&lt;line-height=100%&gt;When a barbarian is reduced to 0 &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; and has melee weapons equipped, he or she immediately makes instant Full Attacks at everyone in range. (These attacks trigger Carnage)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;When a barbarian is reduced to 0 &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; and has melee weapons equipped, he or she immediately makes instant Full Attacks at everyone in range. (These attacks trigger Carnage)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2124,7 +2129,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>2515</ID>
-      <DefaultText>&lt;line-height=100%&gt;(Sacred Sacrifice) - If the paladin is defeated during the immolation, they revive with full &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; shortly afterwards.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;(Sacred Sacrifice) - If the paladin is defeated during the immolation, they revive with full &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; shortly afterwards.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2249,7 +2254,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>2636</ID>
-      <DefaultText>&lt;line-height=100%&gt;Affected allies gain a portion of the damage they deal as &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Affected allies gain a portion of the damage they deal as &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2269,7 +2274,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>2654</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Bloodied or Near Death, the rogue gains immunity against &lt;link="glossary://GlossaryEntry_Mind_Affliction"&gt;Mind Afflictions&lt;/link&gt; (Perception, Intellect, and Resolve).&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While &lt;link="gamedata://263e7951-2cef-42af-a717-05cb3a915576"&gt;&lt;#ff462dFF&gt;Bloodied&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=35%&gt;&lt;sprite="Inline" name="down_arrow" tint=1 color=#9e9e9eAA&gt;&lt;voffset=1em&gt;&lt;space=-6.25em&gt;&lt;sprite="Inline" name="down_arrow" tint=1 color=#ff462dFF&gt;&lt;/voffset&gt;&lt;voffset=2em&gt;&lt;space=-6.25em&gt;&lt;sprite="Inline" name="down_arrow" tint=1 color=#ff462dFF&gt;&lt;/voffset&gt;&lt;/size&gt;&lt;/link&gt; or &lt;link="gamedata://8e2de5f2-b8c5-4c58-b4e4-2d7849a48b96"&gt;&lt;#ff462dFF&gt;Near Death&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=35%&gt;&lt;sprite="Inline" name="down_arrow" tint=1 color=#ff462dFF&gt;&lt;voffset=1em&gt;&lt;space=-6.25em&gt;&lt;sprite="Inline" name="down_arrow" tint=1 color=#ff462dFF&gt;&lt;/voffset&gt;&lt;voffset=2em&gt;&lt;space=-6.25em&gt;&lt;sprite="Inline" name="down_arrow" tint=1 color=#ff462dFF&gt;&lt;/voffset&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;, the rogue gains immunity against &lt;link="gamedata://9a2f5d84-96ef-453b-b52c-f698b2a0e8da"&gt;&lt;#b574d3&gt;Mind Afflictions&lt;/color&gt;&lt;/link&gt; (Perception, Intellect, and Resolve).&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2279,7 +2284,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>2659</ID>
-      <DefaultText>&lt;line-height=100%&gt;Allies receive more &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; from healing effects.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Allies receive more &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; from healing effects.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2309,7 +2314,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>2673</ID>
-      <DefaultText>&lt;line-height=100%&gt;(Unbending Trunk) - The fighter now recovers more &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; from each attack received.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;(Unbending Trunk) - The fighter now recovers more &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; from each attack received.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2479,7 +2484,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>2815</ID>
-      <DefaultText>&lt;line-height=100%&gt;A major intercession of the deity, Eothas. Its light restores &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; to all allies in the area and shortens the duration of various negative effects by a large amount.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;A major intercession of the deity, Eothas. Its light restores &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; to all allies in the area and shortens the duration of various negative effects by a large amount.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2694,7 +2699,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>3386</ID>
-      <DefaultText>&lt;line-height=100%&gt;Channels the merciful sacrifice of Saint Omaku. Aura increases nearby allies' Action Speed. Bonus increases as the wielder loses &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Channels the merciful sacrifice of Saint Omaku. Aura increases nearby allies' Action Speed. Bonus increases as the wielder loses &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2774,7 +2779,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>3555</ID>
-      <DefaultText>&lt;line-height=100%&gt;Grants &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; over time and reduces incoming Damage when the wearer is Near Death.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Grants &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; over time and reduces incoming Damage when the wearer is Near Death.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2799,12 +2804,12 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>3636</ID>
-      <DefaultText>&lt;line-height=100%&gt;(Rapid &lt;xg&gt;Recovery&lt;/xg&gt;) - Increases the amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; regenerated.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;(Rapid &lt;xg&gt;Recovery&lt;/xg&gt;) - Increases the amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; regenerated.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3664</ID>
-      <DefaultText>&lt;line-height=100%&gt;The wearer transforms into a stationary pillar of steel, reducing incoming Damage and restoring &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The wearer transforms into a stationary pillar of steel, reducing incoming Damage and restoring &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2834,7 +2839,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>3699</ID>
-      <DefaultText>&lt;line-height=100%&gt;Focusing the divine energies of the gloves, the wearer heals an ally or themselves with a touch of their hands, restoring a small amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Focusing the divine energies of the gloves, the wearer heals an ally or themselves with a touch of their hands, restoring a small amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2956,12 +2961,12 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>3867</ID>
-      <DefaultText>&lt;line-height=100%&gt;Through extreme physical conditioning, the user can redouble their efforts and call upon a surge of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; to remain in battle longer. This ability requires Athletics and recovers &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; based on the user's Athletics skill.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Through extreme physical conditioning, the user can redouble their efforts and call upon a surge of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; to remain in battle longer. This ability requires Athletics and recovers &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; based on the user's Athletics skill.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3875</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Frau Nils is following you around, you are more &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accurate&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; with melee attacks and your party receives bonus &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Frau Nils is following you around, you are more &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accurate&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; with melee attacks and your party receives bonus &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2981,22 +2986,22 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>3893</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Prissy is following you around, you are more effective with healing spells and potions and your party members regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Prissy is following you around, you are more effective with healing spells and potions and your party members regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3895</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Twix is following you around, you gain a bonus to your Max &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; and your party members will regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Twix is following you around, you gain a bonus to your Max &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; and your party members will regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3897</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Abraham is following you around, your recovery penalty from armor is reduced and your party members will regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Abraham is following you around, your recovery penalty from armor is reduced and your party members will regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3899</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Algol is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and party members regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Algol is following you around any &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to you wear off more quickly, and party members regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3011,12 +3016,12 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>3905</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Deus is following you around you receive a bonus to Constitution and your party members regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Deus is following you around you receive a bonus to Constitution and your party members regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3909</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Freya is following you around you receive a bonus to Intellect and your party members regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Freya is following you around you receive a bonus to Intellect and your party members regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; when they kill an enemy.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3036,7 +3041,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>3917</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Mercedes is following you around you receive a bonus to Max &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; and your party receives a bonus to melee weapon damage.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Mercedes is following you around you receive a bonus to Max &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; and your party receives a bonus to melee weapon damage.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3051,7 +3056,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>3929</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Toby is following you around you receive a bonus to Perception and your party gains a bonus to Max &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Toby is following you around you receive a bonus to Perception and your party gains a bonus to Max &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3090,18 +3095,48 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3989</ID>
+      <DefaultText>&lt;line-height=100%&gt;The wielder leaps at their prey, &lt;link="glossary://GlossaryEntry_Immobilized"&gt;&lt;#72da26&gt;Immobilizing&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; them and causing them to bleed over time.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3993</ID>
       <DefaultText>&lt;line-height=100%&gt;Aura that lowers enemy &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;. The penalty increases with the wielder's Survival skill.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4018</ID>
+      <DefaultText>&lt;line-height=100%&gt;A sweet aroma originating from the flail produces an aura that increases the &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; of nearby allies.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4020</ID>
+      <DefaultText>&lt;line-height=100%&gt;An entrancing aroma originating from the flail produces an aura that reduces the &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; defense of nearby enemies.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4025</ID>
+      <DefaultText>&lt;line-height=100%&gt;A sickening aroma originating from the flail produces an aura that reduces the &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; of nearby enemies.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4050</ID>
+      <DefaultText>&lt;line-height=100%&gt;The wielder draws his head back and headbutts an enemy. The enemy takes significant &lt;link="glossary://GlossaryEntry_Crushing"&gt;Crush&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; damage and is &lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Stunned&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4063</ID>
-      <DefaultText>&lt;line-height=100%&gt;The priest looks to finish off an injured opponent with a precise, deadly strike that increases in damage the more &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; the target is missing.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The priest looks to finish off an injured opponent with a precise, deadly strike that increases in damage the more &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; the target is missing.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4067</ID>
+      <DefaultText>&lt;line-height=100%&gt;The wielder rapidly stabs the area in front of them, dealing damage and &lt;link="glossary://GlossaryEntry_Immobilized"&gt;&lt;#72da26&gt;Immobilizing&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; anyone caught in the area of effect.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4088</ID>
-      <DefaultText>&lt;line-height=100%&gt;Creates an aura that slowly restores the &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; of nearby allies, based on their remaining &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;. (Full healing is granted to those nearest to death)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates an aura that slowly restores the &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; of nearby allies, based on their remaining &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;. (Full healing is granted to those nearest to death)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3116,7 +3151,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4102</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Socrates is following you around you regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when you deal the killing blow against an enemy and your party has increased &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; against melee attacks.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Socrates is following you around you regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; when you deal the killing blow against an enemy and your party has increased &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; against melee attacks.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3191,12 +3226,12 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4155</ID>
-      <DefaultText>&lt;line-height=100%&gt;Aura that inflicts &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage over time to nearby enemies, based on their remaining &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;. (Full Damage is dealt to those nearest to death)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Aura that inflicts &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage over time to nearby enemies, based on their remaining &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;. (Full Damage is dealt to those nearest to death)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4159</ID>
-      <DefaultText>&lt;line-height=100%&gt;Wearer converts &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage to &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; while they carry one or more Injuries.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Wearer converts &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage to &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; while they carry one or more Injuries.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3216,12 +3251,17 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4268</ID>
-      <DefaultText>&lt;line-height=100%&gt;Distraho's pommel gem shares from its store of essence. Restores a small amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; to the wielder.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Distraho's pommel gem shares from its store of essence. Restores a small amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; to the wielder.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4270</ID>
-      <DefaultText>&lt;line-height=100%&gt;Distraho's pommel gem pulses with life-giving essence. Restores a small amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; to the wielder and nearby allies.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Distraho's pommel gem pulses with life-giving essence. Restores a small amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; to the wielder and nearby allies.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4271</ID>
+      <DefaultText>&lt;line-height=100%&gt;(Flurry of Arrows) - Windsong's hits against Near Death targets have a chance to cause &lt;link="glossary://GlossaryEntry_Distracted"&gt;&lt;#ca58ff&gt;Distracted&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3311,7 +3351,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4329</ID>
-      <DefaultText>&lt;line-height=100%&gt;Applies minor &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; over time when the wielder falls Near Death.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Applies minor &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; over time when the wielder falls Near Death.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3331,7 +3371,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4338</ID>
-      <DefaultText>&lt;line-height=100%&gt;Lets loose an arrow at an ally. The wielder receives &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage, while the target receives &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;. Health given increases with the Religion skill of the wielder.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Lets loose an arrow at an ally. The wielder receives &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage, while the target receives &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;. Health given increases with the Religion skill of the wielder.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3356,7 +3396,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4362</ID>
-      <DefaultText>&lt;line-height=100%&gt;Electricity courses through the wearer's veins, invigorating the flesh. Returns &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; to the wearer when they receive &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;#fff151&gt;Shock&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=-1em&gt; damage.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Electricity courses through the wearer's veins, invigorating the flesh. Returns &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; to the wearer when they receive &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;#fff151&gt;Shock&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=-1em&gt; damage.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3411,7 +3451,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4412</ID>
-      <DefaultText>&lt;line-height=100%&gt;Creates a field of holy energy around the caster, dealing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage and applying &lt;link="glossary://GlossaryEntry_Frightened"&gt;&lt;#30d3d5&gt;Frightened&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; to any vessels in the vicinity while regenerating a major amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; for allies.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a field of holy energy around the caster, dealing &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage and applying &lt;link="glossary://GlossaryEntry_Frightened"&gt;&lt;#30d3d5&gt;Frightened&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; to any vessels in the vicinity while regenerating a major amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; for allies.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3436,12 +3476,12 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4434</ID>
-      <DefaultText>&lt;line-height=100%&gt;Increases the base maximum &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; that you gain with each level.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Increases the base maximum &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; that you gain with each level.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4442</ID>
-      <DefaultText>&lt;line-height=100%&gt;Empowered attacks gain increased &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;#f2a624&gt;Empowered&lt;space=0.5em&gt;&lt;sprite="Inline" name="empowered" tint=1&gt;&lt;#ffc638&gt;&lt;space=-3.68em&gt;&lt;voffset=0.14em&gt;&lt;size=65%&gt;&lt;sprite="Inline" name="empowered" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/color&gt;&lt;space=0.5em&lt; attacks gain increased &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3481,7 +3521,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4516</ID>
-      <DefaultText>&lt;line-height=100%&gt;Using meditation techniques, sooth an injured allies' pain, restoring their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; over time and suspending any hostile effects. (May only be used on Injured characters) &lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Using meditation techniques, sooth an injured allies' pain, restoring their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; over time and suspending any hostile effects. (May only be used on Injured characters) &lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3491,7 +3531,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4559</ID>
-      <DefaultText>&lt;line-height=100%&gt;Grants increasing &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; as &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; is lost. Wielder cannot move when Near Death.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Grants increasing &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; as &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; is lost. Wielder cannot move when Near Death.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3501,7 +3541,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4561</ID>
-      <DefaultText>&lt;line-height=100%&gt;Grants bonus &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; Regeneration when Near Death.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Grants bonus &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; Regeneration when Near Death.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3511,7 +3551,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4571</ID>
-      <DefaultText>&lt;line-height=100%&gt;Causes nearby allies to recover &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; over time.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Causes nearby allies to recover &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; over time.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3526,7 +3566,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4588</ID>
-      <DefaultText>&lt;line-height=100%&gt;Creates a wellspring of life-giving water, restoring &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; and granting the &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration to allies in the area.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Creates a wellspring of life-giving water, restoring &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; and granting the &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspiration to allies in the area.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3556,7 +3596,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4636</ID>
-      <DefaultText>&lt;line-height=100%&gt;You shall not bow. Constantly restores &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; while the wielder is Bloodied or Near Death.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;You shall not bow. Constantly restores &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; while the wielder is Bloodied or Near Death.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3646,7 +3686,7 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     </Entry>
     <Entry>
       <ID>4733</ID>
-      <DefaultText>&lt;line-height=100%&gt;The user creates a powerful explosion of fire at a location. Enemies caught in the blast take &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage immediately and over time. Allies in the blast are &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Healed&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; immediately and over time.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The user creates a powerful explosion of fire at a location. Enemies caught in the blast take &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage immediately and over time. Allies in the blast are &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Healed&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; immediately and over time.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3657,6 +3697,11 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>4746</ID>
       <DefaultText>&lt;line-height=100%&gt;Off-putting to others at the best of times, a wounded endings godlike radiates a miasma of pain and revulsion, &lt;link="glossary://GlossaryEntry_Sickened"&gt;&lt;#f7b733&gt;Sickening&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; their enemies when bloodied or near death.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4749</ID>
+      <DefaultText>&lt;line-height=100%&gt;The wearer points at a foe, &lt;link="glossary://GlossaryEntry_Dominated"&gt;&lt;#00a4ff&gt;Dominating&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; them for a short period of time.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3745,6 +3790,11 @@ Priests of Rymrgand automatically learn the following spells at the appropriate 
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4852</ID>
+      <DefaultText>&lt;line-height=100%&gt;When not near allies, the wielder gains bonus &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage to their weapon attacks.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4862</ID>
       <DefaultText>Venom from the mandible enters the target's body, &lt;link="glossary://GlossaryEntry_Petrified"&gt;&lt;#72da26&gt;Petrifying&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3+&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; them. If the target dies while Petrified, Crystal-Eater Spiderlings burst from their body and join the party for a time.</DefaultText>
       <FemaleText />
@@ -3752,6 +3802,11 @@ Priests of Rymrgand automatically learn the following spells at the appropriate 
     <Entry>
       <ID>4866</ID>
       <DefaultText>&lt;line-height=100%&gt;Imbues the caster with the ferocity of a dragon, causing their melee attacks to deal additional &lt;link="glossary://GlossaryEntry_Slashing"&gt;Slash&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage. While active, enemies that attack the caster with melee weapons must resist their fears or be &lt;link="glossary://GlossaryEntry_Terrified"&gt;&lt;#30d3d5&gt;Terrified&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4867</ID>
+      <DefaultText>&lt;line-height=100%&gt;While Drago is following you around, you have increased Stride and your party has bonus Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;space=-0.5em&gt;&lt;/link&gt;) against Disengagement attacks.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3765,12 +3820,12 @@ Priests of Rymrgand automatically learn the following spells at the appropriate 
       <FemaleText />
     </Entry><Entry>
       <ID>4880</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Cajux is following you around, you regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when you deal the killing blow against an enemy, and your party moves more quickly in combat.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Cajux is following you around, you regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; when you deal the killing blow against an enemy, and your party moves more quickly in combat.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4882</ID>
-      <DefaultText>&lt;line-height=100%&gt;While Dude the Six-Toes Cat is following you around, you regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when you deal the killing blow against an enemy, and your party is less likely to be Hit by attacks.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While Dude the Six-Toes Cat is following you around, you regain some &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; when you deal the killing blow against an enemy, and your party is less likely to be Hit by attacks.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3800,12 +3855,12 @@ Priests of Rymrgand automatically learn the following spells at the appropriate 
     </Entry>
     <Entry>
       <ID>4902</ID>
-      <DefaultText>&lt;line-height=100%&gt;(Black Jacket) - Reduces the amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; regenerated.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;(Black Jacket) - Reduces the amount of &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; regenerated.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>4907</ID>
-      <DefaultText>&lt;line-height=100%&gt;Construct several illusory images of yourself. These images have very little &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;space=0.7em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, but will fight on your behalf and distract enemies.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Construct several illusory images of yourself. These images have very little &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, but will fight on your behalf and distract enemies.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -3836,6 +3891,31 @@ Priests of Rymrgand automatically learn the following spells at the appropriate 
     <Entry>
       <ID>5025</ID>
       <DefaultText>While in combat, Nebula will periodically grant any one character an Inspiration (&lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.35em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Quick&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Insightful"&gt;&lt;#ca58ff&gt;Insightful&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Smart"&gt;&lt;#00a4ff&gt;Smart&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Steadfast"&gt;&lt;#30d3d5&gt;Steadfast&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;). While you are Near Death and being attacked, Nebula also has a small chance to cast Withdraw or Recall Agony on you.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5028</ID>
+      <DefaultText>&lt;line-height=100%&gt;Returning the soul of the Porokoa to the Wheel has increased the Watcher's favor with Berath, increasing the Watcher's &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; against Spirits.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5029</ID>
+      <DefaultText>&lt;line-height=100%&gt;(Rymrgand's Gift) - Destroying more of the souls further increases the &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; against Vessels.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5031</ID>
+      <DefaultText>&lt;line-height=100%&gt;Giving the souls of the Crucible to Galawain has increased the Watcher's favor with Galawain, increasing the Watcher's &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; against Beasts.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5032</ID>
+      <DefaultText>&lt;line-height=100%&gt;(Galawain's Gift) - Giving more souls to Galawain further increases the &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; against Beasts.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5034</ID>
+      <DefaultText>&lt;line-height=100%&gt;Destroying the souls of the Crucible has increased the Watcher's favor with Rymrgand, increasing the Watcher's &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; against Vessels.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
