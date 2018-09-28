@@ -61,7 +61,7 @@
     </Entry>
     <Entry>
       <ID>14</ID>
-      <DefaultText>&lt;line-height=100%&gt;Hit applies {0:value:straight} stacking &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; to target&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Hit applies {0:value:straight} stacking &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; to target&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -77,6 +77,12 @@
     <Entry>
       <ID>23</ID>
       <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; when attacking the same target as an ally.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>24</ID>
+      <DefaultText>&lt;line-height=100%&gt;Scoring a Hit on a &lt;link="gamedata://8e2de5f2-b8c5-4c58-b4e4-2d7849a48b96"&gt;&lt;#ff462d&gt;Near Death&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt; target also damages nearby enemies
+&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -125,6 +131,12 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>40</ID>
+      <DefaultText>&lt;line-height=100%&gt;Casts Woodskin when the wielder first becomes &lt;link="gamedata://263e7951-2cef-42af-a717-05cb3a915576"&gt;&lt;#e67d29&gt;Bloodied&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#83838397&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#e67d29FF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;.
+&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>42</ID>
       <DefaultText>&lt;line-height=100%&gt;Stealth attacks cause the target to bleed for &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage until the end of combat.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
@@ -136,7 +148,7 @@
     </Entry>
     <Entry>
       <ID>44</ID>
-      <DefaultText>&lt;line-height=100%&gt;Incoming weapon Damage is reduced as &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; is lost. (Max {0:value:percentbonus} Damage reduction)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Incoming weapon Damage is reduced as &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; is lost. (Max {0:value:percentbonus} Damage reduction)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -221,7 +233,7 @@
     </Entry>
     <Entry>
       <ID>82</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:extravalue:percentbonus} Damage taken (improves as wearer loses &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:extravalue:percentbonus} Damage taken (improves as wearer loses &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -231,7 +243,7 @@
     </Entry>
     <Entry>
       <ID>85</ID>
-      <DefaultText>&lt;line-height=100%&gt;While above {0:triggervalue:percent} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;, {0:extravalue:percent} chance incoming Ranged weapon attacks inflict {0:value:percent} Damage&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;While above {0:triggervalue:percent} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;, {0:extravalue:percent} chance incoming Ranged weapon attacks inflict {0:value:percent} Damage&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -261,27 +273,39 @@
     </Entry>
     <Entry>
       <ID>98</ID>
-      <DefaultText>&lt;line-height=100%&gt;All Damage from Acid or Poison attacks has a {0:extravalue:percent} chance to be converted into {0:value:percent} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; for the wearer&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;All Damage from Acid or Poison attacks has a {0:extravalue:percent} chance to be converted into {0:value:percent} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; for the wearer&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>99</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value:percent} chance to instantly destroy a Kith or Beast with less than 100 &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; on Hit&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value:percent} chance to instantly destroy a Kith or Beast with less than 100 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; on Hit&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>100</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:extravalue:percent} Chance to convert {0:value:percent} Damage from Fire keyword attacks to &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:extravalue:percent} Chance to convert {0:value:percent} Damage from Fire keyword attacks to &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>101</ID>
-      <DefaultText>&lt;line-height=100%&gt;Only take {0:value:percent} Damage when Flanked or suffering from &lt;link="glossary://GlossaryEntry_Body_Affliction"&gt;Body Afflictions&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Only take {0:value:percent} Damage when Flanked or suffering from &lt;link="glossary://GlossaryEntry_Body_Affliction"&gt;&lt;#d39674&gt;Body Afflictions&lt;/color&gt;&lt;/link&gt; (Might, Constitution, Dexterity)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>102</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:extravalue:percent} Chance to convert {0:value:percent} Damage from Water keyword attacks to &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:extravalue:percent} Chance to convert {0:value:percent} Damage from Water keyword attacks to &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>103</ID>
+      <DefaultText>&lt;line-height=100%&gt;Launches Ability upon becoming &lt;link="gamedata://263e7951-2cef-42af-a717-05cb3a915576"&gt;&lt;#e67d29&gt;Bloodied&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#83838397&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#e67d29FF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;.
+&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>105</ID>
+      <DefaultText>&lt;line-height=100%&gt;Grants Ability upon becoming &lt;link="gamedata://8e2de5f2-b8c5-4c58-b4e4-2d7849a48b96"&gt;&lt;#ff462d&gt;Near Death&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;.
+&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -306,7 +330,7 @@
     </Entry>
     <Entry>
       <ID>112</ID>
-      <DefaultText>&lt;line-height=100%&gt;Convert {0:value:percent} &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage to &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Convert {0:value:percent} &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage to &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -321,7 +345,7 @@
     </Entry>
     <Entry>
       <ID>120</ID>
-      <DefaultText>&lt;line-height=100%&gt;Grants &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; against &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;Freeze&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/link&gt; attacks that increases as wearer loses &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; (Max {0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;AR&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Grants &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; against &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;Freeze&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/link&gt; attacks that increases as wearer loses &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; (Max {0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;AR&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -330,18 +354,37 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>123</ID>
+      <DefaultText>&lt;line-height=100%&gt;Ability granted when the wearer is &lt;link="gamedata://8e2de5f2-b8c5-4c58-b4e4-2d7849a48b96"&gt;&lt;#ff462d&gt;Near Death&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;
+&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>125</ID>
       <DefaultText>&lt;line-height=100%&gt;{0:value} All Defenses (&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;) except &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; (Increases with the History skill)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>129</ID>
+      <DefaultText>&lt;line-height=100%&gt;Ability triggers when wearer is &lt;link="gamedata://8e2de5f2-b8c5-4c58-b4e4-2d7849a48b96"&gt;&lt;#ff462d&gt;Near Death&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;
+&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>130</ID>
+      <DefaultText>&lt;line-height=100%&gt;Ability triggers when wearer becomes &lt;link="gamedata://263e7951-2cef-42af-a717-05cb3a915576"&gt;&lt;#e67d29&gt;Bloodied&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#83838397&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#e67d29FF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;
+&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>131</ID>
-      <DefaultText>&lt;line-height=100%&gt;Ability triggers when wearer falls to {0:value:percent} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Ability triggers when wearer falls to {0:value:percent} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>134</ID>
-      <DefaultText>&lt;line-height=100%&gt;When Bloodied or Near Death, wearer is immune to &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#adc455&gt;Corrode&lt;#9ba967&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt; damage&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;When &lt;link="gamedata://263e7951-2cef-42af-a717-05cb3a915576"&gt;&lt;#e67d29&gt;Bloodied&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#83838397&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#e67d29FF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt; or &lt;link="gamedata://8e2de5f2-b8c5-4c58-b4e4-2d7849a48b96"&gt;&lt;#ff462d&gt;Near Death&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;, wearer is immune to &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#adc455&gt;Corrode&lt;#9ba967&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt; damage
+&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -350,13 +393,19 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>137</ID>
+      <DefaultText>&lt;line-height=100%&gt;Ability activated when wearer becomes &lt;link="gamedata://263e7951-2cef-42af-a717-05cb3a915576"&gt;&lt;#e67d29&gt;Bloodied&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#83838397&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#e67d29FF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;
+&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>138</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:extravalue} &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; that increases as the wearer loses &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; (max {0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;AR&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;})&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:extravalue} &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; that increases as the wearer loses &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; (max {0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;AR&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;})&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>139</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value:percentbonus} Damage from weapons. Bonus increases as wielder loses &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value:percentbonus} Damage from weapons. Bonus increases as wielder loses &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -376,7 +425,7 @@
     </Entry>
     <Entry>
       <ID>153</ID>
-      <DefaultText>&lt;line-height=100%&gt;Wielder gains {0:value} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; on Critical Hit&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Wielder gains {0:value} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; on Critical Hit&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -411,7 +460,7 @@
     </Entry>
     <Entry>
       <ID>163</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:triggervalue} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; and {0:extravalue:percentbonus} weapon Damage when below 50% &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:triggervalue} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; and {0:extravalue:percentbonus} weapon Damage when below 50% &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -436,22 +485,22 @@
     </Entry>
     <Entry>
       <ID>173</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; per {0:interval} when below {0:extravalue:percent} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; per {0:interval} when below {0:extravalue:percent} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>174</ID>
-      <DefaultText>&lt;line-height=100%&gt;Hit applies -0.25 stacking &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; on target. Max -3 reduction&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Hit applies -0.25 stacking &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; on target. Max -3 reduction&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>175</ID>
-      <DefaultText>&lt;line-height=100%&gt;Hit applies -0.5 stacking &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; on target. Max -4 reduction&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Hit applies -0.5 stacking &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; on target. Max -4 reduction&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>176</ID>
-      <DefaultText>&lt;line-height=100%&gt;Stacking -5% Action Speed to target above 50% &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; on Hit. Max 5 stacks&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Stacking -5% Action Speed to target above 50% &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; on Hit. Max 5 stacks&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -466,22 +515,22 @@
     </Entry>
     <Entry>
       <ID>182</ID>
-      <DefaultText>&lt;line-height=100%&gt;Casts &lt;link="gamedata://46d4d7c5-0af5-4f6e-93b0-483b04184951"&gt;Ghost Blades&lt;/link&gt; on Kill and returns &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; based on damage dealt&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Casts &lt;link="gamedata://46d4d7c5-0af5-4f6e-93b0-483b04184951"&gt;Ghost Blades&lt;/link&gt; on Kill and returns &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; based on damage dealt&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>183</ID>
-      <DefaultText>&lt;line-height=100%&gt;On Kill: +2 Might. Convert 25% Hits to Crits against targets below 25% &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;. +15% Action Speed for 45.0 sec. Effects Stack. Suppresses Soul Hunger&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;On Kill: +2 Might. Convert 25% Hits to Crits against targets below 25% &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;. +15% Action Speed for 45.0 sec. Effects Stack. Suppresses Soul Hunger&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>184</ID>
-      <DefaultText>&lt;line-height=100%&gt;On Kill: +6 Might. Convert 35% Hits to Crits against targets below 50% &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;. +30% Action Speed for 45.0 sec. Effects Stack. Suppresses Soul Hunger&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;On Kill: +6 Might. Convert 35% Hits to Crits against targets below 50% &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;. +30% Action Speed for 45.0 sec. Effects Stack. Suppresses Soul Hunger&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>185</ID>
-      <DefaultText>&lt;line-height=100%&gt;On Kill: +3 Might. Convert 25% Hits to Crits against targets below 50% &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;. +20% Action Speed for 45.0 sec. Effects Stack. Suppresses Soul Hunger&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;On Kill: +3 Might. Convert 25% Hits to Crits against targets below 50% &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;. +20% Action Speed for 45.0 sec. Effects Stack. Suppresses Soul Hunger&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -576,7 +625,8 @@
     </Entry>
     <Entry>
       <ID>225</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:triggercount} &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#adc455&gt;Corrode&lt;#9ba967&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt; damage per {0:value:duration} for {0:triggervalue:duration} on Hit ({0:extravalue:percent} chance to kill Near Death target on tick)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:triggercount} &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#adc455&gt;Corrode&lt;#9ba967&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt; damage per {0:value:duration} for {0:triggervalue:duration} on Hit ({0:extravalue:percent} chance to kill &lt;link="gamedata://8e2de5f2-b8c5-4c58-b4e4-2d7849a48b96"&gt;&lt;#ff462d&gt;Near Death&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt; target on tick)
+&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -620,8 +670,13 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>243</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="gamedata://575a4c12-3ad1-438b-a291-62fda30b7567"&gt;&lt;#f2a624&gt;Empowered&lt;space=0.5em&gt;&lt;sprite="Inline" name="empowered" tint=1&gt;&lt;#ffc638&gt;&lt;space=-3.68em&gt;&lt;voffset=0.14em&gt;&lt;size=65%&gt;&lt;sprite="Inline" name="empowered" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=0.5em&gt; Abilities with this weapon apply Injuries to uninjured targets&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>244</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value} Max &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; until combat end on scoring Kill with weapon&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value} Max &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; until combat end on scoring Kill with weapon&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -636,7 +691,7 @@
     </Entry>
     <Entry>
       <ID>251</ID>
-      <DefaultText>&lt;line-height=100%&gt;Restore {0:value} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; to nearby allies on scoring Kill (Increases with Religion skill)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Restore {0:value} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; to nearby allies on scoring Kill (Increases with Religion skill)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -661,12 +716,12 @@
     </Entry>
     <Entry>
       <ID>258</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value:percent} &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage from weapon returns &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value:percent} &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; damage from weapon returns &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>259</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;Freeze&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/link&gt; damage from weapon reduces target Max &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; by {0:extravalue:percent} of damage dealt&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;Freeze&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/link&gt; damage from weapon reduces target Max &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; by {0:extravalue:percent} of damage dealt&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -681,12 +736,12 @@
     </Entry>
     <Entry>
       <ID>270</ID>
-      <DefaultText>&lt;line-height=100%&gt;If target has &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, {0:value:percent} chance to Interrupt target on scoring Hit&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;If target has &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Affliction &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, {0:value:percent} chance to Interrupt target on scoring Hit&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>271</ID>
-      <DefaultText>&lt;line-height=100%&gt;If target has &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, {0:triggercount} &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage per {0:extravalue:duration} for {0:value:duration} on scoring Crit&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;If target has &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Affliction &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, {0:triggercount} &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage per {0:extravalue:duration} for {0:value:duration} on scoring Crit&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -706,7 +761,7 @@
     </Entry>
     <Entry>
       <ID>280</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value} All Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;) against &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; attacks while above 75% &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value} All Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;) against &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Affliction &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; attacks while above 75% &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -716,7 +771,7 @@
     </Entry>
     <Entry>
       <ID>283</ID>
-      <DefaultText>&lt;line-height=100%&gt;Restore {0:value} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; on scoring Kill with weapon&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Restore {0:value} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; on scoring Kill with weapon&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -736,7 +791,7 @@
     </Entry>
     <Entry>
       <ID>290</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage over time for 18.0 sec on target below 25% &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; on Hit&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage over time for 18.0 sec on target below 25% &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; on Hit&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -751,7 +806,7 @@
     </Entry>
     <Entry>
       <ID>302</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:extravalue} &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt; that increases as &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; is lost (max {0:value} &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:extravalue} &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt; that increases as &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; is lost (max {0:value} &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -766,12 +821,12 @@
     </Entry>
     <Entry>
       <ID>307</ID>
-      <DefaultText>&lt;line-height=100%&gt;+1 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; for Aloth if Positive&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;+1 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; for Aloth if Positive&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>308</ID>
-      <DefaultText>&lt;line-height=100%&gt;+3 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; for Aloth if Very Positive&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;+3 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; for Aloth if Very Positive&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -786,27 +841,27 @@
     </Entry>
     <Entry>
       <ID>315</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:extravalue} All Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;) (decreases as wearer loses &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:extravalue} All Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;) (decreases as wearer loses &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>316</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; per {0:triggervalue:duration} for {0:extravalue:duration} when Critically Hit (Healing increases as wearer loses &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; per {0:triggervalue:duration} for {0:extravalue:duration} when Critically Hit (Healing increases as wearer loses &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>317</ID>
-      <DefaultText>&lt;line-height=100%&gt;+3 &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;. Increases as wearer loses &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;+3 &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;. Increases as wearer loses &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>318</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; increases as wearer loses &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; (Max {0:extravalue} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; increases as wearer loses &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; (Max {0:extravalue} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>319</ID>
-      <DefaultText>&lt;line-height=100%&gt;Melee Weapon Damage increases as wearer loses &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; (Max {0:extravalue:percent} Damage)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Melee Weapon Damage increases as wearer loses &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; (Max {0:extravalue:percent} Damage)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -836,7 +891,7 @@
     </Entry>
     <Entry>
       <ID>327</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; per {0:interval} while below {0:extravalue:percent} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; &lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; per {0:interval} while below {0:extravalue:percent} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; &lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -851,7 +906,7 @@
     </Entry>
     <Entry>
       <ID>338</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; to wielder and &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage to target on receiving Hit&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; to wielder and &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage to target on receiving Hit&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -906,7 +961,12 @@
     </Entry>
     <Entry>
       <ID>371</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Might&#160;Inspirations&#160;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to the wielder are increased by 1 Tier&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Inspirations_Might"&gt;&lt;#ff4800&gt;Might Inspirations &lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;/color&gt;&lt;/link&gt; applied to the wielder are increased by 1 Tier&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>372</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0:value:percentbonus} Affliction and Inspiration duration on &lt;link="gamedata://575a4c12-3ad1-438b-a291-62fda30b7567"&gt;&lt;#f2a624&gt;Empowered&lt;space=0.5em&gt;&lt;sprite="Inline" name="empowered" tint=1&gt;&lt;#ffc638&gt;&lt;space=-3.68em&gt;&lt;voffset=0.14em&gt;&lt;size=65%&gt;&lt;sprite="Inline" name="empowered" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=0.5em&gt; attacks&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -916,12 +976,12 @@
     </Entry>
     <Entry>
       <ID>377</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value} All Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;) against Plant attacks while above {0:extravalue:percent} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value} All Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;) against Plant attacks while above {0:extravalue:percent} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>378</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value} All Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;) against Plant attacks while above {0:extravalue:percent} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value} All Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;) against Plant attacks while above {0:extravalue:percent} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -936,7 +996,7 @@
     </Entry>
     <Entry>
       <ID>381</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value:percent} chance random &lt;link="glossary://GlossaryEntry_Mind_Affliction"&gt;Mind Affliction&lt;/link&gt; for {0:extravalue:duration} on target on Scoring Crit&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value:percent} chance random &lt;link="gamedata://9a2f5d84-96ef-453b-b52c-f698b2a0e8da"&gt;&lt;#b574d3&gt;Mind Affliction&lt;/color&gt;&lt;/link&gt; (Perception, Intellect, and Resolve) for {0:extravalue:duration} on target on Scoring Crit&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -971,7 +1031,7 @@
     </Entry>
     <Entry>
       <ID>401</ID>
-      <DefaultText>&lt;line-height=100%&gt;Immune to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve&#160;Afflictions&#160;&lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while under {0:extravalue:percent} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Immune to &lt;link="glossary://GlossaryEntry_Afflictions_Resolve"&gt;&lt;#30d3d5&gt;Resolve Afflictions &lt;sprite="Inline" name="attribute_resolve" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while under {0:extravalue:percent} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -986,12 +1046,12 @@
     </Entry>
     <Entry>
       <ID>411</ID>
-      <DefaultText>&lt;line-height=100%&gt;Grants &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; as &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; decreases, up to a max of {0:value} &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; at 0% &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Grants &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; as &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; decreases, up to a max of {0:value} &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; at 0% &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>412</ID>
-      <DefaultText>&lt;line-height=100%&gt;Unable to move when under 25% &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Unable to move when under 25% &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1001,7 +1061,7 @@
     </Entry>
     <Entry>
       <ID>414</ID>
-      <DefaultText>&lt;line-height=100%&gt;Grants {0:extravalue} Armor and {0:value} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; every {0:interval} when under 25% &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Grants {0:extravalue} Armor and {0:value} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; every {0:interval} when under 25% &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1011,22 +1071,22 @@
     </Entry>
     <Entry>
       <ID>417</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; for Aloth if relationship is Negative&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; for Aloth if relationship is Negative&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>418</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; for Aloth if relationship is Very Negative&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; for Aloth if relationship is Very Negative&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>419</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; for Edér if relationship is Negative&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; for Edér if relationship is Negative&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>420</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; for Edér if relationship is Negative&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; for Edér if relationship is Negative&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1046,12 +1106,12 @@
     </Entry>
     <Entry>
       <ID>448</ID>
-      <DefaultText>&lt;line-height=100%&gt;Action Speed increases as &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; decreases (Max {0:value:percentbonus} Action Speed)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Action Speed increases as &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; decreases (Max {0:value:percentbonus} Action Speed)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>450</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value:percentbonus} Action Speed (Increases as &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; is lost)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value:percentbonus} Action Speed (Increases as &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; is lost)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1081,12 +1141,12 @@
     </Entry>
     <Entry>
       <ID>459</ID>
-      <DefaultText>&lt;line-height=100%&gt;+{0:value:percent} Damage dealt as &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; when above {0:extravalue:percent} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; and +{0:value:percent} Damage dealt as &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;Freeze&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when below {0:extravalue:percent} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;+{0:value:percent} Damage dealt as &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; when above {0:extravalue:percent} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; and +{0:value:percent} Damage dealt as &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;Freeze&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when below {0:extravalue:percent} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>460</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; if relationship is Negative, {0:extravalue} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; if relationship is Very Negative&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; if relationship is Negative, {0:extravalue} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; if relationship is Very Negative&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1096,7 +1156,7 @@
     </Entry>
     <Entry>
       <ID>462</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; if relationship is Positive, {0:extravalue} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; if relationship is Very Positive&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; if relationship is Positive, {0:extravalue} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; if relationship is Very Positive&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1126,17 +1186,17 @@
     </Entry>
     <Entry>
       <ID>473</ID>
-      <DefaultText>&lt;line-height=100%&gt;Casts a random Storm spell once per combat when under {0:value:percent} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Casts a random Storm spell once per combat when under {0:value:percent} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>475</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value:percent} chance 20 &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; Restored to enemy on Critical Hit&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value:percent} chance 20 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; Restored to enemy on Critical Hit&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>476</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value:percent} chance 30 &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; Restored to self on scoring Critical Hit&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value:percent} chance 30 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; Restored to self on scoring Critical Hit&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1151,7 +1211,7 @@
     </Entry>
     <Entry>
       <ID>483</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;. Armor lost when Hit, but regenerates&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;. Armor lost when Hit, but regenerates&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1185,6 +1245,17 @@
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>493</ID>
+      <DefaultText>&lt;line-height=100%&gt;Gain a random Inspiration for {0:extravalue:duration} after using an &lt;link="gamedata://575a4c12-3ad1-438b-a291-62fda30b7567"&gt;&lt;#f2a624&gt;Empowered&lt;space=0.5em&gt;&lt;sprite="Inline" name="empowered" tint=1&gt;&lt;#ffc638&gt;&lt;space=-3.68em&gt;&lt;voffset=0.14em&gt;&lt;size=65%&gt;&lt;sprite="Inline" name="empowered" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=0.5em&gt; Spell or Ability&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>494</ID>
+      <DefaultText>&lt;line-height=100%&gt;Ability activates when &lt;link="gamedata://8e2de5f2-b8c5-4c58-b4e4-2d7849a48b96"&gt;&lt;#ff462d&gt;Near Death&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;
+&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>497</ID>
       <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; to first attack made in combat&lt;/line-height&gt;</DefaultText>
       <FemaleText />
@@ -1196,7 +1267,7 @@
     </Entry>
     <Entry>
       <ID>501</ID>
-      <DefaultText>&lt;line-height=100%&gt;per {0:interval:duration} while below {0:extravalue:percent} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;per {0:interval:duration} while below {0:extravalue:percent} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1206,12 +1277,12 @@
     </Entry>
     <Entry>
       <ID>505</ID>
-      <DefaultText>&lt;line-height=100%&gt;Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&lt;/color&gt;&lt;/link&gt; while above {0:extravalue:percent} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Resistance to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions&lt;/color&gt;&lt;/link&gt; while above {0:extravalue:percent} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>506</ID>
-      <DefaultText>&lt;line-height=100%&gt;Immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution&#160;Afflictions&lt;/color&gt;&lt;/link&gt; while above {0:value:percent} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Immunity to &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;Constitution Afflictions&lt;/color&gt;&lt;/link&gt; while above {0:value:percent} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1226,7 +1297,7 @@
     </Entry>
     <Entry>
       <ID>509</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; (increases with Diplomacy skill)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; (increases with Diplomacy skill)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1236,12 +1307,12 @@
     </Entry>
     <Entry>
       <ID>520</ID>
-      <DefaultText>&lt;line-height=100%&gt;Grants &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; against &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;#fff151&gt;Shock&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=-1em&gt; attacks that increases as wearer loses &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; (Max {0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;AR&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Grants &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; against &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;#fff151&gt;Shock&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=-1em&gt; attacks that increases as wearer loses &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; (Max {0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;AR&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>521</ID>
-      <DefaultText>&lt;line-height=100%&gt;Grants &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor&#160;Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; against Water attacks that increases as wearer loses &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; (Max {0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;AR&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Grants &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; against Water attacks that increases as wearer loses &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; (Max {0:value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;AR&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1251,7 +1322,7 @@
     </Entry>
     <Entry>
       <ID>535</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value:percentbonus} hostile &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; duration&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value:percentbonus} hostile &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Affliction &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt; duration&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1271,7 +1342,7 @@
     </Entry>
     <Entry>
       <ID>543</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:extravalue:percentbonus} Damage done with weapons (increases as wearer loses &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:extravalue:percentbonus} Damage done with weapons (increases as wearer loses &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt;)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1331,7 +1402,7 @@
     </Entry>
     <Entry>
       <ID>580</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value:percent} of Damage dealt with this weapon restores &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; to the wielder&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value:percent} of Damage dealt with this weapon restores &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; to the wielder&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1346,7 +1417,7 @@
     </Entry>
     <Entry>
       <ID>586</ID>
-      <DefaultText>&lt;line-height=100%&gt;Enemies killed while under the effects of Scales of Justice restore {0:value:straight} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; to all nearby allies&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Enemies killed while under the effects of Scales of Justice restore {0:value:straight} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; to all nearby allies&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1361,7 +1432,7 @@
     </Entry>
     <Entry>
       <ID>592</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:value:straight} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; restored to all nearby allies on scoring Kill (Scales with {0:skill} skill)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:value:straight} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; restored to all nearby allies on scoring Kill (Scales with {0:skill} skill)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1386,7 +1457,7 @@
     </Entry>
     <Entry>
       <ID>601</ID>
-      <DefaultText>&lt;line-height=100%&gt;The wearer gains bonus Engagement as their &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; decreases (Max {0:value} Engagement)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The wearer gains bonus Engagement as their &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; decreases (Max {0:value} Engagement)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1421,7 +1492,7 @@
     </Entry>
     <Entry>
       <ID>635</ID>
-      <DefaultText>&lt;line-height=100%&gt;If the wielder's Might is {0:value:straight} or above, Critical Hits with this weapon cause {0:extravalue:percent} of base weapon damage in an area around the wielder (Enemies under {0:triggervalue:straight} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.25em&gt; are killed instantly)&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;If the wielder's Might is {0:value:straight} or above, Critical Hits with this weapon cause {0:extravalue:percent} of base weapon damage in an area around the wielder (Enemies under {0:triggervalue:straight} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; are killed instantly)&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1466,7 +1537,7 @@
     </Entry>
     <Entry>
       <ID>650</ID>
-      <DefaultText>&lt;line-height=100%&gt;Restores {0:extravalue:straight} &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; on scoring Kill&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Restores {0:extravalue:straight} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; on scoring Kill&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1486,7 +1557,7 @@
     </Entry>
     <Entry>
       <ID>656</ID>
-      <DefaultText>&lt;line-height=100%&gt;After applying a &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity&#160;Affliction&#160;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, become Immune to Engagement for {0:extravalue:duration}&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;After applying a &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;Dexterity Affliction &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, become Immune to Engagement for {0:extravalue:duration}&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1516,7 +1587,8 @@
     </Entry>
     <Entry>
       <ID>671</ID>
-      <DefaultText>&lt;line-height=100%&gt;Windsong's weapon proficiency modal has a {0:extravalue:percent} chance to apply &lt;link="glossary://GlossaryEntry_Distracted"&gt;&lt;#ca58ff&gt;Distracted&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; to Near Death enemies for {0:value:duration} on scoring Hit&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Windsong's weapon proficiency modal has a {0:extravalue:percent} chance to apply &lt;link="glossary://GlossaryEntry_Distracted"&gt;&lt;#ca58ff&gt;Distracted&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; to &lt;link="gamedata://8e2de5f2-b8c5-4c58-b4e4-2d7849a48b96"&gt;&lt;#ff462d&gt;Near Death&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt; enemies for {0:value:duration} on scoring Hit
+&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1532,6 +1604,12 @@
     <Entry>
       <ID>676</ID>
       <DefaultText>{0:value} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; and {0:triggervalue:percent} Damage against target Race (Stacks {0:extravalue:straight} times)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>697</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0:value:percent} Chance to cast &lt;link="gamedata://179fdaea-68b2-4323-bde7-4193bc8d9ba7"&gt;Withdraw&lt;/link&gt; or &lt;link="gamedata://5432fc17-3a73-42cc-9a64-fa09949ec031"&gt;Recall Agony&lt;/link&gt; on owner when attacked while &lt;link="gamedata://8e2de5f2-b8c5-4c58-b4e4-2d7849a48b96"&gt;&lt;#ff462d&gt;Near Death&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#ff462dFF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;
+&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
