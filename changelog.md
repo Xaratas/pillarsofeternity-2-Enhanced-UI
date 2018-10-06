@@ -1,5 +1,28 @@
 ## CHANGELOG
 
+### Version 1.4.0
+- Updated all gui.stringtable files to use the standardized ID enumeration for new entries (i.e. `288327XXX`).
+- Harmonized all `manifest.json` files to display the same version number and max version number.
+- Added the `EnhancedUI-DamageTypes.gamedatabundle` to "PoE2-EnhancedUserInterface_2" and "PoE2-EnhancedUserInterface_4".
+- Removed entries from `gui.stringtable` files that weren't used by that particlar mod package (PoE2-EnhancedUserInterface_3).
+- Removed `recipes.stringtable` files from all package folders as it's no longer used by the mod.
+- Removed the "PoE2-NewCyclopedia" folder as it's no longer part of the EUI mod.
+**Added 2018-09-20:**
+- Removed `GlossaryEntry_Crowd_Control`, `GlossaryEntry_Defender`, `GlossaryEntry_Striker`, and `GlossaryEntry_Support` from “EnhancedUI-DamageTypes.gamedatabundle” as they're no longer used by the mod.
+*abilities.stringtable:*
+- Updated ID's: `3702`, `3883`, `4775`, `4779`, and `4781`.
+- New ID's: `4862`, `4919`, `4921`, `4925`, `4927`, and `5025`.
+*gui.stringtable:*
+- Updated ID's: `3640`.
+- New ID's: `5649`.
+- Removed ID's: `288372009`, `288372010`, `288372011`, and `288372012` (they were duplicates of text already present in the game).
+*items.stringtable:*
+- Updated ID's: `3640`.
+- New ID's: `5649`.
+*statuseffects.stringtable:*
+- Updated ID's: `3640`.
+- New ID's: `669`, `674`, `675`, `676`.
+
 ### Version 1.3.0
 - Added stylization to the `Petrified` and `Frozen` keywords.
 - Added stylization of `Burn Armor Rating` and `Freeze Armor Rating`.
