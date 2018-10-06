@@ -310,11 +310,6 @@
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>1316</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} All Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>1366</ID>
       <DefaultText>&lt;line-height=100%&gt;Requires &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; below {0}&lt;/line-height&gt;</DefaultText>
       <FemaleText />
@@ -403,11 +398,6 @@ Despite these advantages, there are risks to the relationship. Rangers share a l
     <Entry>
       <ID>1694</ID>
       <DefaultText>&lt;line-height=100%&gt;{0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; against distant enemies&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>1739</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0} all Defenses (&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;) except &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -661,12 +651,12 @@ Between the Eyes - Ranged attack with a large &lt;link="glossary://GlossaryEntry
     <Entry>
       <ID>2855</ID>
       <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
-Sneak Attack becomes more deadly and Recovery decreases when the street fighter is Flanked or &lt;link="gamedata://263e7951-2cef-42af-a717-05cb3a915576"&gt;&lt;#e67d29&gt;Bloodied&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#83838397&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#e67d29FF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;.
+Sneak Attack becomes more deadly and Recovery decreases when the street fighter is Flanked or &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#e67d29&gt;Bloodied&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#e67d29FF&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;.
 
-Weapon Crit damage increases when the street fighter is both Flanked and &lt;link="gamedata://263e7951-2cef-42af-a717-05cb3a915576"&gt;&lt;#e67d29&gt;Bloodied&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#83838397&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#e67d29FF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;.
+Weapon Crit damage increases when the street fighter is both Flanked and &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#e67d29&gt;Bloodied&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#e67d29FF&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;.
 
 &lt;b&gt;Penalty&lt;/b&gt;
-Recovery is slower when the street fighter is neither Flanked nor &lt;link="gamedata://263e7951-2cef-42af-a717-05cb3a915576"&gt;&lt;#e67d29&gt;Bloodied&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#83838397&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#e67d29FF&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;.
+Recovery is slower when the street fighter is neither Flanked nor &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#e67d29&gt;Bloodied&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#e67d29FF&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;.
 &lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
