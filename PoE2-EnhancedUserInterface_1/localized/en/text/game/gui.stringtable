@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\gui</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>4557</EntryCount>
+  <EntryCount>4532</EntryCount>
   <Entries>
     <Entry>
       <ID>126</ID>
@@ -338,7 +338,7 @@ In conversations and scripted interactions, Athletics is used for physical feats
     </Entry>
     <Entry>
       <ID>1466</ID>
-      <DefaultText>&lt;line-height=100%&gt;Druids select a damage type (&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;#dd8546&gt;Slash&lt;/color&gt;&lt;space=0.7em&gt;&lt;#c57943&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;#dd8546&gt;Pierce&lt;/color&gt;&lt;space=0.7em&gt;&lt;#c57943&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#dd8546&gt;Crush&lt;/color&gt;&lt;space=0.7em&gt;&lt;size=90%&gt;&lt;#c57943&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt;, &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#adc455&gt;Corrode&lt;#9ba967&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;Freeze&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, or &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;#fff151&gt;Shock&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=-1em&gt;) that is added to any attack they use that inflicts damage of one of those types to a target.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;Druids select a damage type (&lt;link="glossary://GlossaryEntry_Slashing"&gt;Slash&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Piercing"&gt;Pierce&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Crushing"&gt;Crush&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;Burn&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt;, &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#adc455&gt;Corrode&lt;#9ba967&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;Freeze&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, or &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;#fff151&gt;Shock&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=-1em&gt;) that is added to any attack they use that inflicts damage of one of those types to a target.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -487,7 +487,7 @@ Gain significant Hit to Crit conversion on melee and carnage attacks while frenz
 
 Cannot see &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;space=-0.5em&gt; while frenzied.
 
-Takes &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#e72c2c&gt;Raw&lt;/color&gt;&lt;#ef5350&gt;&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage continuously while frenzied.&lt;/line-height&gt;</DefaultText>
+Takes &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage continuously while frenzied.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -504,7 +504,7 @@ Summon Invocations cost +1 Phrases.&lt;/line-height&gt;</DefaultText>
     <Entry>
       <ID>2823</ID>
       <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
-Gains "Soul Annihilation" ability: A soul enhanced melee strike that consumes the cipher's remaining power pool and converts it into &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#e72c2c&gt;Raw&lt;/color&gt;&lt;#ef5350&gt;&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage on the target.
+Gains "Soul Annihilation" ability: A soul enhanced melee strike that consumes the cipher's remaining power pool and converts it into &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; damage on the target.
 
 Shred cipher spells cost less Focus.
 
@@ -519,7 +519,7 @@ Max Focus is reduced. (Combat starting amount as well)&lt;/line-height&gt;</Defa
       <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
 Instead of an animal form, Furies spiritshift into a storm blight.
 
-Elemental druid spells gain increased range and &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;#57baff&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.
+Elemental druid spells gain increased range and &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;.
 
 Killing an enemy while spiritshifted extends the duration of the shift.
 
@@ -567,7 +567,7 @@ Cannot cast spells while in animal form.&lt;/line-height&gt;</DefaultText>
       <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
 May select a single weapon proficiency as their chosen weapon.
 
-Increased &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;#57baff&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/color&gt;&lt;/link&gt; with their chosen weapon.
+Increased &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; with their chosen weapon.
 
 Increased Critical Hit damage with their chosen weapon.
 
@@ -582,9 +582,9 @@ Only gain a single proficiency and no new proficiencies during level up.&lt;/lin
       <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
 +1 Engagement.
 
-Increased &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;#57baff&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/color&gt;&lt;/link&gt; on Disengagement Attacks.
+Increased &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; on Disengagement Attacks.
 
-Gains "Shield Mastery" providing bonus &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/color&gt;&lt;/link&gt; while wearing a shield.
+Gains "Shield Mastery" providing bonus &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; while wearing a shield.
 
 &lt;b&gt;Penalty&lt;/b&gt;
 Lower Stride in combat.
@@ -605,7 +605,7 @@ Flames of Devotion deals additional &lt;link="glossary://GlossaryEntry_Corrode"&
       <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
 Gain Sworn Enemy.
 
-Sworn Enemy gains the upgrade "Gilded Enmity" which causes the paladin to be imbued with a blessing of gold when they declare a Sworn Enemy. The paladin receives bonus &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/color&gt;&lt;/link&gt; until struck enough times for the gold to break.&lt;/line-height&gt;</DefaultText>
+Sworn Enemy gains the upgrade "Gilded Enmity" which causes the paladin to be imbued with a blessing of gold when they declare a Sworn Enemy. The paladin receives bonus &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; until struck enough times for the gold to break.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -613,7 +613,7 @@ Sworn Enemy gains the upgrade "Gilded Enmity" which causes the paladin to be imb
       <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
 Bonus Hit to Crit conversion when attacking targets greater than 4m away.
 
-Bonus &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;#57baff&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when attacking targets 4m or closer.
+Bonus &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; when attacking targets 4m or closer.
 
 &lt;b&gt;Penalty&lt;/b&gt;
 Slower Recovery Time.
@@ -624,7 +624,7 @@ Lower &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflectio
     <Entry>
       <ID>2850</ID>
       <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
-The stalker and their companion gain bonus &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/color&gt;&lt;/link&gt; when within 4m of each other.
+The stalker and their companion gain bonus &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt; when within 4m of each other.
 
 &lt;b&gt;Penalty&lt;/b&gt;
 The stalker and their companion suffer Bonded Grief when they are more than 7m from each other.&lt;/line-height&gt;</DefaultText>
@@ -633,7 +633,7 @@ The stalker and their companion suffer Bonded Grief when they are more than 7m f
     <Entry>
       <ID>2853</ID>
       <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
-Gain the "Assassinate" passive which grants stealth attacks bonus &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;#57baff&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, and Critical Hit damage.
+Gain the "Assassinate" passive which grants stealth attacks bonus &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, and Critical Hit damage.
 
 &lt;b&gt;Penalty&lt;/b&gt;
 All damage received is increased.&lt;/line-height&gt;</DefaultText>
@@ -651,12 +651,12 @@ Between the Eyes - Ranged attack with a large &lt;link="glossary://GlossaryEntry
     <Entry>
       <ID>2855</ID>
       <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
-Sneak Attack becomes more deadly and Recovery decreases when the street fighter is Flanked or &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#FF9800&gt;Bloodied&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;#FF9800CC&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=0.5em&gt;.
+Sneak Attack becomes more deadly and Recovery decreases when the street fighter is Flanked or &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#e67d29&gt;Bloodied&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#e67d29FF&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;.
 
-Weapon Crit damage increases when the street fighter is both Flanked and &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#FF9800&gt;Bloodied&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;#FF9800CC&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=0.5em&gt;.
+Weapon Crit damage increases when the street fighter is both Flanked and &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#e67d29&gt;Bloodied&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#e67d29FF&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;.
 
 &lt;b&gt;Penalty&lt;/b&gt;
-Recovery is slower when the street fighter is neither Flanked nor &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#FF9800&gt;Bloodied&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;#FF9800CC&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=0.5em&gt;.
+Recovery is slower when the street fighter is neither Flanked nor &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#e67d29&gt;Bloodied&lt;/color&gt;&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;#e67d29FF&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=0.5em&gt;.
 &lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
@@ -675,12 +675,12 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.&lt;/line
     </Entry>
     <Entry>
       <ID>2915</ID>
-      <DefaultText>&lt;line-height=100%&gt;Explosives improves the &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, damage and effectiveness of bombs, noisemakers, and similar devices.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;The Explosives improves the &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, damage and effectiveness of bombs, noisemakers, and similar devices.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3012</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:Value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:Value} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -690,7 +690,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.&lt;/line
     </Entry>
     <Entry>
       <ID>3028</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:Value} &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;#57baff&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:Value} &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -705,7 +705,7 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.&lt;/line
     </Entry>
     <Entry>
       <ID>3938</ID>
-      <DefaultText>&lt;line-height=100%&gt;{0:Value} {0:DamageType} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;{0:Value} {0:DamageType} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -754,103 +754,13 @@ Increased Recovery Time for Wizard Spells not of the Enchanting School.&lt;/line
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>5028</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
-Restore Discipline when successfully Interrupting an enemy action.
-
-Gain &lt;link="gamedata://b1bf5832-b633-49fa-8ea2-b74ea720af0a"&gt;&lt;link="glossary://GlossaryEntry_Brilliant"&gt;&lt;#00a4ff&gt;Brilliant&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Tactician&lt;/link&gt;.
-
-&lt;b&gt;Penalty&lt;/b&gt;
-&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;#57baff&gt;Penetration&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; is reduced when attacking a target that is not being attacked by an ally.
-
-Gain &lt;link="gamedata://b6cd697b-176e-4fc3-b538-ae80a78d1ef3"&gt;Tactical Dilemma&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>5030</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
-Gain &lt;link="gamedata://17093a31-44c6-45e4-ac71-78463307d496"&gt;Shape Ward: Frenzy&lt;/link&gt; at Power Level 1.
-
-Gain &lt;link="gamedata://f45a289b-c363-4281-aa56-e4a2d81d0ccd"&gt;Shape Ward: Fear&lt;/link&gt; at Power Level 4.
-
-Gain &lt;link="gamedata://bfa3f85c-ea51-466c-912b-56d43304bc63"&gt;Shape Ward: Blood&lt;/link&gt; at Power Level 8.
-
-Gain bonus &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; against spirits.
-
-&lt;b&gt;Penalty&lt;/b&gt;
-If a Ward is destroyed, take immediate &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt;Raw&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; Damage and a Power Level penalty until combat ends.
-
-&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; is reduced.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>5038</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
-Gain significant Hit to Crit against &lt;link="glossary://GlossaryEntry_Charmed"&gt;&lt;#00a4ff&gt;Charmed&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; targets.
-
-Gain &lt;link="gamedata://b75184f8-63d7-44e3-901d-9c9205ad538c"&gt;Roguish &lt;link="glossary://GlossaryEntry_Charmed"&gt;&lt;#00a4ff&gt;Charm&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/link&gt; ability.
-
-Gain Hit to Graze against attacks when not affected by any afflictions.
-
-&lt;b&gt;Penalty&lt;/b&gt;
-Cannot Engage.
-
-Gain &lt;link="gamedata://26890e79-a660-4593-ae57-08607d5cf296"&gt;Cowardice&lt;/link&gt; ability.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>5041</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
-Imbue spell effects gain increased &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; from Arcana skill.
-
-Gain &lt;link="gamedata://710a9a69-d47b-45e7-9134-432d13e2bcc0"&gt;Imbue: Missiles&lt;/link&gt; at Power Level 1.
-
-Gain &lt;link="gamedata://87004a21-bb5d-48b6-b75a-6ca2fc5d5f2e"&gt;Imbue: Web&lt;/link&gt; at Power Level 3.
-
-Gain &lt;link="gamedata://3b4b619b-8d35-4ee2-b19c-d8155faf9f07"&gt;Imbue: Fireball&lt;/link&gt; at Power Level 5.
-
-Gain &lt;link="gamedata://76d00207-79d6-425b-81ba-401a7c0ef494"&gt;Imbue: Eora&lt;/link&gt; at Power Level 7.
-
-Gain &lt;link="gamedata://e8b4e221-e29b-4758-91c7-6d8f121d7c8b"&gt;Imbue: Death&lt;/link&gt; at Power Level 9.
-
-&lt;b&gt;Penalty&lt;/b&gt;
-Receive a penalty to &lt;link="glossary://GlossaryEntry_Accuracy"&gt;Accuracy&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; with attacks not of the following traits: Imbue, Elements, Fire, Frost, Acid, Electricity, and Spell.
-
-Max &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; is reduced.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>5044</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
-Gain Wounds and &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; when Hostile effects expire.
-
-Gain &lt;link="gamedata://0f99851c-d970-4661-9d8b-a394e3951c3d"&gt;Forbidden Fist&lt;/link&gt; ability.
-
-&lt;b&gt;Penalty&lt;/b&gt;
-No longer gain Wounds from damage received.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>5075</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;
-Gain &lt;link="gamedata://9d3e2b8d-1fdd-496f-acc1-51d6d3836e59"&gt;Blood Sacrifice&lt;/link&gt; ability.
-
-Gain passive &lt;link="glossary://GlossaryEntry_Health"&gt;&lt;#80e27e&gt;Health&lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#80e27eEE&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;sprite="Inline" name="cs_health" tint=1 color=#4caf50CC&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; regeneration.
-
-&lt;b&gt;Penalty&lt;/b&gt;
-Unable to use Empower.
-
-All Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;Fortitude&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;Reflex&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;space=-0.8em&gt;&lt;/link&gt;, and &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;Will&lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;space=-0.5em&gt;&lt;/link&gt;) against &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#FF9800&gt;Bloodied&lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;#FF9800CC&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=0.5em&gt; attackers are reduced.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>288372001</ID>
       <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;#fff151&gt;Shock&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=-1em&gt; damage is a type of elemental damage based on electricity. Often the abilities and spells that use them create lightning bolts that can propagate in an AE, bounce on walls and stun the targets.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>288372002</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;Raw&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; damage bypasses all &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, having no need to &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrate&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;Raw&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; damage bypasses all &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;, having no need to &lt;link="glossary://GlossaryEntry_Penetration"&gt;Penetrate&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -875,7 +785,7 @@ All Defenses (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;D
     </Entry>
     <Entry>
       <ID>288372007</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;Pierce&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; damage is a type of physical damage. Often the abilities and spells that use it allow to cross the &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/color&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;Pierce&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; damage is a type of physical damage. Often the abilities and spells that use it allow to cross the &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;Armor Rating&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
