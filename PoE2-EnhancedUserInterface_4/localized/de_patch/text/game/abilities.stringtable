@@ -1820,6 +1820,11 @@ Trotz dieser Vorteile bringt diese Beziehung auch gewisse Risiken mit sich. Wald
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>3531</ID>
+      <DefaultText>Diese Aura reduziert die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Heilung&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; der Feinde in der Nähe, wenn der Träger Schwer verletzt ist.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>3533</ID>
       <DefaultText>Wenn der Träger vom Zustand unverletzt aus in den Zustand gesund fällt, erhalten die Feinde in der Nähe 75 % weniger &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Heilung&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
@@ -2074,6 +2079,26 @@ Trotz dieser Vorteile hat diese Beziehung auch Risiken. Waldläufer sind buchst�
     <Entry>
       <ID>3993</ID>
       <DefaultText>Aura, die gegnerische &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=0.7em&gt;Tapferkeit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflexe&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Wille&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; um einen gewissen Wert senkt. Dieser Wert wird durch die Fertigkeit Überleben des Trägers erhöht.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4018</ID>
+      <DefaultText>Ein süßes Aroma, das vom Streitflegel ausgeht, erzeugt eine Aura, die die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; von Verbündeten in der Nähe erhöht.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4020</ID>
+      <DefaultText>Ein bezauberndes Aroma, das vom Streitflegel ausgeht, erzeugt eine Aura, die die Willens-&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; von Gegnern in der Nähe senkt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4025</ID>
+      <DefaultText>Ein widerliches Aroma, das vom Streitflegel ausgeht, erzeugt eine Aura, die die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; von Gegnern in der Nähe senkt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4050</ID>
+      <DefaultText>Der Träger wirft seinen Kopf zurück, um seinem Gegner eine Kopfnuss zu verpassen. Der Gegner erleidet heftigen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wucht-&lt;/link&gt;&lt;/nobr&gt;Schaden und wird Betäubt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2452,8 +2477,18 @@ Trotz dieser Vorteile hat diese Beziehung auch Risiken. Waldläufer sind buchst�
       <FemaleText />
     </Entry>
     <Entry>
+      <ID>4853</ID>
+      <DefaultText>Wenn der Träger zum ersten Mal in einem Kampf schwer verletzt wird, erhält er vorübergehend eine zügige &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Heilung&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>4866</ID>
       <DefaultText>Verleiht dem Wirker die Wildheit eines Drachens und sorgt dafür, dass seine Nahkampfangiffe zusätzlichen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hieb&lt;/link&gt;&lt;/nobr&gt;- und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Brandschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; austeilen. Wenn der Zauber aktiv ist, müssen die Feinde, die den Beschwörer mit Nahkampfwaffen angreifen, ihre Furcht im Zaum halten oder sie werden Geschockt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4867</ID>
+      <DefaultText>Während Drago dir folgt, verfügst du über erhöhtes Vorwärtskommen und deine Gruppe erhält einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; gegen Absetzenangriffe.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -2499,6 +2534,41 @@ Trotz dieser Vorteile hat diese Beziehung auch Risiken. Waldläufer sind buchst�
     <Entry>
       <ID>4907</ID>
       <DefaultText>Konstruiert mehrere illusorische Bilder von dir selbst. Diese Bilder haben sehr wenig &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, werden aber in deinem Namen kämpfen und Feinde ablenken.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4919</ID>
+      <DefaultText>Der Waldläufer schlägt wie ein Spitzenjäger beim Nahkampf zu – er beobachtet seine Beute und lernt, wie er sie am besten bezwingt. Bei der ersten Verwendung erhält der Waldläufer zusätzliche &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; gegen die Rasse seines Ziels. Dieser Bonus vervielfacht sich mit jedem Treffer mit dieser Fähigkeit gegen Kreaturen derselben Rasse (bis zu einer Grenze). Hat der Waldläufer sich für eine Rasse als Beute entschieden, kann er keine neue Rasse als Beute wählen, bis er eine Pause macht – dann werden alle Stapel zurückgesetzt.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>4927</ID>
+      <DefaultText>Der Waldläufer feuert einen starken, zielsicheren Schuss mit seiner Fernkampfwaffe ab und trifft alle Charaktere in seiner Bahn mit erhöhtem Schaden und stärkerer &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Durchschlag&lt;/link&gt;&lt;/nobr&gt;skraft und schwächt sie dabei noch.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5028</ID>
+      <DefaultText>Dass die Seele von Porokoa zum Rad zurückgebracht wurde, hat die Gunst des Wächters bei Berath erhöht und die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; des Wächters gegen Geister gesteigert.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5029</ID>
+      <DefaultText>(Rymrgands Gabe) – Wenn du mehr Seelen vernichtest, wird die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; gegen Gefäße erhöht.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5031</ID>
+      <DefaultText>Die Seelen des Schmelztiegels Galawain zu geben, hat die Gunst des Wächters bei Galawain erhöht und die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; des Wächters gegen Bestien gesteigert.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5032</ID>
+      <DefaultText>(Galawains Gabe) – Wenn du Galawain mehr Seelen gibst, erhöht dies &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; gegen Bestien.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5034</ID>
+      <DefaultText>Die Seelen des Schmelztiegels zu zerstören, hat die Gunst des Wächters bei Rymrgand erhöht und die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt; des Wächters gegen Gefäße gesteigert.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
