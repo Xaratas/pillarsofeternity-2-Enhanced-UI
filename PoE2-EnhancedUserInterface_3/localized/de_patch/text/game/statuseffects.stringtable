@@ -414,5 +414,10 @@
       <DefaultText>{0:value:percent} Chance bei Erhalt von Schaden die Inspiration &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Brilliant"&gt;&lt;#00a4ff&gt;&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Brilliant"&gt;&lt;#00a4ff&gt;Brillant&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zu erhalten</DefaultText>
       <FemaleText />
     </Entry>
+    <Entry>
+      <ID>683</ID>
+      <DefaultText>Auf Stufe {0:value:straight} oder höher, wird gleichzeitig auch eine zufällige &lt;link="glossary://GlossaryEntry_Body_Inspiration"&gt;&lt;link="glossary://GlossaryEntry_Body_Inspiration"&gt;Körperinspiration&lt;/link&gt;&lt;/link&gt; der Stufe {0:extravalue:straight} verursacht</DefaultText>
+      <FemaleText />
+    </Entry>
   </Entries>
 </StringTableFile>
