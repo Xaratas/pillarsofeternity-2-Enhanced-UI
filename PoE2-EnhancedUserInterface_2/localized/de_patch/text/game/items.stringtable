@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\items</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>8</EntryCount>
+  <EntryCount>5</EntryCount>
   <Entries>
     <Entry>
       <ID>254</ID>
@@ -73,7 +73,7 @@ Dieser einfache Speer ist mit Federn und Perlen verziert.</DefaultText>
     </Entry>
     <Entry>
       <ID>3122</ID>
-      <DefaultText>Eine alchemistische Apparatur mit verheerender Macht. Verlorenes Flüstern dringt tief aus ihrem Inneren und singt von erdrückender Dunkelheit. Wenn die Ladung detoniert, formt sich ein Spalt, der alles darin in den schwarzen Horizont zieht und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/link&gt;&lt;/nobr&gt; verursacht.</DefaultText>
+      <DefaultText>Eine alchemistische Apparatur mit verheerender Macht. Verlorenes Flüstern dringt tief aus ihrem Inneren und singt von erdrückender Dunkelheit. Wenn die Ladung detoniert, formt sich ein Spalt, der alles darin in den schwarzen Horizont zieht und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verursacht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -173,12 +173,12 @@ Dieser einfache Speer ist mit Federn und Perlen verziert.</DefaultText>
     </Entry>
     <Entry>
       <ID>3410</ID>
-      <DefaultText>Beschwört ein riesiges Hirschgeweih herauf, das das Ziel angreift, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/link&gt;&lt;/nobr&gt; zufügt und einen Abzug auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflexe&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verursacht.</DefaultText>
+      <DefaultText>Beschwört ein riesiges Hirschgeweih herauf, das das Ziel angreift, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zufügt und einen Abzug auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflexe&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verursacht.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>3411</ID>
-      <DefaultText>Schleudert zwei tödliche Felsen von der Position des Lesers aus, die jedem in ihrer Flugbahn &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/link&gt;&lt;/nobr&gt; zufügen und beim Einschlag auf festem Untergrund zerspringen, wobei die Bruchstücke allen Umstehenden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/link&gt;&lt;/nobr&gt; zufügen.</DefaultText>
+      <DefaultText>Schleudert zwei tödliche Felsen von der Position des Lesers aus, die jedem in ihrer Flugbahn &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zufügen und beim Einschlag auf festem Untergrund zerspringen, wobei die Bruchstücke allen Umstehenden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zufügen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -193,7 +193,7 @@ Dieser einfache Speer ist mit Federn und Perlen verziert.</DefaultText>
     </Entry>
     <Entry>
       <ID>3415</ID>
-      <DefaultText>Feuert mehrere Geschosse aus reiner Energie auf das Ziel und fügt Feinden in der Nähe des Einschlags mit einer Schockwelle &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/link&gt;&lt;/nobr&gt; zu.</DefaultText>
+      <DefaultText>Feuert mehrere Geschosse aus reiner Energie auf das Ziel und fügt Feinden in der Nähe des Einschlags mit einer Schockwelle &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zu.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -208,7 +208,7 @@ Dieser einfache Speer ist mit Federn und Perlen verziert.</DefaultText>
     </Entry>
     <Entry>
       <ID>3419</ID>
-      <DefaultText>Ein Trio von Steinklauen bricht aus dem Boden hervor, die Fleisch zu Stein wandeln. Jeder, der im Wirkungsbereich gefangen ist, wird &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Paralyzed"&gt;&lt;#72da26&gt;Gelähmt&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; und mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/link&gt;&lt;/nobr&gt; belegt.</DefaultText>
+      <DefaultText>Ein Trio von Steinklauen bricht aus dem Boden hervor, die Fleisch zu Stein wandeln. Jeder, der im Wirkungsbereich gefangen ist, wird &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Paralyzed"&gt;&lt;#72da26&gt;Gelähmt&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; und mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; belegt.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -413,7 +413,7 @@ Dieser einfache Speer ist mit Federn und Perlen verziert.</DefaultText>
     </Entry>
     <Entry>
       <ID>4456</ID>
-      <DefaultText>Während das Babywildschwein dir folgt, besteht bei deinen Nahkampfangriffen die Chance, den Gegner zu unterbrechen, und deine Gruppenmitglieder verursachen zusätzlichen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <DefaultText>Während das Babywildschwein dir folgt, besteht bei deinen Nahkampfangriffen die Chance, den Gegner zu unterbrechen, und deine Gruppenmitglieder verursachen zusätzlichen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -516,6 +516,16 @@ Solange Frosty dir folgt, erhältst du einen Rüstungsbonus gegen &lt;nobr&gt;&l
     <Entry>
       <ID>5576</ID>
       <DefaultText>Während Hati dir folgt, erhältst du Bonus-Macht und deine Gruppenmitglieder erhalten einen Bonus auf &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=0.7em&gt;Reflexe&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5825</ID>
+      <DefaultText>Die Chaoskugel ist nach dem exzentrischen aedyrischen Zauberer Tayn benannt. Sie springt zwischen mehreren Feinden hin und her. Dabei fügt sie den Zielen Schaden zu und belegt sie mit einer Reihe von negativen Wirkungen, beispielsweise &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Petrified"&gt;&lt;#72da26&gt;Versteinert&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3+&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Paralyzed"&gt;&lt;#72da26&gt;Gelähmt&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Weakened"&gt;&lt;#f7b733&gt;Geschwächt&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Sickened"&gt;&lt;#f7b733&gt;Erkrankt&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Betäubt&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Blinded"&gt;&lt;#ca58ff&gt;Geblendet&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>5933</ID>
+      <DefaultText>Solange Lucero der Gruppe folgt, hast du Widerstand gegen Wirkungen auf Gewandtheit und die Initiative der Gruppe nach dem Einsatz von &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Quick"&gt;&lt;#72da26&gt;Schnell&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;auswahl-Gegenständen ist verkürzt.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

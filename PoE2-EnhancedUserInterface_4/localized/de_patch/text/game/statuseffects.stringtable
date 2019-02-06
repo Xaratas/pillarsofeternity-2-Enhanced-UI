@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>16</EntryCount>
+  <EntryCount>21</EntryCount>
   <Entries>
     <Entry>
       <ID>1</ID>
@@ -16,7 +16,7 @@
     </Entry>
     <Entry>
       <ID>9</ID>
-      <DefaultText>{0:value:percent} Chance, einen siegreichen Gegenangriff mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/link&gt;&lt;/nobr&gt; zu starten, wenn beim Nahkampf verfehlt</DefaultText>
+      <DefaultText>{0:value:percent} Chance, einen siegreichen Gegenangriff mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zu starten, wenn beim Nahkampf verfehlt</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -26,7 +26,7 @@
     </Entry>
     <Entry>
       <ID>14</ID>
-      <DefaultText>Treffer verschafft dem Ziel {0:value:straight} stapelbaren zusätzlichen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <DefaultText>Treffer verschafft dem Ziel {0:value:straight} stapelbaren zusätzlichen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -66,7 +66,7 @@
     </Entry>
     <Entry>
       <ID>35</ID>
-      <DefaultText>Basisangriffe verursachen in einem kleinen Bereich Flächenschaden, als &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stich&lt;/link&gt;&lt;/nobr&gt;- oder &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/link&gt;&lt;/nobr&gt;; je nachdem, was besser ist</DefaultText>
+      <DefaultText>Basisangriffe verursachen in einem kleinen Bereich Flächenschaden, als &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stich&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;- oder &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;; je nachdem, was besser ist</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -136,7 +136,7 @@
     </Entry>
     <Entry>
       <ID>76</ID>
-      <DefaultText>{0:value:percent} Chance, bei einem gestarteten Angriff einen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/link&gt;&lt;/nobr&gt; an sich selbst oder bei einem nahen Verbündeten hervorzurufen</DefaultText>
+      <DefaultText>{0:value:percent} Chance, bei einem gestarteten Angriff einen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; an sich selbst oder bei einem nahen Verbündeten hervorzurufen</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -206,7 +206,7 @@
     </Entry>
     <Entry>
       <ID>110</ID>
-      <DefaultText>{0:value:percent} Chance, bei einem im Nahkampf erlittenem kritischen Treffer, einen unterbrechenden Flächenzauber mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/link&gt;&lt;/nobr&gt; zu wirken</DefaultText>
+      <DefaultText>{0:value:percent} Chance, bei einem im Nahkampf erlittenem kritischen Treffer, einen unterbrechenden Flächenzauber mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zu wirken</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -231,7 +231,7 @@
     </Entry>
     <Entry>
       <ID>120</ID>
-      <DefaultText>{0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; gegen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frostangriffe&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, die sich erhöht, wenn Träger &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verliert (Max 5 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;RW&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
+      <DefaultText>{0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; gegen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frostangriffe&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, die sich erhöht, wenn Träger &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verliert (Max 5 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;RW&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -261,7 +261,7 @@
     </Entry>
     <Entry>
       <ID>138</ID>
-      <DefaultText>{0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Brand-&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt;, der sich erhöht, wenn der Träger an &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verliert (max {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;RW&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
+      <DefaultText>{0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;space=-0.7em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;#e86a1d&gt;&lt;space=1em&gt;Brand-&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, der sich erhöht, wenn der Träger an &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verliert (max {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;RW&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -286,12 +286,12 @@
     </Entry>
     <Entry>
       <ID>158</ID>
-      <DefaultText>Teil höchsten &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wucht&lt;/link&gt;&lt;/nobr&gt;- oder &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/link&gt;&lt;/nobr&gt; aus</DefaultText>
+      <DefaultText>Teil höchsten &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wucht&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;- oder &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; aus</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>159</ID>
-      <DefaultText>{0:value:percent} Chance bei einem Treffer eine Wasserwelle, die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/link&gt;&lt;/nobr&gt; zufügt, auf das Ziel zu wirken</DefaultText>
+      <DefaultText>{0:value:percent} Chance bei einem Treffer eine Wasserwelle, die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zufügt, auf das Ziel zu wirken</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -301,7 +301,7 @@
     </Entry>
     <Entry>
       <ID>164</ID>
-      <DefaultText>{0:value:percent} Chance, einen Gegenangriff mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wucht&lt;/link&gt;&lt;/nobr&gt;- oder &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/link&gt;&lt;/nobr&gt; zu starten, wenn beim Nahkampf verfehlt</DefaultText>
+      <DefaultText>{0:value:percent} Chance, einen Gegenangriff mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wucht&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;- oder &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zu starten, wenn beim Nahkampf verfehlt</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -311,12 +311,12 @@
     </Entry>
     <Entry>
       <ID>174</ID>
-      <DefaultText>Treffer verursacht beim Ziel -0,25 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; (stapelbar). Maximale Reduzierung -3</DefaultText>
+      <DefaultText>Treffer verursacht beim Ziel -0,25 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (stapelbar). Maximale Reduzierung -3</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>175</ID>
-      <DefaultText>Treffer verursacht beim Ziel -0,5 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; (stapelbar). Maximale Reduzierung -4</DefaultText>
+      <DefaultText>Treffer verursacht beim Ziel -0,5 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; (stapelbar). Maximale Reduzierung -4</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -366,7 +366,7 @@
     </Entry>
     <Entry>
       <ID>194</ID>
-      <DefaultText>Bei einem erzielten Kritischen Treffer wird ein Flächenzauber mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frost&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;- und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/link&gt;&lt;/nobr&gt; am Zielort ausgelöst</DefaultText>
+      <DefaultText>Bei einem erzielten Kritischen Treffer wird ein Flächenzauber mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frost&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;- und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; am Zielort ausgelöst</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -526,7 +526,7 @@
     </Entry>
     <Entry>
       <ID>285</ID>
-      <DefaultText>{0:value:percent} Chance, bei einem erzielten Treffer eine Wasserwelle mit Flächenschaden (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wucht&lt;/link&gt;&lt;/nobr&gt;) auf das Ziel auszulösen</DefaultText>
+      <DefaultText>{0:value:percent} Chance, bei einem erzielten Treffer eine Wasserwelle mit Flächenschaden (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wucht&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;) auf das Ziel auszulösen</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -546,7 +546,7 @@
     </Entry>
     <Entry>
       <ID>301</ID>
-      <DefaultText>{0:value:percent} Chance, bei einem erlittenen Treffer mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/link&gt;&lt;/nobr&gt; während eines Nahkampfs, diesen Angriff mit einem Hiebangriff auf den Gegner zu kontern</DefaultText>
+      <DefaultText>{0:value:percent} Chance, bei einem erlittenen Treffer mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; während eines Nahkampfs, diesen Angriff mit einem Hiebangriff auf den Gegner zu kontern</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -566,12 +566,12 @@
     </Entry>
     <Entry>
       <ID>307</ID>
-      <DefaultText>+1 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; für Aloth, wenn positiv</DefaultText>
+      <DefaultText>+1 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; für Aloth, wenn positiv</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>308</ID>
-      <DefaultText>+3 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; für Aloth, wenn sehr positiv</DefaultText>
+      <DefaultText>+3 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; für Aloth, wenn sehr positiv</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -601,7 +601,7 @@
     </Entry>
     <Entry>
       <ID>318</ID>
-      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; erhöht sich, wenn der Träger an &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verliert (Maximal {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; erhöht sich, wenn der Träger an &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verliert (Maximal {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -661,7 +661,7 @@
     </Entry>
     <Entry>
       <ID>365</ID>
-      <DefaultText>{0:value:percent} Chance, bei einem erlittenen Treffer mit einer Nahkampfwaffe, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/link&gt;&lt;/nobr&gt; beim Angreifer zu verursachen</DefaultText>
+      <DefaultText>{0:value:percent} Chance, bei einem erlittenen Treffer mit einer Nahkampfwaffe, &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; beim Angreifer zu verursachen</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -676,7 +676,7 @@
     </Entry>
     <Entry>
       <ID>374</ID>
-      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt;. Erhöht sich mit der Fertigkeit Athletik</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;. Erhöht sich mit der Fertigkeit Athletik</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -696,7 +696,7 @@
     </Entry>
     <Entry>
       <ID>391</ID>
-      <DefaultText>Verursacht &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hieb&lt;/link&gt;&lt;/nobr&gt;- und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <DefaultText>Verursacht &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hieb&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;- und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -736,22 +736,22 @@
     </Entry>
     <Entry>
       <ID>417</ID>
-      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; für Aloth, wenn die Beziehung negativ ist</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; für Aloth, wenn die Beziehung negativ ist</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>418</ID>
-      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; für Aloth, wenn die Beziehung sehr negativ ist</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; für Aloth, wenn die Beziehung sehr negativ ist</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>419</ID>
-      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; für Edér, wenn die Beziehung negativ ist</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; für Edér, wenn die Beziehung negativ ist</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>420</ID>
-      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; für Edér, wenn die Beziehung negativ ist</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; für Edér, wenn die Beziehung negativ ist</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -786,12 +786,12 @@
     </Entry>
     <Entry>
       <ID>460</ID>
-      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt;, wenn die Beziehung negativ ist. {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt;, wenn die Beziehung sehr negativ ist</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, wenn die Beziehung negativ ist. {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, wenn die Beziehung sehr negativ ist</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>462</ID>
-      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt;, wenn die Beziehung positiv ist. {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt;, wenn die Beziehung sehr positiv ist</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, wenn die Beziehung positiv ist. {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, wenn die Beziehung sehr positiv ist</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -811,7 +811,7 @@
     </Entry>
     <Entry>
       <ID>469</ID>
-      <DefaultText>Verleiht für kurze Zeit zufällig {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt;, {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Durchschlag&lt;/link&gt;&lt;/nobr&gt;skraftbonus oder {0:extravalue:percentbonus} Bonus auf Erholung, wenn ein Gegner angegriffen wird.</DefaultText>
+      <DefaultText>Verleiht für kurze Zeit zufällig {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Durchschlag&lt;/link&gt;&lt;/nobr&gt;skraftbonus oder {0:extravalue:percentbonus} Bonus auf Erholung, wenn ein Gegner angegriffen wird.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -841,22 +841,22 @@
     </Entry>
     <Entry>
       <ID>483</ID>
-      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt;. Rüstung geht durch Treffer verloren, regeneriert sich jedoch wieder</DefaultText>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;. Rüstung geht durch Treffer verloren, regeneriert sich jedoch wieder</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>485</ID>
-      <DefaultText>{0:extravalue:percent} Chance, Angriffen mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/link&gt;&lt;/nobr&gt; zu widerstehen</DefaultText>
+      <DefaultText>{0:extravalue:percent} Chance, Angriffen mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zu widerstehen</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>486</ID>
-      <DefaultText>{0:extravalue:percent} Chance, Angriffen mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/link&gt;&lt;/nobr&gt; zu widerstehen</DefaultText>
+      <DefaultText>{0:extravalue:percent} Chance, Angriffen mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zu widerstehen</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>487</ID>
-      <DefaultText>{0:extravalue:percent} Chance, Angriffen mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/link&gt;&lt;/nobr&gt; zu widerstehen</DefaultText>
+      <DefaultText>{0:extravalue:percent} Chance, Angriffen mit &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=0.7em&gt;Stichschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zu widerstehen</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -896,12 +896,12 @@
     </Entry>
     <Entry>
       <ID>520</ID>
-      <DefaultText>Verleiht &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; gegen Schockangriffe, der sich erhöht, wenn der Träger &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verliert (Max. {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;RW&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
+      <DefaultText>Verleiht &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; gegen Schockangriffe, der sich erhöht, wenn der Träger &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verliert (Max. {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;RW&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>521</ID>
-      <DefaultText>Verleiht &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; gegen Wasserangriffe, der sich erhöht, wenn der Träger &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verliert (Max. {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;RW&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
+      <DefaultText>Verleiht &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; gegen Wasserangriffe, der sich erhöht, wenn der Träger &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verliert (Max. {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;RW&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -951,12 +951,12 @@
     </Entry>
     <Entry>
       <ID>557</ID>
-      <DefaultText>Waffenangriffe fügen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/link&gt;&lt;/nobr&gt;/&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frostschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zu (je nachdem, was besser ist)</DefaultText>
+      <DefaultText>Waffenangriffe fügen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;/&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frostschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zu (je nachdem, was besser ist)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>561</ID>
-      <DefaultText>{0:value:percent} Chance, beim Erzielen eines kritischen Treffers Feinden rund um das Ziel &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frost&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;-/&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/link&gt;&lt;/nobr&gt; zuzufügen</DefaultText>
+      <DefaultText>{0:value:percent} Chance, beim Erzielen eines kritischen Treffers Feinden rund um das Ziel &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;space=0.7em&gt;Frost&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;-/&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hiebschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zuzufügen</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -996,7 +996,7 @@
     </Entry>
     <Entry>
       <ID>586</ID>
-      <DefaultText>Feinde, die unter der Wirkung von Waage der Gerechtigkeit getötet werden, stellen {0:value:straight} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; für alle Verbündete in der Nähe wieder her</DefaultText>
+      <DefaultText>Feinde, die unter der Wirkung von Waage der Gerechtigkeit getötet werden, stellen {0:value:straight} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; für alle Verbündeten in der Nähe wieder her</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1011,12 +1011,12 @@
     </Entry>
     <Entry>
       <ID>594</ID>
-      <DefaultText>{0:value:percent} Chance, bei Erzielen eines kritischen Treffers einen unterbrechenden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wucht-&lt;/link&gt;&lt;/nobr&gt;Flächenschaden auszulösen</DefaultText>
+      <DefaultText>{0:value:percent} Chance, bei Erzielen eines kritischen Treffers einen unterbrechenden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wucht-&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;Flächenschaden auszulösen</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>595</ID>
-      <DefaultText>{0:value:percent} Chance, bei Erzielen eines kritischen Treffers einen unterbrechenden und lähmenden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wucht-&lt;/link&gt;&lt;/nobr&gt;Flächenschaden auszulösen</DefaultText>
+      <DefaultText>{0:value:percent} Chance, bei Erzielen eines kritischen Treffers einen unterbrechenden und lähmenden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wucht-&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;Flächenschaden auszulösen</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1032,6 +1032,26 @@
     <Entry>
       <ID>601</ID>
       <DefaultText>Der Träger erhält einen Bonus für die Angriffsbindung, wenn seine &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; abnimmt (Maximal {0:value} Angriffsbindungen)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>602</ID>
+      <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Durchschlag&lt;/link&gt;&lt;/nobr&gt;skraft, wenn unter {0:extravalue:straight} Macht</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>619</ID>
+      <DefaultText>{0:triggervalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=0.7em&gt;Wille&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; pro {0:interval} (Derzeitiger Abzug: {0:value})</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>620</ID>
+      <DefaultText>{0:value:percent} Chance, bei einem erzielten kritischen Treffer die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; des Feindes {0:extravalue:duration} lang um {0:triggervalue} zu verringern</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>621</ID>
+      <DefaultText>{0:value:percent} Chance, bei einem erzielten kritischen Treffer die &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; des Feindes {0:extravalue:duration} lang um {0:triggervalue} zu verringern (Erhöht sich mit der Fertigkeit {0:skill})</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1066,7 +1086,7 @@
     </Entry>
     <Entry>
       <ID>648</ID>
-      <DefaultText>{0:value:percent} Chance, bei einem erzielten kritischen Treffer, wenn man unbewaffnet ist, {0:triggervalue:duration} lang {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/link&gt;&lt;/nobr&gt; zuzufügen ({0:triggercount}-mal stapelbar)</DefaultText>
+      <DefaultText>{0:value:percent} Chance, bei einem erzielten kritischen Treffer, wenn man unbewaffnet ist, {0:triggervalue:duration} lang {0:extravalue} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zuzufügen ({0:triggercount}-mal stapelbar)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1091,7 +1111,7 @@
     </Entry>
     <Entry>
       <ID>666</ID>
-      <DefaultText>Dieser Schild kann als Waffe verwendet werden, um &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hieb&lt;/link&gt;&lt;/nobr&gt;- und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/link&gt;&lt;/nobr&gt; anzurichten.</DefaultText>
+      <DefaultText>Dieser Schild kann als Waffe verwendet werden, um &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;space=0.7em&gt;Hieb&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;- und &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; anzurichten.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -1137,6 +1157,51 @@
     <Entry>
       <ID>699</ID>
       <DefaultText>{0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;space=0.7em&gt;Genauigkeit&lt;/link&gt;&lt;/nobr&gt;, wenn du ein Ziel angreifst, das nicht von einem Verbündeten angegriffen wird.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>700</ID>
+      <DefaultText>{0:value:percent} Chance, bei einem kritischen Treffer den Feinden in der Nähe nach kurzer Verzögerung &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;direkten Schaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zuzufügen</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>701</ID>
+      <DefaultText>Gewährt, nach dem Erleiden von Schaden, {0:extravalue:duration} lang {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; gegen diese Schadensart (Entfernt alle anderen Boni vom Gedächtnismaterial)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>705</ID>
+      <DefaultText>{0:value:percent} Chance, bei einem kritischen Treffer ein Siegel zu hinterlassen, das Feinden &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;space=-0.5em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;#ef5350&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;#b71c1c&gt;&lt;space=1em&gt;direkten Schaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zufügt</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>711</ID>
+      <DefaultText>Erhalte nach der Ermächtigung einer Fähigkeit {0:extravalue:duration} lang {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>712</ID>
+      <DefaultText>Erhalte nach der Ermächtigung einer Fähigkeit {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;space=0.7em&gt;Abwehr&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; bis zum Ende des Kampfes</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>716</ID>
+      <DefaultText>Feuert 3 Geschosse, jedoch mit geringerem Schaden und geringerer &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Durchschlag&lt;/link&gt;&lt;/nobr&gt;skraft</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>729</ID>
+      <DefaultText>2 &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; pro {0:triggervalue:duration} für {0:extravalue:duration} bei erlittenem kritischen Treffer (&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Heilung&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; wird stärker, wenn Träger &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Health"&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=0.7em&gt;Gesundheit&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; verliert)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>730</ID>
+      <DefaultText>{0:value:percent} Chance, dem Angreifer beim Treffer mit einer Nahkampfwaffe kleinen &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;space=0.7em&gt;Wuchtschaden&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zuzufügen und ihn für {0:extravalue:duration} zu betäuben.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>744</ID>
+      <DefaultText>Verleiht kurzfristig {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Durchschlag&lt;/link&gt;&lt;/nobr&gt;skraftbonus oder {0:extravalue:percentbonus} Initiative, wenn ein Gegner angegriffen wird.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

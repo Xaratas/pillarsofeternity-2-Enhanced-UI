@@ -2,7 +2,7 @@
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\cyclopedia</Name>
   <NextEntryID>1</NextEntryID>
-  <EntryCount>12</EntryCount>
+  <EntryCount>7</EntryCount>
   <Entries>
     <Entry>
       <ID>92</ID>
@@ -140,13 +140,6 @@ Wenn beispielsweise ein Zauber +3 auf Abwehr und eine Paladin-Aura +5 auf Abwehr
       <ID>322</ID>
       <DefaultText>&lt;line-height=100%&gt;&lt;voffset=0.5em&gt;&lt;size=95%&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#dac79c&gt;Wahrnehmungswirkung&lt;/color&gt;&lt;/link&gt;&lt;/size&gt;&lt;/voffset&gt;
 &lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;&lt;link="glossary://GlossaryEntry_Afflictions_Perception"&gt;&lt;#ca58ff&gt;Wahrnehmungswirkung&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;/color&gt;&lt;/link&gt;: Ein &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Distracted"&gt;&lt;#ca58ff&gt;&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Distracted"&gt;&lt;#ca58ff&gt;Abgelenkter&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Charakter hat -5 Wahrnehmung und gilt als Flankiert.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>475</ID>
-      <DefaultText>Panther sind die Geißel des Dschungels und Meister des lautlosen Tötens. Obwohl sie Sümpfe und Regenwälder bevorzugen, wurden sie auch im Buschland und in Wüsten gesichtet. Dementsprechend weit verbreitet sind sie im Todesfeuer-Archipel.
-
-Sie sind extrem unabhängig und leben vorzugsweise im Unterholz, wo ihr dunkles Fell ihnen reichlich Tarnung bietet. Sie gehen Gestandenen aus dem Weg, solange sie diese nicht als Bedrohung für ihr Territorium wahrnehmen. Ihre beeindruckende Muskulatur und Knochenstruktur befähigt diese Raubkatzen zu tödlichen Sprungangriffen und ihr Biss ist so fest, dass sie damit selbst die Panzer von Reptilien knacken können. Sogar ein halbherziger Tatzenhieb genügt, um einen unvorbereiteten Gegner zum &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Staggered"&gt;&lt;#ff4800&gt;&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Staggered"&gt;&lt;#ff4800&gt;Taumeln&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; zu bringen.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -348,6 +341,16 @@ Jede Inspiration wird durch ihre Zugehörigkeit zu einem Attribut (wie Macht ode
     <Entry>
       <ID>760</ID>
       <DefaultText>Wirkungen, die Macht, Verfassung und Gewandtheit beeinflussen, gelten als &lt;link="glossary://GlossaryEntry_Body_Affliction"&gt;&lt;link="glossary://GlossaryEntry_Body_Affliction"&gt;Körperwirkungen&lt;/link&gt;&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1103</ID>
+      <DefaultText>Wirkung auf Wahrnehmung. &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Blinded"&gt;&lt;#ca58ff&gt;&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Blinded"&gt;&lt;#ca58ff&gt;Geblendete&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Charaktere leiden unter -5 Wahrnehmung, gelten als Flankiert, erhalten +50 % Initiative, -10 Genauigkeit und die Reichweite aller Fernkampfangriffe wird halbiert. &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Blinded"&gt;&lt;#ca58ff&gt;&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Blinded"&gt;&lt;#ca58ff&gt;Geblendete&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Charaktere können keine Blick-Angriffe nutzen oder von ihnen betroffen werden.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>1104</ID>
+      <DefaultText>Wirkung auf Wahrnehmung. &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Disoriented"&gt;&lt;#ca58ff&gt;&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Disoriented"&gt;&lt;#ca58ff&gt;Desorientierte&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_perception" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; Charaktere erhalten -5 Wahrnehmung, gelten als Flankiert und haben +50 % Initiative nach ihren Aktionen.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
