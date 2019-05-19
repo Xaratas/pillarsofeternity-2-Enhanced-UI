@@ -1609,5 +1609,10 @@
       <DefaultText>Verleiht kurzfristig {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;space=0.7em&gt;Rüstungswert&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt;, {0:value} &lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;space=0.7em&gt;Durchschlag&lt;/link&gt;&lt;/nobr&gt;skraftbonus oder {0:extravalue:percentbonus} Initiative, wenn ein Gegner angegriffen wird.</DefaultText>
       <FemaleText />
     </Entry>
+    <Entry>
+      <ID>750</ID>
+      <DefaultText>&lt;nobr&gt;&lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt;Betäubt&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;/nobr&gt; für {0:extravalue:duration} alle {0:interval}</DefaultText>
+      <FemaleText />
+    </Entry>
   </Entries>
 </StringTableFile>
