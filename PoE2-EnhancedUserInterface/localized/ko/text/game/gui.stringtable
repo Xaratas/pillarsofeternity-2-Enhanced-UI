@@ -1,193 +1,431 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\gui</Name>
-  <NextEntryID>1</NextEntryID>
-  <EntryCount>4389</EntryCount>
+  <NextEntryId>0</NextEntryId>
+  <EntryCount>4561</EntryCount>
   <Entries>
     <Entry>
+      <ID>126</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0}(이)가 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;을 {1} 회복.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>127</ID>
+      <DefaultText>&lt;line-height=100%&gt;{2}(이)가 {0}의 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;을 {1} 회복.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>128</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0}(이)가 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; {1} 회복.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>129</ID>
+      <DefaultText>&lt;line-height=100%&gt;{2}(이)가 {0}의 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;을 {1} 치유.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>135</ID>
+      <DefaultText>&lt;line-height=100%&gt;캐릭터의 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;이 처음으로 0이 될 경우, 영구히 사망하는 대신 장애를 부여합니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>140</ID>
+      <DefaultText>&lt;line-height=100%&gt;커서를 적 위에 가져다 놓으면 공격자의 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;과 적의 방어 수치를 비교하는 팝업창을 띄웁니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>198</ID>
+      <DefaultText>&lt;line-height=100%&gt;파티원의 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;이 25% 밑으로 떨어졌을 때 자동으로 정지합니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>199</ID>
+      <DefaultText>&lt;line-height=100%&gt;파티원의 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;이 25% 밑으로 떨어졌을 때 자동으로 정지합니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>205</ID>
+      <DefaultText>&lt;line-height=100%&gt;파티원이 본인의 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;보다 50 이상 높은 적을 공격할 경우 자동으로 정지합니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
       <ID>367</ID>
-      <DefaultText>무기 대미지 및 치유 {0}%, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {1}</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;무기 대미지 및 치유 {0}%, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt; 인내 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt; {1}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>368</ID>
-      <DefaultText>체력 {0}%, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {1}</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; {0}%, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt; 인내 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt; {1}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>370</ID>
-      <DefaultText>명중률 {0}, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {1}</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; {0}, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt; 반사 신경 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {1}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>371</ID>
-      <DefaultText>효과 범위 {0}%, 능력 지속 시간 {1}%, &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {2}</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;효과 범위 {0}%, 능력 지속 시간 {1}%, &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt; 의지 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {2}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>372</ID>
-      <DefaultText>적대적 효과 지속 시간 {0}, &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {1}, &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {2}</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;유해한 효과 지속 시간 {0}, &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt; 회피 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {1}, &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt; 의지 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {2}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>391</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;#157245&gt;명성 획득 {0}&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>392</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;#bf2a2a&gt;명성 상실 {0}&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>469</ID>
-      <DefaultText>결의는 적대적 효과의 지속 시간을 줄여주며, &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 및 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 방어를 향상시킵니다. 인물에게 내재한 추진력, 결의, 대담함을 나타냅니다.
+      <DefaultText>&lt;line-height=100%&gt;결의는 유해한 효과의 지속 시간을 줄여주며, &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt; 의지 &lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt; 및 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt; 회피 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 방어를 향상시킵니다. 인물에게 내재한 추진력, 결의, 대담함을 나타냅니다.
 
 5 - 겁쟁이
 10 - 평균
-15 - &lt;xg&gt;강한&lt;/xg&gt; &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;
-20 - 용감무쌍</DefaultText>
-      <FemaleText />
+15 - &lt;xg&gt;강한&lt;/xg&gt; &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt; 의지 &lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;
+20 - 용감무쌍&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>470</ID>
-      <DefaultText>힘은 공격의 대미지, 치유의 효율성, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 방어에 영향을 줍니다. 인물의 물리적/정신적 힘, 잔혹함과 강력한 마법에 연결하는 능력을 나타냅니다.
+      <DefaultText>&lt;line-height=100%&gt;힘은 공격의 대미지, 치유의 효율성, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt; 인내 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt; 방어에 영향을 줍니다. 인물의 물리적/정신적 힘, 잔혹함과 강력한 마법에 연결하는 능력을 나타냅니다.
 
 5 - 약함
 10 - 평균
 15 - &lt;xg&gt;강력함&lt;/xg&gt;
-20 - 무지막지한 힘</DefaultText>
-      <FemaleText />
+20 - 무지막지한 힘&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>471</ID>
-      <DefaultText>민첩은 공격, 주문, 능력을 시전하는 속도와 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 방어에 영향을 줍니다. 인물의 손과 눈의 기밀한 움직임, 민첩한 동작, 전반적인 우아함을 나타냅니다.
+      <DefaultText>&lt;line-height=100%&gt;민첩은 공격, 주문, 능력을 시전하는 속도와 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt; 반사신경 &lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt; 방어에 영향을 줍니다. 인물의 손과 눈의 기밀한 움직임, 민첩한 동작, 전반적인 우아함을 나타냅니다.
 
 5 - 서투름
 10 - 평균
 15 - 날램
-20 - 믿을 수 없이 &lt;link="gamedata://0451672b-af45-4b44-96b4-ff2c1b6aa1d3"&gt;&lt;#72da26&gt;날렵함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;</DefaultText>
-      <FemaleText />
+20 - 믿을 수 없이 날렵함&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>472</ID>
-      <DefaultText>지능은 &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 방어와 모든 능력치의 지속 시간 및 효과 범위에 영향을 줍니다. 인물이 지닌 논리, 추론 및 문제 해결 능력을 나타냅니다.
+      <DefaultText>&lt;line-height=100%&gt;지능은 &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt; 의지 &lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt; 방어와 모든 능력치의 지속 시간 및 효과 범위에 영향을 줍니다. 인물이 지닌 논리, 추론 및 문제 해결 능력을 나타냅니다.
 
 5 - 아둔함
 10 - 평균
 15 - &lt;xg&gt;빠른&lt;/xg&gt; 두뇌회전
-20 - &lt;xg&gt;명석함&lt;/xg&gt;</DefaultText>
-      <FemaleText />
+20 - &lt;xg&gt;명석함&lt;/xg&gt;&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>473</ID>
-      <DefaultText>체질은 체력과 &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 방어에 영향을 주며, 인물의 전체적인 체력과 기력을 나타냅니다.
+      <DefaultText>&lt;line-height=100%&gt;체질은 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;과 &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt; 인내 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt; 방어에 영향을 주며, 인물의 전체적인 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;과 기력을 나타냅니다.
 
 5 - 허약함
 10 - 평균
 15 - &lt;xg&gt;건강한 체질&lt;/xg&gt;
-20 - 천하무적</DefaultText>
-      <FemaleText />
+20 - 천하무적&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>474</ID>
-      <DefaultText>통찰은 명중률과 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 방어에 영향을 줍니다. &lt;xg&gt;통찰&lt;/xg&gt;은 인물의 오감 및 상황을 꼼꼼히 파악하는 능력 (함정 탐색, 숨겨진 물품 발견 등)을 나타내는 지표입니다.
+      <DefaultText>&lt;line-height=100%&gt;통찰은 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;과 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt; 반사신경 &lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt; 방어에 영향을 줍니다. &lt;xg&gt;통찰&lt;/xg&gt;은 인물의 오감 및 상황을 꼼꼼히 파악하는 능력 (함정 탐색, 숨겨진 물품 발견 등)을 나타내는 지표입니다.
 
 5 - 둔함
 10 - 평균
 15 - 뛰어난 관찰력
-20 - 독수리의 눈</DefaultText>
-      <FemaleText />
+20 - 독수리의 눈&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1102</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 최대 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1104</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; 회복 {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1106</ID>
+      <DefaultText>&lt;line-height=100%&gt;근접 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1107</ID>
+      <DefaultText>&lt;line-height=100%&gt;원거리 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1108</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt; 회피 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1109</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt; 인내 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1110</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt; 반사 신경 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1111</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt; 의지 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1112</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; 재생 {0:Value}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1124</ID>
+      <DefaultText>&lt;line-height=100%&gt;전투 이탈 중인 적에 대한 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1137</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0} 이하의 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;을 가진 적에 대한 암습&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1143</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; 손실 {0}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>1147</ID>
-      <DefaultText>{0} 결의를 흡수해 {1} &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;로 변환</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;{0} 결의를 흡수해 {1} &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt; 회피 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;로 변환&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1154</ID>
+      <DefaultText>&lt;line-height=100%&gt;대상이 잃은 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;에 비례해 대미지 {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1160</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; 흡수 {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1161</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; 재생 {0:Value:PercentBonus}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>1169</ID>
-      <DefaultText>멀리 있는 적에 대한 명중률, &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0}</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;멀리 있는 적에 대한 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt; 회피 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt; 반사신경 &lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1170</ID>
+      <DefaultText>&lt;line-height=100%&gt;낮은 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;을 가진 적에 대한 대미지 {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1172</ID>
+      <DefaultText>&lt;line-height=100%&gt;동일한 목표물을 공격하는 아군에게 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; 부여 {0}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>1175</ID>
-      <DefaultText>아군이 받는 명중의 {0}를 스침으로 전환 (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;와 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;만 가능)</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;아군이 받는 명중의 {0}를 스침으로 전환 (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt; 회피 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;와반사 신경만 가능)&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>1176</ID>
-      <DefaultText>아군이 받는 명중의 {0}를 스침으로 전환 (&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;b&gt;인내&lt;/b&gt;&lt;space=0.7em&gt;&lt;#f9d968&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;/color&gt;&lt;/link&gt;와 &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;b&gt;의지&lt;/b&gt;&lt;space=0.7em&gt;&lt;#d591f8&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;만 가능)</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;아군이 받는 명중의 {0}를 스침으로 전환 (&lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt; 인내 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;와 &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt; 의지 &lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;만 가능)&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>1194</ID>
-      <DefaultText>&lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;기절 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;에서 방어 {0}</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt; 기절 &lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;3&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태에서 방어 {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1196</ID>
+      <DefaultText>&lt;line-height=100%&gt;아군과 같은 목표물을 공격할 때의 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>1214</ID>
-      <DefaultText>아군이 받는 스침의 {0}를 빗나감으로 전환 (&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;만 가능)</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;아군이 받는 스침의 {0}를 빗나감으로 전환 (&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt; 반사신경 &lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;만 가능)&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1230</ID>
+      <DefaultText>&lt;line-height=100%&gt;{1}과 동일한 적을 공격할 경우 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1232</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0}의 대미지를 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;으로 회복&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1234</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; {1} 이하에서 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1235</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; {1} 이하에서 대미지 {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1236</ID>
+      <DefaultText>&lt;line-height=100%&gt;쓰러짐, &lt;link="glossary://GlossaryEntry_Stunned"&gt;&lt;#ff4800&gt; 기절 &lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;3&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, 측면 피해 상태인 적에 대한 대미지 {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1243</ID>
+      <DefaultText>&lt;line-height=100%&gt;{1}에 대한 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>1261</ID>
-      <DefaultText>원거리 공격 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0}</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;원거리 공격 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt; 회피 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1266</ID>
+      <DefaultText>&lt;line-height=100%&gt;{1}의 {0} 만큼의 대미지가 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;으로 전환&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1275</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0:Value:Straight}의 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;으로 부활&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1366</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0} 이하의 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; 필요&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1370</ID>
+      <DefaultText>&lt;line-height=100%&gt;최소 {0} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; 필요&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1371</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0} 이하의 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; 필요&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1397</ID>
+      <DefaultText>&lt;line-height=100%&gt;모험은 피곤한 일입니다. 모험가는 치명적인 전투의 위험을 감내할 뿐만 아니라 벽을 기어오르고, 강을 건너며, 구덩이를 뛰어넘어야 합니다. 운동 스킬을 지닌 캐릭터는 교전당 한 번씩 '새로운 활력' 능력을 사용해 잃어버린 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;을 회복할 수 있으며, 등급이 높을수록 효과가 증대됩니다. 대화나 스크립트 상호작용 상황에서 운동 스킬은 타고 오르기, 수영, 뛰기와 같은 신체적 기량을 발휘할 수 있게 해줍니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1404</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>1466</ID>
-      <DefaultText>드루이드는 하나의 대미지 유형(&lt;link="glossary://GlossaryEntry_Slashing&gt;&lt;b&gt;베기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Piercing&gt;&lt;b&gt;관통&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Crushing&gt;&lt;b&gt;부수기&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Burning&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing&gt;&lt;b&gt;동결&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Shock&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;)을 선택해서 이들 대미지를 입히는 모든 공격 시 선택한 대미지를 추가할 수 있습니다.</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;드루이드는 하나의 대미지 유형(&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;#bc8a66&gt; 베기 &lt;/color&gt;&lt;space=0.7em&gt;&lt;#a97e5f&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;#bc8a66&gt; 찌르기 &lt;/color&gt;&lt;space=0.2em&gt;&lt;#a97e5f&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;space=-0.5em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;#bc8a66&gt; 부수기 &lt;/color&gt;&lt;space=0.7em&gt;&lt;size=90%&gt;&lt;#a97e5f&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt; 소각 &lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#adc455&gt; 부식 &lt;#9ba967&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt; 동결 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;#fff151&gt; 충격 &lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;)을 선택해서 이들 대미지를 입히는 모든 공격 시 선택한 대미지를 추가할 수 있습니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1477</ID>
+      <DefaultText>&lt;line-height=100%&gt;모든 레인저는 자신의 동물 동료와 강력한 영혼의 유대로 이어져 있습니다. 이러한 유대를 통해 레인저와 동물 동료는 서로 협력해서 적을 공격할 수도 있고 효과적으로 제압할 수도 있습니다. 대부분은 레인저가 원거리에서 상대를 공격하면, 동물 동료가 상대를 막아주는 형태를 띱니다.
+
+하지만 이런 장점에도 유대감의 위험이란 것이 존재합니다. 레인저는 문자 그대로 동물 동료와 생명을 공유하고 있습니다. 한쪽이 상처를 입게 되면 다른 한쪽은 상처를 느끼고 정신적인 고통을 받게 됩니다. 만약 레인저나 동물 동료가 의식 불명에 빠지게 되면 회복되기 전까지 다른 한쪽은 유대감 상실을 겪고 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;과 다른 능력치에 영향을 받습니다. 만약 레인저가 사망한다면 동물 동료는 슬픔을 참지 못하고 바로 사망합니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1532</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0}의 {1} 대미지를 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;으로 흡수&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1546</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;이 {1} 이하일 때 {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1552</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;이 {1} 이상인 동안 {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1553</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;이 {1} 이하인 동안 {0}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>1582</ID>
-      <DefaultText>행동 속도 {0}% 및 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {1}</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;행동 속도 {0}% 및 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt; 반사 신경 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {1}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>1628</ID>
-      <DefaultText>방패 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0}</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt; 방패 회피 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>1629</ID>
-      <DefaultText>방패 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 보너스는 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;에도 적용됩니다.</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt; 방패 회피 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/link&gt; 보너스는 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt; 반사신경 &lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt;에도 적용됩니다.&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>1676</ID>
-      <DefaultText>양손 무기 사용시 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0}</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;양손 무기 사용시 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt; 회피 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
-      <ID>1739</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;를 제외한 모든 방어 {0}</DefaultText>
-      <FemaleText />
+      <ID>1693</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0:ExtraValue:Percent} 이하의 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;을 가진 목표물에 대해 {0:Value:Percent}의 명중을 치명타로 전환&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1694</ID>
+      <DefaultText>&lt;line-height=100%&gt;원거리에 있는 적에 대한 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1890</ID>
+      <DefaultText>&lt;line-height=100%&gt;동물 동료와 동일한 목표물을 공격할 때 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1949</ID>
+      <DefaultText>&lt;line-height=100%&gt;맨손 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>1952</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0:ExtraValue::Percent} 이하의 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;을 가진 목표물에 대한 치명타 대미지 {0:Value:PercentBonus} &lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2200</ID>
+      <DefaultText>&lt;line-height=100%&gt;{1}(을)를 사용할 때 {0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2206</ID>
+      <DefaultText>&lt;line-height=100%&gt;타격 당 {0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;과 {1} 대미지로 추가적인 공격을 함&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2207</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0} 이상의 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;이 필요&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2259</ID>
+      <DefaultText>&lt;line-height=100%&gt;새로운 활력 부여 ({0} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;)&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2261</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;이 {1} 이하로 떨어질 경우 {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2291</ID>
+      <DefaultText>&lt;line-height=100%&gt;파티원은 전투에서 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;이 0으로 감소했을 때 녹아웃 부상을 입지 않을 것입니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2302</ID>
+      <DefaultText>&lt;line-height=100%&gt;야영을 하면 일행이 잃어버린 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;을 회복하고 야영 보너스를 받을 수 있습니다. 야영을 하면 야영 장비를 소모합니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2304</ID>
+      <DefaultText>&lt;line-height=100%&gt;{1} 공격자가 {0} &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;을 얻음&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2314</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Confused"&gt;&lt;#00a4ff&gt; 혼란 &lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Charmed"&gt;&lt;#00a4ff&gt; 현혹 &lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Dominated"&gt;&lt;#00a4ff&gt; 지배 &lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;3&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;된 캐릭터에 대해 최소 대미지&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2326</ID>
+      <DefaultText>&lt;line-height=100%&gt;시전자에게서 {0} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;이 전이됨&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2432</ID>
+      <DefaultText>&lt;line-height=100%&gt;최소 {1} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;을 가진 {0}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2433</ID>
+      <DefaultText>&lt;line-height=100%&gt;{1} 이하의 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;을 가진 {0}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>2815</ID>
-      <DefaultText>&lt;b&gt;보너스&lt;/b&gt;
-격분은 &lt;link="gamedata://79b41b80-d3c4-4176-a44b-69490efa41a8"&gt;&lt;#ff4800&gt;강력함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;과 &lt;link="gamedata://2370256c-67fe-4481-bfae-9081b2dc10d3"&gt;&lt;#f7b733&gt;건강함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화 대신, &lt;link="gamedata://93eb382a-dc8e-469b-a116-4686c73e1eb5"&gt;&lt;#ff4800&gt;집요함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;과 &lt;link="gamedata://fd4d0c5c-f525-4010-99dc-f30a59b2f729"&gt;&lt;#f7b733&gt;강인함&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.55em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화를 부여합니다.
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
+격분은 &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt; 강력함 &lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;과 &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt; 건강함 &lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.35em&gt;&lt;voffset=0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화 대신, &lt;link="glossary://GlossaryEntry_Tenacious"&gt;&lt;#ff4800&gt; 집요함 &lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;과 &lt;link="glossary://GlossaryEntry_Hardy"&gt;&lt;#f7b733&gt; 강인함 &lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 강화를 부여합니다.
 
 격분한 동안 근접 공격과 살육 공격에서 명중을 치명타로 전환할 확률이 현저히 높아집니다.
 
 &lt;b&gt;페널티&lt;/b&gt;
-격분한 동안 &lt;link="gamedata://917ea7e5-133c-4163-93c6-55c7d55420a4"&gt;&lt;#00a4ff&gt;혼란 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;가 됩니다.
+격분한 동안 &lt;link="glossary://GlossaryEntry_Confused"&gt;&lt;#00a4ff&gt; 혼란 &lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태가 됩니다.
 
-격분한 동안 체력을 볼 수 없습니다.
+격분한 동안 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;을 볼 수 없습니다.
 
-격분한 동안 지속적인 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입습니다.</DefaultText>
-      <FemaleText />
+격분한 동안 지속적인 &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#e72c2c&gt; 고정 &lt;/color&gt;&lt;#ef5350&gt;&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; 대미지를 입습니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2818</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
+기원으로 소환되는 크리처의 수가 두 배가 됩니다.
+
+&lt;b&gt;페널티&lt;/b&gt;
+챈터의 소환수는 크기가 작아지고 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;과 지속 시간이 짧아집니다.
+
+소환 기원의 비용이 +1 악절 증가합니다.&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>2823</ID>
-      <DefaultText>&lt;b&gt;보너스&lt;/b&gt;
-"영혼 소멸" 능력을 얻습니다: 근접 공격을 영혼의 힘으로 강화하여 영매사의 남은 권능 보유량을 소비해 대상에 &lt;link="glossary://GlossaryEntry_Raw&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지를 입힙니다.
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
+"영혼 소멸" 능력을 얻습니다: 근접 공격을 영혼의 힘으로 강화하여 영매사의 남은 권능 보유량을 소비해 대상에 &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#e72c2c&gt; 고정 &lt;/color&gt;&lt;#ef5350&gt;&lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; 대미지를 입힙니다.
 
 분열 속성을 가진 영매사 주문의 집중도 소모가 감소합니다.
 
 근접 무기로 적을 쓰러트릴 경우 일시적으로 집중력을 부여하고 최대 집중도를 증가시킵니다.
 
 &lt;b&gt;페널티&lt;/b&gt;
-최대 집중도가 감소합니다. (전투 시작 시의 집중도 역시 감소합니다)</DefaultText>
-      <FemaleText />
+최대 집중도가 감소합니다. (전투 시작 시의 집중도 역시 감소합니다)&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>2827</ID>
-      <DefaultText>&lt;b&gt;보너스&lt;/b&gt;
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
 동물 형태 대신, 분노자는 폭풍 블라이트로 영혼 전환합니다.
 
-원소형 드루이드 주문은 범위와 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 증가합니다.
+원소형 드루이드 주문은 범위와 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;#57baff&gt; 관통력 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/color&gt;&lt;/link&gt;이 증가합니다.
 
 영혼 전환 동안 적을 죽이면 영혼 전환의 지속 시간이 연장됩니다.
 
@@ -203,168 +441,347 @@
 9. 거대한 소용돌이
 
 &lt;b&gt;페널티&lt;/b&gt;
-원기 회복 주문을 사용할 수 없습니다.</DefaultText>
-      <FemaleText />
+원기 회복 주문을 사용할 수 없습니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2828</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
+드루이드는 매 전투 때마다 어떤 동물로든 한 번씩 영혼 전환을 할 수 있습니다.
+
+영혼 전환의 지속 시간이 길어집니다.
+
+영혼 전환이 종료된 후 드루이드의 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt; 일부가 치유됩니다.
+
+새로운 권능 레벨에 도달하면 자동적으로 다음의 드루이드 주문을 배웁니다:
+1. 자연의 표식
+2. 벌레 떼
+3. 들끓는 구더기
+4. 델렘간의 형태
+5. 자연의 공포
+6. 생명의 정원
+7. 녹슨 갑옷
+8. 엔트로피
+9. 꽃가루 밭
+
+&lt;b&gt;페널티&lt;/b&gt;
+동물 형태인 동안에는 주문을 시전할 수 없습니다.&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>2830</ID>
-      <DefaultText>&lt;b&gt;보너스&lt;/b&gt;
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
 하나의 무기 숙련도를 골라 선택한 무기로 지정할 수 있습니다.
 
-선택한 무기의 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 증가합니다.
+선택한 무기의 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;#57baff&gt; 관통력 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/color&gt;&lt;/link&gt;이 증가합니다.
 
 선택한 무기의 치명타 대미지가 증가합니다.
 
 &lt;b&gt;페널티&lt;/b&gt;
-선택한 무기 외의 무기 사용 시 명중률에 페널티를 받습니다.
+선택한 무기 외의 무기 사용 시 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;에 페널티를 받습니다.
 
-레벌업 시 하나의 숙련도만 획득하며 새로운 숙련도를 얻을 수 없습니다.</DefaultText>
-      <FemaleText />
+레벌업 시 하나의 숙련도만 획득하며 새로운 숙련도를 얻을 수 없습니다.&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>2832</ID>
-      <DefaultText>&lt;b&gt;보너스&lt;/b&gt;
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
 교전 수 +1.
 
-전투 이탈 공격에 대해 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;이 증가합니다.
+전투 이탈 공격에 대해 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;#57baff&gt; 관통력 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/color&gt;&lt;/link&gt;이 증가합니다.
 
-방패 착용 시 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; 보너스를 제공하는 "방패 특화"를 얻습니다.
+방패 착용 시 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt; 갑옷 등급 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 보너스를 제공하는 "방패 특화"를 얻습니다.
 
 &lt;b&gt;페널티&lt;/b&gt;
 전투 시 보폭이 낮아집니다.
 
-&lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;b&gt;반사 신경&lt;/b&gt;&lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;이 낮아집니다.</DefaultText>
-      <FemaleText />
+&lt;link="glossary://GlossaryEntry_Reflexes"&gt; 반사 신경 &lt;space=0.7em&gt;&lt;#8bf7c3&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;/color&gt;&lt;/link&gt;이 낮아집니다.&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>2837</ID>
-      <DefaultText>&lt;b&gt;보너스&lt;/b&gt;
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
 헌신의 불꽃을 얻습니다.
 
-헌신의 불꽃이 추가적인 &lt;link="glossary://GlossaryEntry_Corrode&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt; 대미지(검은 불꽃)를 입히며 대상을 &lt;link="gamedata://1e99c141-5288-4bf0-abc2-65cc78638745"&gt;&lt;#f7b733&gt;구역질 상태&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;1&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;로 만듭니다.</DefaultText>
-      <FemaleText />
+헌신의 불꽃이 추가적인 &lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#adc455&gt; 부식 &lt;#9ba967&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt; 대미지(검은 불꽃)를 입히며 대상을 &lt;link="glossary://GlossaryEntry_Sickened"&gt;&lt;#f7b733&gt; 구역질 &lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=75%&gt;&lt;font="EBGaramond-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; 상태로 만듭니다.&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>2839</ID>
-      <DefaultText>&lt;b&gt;보너스&lt;/b&gt;
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
 철천지 원수를 얻습니다.
 
-철천지 원수는 "금빛 원한"을 업그레이드하여 성전사가 철천지 원수를 선언할 때 황금의 축복을 부여받습니다. 성전사는 황금이 수 차례 타격을 받아 부서질 때까지 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;을 부여받습니다.</DefaultText>
-      <FemaleText />
+철천지 원수는 "금빛 원한"을 업그레이드하여 성전사가 철천지 원수를 선언할 때 황금의 축복을 부여받습니다. 성전사는 황금이 수 차례 타격을 받아 부서질 때까지 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt; 갑옷 등급 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/color&gt;&lt;/link&gt;을 부여받습니다.&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>2849</ID>
-      <DefaultText>&lt;b&gt;보너스&lt;/b&gt;
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
 4미터 밖의 대상을 공격 시 보너스로 명중을 치명타로 전환.
 
-4미터 내의 대상을 공격 시 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;에 보너스.
+4미터 내의 대상을 공격 시 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;#57baff&gt; 관통력 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/color&gt;&lt;/link&gt;에 보너스.
 
 &lt;b&gt;페널티&lt;/b&gt;
 회복 시간이 느려짐.
 
-&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;가 감소됨.</DefaultText>
-      <FemaleText />
+&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt; 회피 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;가 감소됨.&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>2850</ID>
-      <DefaultText>&lt;b&gt;보너스&lt;/b&gt;
-밀렵꾼과 그들의 동료 사이의 거리가 4미터 이내일 경우 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;회피&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;와 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;에 보너스를 받습니다.
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
+밀렵꾼과 그들의 동료 사이의 거리가 4미터 이내일 경우 &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt; 회피 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;와 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt; 갑옷 등급 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/color&gt;&lt;/link&gt;에 보너스를 받습니다.
 
 &lt;b&gt;페널티&lt;/b&gt;
-밀렵꾼과 그들의 동료는 7미터 이상 떨어져 있을 경우 유대감 상실의 고통을 받습니다.</DefaultText>
-      <FemaleText />
+밀렵꾼과 그들의 동료는 7미터 이상 떨어져 있을 경우 유대감 상실의 고통을 받습니다.&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>2853</ID>
-      <DefaultText>&lt;b&gt;보너스&lt;/b&gt; 
-"암살하기" 자동형 능력을 얻습니다. 은신 상태에서 공격은 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;, 명중률, 치명타 대미지에 보너스를 줍니다.
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt; 
+"암살하기" 자동형 능력을 얻습니다. 은신 상태에서 공격은 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;#57baff&gt; 관통력 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;, 치명타 대미지에 보너스를 줍니다.
 
 &lt;b&gt;페널티&lt;/b&gt; 
-적에게서 받는 모든 대미지가 증가합니다.</DefaultText>
-      <FemaleText />
+적에게서 받는 모든 대미지가 증가합니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2854</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
+미간 공격 - 커다란 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; 보너스를 가진 원거리 공격. 은신 중 사용할 경우 항상 치명타가 됩니다.
+
+&lt;b&gt;페널티&lt;/b&gt;
+속임수 -1.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2855</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
+길거리 싸움꾼이 측면 피해 상태이거나 &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#FF9800&gt; 중대한 부상 &lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;#FF9800CC&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/color&gt;&lt;/link&gt; 상태일 경우 암습이 더욱 치명적이 되며 회복 시간이 감소합니다.
+
+길거리 싸움꾼이 측면 피해 상태인 동시에 &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#FF9800&gt; 중대한 부상 &lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;#FF9800CC&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/color&gt;&lt;/link&gt; 상태일 경우 무기의 치명타 대미지가 증가합니다.
+
+&lt;b&gt;페널티&lt;/b&gt;
+길거리 싸움꾼이 측면 피해 상태도, &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#FF9800&gt; 중대한 부상 &lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;#FF9800CC&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/color&gt;&lt;/link&gt; 상태도 아닐 경우 회복 시간이 느려집니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2858</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
+부여 주문의 권능 레벨이 증가합니다.
+
+"자유 행동" 자동형 능력 획득: 전투당 한 번, 마법사가 &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt; 민첩 저하 &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;에 영향을 받을 경우, 그 효과를 제거하고 일시적으로 &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt; 민첩 저하 &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;에 면역이 됩니다.
+
+&lt;b&gt;페널티&lt;/b&gt;
+환상 학파와 변화 학파의 주문을 사용할 수 없습니다.
+
+부여 학파 외의 마법사 주문 사용 시 회복 시간이 증가합니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>2915</ID>
+      <DefaultText>&lt;line-height=100%&gt;폭발물 스킬은 폭발, 소음 발생기 및 비슷한 장치들의 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;과 피해, 효율성을 향상시킵니다.&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>3012</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; {0:Value}</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt; 갑옷 등급 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:Value}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>3016</ID>
+      <DefaultText>&lt;line-height=100%&gt;인지하지 못한 적의 뒤에 있을 경우 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; {0:Value}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>3028</ID>
-      <DefaultText>&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt; {0:Value}</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;#57baff&gt; 관통력 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:Value}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>3034</ID>
+      <DefaultText>&lt;line-height=100%&gt;숙련된 무기에 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; {0:Value}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>3362</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0}(이)가 대미지를 {1}의 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;으로 전환합니다.&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
       <ID>3938</ID>
-      <DefaultText>{0:DamageType} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt; {0:Value}</DefaultText>
-      <FemaleText />
+      <DefaultText>&lt;line-height=100%&gt;{0:DamageType} &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt; 갑옷 등급 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/color&gt;&lt;/link&gt; {0:Value}&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
-      <ID>88001</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;b&gt;충격&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/link&gt;은 원소 중 전기에 기반한 피해입니다. 이 피해를 주는 능력과 주문들은 전격 볼트등을 만들어 내며 벽을 튕기면서 적을 기절시키는 성질이 있습니다.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
+      <ID>4019</ID>
+      <DefaultText>&lt;line-height=100%&gt;{0} {1} &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
-      <ID>88002</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;b&gt;고정&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 피해는 모든 종류의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;을 무시하며, &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;b&gt;관통력&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt;이 필요하지 않습니다.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
+      <ID>4756</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;#157245&gt;{2}에서 명성 획득: {0} {1}.&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
-      <ID>88003</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;b&gt;소각&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/link&gt;은 원소 중 불에 기반한 피해입니다. 이 피해를 주는 능력과 주문들은 불꽃을 만들어 공중에 흩뿌리거나 혹은 지속적인 피해를 가할 수 있습니다. 게다가, 화약과 같은 가연성의 물질들에 사용하면 연쇄적인 폭발을 만들어 냅니다.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
+      <ID>4757</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;#bf2a2a&gt;{2}에서 명성 상실: {0} {1}.&lt;/color&gt;&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
-      <ID>88004</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;b&gt;동결&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/link&gt;은 원소 중 얼음에 기반한 피해입니다. 이 피해를 주는 능력과 주문들은 얼음 가시 혹은 폭풍등을 만들어 내어 적을 둔화 혹은 마비시키며 지속적인 피해를 가할 수 있습니다.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
+      <ID>5005</ID>
+      <DefaultText>&lt;line-height=100%&gt;갑옷이 훼손되었습니다!&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
-      <ID>88005</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;b&gt;부식&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/link&gt;은 원소 중 산에 기반한 피해입니다. 이 피해를 주는 능력과 주문들은 지속적인 피해를 가할 수 있으며 &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt;&lt;b&gt;체질 저하&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;를 일으킬 수 있습니다.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
+      <ID>5006</ID>
+      <DefaultText>&lt;line-height=100%&gt;갑옷이 파괴되었습니다!&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
-      <ID>88006</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;&lt;b&gt;부수기&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt;는 물리 피해의 한 종류입니다. 이 피해를 주는 능력과 주문들은 적을 방해하거나 쓰러트리며, &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;기절&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sub&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;3&lt;/size&gt;&lt;/sub&gt;&lt;/color&gt;&lt;/link&gt;을 일으킬 수 있습니다.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
+      <ID>5007</ID>
+      <DefaultText>&lt;line-height=100%&gt;무기가 훼손되었습니다!&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
-      <ID>88007</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;&lt;b&gt;관통&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt;은 물리 피해의 한 종류입니다. 이 피해를 주는 능력과 주문들은 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;b&gt;갑옷 등급&lt;/b&gt;&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/link&gt;을 무시할 때가 있습니다.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
+      <ID>5008</ID>
+      <DefaultText>&lt;line-height=100%&gt;무기가 파괴되었습니다!&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
-      <ID>88008</ID>
-      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;&lt;b&gt;베기&lt;/b&gt;&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt;는 물리 피해의 한 종류입니다. 이 피해를 주는 능력과 주문들은 지속적인 피해를 가할 수 있습니다.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
+      <ID>5009</ID>
+      <DefaultText>&lt;line-height=100%&gt;방패가 훼손되었습니다!&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
-      <ID>88009</ID>
-      <DefaultText>&lt;line-height=100%&gt;Defenders excel at resisting attacks or being able to take a large amount of punishment in combat.
+      <ID>5010</ID>
+      <DefaultText>&lt;line-height=100%&gt;방패가 파괴되었습니다!&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>5028</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
+적의 행동을 성공적으로 방해할 경우 훈련을 회복합니다.
 
-Defender classes include: Barbarian, Fighter, Monk, Paladin, and Ranger.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
+&lt;link="gamedata://b1bf5832-b633-49fa-8ea2-b74ea720af0a"&gt;&lt;link="gamedata://b1bf5832-b633-49fa-8ea2-b74ea720af0a"&gt; 뛰어난 전술가 &lt;/link&gt;&lt;/link&gt;를 획득합니다.
+
+&lt;b&gt;페널티&lt;/b&gt;
+동료에게 위협받지 않는 대상을 공격할 경우 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;#57baff&gt; 관통력 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/color&gt;&lt;/link&gt;과 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;이 감소합니다.
+
+&lt;link="gamedata://b6cd697b-176e-4fc3-b538-ae80a78d1ef3"&gt;&lt;link="gamedata://b6cd697b-176e-4fc3-b538-ae80a78d1ef3"&gt; 전술적 딜레마 &lt;/link&gt;&lt;/link&gt;를 획득합니다.&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
-      <ID>88010</ID>
-      <DefaultText>&lt;line-height=100%&gt;Strikers are unequaled in their ability to inflict large amounts of damage and crippling afflictions to single targets.
+      <ID>5030</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
+권능 레벨 1에 &lt;link="gamedata://17093a31-44c6-45e4-ac71-78463307d496"&gt;보호소 형성: 격분&lt;/link&gt;을 획득합니다.
 
-Striker classes include: Cipher, Druid, Fighter, Monk, Ranger, Rogue, and Wizard.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
+권능 레벨 4에 &lt;link="gamedata://f45a289b-c363-4281-aa56-e4a2d81d0ccd"&gt;보호소 형성: 공포&lt;/link&gt;를 획득합니다.
+
+권능 레벨 8에 &lt;link="gamedata://bfa3f85c-ea51-466c-912b-56d43304bc63"&gt;보호소 형성: 피&lt;/link&gt;를 획득합니다.
+
+영혼에 대해 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt; 보너스 획득합니다.
+
+&lt;b&gt;페널티&lt;/b&gt;
+보호소가 파괴될 경우, 즉시 &lt;link="glossary://GlossaryEntry_Raw"&gt;&lt;#ef5350&gt; 고정 &lt;space=0.3em&gt;&lt;#b71c1c&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/color&gt;&lt;space=-3.8em&gt;&lt;voffset=0.25em&gt;&lt;size=60%&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;space=0.5em&gt;&lt;/link&gt; 대미지를 입고 전투가 끝날 때까지 권능 레벨에 페널티를 받습니다.
+
+&lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt; 의지 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;/link&gt;가 감소합니다.&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
-      <ID>88011</ID>
-      <DefaultText>&lt;line-height=100%&gt;Support characters aid their allies with defensive bonuses, healing, or protective wards.
+      <ID>5038</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
+&lt;link="glossary://GlossaryEntry_Charmed"&gt;&lt;#00a4ff&gt; 현혹 &lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_intellect" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=-0.35em&gt;&lt;size=80%&gt;&lt;b&gt;2&lt;/b&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;된 대상을 상대로 상당한 명중이 치명타로 전환됩니다.
 
-Support classes include: Chanter, Paladin, and Priest.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
+&lt;link="gamedata://b75184f8-63d7-44e3-901d-9c9205ad538c"&gt;악당의 매력&lt;/link&gt; 능력을 획득합니다.
+
+아무런 고통도 받지 않았을 경우 받는 공격의 명중이 스침으로 전환됩니다.
+
+&lt;b&gt;페널티&lt;/b&gt;
+교전 상태 불가.
+
+&lt;link="gamedata://26890e79-a660-4593-ae57-08607d5cf296"&gt;비겁&lt;/link&gt; 능력을 획득합니다.&lt;/line-height&gt;</DefaultText>
     </Entry>
     <Entry>
-      <ID>88012</ID>
-      <DefaultText>&lt;line-height=100%&gt;Classes that focus on crowd control can inflict heavy damage and negative effects on groups of enemies.
+      <ID>5041</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
+신비학 스킬에 따라 부여 주문 효과의 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;이 증가합니다.
 
-Crowd Control classes include: Barbarian, Chanter, Cipher, Druid, and Wizard.&lt;/line-height&gt;</DefaultText>
-      <FemaleText />
+권능 레벨 1에 &lt;link="gamedata://710a9a69-d47b-45e7-9134-432d13e2bcc0"&gt;부여: 미사일&lt;/link&gt;을 획득합니다.
+
+권능 레벨 3에 &lt;link="gamedata://87004a21-bb5d-48b6-b75a-6ca2fc5d5f2e"&gt;부여: 거미줄&lt;/link&gt;을 획득합니다.
+
+권능 레벨 5에 &lt;link="gamedata://3b4b619b-8d35-4ee2-b19c-d8155faf9f07"&gt;부여: 화염구&lt;/link&gt;를 획득합니다.
+
+권능 레벨 7에 &lt;link="gamedata://76d00207-79d6-425b-81ba-401a7c0ef494"&gt;부여: 에오라&lt;/link&gt;를 획득합니다.
+
+권능 레벨 9에 &lt;link="gamedata://e8b4e221-e29b-4758-91c7-6d8f121d7c8b"&gt;부여: 죽음&lt;/link&gt;을 획득합니다.
+
+&lt;b&gt;페널티&lt;/b&gt;
+다음 특성이 아닌 공격의 &lt;link="glossary://GlossaryEntry_Accuracy"&gt; 명중률 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_accuracy" tint=1&gt;&lt;/link&gt;에 페널티를 받습니다: 부여, 원소, 불, 서리, 산, 전기, 주문.
+
+최대 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;이 감소합니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>5044</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
+유해한 효과가 소멸할 때 상처와 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;을 획득합니다.
+
+&lt;link="gamedata://0f99851c-d970-4661-9d8b-a394e3951c3d"&gt;금지된 주먹&lt;/link&gt; 능력을 획득합니다.
+
+&lt;b&gt;페널티&lt;/b&gt;
+더 이상 대미지를 받을 때 상처를 획득하지 않습니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>5075</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;Bonus&lt;/b&gt;&lt;link="gamedata://9d3e2b8d-1fdd-496f-acc1-51d6d3836e59"&gt;피의 희생&lt;/link&gt; 능력을 획득합니다.
+
+자동으로 &lt;link="gamedata://91e98392-f468-44a4-83bd-1e9d1cc2e1aa"&gt;&lt;#80e27e&gt; 체력 &lt;/color&gt;&lt;space=0.3em&gt;&lt;voffset=0.1em&gt;&lt;size=80%&gt;&lt;#80e27e&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;space=-0.8em&gt;&lt;voffset=0.8em&gt;&lt;size=45%&gt;&lt;#4caf50&gt;&lt;sprite="Inline" name="cs_health" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/link&gt;이 재생됩니다.
+
+&lt;b&gt;Penalty&lt;/b&gt;
+권능 부여를 사용할 수 없습니다.
+
+&lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#FF9800&gt; 중대한 부상 &lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;#FF9800CC&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/color&gt;&lt;/link&gt; 상태의 공격자들에 대해 모든 방어 (&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt; 회피 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;, &lt;link="glossary://GlossaryEntry_Fortitude"&gt;&lt;#f9d968&gt; 인내 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_fortitude" tint=1&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt;, 반사신경, &lt;link="glossary://GlossaryEntry_Will"&gt;&lt;#d591f8&gt; 의지 &lt;space=0.4em&gt;&lt;sprite="Inline" name="cs_will" tint=1&gt;&lt;/color&gt;&lt;space=-0.5em&gt;&lt;/link&gt;)가 감소합니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>5251</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
+길거리 싸움꾼이 측면 피해 상태이거나 &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#FF9800&gt; 중대한 부상 &lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;#FF9800CC&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/color&gt;&lt;/link&gt; 상태일 경우 암습이 더욱 치명적이 되며 선제권이 감소합니다.
+
+길거리 싸움꾼이 측면 피해 상태인 동시에 &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#FF9800&gt; 중대한 부상 &lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;#FF9800CC&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/color&gt;&lt;/link&gt; 상태일 경우 무기의 치명타 대미지가 증가합니다.
+
+&lt;b&gt;페널티&lt;/b&gt;
+길거리 싸움꾼이 측면 피해 상태도, &lt;link="glossary://GlossaryEntry_Bloodied"&gt;&lt;#FF9800&gt; 중대한 부상 &lt;space=0.75em&gt;&lt;size=1.25em&gt;&lt;voffset=-0.35em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;#FF9800CC&gt;&lt;voffset=-0.125em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;space=-1.55em&gt;&lt;#83838397&gt;&lt;voffset=0.125em&gt;-&lt;/voffset&gt;&lt;space=-1.55em&gt;&lt;voffset=0.35em&gt;-&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;/color&gt;&lt;/link&gt; 상태도 아닐 경우 선제권에 페널티를 받습니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>5252</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt;
+4미터 밖의 대상을 공격 시 보너스로 명중을 치명타로 전환.
+
+4미터 내의 대상을 공격 시 &lt;link="glossary://GlossaryEntry_Penetration"&gt;&lt;#57baff&gt; 관통력 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/color&gt;&lt;/link&gt;에 보너스.
+
+&lt;b&gt;페널티&lt;/b&gt;
+선제권에 페널티를 받음.
+
+&lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#b0cffd&gt; 회피 &lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt;가 감소됨.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>5254</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;b&gt;보너스&lt;/b&gt; 
+부여 주문의 권능 레벨이 증가합니다. 
+
+"자유 행동" 자동형 능력 획득: 전투당 한 번, 마법사가 &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;민첩 저하 &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;에 영향을 받을 경우, 그 효과를 제거하고 일시적으로 &lt;link="glossary://GlossaryEntry_Afflictions_Dexterity"&gt;&lt;#72da26&gt;민첩 저하 &lt;sprite="Inline" name="attribute_dexterity" tint=1&gt;&lt;/color&gt;&lt;/link&gt;에 면역이 됩니다. 
+
+&lt;b&gt;페널티&lt;/b&gt; 
+환상 학파와 변화 학파의 주문을 사용할 수 없습니다. 
+
+부여 학파 외의 마법사 주문 사용 시 선제권이 증가합니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>5312</ID>
+      <DefaultText>&lt;line-height=100%&gt;행동 속도 {0}%, 보폭 {2}% 및 &lt;link="glossary://GlossaryEntry_Reflexes"&gt;&lt;#8bf7c3&gt; 반사신경 &lt;space=0.1em&gt;&lt;sprite="Inline" name="cs_reflex" tint=1&gt;&lt;space=-0.8em&gt;&lt;/color&gt;&lt;/link&gt; {1}&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>288372001</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;#fff151&gt;충격&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=-1em&gt; 대미지는 전기를 기반으로한 원소 대미지에 하나입니다. 종종 능력이나 주문 사용하면 범위에 적용되고, 벽에 튕겨지고, 대상들을 기절시킵니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>288372002</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Raw"&gt;고정&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_raw" tint=1&gt;&lt;/link&gt; 대미지는 모든 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;갑옷 등급&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 무시하고,  &lt;link="glossary://GlossaryEntry_Penetration"&gt;관통&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_penetration" tint=1&gt;&lt;/link&gt; 수치를 필요로 하지 않습니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>288372003</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Burning"&gt;&lt;#e86a1d&gt;소각&lt;/color&gt;&lt;space=0.2em&gt;&lt;size=120%&gt;&lt;#d84315&gt;&lt;voffset=-0.05em&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/size&gt;&lt;space=-4.6em&gt;&lt;#ff9800&gt;&lt;size=85%&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/size&gt;&lt;/color&gt;&lt;space=-2.9em&gt;&lt;size=45%&gt;&lt;#fff59d&gt;&lt;sprite="Inline" name="cs_burn" tint=1&gt;&lt;/color&gt;&lt;/size&gt;&lt;/link&gt;&lt;space=1em&gt; 대미지는 불을 기반으로 하는 원소 대미지의 하나입니다. 능력이나 주문은 범위 공격이나 지속 대미지를 주는 공격을 합니다. 덧붙여, 화약 같은 가연성 표면은 이에 영향을 받아 폭발이 연쇄적으로 일어나게 합니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>288372004</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Freezing"&gt;&lt;#b3e5fc&gt;동결&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_freeze" tint=1&gt;&lt;/color&gt;&lt;/link&gt; 대미지는 얼음을 기반으로 한 원소 대미지 중 하나입니다. 능력이나 주문은 대상을 느려게 하거나 마비시키기도 하고, 지속적인 대미지를 주는 얼음 송곳이나 폭풍을 생성합니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>288372005</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Corrode"&gt;&lt;#adc455&gt;부식&lt;#9ba967&gt;&lt;space=0.3em&gt;&lt;sprite="Inline" name="cs_corrosive" tint=1&gt;&lt;/color&gt;&lt;space=-0.3em&gt;&lt;/color&gt;&lt;/link&gt; 대미지는 산을 기반으로 하는 원소 대미지입니다. 때때로 능력이나 주문은 지속적인 대미지를 주거나  &lt;link="glossary://GlossaryEntry_Afflictions_Constitution"&gt;&lt;#f7b733&gt; 체질 저하 &lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;/color&gt;&lt;/link&gt;에 영향을 줍니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>288372006</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Crushing"&gt;부수기&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_blunt" tint=1&gt;&lt;/link&gt; 대미지를 물리 대미지에 하나입니다. 능력이나 주문은 대상을 방해하거나 넉아웃 시키고,  &lt;link="gamedata://fc2d1039-c512-484a-81e8-a843ba03df4e"&gt;&lt;#ff4800&gt;기절&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;sub&gt;&lt;space=0.5em&gt;&lt;size=150%&gt;3&lt;/size&gt;&lt;/sub&gt;&lt;/color&gt;&lt;/link&gt; 시킵니다. 그리고 &lt;link="glossary://GlossaryEntry_Shock"&gt;&lt;#fff151&gt;충격&lt;voffset=-0.1em&gt;&lt;sprite="Inline" name="cs_shock" tint=1&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt;&lt;space=-1em&gt; 대미지를 입힙니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>288372007</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Piercing"&gt;찌르기&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_pierce" tint=1&gt;&lt;/link&gt; 대미지를 물리 대미지의 하나입니다. 능력이나 주문은 목표물의 &lt;link="glossary://GlossaryEntry_Armor_Rating"&gt;&lt;#57baff&gt;갑옷 등급&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_ar" tint=1&gt;&lt;/color&gt;&lt;/link&gt;을 뚫습니다.&lt;/line-height&gt;</DefaultText>
+    </Entry>
+    <Entry>
+      <ID>288372008</ID>
+      <DefaultText>&lt;line-height=100%&gt;&lt;link="glossary://GlossaryEntry_Slashing"&gt;베기&lt;space=0.7e&gt;&lt;sprite="Inline" name="cs_slash" tint=1&gt;&lt;/link&gt; 대미지는 물리 대미지의 하나 입니다. 능력이나 주문은 지속적인 대미지를 줍니다.&lt;/line-height&gt;</DefaultText>
     </Entry>
   </Entries>
 </StringTableFile>
